@@ -9,6 +9,7 @@ function App() {
             <HashRouter>
                 <Routes>
                     <Route exact path="/" Component={Homepage}/>
+                    <Route exact path="/b2de" Component={Homepage}/>
                 </Routes>
             </HashRouter>
         </div>
