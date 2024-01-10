@@ -1,0 +1,28 @@
+.flex {
+    display: flex;
+    &-align-center{
+        @extend .flex;
+        align-items: center;
+    };
+    &-align-end{
+        @extend .flex;
+        align-items:end
+    };
+    &-align-start{
+        @extend .flex;
+        align-items: start;
+    };
+    &-justify-center{
+        @extend .flex;
+        justify-content: center;
+    }
+    &-justify-right{
+        @extend .flex;
+        justify-content: right;
+    }
+    &-justify-left{
+        @extend .flex;
+        justify-content: left;
+    }
+    
+}
