@@ -9,11 +9,11 @@ class NavItem {
         this.name = name;
     }
 
-    displayWide() {
+    displayShort() {
         return (
             <Grid item xs={12} md={6}>
                 <Link to={this.link}>
-                    <div className="nav-container-wide">
+                    <div className="nav-container-short">
                         <div>{this.name}</div>
                     </div>
                 </Link>

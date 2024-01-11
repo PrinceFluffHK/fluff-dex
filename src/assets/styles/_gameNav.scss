@@ -1,12 +1,14 @@
 .nav-container {
+    outline: black solid 3px;
+    margin: 0rem 0rem 1rem 0rem;
     &-tall {
-        outline: black solid 3px;
+        @extend .nav-container;
         height: 5rem;
-        width: 10rem;
-    }
-    &-wide {
-        outline: black solid 3px;
         width: 100%;
-        height: 5rem;
+    }
+    &-short {
+        @extend .nav-container;
+        width: 100%;
+        height: 3rem;
     }
 }

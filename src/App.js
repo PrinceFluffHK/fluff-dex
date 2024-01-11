@@ -13,6 +13,7 @@ function App() {
                 <TopBar/>
                 <Routes>
                     <Route exact path="/b2deDex" Component={B2DEPokedex} />
+                    <Route exact path="/b2deEncounters" Component={B2DEPokedex} />
                     <Route exact path="/b2de" Component={NavPage} />
                     <Route exact path="/" Component={Homepage} />
                 </Routes>

@@ -5,7 +5,6 @@ const TopBar = (props) => {
     return (
         <div className='top-bar'>
             <Link to="/">Home</Link>
-            
         </div>
     )
 }
