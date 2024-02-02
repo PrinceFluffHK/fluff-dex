@@ -1,4 +1,18 @@
 .mon-container-expanded{
     height: 10rem;
-    
+}
+
+.dex-top-bar{
+    height: 5rem;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.increment-container{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    // flex-direction: column;
 }

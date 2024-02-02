@@ -7,6 +7,7 @@ import NavPage from "./components/B2DE/NavPage";
 import TopBar from "./components/TopBar";
 
 function App() {
+    
     return (
         <div className="App">
             <HashRouter>
