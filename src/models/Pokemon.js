@@ -1,3 +1,4 @@
+import React from "react";
 import { gen3Abilities } from "../data/vanilla/abilities";
 import { vanillaTypes } from "../data/vanilla/types";
 
@@ -22,7 +23,9 @@ class Pokemon {
         levelLearn = [],
         tmLearn = [],
         tutorLearn = [],
-        modifier = ""
+        modifier = "",
+        sprite,
+        profile
     ) {
         this.natNum = natNum;
         this.regionNum = 0;
@@ -42,6 +45,8 @@ class Pokemon {
         this.tmLearn = tmLearn;
         this.tutorLearn = tutorLearn;
         this.modifier = modifier;
+        this.sprite = sprite ? sprite : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${natNum}.png`;
+        this.profile = profile ? profile : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${natNum}.png`
     }
 
     addRegional(regionNum, levelLearn, tmLearn, tutorLearn) {
@@ -89,7 +94,15 @@ class Pokemon {
             newMon.tmLearn,
             newMon.tutorLearn,
             newMon.modifier,
+            newMon.sprite,
+            newMon.profile
         ];
+    }
+
+    dexListItem () {
+        // return (
+            
+        // )
     }
 }
 

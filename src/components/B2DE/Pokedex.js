@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { b2deDex, b2deDexArray } from "../../data/B2DE/dex";
 import GetImage from "../../models/GetImage";
 import PokemonDisplay from "./PokemonDisplay";
+import { Grid } from "@mui/material";
 
 const B2DEPokedex = (props) => {
     const [selectedIndex, setSelectedIndex] = useState(-1);
@@ -28,15 +29,36 @@ const B2DEPokedex = (props) => {
             nonCanon++;
         }
         let dexNum = index - nonCanon;
-        const type1Banner = mon.type1.displayBanner("")
-        const type2Banner = mon.type2.displayBanner("") 
-        // const type1Banner = ""
-        // const type2Banner = ""
+        const type1Banner = mon.type1.displayBanner("");
+        const type2Banner = mon.type2.displayBanner("");
+
+        let bgColor = "white"
+        if (index % 2) {
+            bgColor = "#00ebc7"
+        }
 
         if (selectedIndex != index) {
             return (
-                <div key={index} onClick={handleSelect}>
-                    #{dexNum}: {mon.name}
+                <div className="dex-padding" key={index} onClick={handleSelect} style={{backgroundColor: bgColor}}>
+                    <Grid container spacing={0}>
+                        <Grid item xs={3} className="flex align-center">
+                            <h3>#{dexNum}:</h3>
+                        </Grid>
+                        <Grid item xs={6} className="flex align-center">
+                            <h3>{mon.name}</h3>
+                        </Grid>
+                        <Grid
+                            item
+                            xs={3}
+                            className="flex align-center justify-right"
+                        >
+                            <img
+                                className="dex-sprite"
+                                src={mon.sprite}
+                                alt={mon.name}
+                            />
+                        </Grid>
+                    </Grid>
                 </div>
             );
         } else {
@@ -54,7 +76,7 @@ const B2DEPokedex = (props) => {
     });
 
     if (selectedMon === 0) {
-        return <div>{Pokedex}</div>;
+        return <div className="">{Pokedex}</div>;
     } else {
         return (
             <PokemonDisplay

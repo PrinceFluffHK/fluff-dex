@@ -8,30 +8,6 @@ class NavItem {
         this.link = link;
         this.name = name;
     }
-
-    displayShort() {
-        return (
-            <Grid item xs={12} md={6}>
-                <Link to={this.link}>
-                    <div className="nav-container-short">
-                        <div>{this.name}</div>
-                    </div>
-                </Link>
-            </Grid>
-        );
-    }
-
-    displayTall() {
-        return (
-            <Grid item xs={12} md={6}>
-                <Link to={this.link}>
-                    <div className="nav-container-tall">
-                        <div>{this.name}</div>
-                    </div>
-                </Link>
-            </Grid>
-        );
-    }
 }
 
 export default NavItem;
