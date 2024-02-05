@@ -1,6 +1,7 @@
 import b2deMoves from "./moves";
 import * as tutors from "./tutors";
 import TutorMove from "../../models/TutorMove";
+import items from "../vanilla/items";
 
 const tutorMoves = {
     covet: new TutorMove(b2deMoves.covet, tutors.redShard, items.redShard),

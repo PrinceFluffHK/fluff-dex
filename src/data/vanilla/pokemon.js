@@ -9037,9 +9037,9 @@ export const gen5Dex = {
         40,
         ""
     ),
-    conkelldurr: new Pokemon(
+    conkeldurr: new Pokemon(
         534,
-        "Conkelldurr",
+        "Conkeldurr",
         fighting,
         noType,
         guts,
@@ -9981,9 +9981,9 @@ export const gen5Dex = {
         15,
         ""
     ),
-    amoongus: new Pokemon(
+    amoonguss: new Pokemon(
         591,
-        "Amoongus",
+        "Amoonguss",
         grass,
         poison,
         effectSpore,
@@ -14869,7 +14869,7 @@ export const gen7Dex = {
     ),
 };
 
-export const gen8dex = {
+export const gen8Dex = {
     gMeowth: new Pokemon(
         52.2,
         "G!Meowth",
@@ -19162,3 +19162,15 @@ export const gen9Dex = {
         ""
     ),
 };
+
+export const natDex = {
+    ...gen1Dex,
+    ...gen2Dex,
+    ...gen3Dex,
+    ...gen4Dex,
+    ...gen5Dex,
+    ...gen6Dex,
+    ...gen7Dex,
+    ...gen8Dex,
+    ...gen9Dex,
+}

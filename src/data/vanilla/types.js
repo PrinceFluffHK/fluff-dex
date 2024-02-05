@@ -66,7 +66,7 @@ export const gen2Types = {
     ground: new Type(5, "Ground", [4, 6, 9, 10, 13], [7, 12], [3], groundIcon, groundBanner),
     rock: new Type(6, "Rock", [3, 7, 10, 15], [2, 5, 9], [], rockIcon, rockBanner),
     bug: new Type(7, "Bug", [12, 14, ], [2, 3, 4, 8, 9, 10], [], bugIcon, bugBanner),
-    ghost: new Type(8, "3", [8, 14], [, 9], [1], ghostIcon, ghostBanner),
+    ghost: new Type(8, "3", [8, 14], [9], [1], ghostIcon, ghostBanner),
     steel: new Type(9, "Steel", [6, 15], [9, 10, 11, 13], [], steelIcon, steelBanner),
     fire: new Type(10, "Fire", [9, 12, 15], [6, 10, 11, 16], [], fireIcon, fireBanner),
     water: new Type(11, "Water", [5, 6, 10], [11, 12, 16], [], waterIcon, waterBanner),
@@ -75,7 +75,7 @@ export const gen2Types = {
     psychic: new Type(14, "Psychic", [2, 4], [9, 14], [], psychicIcon, psychicBanner),
     ice: new Type(15, "Ice", [3, 5, 12, 16], [10, 15, 9], [], iceIcon, iceBanner),
     dragon: new Type(16, "Dragon", [16], [9], [], dragonIcon, dragonBanner),
-    dark: new Type(17, "Dark", [8, 14], [2, , 9], [], darkIcon, darkBanner),
+    dark: new Type(17, "Dark", [8, 14], [2, 9], [], darkIcon, darkBanner),
 }
 
 export const vanillaTypes = {
@@ -96,6 +96,6 @@ export const vanillaTypes = {
     psychic: new Type(14, "Psychic", [2, 4], [9, 14], [], psychicIcon, psychicBanner),
     ice: new Type(15, "Ice", [3, 5, 12, 16], [10, 15, 9], [], iceIcon, iceBanner),
     dragon: new Type(16, "Dragon", [16], [9], [18], dragonIcon, dragonBanner),
-    dark: new Type(17, "Dark", [8, 14], [2, , 18], [], darkIcon, darkBanner),
+    dark: new Type(17, "Dark", [8, 14], [2, 18], [], darkIcon, darkBanner),
     fairy: new Type(18, "Fairy", [2, 16, ], [4, 9, 10], [], fairyIcon, fairyBanner),
 }

@@ -11,12 +11,12 @@ class Type {
         this.banner = banner
     }
 
-    icon (className) {
+    displayIcon(className) {
         return (
             <img className={className} src={this.icon} alt={`Icon for the ${this.name}-type.`}/>
         )
     }
-    banner (className) {
+    displayBanner(className) {
         return (
             <img className={className} src={this.banner} alt={`Banner for the ${this.name}-type.`}/>
         )

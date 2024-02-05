@@ -1,6 +1,8 @@
 class Item {
-    constructor (name, price, description) {
+    constructor (id, name, itemType, price, description) {
+        this.id = id
         this.name = name
+        this.itemType = itemType
         this.price = price
         this.description = description
     }

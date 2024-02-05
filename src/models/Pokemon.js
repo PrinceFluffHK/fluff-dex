@@ -8,11 +8,11 @@ class Pokemon {
     constructor(
         natNum,
         name,
-        type1 = noType,
-        type2 = noType,
-        ability1 = noAbility,
-        ability2 = noAbility,
-        abilityH = noAbility,
+        type1,
+        type2,
+        ability1,
+        ability2,
+        abilityH,
         hp = 0,
         atk = 0,
         def = 0,
@@ -72,7 +72,7 @@ class Pokemon {
         const newMon = { ...mon, ...changes };
         return [
             newMon.natNum,
-            newMon.regionNum,
+            // newMon.regionNum,
             newMon.name,
             newMon.type1,
             newMon.type2,
