@@ -13,6 +13,7 @@
     height: 100%;
     width: 33%;
     display: flex;
+    justify-content: center;
     align-items: center;
     // flex-direction: column;
 }
@@ -24,4 +25,24 @@
 
 .dex-padding {
     padding: 0rem 2rem 0rem 2rem;
+}
+
+.display-portrait {
+    width: 80%;
+    height: auto;
+}
+
+.display-scroll {
+    overflow: scroll;
+}
+
+.ability-container{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.display-type {
+    width: 9rem;
+    height: auto;
 }

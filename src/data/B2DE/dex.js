@@ -532,6 +532,7 @@ export const b2deNatDex = {
 export const b2deDex = b2deNatDex;
 
 export const b2deDexArray = [
+    b2deNatDex.victini,
     b2deNatDex.snivy,
     b2deNatDex.servine,
     b2deNatDex.serperior,
@@ -621,7 +622,7 @@ export const b2deDexArray = [
     b2deNatDex.petilil,
     b2deNatDex.lilligant,
     b2deNatDex.basculin,
-    b2deNatDex.basculinB,
+    // b2deNatDex.basculinB,
     b2deNatDex.sandile,
     b2deNatDex.krokorok,
     b2deNatDex.krookodile,

@@ -2,10 +2,33 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
-const DexTopBar = (props) => {
-    const IncrementUp = () => {
+const DexTopBar = ({
+    selectedIndex,
+    setSelectedIndex,
+    setSelectedMon,
+    pokedex,
+}) => {
+    const nextMon = pokedex[selectedIndex + 1];
+    const lastMon = pokedex[selectedIndex - 1];
+
+    const incrementUp = () => {
+        setSelectedIndex(selectedIndex + 1);
+        setSelectedMon(pokedex[selectedIndex + 1]);
+    };
+
+    const incrementDown = () => {
+        setSelectedIndex(selectedIndex - 1);
+        setSelectedMon(pokedex[selectedIndex - 1]);
+    };
+
+    const returnToDex = () => {
+        setSelectedIndex(-1);
+    };
+
+    const IncrementUpButton = () => {
         return (
-            <div className="increment-container">
+            <div className="increment-container" onClick={incrementUp}>
+                <img src={nextMon.sprite} alt="next pokemon" />
                 <FontAwesomeIcon
                     icon={faArrowRight}
                     style={{ color: "white" }}
@@ -14,24 +37,28 @@ const DexTopBar = (props) => {
             </div>
         );
     };
-    const IncrementDown = () => {
+    const IncrementDownButton = () => {
         return (
-            <div className="increment-container">
+            <div className="increment-container" onClick={incrementDown}>
                 <FontAwesomeIcon
                     icon={faArrowLeft}
                     style={{ color: "white" }}
                     size="2xl"
                 />
+                <img src={lastMon.sprite} alt="previous pokemon" />
             </div>
         );
     };
 
+    const BackToDex = (props) => {
+        return <div onClick={returnToDex}>Back to Dex</div>;
+    };
+
     return (
         <div className="dex-top-bar">
-            <IncrementDown/>
-            <div id="return to pokedex"></div>
-            {/* <div id="increment up"></div> */}
-            <IncrementUp/>
+            <IncrementDownButton />
+            <BackToDex />
+            <IncrementUpButton />
         </div>
     );
 };
