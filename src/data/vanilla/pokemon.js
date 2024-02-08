@@ -11888,9 +11888,9 @@ export const gen6Dex = {
         60,
         ""
     ),
-    braxien: new Pokemon(
+    braixen: new Pokemon(
         654,
-        "Braxien",
+        "Braixen",
         fire,
         noType,
         blaze,
@@ -17657,9 +17657,9 @@ export const gen9Dex = {
         35,
         ""
     ),
-    armorouge: new Pokemon(
+    armarouge: new Pokemon(
         936,
-        "Armorouge",
+        "Armarouge",
         fire,
         psychic,
         flashFire,

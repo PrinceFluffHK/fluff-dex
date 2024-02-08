@@ -1,10 +1,3 @@
-import React from "react";
-import { gen3Abilities } from "../data/vanilla/abilities";
-import { vanillaTypes } from "../data/vanilla/types";
-
-const { noAbility } = gen3Abilities;
-const { noType } = vanillaTypes;
-
 class Pokemon {
     constructor(
         natNum,
@@ -25,10 +18,11 @@ class Pokemon {
         tutorLearn = [],
         modifier = "",
         sprite,
-        profile
+        profile,
+        evolutions = [],
+        evoLine = []
     ) {
         this.natNum = natNum;
-        this.regionNum = 0;
         this.name = name;
         this.type1 = type1;
         this.type2 = type2;
@@ -45,39 +39,20 @@ class Pokemon {
         this.tmLearn = tmLearn;
         this.tutorLearn = tutorLearn;
         this.modifier = modifier;
-        this.sprite = sprite ? sprite : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${natNum}.png`;
-        this.profile = profile ? profile : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${natNum}.png`
-    }
-
-    addRegional(regionNum, levelLearn, tmLearn, tutorLearn) {
-        const newMon = new Pokemon(
-            this.natNum,
-            regionNum,
-            this.name,
-            this.type1,
-            this.type2,
-            this.ability1,
-            this.ability2,
-            this.abilityH,
-            this.hp,
-            this.atk,
-            this.def,
-            this.spa,
-            this.spd,
-            this.spe,
-            levelLearn,
-            tmLearn,
-            tutorLearn,
-            this.modifier
-        );
-        return newMon;
+        this.sprite = sprite
+            ? sprite
+            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${natNum}.png`;
+        this.profile = profile
+            ? profile
+            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${natNum}.png`;
+        this.evolutions = evolutions;
+        this.evoLine = evoLine
     }
 
     static makeEdits(mon, changes) {
         const newMon = { ...mon, ...changes };
         return [
             newMon.natNum,
-            // newMon.regionNum,
             newMon.name,
             newMon.type1,
             newMon.type2,
@@ -95,13 +70,15 @@ class Pokemon {
             newMon.tutorLearn,
             newMon.modifier,
             newMon.sprite,
-            newMon.profile
+            newMon.profile,
+            newMon.evolutions,
         ];
     }
 
-    dexListItem () {
+    
+
+    dexListItem() {
         // return (
-            
         // )
     }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import DexTopBar from "../DexTopBar";
-import { Grid } from "@mui/material";
+import { Grid, Tooltip } from "@mui/material";
 
 const PokemonDisplay = ({
     selectedIndex,
@@ -11,7 +11,9 @@ const PokemonDisplay = ({
 }) => {
     const type1Banner = selectedMon.type1.displayBanner("display-type");
     const type2Banner =
-        selectedMon.type2.id === 0 ? "" : selectedMon.type2.displayBanner("display-type");
+        selectedMon.type2.id === 0
+            ? ""
+            : selectedMon.type2.displayBanner("display-type");
 
     return (
         <div>
@@ -43,17 +45,31 @@ const PokemonDisplay = ({
                         xs={12}
                         style={{ flexDirection: "column" }}
                     >
-                        <div className="justify-around" style={{width: "90%"}}>
+                        <div
+                            className="justify-around"
+                            style={{ width: "90%" }}
+                        >
                             {type1Banner}
                             {type2Banner}
                         </div>
                         <div className="ability-container">
-                            <h3>{selectedMon.ability1.name}</h3>
-                            <h3>
-                                {selectedMon.ability2.id === 0
-                                    ? ""
-                                    : selectedMon.ability2.name}
-                            </h3>
+                            <div className="">
+                                <h3>Ability 1: {selectedMon.ability1.name}</h3>
+                                <p>{selectedMon.ability1.description}</p>
+                            </div>
+                            <div>
+                                <h3>
+                                    Ability 2: {selectedMon.ability2.id === 0
+                                        ? ""
+                                        : selectedMon.ability2.name}
+                                </h3>
+                                <p>
+                                    {selectedMon.ability2.id === 0
+                                        ? ""
+                                        : selectedMon.ability2.description}
+                                </p>
+
+                            </div>
                             <h3>
                                 {selectedMon.abilityH.id === 0
                                     ? ""

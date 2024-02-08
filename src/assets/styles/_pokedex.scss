@@ -39,6 +39,7 @@
 .ability-container{
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     width: 90%;
 }
 
