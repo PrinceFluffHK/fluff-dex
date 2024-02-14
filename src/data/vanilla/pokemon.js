@@ -1,6 +1,8 @@
 import Pokemon from "../../models/Pokemon.js";
 import { vanillaTypes } from "./types.js";
 import { vanillaAbilities } from "../vanilla/abilities.js";
+import evoLines from "./evoLines.js";
+
 const {
     noType,
     normal,
@@ -233,7 +235,6 @@ const {
     surgeSurfer,
     schooling,
     disguise,
-    battleBond,
     powerConstruct,
     corrosion,
     comatose,
@@ -324,35 +325,35 @@ const {
     myceliumMight,
     hospitality,
     mindsEye,
-    embodyAspectSpe,
-    embodyAspectAtk,
-    embodyAspectSpD,
-    embodyAspectDef,
     toxicChain,
     supersweetSyrup,
     teraShift,
     teraShell,
-    teraformZero,
     poisonPuppeteer,
 } = vanillaAbilities;
 
-const noMon = new Pokemon(
-    0,
-    "No Mon",
-    noType,
-    noType,
-    noAbility,
-    noAbility,
-    noAbility,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-);
-
 export const gen1Dex = {
+    noMon: new Pokemon(
+        0,
+        "No Mon",
+        noType,
+        noType,
+        noAbility,
+        noAbility,
+        noAbility,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
+    ),
     bulbasaur: new Pokemon(
         1,
         "Bulbasaur",
@@ -367,7 +368,12 @@ export const gen1Dex = {
         65,
         65,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.bulbasaur
     ),
     ivysaur: new Pokemon(
         2,
@@ -383,7 +389,12 @@ export const gen1Dex = {
         80,
         80,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.bulbasaur
     ),
     venusaur: new Pokemon(
         3,
@@ -399,7 +410,12 @@ export const gen1Dex = {
         100,
         100,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.bulbasaur
     ),
     charmander: new Pokemon(
         4,
@@ -415,7 +431,12 @@ export const gen1Dex = {
         60,
         50,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.charmander
     ),
     charmeleon: new Pokemon(
         5,
@@ -431,7 +452,12 @@ export const gen1Dex = {
         80,
         65,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.charmander
     ),
     charizard: new Pokemon(
         6,
@@ -447,7 +473,12 @@ export const gen1Dex = {
         109,
         85,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.charmander
     ),
     squirtle: new Pokemon(
         7,
@@ -463,7 +494,12 @@ export const gen1Dex = {
         50,
         64,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.squirtle
     ),
     wartortle: new Pokemon(
         8,
@@ -479,7 +515,12 @@ export const gen1Dex = {
         65,
         80,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.squirtle
     ),
     blastoise: new Pokemon(
         9,
@@ -495,7 +536,12 @@ export const gen1Dex = {
         85,
         105,
         78,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.squirtle
     ),
     caterpie: new Pokemon(
         10,
@@ -511,7 +557,12 @@ export const gen1Dex = {
         20,
         20,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.caterpie
     ),
     metapod: new Pokemon(
         11,
@@ -527,7 +578,12 @@ export const gen1Dex = {
         25,
         25,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.caterpie
     ),
     butterfree: new Pokemon(
         12,
@@ -543,7 +599,12 @@ export const gen1Dex = {
         90,
         80,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.caterpie
     ),
     weedle: new Pokemon(
         13,
@@ -559,7 +620,12 @@ export const gen1Dex = {
         20,
         20,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.weedle
     ),
     kakuna: new Pokemon(
         14,
@@ -575,7 +641,12 @@ export const gen1Dex = {
         25,
         25,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.weedle
     ),
     beedrill: new Pokemon(
         15,
@@ -591,7 +662,12 @@ export const gen1Dex = {
         45,
         80,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.weedle
     ),
     pidgey: new Pokemon(
         16,
@@ -607,7 +683,12 @@ export const gen1Dex = {
         35,
         35,
         56,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pidgey
     ),
     pidgeotto: new Pokemon(
         17,
@@ -623,7 +704,12 @@ export const gen1Dex = {
         50,
         50,
         71,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pidgey
     ),
     pidgeot: new Pokemon(
         18,
@@ -639,7 +725,12 @@ export const gen1Dex = {
         70,
         70,
         101,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pidgey
     ),
     rattata: new Pokemon(
         19,
@@ -655,7 +746,12 @@ export const gen1Dex = {
         25,
         35,
         72,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.rattata
     ),
     raticate: new Pokemon(
         20,
@@ -671,7 +767,12 @@ export const gen1Dex = {
         50,
         70,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.rattata
     ),
     spearow: new Pokemon(
         21,
@@ -687,7 +788,12 @@ export const gen1Dex = {
         31,
         31,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.spearow
     ),
     fearow: new Pokemon(
         22,
@@ -703,7 +809,12 @@ export const gen1Dex = {
         61,
         61,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.spearow
     ),
     ekans: new Pokemon(
         23,
@@ -719,7 +830,12 @@ export const gen1Dex = {
         40,
         54,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.ekans
     ),
     arbok: new Pokemon(
         24,
@@ -735,7 +851,12 @@ export const gen1Dex = {
         65,
         79,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.ekans
     ),
     pikachu: new Pokemon(
         25,
@@ -751,7 +872,12 @@ export const gen1Dex = {
         50,
         50,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     raichu: new Pokemon(
         26,
@@ -767,7 +893,12 @@ export const gen1Dex = {
         90,
         80,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sandshrew: new Pokemon(
         27,
@@ -783,7 +914,12 @@ export const gen1Dex = {
         20,
         30,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.sandshrew
     ),
     sandslash: new Pokemon(
         28,
@@ -799,7 +935,12 @@ export const gen1Dex = {
         45,
         55,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.sandshrew
     ),
     nidoranf: new Pokemon(
         29,
@@ -815,7 +956,12 @@ export const gen1Dex = {
         40,
         40,
         41,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.nidoranf
     ),
     nidorina: new Pokemon(
         30,
@@ -831,7 +977,12 @@ export const gen1Dex = {
         55,
         55,
         56,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.nidoranf
     ),
     nidoqueen: new Pokemon(
         31,
@@ -847,7 +998,12 @@ export const gen1Dex = {
         75,
         85,
         76,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.nidoranf
     ),
     nidoranm: new Pokemon(
         32,
@@ -863,7 +1019,12 @@ export const gen1Dex = {
         40,
         40,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.nidoranm
     ),
     nidorino: new Pokemon(
         33,
@@ -879,7 +1040,12 @@ export const gen1Dex = {
         55,
         55,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.nidoranm
     ),
     nidoking: new Pokemon(
         34,
@@ -895,7 +1061,12 @@ export const gen1Dex = {
         85,
         75,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.nidoranm
     ),
     clefairy: new Pokemon(
         35,
@@ -911,7 +1082,12 @@ export const gen1Dex = {
         60,
         65,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.clefairy
     ),
     clefable: new Pokemon(
         36,
@@ -927,7 +1103,12 @@ export const gen1Dex = {
         85,
         90,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.clefairy
     ),
     vulpix: new Pokemon(
         37,
@@ -943,7 +1124,12 @@ export const gen1Dex = {
         50,
         65,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.vulpix
     ),
     ninetails: new Pokemon(
         38,
@@ -959,7 +1145,12 @@ export const gen1Dex = {
         81,
         100,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.vulpix
     ),
     jigglypuff: new Pokemon(
         39,
@@ -975,7 +1166,12 @@ export const gen1Dex = {
         45,
         25,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.jigglypuff
     ),
     wigglytuff: new Pokemon(
         40,
@@ -991,7 +1187,12 @@ export const gen1Dex = {
         85,
         50,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.jigglypuff
     ),
     zubat: new Pokemon(
         41,
@@ -1007,7 +1208,12 @@ export const gen1Dex = {
         30,
         40,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.zubat
     ),
     golbat: new Pokemon(
         42,
@@ -1023,7 +1229,12 @@ export const gen1Dex = {
         65,
         75,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.zubat
     ),
     oddish: new Pokemon(
         43,
@@ -1039,7 +1250,12 @@ export const gen1Dex = {
         75,
         65,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.oddish
     ),
     gloom: new Pokemon(
         44,
@@ -1055,7 +1271,12 @@ export const gen1Dex = {
         85,
         75,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.oddish
     ),
     vileplume: new Pokemon(
         45,
@@ -1071,7 +1292,12 @@ export const gen1Dex = {
         110,
         90,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.oddish
     ),
     paras: new Pokemon(
         46,
@@ -1087,7 +1313,12 @@ export const gen1Dex = {
         55,
         25,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.paras
     ),
     parasect: new Pokemon(
         47,
@@ -1103,7 +1334,12 @@ export const gen1Dex = {
         80,
         30,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.paras
     ),
     venonat: new Pokemon(
         48,
@@ -1119,7 +1355,12 @@ export const gen1Dex = {
         40,
         55,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.venonat
     ),
     venomoth: new Pokemon(
         49,
@@ -1135,7 +1376,12 @@ export const gen1Dex = {
         90,
         75,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.venonat
     ),
     diglett: new Pokemon(
         50,
@@ -1151,7 +1397,12 @@ export const gen1Dex = {
         35,
         45,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.diglett
     ),
     dugtrio: new Pokemon(
         51,
@@ -1167,7 +1418,12 @@ export const gen1Dex = {
         50,
         70,
         120,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.diglett
     ),
     meowth: new Pokemon(
         52,
@@ -1183,7 +1439,12 @@ export const gen1Dex = {
         40,
         40,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.meowth
     ),
     persian: new Pokemon(
         53,
@@ -1199,7 +1460,12 @@ export const gen1Dex = {
         65,
         65,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.meowth
     ),
     psyduck: new Pokemon(
         54,
@@ -1215,7 +1481,12 @@ export const gen1Dex = {
         65,
         50,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.psyduck
     ),
     golduck: new Pokemon(
         55,
@@ -1231,7 +1502,12 @@ export const gen1Dex = {
         95,
         80,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.psyduck
     ),
     mankey: new Pokemon(
         56,
@@ -1247,7 +1523,12 @@ export const gen1Dex = {
         35,
         45,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.mankey
     ),
     primeape: new Pokemon(
         57,
@@ -1263,7 +1544,12 @@ export const gen1Dex = {
         60,
         70,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.mankey
     ),
     growlithe: new Pokemon(
         58,
@@ -1279,7 +1565,12 @@ export const gen1Dex = {
         70,
         50,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.growlithe
     ),
     arcanine: new Pokemon(
         59,
@@ -1295,7 +1586,12 @@ export const gen1Dex = {
         100,
         80,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.growlithe
     ),
     poliwag: new Pokemon(
         60,
@@ -1311,7 +1607,12 @@ export const gen1Dex = {
         40,
         40,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.poliwag
     ),
     poliwhirl: new Pokemon(
         61,
@@ -1327,7 +1628,12 @@ export const gen1Dex = {
         50,
         50,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.poliwag
     ),
     poliwrath: new Pokemon(
         62,
@@ -1343,7 +1649,12 @@ export const gen1Dex = {
         70,
         90,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.poliwag
     ),
     abra: new Pokemon(
         63,
@@ -1359,7 +1670,12 @@ export const gen1Dex = {
         105,
         55,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.abra
     ),
     kadabra: new Pokemon(
         64,
@@ -1375,7 +1691,12 @@ export const gen1Dex = {
         120,
         70,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.abra
     ),
     alakazam: new Pokemon(
         65,
@@ -1391,7 +1712,12 @@ export const gen1Dex = {
         135,
         95,
         120,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.abra
     ),
     machop: new Pokemon(
         66,
@@ -1407,7 +1733,12 @@ export const gen1Dex = {
         35,
         35,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.machop
     ),
     machoke: new Pokemon(
         67,
@@ -1423,7 +1754,12 @@ export const gen1Dex = {
         50,
         60,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.machop
     ),
     machamp: new Pokemon(
         68,
@@ -1439,7 +1775,12 @@ export const gen1Dex = {
         65,
         85,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.machop
     ),
     bellsprout: new Pokemon(
         69,
@@ -1455,7 +1796,12 @@ export const gen1Dex = {
         70,
         30,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.bellsprout
     ),
     weepinbell: new Pokemon(
         70,
@@ -1471,7 +1817,12 @@ export const gen1Dex = {
         85,
         45,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.bellsprout
     ),
     victreebel: new Pokemon(
         71,
@@ -1487,7 +1838,12 @@ export const gen1Dex = {
         100,
         70,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.bellsprout
     ),
     tentacool: new Pokemon(
         72,
@@ -1503,7 +1859,12 @@ export const gen1Dex = {
         50,
         100,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.tentacool
     ),
     tentacruel: new Pokemon(
         73,
@@ -1519,7 +1880,12 @@ export const gen1Dex = {
         80,
         120,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.tentacool
     ),
     geodude: new Pokemon(
         74,
@@ -1535,7 +1901,12 @@ export const gen1Dex = {
         30,
         30,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.geodude
     ),
     graveler: new Pokemon(
         75,
@@ -1551,7 +1922,12 @@ export const gen1Dex = {
         45,
         45,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.geodude
     ),
     golem: new Pokemon(
         76,
@@ -1567,7 +1943,12 @@ export const gen1Dex = {
         55,
         65,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.geodude
     ),
     ponyta: new Pokemon(
         77,
@@ -1583,7 +1964,12 @@ export const gen1Dex = {
         65,
         65,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.ponyta
     ),
     rapidash: new Pokemon(
         78,
@@ -1599,7 +1985,12 @@ export const gen1Dex = {
         80,
         80,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.ponyta
     ),
     slowpoke: new Pokemon(
         79,
@@ -1615,7 +2006,12 @@ export const gen1Dex = {
         40,
         15,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.slowpoke
     ),
     slowbro: new Pokemon(
         80,
@@ -1631,7 +2027,12 @@ export const gen1Dex = {
         100,
         80,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.slowpoke
     ),
     magnemite: new Pokemon(
         81,
@@ -1647,7 +2048,12 @@ export const gen1Dex = {
         95,
         55,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.magnemite
     ),
     magneton: new Pokemon(
         82,
@@ -1663,7 +2069,12 @@ export const gen1Dex = {
         120,
         70,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.magnemite
     ),
     farfetchd: new Pokemon(
         83,
@@ -1679,7 +2090,12 @@ export const gen1Dex = {
         58,
         62,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     doduo: new Pokemon(
         84,
@@ -1695,7 +2111,12 @@ export const gen1Dex = {
         35,
         35,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.doduo
     ),
     dodrio: new Pokemon(
         85,
@@ -1711,7 +2132,12 @@ export const gen1Dex = {
         60,
         60,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.doduo
     ),
     seel: new Pokemon(
         86,
@@ -1727,7 +2153,12 @@ export const gen1Dex = {
         45,
         70,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.seel
     ),
     dewgong: new Pokemon(
         87,
@@ -1743,7 +2174,12 @@ export const gen1Dex = {
         70,
         95,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.seel
     ),
     grimer: new Pokemon(
         88,
@@ -1759,7 +2195,12 @@ export const gen1Dex = {
         40,
         50,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.grimer
     ),
     muk: new Pokemon(
         89,
@@ -1775,7 +2216,12 @@ export const gen1Dex = {
         65,
         100,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.grimer
     ),
     shellder: new Pokemon(
         90,
@@ -1791,7 +2237,12 @@ export const gen1Dex = {
         25,
         40,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.shellder
     ),
     cloyster: new Pokemon(
         91,
@@ -1807,7 +2258,12 @@ export const gen1Dex = {
         45,
         70,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.shellder
     ),
     gastly: new Pokemon(
         92,
@@ -1823,7 +2279,12 @@ export const gen1Dex = {
         100,
         35,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.gastly
     ),
     haunter: new Pokemon(
         93,
@@ -1839,7 +2300,12 @@ export const gen1Dex = {
         115,
         55,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.gastly
     ),
     gengar: new Pokemon(
         94,
@@ -1855,7 +2321,12 @@ export const gen1Dex = {
         130,
         75,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.gastly
     ),
     onix: new Pokemon(
         95,
@@ -1871,7 +2342,12 @@ export const gen1Dex = {
         30,
         45,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.onix
     ),
     drowzee: new Pokemon(
         96,
@@ -1887,7 +2363,12 @@ export const gen1Dex = {
         43,
         90,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.drowzee
     ),
     hypno: new Pokemon(
         97,
@@ -1903,7 +2384,12 @@ export const gen1Dex = {
         73,
         115,
         67,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.drowzee
     ),
     krabby: new Pokemon(
         98,
@@ -1919,7 +2405,12 @@ export const gen1Dex = {
         25,
         25,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.krabby
     ),
     kingler: new Pokemon(
         99,
@@ -1935,7 +2426,12 @@ export const gen1Dex = {
         50,
         50,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.krabby
     ),
     voltorb: new Pokemon(
         100,
@@ -1951,7 +2447,12 @@ export const gen1Dex = {
         55,
         55,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.voltorb
     ),
     electrode: new Pokemon(
         101,
@@ -1967,7 +2468,12 @@ export const gen1Dex = {
         80,
         80,
         150,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.voltorb
     ),
     exeggcute: new Pokemon(
         102,
@@ -1983,7 +2489,12 @@ export const gen1Dex = {
         60,
         45,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.exeggcute
     ),
     exeggutor: new Pokemon(
         103,
@@ -1999,7 +2510,12 @@ export const gen1Dex = {
         125,
         75,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.exeggcute
     ),
     cubone: new Pokemon(
         104,
@@ -2015,7 +2531,12 @@ export const gen1Dex = {
         40,
         50,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.cubone
     ),
     marowak: new Pokemon(
         105,
@@ -2031,7 +2552,12 @@ export const gen1Dex = {
         50,
         80,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.cubone
     ),
     hitmonlee: new Pokemon(
         106,
@@ -2047,7 +2573,12 @@ export const gen1Dex = {
         35,
         110,
         87,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.tyrogue
     ),
     hitmonchan: new Pokemon(
         107,
@@ -2063,7 +2594,12 @@ export const gen1Dex = {
         35,
         110,
         76,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.tyrogue
     ),
     lickitung: new Pokemon(
         108,
@@ -2079,7 +2615,12 @@ export const gen1Dex = {
         60,
         75,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.lickitung
     ),
     koffing: new Pokemon(
         109,
@@ -2095,7 +2636,12 @@ export const gen1Dex = {
         60,
         45,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.koffing
     ),
     weezing: new Pokemon(
         110,
@@ -2111,7 +2657,12 @@ export const gen1Dex = {
         85,
         70,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.koffing
     ),
     rhyhorn: new Pokemon(
         111,
@@ -2127,7 +2678,12 @@ export const gen1Dex = {
         30,
         30,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.rhyhorn
     ),
     rhydon: new Pokemon(
         112,
@@ -2143,7 +2699,12 @@ export const gen1Dex = {
         45,
         45,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.rhyhorn
     ),
     chansey: new Pokemon(
         113,
@@ -2159,7 +2720,12 @@ export const gen1Dex = {
         35,
         105,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.chansey
     ),
     tangela: new Pokemon(
         114,
@@ -2175,7 +2741,12 @@ export const gen1Dex = {
         100,
         40,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.tangela
     ),
     kangaskhan: new Pokemon(
         115,
@@ -2191,7 +2762,12 @@ export const gen1Dex = {
         40,
         80,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     horsea: new Pokemon(
         116,
@@ -2207,7 +2783,12 @@ export const gen1Dex = {
         70,
         25,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.horsea
     ),
     seadra: new Pokemon(
         117,
@@ -2223,7 +2804,12 @@ export const gen1Dex = {
         95,
         45,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.horsea
     ),
     goldeen: new Pokemon(
         118,
@@ -2239,7 +2825,12 @@ export const gen1Dex = {
         35,
         50,
         63,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.goldeen
     ),
     seaking: new Pokemon(
         119,
@@ -2255,7 +2846,12 @@ export const gen1Dex = {
         65,
         80,
         68,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.goldeen
     ),
     staryu: new Pokemon(
         120,
@@ -2271,7 +2867,12 @@ export const gen1Dex = {
         70,
         55,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.staryu
     ),
     starmie: new Pokemon(
         121,
@@ -2287,7 +2888,12 @@ export const gen1Dex = {
         100,
         85,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.staryu
     ),
     mrMime: new Pokemon(
         122,
@@ -2303,7 +2909,12 @@ export const gen1Dex = {
         100,
         120,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.mimeJr
     ),
     scyther: new Pokemon(
         123,
@@ -2319,7 +2930,12 @@ export const gen1Dex = {
         55,
         80,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.scyther
     ),
     jynx: new Pokemon(
         124,
@@ -2335,7 +2951,12 @@ export const gen1Dex = {
         115,
         95,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.smoochum
     ),
     electabuzz: new Pokemon(
         125,
@@ -2351,7 +2972,12 @@ export const gen1Dex = {
         95,
         85,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.elekid
     ),
     magmar: new Pokemon(
         126,
@@ -2367,7 +2993,12 @@ export const gen1Dex = {
         100,
         85,
         93,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.magby
     ),
     pinsir: new Pokemon(
         127,
@@ -2383,7 +3014,12 @@ export const gen1Dex = {
         55,
         70,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     tauros: new Pokemon(
         128,
@@ -2399,7 +3035,12 @@ export const gen1Dex = {
         40,
         70,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     magikarp: new Pokemon(
         129,
@@ -2415,7 +3056,12 @@ export const gen1Dex = {
         15,
         20,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.gyarados
     ),
     gyarados: new Pokemon(
         130,
@@ -2431,7 +3077,12 @@ export const gen1Dex = {
         60,
         100,
         81,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.gyarados
     ),
     lapras: new Pokemon(
         131,
@@ -2447,7 +3098,12 @@ export const gen1Dex = {
         85,
         95,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     ditto: new Pokemon(
         132,
@@ -2463,7 +3119,12 @@ export const gen1Dex = {
         48,
         48,
         48,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     eevee: new Pokemon(
         133,
@@ -2479,7 +3140,12 @@ export const gen1Dex = {
         45,
         65,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.eevee
     ),
     vaporeon: new Pokemon(
         134,
@@ -2495,7 +3161,12 @@ export const gen1Dex = {
         110,
         95,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.eevee
     ),
     jolteon: new Pokemon(
         135,
@@ -2511,7 +3182,12 @@ export const gen1Dex = {
         110,
         95,
         130,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.eevee
     ),
     flareon: new Pokemon(
         136,
@@ -2527,7 +3203,12 @@ export const gen1Dex = {
         95,
         110,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.eevee
     ),
     porygon: new Pokemon(
         137,
@@ -2543,7 +3224,12 @@ export const gen1Dex = {
         85,
         75,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.porygon
     ),
     omanyte: new Pokemon(
         138,
@@ -2559,7 +3245,12 @@ export const gen1Dex = {
         90,
         55,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.omanyte
     ),
     omastar: new Pokemon(
         139,
@@ -2575,7 +3266,12 @@ export const gen1Dex = {
         115,
         70,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.omanyte
     ),
     kabuto: new Pokemon(
         140,
@@ -2591,7 +3287,12 @@ export const gen1Dex = {
         55,
         45,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.kabuto
     ),
     kabutops: new Pokemon(
         141,
@@ -2607,7 +3308,12 @@ export const gen1Dex = {
         65,
         70,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.kabuto
     ),
     aerodactyl: new Pokemon(
         142,
@@ -2623,7 +3329,12 @@ export const gen1Dex = {
         60,
         75,
         130,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     snorlax: new Pokemon(
         143,
@@ -2639,7 +3350,12 @@ export const gen1Dex = {
         110,
         65,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.munchlax
     ),
     articuno: new Pokemon(
         144,
@@ -2655,7 +3371,12 @@ export const gen1Dex = {
         95,
         125,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     zapdos: new Pokemon(
         145,
@@ -2671,7 +3392,12 @@ export const gen1Dex = {
         125,
         90,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     moltres: new Pokemon(
         146,
@@ -2687,7 +3413,12 @@ export const gen1Dex = {
         125,
         85,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     dratini: new Pokemon(
         147,
@@ -2703,7 +3434,12 @@ export const gen1Dex = {
         50,
         50,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.dratini
     ),
     dragonair: new Pokemon(
         148,
@@ -2719,7 +3455,12 @@ export const gen1Dex = {
         70,
         70,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.dratini
     ),
     dragonite: new Pokemon(
         149,
@@ -2735,7 +3476,12 @@ export const gen1Dex = {
         100,
         100,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.dratini
     ),
     mewtwo: new Pokemon(
         150,
@@ -2751,7 +3497,12 @@ export const gen1Dex = {
         154,
         90,
         130,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
     mew: new Pokemon(
         151,
@@ -2767,7 +3518,12 @@ export const gen1Dex = {
         100,
         100,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
 };
 
@@ -2786,7 +3542,12 @@ export const gen2Dex = {
         49,
         65,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.chicorita
     ),
     bayleef: new Pokemon(
         153,
@@ -2802,7 +3563,12 @@ export const gen2Dex = {
         63,
         80,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.chicorita
     ),
     meganium: new Pokemon(
         154,
@@ -2818,7 +3584,12 @@ export const gen2Dex = {
         83,
         100,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.chicorita
     ),
     cyndaquil: new Pokemon(
         155,
@@ -2834,7 +3605,12 @@ export const gen2Dex = {
         60,
         50,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.cyndaquil
     ),
     quilava: new Pokemon(
         156,
@@ -2850,7 +3626,12 @@ export const gen2Dex = {
         80,
         65,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.cyndaquil
     ),
     typhlosion: new Pokemon(
         157,
@@ -2866,7 +3647,12 @@ export const gen2Dex = {
         109,
         85,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.cyndaquil
     ),
     totodile: new Pokemon(
         158,
@@ -2882,7 +3668,12 @@ export const gen2Dex = {
         44,
         48,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.totodile
     ),
     croconaw: new Pokemon(
         159,
@@ -2898,7 +3689,12 @@ export const gen2Dex = {
         59,
         63,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.totodile
     ),
     feraligatr: new Pokemon(
         160,
@@ -2914,7 +3710,12 @@ export const gen2Dex = {
         79,
         83,
         78,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.totodile
     ),
     sentret: new Pokemon(
         161,
@@ -2930,7 +3731,12 @@ export const gen2Dex = {
         35,
         45,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.sentret
     ),
     furret: new Pokemon(
         162,
@@ -2946,7 +3752,12 @@ export const gen2Dex = {
         45,
         55,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.sentret
     ),
     hoothoot: new Pokemon(
         163,
@@ -2962,7 +3773,12 @@ export const gen2Dex = {
         36,
         56,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.hoothoot
     ),
     noctowl: new Pokemon(
         164,
@@ -2978,7 +3794,12 @@ export const gen2Dex = {
         86,
         96,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.hoothoot
     ),
     ledyba: new Pokemon(
         165,
@@ -2994,7 +3815,12 @@ export const gen2Dex = {
         40,
         80,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.ledyba
     ),
     ledian: new Pokemon(
         166,
@@ -3010,7 +3836,12 @@ export const gen2Dex = {
         55,
         110,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.ledyba
     ),
     spinarak: new Pokemon(
         167,
@@ -3026,7 +3857,12 @@ export const gen2Dex = {
         40,
         40,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.spinarak
     ),
     ariados: new Pokemon(
         168,
@@ -3042,7 +3878,12 @@ export const gen2Dex = {
         60,
         70,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.spinarak
     ),
     crobat: new Pokemon(
         169,
@@ -3058,7 +3899,12 @@ export const gen2Dex = {
         70,
         80,
         130,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.zubat
     ),
     chinchou: new Pokemon(
         170,
@@ -3074,7 +3920,12 @@ export const gen2Dex = {
         56,
         56,
         67,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.chinchou
     ),
     lanturn: new Pokemon(
         171,
@@ -3090,7 +3941,12 @@ export const gen2Dex = {
         76,
         76,
         67,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.chinchou
     ),
     pichu: new Pokemon(
         172,
@@ -3106,7 +3962,12 @@ export const gen2Dex = {
         35,
         35,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pichu
     ),
     cleffa: new Pokemon(
         173,
@@ -3122,7 +3983,12 @@ export const gen2Dex = {
         45,
         55,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.cleffa
     ),
     igglybuff: new Pokemon(
         174,
@@ -3138,7 +4004,12 @@ export const gen2Dex = {
         40,
         20,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.igglybuff
     ),
     togepi: new Pokemon(
         175,
@@ -3154,7 +4025,12 @@ export const gen2Dex = {
         40,
         65,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.togepi
     ),
     togetic: new Pokemon(
         176,
@@ -3170,7 +4046,12 @@ export const gen2Dex = {
         80,
         105,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.togepi
     ),
     natu: new Pokemon(
         177,
@@ -3186,7 +4067,12 @@ export const gen2Dex = {
         70,
         45,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.natu
     ),
     xatu: new Pokemon(
         178,
@@ -3202,7 +4088,12 @@ export const gen2Dex = {
         95,
         70,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.natu
     ),
     mareep: new Pokemon(
         179,
@@ -3218,7 +4109,12 @@ export const gen2Dex = {
         65,
         45,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.mareep
     ),
     flaaffy: new Pokemon(
         180,
@@ -3234,7 +4130,12 @@ export const gen2Dex = {
         80,
         60,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.mareep
     ),
     ampharos: new Pokemon(
         181,
@@ -3250,7 +4151,12 @@ export const gen2Dex = {
         115,
         90,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.mareep
     ),
     bellossom: new Pokemon(
         182,
@@ -3266,7 +4172,12 @@ export const gen2Dex = {
         90,
         100,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.oddish
     ),
     marill: new Pokemon(
         183,
@@ -3282,7 +4193,12 @@ export const gen2Dex = {
         20,
         50,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.marill
     ),
     azumarill: new Pokemon(
         184,
@@ -3298,7 +4214,12 @@ export const gen2Dex = {
         60,
         80,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.marill
     ),
     sudowoodo: new Pokemon(
         185,
@@ -3314,7 +4235,12 @@ export const gen2Dex = {
         30,
         65,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.bonsly
     ),
     politoed: new Pokemon(
         186,
@@ -3330,7 +4256,12 @@ export const gen2Dex = {
         90,
         100,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.poliwag
     ),
     hoppip: new Pokemon(
         187,
@@ -3346,7 +4277,12 @@ export const gen2Dex = {
         35,
         55,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.hoppip
     ),
     skiploom: new Pokemon(
         188,
@@ -3362,7 +4298,12 @@ export const gen2Dex = {
         45,
         65,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.hoppip
     ),
     jumpluff: new Pokemon(
         189,
@@ -3378,7 +4319,12 @@ export const gen2Dex = {
         55,
         95,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.hoppip
     ),
     aipom: new Pokemon(
         190,
@@ -3394,7 +4340,12 @@ export const gen2Dex = {
         40,
         55,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sunkern: new Pokemon(
         191,
@@ -3410,7 +4361,12 @@ export const gen2Dex = {
         30,
         30,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sunflora: new Pokemon(
         192,
@@ -3426,7 +4382,12 @@ export const gen2Dex = {
         105,
         85,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     yanma: new Pokemon(
         193,
@@ -3442,7 +4403,12 @@ export const gen2Dex = {
         75,
         45,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wooper: new Pokemon(
         194,
@@ -3458,7 +4424,12 @@ export const gen2Dex = {
         25,
         25,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     quagsire: new Pokemon(
         195,
@@ -3474,7 +4445,12 @@ export const gen2Dex = {
         65,
         65,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     espeon: new Pokemon(
         196,
@@ -3490,7 +4466,12 @@ export const gen2Dex = {
         130,
         95,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     umbreon: new Pokemon(
         197,
@@ -3506,7 +4487,12 @@ export const gen2Dex = {
         60,
         130,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     murkrow: new Pokemon(
         198,
@@ -3522,7 +4508,12 @@ export const gen2Dex = {
         85,
         42,
         91,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     slowking: new Pokemon(
         199,
@@ -3538,7 +4529,12 @@ export const gen2Dex = {
         110,
         100,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     misdreavus: new Pokemon(
         200,
@@ -3554,7 +4550,12 @@ export const gen2Dex = {
         85,
         85,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     unown: new Pokemon(
         201,
@@ -3570,7 +4571,12 @@ export const gen2Dex = {
         72,
         48,
         48,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wobbuffet: new Pokemon(
         202,
@@ -3586,7 +4592,12 @@ export const gen2Dex = {
         33,
         58,
         33,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     girafarig: new Pokemon(
         203,
@@ -3602,7 +4613,12 @@ export const gen2Dex = {
         90,
         65,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pineco: new Pokemon(
         204,
@@ -3618,7 +4634,12 @@ export const gen2Dex = {
         35,
         35,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     forretress: new Pokemon(
         205,
@@ -3634,7 +4655,12 @@ export const gen2Dex = {
         60,
         60,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dunsparce: new Pokemon(
         206,
@@ -3650,7 +4676,12 @@ export const gen2Dex = {
         65,
         65,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gligar: new Pokemon(
         207,
@@ -3666,7 +4697,12 @@ export const gen2Dex = {
         35,
         65,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     steelix: new Pokemon(
         208,
@@ -3682,7 +4718,12 @@ export const gen2Dex = {
         55,
         65,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     snubbull: new Pokemon(
         209,
@@ -3698,7 +4739,12 @@ export const gen2Dex = {
         40,
         40,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     granbull: new Pokemon(
         210,
@@ -3714,7 +4760,12 @@ export const gen2Dex = {
         60,
         60,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     qwilfish: new Pokemon(
         211,
@@ -3730,7 +4781,12 @@ export const gen2Dex = {
         55,
         55,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     scizor: new Pokemon(
         212,
@@ -3746,7 +4802,12 @@ export const gen2Dex = {
         55,
         80,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shuckle: new Pokemon(
         213,
@@ -3762,7 +4823,12 @@ export const gen2Dex = {
         10,
         230,
         5,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     heracross: new Pokemon(
         214,
@@ -3778,7 +4844,12 @@ export const gen2Dex = {
         40,
         95,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sneasel: new Pokemon(
         215,
@@ -3794,7 +4865,12 @@ export const gen2Dex = {
         35,
         75,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     teddiursa: new Pokemon(
         216,
@@ -3810,7 +4886,12 @@ export const gen2Dex = {
         50,
         40,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ursaring: new Pokemon(
         217,
@@ -3826,7 +4907,12 @@ export const gen2Dex = {
         75,
         55,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     slugma: new Pokemon(
         218,
@@ -3842,7 +4928,12 @@ export const gen2Dex = {
         70,
         40,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     magcargo: new Pokemon(
         219,
@@ -3858,7 +4949,12 @@ export const gen2Dex = {
         90,
         80,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swinub: new Pokemon(
         220,
@@ -3874,7 +4970,12 @@ export const gen2Dex = {
         30,
         30,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     piloswine: new Pokemon(
         221,
@@ -3890,7 +4991,12 @@ export const gen2Dex = {
         60,
         60,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     corsola: new Pokemon(
         222,
@@ -3906,7 +5012,12 @@ export const gen2Dex = {
         65,
         95,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     remoraid: new Pokemon(
         223,
@@ -3922,7 +5033,12 @@ export const gen2Dex = {
         65,
         35,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     octillery: new Pokemon(
         224,
@@ -3938,7 +5054,12 @@ export const gen2Dex = {
         105,
         75,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     delibird: new Pokemon(
         225,
@@ -3954,7 +5075,12 @@ export const gen2Dex = {
         65,
         45,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mantine: new Pokemon(
         226,
@@ -3970,7 +5096,12 @@ export const gen2Dex = {
         80,
         140,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skarmory: new Pokemon(
         227,
@@ -3986,7 +5117,12 @@ export const gen2Dex = {
         40,
         70,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     houndour: new Pokemon(
         228,
@@ -4002,7 +5138,12 @@ export const gen2Dex = {
         80,
         50,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     houndoom: new Pokemon(
         229,
@@ -4018,7 +5159,12 @@ export const gen2Dex = {
         110,
         80,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kingdra: new Pokemon(
         230,
@@ -4034,7 +5180,12 @@ export const gen2Dex = {
         95,
         95,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     phanpy: new Pokemon(
         231,
@@ -4050,7 +5201,12 @@ export const gen2Dex = {
         40,
         40,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     donphan: new Pokemon(
         232,
@@ -4066,7 +5222,12 @@ export const gen2Dex = {
         60,
         60,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     porygon2: new Pokemon(
         233,
@@ -4082,7 +5243,12 @@ export const gen2Dex = {
         105,
         95,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     stantler: new Pokemon(
         234,
@@ -4098,7 +5264,12 @@ export const gen2Dex = {
         85,
         65,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     smeargle: new Pokemon(
         235,
@@ -4114,7 +5285,12 @@ export const gen2Dex = {
         20,
         45,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tyrogue: new Pokemon(
         236,
@@ -4130,7 +5306,12 @@ export const gen2Dex = {
         35,
         35,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hitmontop: new Pokemon(
         237,
@@ -4146,7 +5327,12 @@ export const gen2Dex = {
         35,
         110,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     smoochum: new Pokemon(
         238,
@@ -4162,7 +5348,12 @@ export const gen2Dex = {
         85,
         65,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     elekid: new Pokemon(
         239,
@@ -4178,7 +5369,12 @@ export const gen2Dex = {
         65,
         55,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     magby: new Pokemon(
         240,
@@ -4194,7 +5390,12 @@ export const gen2Dex = {
         70,
         55,
         83,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     miltank: new Pokemon(
         241,
@@ -4210,7 +5411,12 @@ export const gen2Dex = {
         40,
         70,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     blissey: new Pokemon(
         242,
@@ -4226,7 +5432,12 @@ export const gen2Dex = {
         75,
         135,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     raikou: new Pokemon(
         243,
@@ -4242,7 +5453,12 @@ export const gen2Dex = {
         115,
         100,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     entei: new Pokemon(
         244,
@@ -4258,7 +5474,12 @@ export const gen2Dex = {
         90,
         75,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     suicune: new Pokemon(
         245,
@@ -4274,7 +5495,12 @@ export const gen2Dex = {
         90,
         115,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     larvitar: new Pokemon(
         246,
@@ -4290,7 +5516,12 @@ export const gen2Dex = {
         45,
         50,
         41,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pupitar: new Pokemon(
         247,
@@ -4306,7 +5537,12 @@ export const gen2Dex = {
         65,
         70,
         51,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tyranitar: new Pokemon(
         248,
@@ -4322,7 +5558,12 @@ export const gen2Dex = {
         95,
         100,
         61,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lugia: new Pokemon(
         249,
@@ -4338,7 +5579,12 @@ export const gen2Dex = {
         90,
         154,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hoOh: new Pokemon(
         250,
@@ -4354,7 +5600,12 @@ export const gen2Dex = {
         110,
         154,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     celebi: new Pokemon(
         251,
@@ -4370,7 +5621,12 @@ export const gen2Dex = {
         100,
         100,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
 };
 
@@ -4389,7 +5645,12 @@ export const gen3Dex = {
         65,
         55,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     grovyle: new Pokemon(
         253,
@@ -4405,7 +5666,12 @@ export const gen3Dex = {
         85,
         65,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sceptile: new Pokemon(
         254,
@@ -4421,7 +5687,12 @@ export const gen3Dex = {
         105,
         85,
         120,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     torchic: new Pokemon(
         255,
@@ -4437,7 +5708,12 @@ export const gen3Dex = {
         70,
         50,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     combusken: new Pokemon(
         256,
@@ -4453,7 +5729,12 @@ export const gen3Dex = {
         85,
         60,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     blaziken: new Pokemon(
         257,
@@ -4469,7 +5750,12 @@ export const gen3Dex = {
         110,
         70,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mudkip: new Pokemon(
         258,
@@ -4485,7 +5771,12 @@ export const gen3Dex = {
         60,
         70,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     marshtomp: new Pokemon(
         259,
@@ -4501,7 +5792,12 @@ export const gen3Dex = {
         60,
         70,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swampert: new Pokemon(
         260,
@@ -4517,7 +5813,12 @@ export const gen3Dex = {
         85,
         90,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     poochyena: new Pokemon(
         261,
@@ -4533,7 +5834,12 @@ export const gen3Dex = {
         30,
         30,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mightyena: new Pokemon(
         262,
@@ -4549,7 +5855,12 @@ export const gen3Dex = {
         60,
         60,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zigzagoon: new Pokemon(
         263,
@@ -4565,7 +5876,12 @@ export const gen3Dex = {
         30,
         41,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     linoone: new Pokemon(
         264,
@@ -4581,7 +5897,12 @@ export const gen3Dex = {
         50,
         61,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wurmple: new Pokemon(
         265,
@@ -4597,7 +5918,12 @@ export const gen3Dex = {
         20,
         30,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     silcoon: new Pokemon(
         266,
@@ -4613,7 +5939,12 @@ export const gen3Dex = {
         25,
         25,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     beautifly: new Pokemon(
         267,
@@ -4629,7 +5960,12 @@ export const gen3Dex = {
         100,
         50,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cascoon: new Pokemon(
         268,
@@ -4645,7 +5981,12 @@ export const gen3Dex = {
         25,
         25,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dustox: new Pokemon(
         269,
@@ -4661,7 +6002,12 @@ export const gen3Dex = {
         50,
         90,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lotad: new Pokemon(
         270,
@@ -4677,7 +6023,12 @@ export const gen3Dex = {
         40,
         50,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lombre: new Pokemon(
         271,
@@ -4693,7 +6044,12 @@ export const gen3Dex = {
         60,
         70,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ludicolo: new Pokemon(
         272,
@@ -4709,7 +6065,12 @@ export const gen3Dex = {
         90,
         100,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     seedot: new Pokemon(
         273,
@@ -4725,7 +6086,12 @@ export const gen3Dex = {
         30,
         30,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     nuzleaf: new Pokemon(
         274,
@@ -4741,7 +6107,12 @@ export const gen3Dex = {
         60,
         40,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shiftry: new Pokemon(
         275,
@@ -4757,7 +6128,12 @@ export const gen3Dex = {
         90,
         60,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     taillow: new Pokemon(
         276,
@@ -4773,7 +6149,12 @@ export const gen3Dex = {
         30,
         30,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swellow: new Pokemon(
         277,
@@ -4789,7 +6170,12 @@ export const gen3Dex = {
         75,
         50,
         125,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wingull: new Pokemon(
         278,
@@ -4805,7 +6191,12 @@ export const gen3Dex = {
         55,
         30,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pelipper: new Pokemon(
         279,
@@ -4821,7 +6212,12 @@ export const gen3Dex = {
         95,
         70,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ralts: new Pokemon(
         280,
@@ -4837,7 +6233,12 @@ export const gen3Dex = {
         45,
         35,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kirlia: new Pokemon(
         281,
@@ -4853,7 +6254,12 @@ export const gen3Dex = {
         65,
         55,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gardevoir: new Pokemon(
         282,
@@ -4869,7 +6275,12 @@ export const gen3Dex = {
         125,
         115,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     surskit: new Pokemon(
         283,
@@ -4885,7 +6296,12 @@ export const gen3Dex = {
         50,
         52,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     masquerain: new Pokemon(
         284,
@@ -4901,7 +6317,12 @@ export const gen3Dex = {
         100,
         82,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shroomish: new Pokemon(
         285,
@@ -4917,7 +6338,12 @@ export const gen3Dex = {
         40,
         60,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     breloom: new Pokemon(
         286,
@@ -4933,7 +6359,12 @@ export const gen3Dex = {
         60,
         60,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     slakoth: new Pokemon(
         287,
@@ -4949,7 +6380,12 @@ export const gen3Dex = {
         35,
         35,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vigoroth: new Pokemon(
         288,
@@ -4965,7 +6401,12 @@ export const gen3Dex = {
         55,
         55,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     slaking: new Pokemon(
         289,
@@ -4981,7 +6422,12 @@ export const gen3Dex = {
         95,
         65,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     nincada: new Pokemon(
         290,
@@ -4997,7 +6443,12 @@ export const gen3Dex = {
         30,
         30,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ninjask: new Pokemon(
         291,
@@ -5013,7 +6464,12 @@ export const gen3Dex = {
         50,
         50,
         160,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shedinja: new Pokemon(
         292,
@@ -5029,7 +6485,12 @@ export const gen3Dex = {
         30,
         30,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     whismur: new Pokemon(
         293,
@@ -5045,7 +6506,12 @@ export const gen3Dex = {
         51,
         23,
         28,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     loudred: new Pokemon(
         294,
@@ -5061,7 +6527,12 @@ export const gen3Dex = {
         71,
         43,
         48,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     exploud: new Pokemon(
         295,
@@ -5077,7 +6548,12 @@ export const gen3Dex = {
         91,
         73,
         68,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     makuhita: new Pokemon(
         296,
@@ -5093,7 +6569,12 @@ export const gen3Dex = {
         20,
         30,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hariyama: new Pokemon(
         297,
@@ -5109,7 +6590,12 @@ export const gen3Dex = {
         40,
         60,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     azurill: new Pokemon(
         298,
@@ -5125,7 +6611,12 @@ export const gen3Dex = {
         20,
         40,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     nosepass: new Pokemon(
         299,
@@ -5141,7 +6632,12 @@ export const gen3Dex = {
         45,
         90,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skitty: new Pokemon(
         300,
@@ -5157,7 +6653,12 @@ export const gen3Dex = {
         35,
         35,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     delcatty: new Pokemon(
         301,
@@ -5173,7 +6674,12 @@ export const gen3Dex = {
         55,
         55,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sableye: new Pokemon(
         302,
@@ -5189,7 +6695,12 @@ export const gen3Dex = {
         65,
         65,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mawile: new Pokemon(
         303,
@@ -5205,7 +6716,12 @@ export const gen3Dex = {
         55,
         55,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     aron: new Pokemon(
         304,
@@ -5221,7 +6737,12 @@ export const gen3Dex = {
         40,
         40,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lairon: new Pokemon(
         305,
@@ -5237,7 +6758,12 @@ export const gen3Dex = {
         50,
         50,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     aggron: new Pokemon(
         306,
@@ -5253,7 +6779,12 @@ export const gen3Dex = {
         60,
         60,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     meditite: new Pokemon(
         307,
@@ -5269,7 +6800,12 @@ export const gen3Dex = {
         40,
         55,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     medicham: new Pokemon(
         308,
@@ -5285,7 +6821,12 @@ export const gen3Dex = {
         60,
         75,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     electrike: new Pokemon(
         309,
@@ -5301,7 +6842,12 @@ export const gen3Dex = {
         65,
         40,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     manectric: new Pokemon(
         310,
@@ -5317,7 +6863,12 @@ export const gen3Dex = {
         105,
         60,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     plusle: new Pokemon(
         311,
@@ -5333,7 +6884,12 @@ export const gen3Dex = {
         85,
         75,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     minun: new Pokemon(
         312,
@@ -5349,7 +6905,12 @@ export const gen3Dex = {
         75,
         85,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     volbeat: new Pokemon(
         313,
@@ -5365,7 +6926,12 @@ export const gen3Dex = {
         47,
         85,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     illumise: new Pokemon(
         314,
@@ -5381,7 +6947,12 @@ export const gen3Dex = {
         73,
         75,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     roselia: new Pokemon(
         315,
@@ -5397,7 +6968,12 @@ export const gen3Dex = {
         100,
         80,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gulpin: new Pokemon(
         316,
@@ -5413,7 +6989,12 @@ export const gen3Dex = {
         43,
         53,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swalot: new Pokemon(
         317,
@@ -5429,7 +7010,12 @@ export const gen3Dex = {
         73,
         83,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     carvanha: new Pokemon(
         318,
@@ -5445,7 +7031,12 @@ export const gen3Dex = {
         65,
         20,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sharpedo: new Pokemon(
         319,
@@ -5461,7 +7052,12 @@ export const gen3Dex = {
         95,
         40,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wailmer: new Pokemon(
         320,
@@ -5477,7 +7073,12 @@ export const gen3Dex = {
         70,
         35,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wailord: new Pokemon(
         321,
@@ -5493,7 +7094,12 @@ export const gen3Dex = {
         90,
         45,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     numel: new Pokemon(
         322,
@@ -5509,7 +7115,12 @@ export const gen3Dex = {
         65,
         45,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     camerupt: new Pokemon(
         323,
@@ -5525,7 +7136,12 @@ export const gen3Dex = {
         105,
         75,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     torkoal: new Pokemon(
         324,
@@ -5541,7 +7157,12 @@ export const gen3Dex = {
         85,
         70,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     spoink: new Pokemon(
         325,
@@ -5557,7 +7178,12 @@ export const gen3Dex = {
         70,
         80,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     grumpig: new Pokemon(
         326,
@@ -5573,7 +7199,12 @@ export const gen3Dex = {
         90,
         110,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     spinda: new Pokemon(
         327,
@@ -5589,7 +7220,12 @@ export const gen3Dex = {
         60,
         60,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     trapinch: new Pokemon(
         328,
@@ -5605,7 +7241,12 @@ export const gen3Dex = {
         45,
         45,
         10,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vibrava: new Pokemon(
         329,
@@ -5621,7 +7262,12 @@ export const gen3Dex = {
         50,
         50,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     flygon: new Pokemon(
         330,
@@ -5637,7 +7283,12 @@ export const gen3Dex = {
         80,
         80,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cacnea: new Pokemon(
         331,
@@ -5653,7 +7304,12 @@ export const gen3Dex = {
         85,
         40,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cacturne: new Pokemon(
         332,
@@ -5669,7 +7325,12 @@ export const gen3Dex = {
         115,
         60,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swablu: new Pokemon(
         333,
@@ -5685,7 +7346,12 @@ export const gen3Dex = {
         40,
         75,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     altaria: new Pokemon(
         334,
@@ -5701,7 +7367,12 @@ export const gen3Dex = {
         70,
         105,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zangoose: new Pokemon(
         335,
@@ -5717,7 +7388,12 @@ export const gen3Dex = {
         60,
         60,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     seviper: new Pokemon(
         336,
@@ -5733,7 +7409,12 @@ export const gen3Dex = {
         100,
         60,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lunatone: new Pokemon(
         337,
@@ -5749,7 +7430,12 @@ export const gen3Dex = {
         95,
         85,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     solrock: new Pokemon(
         338,
@@ -5765,7 +7451,12 @@ export const gen3Dex = {
         55,
         65,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     barboach: new Pokemon(
         339,
@@ -5781,7 +7472,12 @@ export const gen3Dex = {
         46,
         41,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     whiscash: new Pokemon(
         340,
@@ -5797,7 +7493,12 @@ export const gen3Dex = {
         76,
         71,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     corphish: new Pokemon(
         341,
@@ -5813,7 +7514,12 @@ export const gen3Dex = {
         50,
         35,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     crawdaunt: new Pokemon(
         342,
@@ -5829,7 +7535,12 @@ export const gen3Dex = {
         90,
         55,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     baltoy: new Pokemon(
         343,
@@ -5845,7 +7556,12 @@ export const gen3Dex = {
         40,
         70,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     claydol: new Pokemon(
         344,
@@ -5861,7 +7577,12 @@ export const gen3Dex = {
         70,
         120,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lileep: new Pokemon(
         345,
@@ -5877,7 +7598,12 @@ export const gen3Dex = {
         61,
         87,
         23,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cradily: new Pokemon(
         346,
@@ -5893,7 +7619,12 @@ export const gen3Dex = {
         81,
         107,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     anorith: new Pokemon(
         347,
@@ -5909,7 +7640,12 @@ export const gen3Dex = {
         40,
         50,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     armaldo: new Pokemon(
         348,
@@ -5925,7 +7661,12 @@ export const gen3Dex = {
         70,
         80,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     feebas: new Pokemon(
         349,
@@ -5941,7 +7682,12 @@ export const gen3Dex = {
         10,
         55,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     milotic: new Pokemon(
         350,
@@ -5957,7 +7703,12 @@ export const gen3Dex = {
         100,
         125,
         81,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     castform: new Pokemon(
         351,
@@ -5973,7 +7724,12 @@ export const gen3Dex = {
         70,
         70,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kecleon: new Pokemon(
         352,
@@ -5989,7 +7745,12 @@ export const gen3Dex = {
         60,
         120,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shuppet: new Pokemon(
         353,
@@ -6005,7 +7766,12 @@ export const gen3Dex = {
         63,
         33,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     banette: new Pokemon(
         354,
@@ -6021,7 +7787,12 @@ export const gen3Dex = {
         83,
         63,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     duskull: new Pokemon(
         355,
@@ -6037,7 +7808,12 @@ export const gen3Dex = {
         30,
         90,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dusclops: new Pokemon(
         356,
@@ -6053,7 +7829,12 @@ export const gen3Dex = {
         60,
         130,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tropius: new Pokemon(
         357,
@@ -6069,7 +7850,12 @@ export const gen3Dex = {
         72,
         87,
         51,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chimecho: new Pokemon(
         358,
@@ -6085,7 +7871,12 @@ export const gen3Dex = {
         95,
         90,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     absol: new Pokemon(
         359,
@@ -6101,7 +7892,12 @@ export const gen3Dex = {
         75,
         60,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wynaut: new Pokemon(
         360,
@@ -6117,7 +7913,12 @@ export const gen3Dex = {
         23,
         48,
         23,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     snorunt: new Pokemon(
         361,
@@ -6133,7 +7934,12 @@ export const gen3Dex = {
         50,
         50,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     glalie: new Pokemon(
         362,
@@ -6149,7 +7955,12 @@ export const gen3Dex = {
         80,
         80,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     spheal: new Pokemon(
         363,
@@ -6165,7 +7976,12 @@ export const gen3Dex = {
         55,
         50,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sealeo: new Pokemon(
         364,
@@ -6181,7 +7997,12 @@ export const gen3Dex = {
         75,
         70,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     walrein: new Pokemon(
         365,
@@ -6197,7 +8018,12 @@ export const gen3Dex = {
         95,
         90,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     clamperl: new Pokemon(
         366,
@@ -6213,7 +8039,12 @@ export const gen3Dex = {
         74,
         55,
         32,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     huntail: new Pokemon(
         367,
@@ -6229,7 +8060,12 @@ export const gen3Dex = {
         94,
         75,
         52,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gorebyss: new Pokemon(
         368,
@@ -6245,7 +8081,12 @@ export const gen3Dex = {
         114,
         75,
         52,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     relicanth: new Pokemon(
         369,
@@ -6261,7 +8102,12 @@ export const gen3Dex = {
         45,
         65,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     luvdisc: new Pokemon(
         370,
@@ -6277,7 +8123,12 @@ export const gen3Dex = {
         40,
         65,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bagon: new Pokemon(
         371,
@@ -6293,7 +8144,12 @@ export const gen3Dex = {
         40,
         30,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shelgon: new Pokemon(
         372,
@@ -6309,7 +8165,12 @@ export const gen3Dex = {
         60,
         50,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     salamence: new Pokemon(
         373,
@@ -6325,7 +8186,12 @@ export const gen3Dex = {
         110,
         80,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     beldum: new Pokemon(
         374,
@@ -6341,7 +8207,12 @@ export const gen3Dex = {
         35,
         60,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     metang: new Pokemon(
         375,
@@ -6357,7 +8228,12 @@ export const gen3Dex = {
         55,
         80,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     metagross: new Pokemon(
         376,
@@ -6373,7 +8249,12 @@ export const gen3Dex = {
         95,
         90,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     regirock: new Pokemon(
         377,
@@ -6389,7 +8270,12 @@ export const gen3Dex = {
         50,
         100,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     regice: new Pokemon(
         378,
@@ -6405,7 +8291,12 @@ export const gen3Dex = {
         100,
         200,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     registeel: new Pokemon(
         379,
@@ -6421,7 +8312,12 @@ export const gen3Dex = {
         75,
         150,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     latias: new Pokemon(
         380,
@@ -6437,7 +8333,12 @@ export const gen3Dex = {
         110,
         130,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     latios: new Pokemon(
         381,
@@ -6453,7 +8354,12 @@ export const gen3Dex = {
         130,
         110,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kyogre: new Pokemon(
         382,
@@ -6469,7 +8375,12 @@ export const gen3Dex = {
         150,
         140,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     groudon: new Pokemon(
         383,
@@ -6485,7 +8396,12 @@ export const gen3Dex = {
         100,
         90,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rayquaza: new Pokemon(
         384,
@@ -6501,7 +8417,12 @@ export const gen3Dex = {
         150,
         90,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     jirachi: new Pokemon(
         385,
@@ -6517,7 +8438,12 @@ export const gen3Dex = {
         100,
         100,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     deoxys: new Pokemon(
         386,
@@ -6533,7 +8459,12 @@ export const gen3Dex = {
         150,
         50,
         150,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
 };
 
@@ -6552,7 +8483,12 @@ export const gen4Dex = {
         45,
         55,
         31,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     grottle: new Pokemon(
         388,
@@ -6568,7 +8504,12 @@ export const gen4Dex = {
         55,
         65,
         36,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     torterra: new Pokemon(
         389,
@@ -6584,7 +8525,12 @@ export const gen4Dex = {
         75,
         85,
         56,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chimchar: new Pokemon(
         390,
@@ -6600,7 +8546,12 @@ export const gen4Dex = {
         58,
         44,
         61,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     monferno: new Pokemon(
         391,
@@ -6616,7 +8567,12 @@ export const gen4Dex = {
         78,
         52,
         81,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     infernape: new Pokemon(
         392,
@@ -6632,7 +8588,12 @@ export const gen4Dex = {
         104,
         71,
         108,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     piplup: new Pokemon(
         393,
@@ -6648,7 +8609,12 @@ export const gen4Dex = {
         61,
         56,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     prinplup: new Pokemon(
         394,
@@ -6664,7 +8630,12 @@ export const gen4Dex = {
         81,
         76,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     empoleon: new Pokemon(
         395,
@@ -6680,7 +8651,12 @@ export const gen4Dex = {
         111,
         101,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     starly: new Pokemon(
         396,
@@ -6696,7 +8672,12 @@ export const gen4Dex = {
         30,
         30,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     staravia: new Pokemon(
         397,
@@ -6712,7 +8693,12 @@ export const gen4Dex = {
         40,
         40,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     staraptor: new Pokemon(
         398,
@@ -6728,7 +8714,12 @@ export const gen4Dex = {
         50,
         60,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bidoof: new Pokemon(
         399,
@@ -6744,7 +8735,12 @@ export const gen4Dex = {
         35,
         40,
         31,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bibarel: new Pokemon(
         400,
@@ -6760,7 +8756,12 @@ export const gen4Dex = {
         55,
         60,
         71,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kricketot: new Pokemon(
         401,
@@ -6776,7 +8777,12 @@ export const gen4Dex = {
         25,
         41,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kricketune: new Pokemon(
         402,
@@ -6792,7 +8798,12 @@ export const gen4Dex = {
         55,
         51,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shinx: new Pokemon(
         403,
@@ -6808,7 +8819,12 @@ export const gen4Dex = {
         40,
         34,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     luxio: new Pokemon(
         404,
@@ -6824,7 +8840,12 @@ export const gen4Dex = {
         60,
         49,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     luxray: new Pokemon(
         405,
@@ -6840,7 +8861,12 @@ export const gen4Dex = {
         95,
         79,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     budew: new Pokemon(
         406,
@@ -6856,7 +8882,12 @@ export const gen4Dex = {
         50,
         70,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     roserade: new Pokemon(
         407,
@@ -6872,7 +8903,12 @@ export const gen4Dex = {
         125,
         105,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     craniados: new Pokemon(
         408,
@@ -6888,7 +8924,12 @@ export const gen4Dex = {
         30,
         30,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ramparados: new Pokemon(
         409,
@@ -6904,7 +8945,12 @@ export const gen4Dex = {
         65,
         50,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shieldon: new Pokemon(
         410,
@@ -6920,7 +8966,12 @@ export const gen4Dex = {
         42,
         88,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bastiodon: new Pokemon(
         411,
@@ -6936,7 +8987,12 @@ export const gen4Dex = {
         47,
         138,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     burmy: new Pokemon(
         412,
@@ -6952,7 +9008,12 @@ export const gen4Dex = {
         29,
         45,
         36,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wormadamPlant: new Pokemon(
         413,
@@ -6968,7 +9029,12 @@ export const gen4Dex = {
         79,
         105,
         36,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wormadamSandy: new Pokemon(
         413.1,
@@ -6984,7 +9050,12 @@ export const gen4Dex = {
         79,
         105,
         36,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     wormadamTrash: new Pokemon(
         413.2,
@@ -7000,7 +9071,12 @@ export const gen4Dex = {
         79,
         105,
         36,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     mothim: new Pokemon(
         414,
@@ -7016,7 +9092,12 @@ export const gen4Dex = {
         94,
         50,
         66,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     combee: new Pokemon(
         415,
@@ -7032,7 +9113,12 @@ export const gen4Dex = {
         30,
         42,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vespiquen: new Pokemon(
         416,
@@ -7048,7 +9134,12 @@ export const gen4Dex = {
         80,
         102,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pachirisu: new Pokemon(
         417,
@@ -7064,7 +9155,12 @@ export const gen4Dex = {
         45,
         90,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     buizel: new Pokemon(
         418,
@@ -7080,7 +9176,12 @@ export const gen4Dex = {
         60,
         30,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     floatzel: new Pokemon(
         419,
@@ -7096,7 +9197,12 @@ export const gen4Dex = {
         85,
         50,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cherubi: new Pokemon(
         420,
@@ -7112,7 +9218,12 @@ export const gen4Dex = {
         62,
         53,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cherrim: new Pokemon(
         421,
@@ -7128,7 +9239,12 @@ export const gen4Dex = {
         87,
         78,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shellos: new Pokemon(
         422,
@@ -7144,7 +9260,12 @@ export const gen4Dex = {
         57,
         62,
         34,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gastrodon: new Pokemon(
         423,
@@ -7160,7 +9281,12 @@ export const gen4Dex = {
         92,
         82,
         39,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ambipom: new Pokemon(
         424,
@@ -7176,7 +9302,12 @@ export const gen4Dex = {
         60,
         66,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     drifloon: new Pokemon(
         425,
@@ -7192,7 +9323,12 @@ export const gen4Dex = {
         60,
         44,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     drifblim: new Pokemon(
         426,
@@ -7208,7 +9344,12 @@ export const gen4Dex = {
         90,
         54,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     buneary: new Pokemon(
         427,
@@ -7224,7 +9365,12 @@ export const gen4Dex = {
         44,
         56,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lopunny: new Pokemon(
         428,
@@ -7240,7 +9386,12 @@ export const gen4Dex = {
         54,
         96,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mismagius: new Pokemon(
         429,
@@ -7256,7 +9407,12 @@ export const gen4Dex = {
         105,
         105,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     honchkrow: new Pokemon(
         430,
@@ -7272,7 +9428,12 @@ export const gen4Dex = {
         105,
         52,
         71,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     glameow: new Pokemon(
         431,
@@ -7288,7 +9449,12 @@ export const gen4Dex = {
         42,
         37,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     purugly: new Pokemon(
         432,
@@ -7304,7 +9470,12 @@ export const gen4Dex = {
         64,
         59,
         112,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chingling: new Pokemon(
         433,
@@ -7320,7 +9491,12 @@ export const gen4Dex = {
         65,
         50,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     stunky: new Pokemon(
         434,
@@ -7336,7 +9512,12 @@ export const gen4Dex = {
         41,
         41,
         74,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skuntank: new Pokemon(
         435,
@@ -7352,7 +9533,12 @@ export const gen4Dex = {
         71,
         61,
         84,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bronzor: new Pokemon(
         436,
@@ -7368,7 +9554,12 @@ export const gen4Dex = {
         24,
         86,
         23,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bronzong: new Pokemon(
         437,
@@ -7384,7 +9575,12 @@ export const gen4Dex = {
         79,
         116,
         33,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bonsly: new Pokemon(
         438,
@@ -7400,7 +9596,12 @@ export const gen4Dex = {
         10,
         45,
         10,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mimeJr: new Pokemon(
         439,
@@ -7416,7 +9617,12 @@ export const gen4Dex = {
         70,
         90,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     happiny: new Pokemon(
         440,
@@ -7432,7 +9638,12 @@ export const gen4Dex = {
         15,
         65,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chatot: new Pokemon(
         441,
@@ -7448,7 +9659,12 @@ export const gen4Dex = {
         92,
         42,
         91,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     spiritomb: new Pokemon(
         442,
@@ -7464,7 +9680,12 @@ export const gen4Dex = {
         92,
         108,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gible: new Pokemon(
         443,
@@ -7480,7 +9701,12 @@ export const gen4Dex = {
         40,
         45,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gabite: new Pokemon(
         444,
@@ -7496,7 +9722,12 @@ export const gen4Dex = {
         50,
         55,
         82,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     garchomp: new Pokemon(
         445,
@@ -7512,7 +9743,12 @@ export const gen4Dex = {
         80,
         85,
         102,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     munchlax: new Pokemon(
         446,
@@ -7528,7 +9764,12 @@ export const gen4Dex = {
         85,
         40,
         5,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     riolu: new Pokemon(
         447,
@@ -7544,7 +9785,12 @@ export const gen4Dex = {
         35,
         40,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lucario: new Pokemon(
         448,
@@ -7560,7 +9806,12 @@ export const gen4Dex = {
         115,
         70,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hippopotas: new Pokemon(
         449,
@@ -7576,7 +9827,12 @@ export const gen4Dex = {
         38,
         42,
         32,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hippowdon: new Pokemon(
         450,
@@ -7592,7 +9848,12 @@ export const gen4Dex = {
         68,
         72,
         47,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skorupi: new Pokemon(
         451,
@@ -7608,7 +9869,12 @@ export const gen4Dex = {
         30,
         55,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     drapion: new Pokemon(
         452,
@@ -7624,7 +9890,12 @@ export const gen4Dex = {
         60,
         75,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     croagunk: new Pokemon(
         453,
@@ -7640,7 +9911,12 @@ export const gen4Dex = {
         61,
         40,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     toxicroak: new Pokemon(
         454,
@@ -7656,7 +9932,12 @@ export const gen4Dex = {
         86,
         65,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     carnivine: new Pokemon(
         455,
@@ -7672,7 +9953,12 @@ export const gen4Dex = {
         90,
         72,
         46,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     finneon: new Pokemon(
         456,
@@ -7688,7 +9974,12 @@ export const gen4Dex = {
         49,
         61,
         66,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lumineon: new Pokemon(
         457,
@@ -7704,7 +9995,12 @@ export const gen4Dex = {
         69,
         86,
         91,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mantyke: new Pokemon(
         458,
@@ -7720,7 +10016,12 @@ export const gen4Dex = {
         60,
         120,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     snover: new Pokemon(
         459,
@@ -7736,7 +10037,12 @@ export const gen4Dex = {
         60,
         40,
         62,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     abomasnow: new Pokemon(
         460,
@@ -7752,7 +10058,12 @@ export const gen4Dex = {
         85,
         60,
         92,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     weavile: new Pokemon(
         461,
@@ -7768,7 +10079,12 @@ export const gen4Dex = {
         45,
         85,
         125,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     magnezone: new Pokemon(
         462,
@@ -7784,7 +10100,12 @@ export const gen4Dex = {
         130,
         90,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lickilicky: new Pokemon(
         463,
@@ -7800,7 +10121,12 @@ export const gen4Dex = {
         80,
         95,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rhyperior: new Pokemon(
         464,
@@ -7816,7 +10142,12 @@ export const gen4Dex = {
         55,
         55,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tangrowth: new Pokemon(
         465,
@@ -7832,7 +10163,12 @@ export const gen4Dex = {
         110,
         50,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     electivire: new Pokemon(
         466,
@@ -7848,7 +10184,12 @@ export const gen4Dex = {
         95,
         85,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     magmortar: new Pokemon(
         467,
@@ -7864,7 +10205,12 @@ export const gen4Dex = {
         125,
         95,
         83,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     togekiss: new Pokemon(
         468,
@@ -7880,7 +10226,12 @@ export const gen4Dex = {
         120,
         115,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     yanmega: new Pokemon(
         469,
@@ -7896,7 +10247,12 @@ export const gen4Dex = {
         116,
         56,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     leafeon: new Pokemon(
         470,
@@ -7912,7 +10268,12 @@ export const gen4Dex = {
         60,
         65,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     glaceon: new Pokemon(
         471,
@@ -7928,7 +10289,12 @@ export const gen4Dex = {
         130,
         95,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gliscor: new Pokemon(
         472,
@@ -7944,7 +10310,12 @@ export const gen4Dex = {
         45,
         75,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mamoswine: new Pokemon(
         473,
@@ -7960,7 +10331,12 @@ export const gen4Dex = {
         70,
         60,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     porygonZ: new Pokemon(
         474,
@@ -7976,7 +10352,12 @@ export const gen4Dex = {
         135,
         75,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gallade: new Pokemon(
         475,
@@ -7992,7 +10373,12 @@ export const gen4Dex = {
         65,
         115,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     probopass: new Pokemon(
         476,
@@ -8008,7 +10394,12 @@ export const gen4Dex = {
         75,
         150,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dusknoir: new Pokemon(
         477,
@@ -8024,7 +10415,12 @@ export const gen4Dex = {
         65,
         135,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     froslass: new Pokemon(
         478,
@@ -8040,7 +10436,12 @@ export const gen4Dex = {
         80,
         70,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rotom: new Pokemon(
         479,
@@ -8056,7 +10457,12 @@ export const gen4Dex = {
         95,
         77,
         91,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rotomHeat: new Pokemon(
         479.1,
@@ -8072,7 +10478,12 @@ export const gen4Dex = {
         105,
         107,
         89,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     rotomWash: new Pokemon(
         479.2,
@@ -8088,7 +10499,12 @@ export const gen4Dex = {
         105,
         107,
         89,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     rotomFrost: new Pokemon(
         479.3,
@@ -8104,7 +10520,12 @@ export const gen4Dex = {
         105,
         107,
         89,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     rotomFan: new Pokemon(
         479.4,
@@ -8120,7 +10541,12 @@ export const gen4Dex = {
         105,
         107,
         89,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     rotomMow: new Pokemon(
         479.5,
@@ -8136,7 +10562,12 @@ export const gen4Dex = {
         105,
         107,
         89,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     uxie: new Pokemon(
         480,
@@ -8152,7 +10583,12 @@ export const gen4Dex = {
         75,
         130,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mesprit: new Pokemon(
         481,
@@ -8168,7 +10604,12 @@ export const gen4Dex = {
         105,
         105,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     azelf: new Pokemon(
         482,
@@ -8184,7 +10625,12 @@ export const gen4Dex = {
         125,
         70,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dialga: new Pokemon(
         483,
@@ -8200,7 +10646,12 @@ export const gen4Dex = {
         150,
         100,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     palkia: new Pokemon(
         484,
@@ -8216,7 +10667,12 @@ export const gen4Dex = {
         150,
         120,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     heatran: new Pokemon(
         485,
@@ -8232,7 +10688,12 @@ export const gen4Dex = {
         100,
         50,
         200,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     regigigas: new Pokemon(
         486,
@@ -8248,7 +10709,12 @@ export const gen4Dex = {
         80,
         110,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     giratina: new Pokemon(
         487,
@@ -8264,7 +10730,12 @@ export const gen4Dex = {
         100,
         120,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     giratinaOrigin: new Pokemon(
         487.1,
@@ -8280,7 +10751,12 @@ export const gen4Dex = {
         120,
         100,
         90,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     cresselia: new Pokemon(
         488,
@@ -8296,7 +10772,12 @@ export const gen4Dex = {
         75,
         130,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     phione: new Pokemon(
         489,
@@ -8312,7 +10793,12 @@ export const gen4Dex = {
         80,
         80,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     manaphy: new Pokemon(
         490,
@@ -8328,7 +10814,12 @@ export const gen4Dex = {
         100,
         100,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     darkrai: new Pokemon(
         491,
@@ -8344,7 +10835,12 @@ export const gen4Dex = {
         90,
         125,
         135,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shaymin: new Pokemon(
         492,
@@ -8360,7 +10856,12 @@ export const gen4Dex = {
         100,
         100,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shayminSky: new Pokemon(
         492.1,
@@ -8376,7 +10877,12 @@ export const gen4Dex = {
         120,
         75,
         127,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     arceus: new Pokemon(
         493,
@@ -8392,7 +10898,12 @@ export const gen4Dex = {
         120,
         120,
         120,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
 };
 
@@ -8411,7 +10922,12 @@ export const gen5Dex = {
         100,
         100,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     snivy: new Pokemon(
         495,
@@ -8427,7 +10943,12 @@ export const gen5Dex = {
         45,
         55,
         63,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     servine: new Pokemon(
         496,
@@ -8443,7 +10964,12 @@ export const gen5Dex = {
         60,
         75,
         83,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     serperior: new Pokemon(
         497,
@@ -8459,7 +10985,12 @@ export const gen5Dex = {
         75,
         95,
         113,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tepig: new Pokemon(
         498,
@@ -8475,7 +11006,12 @@ export const gen5Dex = {
         45,
         45,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pignite: new Pokemon(
         499,
@@ -8491,7 +11027,12 @@ export const gen5Dex = {
         70,
         55,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     emboar: new Pokemon(
         500,
@@ -8507,7 +11048,12 @@ export const gen5Dex = {
         100,
         65,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     oshawott: new Pokemon(
         501,
@@ -8523,7 +11069,12 @@ export const gen5Dex = {
         63,
         45,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dewott: new Pokemon(
         502,
@@ -8539,7 +11090,12 @@ export const gen5Dex = {
         83,
         60,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     samurott: new Pokemon(
         503,
@@ -8555,7 +11111,12 @@ export const gen5Dex = {
         108,
         70,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     patrat: new Pokemon(
         504,
@@ -8571,7 +11132,12 @@ export const gen5Dex = {
         35,
         39,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     watchog: new Pokemon(
         505,
@@ -8587,7 +11153,12 @@ export const gen5Dex = {
         60,
         69,
         77,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lillipup: new Pokemon(
         506,
@@ -8603,7 +11174,12 @@ export const gen5Dex = {
         25,
         45,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     herdier: new Pokemon(
         507,
@@ -8619,7 +11195,12 @@ export const gen5Dex = {
         35,
         65,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     stoutland: new Pokemon(
         508,
@@ -8635,7 +11216,12 @@ export const gen5Dex = {
         45,
         90,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     purrloin: new Pokemon(
         509,
@@ -8651,7 +11237,12 @@ export const gen5Dex = {
         50,
         37,
         66,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     liepard: new Pokemon(
         510,
@@ -8667,7 +11258,12 @@ export const gen5Dex = {
         88,
         50,
         106,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pansage: new Pokemon(
         511,
@@ -8683,7 +11279,12 @@ export const gen5Dex = {
         53,
         48,
         64,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     simisage: new Pokemon(
         512,
@@ -8699,7 +11300,12 @@ export const gen5Dex = {
         98,
         63,
         101,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pansear: new Pokemon(
         513,
@@ -8715,7 +11321,12 @@ export const gen5Dex = {
         53,
         48,
         64,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     simisear: new Pokemon(
         514,
@@ -8731,7 +11342,12 @@ export const gen5Dex = {
         98,
         63,
         101,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     panpour: new Pokemon(
         515,
@@ -8747,7 +11363,12 @@ export const gen5Dex = {
         53,
         48,
         64,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     simipour: new Pokemon(
         516,
@@ -8763,7 +11384,12 @@ export const gen5Dex = {
         98,
         63,
         101,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     munna: new Pokemon(
         517,
@@ -8779,7 +11405,12 @@ export const gen5Dex = {
         67,
         55,
         24,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     musharna: new Pokemon(
         518,
@@ -8795,7 +11426,12 @@ export const gen5Dex = {
         107,
         95,
         29,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pidove: new Pokemon(
         519,
@@ -8811,7 +11447,12 @@ export const gen5Dex = {
         36,
         30,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tranquill: new Pokemon(
         520,
@@ -8827,7 +11468,12 @@ export const gen5Dex = {
         50,
         42,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     unfezant: new Pokemon(
         521,
@@ -8843,7 +11489,12 @@ export const gen5Dex = {
         65,
         55,
         93,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     blitzle: new Pokemon(
         522,
@@ -8859,7 +11510,12 @@ export const gen5Dex = {
         50,
         32,
         76,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zebstrika: new Pokemon(
         523,
@@ -8875,7 +11531,12 @@ export const gen5Dex = {
         80,
         63,
         116,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     roggenrola: new Pokemon(
         524,
@@ -8891,7 +11552,12 @@ export const gen5Dex = {
         25,
         25,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     boldore: new Pokemon(
         525,
@@ -8907,7 +11573,12 @@ export const gen5Dex = {
         50,
         40,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gigalith: new Pokemon(
         526,
@@ -8923,7 +11594,12 @@ export const gen5Dex = {
         60,
         70,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     woobat: new Pokemon(
         527,
@@ -8939,7 +11615,12 @@ export const gen5Dex = {
         55,
         43,
         72,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swoobat: new Pokemon(
         528,
@@ -8955,7 +11636,12 @@ export const gen5Dex = {
         77,
         55,
         114,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     drilbur: new Pokemon(
         529,
@@ -8971,7 +11657,12 @@ export const gen5Dex = {
         30,
         45,
         68,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     excadrill: new Pokemon(
         530,
@@ -8987,7 +11678,12 @@ export const gen5Dex = {
         50,
         65,
         88,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     audino: new Pokemon(
         531,
@@ -9003,7 +11699,12 @@ export const gen5Dex = {
         60,
         86,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     timburr: new Pokemon(
         532,
@@ -9019,7 +11720,12 @@ export const gen5Dex = {
         25,
         35,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gurdurr: new Pokemon(
         533,
@@ -9035,7 +11741,12 @@ export const gen5Dex = {
         40,
         50,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     conkeldurr: new Pokemon(
         534,
@@ -9051,7 +11762,12 @@ export const gen5Dex = {
         55,
         65,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tympole: new Pokemon(
         535,
@@ -9067,7 +11783,12 @@ export const gen5Dex = {
         50,
         40,
         64,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     palpitoad: new Pokemon(
         536,
@@ -9083,7 +11804,12 @@ export const gen5Dex = {
         65,
         55,
         69,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     seismitoad: new Pokemon(
         537,
@@ -9099,7 +11825,12 @@ export const gen5Dex = {
         85,
         75,
         74,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     throh: new Pokemon(
         538,
@@ -9115,7 +11846,12 @@ export const gen5Dex = {
         30,
         85,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sawk: new Pokemon(
         539,
@@ -9131,7 +11867,12 @@ export const gen5Dex = {
         30,
         75,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sewaddle: new Pokemon(
         540,
@@ -9147,7 +11888,12 @@ export const gen5Dex = {
         40,
         60,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swadloon: new Pokemon(
         541,
@@ -9163,7 +11909,12 @@ export const gen5Dex = {
         50,
         80,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     leavanny: new Pokemon(
         542,
@@ -9179,7 +11930,12 @@ export const gen5Dex = {
         70,
         70,
         92,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     venipede: new Pokemon(
         543,
@@ -9195,7 +11951,12 @@ export const gen5Dex = {
         30,
         39,
         57,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     whirlipede: new Pokemon(
         544,
@@ -9211,7 +11972,12 @@ export const gen5Dex = {
         40,
         79,
         47,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     scolipede: new Pokemon(
         545,
@@ -9227,7 +11993,12 @@ export const gen5Dex = {
         55,
         69,
         112,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cottonee: new Pokemon(
         546,
@@ -9243,7 +12014,12 @@ export const gen5Dex = {
         37,
         50,
         66,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     whimsicott: new Pokemon(
         547,
@@ -9259,7 +12035,12 @@ export const gen5Dex = {
         77,
         75,
         116,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     petilil: new Pokemon(
         548,
@@ -9275,7 +12056,12 @@ export const gen5Dex = {
         70,
         50,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lilligant: new Pokemon(
         549,
@@ -9291,7 +12077,12 @@ export const gen5Dex = {
         110,
         75,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     basculin: new Pokemon(
         550,
@@ -9307,7 +12098,12 @@ export const gen5Dex = {
         80,
         55,
         98,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     basculinB: new Pokemon(
         550.1,
@@ -9323,7 +12119,12 @@ export const gen5Dex = {
         80,
         55,
         98,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     sandile: new Pokemon(
         551,
@@ -9339,7 +12140,12 @@ export const gen5Dex = {
         35,
         35,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     krokorok: new Pokemon(
         552,
@@ -9355,7 +12161,12 @@ export const gen5Dex = {
         45,
         45,
         74,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     krookodile: new Pokemon(
         553,
@@ -9371,7 +12182,12 @@ export const gen5Dex = {
         65,
         70,
         92,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     darumaka: new Pokemon(
         554,
@@ -9387,7 +12203,12 @@ export const gen5Dex = {
         15,
         45,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     darmanitan: new Pokemon(
         555,
@@ -9403,7 +12224,12 @@ export const gen5Dex = {
         30,
         55,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zenDarmanitan: new Pokemon(
         555.1,
@@ -9419,7 +12245,12 @@ export const gen5Dex = {
         140,
         105,
         55,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     maractus: new Pokemon(
         556,
@@ -9435,7 +12266,12 @@ export const gen5Dex = {
         106,
         67,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dwebble: new Pokemon(
         557,
@@ -9451,7 +12287,12 @@ export const gen5Dex = {
         35,
         35,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     crustle: new Pokemon(
         558,
@@ -9467,7 +12308,12 @@ export const gen5Dex = {
         65,
         75,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     scraggy: new Pokemon(
         559,
@@ -9483,7 +12329,12 @@ export const gen5Dex = {
         35,
         70,
         48,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     scrafty: new Pokemon(
         560,
@@ -9499,7 +12350,12 @@ export const gen5Dex = {
         45,
         115,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sigilyph: new Pokemon(
         561,
@@ -9515,7 +12371,12 @@ export const gen5Dex = {
         103,
         80,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     yamask: new Pokemon(
         562,
@@ -9531,7 +12392,12 @@ export const gen5Dex = {
         55,
         65,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cofagrigus: new Pokemon(
         563,
@@ -9547,7 +12413,12 @@ export const gen5Dex = {
         95,
         105,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tirtouga: new Pokemon(
         564,
@@ -9563,7 +12434,12 @@ export const gen5Dex = {
         53,
         45,
         22,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     carracosta: new Pokemon(
         565,
@@ -9579,7 +12455,12 @@ export const gen5Dex = {
         83,
         65,
         32,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     archen: new Pokemon(
         566,
@@ -9595,7 +12476,12 @@ export const gen5Dex = {
         74,
         45,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     archeops: new Pokemon(
         567,
@@ -9611,7 +12497,12 @@ export const gen5Dex = {
         112,
         65,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     trubbish: new Pokemon(
         568,
@@ -9627,7 +12518,12 @@ export const gen5Dex = {
         40,
         62,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     garbodor: new Pokemon(
         569,
@@ -9643,7 +12539,12 @@ export const gen5Dex = {
         60,
         82,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zorua: new Pokemon(
         570,
@@ -9659,7 +12560,12 @@ export const gen5Dex = {
         80,
         40,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zoroark: new Pokemon(
         571,
@@ -9675,7 +12581,12 @@ export const gen5Dex = {
         120,
         60,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     minccino: new Pokemon(
         572,
@@ -9691,7 +12602,12 @@ export const gen5Dex = {
         40,
         40,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cinccino: new Pokemon(
         573,
@@ -9707,7 +12623,12 @@ export const gen5Dex = {
         65,
         60,
         115,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gothita: new Pokemon(
         574,
@@ -9723,7 +12644,12 @@ export const gen5Dex = {
         55,
         65,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gothorita: new Pokemon(
         575,
@@ -9739,7 +12665,12 @@ export const gen5Dex = {
         75,
         85,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gothitelle: new Pokemon(
         576,
@@ -9755,7 +12686,12 @@ export const gen5Dex = {
         95,
         110,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     solosis: new Pokemon(
         577,
@@ -9771,7 +12707,12 @@ export const gen5Dex = {
         105,
         50,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     duosion: new Pokemon(
         578,
@@ -9787,7 +12728,12 @@ export const gen5Dex = {
         125,
         60,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     reuniclus: new Pokemon(
         579,
@@ -9803,7 +12749,12 @@ export const gen5Dex = {
         125,
         85,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ducklett: new Pokemon(
         580,
@@ -9819,7 +12770,12 @@ export const gen5Dex = {
         44,
         50,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swanna: new Pokemon(
         581,
@@ -9835,7 +12791,12 @@ export const gen5Dex = {
         87,
         63,
         98,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vanillite: new Pokemon(
         582,
@@ -9851,7 +12812,12 @@ export const gen5Dex = {
         65,
         60,
         44,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vanillish: new Pokemon(
         583,
@@ -9867,7 +12833,12 @@ export const gen5Dex = {
         80,
         75,
         59,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vanilluxe: new Pokemon(
         584,
@@ -9883,7 +12854,12 @@ export const gen5Dex = {
         110,
         95,
         79,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     deerling: new Pokemon(
         585,
@@ -9899,7 +12875,12 @@ export const gen5Dex = {
         40,
         50,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sawsbuck: new Pokemon(
         586,
@@ -9915,7 +12896,12 @@ export const gen5Dex = {
         60,
         70,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     emolga: new Pokemon(
         587,
@@ -9931,7 +12917,12 @@ export const gen5Dex = {
         75,
         60,
         103,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     karrablast: new Pokemon(
         588,
@@ -9947,7 +12938,12 @@ export const gen5Dex = {
         40,
         45,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     escavalier: new Pokemon(
         589,
@@ -9963,7 +12959,12 @@ export const gen5Dex = {
         60,
         105,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     foongus: new Pokemon(
         590,
@@ -9979,7 +12980,12 @@ export const gen5Dex = {
         55,
         55,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     amoonguss: new Pokemon(
         591,
@@ -9995,7 +13001,12 @@ export const gen5Dex = {
         85,
         80,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     frillish: new Pokemon(
         592,
@@ -10011,7 +13022,12 @@ export const gen5Dex = {
         65,
         85,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     jellicent: new Pokemon(
         593,
@@ -10027,7 +13043,12 @@ export const gen5Dex = {
         85,
         105,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     alomomola: new Pokemon(
         594,
@@ -10043,7 +13064,12 @@ export const gen5Dex = {
         40,
         45,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     joltik: new Pokemon(
         595,
@@ -10059,7 +13085,12 @@ export const gen5Dex = {
         57,
         50,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     galvantula: new Pokemon(
         596,
@@ -10075,7 +13106,12 @@ export const gen5Dex = {
         97,
         60,
         108,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ferroseed: new Pokemon(
         597,
@@ -10091,7 +13127,12 @@ export const gen5Dex = {
         24,
         86,
         10,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ferrothorn: new Pokemon(
         598,
@@ -10107,7 +13148,12 @@ export const gen5Dex = {
         54,
         116,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     klink: new Pokemon(
         599,
@@ -10123,7 +13169,12 @@ export const gen5Dex = {
         45,
         60,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     klang: new Pokemon(
         600,
@@ -10139,7 +13190,12 @@ export const gen5Dex = {
         70,
         85,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     klinklang: new Pokemon(
         601,
@@ -10155,7 +13211,12 @@ export const gen5Dex = {
         70,
         85,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tynamo: new Pokemon(
         602,
@@ -10171,7 +13232,12 @@ export const gen5Dex = {
         45,
         40,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     eelektrik: new Pokemon(
         603,
@@ -10187,7 +13253,12 @@ export const gen5Dex = {
         75,
         70,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     eelektross: new Pokemon(
         604,
@@ -10203,7 +13274,12 @@ export const gen5Dex = {
         105,
         80,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     elgyem: new Pokemon(
         605,
@@ -10219,7 +13295,12 @@ export const gen5Dex = {
         85,
         55,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     beheeyem: new Pokemon(
         606,
@@ -10235,7 +13316,12 @@ export const gen5Dex = {
         125,
         95,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     litwick: new Pokemon(
         607,
@@ -10251,7 +13337,12 @@ export const gen5Dex = {
         65,
         55,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lampent: new Pokemon(
         608,
@@ -10267,7 +13358,12 @@ export const gen5Dex = {
         95,
         60,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chandelure: new Pokemon(
         609,
@@ -10283,7 +13379,12 @@ export const gen5Dex = {
         145,
         90,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     axew: new Pokemon(
         610,
@@ -10299,7 +13400,12 @@ export const gen5Dex = {
         30,
         40,
         57,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fraxure: new Pokemon(
         611,
@@ -10315,7 +13421,12 @@ export const gen5Dex = {
         40,
         50,
         67,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     haxorus: new Pokemon(
         612,
@@ -10331,7 +13442,12 @@ export const gen5Dex = {
         60,
         70,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cubchoo: new Pokemon(
         613,
@@ -10347,7 +13463,12 @@ export const gen5Dex = {
         60,
         40,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     beartic: new Pokemon(
         614,
@@ -10363,7 +13484,12 @@ export const gen5Dex = {
         70,
         80,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cryogonal: new Pokemon(
         615,
@@ -10379,7 +13505,12 @@ export const gen5Dex = {
         95,
         135,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shelmet: new Pokemon(
         616,
@@ -10395,7 +13526,12 @@ export const gen5Dex = {
         40,
         65,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     accelgor: new Pokemon(
         617,
@@ -10411,7 +13547,12 @@ export const gen5Dex = {
         100,
         60,
         145,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     stunfisk: new Pokemon(
         618,
@@ -10427,7 +13568,12 @@ export const gen5Dex = {
         81,
         99,
         32,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mienfoo: new Pokemon(
         619,
@@ -10443,7 +13589,12 @@ export const gen5Dex = {
         55,
         50,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mienshao: new Pokemon(
         620,
@@ -10459,7 +13610,12 @@ export const gen5Dex = {
         95,
         60,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     druddigon: new Pokemon(
         621,
@@ -10475,7 +13631,12 @@ export const gen5Dex = {
         60,
         90,
         48,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     golett: new Pokemon(
         622,
@@ -10491,7 +13652,12 @@ export const gen5Dex = {
         35,
         50,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     golurk: new Pokemon(
         623,
@@ -10507,7 +13673,12 @@ export const gen5Dex = {
         55,
         80,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pawniard: new Pokemon(
         624,
@@ -10523,7 +13694,12 @@ export const gen5Dex = {
         40,
         40,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bisharp: new Pokemon(
         625,
@@ -10539,7 +13715,12 @@ export const gen5Dex = {
         60,
         70,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bouffalant: new Pokemon(
         626,
@@ -10555,7 +13736,12 @@ export const gen5Dex = {
         40,
         95,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rufflet: new Pokemon(
         627,
@@ -10571,7 +13757,12 @@ export const gen5Dex = {
         37,
         50,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     braviary: new Pokemon(
         628,
@@ -10587,7 +13778,12 @@ export const gen5Dex = {
         57,
         75,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vullaby: new Pokemon(
         629,
@@ -10603,7 +13799,12 @@ export const gen5Dex = {
         45,
         65,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mandibuzz: new Pokemon(
         630,
@@ -10619,7 +13820,12 @@ export const gen5Dex = {
         55,
         95,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     heatmor: new Pokemon(
         631,
@@ -10635,7 +13841,12 @@ export const gen5Dex = {
         105,
         66,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     durant: new Pokemon(
         632,
@@ -10651,7 +13862,12 @@ export const gen5Dex = {
         48,
         48,
         109,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     deino: new Pokemon(
         633,
@@ -10667,7 +13883,12 @@ export const gen5Dex = {
         45,
         50,
         38,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zweilous: new Pokemon(
         634,
@@ -10683,7 +13904,12 @@ export const gen5Dex = {
         65,
         70,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hydreigon: new Pokemon(
         635,
@@ -10699,7 +13925,12 @@ export const gen5Dex = {
         125,
         90,
         98,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     larvesta: new Pokemon(
         636,
@@ -10715,7 +13946,12 @@ export const gen5Dex = {
         50,
         55,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     volcarona: new Pokemon(
         637,
@@ -10731,7 +13967,12 @@ export const gen5Dex = {
         135,
         105,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cobalion: new Pokemon(
         638,
@@ -10747,7 +13988,12 @@ export const gen5Dex = {
         90,
         72,
         108,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     terrakion: new Pokemon(
         639,
@@ -10763,7 +14009,12 @@ export const gen5Dex = {
         72,
         90,
         108,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     virizion: new Pokemon(
         640,
@@ -10779,7 +14030,12 @@ export const gen5Dex = {
         90,
         129,
         108,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tornadus: new Pokemon(
         641,
@@ -10795,7 +14051,12 @@ export const gen5Dex = {
         125,
         80,
         111,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tornadusT: new Pokemon(
         641.1,
@@ -10811,7 +14072,12 @@ export const gen5Dex = {
         110,
         90,
         121,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     thundurus: new Pokemon(
         642,
@@ -10827,7 +14093,12 @@ export const gen5Dex = {
         125,
         80,
         111,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     thundurusT: new Pokemon(
         642.1,
@@ -10843,7 +14114,12 @@ export const gen5Dex = {
         145,
         80,
         101,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     reshiram: new Pokemon(
         643,
@@ -10859,7 +14135,12 @@ export const gen5Dex = {
         150,
         120,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zekrom: new Pokemon(
         644,
@@ -10875,7 +14156,12 @@ export const gen5Dex = {
         120,
         100,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     landorus: new Pokemon(
         645,
@@ -10891,7 +14177,12 @@ export const gen5Dex = {
         115,
         80,
         101,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     landorusT: new Pokemon(
         645.1,
@@ -10907,7 +14198,12 @@ export const gen5Dex = {
         105,
         80,
         91,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     kyurem: new Pokemon(
         646,
@@ -10923,7 +14219,12 @@ export const gen5Dex = {
         130,
         90,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kyuremW: new Pokemon(
         646.1,
@@ -10939,7 +14240,12 @@ export const gen5Dex = {
         120,
         90,
         95,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     kyuremB: new Pokemon(
         646.2,
@@ -10955,7 +14261,12 @@ export const gen5Dex = {
         170,
         100,
         95,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     keldeo: new Pokemon(
         647,
@@ -10971,7 +14282,12 @@ export const gen5Dex = {
         129,
         90,
         108,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     keldeoR: new Pokemon(
         647.1,
@@ -10987,7 +14303,12 @@ export const gen5Dex = {
         129,
         90,
         108,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     meloetta: new Pokemon(
         648,
@@ -11003,7 +14324,12 @@ export const gen5Dex = {
         128,
         128,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     meloettaP: new Pokemon(
         648.1,
@@ -11019,7 +14345,12 @@ export const gen5Dex = {
         77,
         77,
         90,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     genesect: new Pokemon(
         649,
@@ -11035,7 +14366,12 @@ export const gen5Dex = {
         120,
         95,
         99,
-        noMon
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.noLine
     ),
 };
 
@@ -11054,7 +14390,12 @@ export const gen6Dex = {
         122,
         120,
         80,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaCharizardX: new Pokemon(
         6.1,
@@ -11070,7 +14411,12 @@ export const gen6Dex = {
         130,
         85,
         100,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaCharizardY: new Pokemon(
         6.2,
@@ -11086,7 +14432,12 @@ export const gen6Dex = {
         159,
         115,
         100,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaBlastoise: new Pokemon(
         9.1,
@@ -11102,7 +14453,12 @@ export const gen6Dex = {
         135,
         115,
         78,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaBeedrill: new Pokemon(
         15.1,
@@ -11118,7 +14474,12 @@ export const gen6Dex = {
         15,
         80,
         145,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaPidgeot: new Pokemon(
         18.1,
@@ -11134,7 +14495,12 @@ export const gen6Dex = {
         135,
         80,
         121,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaAlakazam: new Pokemon(
         65.1,
@@ -11150,7 +14516,12 @@ export const gen6Dex = {
         175,
         95,
         150,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaSlowbro: new Pokemon(
         80.1,
@@ -11166,7 +14537,12 @@ export const gen6Dex = {
         130,
         80,
         30,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaGengar: new Pokemon(
         94.1,
@@ -11182,7 +14558,12 @@ export const gen6Dex = {
         170,
         95,
         130,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaKangaskhan: new Pokemon(
         115.1,
@@ -11198,7 +14579,12 @@ export const gen6Dex = {
         60,
         100,
         100,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaPinsir: new Pokemon(
         127.1,
@@ -11214,7 +14600,12 @@ export const gen6Dex = {
         65,
         90,
         105,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaGyarados: new Pokemon(
         130.1,
@@ -11230,7 +14621,12 @@ export const gen6Dex = {
         70,
         130,
         81,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaAerodactyl: new Pokemon(
         142.1,
@@ -11246,7 +14642,12 @@ export const gen6Dex = {
         70,
         95,
         150,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaMewtwoX: new Pokemon(
         150.1,
@@ -11262,7 +14663,12 @@ export const gen6Dex = {
         154,
         100,
         130,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaMewtwoY: new Pokemon(
         150.2,
@@ -11278,7 +14684,12 @@ export const gen6Dex = {
         194,
         120,
         140,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaAmpharos: new Pokemon(
         181.1,
@@ -11294,7 +14705,12 @@ export const gen6Dex = {
         165,
         110,
         45,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaSteelix: new Pokemon(
         208.1,
@@ -11310,7 +14726,12 @@ export const gen6Dex = {
         55,
         95,
         30,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaScizor: new Pokemon(
         212.1,
@@ -11326,7 +14747,12 @@ export const gen6Dex = {
         65,
         100,
         75,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaHeracross: new Pokemon(
         214.1,
@@ -11342,7 +14768,12 @@ export const gen6Dex = {
         40,
         105,
         75,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaHoundoom: new Pokemon(
         229.1,
@@ -11358,7 +14789,12 @@ export const gen6Dex = {
         140,
         90,
         115,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaTyranitar: new Pokemon(
         248.1,
@@ -11374,7 +14810,12 @@ export const gen6Dex = {
         95,
         120,
         71,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaSceptile: new Pokemon(
         254.1,
@@ -11390,7 +14831,12 @@ export const gen6Dex = {
         145,
         85,
         145,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaBlaziken: new Pokemon(
         257.1,
@@ -11406,7 +14852,12 @@ export const gen6Dex = {
         130,
         80,
         100,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaSwampert: new Pokemon(
         260.1,
@@ -11422,7 +14873,12 @@ export const gen6Dex = {
         95,
         110,
         70,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaGardevoir: new Pokemon(
         282.1,
@@ -11438,7 +14894,12 @@ export const gen6Dex = {
         165,
         135,
         100,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaSableye: new Pokemon(
         302.1,
@@ -11454,7 +14915,12 @@ export const gen6Dex = {
         85,
         115,
         20,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaMawile: new Pokemon(
         303.1,
@@ -11470,7 +14936,12 @@ export const gen6Dex = {
         55,
         95,
         50,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaAggron: new Pokemon(
         306.1,
@@ -11486,7 +14957,12 @@ export const gen6Dex = {
         60,
         80,
         50,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaMedicham: new Pokemon(
         308.1,
@@ -11502,7 +14978,12 @@ export const gen6Dex = {
         80,
         85,
         100,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaManectric: new Pokemon(
         310.1,
@@ -11518,7 +14999,12 @@ export const gen6Dex = {
         135,
         80,
         135,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaCamerupt: new Pokemon(
         323.1,
@@ -11534,7 +15020,12 @@ export const gen6Dex = {
         145,
         105,
         20,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaSharpedo: new Pokemon(
         319.1,
@@ -11550,7 +15041,12 @@ export const gen6Dex = {
         110,
         65,
         105,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaAltaria: new Pokemon(
         334.1,
@@ -11566,7 +15062,12 @@ export const gen6Dex = {
         110,
         105,
         80,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaBanette: new Pokemon(
         354.1,
@@ -11582,7 +15083,12 @@ export const gen6Dex = {
         93,
         83,
         75,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaAbsol: new Pokemon(
         359.1,
@@ -11598,7 +15104,12 @@ export const gen6Dex = {
         115,
         60,
         115,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaGlalie: new Pokemon(
         362.1,
@@ -11614,7 +15125,12 @@ export const gen6Dex = {
         120,
         80,
         100,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaSalamence: new Pokemon(
         373.1,
@@ -11630,7 +15146,12 @@ export const gen6Dex = {
         120,
         90,
         120,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaMetagross: new Pokemon(
         376.1,
@@ -11646,7 +15167,12 @@ export const gen6Dex = {
         105,
         110,
         110,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaLatias: new Pokemon(
         380.1,
@@ -11662,7 +15188,12 @@ export const gen6Dex = {
         140,
         150,
         110,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaLatios: new Pokemon(
         381.1,
@@ -11678,7 +15209,12 @@ export const gen6Dex = {
         160,
         120,
         110,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaRayquaza: new Pokemon(
         384.1,
@@ -11694,7 +15230,12 @@ export const gen6Dex = {
         180,
         100,
         115,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaLopunny: new Pokemon(
         428.1,
@@ -11710,7 +15251,12 @@ export const gen6Dex = {
         54,
         96,
         135,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaGarchomp: new Pokemon(
         445.1,
@@ -11726,7 +15272,12 @@ export const gen6Dex = {
         120,
         95,
         92,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaGallade: new Pokemon(
         475.1,
@@ -11742,7 +15293,12 @@ export const gen6Dex = {
         65,
         115,
         110,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     megaAudino: new Pokemon(
         531.1,
@@ -11758,7 +15314,12 @@ export const gen6Dex = {
         80,
         126,
         50,
-        "mega"
+        [],
+        [],
+        [],
+        "mega",
+        [],
+        evoLines.pikachu
     ),
     primalKyogre: new Pokemon(
         382.1,
@@ -11774,7 +15335,12 @@ export const gen6Dex = {
         180,
         160,
         90,
-        "primal"
+        [],
+        [],
+        [],
+        "primal",
+        [],
+        evoLines.pikachu
     ),
     primalGroudon: new Pokemon(
         383.1,
@@ -11790,7 +15356,12 @@ export const gen6Dex = {
         150,
         90,
         90,
-        "primal"
+        [],
+        [],
+        [],
+        "primal",
+        [],
+        evoLines.pikachu
     ),
     gZigzagoon: new Pokemon(
         263.1,
@@ -11806,7 +15377,12 @@ export const gen6Dex = {
         30,
         41,
         60,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gLinoone: new Pokemon(
         264.1,
@@ -11822,7 +15398,12 @@ export const gen6Dex = {
         50,
         61,
         100,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     chespin: new Pokemon(
         650,
@@ -11838,7 +15419,12 @@ export const gen6Dex = {
         48,
         45,
         38,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     quilladin: new Pokemon(
         651,
@@ -11854,7 +15440,12 @@ export const gen6Dex = {
         56,
         58,
         57,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chesnaught: new Pokemon(
         652,
@@ -11870,7 +15461,12 @@ export const gen6Dex = {
         74,
         75,
         64,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fennekin: new Pokemon(
         653,
@@ -11886,7 +15482,12 @@ export const gen6Dex = {
         62,
         60,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     braixen: new Pokemon(
         654,
@@ -11902,7 +15503,12 @@ export const gen6Dex = {
         90,
         70,
         73,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     delphox: new Pokemon(
         655,
@@ -11918,7 +15524,12 @@ export const gen6Dex = {
         114,
         100,
         104,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     froakie: new Pokemon(
         656,
@@ -11934,7 +15545,12 @@ export const gen6Dex = {
         62,
         44,
         71,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     frogadier: new Pokemon(
         657,
@@ -11950,7 +15566,12 @@ export const gen6Dex = {
         83,
         56,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     greninja: new Pokemon(
         658,
@@ -11966,7 +15587,12 @@ export const gen6Dex = {
         103,
         71,
         122,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bunnelby: new Pokemon(
         659,
@@ -11982,7 +15608,12 @@ export const gen6Dex = {
         32,
         36,
         57,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     diggersby: new Pokemon(
         660,
@@ -11998,7 +15629,12 @@ export const gen6Dex = {
         50,
         77,
         78,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fletchling: new Pokemon(
         661,
@@ -12014,7 +15650,12 @@ export const gen6Dex = {
         40,
         38,
         62,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fletchinder: new Pokemon(
         662,
@@ -12030,7 +15671,12 @@ export const gen6Dex = {
         56,
         52,
         84,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     talonflame: new Pokemon(
         663,
@@ -12046,7 +15692,12 @@ export const gen6Dex = {
         74,
         69,
         126,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     scatterbug: new Pokemon(
         664,
@@ -12062,7 +15713,12 @@ export const gen6Dex = {
         27,
         25,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     spewpa: new Pokemon(
         665,
@@ -12078,7 +15734,12 @@ export const gen6Dex = {
         27,
         30,
         29,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vivillon: new Pokemon(
         666,
@@ -12094,7 +15755,12 @@ export const gen6Dex = {
         90,
         50,
         89,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     litleo: new Pokemon(
         667,
@@ -12110,7 +15776,12 @@ export const gen6Dex = {
         54,
         72,
         73,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pyroar: new Pokemon(
         668,
@@ -12126,7 +15797,12 @@ export const gen6Dex = {
         66,
         106,
         109,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     flabebe: new Pokemon(
         669,
@@ -12142,7 +15818,12 @@ export const gen6Dex = {
         79,
         42,
         61,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     floette: new Pokemon(
         670,
@@ -12158,7 +15839,12 @@ export const gen6Dex = {
         98,
         52,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     florges: new Pokemon(
         671,
@@ -12174,7 +15860,12 @@ export const gen6Dex = {
         154,
         75,
         112,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skiddo: new Pokemon(
         672,
@@ -12190,7 +15881,12 @@ export const gen6Dex = {
         62,
         57,
         52,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gogoat: new Pokemon(
         673,
@@ -12206,7 +15902,12 @@ export const gen6Dex = {
         97,
         81,
         68,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pancham: new Pokemon(
         674,
@@ -12222,7 +15923,12 @@ export const gen6Dex = {
         46,
         48,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pangoro: new Pokemon(
         675,
@@ -12238,7 +15944,12 @@ export const gen6Dex = {
         69,
         71,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     furfrou: new Pokemon(
         676,
@@ -12254,7 +15965,12 @@ export const gen6Dex = {
         65,
         90,
         102,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     espurr: new Pokemon(
         677,
@@ -12270,7 +15986,12 @@ export const gen6Dex = {
         63,
         60,
         68,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     meowstic: new Pokemon(
         678,
@@ -12286,7 +16007,12 @@ export const gen6Dex = {
         83,
         81,
         104,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     meowsticF: new Pokemon(
         678.1,
@@ -12302,7 +16028,12 @@ export const gen6Dex = {
         83,
         81,
         104,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     honedge: new Pokemon(
         679,
@@ -12318,7 +16049,12 @@ export const gen6Dex = {
         35,
         37,
         28,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     doublade: new Pokemon(
         680,
@@ -12334,7 +16070,12 @@ export const gen6Dex = {
         45,
         49,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     aegislash: new Pokemon(
         681,
@@ -12350,7 +16091,12 @@ export const gen6Dex = {
         50,
         140,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     aegislashBlade: new Pokemon(
         681.1,
@@ -12366,7 +16112,12 @@ export const gen6Dex = {
         140,
         50,
         60,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     spritzee: new Pokemon(
         682,
@@ -12382,7 +16133,12 @@ export const gen6Dex = {
         63,
         65,
         23,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     aromatisse: new Pokemon(
         683,
@@ -12398,7 +16154,12 @@ export const gen6Dex = {
         99,
         89,
         29,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     swirlix: new Pokemon(
         684,
@@ -12414,7 +16175,12 @@ export const gen6Dex = {
         59,
         57,
         49,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     slurpuff: new Pokemon(
         685,
@@ -12430,7 +16196,12 @@ export const gen6Dex = {
         85,
         75,
         72,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     inkay: new Pokemon(
         686,
@@ -12446,7 +16217,12 @@ export const gen6Dex = {
         37,
         46,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     malamar: new Pokemon(
         687,
@@ -12462,7 +16238,12 @@ export const gen6Dex = {
         68,
         75,
         73,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     binacle: new Pokemon(
         688,
@@ -12478,7 +16259,12 @@ export const gen6Dex = {
         39,
         56,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     barbaracle: new Pokemon(
         689,
@@ -12494,7 +16280,12 @@ export const gen6Dex = {
         54,
         86,
         68,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skrelp: new Pokemon(
         690,
@@ -12510,7 +16301,12 @@ export const gen6Dex = {
         60,
         60,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dragalge: new Pokemon(
         691,
@@ -12526,7 +16322,12 @@ export const gen6Dex = {
         97,
         123,
         44,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     clauncher: new Pokemon(
         692,
@@ -12542,7 +16343,12 @@ export const gen6Dex = {
         58,
         63,
         44,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     clawitzer: new Pokemon(
         693,
@@ -12558,7 +16364,12 @@ export const gen6Dex = {
         120,
         89,
         59,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     helioptile: new Pokemon(
         694,
@@ -12574,7 +16385,12 @@ export const gen6Dex = {
         61,
         43,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     heliolisk: new Pokemon(
         695,
@@ -12590,7 +16406,12 @@ export const gen6Dex = {
         109,
         94,
         109,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tyrunt: new Pokemon(
         696,
@@ -12606,7 +16427,12 @@ export const gen6Dex = {
         45,
         45,
         48,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tyrantrum: new Pokemon(
         697,
@@ -12622,7 +16448,12 @@ export const gen6Dex = {
         69,
         59,
         71,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     amaura: new Pokemon(
         698,
@@ -12638,7 +16469,12 @@ export const gen6Dex = {
         67,
         63,
         46,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     aurorus: new Pokemon(
         699,
@@ -12654,7 +16490,12 @@ export const gen6Dex = {
         99,
         92,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sylveon: new Pokemon(
         700,
@@ -12670,7 +16511,12 @@ export const gen6Dex = {
         110,
         130,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hawlucha: new Pokemon(
         701,
@@ -12686,7 +16532,12 @@ export const gen6Dex = {
         74,
         63,
         118,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dedenne: new Pokemon(
         702,
@@ -12702,7 +16553,12 @@ export const gen6Dex = {
         81,
         67,
         101,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     carbink: new Pokemon(
         703,
@@ -12718,7 +16574,12 @@ export const gen6Dex = {
         50,
         150,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     goomy: new Pokemon(
         704,
@@ -12734,7 +16595,12 @@ export const gen6Dex = {
         55,
         75,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sliggoo: new Pokemon(
         705,
@@ -12750,7 +16616,12 @@ export const gen6Dex = {
         83,
         113,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     goodra: new Pokemon(
         706,
@@ -12766,7 +16637,12 @@ export const gen6Dex = {
         110,
         150,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     klefki: new Pokemon(
         707,
@@ -12782,7 +16658,12 @@ export const gen6Dex = {
         80,
         87,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     phantump: new Pokemon(
         708,
@@ -12798,7 +16679,12 @@ export const gen6Dex = {
         50,
         60,
         38,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     trevenant: new Pokemon(
         709,
@@ -12814,7 +16700,12 @@ export const gen6Dex = {
         65,
         82,
         56,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pumpkaboo: new Pokemon(
         710,
@@ -12830,7 +16721,12 @@ export const gen6Dex = {
         44,
         55,
         51,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gourgeist: new Pokemon(
         711,
@@ -12846,7 +16742,12 @@ export const gen6Dex = {
         58,
         75,
         84,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bergmite: new Pokemon(
         712,
@@ -12862,7 +16763,12 @@ export const gen6Dex = {
         35,
         28,
         32,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     avalugg: new Pokemon(
         713,
@@ -12878,7 +16784,12 @@ export const gen6Dex = {
         46,
         28,
         44,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     noibat: new Pokemon(
         714,
@@ -12894,7 +16805,12 @@ export const gen6Dex = {
         40,
         55,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     noivern: new Pokemon(
         715,
@@ -12910,7 +16826,12 @@ export const gen6Dex = {
         80,
         123,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     xerneas: new Pokemon(
         716,
@@ -12926,7 +16847,12 @@ export const gen6Dex = {
         131,
         98,
         99,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     yveltal: new Pokemon(
         717,
@@ -12942,7 +16868,12 @@ export const gen6Dex = {
         131,
         98,
         99,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zygarde: new Pokemon(
         718,
@@ -12958,7 +16889,12 @@ export const gen6Dex = {
         81,
         95,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     diancie: new Pokemon(
         719,
@@ -12974,7 +16910,12 @@ export const gen6Dex = {
         100,
         150,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     megaDiancie: new Pokemon(
         719.1,
@@ -12990,7 +16931,12 @@ export const gen6Dex = {
         160,
         110,
         110,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     hoopa: new Pokemon(
         720,
@@ -13006,7 +16952,12 @@ export const gen6Dex = {
         150,
         130,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hoopaUnbound: new Pokemon(
         720.1,
@@ -13022,7 +16973,12 @@ export const gen6Dex = {
         170,
         130,
         80,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     volcanion: new Pokemon(
         721,
@@ -13038,7 +16994,12 @@ export const gen6Dex = {
         130,
         90,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
 };
 
@@ -13057,7 +17018,12 @@ export const gen7Dex = {
         25,
         35,
         72,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aRaticate: new Pokemon(
         19.2,
@@ -13073,7 +17039,12 @@ export const gen7Dex = {
         40,
         80,
         77,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aRaichu: new Pokemon(
         26.1,
@@ -13089,7 +17060,12 @@ export const gen7Dex = {
         95,
         85,
         110,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aSandshrew: new Pokemon(
         27.1,
@@ -13105,7 +17081,12 @@ export const gen7Dex = {
         10,
         35,
         40,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aSandslash: new Pokemon(
         28.1,
@@ -13121,7 +17102,12 @@ export const gen7Dex = {
         25,
         65,
         65,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aVulpix: new Pokemon(
         37.1,
@@ -13137,7 +17123,12 @@ export const gen7Dex = {
         50,
         65,
         65,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aNinetails: new Pokemon(
         38.1,
@@ -13153,7 +17144,12 @@ export const gen7Dex = {
         81,
         100,
         109,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aDiglett: new Pokemon(
         50.1,
@@ -13169,7 +17165,12 @@ export const gen7Dex = {
         35,
         45,
         90,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aDugtrio: new Pokemon(
         51.1,
@@ -13185,7 +17186,12 @@ export const gen7Dex = {
         50,
         70,
         110,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aMeowth: new Pokemon(
         52.1,
@@ -13201,7 +17207,12 @@ export const gen7Dex = {
         50,
         40,
         90,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aPersian: new Pokemon(
         53.1,
@@ -13217,7 +17228,12 @@ export const gen7Dex = {
         75,
         65,
         115,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aGeodude: new Pokemon(
         74.1,
@@ -13233,7 +17249,12 @@ export const gen7Dex = {
         30,
         30,
         20,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aGraveler: new Pokemon(
         75.1,
@@ -13249,7 +17270,12 @@ export const gen7Dex = {
         45,
         45,
         35,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aGolem: new Pokemon(
         76.1,
@@ -13265,7 +17291,12 @@ export const gen7Dex = {
         55,
         65,
         45,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aGrimer: new Pokemon(
         88.1,
@@ -13281,7 +17312,12 @@ export const gen7Dex = {
         40,
         50,
         25,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aMuk: new Pokemon(
         89.1,
@@ -13297,7 +17333,12 @@ export const gen7Dex = {
         65,
         100,
         50,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aExeggcutor: new Pokemon(
         103.1,
@@ -13313,7 +17354,12 @@ export const gen7Dex = {
         125,
         75,
         45,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     aMarowak: new Pokemon(
         105.1,
@@ -13329,7 +17375,12 @@ export const gen7Dex = {
         50,
         80,
         45,
-        "alolan"
+        [],
+        [],
+        [],
+        "alolan",
+        [],
+        evoLines.pikachu
     ),
     zygarde10Percent: new Pokemon(
         718.1,
@@ -13345,7 +17396,12 @@ export const gen7Dex = {
         61,
         85,
         115,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     zygardeComplete: new Pokemon(
         718.2,
@@ -13361,7 +17417,12 @@ export const gen7Dex = {
         91,
         95,
         85,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     rowlet: new Pokemon(
         722,
@@ -13377,7 +17438,12 @@ export const gen7Dex = {
         50,
         50,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dartrix: new Pokemon(
         723,
@@ -13393,7 +17459,12 @@ export const gen7Dex = {
         70,
         70,
         52,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     decidueye: new Pokemon(
         724,
@@ -13409,7 +17480,12 @@ export const gen7Dex = {
         100,
         100,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     litten: new Pokemon(
         725,
@@ -13425,7 +17501,12 @@ export const gen7Dex = {
         60,
         40,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     torracat: new Pokemon(
         726,
@@ -13441,7 +17522,12 @@ export const gen7Dex = {
         80,
         50,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     incineroar: new Pokemon(
         727,
@@ -13457,7 +17543,12 @@ export const gen7Dex = {
         80,
         90,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     popplio: new Pokemon(
         728,
@@ -13473,7 +17564,12 @@ export const gen7Dex = {
         66,
         56,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     brionne: new Pokemon(
         729,
@@ -13489,7 +17585,12 @@ export const gen7Dex = {
         91,
         81,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     primarina: new Pokemon(
         730,
@@ -13505,7 +17606,12 @@ export const gen7Dex = {
         126,
         116,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pikipek: new Pokemon(
         731,
@@ -13521,7 +17627,12 @@ export const gen7Dex = {
         30,
         30,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     trumbeak: new Pokemon(
         732,
@@ -13537,7 +17648,12 @@ export const gen7Dex = {
         40,
         50,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     toucannon: new Pokemon(
         733,
@@ -13553,7 +17669,12 @@ export const gen7Dex = {
         75,
         75,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     yungoos: new Pokemon(
         734,
@@ -13569,7 +17690,12 @@ export const gen7Dex = {
         30,
         30,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gumshoos: new Pokemon(
         735,
@@ -13585,7 +17711,12 @@ export const gen7Dex = {
         55,
         60,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     grubbin: new Pokemon(
         736,
@@ -13601,7 +17732,12 @@ export const gen7Dex = {
         55,
         45,
         46,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     charjabug: new Pokemon(
         737,
@@ -13617,7 +17753,12 @@ export const gen7Dex = {
         55,
         75,
         36,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     vikavolt: new Pokemon(
         738,
@@ -13633,7 +17774,12 @@ export const gen7Dex = {
         145,
         75,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     crabrawler: new Pokemon(
         739,
@@ -13649,7 +17795,12 @@ export const gen7Dex = {
         42,
         47,
         63,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     crabominable: new Pokemon(
         740,
@@ -13665,7 +17816,12 @@ export const gen7Dex = {
         62,
         67,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     oricorioBaile: new Pokemon(
         741,
@@ -13681,7 +17837,12 @@ export const gen7Dex = {
         98,
         70,
         93,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     oricorioPomPom: new Pokemon(
         741.1,
@@ -13697,7 +17858,12 @@ export const gen7Dex = {
         98,
         70,
         93,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     oricorioPaU: new Pokemon(
         741.2,
@@ -13713,7 +17879,12 @@ export const gen7Dex = {
         98,
         70,
         93,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     oricorioSensu: new Pokemon(
         741.3,
@@ -13729,7 +17900,12 @@ export const gen7Dex = {
         98,
         70,
         93,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     cutiefly: new Pokemon(
         742,
@@ -13745,7 +17921,12 @@ export const gen7Dex = {
         55,
         40,
         84,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ribombee: new Pokemon(
         743,
@@ -13761,7 +17942,12 @@ export const gen7Dex = {
         95,
         70,
         124,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rockruff: new Pokemon(
         744,
@@ -13777,7 +17963,12 @@ export const gen7Dex = {
         30,
         40,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lycanrocMidday: new Pokemon(
         745,
@@ -13793,7 +17984,12 @@ export const gen7Dex = {
         55,
         65,
         112,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lycanrocMidnight: new Pokemon(
         745.1,
@@ -13809,7 +18005,12 @@ export const gen7Dex = {
         55,
         75,
         82,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     lycanrocDusk: new Pokemon(
         745.2,
@@ -13825,7 +18026,12 @@ export const gen7Dex = {
         55,
         65,
         110,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     wishiwashiSolo: new Pokemon(
         746,
@@ -13841,7 +18047,12 @@ export const gen7Dex = {
         25,
         25,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wishiwashiSchool: new Pokemon(
         746.1,
@@ -13857,7 +18068,12 @@ export const gen7Dex = {
         140,
         135,
         30,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     mareanie: new Pokemon(
         747,
@@ -13873,7 +18089,12 @@ export const gen7Dex = {
         43,
         52,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     toxapex: new Pokemon(
         748,
@@ -13889,7 +18110,12 @@ export const gen7Dex = {
         53,
         142,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mudbray: new Pokemon(
         749,
@@ -13905,7 +18131,12 @@ export const gen7Dex = {
         45,
         55,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mudsdale: new Pokemon(
         750,
@@ -13921,7 +18152,12 @@ export const gen7Dex = {
         55,
         85,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dewpider: new Pokemon(
         751,
@@ -13937,7 +18173,12 @@ export const gen7Dex = {
         40,
         72,
         27,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     araquanid: new Pokemon(
         752,
@@ -13953,7 +18194,12 @@ export const gen7Dex = {
         50,
         132,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fomantis: new Pokemon(
         753,
@@ -13969,7 +18215,12 @@ export const gen7Dex = {
         50,
         35,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lurantis: new Pokemon(
         754,
@@ -13985,7 +18236,12 @@ export const gen7Dex = {
         80,
         90,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     morelull: new Pokemon(
         755,
@@ -14001,7 +18257,12 @@ export const gen7Dex = {
         65,
         75,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shiinotic: new Pokemon(
         756,
@@ -14017,7 +18278,12 @@ export const gen7Dex = {
         90,
         100,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     salandit: new Pokemon(
         757,
@@ -14033,7 +18299,12 @@ export const gen7Dex = {
         71,
         40,
         77,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     salazzle: new Pokemon(
         758,
@@ -14049,7 +18320,12 @@ export const gen7Dex = {
         111,
         60,
         117,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     stufful: new Pokemon(
         759,
@@ -14065,7 +18341,12 @@ export const gen7Dex = {
         45,
         50,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bewear: new Pokemon(
         760,
@@ -14081,7 +18362,12 @@ export const gen7Dex = {
         55,
         60,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bounsweet: new Pokemon(
         761,
@@ -14097,7 +18383,12 @@ export const gen7Dex = {
         30,
         38,
         32,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     steenee: new Pokemon(
         762,
@@ -14113,7 +18404,12 @@ export const gen7Dex = {
         40,
         48,
         62,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tsareena: new Pokemon(
         763,
@@ -14129,7 +18425,12 @@ export const gen7Dex = {
         50,
         98,
         72,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     comfey: new Pokemon(
         764,
@@ -14145,7 +18446,12 @@ export const gen7Dex = {
         82,
         110,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     oranguru: new Pokemon(
         765,
@@ -14161,7 +18467,12 @@ export const gen7Dex = {
         90,
         110,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     passimian: new Pokemon(
         766,
@@ -14177,7 +18488,12 @@ export const gen7Dex = {
         40,
         60,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wimpod: new Pokemon(
         767,
@@ -14193,7 +18509,12 @@ export const gen7Dex = {
         20,
         30,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     golisopod: new Pokemon(
         768,
@@ -14209,7 +18530,12 @@ export const gen7Dex = {
         60,
         90,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sandygast: new Pokemon(
         769,
@@ -14225,7 +18551,12 @@ export const gen7Dex = {
         70,
         45,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     palossand: new Pokemon(
         770,
@@ -14241,7 +18572,12 @@ export const gen7Dex = {
         100,
         75,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pyukumuku: new Pokemon(
         771,
@@ -14257,7 +18593,12 @@ export const gen7Dex = {
         30,
         130,
         5,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     typeNull: new Pokemon(
         772,
@@ -14273,7 +18614,12 @@ export const gen7Dex = {
         95,
         95,
         59,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     silvally: new Pokemon(
         773,
@@ -14289,7 +18635,12 @@ export const gen7Dex = {
         95,
         95,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     minior: new Pokemon(
         774,
@@ -14305,7 +18656,12 @@ export const gen7Dex = {
         60,
         100,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     komala: new Pokemon(
         775,
@@ -14321,7 +18677,12 @@ export const gen7Dex = {
         75,
         95,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     turtonator: new Pokemon(
         776,
@@ -14337,7 +18698,12 @@ export const gen7Dex = {
         91,
         85,
         36,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     togedemaru: new Pokemon(
         777,
@@ -14353,7 +18719,12 @@ export const gen7Dex = {
         40,
         73,
         96,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mimikyu: new Pokemon(
         778,
@@ -14369,7 +18740,12 @@ export const gen7Dex = {
         50,
         105,
         96,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bruxish: new Pokemon(
         779,
@@ -14385,7 +18761,12 @@ export const gen7Dex = {
         70,
         70,
         92,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     drampa: new Pokemon(
         780,
@@ -14401,7 +18782,12 @@ export const gen7Dex = {
         135,
         91,
         36,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dhelmise: new Pokemon(
         781,
@@ -14417,7 +18803,12 @@ export const gen7Dex = {
         86,
         90,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     jangmoO: new Pokemon(
         782,
@@ -14433,7 +18824,12 @@ export const gen7Dex = {
         45,
         45,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hakamoO: new Pokemon(
         783,
@@ -14449,7 +18845,12 @@ export const gen7Dex = {
         65,
         70,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kommoO: new Pokemon(
         784,
@@ -14465,7 +18866,12 @@ export const gen7Dex = {
         100,
         105,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tapuKoko: new Pokemon(
         785,
@@ -14481,7 +18887,12 @@ export const gen7Dex = {
         95,
         75,
         130,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tapuLele: new Pokemon(
         786,
@@ -14497,7 +18908,12 @@ export const gen7Dex = {
         130,
         115,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tapuBulu: new Pokemon(
         787,
@@ -14513,7 +18929,12 @@ export const gen7Dex = {
         85,
         95,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tapuFini: new Pokemon(
         788,
@@ -14529,7 +18950,12 @@ export const gen7Dex = {
         95,
         130,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cosmog: new Pokemon(
         789,
@@ -14545,7 +18971,12 @@ export const gen7Dex = {
         29,
         31,
         37,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cosmoem: new Pokemon(
         790,
@@ -14561,7 +18992,12 @@ export const gen7Dex = {
         29,
         131,
         37,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     solgaleo: new Pokemon(
         791,
@@ -14577,7 +19013,12 @@ export const gen7Dex = {
         113,
         89,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lunala: new Pokemon(
         792,
@@ -14593,7 +19034,12 @@ export const gen7Dex = {
         137,
         107,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     nihilego: new Pokemon(
         793,
@@ -14609,7 +19055,12 @@ export const gen7Dex = {
         127,
         131,
         103,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     buzzwole: new Pokemon(
         794,
@@ -14625,7 +19076,12 @@ export const gen7Dex = {
         53,
         53,
         79,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pheromosa: new Pokemon(
         795,
@@ -14641,7 +19097,12 @@ export const gen7Dex = {
         137,
         37,
         151,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     xurkitree: new Pokemon(
         796,
@@ -14657,7 +19118,12 @@ export const gen7Dex = {
         173,
         71,
         83,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     celesteela: new Pokemon(
         797,
@@ -14673,7 +19139,12 @@ export const gen7Dex = {
         107,
         101,
         61,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kartana: new Pokemon(
         798,
@@ -14689,7 +19160,12 @@ export const gen7Dex = {
         59,
         31,
         109,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     guzzlord: new Pokemon(
         799,
@@ -14705,7 +19181,12 @@ export const gen7Dex = {
         97,
         53,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     necrozma: new Pokemon(
         800,
@@ -14721,7 +19202,12 @@ export const gen7Dex = {
         127,
         89,
         79,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     magearna: new Pokemon(
         801,
@@ -14737,7 +19223,12 @@ export const gen7Dex = {
         130,
         115,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     marshadow: new Pokemon(
         802,
@@ -14753,7 +19244,12 @@ export const gen7Dex = {
         90,
         90,
         125,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     poipole: new Pokemon(
         803,
@@ -14769,7 +19265,12 @@ export const gen7Dex = {
         73,
         67,
         73,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     naganadel: new Pokemon(
         804,
@@ -14785,7 +19286,12 @@ export const gen7Dex = {
         127,
         73,
         121,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     stakataka: new Pokemon(
         805,
@@ -14801,7 +19307,12 @@ export const gen7Dex = {
         53,
         101,
         13,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     blacephalon: new Pokemon(
         806,
@@ -14817,7 +19328,12 @@ export const gen7Dex = {
         151,
         79,
         107,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zeraora: new Pokemon(
         807,
@@ -14833,7 +19349,12 @@ export const gen7Dex = {
         102,
         80,
         143,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     meltan: new Pokemon(
         808,
@@ -14849,7 +19370,12 @@ export const gen7Dex = {
         55,
         35,
         34,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     melmetal: new Pokemon(
         809,
@@ -14865,7 +19391,12 @@ export const gen7Dex = {
         80,
         65,
         34,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
 };
 
@@ -14884,7 +19415,12 @@ export const gen8Dex = {
         40,
         40,
         40,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gPonyta: new Pokemon(
         77.1,
@@ -14900,7 +19436,12 @@ export const gen8Dex = {
         65,
         65,
         90,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gRapidash: new Pokemon(
         78.1,
@@ -14916,7 +19457,12 @@ export const gen8Dex = {
         80,
         80,
         105,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gSlowpoke: new Pokemon(
         79.1,
@@ -14932,7 +19478,12 @@ export const gen8Dex = {
         40,
         40,
         15,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gSlowbro: new Pokemon(
         80.2,
@@ -14948,7 +19499,12 @@ export const gen8Dex = {
         100,
         70,
         30,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gWeezing: new Pokemon(
         110.1,
@@ -14964,7 +19520,12 @@ export const gen8Dex = {
         85,
         70,
         60,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gMrMime: new Pokemon(
         122.1,
@@ -14980,7 +19541,12 @@ export const gen8Dex = {
         90,
         90,
         100,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gArticuno: new Pokemon(
         144.1,
@@ -14996,7 +19562,12 @@ export const gen8Dex = {
         125,
         100,
         95,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gZapdos: new Pokemon(
         145.1,
@@ -15012,7 +19583,12 @@ export const gen8Dex = {
         85,
         90,
         100,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gMoltres: new Pokemon(
         146.1,
@@ -15028,7 +19604,12 @@ export const gen8Dex = {
         100,
         125,
         90,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gSlowking: new Pokemon(
         199.1,
@@ -15044,7 +19625,12 @@ export const gen8Dex = {
         110,
         110,
         30,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gDarumaka: new Pokemon(
         554.1,
@@ -15060,7 +19646,12 @@ export const gen8Dex = {
         15,
         45,
         50,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     gDarmanitan: new Pokemon(
         555.2,
@@ -15076,7 +19667,12 @@ export const gen8Dex = {
         30,
         55,
         95,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     zenGDarmanitan: new Pokemon(
         555.3,
@@ -15092,7 +19688,12 @@ export const gen8Dex = {
         30,
         55,
         135,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     hGrowlithe: new Pokemon(
         58.1,
@@ -15108,7 +19709,12 @@ export const gen8Dex = {
         65,
         50,
         55,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hArcanine: new Pokemon(
         59.1,
@@ -15124,7 +19730,12 @@ export const gen8Dex = {
         95,
         80,
         90,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hVoltorb: new Pokemon(
         100.1,
@@ -15140,7 +19751,12 @@ export const gen8Dex = {
         55,
         55,
         100,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hElectrode: new Pokemon(
         101.1,
@@ -15156,7 +19772,12 @@ export const gen8Dex = {
         80,
         80,
         150,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hTyphlosion: new Pokemon(
         157.1,
@@ -15172,7 +19793,12 @@ export const gen8Dex = {
         119,
         85,
         95,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hQwilfish: new Pokemon(
         211.1,
@@ -15188,7 +19814,12 @@ export const gen8Dex = {
         55,
         55,
         85,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hSneasel: new Pokemon(
         215.1,
@@ -15204,7 +19835,12 @@ export const gen8Dex = {
         35,
         75,
         115,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hSamurott: new Pokemon(
         503.1,
@@ -15220,7 +19856,12 @@ export const gen8Dex = {
         100,
         65,
         85,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hLilligant: new Pokemon(
         549.1,
@@ -15236,7 +19877,12 @@ export const gen8Dex = {
         50,
         75,
         105,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hZorua: new Pokemon(
         571.1,
@@ -15252,7 +19898,12 @@ export const gen8Dex = {
         85,
         40,
         70,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hZoroark: new Pokemon(
         571.2,
@@ -15268,7 +19919,12 @@ export const gen8Dex = {
         125,
         60,
         110,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hBraviary: new Pokemon(
         628.1,
@@ -15284,7 +19940,12 @@ export const gen8Dex = {
         112,
         70,
         65,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hSliggoo: new Pokemon(
         706.1,
@@ -15300,7 +19961,12 @@ export const gen8Dex = {
         83,
         113,
         40,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hGoodra: new Pokemon(
         706.2,
@@ -15316,7 +19982,12 @@ export const gen8Dex = {
         110,
         150,
         60,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hAvalugg: new Pokemon(
         713.1,
@@ -15332,7 +20003,12 @@ export const gen8Dex = {
         34,
         36,
         38,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     hDecidueye: new Pokemon(
         724.1,
@@ -15348,7 +20024,12 @@ export const gen8Dex = {
         95,
         95,
         60,
-        "hisuian"
+        [],
+        [],
+        [],
+        "hisuian",
+        [],
+        evoLines.pikachu
     ),
     dialgaOrigin: new Pokemon(
         483.1,
@@ -15364,7 +20045,12 @@ export const gen8Dex = {
         150,
         120,
         90,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     palkiaOrigin: new Pokemon(
         484.1,
@@ -15380,7 +20066,12 @@ export const gen8Dex = {
         150,
         120,
         120,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     basculinW: new Pokemon(
         550.2,
@@ -15396,7 +20087,12 @@ export const gen8Dex = {
         80,
         55,
         98,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     grooky: new Pokemon(
         810,
@@ -15412,7 +20108,12 @@ export const gen8Dex = {
         40,
         40,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     thwackey: new Pokemon(
         811,
@@ -15428,7 +20129,12 @@ export const gen8Dex = {
         55,
         60,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rillaboom: new Pokemon(
         812,
@@ -15444,7 +20150,12 @@ export const gen8Dex = {
         60,
         70,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     scorbunny: new Pokemon(
         813,
@@ -15460,7 +20171,12 @@ export const gen8Dex = {
         40,
         40,
         69,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     raboot: new Pokemon(
         814,
@@ -15476,7 +20192,12 @@ export const gen8Dex = {
         55,
         60,
         94,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cinderace: new Pokemon(
         815,
@@ -15492,7 +20213,12 @@ export const gen8Dex = {
         65,
         75,
         119,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sobble: new Pokemon(
         816,
@@ -15508,7 +20234,12 @@ export const gen8Dex = {
         70,
         40,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     drizzile: new Pokemon(
         817,
@@ -15524,7 +20255,12 @@ export const gen8Dex = {
         95,
         55,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     inteleon: new Pokemon(
         818,
@@ -15540,7 +20276,12 @@ export const gen8Dex = {
         125,
         65,
         120,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skwovet: new Pokemon(
         819,
@@ -15556,7 +20297,12 @@ export const gen8Dex = {
         35,
         35,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     greedent: new Pokemon(
         820,
@@ -15572,7 +20318,12 @@ export const gen8Dex = {
         55,
         75,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rookidee: new Pokemon(
         821,
@@ -15588,7 +20339,12 @@ export const gen8Dex = {
         33,
         35,
         57,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     corvisquire: new Pokemon(
         822,
@@ -15604,7 +20360,12 @@ export const gen8Dex = {
         43,
         55,
         77,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     corviknight: new Pokemon(
         823,
@@ -15620,7 +20381,12 @@ export const gen8Dex = {
         53,
         85,
         67,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     blipbug: new Pokemon(
         824,
@@ -15636,7 +20402,12 @@ export const gen8Dex = {
         25,
         45,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dottler: new Pokemon(
         825,
@@ -15652,7 +20423,12 @@ export const gen8Dex = {
         50,
         90,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     orbeetle: new Pokemon(
         826,
@@ -15668,7 +20444,12 @@ export const gen8Dex = {
         80,
         120,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     nickit: new Pokemon(
         827,
@@ -15684,7 +20465,12 @@ export const gen8Dex = {
         47,
         52,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     thievul: new Pokemon(
         828,
@@ -15700,7 +20486,12 @@ export const gen8Dex = {
         87,
         92,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gossifleur: new Pokemon(
         829,
@@ -15716,7 +20507,12 @@ export const gen8Dex = {
         40,
         60,
         10,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     eldegoss: new Pokemon(
         830,
@@ -15732,7 +20528,12 @@ export const gen8Dex = {
         80,
         120,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wooloo: new Pokemon(
         831,
@@ -15748,7 +20549,12 @@ export const gen8Dex = {
         40,
         45,
         48,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dubwool: new Pokemon(
         832,
@@ -15764,7 +20570,12 @@ export const gen8Dex = {
         60,
         90,
         88,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chewtle: new Pokemon(
         833,
@@ -15780,7 +20591,12 @@ export const gen8Dex = {
         38,
         38,
         44,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dreadnaw: new Pokemon(
         834,
@@ -15796,7 +20612,12 @@ export const gen8Dex = {
         48,
         68,
         74,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     yamper: new Pokemon(
         835,
@@ -15812,7 +20633,12 @@ export const gen8Dex = {
         40,
         50,
         26,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     boltund: new Pokemon(
         836,
@@ -15828,7 +20654,12 @@ export const gen8Dex = {
         90,
         60,
         121,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rolycoly: new Pokemon(
         837,
@@ -15844,7 +20675,12 @@ export const gen8Dex = {
         40,
         50,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     carkol: new Pokemon(
         838,
@@ -15860,7 +20696,12 @@ export const gen8Dex = {
         60,
         70,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     coalossal: new Pokemon(
         839,
@@ -15876,7 +20717,12 @@ export const gen8Dex = {
         80,
         90,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     applin: new Pokemon(
         840,
@@ -15892,7 +20738,12 @@ export const gen8Dex = {
         40,
         40,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     flapple: new Pokemon(
         841,
@@ -15908,7 +20759,12 @@ export const gen8Dex = {
         95,
         60,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     appletun: new Pokemon(
         842,
@@ -15924,7 +20780,12 @@ export const gen8Dex = {
         100,
         80,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     silicobra: new Pokemon(
         843,
@@ -15940,7 +20801,12 @@ export const gen8Dex = {
         35,
         50,
         46,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sandaconda: new Pokemon(
         844,
@@ -15956,7 +20822,12 @@ export const gen8Dex = {
         65,
         70,
         71,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cramorant: new Pokemon(
         845,
@@ -15972,7 +20843,12 @@ export const gen8Dex = {
         85,
         95,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     arrokuda: new Pokemon(
         846,
@@ -15988,7 +20864,12 @@ export const gen8Dex = {
         40,
         30,
         66,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     barraskewda: new Pokemon(
         847,
@@ -16004,7 +20885,12 @@ export const gen8Dex = {
         60,
         50,
         136,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     toxel: new Pokemon(
         848,
@@ -16020,7 +20906,12 @@ export const gen8Dex = {
         54,
         35,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     toxtricity: new Pokemon(
         849,
@@ -16036,7 +20927,12 @@ export const gen8Dex = {
         114,
         70,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sizzlipede: new Pokemon(
         850,
@@ -16052,7 +20948,12 @@ export const gen8Dex = {
         50,
         50,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     centiskorch: new Pokemon(
         851,
@@ -16068,7 +20969,12 @@ export const gen8Dex = {
         90,
         90,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     clobbopus: new Pokemon(
         852,
@@ -16084,7 +20990,12 @@ export const gen8Dex = {
         50,
         50,
         32,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     grapploct: new Pokemon(
         853,
@@ -16100,7 +21011,12 @@ export const gen8Dex = {
         70,
         80,
         42,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sinistea: new Pokemon(
         854,
@@ -16116,7 +21032,12 @@ export const gen8Dex = {
         74,
         54,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     polteageist: new Pokemon(
         855,
@@ -16132,7 +21053,12 @@ export const gen8Dex = {
         134,
         114,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hatenna: new Pokemon(
         856,
@@ -16148,7 +21074,12 @@ export const gen8Dex = {
         56,
         53,
         39,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hattrem: new Pokemon(
         857,
@@ -16164,7 +21095,12 @@ export const gen8Dex = {
         86,
         73,
         49,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hatterene: new Pokemon(
         858,
@@ -16180,7 +21116,12 @@ export const gen8Dex = {
         136,
         103,
         29,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     impidimp: new Pokemon(
         859,
@@ -16196,7 +21137,12 @@ export const gen8Dex = {
         55,
         40,
         5,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     morgrem: new Pokemon(
         860,
@@ -16212,7 +21158,12 @@ export const gen8Dex = {
         75,
         55,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     grimmsnarl: new Pokemon(
         861,
@@ -16228,7 +21179,12 @@ export const gen8Dex = {
         95,
         75,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     obstagoon: new Pokemon(
         862,
@@ -16244,7 +21200,12 @@ export const gen8Dex = {
         60,
         81,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     perrserker: new Pokemon(
         863,
@@ -16260,7 +21221,12 @@ export const gen8Dex = {
         50,
         60,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gCorsola: new Pokemon(
         863.9,
@@ -16276,7 +21242,12 @@ export const gen8Dex = {
         65,
         100,
         30,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     cursola: new Pokemon(
         864,
@@ -16292,7 +21263,12 @@ export const gen8Dex = {
         145,
         130,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gFarfetchd: new Pokemon(
         864.9,
@@ -16308,7 +21284,12 @@ export const gen8Dex = {
         58,
         62,
         55,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     sirfetchd: new Pokemon(
         865,
@@ -16324,7 +21305,12 @@ export const gen8Dex = {
         68,
         82,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mrRime: new Pokemon(
         866,
@@ -16340,7 +21326,12 @@ export const gen8Dex = {
         110,
         100,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gYamask: new Pokemon(
         866.9,
@@ -16356,7 +21347,12 @@ export const gen8Dex = {
         30,
         65,
         30,
-        "galarian"
+        [],
+        [],
+        [],
+        "galarian",
+        [],
+        evoLines.pikachu
     ),
     runerigus: new Pokemon(
         867,
@@ -16372,7 +21368,12 @@ export const gen8Dex = {
         50,
         105,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     milcery: new Pokemon(
         868,
@@ -16388,7 +21389,12 @@ export const gen8Dex = {
         50,
         61,
         34,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     alcremie: new Pokemon(
         869,
@@ -16404,7 +21410,12 @@ export const gen8Dex = {
         110,
         121,
         64,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     falinks: new Pokemon(
         870,
@@ -16420,7 +21431,12 @@ export const gen8Dex = {
         70,
         60,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pincurchin: new Pokemon(
         871,
@@ -16436,7 +21452,12 @@ export const gen8Dex = {
         91,
         85,
         15,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     snom: new Pokemon(
         872,
@@ -16452,7 +21473,12 @@ export const gen8Dex = {
         45,
         30,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     frosmoth: new Pokemon(
         873,
@@ -16468,7 +21494,12 @@ export const gen8Dex = {
         125,
         90,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     stonjourner: new Pokemon(
         874,
@@ -16484,7 +21515,12 @@ export const gen8Dex = {
         20,
         20,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     eiscue: new Pokemon(
         875,
@@ -16500,7 +21536,12 @@ export const gen8Dex = {
         65,
         90,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     indeedee: new Pokemon(
         876,
@@ -16516,7 +21557,12 @@ export const gen8Dex = {
         105,
         95,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     morpeko: new Pokemon(
         877,
@@ -16532,7 +21578,12 @@ export const gen8Dex = {
         70,
         58,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cufant: new Pokemon(
         878,
@@ -16548,7 +21599,12 @@ export const gen8Dex = {
         40,
         49,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     copperajah: new Pokemon(
         879,
@@ -16564,7 +21620,12 @@ export const gen8Dex = {
         80,
         69,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dracozolt: new Pokemon(
         880,
@@ -16580,7 +21641,12 @@ export const gen8Dex = {
         80,
         70,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     arctozolt: new Pokemon(
         881,
@@ -16596,7 +21662,12 @@ export const gen8Dex = {
         90,
         80,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dracovish: new Pokemon(
         882,
@@ -16612,7 +21683,12 @@ export const gen8Dex = {
         70,
         80,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     arctovish: new Pokemon(
         883,
@@ -16628,7 +21704,12 @@ export const gen8Dex = {
         80,
         90,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     duraludon: new Pokemon(
         884,
@@ -16644,7 +21725,12 @@ export const gen8Dex = {
         120,
         50,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dreepy: new Pokemon(
         885,
@@ -16660,7 +21746,12 @@ export const gen8Dex = {
         40,
         30,
         82,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     drakloak: new Pokemon(
         886,
@@ -16676,7 +21767,12 @@ export const gen8Dex = {
         60,
         50,
         102,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dragapult: new Pokemon(
         887,
@@ -16692,7 +21788,12 @@ export const gen8Dex = {
         100,
         75,
         142,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zacian: new Pokemon(
         888,
@@ -16708,7 +21809,12 @@ export const gen8Dex = {
         80,
         115,
         138,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zacianCrowned: new Pokemon(
         888.1,
@@ -16724,7 +21830,12 @@ export const gen8Dex = {
         80,
         115,
         148,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     zamazenta: new Pokemon(
         889,
@@ -16740,7 +21851,12 @@ export const gen8Dex = {
         80,
         115,
         138,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     zamazentaCrowned: new Pokemon(
         889.1,
@@ -16756,7 +21872,12 @@ export const gen8Dex = {
         80,
         145,
         128,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     eternatus: new Pokemon(
         890,
@@ -16772,7 +21893,12 @@ export const gen8Dex = {
         145,
         95,
         130,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kubfu: new Pokemon(
         891,
@@ -16788,7 +21914,12 @@ export const gen8Dex = {
         53,
         50,
         72,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     urshifuSingle: new Pokemon(
         892,
@@ -16804,7 +21935,12 @@ export const gen8Dex = {
         63,
         60,
         97,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     urshifuRapid: new Pokemon(
         892.1,
@@ -16820,7 +21956,12 @@ export const gen8Dex = {
         63,
         60,
         97,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     zarude: new Pokemon(
         893,
@@ -16836,7 +21977,12 @@ export const gen8Dex = {
         70,
         95,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     regieleki: new Pokemon(
         894,
@@ -16852,7 +21998,12 @@ export const gen8Dex = {
         100,
         50,
         200,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     regidrago: new Pokemon(
         895,
@@ -16868,7 +22019,12 @@ export const gen8Dex = {
         100,
         50,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     glastrier: new Pokemon(
         896,
@@ -16884,7 +22040,12 @@ export const gen8Dex = {
         65,
         110,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     spectrier: new Pokemon(
         897,
@@ -16900,7 +22061,12 @@ export const gen8Dex = {
         145,
         80,
         130,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     calyrex: new Pokemon(
         898,
@@ -16916,7 +22082,12 @@ export const gen8Dex = {
         80,
         80,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     iCalyrex: new Pokemon(
         898.1,
@@ -16932,7 +22103,12 @@ export const gen8Dex = {
         85,
         130,
         50,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     sCalyrex: new Pokemon(
         898.2,
@@ -16948,7 +22124,12 @@ export const gen8Dex = {
         165,
         100,
         150,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     wyrdeer: new Pokemon(
         899,
@@ -16964,7 +22145,12 @@ export const gen8Dex = {
         105,
         75,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kleavor: new Pokemon(
         900,
@@ -16980,7 +22166,12 @@ export const gen8Dex = {
         45,
         70,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ursaluna: new Pokemon(
         901,
@@ -16996,7 +22187,12 @@ export const gen8Dex = {
         45,
         80,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     basculeigon: new Pokemon(
         902,
@@ -17012,7 +22208,12 @@ export const gen8Dex = {
         80,
         75,
         78,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     basculeigonF: new Pokemon(
         902.1,
@@ -17028,7 +22229,12 @@ export const gen8Dex = {
         100,
         75,
         78,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     sneasler: new Pokemon(
         903,
@@ -17044,7 +22250,12 @@ export const gen8Dex = {
         40,
         80,
         120,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     overqwil: new Pokemon(
         904,
@@ -17060,7 +22271,12 @@ export const gen8Dex = {
         65,
         65,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     enamorus: new Pokemon(
         905,
@@ -17076,7 +22292,12 @@ export const gen8Dex = {
         135,
         80,
         106,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     enamorusT: new Pokemon(
         905.1,
@@ -17092,7 +22313,12 @@ export const gen8Dex = {
         135,
         100,
         46,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
 };
 
@@ -17111,7 +22337,12 @@ export const gen9Dex = {
         40,
         70,
         110,
-        "paldean"
+        [],
+        [],
+        [],
+        "paldean",
+        [],
+        evoLines.pikachu
     ),
     pTaurosFire: new Pokemon(
         128.2,
@@ -17127,7 +22358,12 @@ export const gen9Dex = {
         40,
         70,
         110,
-        "paldean"
+        [],
+        [],
+        [],
+        "paldean",
+        [],
+        evoLines.pikachu
     ),
     pTaurosWater: new Pokemon(
         128.3,
@@ -17143,7 +22379,12 @@ export const gen9Dex = {
         40,
         70,
         110,
-        "paldean"
+        [],
+        [],
+        [],
+        "paldean",
+        [],
+        evoLines.pikachu
     ),
     pWooper: new Pokemon(
         194.1,
@@ -17159,7 +22400,12 @@ export const gen9Dex = {
         25,
         25,
         15,
-        "paldean"
+        [],
+        [],
+        [],
+        "paldean",
+        [],
+        evoLines.pikachu
     ),
     sprigatito: new Pokemon(
         906,
@@ -17175,7 +22421,12 @@ export const gen9Dex = {
         45,
         45,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     floragato: new Pokemon(
         907,
@@ -17191,7 +22442,12 @@ export const gen9Dex = {
         60,
         63,
         83,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     meowscarada: new Pokemon(
         908,
@@ -17207,7 +22463,12 @@ export const gen9Dex = {
         81,
         70,
         123,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fuecoco: new Pokemon(
         909,
@@ -17223,7 +22484,12 @@ export const gen9Dex = {
         63,
         40,
         36,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     crocolor: new Pokemon(
         910,
@@ -17239,7 +22505,12 @@ export const gen9Dex = {
         90,
         58,
         49,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     skeledirge: new Pokemon(
         911,
@@ -17255,7 +22526,12 @@ export const gen9Dex = {
         110,
         75,
         66,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     quaxly: new Pokemon(
         912,
@@ -17271,7 +22547,12 @@ export const gen9Dex = {
         50,
         45,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     quaxwell: new Pokemon(
         913,
@@ -17287,7 +22568,12 @@ export const gen9Dex = {
         65,
         60,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     quaquaval: new Pokemon(
         914,
@@ -17303,7 +22589,12 @@ export const gen9Dex = {
         85,
         75,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lechonk: new Pokemon(
         915,
@@ -17319,7 +22610,12 @@ export const gen9Dex = {
         35,
         45,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     oinkologneM: new Pokemon(
         916,
@@ -17335,7 +22631,12 @@ export const gen9Dex = {
         59,
         80,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     oinkologneF: new Pokemon(
         916.1,
@@ -17351,7 +22652,12 @@ export const gen9Dex = {
         59,
         90,
         65,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     tarountula: new Pokemon(
         917,
@@ -17367,7 +22673,12 @@ export const gen9Dex = {
         29,
         40,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     spidops: new Pokemon(
         918,
@@ -17383,7 +22694,12 @@ export const gen9Dex = {
         52,
         86,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     nymble: new Pokemon(
         919,
@@ -17399,7 +22715,12 @@ export const gen9Dex = {
         21,
         25,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     lokix: new Pokemon(
         920,
@@ -17415,7 +22736,12 @@ export const gen9Dex = {
         52,
         55,
         92,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pawmi: new Pokemon(
         921,
@@ -17431,7 +22757,12 @@ export const gen9Dex = {
         40,
         25,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pawmo: new Pokemon(
         922,
@@ -17447,7 +22778,12 @@ export const gen9Dex = {
         50,
         40,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     pawmot: new Pokemon(
         923,
@@ -17463,7 +22799,12 @@ export const gen9Dex = {
         70,
         60,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tandemaus: new Pokemon(
         924,
@@ -17479,7 +22820,12 @@ export const gen9Dex = {
         40,
         45,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     maushold: new Pokemon(
         925,
@@ -17495,7 +22841,12 @@ export const gen9Dex = {
         65,
         75,
         111,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fidough: new Pokemon(
         926,
@@ -17511,7 +22862,12 @@ export const gen9Dex = {
         30,
         55,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dachsbun: new Pokemon(
         927,
@@ -17527,7 +22883,12 @@ export const gen9Dex = {
         50,
         80,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     smoliv: new Pokemon(
         928,
@@ -17543,7 +22904,12 @@ export const gen9Dex = {
         58,
         51,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dolliv: new Pokemon(
         929,
@@ -17559,7 +22925,12 @@ export const gen9Dex = {
         78,
         78,
         33,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     arboliva: new Pokemon(
         930,
@@ -17575,7 +22946,12 @@ export const gen9Dex = {
         125,
         109,
         39,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     squawkabilly: new Pokemon(
         931,
@@ -17591,7 +22967,12 @@ export const gen9Dex = {
         45,
         51,
         92,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     nacli: new Pokemon(
         932,
@@ -17607,7 +22988,12 @@ export const gen9Dex = {
         35,
         35,
         25,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     naclstack: new Pokemon(
         933,
@@ -17623,7 +23009,12 @@ export const gen9Dex = {
         35,
         65,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     garganacl: new Pokemon(
         934,
@@ -17639,7 +23030,12 @@ export const gen9Dex = {
         45,
         90,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     charcadet: new Pokemon(
         935,
@@ -17655,7 +23051,12 @@ export const gen9Dex = {
         50,
         40,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     armarouge: new Pokemon(
         936,
@@ -17671,7 +23072,12 @@ export const gen9Dex = {
         125,
         80,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ceruledge: new Pokemon(
         937,
@@ -17687,7 +23093,12 @@ export const gen9Dex = {
         60,
         100,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tadbulb: new Pokemon(
         938,
@@ -17703,7 +23114,12 @@ export const gen9Dex = {
         59,
         35,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bellibolt: new Pokemon(
         939,
@@ -17719,7 +23135,12 @@ export const gen9Dex = {
         103,
         83,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wattrel: new Pokemon(
         940,
@@ -17735,7 +23156,12 @@ export const gen9Dex = {
         55,
         40,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kilowattrel: new Pokemon(
         941,
@@ -17751,7 +23177,12 @@ export const gen9Dex = {
         105,
         60,
         125,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     maschiff: new Pokemon(
         942,
@@ -17767,7 +23198,12 @@ export const gen9Dex = {
         40,
         51,
         51,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     mabosstiff: new Pokemon(
         943,
@@ -17783,7 +23219,12 @@ export const gen9Dex = {
         60,
         70,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     shroodle: new Pokemon(
         944,
@@ -17799,7 +23240,12 @@ export const gen9Dex = {
         40,
         35,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     grafaiai: new Pokemon(
         945,
@@ -17815,7 +23261,12 @@ export const gen9Dex = {
         80,
         72,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bramblin: new Pokemon(
         946,
@@ -17831,7 +23282,12 @@ export const gen9Dex = {
         45,
         35,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bramblegast: new Pokemon(
         947,
@@ -17847,7 +23303,12 @@ export const gen9Dex = {
         80,
         70,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     toedscool: new Pokemon(
         948,
@@ -17863,7 +23324,12 @@ export const gen9Dex = {
         50,
         100,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     toedscruel: new Pokemon(
         949,
@@ -17879,7 +23345,12 @@ export const gen9Dex = {
         80,
         120,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     klawf: new Pokemon(
         950,
@@ -17895,7 +23366,12 @@ export const gen9Dex = {
         35,
         55,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     caspakid: new Pokemon(
         951,
@@ -17911,7 +23387,12 @@ export const gen9Dex = {
         62,
         40,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     scovillain: new Pokemon(
         952,
@@ -17927,7 +23408,12 @@ export const gen9Dex = {
         108,
         65,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rellor: new Pokemon(
         953,
@@ -17943,7 +23429,12 @@ export const gen9Dex = {
         31,
         58,
         30,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     rabsca: new Pokemon(
         954,
@@ -17959,7 +23450,12 @@ export const gen9Dex = {
         115,
         100,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     flittle: new Pokemon(
         955,
@@ -17975,7 +23471,12 @@ export const gen9Dex = {
         55,
         30,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     espathra: new Pokemon(
         956,
@@ -17991,7 +23492,12 @@ export const gen9Dex = {
         101,
         60,
         105,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tinkatink: new Pokemon(
         957,
@@ -18007,7 +23513,12 @@ export const gen9Dex = {
         35,
         64,
         58,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tinkatuff: new Pokemon(
         958,
@@ -18023,7 +23534,12 @@ export const gen9Dex = {
         45,
         82,
         78,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tinkaton: new Pokemon(
         959,
@@ -18039,7 +23555,12 @@ export const gen9Dex = {
         70,
         105,
         94,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wiglett: new Pokemon(
         960,
@@ -18055,7 +23576,12 @@ export const gen9Dex = {
         35,
         25,
         95,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     wugtrio: new Pokemon(
         961,
@@ -18071,7 +23597,12 @@ export const gen9Dex = {
         50,
         70,
         120,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bombirdier: new Pokemon(
         962,
@@ -18087,7 +23618,12 @@ export const gen9Dex = {
         60,
         85,
         82,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     finizen: new Pokemon(
         963,
@@ -18103,7 +23639,12 @@ export const gen9Dex = {
         45,
         40,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     palafin: new Pokemon(
         964,
@@ -18119,7 +23660,12 @@ export const gen9Dex = {
         53,
         62,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     varoom: new Pokemon(
         965,
@@ -18135,7 +23681,12 @@ export const gen9Dex = {
         30,
         45,
         47,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     revavroom: new Pokemon(
         966,
@@ -18151,7 +23702,12 @@ export const gen9Dex = {
         54,
         67,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cyclizar: new Pokemon(
         967,
@@ -18167,7 +23723,12 @@ export const gen9Dex = {
         85,
         65,
         121,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     orthworm: new Pokemon(
         968,
@@ -18183,7 +23744,12 @@ export const gen9Dex = {
         60,
         55,
         65,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     glimmet: new Pokemon(
         969,
@@ -18199,7 +23765,12 @@ export const gen9Dex = {
         105,
         60,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     glimmora: new Pokemon(
         970,
@@ -18215,7 +23786,12 @@ export const gen9Dex = {
         130,
         81,
         86,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     greavard: new Pokemon(
         971,
@@ -18231,7 +23807,12 @@ export const gen9Dex = {
         30,
         55,
         34,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     houndstone: new Pokemon(
         972,
@@ -18247,7 +23828,12 @@ export const gen9Dex = {
         50,
         97,
         68,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     flamigo: new Pokemon(
         973,
@@ -18263,7 +23849,12 @@ export const gen9Dex = {
         75,
         64,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cetoddle: new Pokemon(
         974,
@@ -18279,7 +23870,12 @@ export const gen9Dex = {
         30,
         40,
         43,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     cetitan: new Pokemon(
         975,
@@ -18295,7 +23891,12 @@ export const gen9Dex = {
         45,
         55,
         73,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     veluza: new Pokemon(
         976,
@@ -18311,7 +23912,12 @@ export const gen9Dex = {
         78,
         65,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dondozo: new Pokemon(
         977,
@@ -18327,7 +23933,12 @@ export const gen9Dex = {
         65,
         65,
         35,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tatsugiri: new Pokemon(
         978,
@@ -18343,7 +23954,12 @@ export const gen9Dex = {
         120,
         95,
         82,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     annihilape: new Pokemon(
         979,
@@ -18359,7 +23975,12 @@ export const gen9Dex = {
         50,
         90,
         90,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     clodsire: new Pokemon(
         980,
@@ -18375,7 +23996,12 @@ export const gen9Dex = {
         45,
         100,
         20,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     farigiraf: new Pokemon(
         981,
@@ -18391,7 +24017,12 @@ export const gen9Dex = {
         110,
         70,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dudunsparce: new Pokemon(
         982,
@@ -18407,7 +24038,12 @@ export const gen9Dex = {
         85,
         75,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     kingambit: new Pokemon(
         983,
@@ -18423,7 +24059,12 @@ export const gen9Dex = {
         60,
         85,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     greatTusk: new Pokemon(
         984,
@@ -18439,7 +24080,12 @@ export const gen9Dex = {
         53,
         53,
         87,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     screamTail: new Pokemon(
         985,
@@ -18455,7 +24101,12 @@ export const gen9Dex = {
         65,
         115,
         111,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     bruteBonnet: new Pokemon(
         986,
@@ -18471,7 +24122,12 @@ export const gen9Dex = {
         79,
         99,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     flutterMane: new Pokemon(
         987,
@@ -18487,7 +24143,12 @@ export const gen9Dex = {
         135,
         135,
         135,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     slitherWing: new Pokemon(
         988,
@@ -18503,7 +24164,12 @@ export const gen9Dex = {
         85,
         105,
         81,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sandyShocks: new Pokemon(
         989,
@@ -18519,7 +24185,12 @@ export const gen9Dex = {
         121,
         85,
         101,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironTreads: new Pokemon(
         990,
@@ -18535,7 +24206,12 @@ export const gen9Dex = {
         72,
         70,
         106,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironBundle: new Pokemon(
         991,
@@ -18551,7 +24227,12 @@ export const gen9Dex = {
         124,
         60,
         136,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironHands: new Pokemon(
         992,
@@ -18567,7 +24248,12 @@ export const gen9Dex = {
         50,
         68,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironJugulis: new Pokemon(
         993,
@@ -18583,7 +24269,12 @@ export const gen9Dex = {
         122,
         80,
         108,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironMoth: new Pokemon(
         994,
@@ -18599,7 +24290,12 @@ export const gen9Dex = {
         140,
         110,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironThorns: new Pokemon(
         995,
@@ -18615,7 +24311,12 @@ export const gen9Dex = {
         70,
         84,
         72,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     frigibax: new Pokemon(
         996,
@@ -18631,7 +24332,12 @@ export const gen9Dex = {
         35,
         45,
         55,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     arctibax: new Pokemon(
         997,
@@ -18647,7 +24353,12 @@ export const gen9Dex = {
         45,
         65,
         62,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     baxcalibur: new Pokemon(
         998,
@@ -18663,7 +24374,12 @@ export const gen9Dex = {
         75,
         86,
         87,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gimmighoul: new Pokemon(
         999,
@@ -18679,7 +24395,12 @@ export const gen9Dex = {
         75,
         70,
         10,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gholdengo: new Pokemon(
         1000,
@@ -18695,7 +24416,12 @@ export const gen9Dex = {
         133,
         91,
         84,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     woChien: new Pokemon(
         1001,
@@ -18711,7 +24437,12 @@ export const gen9Dex = {
         95,
         135,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chienPao: new Pokemon(
         1002,
@@ -18727,7 +24458,12 @@ export const gen9Dex = {
         90,
         65,
         135,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     tingLu: new Pokemon(
         1003,
@@ -18743,7 +24479,12 @@ export const gen9Dex = {
         55,
         80,
         45,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     chiYu: new Pokemon(
         1004,
@@ -18759,7 +24500,12 @@ export const gen9Dex = {
         135,
         120,
         100,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     roaringMoon: new Pokemon(
         1005,
@@ -18775,7 +24521,12 @@ export const gen9Dex = {
         55,
         101,
         119,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironValiant: new Pokemon(
         1006,
@@ -18791,7 +24542,12 @@ export const gen9Dex = {
         120,
         60,
         116,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     koraidon: new Pokemon(
         1007,
@@ -18807,7 +24563,12 @@ export const gen9Dex = {
         85,
         100,
         135,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     miraidon: new Pokemon(
         1008,
@@ -18823,7 +24584,12 @@ export const gen9Dex = {
         135,
         115,
         135,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     walkingWake: new Pokemon(
         1009,
@@ -18839,7 +24605,12 @@ export const gen9Dex = {
         125,
         83,
         109,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironLeaves: new Pokemon(
         1010,
@@ -18855,7 +24626,12 @@ export const gen9Dex = {
         70,
         108,
         104,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     dipplin: new Pokemon(
         1011,
@@ -18871,7 +24647,12 @@ export const gen9Dex = {
         95,
         80,
         40,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     poltchageist: new Pokemon(
         1012,
@@ -18887,7 +24668,12 @@ export const gen9Dex = {
         74,
         54,
         50,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     sinistcha: new Pokemon(
         1013,
@@ -18903,7 +24689,12 @@ export const gen9Dex = {
         121,
         80,
         70,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     okidogi: new Pokemon(
         1014,
@@ -18919,7 +24710,12 @@ export const gen9Dex = {
         58,
         86,
         80,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     munkidori: new Pokemon(
         1015,
@@ -18935,7 +24731,12 @@ export const gen9Dex = {
         130,
         90,
         106,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     fezandipiti: new Pokemon(
         1016,
@@ -18951,7 +24752,12 @@ export const gen9Dex = {
         70,
         125,
         99,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ogerpon: new Pokemon(
         1017,
@@ -18967,7 +24773,12 @@ export const gen9Dex = {
         60,
         96,
         110,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ogerponW: new Pokemon(
         1017.1,
@@ -18983,7 +24794,12 @@ export const gen9Dex = {
         60,
         96,
         110,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     ogerponH: new Pokemon(
         1017.2,
@@ -18999,7 +24815,12 @@ export const gen9Dex = {
         60,
         96,
         110,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     ogerponC: new Pokemon(
         1017.3,
@@ -19015,7 +24836,12 @@ export const gen9Dex = {
         60,
         96,
         110,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     archaludon: new Pokemon(
         1018,
@@ -19031,7 +24857,12 @@ export const gen9Dex = {
         125,
         65,
         85,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     hydrapple: new Pokemon(
         1019,
@@ -19047,7 +24878,12 @@ export const gen9Dex = {
         120,
         80,
         44,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     gougingFire: new Pokemon(
         1020,
@@ -19063,7 +24899,12 @@ export const gen9Dex = {
         65,
         93,
         91,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ragingBolt: new Pokemon(
         1021,
@@ -19079,7 +24920,12 @@ export const gen9Dex = {
         137,
         89,
         75,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironBoulder: new Pokemon(
         1022,
@@ -19095,7 +24941,12 @@ export const gen9Dex = {
         68,
         108,
         124,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     ironCrown: new Pokemon(
         1023,
@@ -19111,7 +24962,12 @@ export const gen9Dex = {
         122,
         108,
         98,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     terapagos: new Pokemon(
         1024,
@@ -19127,7 +24983,12 @@ export const gen9Dex = {
         65,
         85,
         60,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
     terapagosT: new Pokemon(
         1025.1,
@@ -19143,7 +25004,12 @@ export const gen9Dex = {
         105,
         110,
         85,
-        "alt"
+        [],
+        [],
+        [],
+        "alt",
+        [],
+        evoLines.pikachu
     ),
     pecharunt: new Pokemon(
         1025,
@@ -19159,7 +25025,12 @@ export const gen9Dex = {
         88,
         88,
         88,
-        ""
+        [],
+        [],
+        [],
+        "",
+        [],
+        evoLines.pikachu
     ),
 };
 
@@ -19173,4 +25044,4 @@ export const natDex = {
     ...gen7Dex,
     ...gen8Dex,
     ...gen9Dex,
-}
+};

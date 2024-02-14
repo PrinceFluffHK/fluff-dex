@@ -1,18 +1,19 @@
 class Pokemon {
     constructor(
-        natNum,
+        id,
         name,
+        gen,
         type1,
         type2,
         ability1,
         ability2,
         abilityH,
-        hp = 0,
-        atk = 0,
-        def = 0,
-        spa = 0,
-        spd = 0,
-        spe = 0,
+        hp,
+        atk,
+        def,
+        spa,
+        spd,
+        spe,
         levelLearn = [],
         tmLearn = [],
         tutorLearn = [],
@@ -22,8 +23,9 @@ class Pokemon {
         evolutions = [],
         evoLine = []
     ) {
-        this.natNum = natNum;
+        this.id = id;
         this.name = name;
+        this.gen = gen;
         this.type1 = type1;
         this.type2 = type2;
         this.ability1 = ability1;
@@ -41,10 +43,10 @@ class Pokemon {
         this.modifier = modifier;
         this.sprite = sprite
             ? sprite
-            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${natNum}.png`;
+            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
         this.profile = profile
             ? profile
-            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${natNum}.png`;
+            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
         this.evolutions = evolutions;
         this.evoLine = evoLine
     }
@@ -52,7 +54,7 @@ class Pokemon {
     static makeEdits(mon, changes) {
         const newMon = { ...mon, ...changes };
         return [
-            newMon.natNum,
+            newMon.id,
             newMon.name,
             newMon.type1,
             newMon.type2,
@@ -75,7 +77,21 @@ class Pokemon {
         ];
     }
 
-    
+    static makeSingle(species, typesArray, abilitiesArray) {
+        const type1 = typesArray.find(type => {return type.id === species.type1Id})
+        const type2 = typesArray.find(type => {return type.id === species.type2Id})
+        const ability1 = abilitiesArray.find(ability => {return ability.id === species.ability1Id})
+        const ability2 = abilitiesArray.find(ability => {return ability.id === species.ability2Id})
+        const abilityH = abilitiesArray.find(ability => {return ability.id === species.abilityHId})
+        return new Pokemon(species.id, species.name, type1, type2, )
+    }
+
+    static makeArray(rawJsonArray, typesArray, abilitiesArray) {
+        const jsonArray = JSON.parse(rawJsonArray)
+        return jsonArray.map(mon => {
+            return Pokemon.makeSingle(mon, typesArray, abilitiesArray)
+        })
+    }
 
     dexListItem() {
         // return (

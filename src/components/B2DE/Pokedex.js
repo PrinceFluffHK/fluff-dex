@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { b2deDex, b2deDexArray } from "../../data/B2DE/dex";
 import PokemonDisplay from "./PokemonDisplay";
 import { Grid } from "@mui/material";
+import data from "../../data/vanilla/species.json"
 
 const B2DEPokedex = (props) => {
     const [selectedIndex, setSelectedIndex] = useState(-1);

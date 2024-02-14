@@ -1,0 +1,15 @@
+[
+    { "id": 1, "description": "Any adjacent Pokemon" },
+    { "id": 2, "description": "Any adjacent foe Pokemon" },
+    { "id": 3, "description": "Any Pokemon" },
+    { "id": 4, "description": "The user or an adjacent ally" },
+    { "id": 5, "description": "All adjacent foes" },
+    { "id": 6, "description": "All adjacent Pokemon" },
+    { "id": 7, "description": "All allies" },
+    { "id": 8, "description": "All foes" },
+    { "id": 9, "description": "All Pokemon" },
+    { "id": 10, "description": "One adjacent ally" },
+    { "id": 11, "description": "The user" },
+    { "id": 12, "description": "The user and all allies" },
+    { "id": 13, "description": "Random adjacent foe" }
+]

@@ -52,6 +52,7 @@ export const gen3Abilities = {
     earlyBird: new Ability(48, 'Early Bird', 3, 'The Pokémon awakens from sleep twice as fast as other Pokémon.'),
     flameBody: new Ability(49, 'Flame Body', 3, 'Contact with the Pokémon may burn the attacker.'),
     runAway: new Ability(50, 'Run Away', 3, 'Enables a sure getaway from wild Pokémon.'),
+    // 
     keenEye: new Ability(51, 'Keen Eye', 3, 'The Pokémon\'s keen eyes prevent its accuracy from being lowered.'),
     hyperCutter: new Ability(52, 'Hyper Cutter', 3, 'The Pokémon\'s prized, mighty pincers prevent other Pokémon from lowering its Attack stat.'),
     pickup: new Ability(53, 'Pickup', 3, 'The Pokémon may pick up an item another Pokémon used during a battle. It may pick up items outside of battle, too.'),
@@ -62,6 +63,7 @@ export const gen3Abilities = {
     minus: new Ability(58, 'Minus', 3, 'Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.'),
     forecast: new Ability(59, 'Forecast', 3, 'The Pokémon transforms with the weather to change its type to Water, Fire, or Ice.'),
     stickyHold: new Ability(60, 'Sticky Hold', 3, 'The Pokémon\'s held items cling to its sticky body and cannot be removed by other Pokémon.'),
+    // 
     shedSkin: new Ability(61, 'Shed Skin', 3, 'The Pokémon may cure its own status conditions by shedding its skin.'),
     guts: new Ability(62, 'Guts', 3, 'It\'s so gutsy that having a status condition boosts the Pokémon\'s Attack stat.'),
     marvelScale: new Ability(63, 'Marvel Scale', 3, 'The Pokémon\'s marvelous scales boost its Defense stat if it has a status condition.'),
@@ -72,6 +74,7 @@ export const gen3Abilities = {
     swarm: new Ability(68, 'Swarm', 3, 'Powers up Bug-type moves when the Pokémon\'s HP is low.'),
     rockHead: new Ability(69, 'Rock Head', 3, 'Protects the Pokémon from recoil damage.'),
     drought: new Ability(70, 'Drought', 3, 'Turns the sunlight harsh when the Pokémon enters a battle.'),
+    // 
     arenaTrap: new Ability(71, 'Arena Trap', 3, 'Prevents opposing Pokémon from fleeing from battle.'),
     vitalSpirit: new Ability(72, 'Vital Spirit', 3, 'The Pokémon is full of vitality, and that prevents it from falling asleep.'),
     whiteSmoke: new Ability(73, 'White Smoke', 3, 'The Pokémon is protected by its white smoke, which prevents other Pokémon from lowering its stats.'),
@@ -85,6 +88,7 @@ export const gen4Abilities = {
     motorDrive: new Ability(78, 'Motor Drive', 4, 'The Pokémon takes no damage when hit by Electric-type moves. Instead, its Speed stat is boosted.'),
     rivalry: new Ability(79, 'Rivalry', 4, 'The Pokémon\'s competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender.'),
     steadfast: new Ability(80, 'Steadfast', 4, 'The Pokémon\'s determination boosts its Speed stat every time it flinches.'),
+    // 
     snowCloak: new Ability(81, 'Snow Cloak', 4, 'Boosts the Pokémon\'s evasiveness in snow.'),
     gluttony: new Ability(82, 'Gluttony', 4, 'If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less.'),
     angerPoint: new Ability(83, 'Anger Point', 4, 'The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.'),
@@ -95,6 +99,7 @@ export const gen4Abilities = {
     download: new Ability(88, 'Download', 4, 'The Pokémon compares an opposing Pokémon\'s Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective.'),
     ironFist: new Ability(89, 'Iron Fist', 4, 'Powers up punching moves.'),
     poisonHeal: new Ability(90, 'Poison Heal', 4, 'If poisoned, the Pokémon has its HP restored instead of taking damage.'),
+    // 
     adaptability: new Ability(91, 'Adaptability', 4, 'Powers up moves of the same type as the Pokémon.'),
     skillLink: new Ability(92, 'Skill Link', 4, 'Maximizes the number of times multistrike moves hit.'),
     hydration: new Ability(93, 'Hydration', 4, 'Cures the Pokémon\'s status conditions in rain.'),
@@ -105,6 +110,7 @@ export const gen4Abilities = {
     magicGuard: new Ability(98, 'Magic Guard', 4, 'The Pokémon only takes damage from attacks.'),
     noGuard: new Ability(99, 'No Guard', 4, 'The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.'),
     stall: new Ability(100, 'Stall', 4, 'The Pokémon is always the last to use its moves.'),
+    // 
     technician: new Ability(101, 'Technician', 4, 'Powers up weak moves so the Pokémon can deal more damage with them.'),
     leafGuard: new Ability(102, 'Leaf Guard', 4, 'Prevents status conditions in harsh sunlight.'),
     klutz: new Ability(103, 'Klutz', 4, 'The Pokémon can\'t use any held items.'),
@@ -115,6 +121,7 @@ export const gen4Abilities = {
     forewarn: new Ability(108, 'Forewarn', 4, 'When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.'),
     unaware: new Ability(109, 'Unaware', 4, 'When attacking, the Pokémon ignores the target\'s stat changes.'),
     tintedLens: new Ability(110, 'Tinted Lens', 4, 'The Pokémon can use "not very effective" moves to deal regular damage.'),
+    // 
     filter: new Ability(111, 'Filter', 4, 'Reduces the power of supereffective attacks that hit the Pokémon.'),
     slowStart: new Ability(112, 'Slow Start', 4, 'For five turns, the Pokémon\'s Attack and Speed stats are halved.'),
     scrappy: new Ability(113, 'Scrappy', 4, 'The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves. It is also unaffected by Intimidate.'),
@@ -125,6 +132,7 @@ export const gen4Abilities = {
     honeyGather: new Ability(118, 'Honey Gather', 4, 'The Pokémon may gather Honey after a battle.'),
     frisk: new Ability(119, 'Frisk', 4, 'When it enters a battle, the Pokémon can check an opposing Pokémon\'s held item.'),
     reckless: new Ability(120, 'Reckless', 4, 'Powers up moves that have recoil damage.'),
+    // 
     multitype: new Ability(121, 'Multitype', 4, 'Changes the Pokémon\'s type to match the plate it holds.'),
     flowerGift: new Ability(122, 'Flower Gift', 4, 'Boosts the Attack and Sp. Def stats of the Pokémon and its allies in harsh sunlight.'),
     badDreams: new Ability(123, 'Bad Dreams', 4, 'Damages opposing Pokémon that are asleep.'),
@@ -138,6 +146,7 @@ export const gen5Abilities = {
     defiant: new Ability(128, 'Defiant', 5, 'If the Pokémon has any stat lowered by an opposing Pokémon, its Attack stat will be boosted sharply.'),
     defeatist: new Ability(129, 'Defeatist', 5, 'Halves the Pokémon\'s Attack and Sp. Atk stats when its HP drops to half or less.'),
     cursedBody: new Ability(130, 'Cursed Body', 5, 'May disable a move that has dealt damage to the Pokémon.'),
+    // 
     healer: new Ability(131, 'Healer', 5, 'Sometimes cures the status conditions of the Pokémon\'s allies.'),
     friendGuard: new Ability(132, 'Friend Guard', 5, 'Reduces damage dealt to allies.'),
     weakArmor: new Ability(133, 'Weak Armor', 5, 'The Pokémon\'s Defense stat is lowered when it takes damage from physical moves, but its Speed stat is sharply boosted.'),
@@ -148,6 +157,7 @@ export const gen5Abilities = {
     flareBoost: new Ability(138, 'Flare Boost', 5, 'Powers up special moves when the Pokémon is burned.'),
     harvest: new Ability(139, 'Harvest', 5, 'May create another Berry after one is used.'),
     telepathy: new Ability(140, 'Telepathy', 5, 'The Pokémon anticipates and dodges the attacks of its allies.'),
+    // 
     moody: new Ability(141, 'Moody', 5, 'Every turn, one of the Pokémon\'s stats will be boosted sharply but another stat will be lowered.'),
     overcoat: new Ability(142, 'Overcoat', 5, 'The Pokémon takes no damage from sandstorms. It is also protected from the effects of powders and spores.'),
     poisonTouch: new Ability(143, 'Poison Touch', 5, 'May poison a target when the Pokémon makes contact.'),
@@ -158,6 +168,7 @@ export const gen5Abilities = {
     analytic: new Ability(148, 'Analytic', 5, 'Boosts the power of the Pokémon\'s move if it is the last to act that turn.'),
     illusion: new Ability(149, 'Illusion', 5, 'The Pokémon fools opponents by entering battle disguised as the last Pokémon in its Trainer\'s party.'),
     imposter: new Ability(150, 'Imposter', 5, 'The Pokémon transforms itself into the Pokémon it\'s facing.'),
+    // 
     infiltrator: new Ability(151, 'Infiltrator', 5, 'The Pokémon\'s moves are unaffected by the target\'s barriers, substitutes, and the like.'),
     mummy: new Ability(152, 'Mummy', 5, 'Contact with the Pokémon changes the attacker\'s Ability to Mummy.'),
     moxie: new Ability(153, 'Moxie', 5, 'When the Pokémon knocks out a target, it shows moxie, which boosts its Attack stat.'),
@@ -168,6 +179,7 @@ export const gen5Abilities = {
     prankster: new Ability(158, 'Prankster', 5, 'Gives priority to the Pokémon\'s status moves.'),
     sandForce: new Ability(159, 'Sand Force', 5, 'Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.'),
     ironBarbs: new Ability(160, 'Iron Barbs', 5, 'The Pokémon\'s iron barbs damage the attacker if it makes direct contact.'),
+    // 
     zenMode: new Ability(161, 'Zen Mode', 5, 'Changes the Pokémon\'s shape when its HP drops to half or less.'),
     victoryStar: new Ability(162, 'Victory Star', 5, 'Boosts the accuracy of the Pokémon and its allies.'),
     turboblaze: new Ability(163, 'Turboblaze', 5, 'The Pokémon\'s moves are unimpeded by the Ability of the target.'),

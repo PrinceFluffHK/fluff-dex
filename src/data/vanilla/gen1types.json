@@ -1,0 +1,146 @@
+[
+    {
+        "id": 0,
+        "name": "No Type",
+        "superEffective": [],
+        "notVeryEffective": [],
+        "noEffect": [],
+        "iconUrl": "",
+        "bannerUrl": ""
+    },
+    {
+        "id": 1,
+        "name": "Normal",
+        "superEffective": [],
+        "notVeryEffective": [6],
+        "noEffect": [8],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/8/8c/Normal_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/0/08/NormalIC_SV.png"
+    },
+    {
+        "id": 2,
+        "name": "Fighting",
+        "superEffective": [1, 6, 15],
+        "notVeryEffective": [3, 4, 7, 14],
+        "noEffect": [8],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/c/c2/Fighting_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/0/0f/FightingIC_SV.png"
+    },
+    {
+        "id": 3,
+        "name": "Flying",
+        "superEffective": [2, 7, 12],
+        "notVeryEffective": [6, 13],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/c/c5/Flying_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/d/d7/FlyingIC_SV.png"
+    },
+    {
+        "id": 4,
+        "name": "Poison",
+        "superEffective": [12, 7],
+        "notVeryEffective": [4, 5, 6, 8],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/9/98/Poison_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/9/9d/PoisonIC_SV.png"
+    },
+    {
+        "id": 5,
+        "name": "Ground",
+        "superEffective": [4, 6, 10, 13],
+        "notVeryEffective": [7, 12],
+        "noEffect": [3],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/e/ee/Ground_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/f/f8/GroundIC_SV.png"
+    },
+    {
+        "id": 6,
+        "name": "Rock",
+        "superEffective": [3, 7, 10, 15],
+        "notVeryEffective": [2, 5],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/5/51/Rock_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/3/32/RockIC_SV.png"
+    },
+    {
+        "id": 7,
+        "name": "Bug",
+        "superEffective": [12, 14, 4],
+        "notVeryEffective": [2, 3, 8, 10],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/5/51/Bug_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/d/d1/BugIC_SV.png"
+    },
+    {
+        "id": 8,
+        "name": "Flying",
+        "superEffective": [8],
+        "notVeryEffective": [],
+        "noEffect": [1, 14],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/2/23/Ghost_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/2/2c/GhostIC_SV.png"
+    },
+    {
+        "id": 10,
+        "name": "Fire",
+        "superEffective": [12, 15],
+        "notVeryEffective": [6, 10, 11, 16],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/f/f9/Fire_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/a/a2/FireIC_SV.png"
+    },
+    {
+        "id": 11,
+        "name": "Water",
+        "superEffective": [5, 6, 10],
+        "notVeryEffective": [11, 12, 16],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/e/e7/Water_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/d/de/WaterIC_SV.png"
+    },
+    {
+        "id": 12,
+        "name": "Grass",
+        "superEffective": [5, 6, 11],
+        "notVeryEffective": [3, 4, 7, 10, 12, 16],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/8/81/Grass_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/7/7b/GrassIC_SV.png"
+    },
+    {
+        "id": 13,
+        "name": "Electric",
+        "superEffective": [3, 11],
+        "notVeryEffective": [12, 16],
+        "noEffect": [5],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/c/cf/Electric_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/7/77/ElectricIC_SV.png"
+    },
+    {
+        "id": 14,
+        "name": "Psychic",
+        "superEffective": [2, 4],
+        "notVeryEffective": [14],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/2/2d/Psychic_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/9/96/PsychicIC_SV.png"
+    },
+    {
+        "id": 15,
+        "name": "Ice",
+        "superEffective": [3, 5, 12, 16],
+        "notVeryEffective": [15],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/8/86/Ice_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/1/13/IceIC_SV.png"
+    },
+    {
+        "id": 16,
+        "name": "Dragon",
+        "superEffective": [16],
+        "notVeryEffective": [],
+        "noEffect": [],
+        "iconUrl": "https://archives.bulbagarden.net/media/upload/c/c6/Dragon_icon_HOME3.png",
+        "bannerUrl": "https://archives.bulbagarden.net/media/upload/7/7f/DragonIC_SV.png"
+    }
+]

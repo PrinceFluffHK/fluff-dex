@@ -35,10 +35,22 @@ const {
     dragon,
     dark,
     fairy,
-} = vanillaTypes
+} = vanillaTypes;
 
 export const gen1Moves = {
-    pound: new Move(1, "Pound", normal, physical, 40, 100, 35, adjacent, 1, ""),
+    pound: new Move(
+        1,
+        "Pound",
+        normal,
+        physical,
+        40,
+        100,
+        35,
+        adjacent,
+        1,
+        "",
+        "shoobidydoobidy"
+    ),
     karateChop: new Move(
         2,
         "Karate Chop",
@@ -195,7 +207,19 @@ export const gen1Moves = {
         1,
         "Sharply raises user's  Attack."
     ),
-    cut: new Move(15, "Cut", normal, physical, 50, 95, 30, adjacent, 1, ""),
+    cut: new Move(
+        15,
+        "Cut",
+        normal,
+        physical,
+        50,
+        95,
+        30,
+        adjacent,
+        1,
+        "",
+        "shoobidydoobidy"
+    ),
     gust: new Move(
         16,
         "Gust",
@@ -256,7 +280,19 @@ export const gen1Moves = {
         1,
         "Traps opponent, damaging them for 4-5 turns."
     ),
-    slam: new Move(21, "Slam", normal, physical, 80, 75, 20, adjacent, 1, ""),
+    slam: new Move(
+        21,
+        "Slam",
+        normal,
+        physical,
+        80,
+        75,
+        20,
+        adjacent,
+        1,
+        "",
+        "shoobidydoobidy"
+    ),
     vineWhip: new Move(
         22,
         "Vine Whip",

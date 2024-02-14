@@ -5,6 +5,17 @@ class Ability {
         this.gen = gen
         this.description = description
     }
+
+    static makeSingle(abilityObj) {
+        return new Ability(abilityObj.id, abilityObj.name, abilityObj.gen, abilityObj.description)
+    }
+
+    static makeArray(rawJsonArray) {
+        const jsonArray = JSON.parse(rawJsonArray)
+        return jsonArray.map(ability => {
+            return Ability.makeSingle(ability)
+        })
+    }
 }
 
 export default Ability

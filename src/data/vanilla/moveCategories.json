@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "category": "Physical",
+        "iconUrl": "https://img.pokemondb.net/images/icons/move-special.png"
+    },
+    {
+        "id": 2,
+        "category": "Special",
+        "iconUrl": "https://img.pokemondb.net/images/icons/move-special.png"
+    },
+    {
+        "id": 3,
+        "category": "Status",
+        "iconUrl": "https://img.pokemondb.net/images/icons/move-status.png"
+    }
+]
