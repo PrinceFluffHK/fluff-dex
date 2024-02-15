@@ -1,8 +1,7 @@
-// import * as gen from "../vanilla/abilities.js"
-import data from "../../data/vanilla/abilities.json"
+import abilityData from "../../data/vanilla/abilities.json"
 import Ability from "../../models/Ability.js"
 
-const natDexAbilities = Ability.makeArray(data)
+const natDexAbilities = Ability.makeArray(abilityData)
 
 const b2deAbilities = natDexAbilities.filter(ability => {
     return ability.gen <= 5

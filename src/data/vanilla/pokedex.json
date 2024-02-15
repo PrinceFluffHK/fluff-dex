@@ -18,7 +18,7 @@
         {
             "id": 3,
             "name": "Venusaur",
-            "forms": [3, 20001]
+            "forms": [3, 10033]
         },
         {
             "id": 4,
@@ -33,7 +33,7 @@
         {
             "id": 6,
             "name": "Charizard",
-            "forms": [6, 20002, 20003]
+            "forms": [6, 10034, 10035]
         },
         {
             "id": 7,
@@ -48,7 +48,7 @@
         {
             "id": 9,
             "name": "Blastoise",
-            "forms": [9, 20004]
+            "forms": [9, 10036]
         },
         {
             "id": 10,
@@ -78,7 +78,7 @@
         {
             "id": 15,
             "name": "Beedrill",
-            "forms": [15, 20005]
+            "forms": [15, 10090]
         },
         {
             "id": 16,
@@ -93,17 +93,17 @@
         {
             "id": 18,
             "name": "Pidgeot",
-            "forms": [18, 20006]
+            "forms": [18, 10073]
         },
         {
             "id": 19,
             "name": "Rattata",
-            "forms": [19, 30001]
+            "forms": [19, 10091]
         },
         {
             "id": 20,
             "name": "Raticate",
-            "forms": [20, 30002]
+            "forms": [20, 10092]
         },
         {
             "id": 21,
@@ -133,17 +133,17 @@
         {
             "id": 26,
             "name": "Raichu",
-            "forms": [26, 30003]
+            "forms": [26, 10100]
         },
         {
             "id": 27,
             "name": "Sandshrew",
-            "forms": [27, 30004]
+            "forms": [27, 10101]
         },
         {
             "id": 28,
             "name": "Sandslash",
-            "forms": [28, 30005]
+            "forms": [28, 10102]
         },
         {
             "id": 29,
@@ -188,12 +188,12 @@
         {
             "id": 37,
             "name": "Vulpix",
-            "forms": [37]
+            "forms": [37, 10103]
         },
         {
             "id": 38,
             "name": "Ninetails",
-            "forms": [38]
+            "forms": [38, 10104]
         },
         {
             "id": 39,
@@ -253,22 +253,22 @@
         {
             "id": 50,
             "name": "Diglett",
-            "forms": [50]
+            "forms": [50, 10105]
         },
         {
             "id": 51,
             "name": "Dugtrio",
-            "forms": [51]
+            "forms": [51, 10106]
         },
         {
             "id": 52,
             "name": "Meowth",
-            "forms": [52]
+            "forms": [52, 10107, 10161]
         },
         {
             "id": 53,
             "name": "Persian",
-            "forms": [53]
+            "forms": [53, 10108]
         },
         {
             "id": 54,
@@ -328,7 +328,7 @@
         {
             "id": 65,
             "name": "Alakazam",
-            "forms": [65]
+            "forms": [65, 10037]
         },
         {
             "id": 66,
@@ -373,37 +373,37 @@
         {
             "id": 74,
             "name": "Geodude",
-            "forms": [74]
+            "forms": [74, 10109]
         },
         {
             "id": 75,
             "name": "Graveler",
-            "forms": [75]
+            "forms": [75, 10110]
         },
         {
             "id": 76,
             "name": "Golem",
-            "forms": [76]
+            "forms": [76, 10111]
         },
         {
             "id": 77,
             "name": "Ponyta",
-            "forms": [77]
+            "forms": [77, 10162]
         },
         {
             "id": 78,
             "name": "Rapidash",
-            "forms": [78]
+            "forms": [78, 10163]
         },
         {
             "id": 79,
             "name": "Slowpoke",
-            "forms": [79]
+            "forms": [79, 10164]
         },
         {
             "id": 80,
             "name": "Slowbro",
-            "forms": [80]
+            "forms": [80, 10165, 10071]
         },
         {
             "id": 81,
@@ -418,7 +418,7 @@
         {
             "id": 83,
             "name": "Farfetch'd",
-            "forms": [83]
+            "forms": [83, 10166]
         },
         {
             "id": 84,
@@ -443,12 +443,12 @@
         {
             "id": 88,
             "name": "Grimer",
-            "forms": [88]
+            "forms": [88, 10112]
         },
         {
             "id": 89,
             "name": "Muk",
-            "forms": [89]
+            "forms": [89, 10113]
         },
         {
             "id": 90,
@@ -473,7 +473,7 @@
         {
             "id": 94,
             "name": "Gengar",
-            "forms": [94]
+            "forms": [94, 10038]
         },
         {
             "id": 95,
@@ -518,7 +518,7 @@
         {
             "id": 103,
             "name": "Exeggutor",
-            "forms": [103]
+            "forms": [103, 10114]
         },
         {
             "id": 104,
@@ -528,7 +528,7 @@
         {
             "id": 105,
             "name": "Marowak",
-            "forms": [105]
+            "forms": [105, 10115]
         },
         {
             "id": 106,
@@ -553,7 +553,7 @@
         {
             "id": 110,
             "name": "Weezing",
-            "forms": [110]
+            "forms": [110, 10167]
         },
         {
             "id": 111,
@@ -578,7 +578,7 @@
         {
             "id": 115,
             "name": "Kangaskhan",
-            "forms": [115]
+            "forms": [115, 10039]
         },
         {
             "id": 116,
@@ -638,7 +638,7 @@
         {
             "id": 127,
             "name": "Pinsir",
-            "forms": [127]
+            "forms": [127, 10040]
         },
         {
             "id": 128,
@@ -653,7 +653,7 @@
         {
             "id": 130,
             "name": "Gyarados",
-            "forms": [130]
+            "forms": [130, 10041]
         },
         {
             "id": 131,
@@ -713,7 +713,7 @@
         {
             "id": 142,
             "name": "Aerodactyl",
-            "forms": [142]
+            "forms": [142, 10042]
         },
         {
             "id": 143,
@@ -723,17 +723,17 @@
         {
             "id": 144,
             "name": "Articuno",
-            "forms": [144]
+            "forms": [144, 10169]
         },
         {
             "id": 145,
             "name": "Zapdos",
-            "forms": [145]
+            "forms": [145, 10170]
         },
         {
             "id": 146,
             "name": "Moltres",
-            "forms": [146]
+            "forms": [146, 10171]
         },
         {
             "id": 147,
@@ -753,7 +753,7 @@
         {
             "id": 150,
             "name": "Mewtwo",
-            "forms": [150]
+            "forms": [150, 10043, 10044]
         },
         {
             "id": 151,
@@ -908,7 +908,7 @@
         {
             "id": 181,
             "name": "Ampharos",
-            "forms": [181]
+            "forms": [181, 10045]
         },
         {
             "id": 182,
@@ -998,7 +998,7 @@
         {
             "id": 199,
             "name": "Slowking",
-            "forms": [199]
+            "forms": [199, 10172]
         },
         {
             "id": 200,
@@ -1043,7 +1043,7 @@
         {
             "id": 208,
             "name": "Steelix",
-            "forms": [208]
+            "forms": [208, 10072]
         },
         {
             "id": 209,
@@ -1063,7 +1063,7 @@
         {
             "id": 212,
             "name": "Scizor",
-            "forms": [212]
+            "forms": [212, 10046]
         },
         {
             "id": 213,
@@ -1073,7 +1073,7 @@
         {
             "id": 214,
             "name": "Heracross",
-            "forms": [214]
+            "forms": [214, 10047]
         },
         {
             "id": 215,
@@ -1113,7 +1113,7 @@
         {
             "id": 222,
             "name": "Corsola",
-            "forms": [222]
+            "forms": [222, 10173]
         },
         {
             "id": 223,
@@ -1148,7 +1148,7 @@
         {
             "id": 229,
             "name": "Houndoom",
-            "forms": [229]
+            "forms": [229, 10048]
         },
         {
             "id": 230,
@@ -1243,7 +1243,7 @@
         {
             "id": 248,
             "name": "Tyranitar",
-            "forms": [248]
+            "forms": [248, 10049]
         },
         {
             "id": 249,
@@ -1273,7 +1273,7 @@
         {
             "id": 254,
             "name": "Sceptile",
-            "forms": [254]
+            "forms": [254, 10065]
         },
         {
             "id": 255,
@@ -1288,7 +1288,7 @@
         {
             "id": 257,
             "name": "Blaziken",
-            "forms": [257]
+            "forms": [257, 1005]
         },
         {
             "id": 258,
@@ -1303,7 +1303,7 @@
         {
             "id": 260,
             "name": "Swampert",
-            "forms": [260]
+            "forms": [260, 10064]
         },
         {
             "id": 261,
@@ -1413,7 +1413,7 @@
         {
             "id": 282,
             "name": "Gardevoir",
-            "forms": [282]
+            "forms": [282, 10051]
         },
         {
             "id": 283,
@@ -1513,12 +1513,12 @@
         {
             "id": 302,
             "name": "Sableye",
-            "forms": [302]
+            "forms": [302, 10066]
         },
         {
             "id": 303,
             "name": "Mawile",
-            "forms": [303]
+            "forms": [303, 10052]
         },
         {
             "id": 304,
@@ -1533,7 +1533,7 @@
         {
             "id": 306,
             "name": "Aggron",
-            "forms": [306]
+            "forms": [306, 10053]
         },
         {
             "id": 307,
@@ -1543,7 +1543,7 @@
         {
             "id": 308,
             "name": "Medicham",
-            "forms": [308]
+            "forms": [308, 10054]
         },
         {
             "id": 309,
@@ -1553,7 +1553,7 @@
         {
             "id": 310,
             "name": "Manectric",
-            "forms": [310]
+            "forms": [310, 10055]
         },
         {
             "id": 311,
@@ -1598,7 +1598,7 @@
         {
             "id": 319,
             "name": "Sharpedo",
-            "forms": [319]
+            "forms": [319, 10070]
         },
         {
             "id": 320,
@@ -1618,7 +1618,7 @@
         {
             "id": 323,
             "name": "Camerupt",
-            "forms": [323]
+            "forms": [323, 10087]
         },
         {
             "id": 324,
@@ -1673,7 +1673,7 @@
         {
             "id": 334,
             "name": "Altaria",
-            "forms": [334]
+            "forms": [334, 10067]
         },
         {
             "id": 335,
@@ -1758,22 +1758,7 @@
         {
             "id": 351,
             "name": "Castform",
-            "forms": [351]
-        },
-        {
-            "id": 10001,
-            "name": "Castform",
-            "forms": [10001]
-        },
-        {
-            "id": 10002,
-            "name": "Castform",
-            "forms": [10002]
-        },
-        {
-            "id": 10003,
-            "name": "Castform",
-            "forms": [10003]
+            "forms": [351, 10013, 10014, 10015]
         },
         {
             "id": 352,
@@ -1788,7 +1773,7 @@
         {
             "id": 354,
             "name": "Banette",
-            "forms": [354]
+            "forms": [354, 10056]
         },
         {
             "id": 355,
@@ -1813,7 +1798,7 @@
         {
             "id": 359,
             "name": "Absol",
-            "forms": [359]
+            "forms": [359, 10057]
         },
         {
             "id": 360,
@@ -1828,7 +1813,7 @@
         {
             "id": 362,
             "name": "Glalie",
-            "forms": [362]
+            "forms": [362, 10074]
         },
         {
             "id": 363,
@@ -1883,7 +1868,7 @@
         {
             "id": 373,
             "name": "Salamence",
-            "forms": [373]
+            "forms": [373, 10089]
         },
         {
             "id": 374,
@@ -1898,7 +1883,7 @@
         {
             "id": 376,
             "name": "Metagross",
-            "forms": [376]
+            "forms": [376, 10076]
         },
         {
             "id": 377,
@@ -1918,27 +1903,27 @@
         {
             "id": 380,
             "name": "Latias",
-            "forms": [380]
+            "forms": [380, 10062]
         },
         {
             "id": 381,
             "name": "Latios",
-            "forms": [381]
+            "forms": [381, 10063]
         },
         {
             "id": 382,
             "name": "Kyogre",
-            "forms": [382]
+            "forms": [382, 10077]
         },
         {
             "id": 383,
             "name": "Groudon",
-            "forms": [383]
+            "forms": [383, 10078]
         },
         {
             "id": 384,
             "name": "Rayquaza",
-            "forms": [384]
+            "forms": [384, 10079]
         },
         {
             "id": 385,
@@ -1948,22 +1933,7 @@
         {
             "id": 386,
             "name": "Deoxys",
-            "forms": [386]
-        },
-        {
-            "id": 10006,
-            "name": "Deoxys",
-            "forms": [10006]
-        },
-        {
-            "id": 10007,
-            "name": "Deoxys",
-            "forms": [10007]
-        },
-        {
-            "id": 10008,
-            "name": "Deoxys",
-            "forms": [10008]
+            "forms": [386, 10001, 10002, 10003]
         },
         {
             "id": 387,
@@ -2098,17 +2068,7 @@
         {
             "id": 413,
             "name": "Wormadam",
-            "forms": [413]
-        },
-        {
-            "id": 413.1,
-            "name": "Wormadam",
-            "forms": [413.1]
-        },
-        {
-            "id": 413.2,
-            "name": "Wormadam",
-            "forms": [413.2]
+            "forms": [413, 10004, 10005]
         },
         {
             "id": 414,
@@ -2193,7 +2153,7 @@
         {
             "id": 428,
             "name": "Lopunny",
-            "forms": [428]
+            "forms": [428, 10088]
         },
         {
             "id": 429,
@@ -2278,7 +2238,7 @@
         {
             "id": 445,
             "name": "Garchomp",
-            "forms": [445]
+            "forms": [445, 10058]
         },
         {
             "id": 446,
@@ -2293,7 +2253,7 @@
         {
             "id": 448,
             "name": "Lucario",
-            "forms": [448]
+            "forms": [448, 10059]
         },
         {
             "id": 449,
@@ -2353,7 +2313,7 @@
         {
             "id": 460,
             "name": "Abomasnow",
-            "forms": [460]
+            "forms": [460, 10060]
         },
         {
             "id": 461,
@@ -2428,7 +2388,7 @@
         {
             "id": 475,
             "name": "Gallade",
-            "forms": [475]
+            "forms": [475, 10068]
         },
         {
             "id": 476,
@@ -2448,32 +2408,7 @@
         {
             "id": 479,
             "name": "Rotom",
-            "forms": [479]
-        },
-        {
-            "id": 10011,
-            "name": "Rotom",
-            "forms": [10011]
-        },
-        {
-            "id": 10012,
-            "name": "Rotom",
-            "forms": [10012]
-        },
-        {
-            "id": 10013,
-            "name": "Rotom",
-            "forms": [10013]
-        },
-        {
-            "id": 10014,
-            "name": "Rotom",
-            "forms": [10014]
-        },
-        {
-            "id": 10015,
-            "name": "Rotom",
-            "forms": [10015]
+            "forms": [479, 10008, 10009, 10010, 10011, 10012]
         },
         {
             "id": 480,
@@ -2513,12 +2448,7 @@
         {
             "id": 487,
             "name": "Giratina",
-            "forms": [487]
-        },
-        {
-            "id": 10018,
-            "name": "Giratina",
-            "forms": [10018]
+            "forms": [487, 10007]
         },
         {
             "id": 488,
@@ -2543,12 +2473,7 @@
         {
             "id": 492,
             "name": "Shaymin",
-            "forms": [492]
-        },
-        {
-            "id": 10019,
-            "name": "Shaymin",
-            "forms": [10019]
+            "forms": [492, 10006]
         },
         {
             "id": 493,
@@ -2743,7 +2668,7 @@
         {
             "id": 531,
             "name": "Audino",
-            "forms": [531]
+            "forms": [531, 10069]
         },
         {
             "id": 532,
@@ -2838,12 +2763,7 @@
         {
             "id": 550,
             "name": "Basculin",
-            "forms": [550]
-        },
-        {
-            "id": 10020,
-            "name": "Basculin",
-            "forms": [10020]
+            "forms": [550, 10015, 10247]
         },
         {
             "id": 551,
@@ -2868,12 +2788,7 @@
         {
             "id": 555,
             "name": "Darmanitan",
-            "forms": [555]
-        },
-        {
-            "id": 10023,
-            "name": "Darmanitan",
-            "forms": [10023]
+            "forms": [555, 10017]
         },
         {
             "id": 556,
@@ -3303,22 +3218,12 @@
         {
             "id": 641,
             "name": "Tornadus",
-            "forms": [641]
-        },
-        {
-            "id": 10026,
-            "name": "Tornadus",
-            "forms": [10026]
+            "forms": [641, 10019]
         },
         {
             "id": 642,
             "name": "Thundurus",
-            "forms": [642]
-        },
-        {
-            "id": 10027,
-            "name": "Thundurus",
-            "forms": [10027]
+            "forms": [642, 10020]
         },
         {
             "id": 643,
@@ -3333,297 +3238,27 @@
         {
             "id": 645,
             "name": "Landorus",
-            "forms": [645]
-        },
-        {
-            "id": 10028,
-            "name": "Landorus",
-            "forms": [10028]
+            "forms": [645, 10021]
         },
         {
             "id": 646,
             "name": "Kyurem",
-            "forms": [646]
-        },
-        {
-            "id": 10029,
-            "name": "Kyurem",
-            "forms": [10029]
-        },
-        {
-            "id": 10030,
-            "name": "Kyurem",
-            "forms": [10030]
+            "forms": [646, 10022, 10023]
         },
         {
             "id": 647,
             "name": "Keldeo",
-            "forms": [647]
-        },
-        {
-            "id": 10031,
-            "name": "Keldeo",
-            "forms": [10031]
+            "forms": [647, 10024]
         },
         {
             "id": 648,
             "name": "Meloetta",
-            "forms": [648]
-        },
-        {
-            "id": 10032,
-            "name": "Meloetta",
-            "forms": [10032]
+            "forms": [648, 10018]
         },
         {
             "id": 649,
             "name": "Genesect",
             "forms": [649]
-        },
-        {
-            "id": 3.1,
-            "name": "Mega Venusaur",
-            "forms": [3.1]
-        },
-        {
-            "id": 6.1,
-            "name": "Mega Charizard X",
-            "forms": [6.1]
-        },
-        {
-            "id": 6.2,
-            "name": "Mega Charizard Y",
-            "forms": [6.2]
-        },
-        {
-            "id": 9.1,
-            "name": "Mega Blastoise",
-            "forms": [9.1]
-        },
-        {
-            "id": 15.1,
-            "name": "Mega Beedrill",
-            "forms": [15.1]
-        },
-        {
-            "id": 18.1,
-            "name": "Mega Pidgeot",
-            "forms": [18.1]
-        },
-        {
-            "id": 65.1,
-            "name": "Mega Alakazam",
-            "forms": [65.1]
-        },
-        {
-            "id": 80.1,
-            "name": "Mega Slowbro",
-            "forms": [80.1]
-        },
-        {
-            "id": 94.1,
-            "name": "Mega Gengar",
-            "forms": [94.1]
-        },
-        {
-            "id": 115.1,
-            "name": "Mega Kangaskhan",
-            "forms": [115.1]
-        },
-        {
-            "id": 127.1,
-            "name": "Mega Pinsir",
-            "forms": [127.1]
-        },
-        {
-            "id": 130.1,
-            "name": "Mega Gyarados",
-            "forms": [130.1]
-        },
-        {
-            "id": 142.1,
-            "name": "Mega Aerodactyl",
-            "forms": [142.1]
-        },
-        {
-            "id": 150.1,
-            "name": "Mega Mewtwo X",
-            "forms": [150.1]
-        },
-        {
-            "id": 150.2,
-            "name": "Mega Mewtwo Y",
-            "forms": [150.2]
-        },
-        {
-            "id": 181.1,
-            "name": "Mega Ampharos",
-            "forms": [181.1]
-        },
-        {
-            "id": 208.1,
-            "name": "Mega Steelix",
-            "forms": [208.1]
-        },
-        {
-            "id": 212.1,
-            "name": "Mega Scizor",
-            "forms": [212.1]
-        },
-        {
-            "id": 214.1,
-            "name": "Mega Heracross",
-            "forms": [214.1]
-        },
-        {
-            "id": 229.1,
-            "name": "Mega Houndoom",
-            "forms": [229.1]
-        },
-        {
-            "id": 248.1,
-            "name": "Mega Tyranitar",
-            "forms": [248.1]
-        },
-        {
-            "id": 254.1,
-            "name": "Mega Sceptile",
-            "forms": [254.1]
-        },
-        {
-            "id": 257.1,
-            "name": "Mega Blaziken",
-            "forms": [257.1]
-        },
-        {
-            "id": 260.1,
-            "name": "Mega Swampert",
-            "forms": [260.1]
-        },
-        {
-            "id": 282.1,
-            "name": "Mega Gardevoir",
-            "forms": [282.1]
-        },
-        {
-            "id": 302.1,
-            "name": "Mega Sableye",
-            "forms": [302.1]
-        },
-        {
-            "id": 303.1,
-            "name": "Mega Mawile",
-            "forms": [303.1]
-        },
-        {
-            "id": 306.1,
-            "name": "Mega Aggron",
-            "forms": [306.1]
-        },
-        {
-            "id": 308.1,
-            "name": "Mega Medicham",
-            "forms": [308.1]
-        },
-        {
-            "id": 310.1,
-            "name": "Mega Manectric",
-            "forms": [310.1]
-        },
-        {
-            "id": 323.1,
-            "name": "Mega Camerupt",
-            "forms": [323.1]
-        },
-        {
-            "id": 319.1,
-            "name": "Mega Sharpedo",
-            "forms": [319.1]
-        },
-        {
-            "id": 334.1,
-            "name": "Mega Altaria",
-            "forms": [334.1]
-        },
-        {
-            "id": 354.1,
-            "name": "Mega Banette",
-            "forms": [354.1]
-        },
-        {
-            "id": 359.1,
-            "name": "Mega Absol",
-            "forms": [359.1]
-        },
-        {
-            "id": 362.1,
-            "name": "Mega Glalie",
-            "forms": [362.1]
-        },
-        {
-            "id": 373.1,
-            "name": "Mega Salamence",
-            "forms": [373.1]
-        },
-        {
-            "id": 376.1,
-            "name": "Mega Metagross",
-            "forms": [376.1]
-        },
-        {
-            "id": 380.1,
-            "name": "Mega Latias",
-            "forms": [380.1]
-        },
-        {
-            "id": 381.1,
-            "name": "Mega Latios",
-            "forms": [381.1]
-        },
-        {
-            "id": 384.1,
-            "name": "Mega Rayquaza",
-            "forms": [384.1]
-        },
-        {
-            "id": 428.1,
-            "name": "Mega Lopunny",
-            "forms": [428.1]
-        },
-        {
-            "id": 445.1,
-            "name": "Mega Garchomp",
-            "forms": [445.1]
-        },
-        {
-            "id": 475.1,
-            "name": "Mega Gallade",
-            "forms": [475.1]
-        },
-        {
-            "id": 531.1,
-            "name": "Mega Audino",
-            "forms": [531.1]
-        },
-        {
-            "id": 10004,
-            "name": "Kyogre",
-            "forms": [10004]
-        },
-        {
-            "id": 10005,
-            "name": "Groudon",
-            "forms": [10005]
-        },
-        {
-            "id": 263.1,
-            "name": "Zigzagoon",
-            "forms": [263.1]
-        },
-        {
-            "id": 264.1,
-            "name": "Linoone",
-            "forms": [264.1]
         },
         {
             "id": 650,
@@ -3668,12 +3303,7 @@
         {
             "id": 658,
             "name": "Greninja",
-            "forms": [658]
-        },
-        {
-            "id": 10033,
-            "name": "Greninja",
-            "forms": [10033]
+            "forms": [658, 10117]
         },
         {
             "id": 659,
@@ -3733,12 +3363,7 @@
         {
             "id": 670,
             "name": "Floette",
-            "forms": [670]
-        },
-        {
-            "id": 10034,
-            "name": "Floette",
-            "forms": [10034]
+            "forms": [670, 10061]
         },
         {
             "id": 671,
@@ -3778,12 +3403,7 @@
         {
             "id": 678,
             "name": "Meowstic",
-            "forms": [678]
-        },
-        {
-            "id": 10035,
-            "name": "Meowstic",
-            "forms": [10035]
+            "forms": [678, 10025]
         },
         {
             "id": 679,
@@ -3799,11 +3419,6 @@
             "id": 681,
             "name": "Aegislash",
             "forms": [681]
-        },
-        {
-            "id": 10036,
-            "name": "Aegislash",
-            "forms": [10036]
         },
         {
             "id": 682,
@@ -3988,132 +3603,22 @@
         {
             "id": 718,
             "name": "Zygarde",
-            "forms": [718]
+            "forms": [718, 10118, 10120]
         },
         {
             "id": 719,
             "name": "Diancie",
-            "forms": [719]
-        },
-        {
-            "id": 719.1,
-            "name": "Diancie",
-            "forms": [719.1]
+            "forms": [719, 10075]
         },
         {
             "id": 720,
             "name": "Hoopa",
-            "forms": [720]
-        },
-        {
-            "id": 10038,
-            "name": "Hoopa",
-            "forms": [10038]
+            "forms": [720, 10086]
         },
         {
             "id": 721,
             "name": "Volcanion",
             "forms": [721]
-        },
-        {
-            "id": 19.1,
-            "name": "Rattata",
-            "forms": [19.1]
-        },
-        {
-            "id": 19.2,
-            "name": "Raticate",
-            "forms": [19.2]
-        },
-        {
-            "id": 26.1,
-            "name": "Raichu",
-            "forms": [26.1]
-        },
-        {
-            "id": 27.1,
-            "name": "Sandshrew",
-            "forms": [27.1]
-        },
-        {
-            "id": 28.1,
-            "name": "Sandslash",
-            "forms": [28.1]
-        },
-        {
-            "id": 37.1,
-            "name": "Vulpix",
-            "forms": [37.1]
-        },
-        {
-            "id": 38.1,
-            "name": "Ninetails",
-            "forms": [38.1]
-        },
-        {
-            "id": 50.1,
-            "name": "Diglett",
-            "forms": [50.1]
-        },
-        {
-            "id": 51.1,
-            "name": "Dugtrio",
-            "forms": [51.1]
-        },
-        {
-            "id": 52.1,
-            "name": "Meowth",
-            "forms": [52.1]
-        },
-        {
-            "id": 53.1,
-            "name": "Persian",
-            "forms": [53.1]
-        },
-        {
-            "id": 74.1,
-            "name": "Geodude",
-            "forms": [74.1]
-        },
-        {
-            "id": 75.1,
-            "name": "Graveler",
-            "forms": [75.1]
-        },
-        {
-            "id": 76.1,
-            "name": "Golem",
-            "forms": [76.1]
-        },
-        {
-            "id": 88.1,
-            "name": "Grimer",
-            "forms": [88.1]
-        },
-        {
-            "id": 89.1,
-            "name": "Muk",
-            "forms": [89.1]
-        },
-        {
-            "id": 103.1,
-            "name": "Exeggcutor",
-            "forms": [103.1]
-        },
-        {
-            "id": 105.1,
-            "name": "Marowak",
-            "forms": [105.1]
-        },
-        {
-            "id": 10036,
-            "name": "Zygarde",
-            "forms": [10036]
-        },
-        {
-            "id": 10037,
-            "name": "Zygarde",
-            "forms": [10037]
         },
         {
             "id": 722,
@@ -4213,22 +3718,7 @@
         {
             "id": 741,
             "name": "Oricorio",
-            "forms": [741]
-        },
-        {
-            "id": 10039,
-            "name": "Oricorio",
-            "forms": [10039]
-        },
-        {
-            "id": 10040,
-            "name": "Oricorio",
-            "forms": [10040]
-        },
-        {
-            "id": 10041,
-            "name": "Oricorio",
-            "forms": [10041]
+            "forms": [741, 10123, 10124, 10125]
         },
         {
             "id": 742,
@@ -4248,27 +3738,12 @@
         {
             "id": 745,
             "name": "Lycanroc",
-            "forms": [745]
-        },
-        {
-            "id": 10042,
-            "name": "Lycanroc",
-            "forms": [10042]
-        },
-        {
-            "id": 10043,
-            "name": "Lycanroc",
-            "forms": [10043]
+            "forms": [745, 10126, 10152]
         },
         {
             "id": 746,
             "name": "Wishiwashi",
-            "forms": [746]
-        },
-        {
-            "id": 10044,
-            "name": "Wishiwashi",
-            "forms": [10044]
+            "forms": [746, 10127]
         },
         {
             "id": 747,
@@ -4543,22 +4018,7 @@
         {
             "id": 800,
             "name": "Necrozma",
-            "forms": [800]
-        },
-        {
-            "id": 10046,
-            "name": "Necrozma",
-            "forms": [10046]
-        },
-        {
-            "id": 10047,
-            "name": "Necrozma",
-            "forms": [10047]
-        },
-        {
-            "id": 10048,
-            "name": "Necrozma",
-            "forms": [10048]
+            "forms": [800, 10155, 10156, 10157]
         },
         {
             "id": 801,
@@ -4604,171 +4064,6 @@
             "id": 809,
             "name": "Melmetal",
             "forms": [809]
-        },
-        {
-            "id": 52.2,
-            "name": "Meowth",
-            "forms": [52.2]
-        },
-        {
-            "id": 77.1,
-            "name": "Ponyta",
-            "forms": [77.1]
-        },
-        {
-            "id": 78.1,
-            "name": "Rapidash",
-            "forms": [78.1]
-        },
-        {
-            "id": 79.1,
-            "name": "Slowpoke",
-            "forms": [79.1]
-        },
-        {
-            "id": 80.2,
-            "name": "Slowbro",
-            "forms": [80.2]
-        },
-        {
-            "id": 110.1,
-            "name": "Weezing",
-            "forms": [110.1]
-        },
-        {
-            "id": 122.1,
-            "name": "Mr. Mime",
-            "forms": [122.1]
-        },
-        {
-            "id": 144.1,
-            "name": "Articuno",
-            "forms": [144.1]
-        },
-        {
-            "id": 145.1,
-            "name": "Zapdos",
-            "forms": [145.1]
-        },
-        {
-            "id": 146.1,
-            "name": "Moltres",
-            "forms": [146.1]
-        },
-        {
-            "id": 199.1,
-            "name": "Slowking",
-            "forms": [199.1]
-        },
-        {
-            "id": 10022,
-            "name": "Darumaka",
-            "forms": [10022]
-        },
-        {
-            "id": 10024,
-            "name": "Darmanitan",
-            "forms": [10024]
-        },
-        {
-            "id": 10025,
-            "name": "Darmanitan",
-            "forms": [10025]
-        },
-        {
-            "id": 58.1,
-            "name": "Growlithe",
-            "forms": [58.1]
-        },
-        {
-            "id": 59.1,
-            "name": "Arcanine",
-            "forms": [59.1]
-        },
-        {
-            "id": 100.1,
-            "name": "Voltorb",
-            "forms": [100.1]
-        },
-        {
-            "id": 101.1,
-            "name": "Electrode",
-            "forms": [101.1]
-        },
-        {
-            "id": 157.1,
-            "name": "Typhlosion",
-            "forms": [157.1]
-        },
-        {
-            "id": 211.1,
-            "name": "Qwilfish",
-            "forms": [211.1]
-        },
-        {
-            "id": 215.1,
-            "name": "Sneasel",
-            "forms": [215.1]
-        },
-        {
-            "id": 503.1,
-            "name": "Samurott",
-            "forms": [503.1]
-        },
-        {
-            "id": 549.1,
-            "name": "Lilligant",
-            "forms": [549.1]
-        },
-        {
-            "id": 571.1,
-            "name": "Zorua",
-            "forms": [571.1]
-        },
-        {
-            "id": 571.2,
-            "name": "Zoroark",
-            "forms": [571.2]
-        },
-        {
-            "id": 628.1,
-            "name": "Braviary",
-            "forms": [628.1]
-        },
-        {
-            "id": 706.1,
-            "name": "Sliggoo",
-            "forms": [706.1]
-        },
-        {
-            "id": 706.2,
-            "name": "Goodra",
-            "forms": [706.2]
-        },
-        {
-            "id": 713.1,
-            "name": "Avalugg",
-            "forms": [713.1]
-        },
-        {
-            "id": 724.1,
-            "name": "Decidueye",
-            "forms": [724.1]
-        },
-        {
-            "id": 10016,
-            "name": "Dialga",
-            "forms": [10016]
-        },
-        {
-            "id": 10017,
-            "name": "Palkia",
-            "forms": [10017]
-        },
-        {
-            "id": 10021,
-            "name": "Basculin",
-            "forms": [10021]
         },
         {
             "id": 810,
@@ -5056,11 +4351,6 @@
             "forms": [864]
         },
         {
-            "id": 864.9,
-            "name": "Farfetch'd",
-            "forms": [864.9]
-        },
-        {
             "id": 865,
             "name": "Sirfetch'd",
             "forms": [865]
@@ -5069,11 +4359,6 @@
             "id": 866,
             "name": "Mr. Rime",
             "forms": [866]
-        },
-        {
-            "id": 866.9,
-            "name": "Yamask",
-            "forms": [866.9]
         },
         {
             "id": 867,

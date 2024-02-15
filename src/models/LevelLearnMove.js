@@ -3,6 +3,8 @@ class LevelLearnMove {
         this.move = move
         this.level = level
     }
+
+
 }
 
 export default LevelLearnMove

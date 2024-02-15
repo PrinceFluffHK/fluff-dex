@@ -1,13 +1,11 @@
 import DexEntry from "../../models/DexEntry";
-import data from "../vanilla/pokedex.json";
+import pokedexData from "../vanilla/pokedex.json";
 
 //In: vanilla dex entries/species, natNum array, dex edits
 
 //create
 
 //Out: exact b2de regionaldex
-
-const jsonArray = JSON.parse(data)
 
 const b2deDexOrder = [
     494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 133, 134, 135, 136, 196,
@@ -33,11 +31,11 @@ const b2deDexOrder = [
 ];
 
 const b2deDexObjArray = b2deDexOrder.map(monId => {
-    return jsonArray.find(entryObj => {
-        monId = entryObj.id
-    })
+    return Help.findInArray(monId, pokedexData)
 })
 
-const b2deDex = DexEntry.makePokedex()
+const b2deEditsArray = DexEntry.makeSubstitutions(b2deDexObjArray, )
+
+const b2deDex = DexEntry.makePokedex(b2deEditsArray)
 
 // const b2deDexEdits =

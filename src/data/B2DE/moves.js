@@ -1,216 +1,245 @@
 import Move from "../../models/Move";
-import { gen5Moves } from "../vanilla/moves"
-import {} from "../vanilla/moves";
-import {
-    adjacent,
-    allAdjacentFoes,
-    userAdjacentAlly,
-} from "../vanilla/targets";
-import { physical, special } from "../vanilla/moveCategories";
-import { vanillaTypes } from "../vanilla/types";
-const {
-    fighting,
-    rock,
-    grass
-} = vanillaTypes
+import moveData from "../vanilla/moves.json"
+import b2deTypes from "./types";
 
-const b2deMoves = {
-    ...gen5Moves,
+const vanillaMoves = JSON.parse(moveData)
 
-    pound: new Move(
-        ...Move.makeEdits(gen5Moves.acid, {
-            effects: "Always lowers opponent's Special Defense",
-        })
-    ),
-    aerialAce: new Move(...Move.makeEdits(gen5Moves.aerialAce, { bp: 85 })),
-    armThrust: new Move(
-        ...Move.makeEdits(gen5Moves.armThrust, {
-            effects: "Hits exactly 4 times in a row.",
-        })
-    ),
-    attackOrder: new Move(
-        ...Move.makeEdits(gen5Moves.attackOrder, { target: allAdjacentFoes })
-    ),
-    boneRush: new Move(
-        ...Move.makeEdits(gen5Moves.boneRush, {
-            acc: 100,
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    bubbleBeam: new Move(
-        ...Move.makeEdits(gen5Moves.bubbleBeam, { target: allAdjacentFoes })
-    ),
-    charge: new Move(
-        ...Move.makeEdits(gen5Moves.charge, {
-            effects:
-                "Raises user's Speed and next Electric move's power increases.",
-        })
-    ),
-    cometPunch: new Move(
-        ...Move.makeEdits(gen5Moves.cometPunch, {
-            type: fighting,
-            acc: 100,
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    cut: new Move(...Move.makeEdits(gen5Moves.cut, { type: grass, bp: 65 })),
-    crossPoison: new Move(...Move.makeEdits(gen5Moves.crossPoison, { bp: 90 })),
-    dive: new Move(
-        ...Move.makeEdits(gen5Moves.dive, {
-            bp: 120,
-            effects:
-                "Dives underwater on first turn, attacks with 33% recoil on second turn.",
-        })
-    ),
-    dizzyPunch: new Move(
-        ...Move.makeEdits(gen5Moves.dizzyPunch, {
-            effects: "50% chance to confuse opponent.",
-        })
-    ),
-    doubleSlap: new Move(
-        ...Move.makeEdits(gen5Moves.doubleSlap, {
-            bp: 30,
-            effects: "Hits exactly twice in a row.",
-        })
-    ),
-    dragonRush: new Move(
-        ...Move.makeEdits(gen5Moves.dragonRush, {
-            bp: 120,
-            acc: 100,
-            effects: "User receives 33% recoil damage.",
-        })
-    ),
-    eggBomb: new Move(...Move.makeEdits(gen5Moves.eggBomb, { type: grass, acc: 100 })),
-    explosion: new Move(
-        ...Move.makeEdits(gen5Moves.explosion, {
-            effects: "Always critical-hits. User faints.",
-        })
-    ),
-    selfDestruct: new Move(
-        ...Move.makeEdits(gen5Moves.selfDestruct, {
-            effects: "Always critical-hits. User faints.",
-        })
-    ),
-    fly: new Move(...Move.makeEdits(gen5Moves.fly, { acc: 100 })),
-    furyAttack: new Move(
-        ...Move.makeEdits(gen5Moves.furyAttack, {
-            acc: 100,
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    furySwipes: new Move(
-        ...Move.makeEdits(gen5Moves.furySwipes, {
-            acc: 100,
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    gearGrind: new Move(...Move.makeEdits(gen5Moves.gearGrind, { acc: 100 })),
-    glaciate: new Move(...Move.makeEdits(gen5Moves.glaciate, { bp: 75 })),
-    heartStamp: new Move(...Move.makeEdits(gen5Moves.heartStamp, { bp: 75 })),
-    icicleCrash: new Move(
-        ...Move.makeEdits(gen5Moves.icicleCrash, { bp: 75, target: allAdjacentFoes })
-    ),
-    icicleSpear: new Move(
-        ...Move.makeEdits(gen5Moves.icicleSpear, {
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    ironTail: new Move(...Move.makeEdits(gen5Moves.ironTail, { acc: 85 })),
-    knockOff: new Move(
-        ...Move.makeEdits(gen5Moves.knockOff, {
-            effects:
-                "Removes opponent's held item for the rest of the battle (does not increase damage).",
-        })
-    ),
-    leafTornado: new Move(
-        ...Move.makeEdits(gen5Moves.leafTornado, { target: allAdjacentFoes })
-    ),
-    lusterPurge: new Move(
-        ...Move.makeEdits(gen5Moves.lusterPurge, {
-            bp: 80,
-            effects: "Lowers opponent's Special Defense.",
-        })
-    ),
-    mirrorShot: new Move(
-        ...Move.makeEdits(gen5Moves.mirrorShot, {
-            acc: 95,
-            effects: "20% chance to lower opponent's Accuracy.",
-        })
-    ),
-    mistBall: new Move(
-        ...Move.makeEdits(gen5Moves.mistBall, {
-            bp: 80,
-            effects: "Lowers opponent's Special Attack.",
-        })
-    ),
-    mudSlap: new Move(
-        ...Move.makeEdits(gen5Moves.mudSlap, {
-            bp: 50,
-            category: physical,
-            effects: "10% chance to lower opponent's Accuracy.",
-        })
-    ),
-    outrage: new Move(...Move.makeEdits(gen5Moves.outrage, { target: adjacent })),
-    petalDance: new Move(...Move.makeEdits(gen5Moves.petalDance, { target: adjacent })),
-    pinMissile: new Move(
-        ...Move.makeEdits(gen5Moves.pinMissile, {
-            acc: 100,
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    poisonFang: new Move(
-        ...Move.makeEdits(gen5Moves.poisonFang, {
-            effects: "Badly poisons the opponent.",
-        })
-    ),
-    poisonTail: new Move(
-        ...Move.makeEdits(gen5Moves.poisonTail, {
-            target: allAdjacentFoes,
-            effects: "High critical hit ratio. Poisons opponents.",
-        })
-    ),
-    rockBlast: new Move(
-        ...Move.makeEdits(gen5Moves.rockBlast, {
-            acc: 100,
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    rockClimb: new Move(
-        ...Move.makeEdits(gen5Moves.rockClimb, { type: rock, acc: 90 })
-    ),
-    rockSmash: new Move(
-        ...Move.makeEdits(gen5Moves.rockSmash, {
-            effects: "Lowers opponent's Defense.",
-        })
-    ),
-    sharpen: new Move(
-        ...Move.makeEdits(gen5Moves.sharpen, {
-            target: userAdjacentAlly,
-            effects: "Raises the target's Attack and Special Attack.",
-        })
-    ),
-    skyUppercut: new Move(...Move.makeEdits(gen5Moves.skyUppercut, { acc: 100 })),
-    spiderWeb: new Move(
-        ...Move.makeEdits(gen5Moves.spiderWeb, { target: allAdjacentFoes })
-    ),
-    steelWing: new Move(
-        ...Move.makeEdits(gen5Moves.steelWing, { effects: "Raises user's Defense." })
-    ),
-    strength: new Move(
-        ...Move.makeEdits(gen5Moves.strength, { target: allAdjacentFoes })
-    ),
-    tailSlap: new Move(
-        ...Move.makeEdits(gen5Moves.tailSlap, {
-            acc: 100,
-            effects: "Hits exactly 3 times in a row.",
-        })
-    ),
-    thrash: new Move(...Move.makeEdits(gen5Moves.thrash, { target: adjacent })),
-    triAttack: new Move(...Move.makeEdits(gen5Moves.triAttack, { bp: 90 })),
-    voltTackle: new Move(
-        ...Move.makeEdits(gen5Moves.voltTackle, { category: special })
-    ),
-    wildCharge: new Move(...Move.makeEdits(gen5Moves.wildCharge, { bp: 120 })),
-};
+const b2deMoveEdits = [
+    {
+        moveId: 51, //Acid
+        effects: "Always lowers opponent's Special Defense",
+    },
+    {
+        moveId: 332, //Aerial Ace
+        bp: 85,
+    },
+    {
+        moveId: 292, //armThrust,
+        effects: "Hits exactly 4 times in a row.",
+    },
+    {
+        moveId: 454, //attackOrder,
+        targetId: 5,
+    },
+    {
+        moveId: 198, //boneRush,
+        acc: 100,
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 61, //bubbleBeam,
+        targetId: 5,
+    },
+    {
+        moveId: 268, //charge
+        effects:
+            "Raises user's Speed and next Electric move's power increases.",
+    },
+    {
+        moveId: 4, //cometPunch
+        typeId: 2,
+        acc: 100,
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 15, //cut,
+        typeId: 12,
+        bp: 65,
+    },
+    {
+        moveId: 440, //crossPoison,
+        bp: 90,
+    },
+    {
+        moveId: 291, //dive
+        bp: 120,
+        effects:
+            "Dives underwater on first turn, attacks with 33% recoil on second turn.",
+    },
+    {
+        moveId: 146, //dizzyPunch
+        effects: "50% chance to confuse opponent.",
+    },
+    {
+        moveId: 3, //doubleSlap
+        bp: 30,
+        effects: "Hits exactly twice in a row.",
+    },
+    {
+        moveId: 407, //dragonRush
+        bp: 120,
+        acc: 100,
+        effects: "User receives 33% recoil damage.",
+    },
+    {
+        moveId: 121, //eggBomb,
+        typeId: 12,
+        acc: 100,
+    },
+    {
+        moveId: 153, //explosion
+        effects: "Always critical-hits. User faints.",
+    },
+    {
+        moveId: 120, //selfDestruct
+        effects: "Always critical-hits. User faints.",
+    },
+    {
+        moveId: 19, //fly,
+        acc: 100,
+    },
+    {
+        moveId: 31, //furyAttack
+        acc: 100,
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 154, //furySwipes
+        acc: 100,
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 544, //gearGrind,
+        acc: 100,
+    },
+    {
+        moveId: 549, //glaciate,
+        bp: 75,
+    },
+    {
+        moveId: 531, //heartStamp,
+        bp: 75,
+    },
+    {
+        moveId: 556, //icicleCrash
+        bp: 75,
+        targetId: 5,
+    },
+    {
+        moveId: 333, //icicleSpear
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 231, //ironTail,
+        acc: 85,
+    },
+    {
+        moveId: 282, //knockOff
+        effects:
+            "Removes opponent's held item for the rest of the battle (does not increase damage).",
+    },
+    {
+        moveId: 536, //leafTornado,
+        targetId: 5,
+    },
+    {
+        moveId: 295, //lusterPurge
+        bp: 80,
+        effects: "Lowers opponent's Special Defense.",
+    },
+    {
+        moveId: 429, //mirrorShot
+        acc: 95,
+        effects: "20% chance to lower opponent's Accuracy.",
+    },
+    {
+        moveId: 296, //mistBall
+        bp: 80,
+        effects: "Lowers opponent's Special Attack.",
+    },
+    {
+        moveId: 189, //mudSlap
+        bp: 50,
+        categoryId: 1,
+        effects: "10% chance to lower opponent's Accuracy.",
+    },
+    {
+        moveId: 200, //outrage,
+        targetId: 1,
+    },
+    {
+        moveId: 80, //petalDance,
+        targetId: 1,
+    },
+    {
+        moveId: 42, //pinMissile
+        acc: 100,
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 305, //poisonFang
+        effects: "Badly poisons the opponent.",
+    },
+    {
+        moveId: 342, //poisonTail
+        targetId: 5,
+        effects: "High critical hit ratio. Poisons opponents.",
+    },
+    {
+        moveId: 350, //rockBlast
+        acc: 100,
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 431, //rockClimb,
+        typeId: 6,
+        acc: 90,
+    },
+    {
+        moveId: 249, //rockSmash
+        effects: "Lowers opponent's Defense.",
+    },
+    {
+        moveId: 159, //sharpen
+        targetId: 4,
+        effects: "Raises the target's Attack and Special Attack.",
+    },
+    {
+        moveId: 327, //skyUppercut,
+        acc: 100,
+    },
+    {
+        moveId: 169, //spiderWeb,
+        targetId: 5,
+    },
+    {
+        moveId: 211, //steelWing
+        effects: "Raises user's Defense.",
+    },
+    {
+        moveId: 70, //strength,
+        targetId: 5,
+    },
+    {
+        moveId: 541, //tailSlap
+        acc: 100,
+        effects: "Hits exactly 3 times in a row.",
+    },
+    {
+        moveId: 37, //thrash,
+        targetId: 1,
+    },
+    {
+        moveId: 161, //triAttack,
+        bp: 90,
+    },
+    {
+        moveId: 344, //voltTackle,
+        categoryId: 2,
+    },
+    {
+        moveId: 528, //wildCharge,
+        bp: 120,
+    },
+];
 
-export default b2deMoves
+const b2deMoveObjects = Move.insertEdits(vanillaMoves, b2deMoveEdits)
+
+const b2deMoves = b2deMoveObjects.map(moveObj => {
+    const type = b2deTypes.find(typeObj => {
+        typeObj.id === moveObj.typeId
+    })
+    return new Move(moveObj.id, moveObj.name, type, )
+})
+
+export default b2deMoves;

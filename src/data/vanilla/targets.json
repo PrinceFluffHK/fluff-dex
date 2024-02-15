@@ -1,15 +1,80 @@
 [
-    { "id": 1, "description": "Any adjacent Pokemon" },
-    { "id": 2, "description": "Any adjacent foe Pokemon" },
-    { "id": 3, "description": "Any Pokemon" },
-    { "id": 4, "description": "The user or an adjacent ally" },
-    { "id": 5, "description": "All adjacent foes" },
-    { "id": 6, "description": "All adjacent Pokemon" },
-    { "id": 7, "description": "All allies" },
-    { "id": 8, "description": "All foes" },
-    { "id": 9, "description": "All Pokemon" },
-    { "id": 10, "description": "One adjacent ally" },
-    { "id": 11, "description": "The user" },
-    { "id": 12, "description": "The user and all allies" },
-    { "id": 13, "description": "Random adjacent foe" }
+    {
+        "id": 1,
+        "description": "Any adjacent Pokemon",
+        "targets": [0, 1, 0, 1, 1, 0],
+        "targetType": 0
+    },
+    {
+        "id": 2,
+        "description": "Any adjacent foe Pokemon",
+        "targets": [0, 0, 0, 1, 1, 0],
+        "targetType": 0
+    },
+    {
+        "id": 3,
+        "description": "Any Pokemon",
+        "targets": [0, 1, 0, 1, 1, 0],
+        "targetType": 0
+    },
+    {
+        "id": 4,
+        "description": "The user or an adjacent ally",
+        "targets": [1, 1, 0, 0, 0, 0],
+        "targetType": 0
+    },
+    {
+        "id": 5,
+        "description": "All adjacent foes",
+        "targets": [0, 0, 0, 1, 1, 0],
+        "targetType": 1
+    },
+    {
+        "id": 6,
+        "description": "All adjacent Pokemon",
+        "targets": [0, 1, 0, 1, 1, 0],
+        "targetType": 1
+    },
+    {
+        "id": 7,
+        "description": "All allies",
+        "targets": [0, 1, 1, 0, 0, 0],
+        "targetType": 1
+    },
+    {
+        "id": 8,
+        "description": "All foes",
+        "targets": [0, 0, 0, 1, 1, 1],
+        "targetType": 1
+    },
+    {
+        "id": 9,
+        "description": "All Pokemon",
+        "targets": [1, 1, 1, 1, 1, 1],
+        "targetType": 1
+    },
+    {
+        "id": 10,
+        "description": "One adjacent ally",
+        "targets": [0, 1, 0, 0, 0, 0],
+        "targetType": 0
+    },
+    {
+        "id": 11,
+        "description": "The user",
+        "targets": [1, 0, 0, 0, 0, 0],
+        "targetType": 0
+    },
+    {
+        "id": 12,
+        "description": "The user and all allies",
+        "targets": [1, 1, 1, 0, 0, 0],
+        "targetType": 1
+    },
+    {
+        "id": 13,
+        "description": "Random adjacent foe",
+        "targets": [0, 0, 0, 1, 1, 0],
+        "targetType": 0
+    }
 ]

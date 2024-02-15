@@ -18,9 +18,9 @@ class Pokemon {
         tmLearn = [],
         tutorLearn = [],
         modifier = "",
-        sprite,
-        profile,
-        evolutions = [],
+        frontSpriteUrl,
+        profileUrl,
+        evoTo = [],
         evoLine = []
     ) {
         this.id = id;
@@ -41,14 +41,14 @@ class Pokemon {
         this.tmLearn = tmLearn;
         this.tutorLearn = tutorLearn;
         this.modifier = modifier;
-        this.sprite = sprite
-            ? sprite
+        this.frontSpriteUrl = frontSpriteUrl
+            ? frontSpriteUrl
             : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
-        this.profile = profile
-            ? profile
+        this.profileUrl = profileUrl
+            ? profileUrl
             : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
-        this.evolutions = evolutions;
-        this.evoLine = evoLine
+        this.evoTo = evoTo;
+        this.evoFromId = evoFromId;
     }
 
     static makeEdits(mon, changes) {
@@ -78,19 +78,40 @@ class Pokemon {
     }
 
     static makeSingle(species, typesArray, abilitiesArray) {
-        const type1 = typesArray.find(type => {return type.id === species.type1Id})
-        const type2 = typesArray.find(type => {return type.id === species.type2Id})
-        const ability1 = abilitiesArray.find(ability => {return ability.id === species.ability1Id})
-        const ability2 = abilitiesArray.find(ability => {return ability.id === species.ability2Id})
-        const abilityH = abilitiesArray.find(ability => {return ability.id === species.abilityHId})
-        return new Pokemon(species.id, species.name, type1, type2, )
+        const type1 = Help.findInArray(species.type1Id, typesArray);
+        const type2 = Help.findInArray(species.type2Id, typesArray);
+        const ability1 = Help.findInArray(species.ability1Id, abilitiesArray);
+        const ability2 = Help.findInArray(species.ability2Id, abilitiesArray);
+        const abilityH = Help.findInArray(species.abilityHId, abilitiesArray);
+        return new Pokemon(
+            species.id,
+            species.name,
+            type1,
+            type2,
+            ability1,
+            ability2,
+            abilityH,
+            species.hp,
+            species.atk,
+            species.def,
+            species.spa,
+            species.spd,
+            species.spe,
+            species.levelLearn,
+            species.tmLearn,
+            species.tutorLearn,
+            species.modifier,
+            species.sprite,
+            species.profile,
+            species.evolutions,
+        );
     }
 
     static makeArray(rawJsonArray, typesArray, abilitiesArray) {
-        const jsonArray = JSON.parse(rawJsonArray)
-        return jsonArray.map(mon => {
-            return Pokemon.makeSingle(mon, typesArray, abilitiesArray)
-        })
+        const jsonArray = JSON.parse(rawJsonArray);
+        return jsonArray.map((mon) => {
+            return Pokemon.makeSingle(mon, typesArray, abilitiesArray);
+        });
     }
 
     dexListItem() {

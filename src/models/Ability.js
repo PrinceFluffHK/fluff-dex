@@ -10,9 +10,8 @@ class Ability {
         return new Ability(abilityObj.id, abilityObj.name, abilityObj.gen, abilityObj.description)
     }
 
-    static makeArray(rawJsonArray) {
-        const jsonArray = JSON.parse(rawJsonArray)
-        return jsonArray.map(ability => {
+    static makeArray(objArray) {
+        return objArray.map(ability => {
             return Ability.makeSingle(ability)
         })
     }

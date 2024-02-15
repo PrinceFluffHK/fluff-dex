@@ -2335,7 +2335,7 @@
                 "method": "Use Item"
             },
             {
-                "nextMonId": 30018,
+                "nextMonId": 10114,
                 "condition": "Leaf Stone",
                 "method": "Use Item"
             }
@@ -2384,7 +2384,7 @@
                 "method": "Level-Up"
             },
             {
-                "nextMonId": 30018,
+                "nextMonId": 10115,
                 "condition": 28,
                 "method": "Level-Up"
             }
@@ -2496,7 +2496,7 @@
                 "method": "Level-Up"
             },
             {
-                "nextMonId": 30024,
+                "nextMonId": 10167,
                 "condition": 35,
                 "method": "Level-Up"
             }
@@ -7297,7 +7297,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10001,
+        "id": 10013,
         "name": "Castform",
         "gen": 3,
         "type1Id": 10,
@@ -7316,7 +7316,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10002,
+        "id": 10014,
         "name": "Castform",
         "gen": 3,
         "type1Id": 11,
@@ -7335,7 +7335,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10003,
+        "id": 10015,
         "name": "Castform",
         "gen": 3,
         "type1Id": 15,
@@ -8019,7 +8019,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10006,
+        "id": 10001,
         "name": "Deoxys",
         "gen": 1,
         "type1Id": 14,
@@ -8038,7 +8038,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10007,
+        "id": 10002,
         "name": "Deoxys",
         "gen": 1,
         "type1Id": 14,
@@ -8057,7 +8057,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10008,
+        "id": 10003,
         "name": "Deoxys",
         "gen": 1,
         "type1Id": 14,
@@ -9162,7 +9162,7 @@
                 "method": "Level-Up with Move"
             },
             {
-                "nextMonId": 30025,
+                "nextMonId": 10168,
                 "condition": "Mimic",
                 "method": "Level-Up with Move"
             }
@@ -9349,6 +9349,25 @@
         "spd": 70,
         "spe": 90,
         "modifier": "",
+        "evoTo": [],
+        "evoFromId": 447
+    },
+    {
+        "id": 10059,
+        "name": "Lucario",
+        "gen": 6,
+        "type1Id": 2,
+        "type2Id": 9,
+        "ability1Id": 91,
+        "ability2Id": 0,
+        "abilityHId": 0,
+        "hp": 70,
+        "atk": 145,
+        "def": 88,
+        "spa": 140,
+        "spd": 70,
+        "spe": 112,
+        "modifier": "Mega",
         "evoTo": [],
         "evoFromId": 0
     },
@@ -9554,9 +9573,9 @@
         "hp": 60,
         "atk": 62,
         "def": 50,
-        "spa": 60,
-        "spd": 40,
-        "spe": 62,
+        "spa": 62,
+        "spd": 60,
+        "spe": 40,
         "modifier": "",
         "evoTo": [],
         "evoFromId": 0
@@ -9573,9 +9592,28 @@
         "hp": 90,
         "atk": 92,
         "def": 75,
-        "spa": 85,
-        "spd": 60,
-        "spe": 92,
+        "spa": 92,
+        "spd": 85,
+        "spe": 60,
+        "modifier": "",
+        "evoTo": [],
+        "evoFromId": 0
+    },
+    {
+        "id": 10060,
+        "name": "Abomasnow",
+        "gen": 6,
+        "type1Id": 15,
+        "type2Id": 12,
+        "ability1Id": 117,
+        "ability2Id": 0,
+        "abilityHId": 0,
+        "hp": 90,
+        "atk": 132,
+        "def": 105,
+        "spa": 132,
+        "spd": 105,
+        "spe": 30,
         "modifier": "",
         "evoTo": [],
         "evoFromId": 0
@@ -9734,7 +9772,7 @@
     },
     {
         "id": 469,
-        "name": "YanMega",
+        "name": "Yanmega",
         "gen": 4,
         "type1Id": 7,
         "type2Id": 3,
@@ -9942,7 +9980,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10011,
+        "id": 10008,
         "name": "Rotom",
         "gen": 4,
         "type1Id": 13,
@@ -9961,7 +9999,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10012,
+        "id": 10009,
         "name": "Rotom",
         "gen": 4,
         "type1Id": 13,
@@ -9980,7 +10018,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10013,
+        "id": 10010,
         "name": "Rotom",
         "gen": 4,
         "type1Id": 13,
@@ -9999,7 +10037,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10014,
+        "id": 10011,
         "name": "Rotom",
         "gen": 4,
         "type1Id": 13,
@@ -10018,7 +10056,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10015,
+        "id": 10012,
         "name": "Rotom",
         "gen": 4,
         "type1Id": 13,
@@ -10189,7 +10227,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10018,
+        "id": 10007,
         "name": "Giratina",
         "gen": 4,
         "type1Id": 8,
@@ -10303,7 +10341,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10019,
+        "id": 10006,
         "name": "Shaymin",
         "gen": 4,
         "type1Id": 12,
@@ -11424,7 +11462,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10020,
+        "id": 10016,
         "name": "Basculin",
         "gen": 5,
         "type1Id": 11,
@@ -11538,7 +11576,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10023,
+        "id": 10017,
         "name": "Darmanitan",
         "gen": 5,
         "type1Id": 10,
@@ -13191,7 +13229,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10026,
+        "id": 10019,
         "name": "Tornadus",
         "gen": 5,
         "type1Id": 3,
@@ -13229,7 +13267,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10027,
+        "id": 10020,
         "name": "Thundurus",
         "gen": 5,
         "type1Id": 13,
@@ -13305,7 +13343,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10028,
+        "id": 10021,
         "name": "Landorus",
         "gen": 5,
         "type1Id": 5,
@@ -13343,7 +13381,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10029,
+        "id": 10022,
         "name": "Kyurem",
         "gen": 5,
         "type1Id": 16,
@@ -13362,7 +13400,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10030,
+        "id": 10023,
         "name": "Kyurem",
         "gen": 5,
         "type1Id": 16,
@@ -13400,7 +13438,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10031,
+        "id": 10024,
         "name": "Keldeo",
         "gen": 5,
         "type1Id": 11,
@@ -13438,7 +13476,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10032,
+        "id": 10018,
         "name": "Meloetta",
         "gen": 5,
         "type1Id": 1,
@@ -13476,7 +13514,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20001,
+        "id": 10033,
         "name": "Venusaur",
         "gen": 6,
         "type1Id": 12,
@@ -13495,7 +13533,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20002,
+        "id": 10034,
         "name": "Charizard",
         "gen": 6,
         "type1Id": 10,
@@ -13514,7 +13552,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20003,
+        "id": 10035,
         "name": "Charizard",
         "gen": 6,
         "type1Id": 10,
@@ -13533,7 +13571,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20004,
+        "id": 10036,
         "name": "Blastoise",
         "gen": 6,
         "type1Id": 11,
@@ -13552,7 +13590,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20005,
+        "id": 10090,
         "name": "Beedrill",
         "gen": 6,
         "type1Id": 7,
@@ -13571,7 +13609,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20006,
+        "id": 10073,
         "name": "Pidgeot",
         "gen": 6,
         "type1Id": 1,
@@ -13590,7 +13628,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20007,
+        "id": 10037,
         "name": "Alakazam",
         "gen": 6,
         "type1Id": 14,
@@ -13609,7 +13647,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20008,
+        "id": 10071,
         "name": "Slowbro",
         "gen": 6,
         "type1Id": 11,
@@ -13628,7 +13666,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20009,
+        "id": 10038,
         "name": "Gengar",
         "gen": 6,
         "type1Id": 8,
@@ -13647,7 +13685,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20010,
+        "id": 10039,
         "name": "Kangaskhan",
         "gen": 6,
         "type1Id": 1,
@@ -13666,7 +13704,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20011,
+        "id": 10040,
         "name": "Pinsir",
         "gen": 6,
         "type1Id": 7,
@@ -13685,7 +13723,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20012,
+        "id": 10041,
         "name": "Gyarados",
         "gen": 6,
         "type1Id": 11,
@@ -13704,7 +13742,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20013,
+        "id": 10042,
         "name": "Aerodactyl",
         "gen": 6,
         "type1Id": 6,
@@ -13723,7 +13761,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20014,
+        "id": 10043,
         "name": "Mewtwo",
         "gen": 6,
         "type1Id": 14,
@@ -13742,7 +13780,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20015,
+        "id": 10044,
         "name": "Mewtwo",
         "gen": 6,
         "type1Id": 14,
@@ -13761,7 +13799,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20016,
+        "id": 10045,
         "name": "Ampharos",
         "gen": 6,
         "type1Id": 13,
@@ -13780,7 +13818,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20017,
+        "id": 10072,
         "name": "Steelix",
         "gen": 6,
         "type1Id": 9,
@@ -13799,7 +13837,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20018,
+        "id": 10046,
         "name": "Scizor",
         "gen": 6,
         "type1Id": 7,
@@ -13818,7 +13856,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20019,
+        "id": 10047,
         "name": "Heracross",
         "gen": 6,
         "type1Id": 7,
@@ -13837,7 +13875,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20020,
+        "id": 10048,
         "name": "Houndoom",
         "gen": 6,
         "type1Id": 17,
@@ -13856,7 +13894,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20021,
+        "id": 10049,
         "name": "Tyranitar",
         "gen": 6,
         "type1Id": 6,
@@ -13875,7 +13913,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20022,
+        "id": 10065,
         "name": "Sceptile",
         "gen": 6,
         "type1Id": 12,
@@ -13894,7 +13932,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20023,
+        "id": 10050,
         "name": "Blaziken",
         "gen": 6,
         "type1Id": 10,
@@ -13913,7 +13951,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20024,
+        "id": 10064,
         "name": "Swampert",
         "gen": 6,
         "type1Id": 11,
@@ -13932,7 +13970,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20025,
+        "id": 10051,
         "name": "Gardevoir",
         "gen": 6,
         "type1Id": 14,
@@ -13951,7 +13989,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20026,
+        "id": 10066,
         "name": "Sableye",
         "gen": 6,
         "type1Id": 17,
@@ -13970,7 +14008,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20027,
+        "id": 10052,
         "name": "Mawile",
         "gen": 6,
         "type1Id": 9,
@@ -13989,7 +14027,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20028,
+        "id": 10053,
         "name": "Aggron",
         "gen": 6,
         "type1Id": 9,
@@ -14008,7 +14046,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20029,
+        "id": 10054,
         "name": "Medicham",
         "gen": 6,
         "type1Id": 2,
@@ -14027,7 +14065,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20030,
+        "id": 10055,
         "name": "Manectric",
         "gen": 6,
         "type1Id": 13,
@@ -14046,7 +14084,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20031,
+        "id": 10087,
         "name": "Camerupt",
         "gen": 6,
         "type1Id": 10,
@@ -14065,7 +14103,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20032,
+        "id": 10070,
         "name": "Sharpedo",
         "gen": 6,
         "type1Id": 11,
@@ -14084,7 +14122,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20033,
+        "id": 10067,
         "name": "Altaria",
         "gen": 6,
         "type1Id": 16,
@@ -14103,7 +14141,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20034,
+        "id": 10056,
         "name": "Banette",
         "gen": 6,
         "type1Id": 8,
@@ -14122,7 +14160,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20035,
+        "id": 10057,
         "name": "Absol",
         "gen": 6,
         "type1Id": 17,
@@ -14141,7 +14179,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20036,
+        "id": 10074,
         "name": "Glalie",
         "gen": 6,
         "type1Id": 15,
@@ -14160,7 +14198,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20037,
+        "id": 10089,
         "name": "Salamence",
         "gen": 6,
         "type1Id": 16,
@@ -14179,7 +14217,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20038,
+        "id": 10076,
         "name": "Metagross",
         "gen": 6,
         "type1Id": 9,
@@ -14198,7 +14236,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20039,
+        "id": 10062,
         "name": "Latias",
         "gen": 6,
         "type1Id": 16,
@@ -14217,7 +14255,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20040,
+        "id": 10063,
         "name": "Latios",
         "gen": 6,
         "type1Id": 16,
@@ -14236,7 +14274,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20041,
+        "id": 10079,
         "name": "Rayquaza",
         "gen": 6,
         "type1Id": 16,
@@ -14255,7 +14293,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20042,
+        "id": 10088,
         "name": "Lopunny",
         "gen": 6,
         "type1Id": 1,
@@ -14274,7 +14312,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20043,
+        "id": 10058,
         "name": "Garchomp",
         "gen": 6,
         "type1Id": 16,
@@ -14293,7 +14331,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20044,
+        "id": 10068,
         "name": "Gallade",
         "gen": 6,
         "type1Id": 14,
@@ -14312,7 +14350,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20045,
+        "id": 10069,
         "name": "Audino",
         "gen": 6,
         "type1Id": 1,
@@ -14331,7 +14369,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20046,
+        "id": 10077,
         "name": "Kyogre",
         "gen": 6,
         "type1Id": 11,
@@ -14350,7 +14388,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20047,
+        "id": 10078,
         "name": "Groudon",
         "gen": 6,
         "type1Id": 5,
@@ -14369,7 +14407,7 @@
         "evoFromId": 0
     },
     {
-        "id": 20048,
+        "id": 10075,
         "name": "Diancie",
         "gen": 6,
         "type1Id": 6,
@@ -14559,7 +14597,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10033,
+        "id": 10117,
         "name": "Greninja",
         "gen": 6,
         "type1Id": 11,
@@ -14806,7 +14844,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10034,
+        "id": 10061,
         "name": "Floette",
         "gen": 6,
         "type1Id": 18,
@@ -14977,7 +15015,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10035,
+        "id": 10025,
         "name": "Meowstic",
         "gen": 6,
         "type1Id": 14,
@@ -15053,7 +15091,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10036,
+        "id": 10026,
         "name": "Aegislash",
         "gen": 6,
         "type1Id": 9,
@@ -15813,7 +15851,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10038,
+        "id": 10086,
         "name": "Hoopa",
         "gen": 6,
         "type1Id": 14,
@@ -15851,7 +15889,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30001,
+        "id": 10091,
         "name": "Rattata",
         "gen": 7,
         "type1Id": 17,
@@ -15870,7 +15908,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30002,
+        "id": 10092,
         "name": "Raticate",
         "gen": 7,
         "type1Id": 17,
@@ -15889,7 +15927,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30003,
+        "id": 10100,
         "name": "Raichu",
         "gen": 7,
         "type1Id": 13,
@@ -15908,7 +15946,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30004,
+        "id": 10101,
         "name": "Sandshrew",
         "gen": 7,
         "type1Id": 15,
@@ -15927,7 +15965,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30005,
+        "id": 10102,
         "name": "Sandslash",
         "gen": 7,
         "type1Id": 15,
@@ -15946,7 +15984,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30006,
+        "id": 10103,
         "name": "Vulpix",
         "gen": 7,
         "type1Id": 15,
@@ -15963,7 +16001,7 @@
         "modifier": "Alola",
         "evoTo": [
             {
-                "nextMonId": 30007,
+                "nextMonId": 10104,
                 "condition": "Ice Stone",
                 "method": "Use Item"
             }
@@ -15971,7 +16009,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30007,
+        "id": 10104,
         "name": "Ninetails",
         "gen": 7,
         "type1Id": 15,
@@ -15987,10 +16025,10 @@
         "spe": 109,
         "modifier": "Alola",
         "evoTo": [],
-        "evoFromId": 30006
+        "evoFromId": 10103
     },
     {
-        "id": 30008,
+        "id": 10105,
         "name": "Diglett",
         "gen": 7,
         "type1Id": 5,
@@ -16007,7 +16045,7 @@
         "modifier": "Alola",
         "evoTo": [
             {
-                "nextMonId": 30009,
+                "nextMonId": 10106,
                 "condition": 26,
                 "method": "Level-Up"
             }
@@ -16015,7 +16053,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30009,
+        "id": 10106,
         "name": "Dugtrio",
         "gen": 7,
         "type1Id": 5,
@@ -16031,10 +16069,10 @@
         "spe": 110,
         "modifier": "Alola",
         "evoTo": [],
-        "evoFromId": 30008
+        "evoFromId": 10105
     },
     {
-        "id": 30010,
+        "id": 10107,
         "name": "Meowth",
         "gen": 7,
         "type1Id": 17,
@@ -16051,7 +16089,7 @@
         "modifier": "Alola",
         "evoTo": [
             {
-                "nextMonId": 30011,
+                "nextMonId": 10108,
                 "condition": 28,
                 "method": "Level-Up"
             }
@@ -16059,7 +16097,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30011,
+        "id": 10108,
         "name": "Persian",
         "gen": 7,
         "type1Id": 17,
@@ -16075,10 +16113,10 @@
         "spe": 115,
         "modifier": "Alola",
         "evoTo": [],
-        "evoFromId": 30010
+        "evoFromId": 10107
     },
     {
-        "id": 30012,
+        "id": 10109,
         "name": "Geodude",
         "gen": 7,
         "type1Id": 6,
@@ -16097,7 +16135,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30013,
+        "id": 10110,
         "name": "Graveler",
         "gen": 7,
         "type1Id": 6,
@@ -16113,10 +16151,10 @@
         "spe": 35,
         "modifier": "Alola",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10109
     },
     {
-        "id": 30014,
+        "id": 10111,
         "name": "Golem",
         "gen": 7,
         "type1Id": 6,
@@ -16132,10 +16170,10 @@
         "spe": 45,
         "modifier": "Alola",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10110
     },
     {
-        "id": 30015,
+        "id": 10112,
         "name": "Grimer",
         "gen": 7,
         "type1Id": 4,
@@ -16154,7 +16192,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30016,
+        "id": 10113,
         "name": "Muk",
         "gen": 7,
         "type1Id": 4,
@@ -16170,10 +16208,10 @@
         "spe": 50,
         "modifier": "Alola",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10112
     },
     {
-        "id": 30017,
+        "id": 10114,
         "name": "Exeggutor",
         "gen": 7,
         "type1Id": 12,
@@ -16192,7 +16230,7 @@
         "evoFromId": 102
     },
     {
-        "id": 30018,
+        "id": 10115,
         "name": "Marowak",
         "gen": 7,
         "type1Id": 8,
@@ -16211,7 +16249,7 @@
         "evoFromId": 104
     },
     {
-        "id": 10036,
+        "id": 10118,
         "name": "Zygarde",
         "gen": 7,
         "type1Id": 16,
@@ -16230,7 +16268,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10037,
+        "id": 10120,
         "name": "Zygarde",
         "gen": 7,
         "type1Id": 16,
@@ -16629,7 +16667,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10039,
+        "id": 10123,
         "name": "Oricorio",
         "gen": 7,
         "type1Id": 13,
@@ -16648,7 +16686,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10040,
+        "id": 10124,
         "name": "Oricorio",
         "gen": 7,
         "type1Id": 14,
@@ -16667,7 +16705,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10041,
+        "id": 10125,
         "name": "Oricorio",
         "gen": 7,
         "type1Id": 8,
@@ -16762,7 +16800,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10042,
+        "id": 10126,
         "name": "Lycanroc",
         "gen": 7,
         "type1Id": 6,
@@ -16781,7 +16819,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10043,
+        "id": 10152,
         "name": "Lycanroc",
         "gen": 7,
         "type1Id": 6,
@@ -16819,7 +16857,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10044,
+        "id": 10127,
         "name": "Wishiwashi",
         "gen": 7,
         "type1Id": 11,
@@ -17883,7 +17921,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10046,
+        "id": 10155,
         "name": "Necrozma",
         "gen": 7,
         "type1Id": 14,
@@ -17902,7 +17940,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10047,
+        "id": 10156,
         "name": "Necrozma",
         "gen": 7,
         "type1Id": 14,
@@ -17921,7 +17959,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10048,
+        "id": 10157,
         "name": "Necrozma",
         "gen": 7,
         "type1Id": 14,
@@ -18111,7 +18149,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30019,
+        "id": 10161,
         "name": "Meowth",
         "gen": 8,
         "type1Id": 9,
@@ -18130,7 +18168,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30020,
+        "id": 10162,
         "name": "Ponyta",
         "gen": 8,
         "type1Id": 14,
@@ -18149,7 +18187,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30021,
+        "id": 10163,
         "name": "Rapidash",
         "gen": 8,
         "type1Id": 14,
@@ -18168,7 +18206,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30022,
+        "id": 10164,
         "name": "Slowpoke",
         "gen": 8,
         "type1Id": 14,
@@ -18187,7 +18225,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30023,
+        "id": 10165,
         "name": "Slowbro",
         "gen": 8,
         "type1Id": 4,
@@ -18206,7 +18244,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30024,
+        "id": 10167,
         "name": "Weezing",
         "gen": 8,
         "type1Id": 4,
@@ -18225,7 +18263,7 @@
         "evoFromId": 109
     },
     {
-        "id": 30025,
+        "id": 10168,
         "name": "Mr. Mime",
         "gen": 8,
         "type1Id": 15,
@@ -18250,7 +18288,7 @@
         "evoFromId": 439
     },
     {
-        "id": 30026,
+        "id": 10169,
         "name": "Articuno",
         "gen": 8,
         "type1Id": 14,
@@ -18269,7 +18307,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30027,
+        "id": 10170,
         "name": "Zapdos",
         "gen": 8,
         "type1Id": 2,
@@ -18288,7 +18326,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30028,
+        "id": 10171,
         "name": "Moltres",
         "gen": 8,
         "type1Id": 17,
@@ -18307,7 +18345,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30029,
+        "id": 10172,
         "name": "Slowking",
         "gen": 8,
         "type1Id": 4,
@@ -18763,7 +18801,7 @@
         "evoFromId": 0
     },
     {
-        "id": 10021,
+        "id": 10247,
         "name": "Basculin",
         "gen": 8,
         "type1Id": 11,
@@ -19827,7 +19865,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30055,
+        "id": 10173,
         "name": "Corsola",
         "gen": 8,
         "type1Id": 8,
@@ -19865,7 +19903,7 @@
         "evoFromId": 0
     },
     {
-        "id": 30056,
+        "id": 10166,
         "name": "Farfetch'd",
         "gen": 8,
         "type1Id": 2,
@@ -19919,7 +19957,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 30025
+        "evoFromId": 10168
     },
     {
         "id": 30052,

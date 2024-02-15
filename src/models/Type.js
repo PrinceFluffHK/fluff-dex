@@ -23,10 +23,9 @@ class Type {
         );
     }
 
-    static makeArray(rawJsonArray) {
-        const jsonArray = JSON.parse(rawJsonArray)
-        return jsonArray.map(type => {
-            return Type.makeSingle(type)
+    static makeArray(objArray) {
+        return objArray.map(typeObj => {
+            return Type.makeSingle(typeObj)
         })
     }
 
