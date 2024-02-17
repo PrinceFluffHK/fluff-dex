@@ -14,5 +14,6 @@ export const b2de = new Romhack(
     B2DEPokedex,
     B2DETrainer,
     B2DEItems,
-    B2DEEncounters
+    B2DEEncounters,
+    
 );

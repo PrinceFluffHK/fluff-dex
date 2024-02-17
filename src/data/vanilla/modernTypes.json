@@ -73,9 +73,9 @@
     },
     {
         "id": 8,
-        "name": "3",
+        "name": "Ghost",
         "superEffective": [8, 14],
-        "notVeryEffective": [],
+        "notVeryEffective": [17],
         "noEffect": [1],
         "iconUrl": "https://archives.bulbagarden.net/media/upload/2/23/Ghost_icon_HOME3.png",
         "bannerUrl": "https://archives.bulbagarden.net/media/upload/2/2c/GhostIC_SV.png"

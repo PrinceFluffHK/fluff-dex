@@ -2,7 +2,7 @@ import Move from "../../models/Move";
 import moveData from "../vanilla/moves.json"
 import b2deTypes from "./types";
 
-const vanillaMoves = JSON.parse(moveData)
+// const vanillaMoves = JSON.parse(moveData)
 
 const b2deMoveEdits = [
     {
@@ -233,11 +233,11 @@ const b2deMoveEdits = [
     },
 ];
 
-const b2deMoveObjects = Move.insertEdits(vanillaMoves, b2deMoveEdits)
+const b2deMoveObjects = Move.insertEdits(moveData, b2deMoveEdits)
 
 const b2deMoves = b2deMoveObjects.map(moveObj => {
     const type = b2deTypes.find(typeObj => {
-        typeObj.id === moveObj.typeId
+        return typeObj.id === moveObj.typeId
     })
     return new Move(moveObj.id, moveObj.name, type, )
 })

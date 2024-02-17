@@ -1,0 +1,404 @@
+[
+    {
+        "id": 1,
+        "moveId": 343,
+        "tutorId": 3,
+        "cost": 2
+    },
+    {
+        "id": 2,
+        "moveId": 450,
+        "tutorId": 3,
+        "cost": 2
+    },
+    {
+        "id": 3,
+        "moveId": 529,
+        "tutorId": 3,
+        "cost": 4
+    },
+    {
+        "id": 4,
+        "moveId": 340,
+        "tutorId": 3,
+        "cost": 4
+    },
+    {
+        "id": 5,
+        "moveId": 324,
+        "tutorId": 3,
+        "cost": 4
+    },
+    {
+        "id": 6,
+        "moveId": 442,
+        "tutorId": 3,
+        "cost": 4
+    },
+    {
+        "id": 7,
+        "moveId": 162,
+        "tutorId": 3,
+        "cost": 6
+    },
+    {
+        "id": 8,
+        "moveId": 253,
+        "tutorId": 3,
+        "cost": 6
+    },
+    {
+        "id": 9,
+        "moveId": 402,
+        "tutorId": 3,
+        "cost": 6
+    },
+    {
+        "id": 10,
+        "moveId": 530,
+        "tutorId": 3,
+        "cost": 6
+    },
+    {
+        "id": 11,
+        "moveId": 67,
+        "tutorId": 3,
+        "cost": 8
+    },
+    {
+        "id": 12,
+        "moveId": 441,
+        "tutorId": 3,
+        "cost": 8
+    },
+    {
+        "id": 13,
+        "moveId": 9,
+        "tutorId": 3,
+        "cost": 10
+    },
+    {
+        "id": 14,
+        "moveId": 7,
+        "tutorId": 3,
+        "cost": 10
+    },
+    {
+        "id": 15,
+        "moveId": 8,
+        "tutorId": 3,
+        "cost": 10
+    },
+    {
+        "id": 16,
+        "moveId": 520,
+        "tutorId": 1,
+        "cost": 0
+    },
+    {
+        "id": 17,
+        "moveId": 519,
+        "tutorId": 1,
+        "cost": 0
+    },
+    {
+        "id": 18,
+        "moveId": 518,
+        "tutorId": 1,
+        "cost": 0
+    },
+    {
+        "id": 19,
+        "moveId": 338,
+        "tutorId": 2,
+        "cost": 0
+    },
+    {
+        "id": 20,
+        "moveId": 307,
+        "tutorId": 2,
+        "cost": 0
+    },
+    {
+        "id": 21,
+        "moveId": 308,
+        "tutorId": 2,
+        "cost": 0
+    },
+    {
+        "id": 22,
+        "moveId": 387,
+        "tutorId": 5,
+        "cost": 2
+    },
+    {
+        "id": 23,
+        "moveId": 334,
+        "tutorId": 5,
+        "cost": 2
+    },
+    {
+        "id": 24,
+        "moveId": 393,
+        "tutorId": 5,
+        "cost": 4
+    },
+    {
+        "id": 25,
+        "moveId": 277,
+        "tutorId": 5,
+        "cost": 4
+    },
+    {
+        "id": 26,
+        "moveId": 335,
+        "tutorId": 5,
+        "cost": 6
+    },
+    {
+        "id": 27,
+        "moveId": 305,
+        "tutorId": 5,
+        "cost": 6
+    },
+    {
+        "id": 28,
+        "moveId": 527,
+        "tutorId": 5,
+        "cost": 6
+    },
+    {
+        "id": 29,
+        "moveId": 196,
+        "tutorId": 5,
+        "cost": 6
+    },
+    {
+        "id": 30,
+        "moveId": 231,
+        "tutorId": 5,
+        "cost": 6
+    },
+    {
+        "id": 31,
+        "moveId": 401,
+        "tutorId": 5,
+        "cost": 8
+    },
+    {
+        "id": 32,
+        "moveId": 414,
+        "tutorId": 5,
+        "cost": 8
+    },
+    {
+        "id": 33,
+        "moveId": 428,
+        "tutorId": 5,
+        "cost": 8
+    },
+    {
+        "id": 34,
+        "moveId": 492,
+        "tutorId": 5,
+        "cost": 8
+    },
+    {
+        "id": 35,
+        "moveId": 276,
+        "tutorId": 5,
+        "cost": 10
+    },
+    {
+        "id": 36,
+        "moveId": 356,
+        "tutorId": 5,
+        "cost": 10
+    },
+    {
+        "id": 37,
+        "moveId": 406,
+        "tutorId": 5,
+        "cost": 10
+    },
+    {
+        "id": 38,
+        "moveId": 399,
+        "tutorId": 5,
+        "cost": 10
+    },
+    {
+        "id": 39,
+        "moveId": 434,
+        "tutorId": 7,
+        "cost": 0
+    },
+    {
+        "id": 40,
+        "moveId": 20,
+        "tutorId": 6,
+        "cost": 2
+    },
+    {
+        "id": 41,
+        "moveId": 173,
+        "tutorId": 6,
+        "cost": 2
+    },
+    {
+        "id": 42,
+        "moveId": 215,
+        "tutorId": 6,
+        "cost": 4
+    },
+    {
+        "id": 43,
+        "moveId": 282,
+        "tutorId": 6,
+        "cost": 4
+    },
+    {
+        "id": 44,
+        "moveId": 235,
+        "tutorId": 6,
+        "cost": 6
+    },
+    {
+        "id": 45,
+        "moveId": 355,
+        "tutorId": 6,
+        "cost": 6
+    },
+    {
+        "id": 46,
+        "moveId": 143,
+        "tutorId": 6,
+        "cost": 8
+    },
+    {
+        "id": 47,
+        "moveId": 272,
+        "tutorId": 6,
+        "cost": 8
+    },
+    {
+        "id": 48,
+        "moveId": 257,
+        "tutorId": 6,
+        "cost": 10
+    },
+    {
+        "id": 49,
+        "moveId": 202,
+        "tutorId": 6,
+        "cost": 10
+    },
+    {
+        "id": 50,
+        "moveId": 409,
+        "tutorId": 6,
+        "cost": 10
+    },
+    {
+        "id": 51,
+        "moveId": 220,
+        "tutorId": 6,
+        "cost": 10
+    },
+    {
+        "id": 52,
+        "moveId": 366,
+        "tutorId": 6,
+        "cost": 10
+    },
+    {
+        "id": 53,
+        "moveId": 388,
+        "tutorId": 4,
+        "cost": 6
+    },
+    {
+        "id": 54,
+        "moveId": 380,
+        "tutorId": 4,
+        "cost": 6
+    },
+    {
+        "id": 55,
+        "moveId": 270,
+        "tutorId": 4,
+        "cost": 8
+    },
+    {
+        "id": 56,
+        "moveId": 495,
+        "tutorId": 4,
+        "cost": 8
+    },
+    {
+        "id": 57,
+        "moveId": 478,
+        "tutorId": 4,
+        "cost": 8
+    },
+    {
+        "id": 58,
+        "moveId": 472,
+        "tutorId": 4,
+        "cost": 8
+    },
+    {
+        "id": 59,
+        "moveId": 180,
+        "tutorId": 4,
+        "cost": 8
+    },
+    {
+        "id": 60,
+        "moveId": 278,
+        "tutorId": 4,
+        "cost": 10
+    },
+    {
+        "id": 61,
+        "moveId": 271,
+        "tutorId": 4,
+        "cost": 10
+    },
+    {
+        "id": 62,
+        "moveId": 446,
+        "tutorId": 4,
+        "cost": 10
+    },
+    {
+        "id": 63,
+        "moveId": 200,
+        "tutorId": 4,
+        "cost": 10
+    },
+    {
+        "id": 64,
+        "moveId": 283,
+        "tutorId": 4,
+        "cost": 10
+    },
+    {
+        "id": 65,
+        "moveId": 214,
+        "tutorId": 4,
+        "cost": 10
+    },
+    {
+        "id": 66,
+        "moveId": 285,
+        "tutorId": 4,
+        "cost": 10
+    },
+    {
+        "id": 67,
+        "moveId": 289,
+        "tutorId": 4,
+        "cost": 10
+    }
+]

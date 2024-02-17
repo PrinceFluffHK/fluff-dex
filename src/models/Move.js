@@ -1,3 +1,5 @@
+import Help from "./Help.js";
+
 class Move {
     constructor(id, name, type, category, bp, acc, pp, target, gen, effects) {
         this.id = id;
@@ -40,9 +42,7 @@ class Move {
         });
     }
 
-    static makeArray(moveObjArray, types, targets, categories) {
-        return moveObjArray.map((moveObj) => {
-            // const type = types.find(typeObj => {moveObj.id === typeObj.id})
+    static makeSingle(moveObj, types, targets, categories) {
             const type = Help.findInArray(moveObj.id, types);
             const target = Help.findInArray(moveObj.id, targets);
             const category = Help.findInArray(moveObj.id, categories);
@@ -59,6 +59,11 @@ class Move {
                 moveObj.gen,
                 moveObj.effects
             );
+    }
+
+    static makeArray(moveObjArray, types, targets, categories) {
+        return moveObjArray.map((moveObj) => {
+            return Move.makeSingle(moveObj, types, targets, categories)
         });
     }
 }

@@ -1,3 +1,7 @@
+import Help from "./Help";
+import LevelLearnMove from "./LevelLearnMove";
+import TutorMove from "./TutorMove";
+
 class Pokemon {
     constructor(
         id,
@@ -14,14 +18,14 @@ class Pokemon {
         spa,
         spd,
         spe,
+        modifier = "",
+        evoTo = [],
+        evoFromId,
         levelLearn = [],
         tmLearn = [],
-        tutorLearn = [],
-        modifier = "",
-        frontSpriteUrl,
-        profileUrl,
-        evoTo = [],
-        evoLine = []
+        tutorLearn = []
+        // spriteUrl,
+        // profileUrl,
     ) {
         this.id = id;
         this.name = name;
@@ -37,25 +41,22 @@ class Pokemon {
         this.spa = spa;
         this.spd = spd;
         this.spe = spe;
+        this.modifier = modifier;
+        this.evoTo = evoTo;
+        this.evoFromId = evoFromId;
         this.levelLearn = levelLearn;
         this.tmLearn = tmLearn;
         this.tutorLearn = tutorLearn;
-        this.modifier = modifier;
-        this.frontSpriteUrl = frontSpriteUrl
-            ? frontSpriteUrl
-            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
-        this.profileUrl = profileUrl
-            ? profileUrl
-            : `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
-        this.evoTo = evoTo;
-        this.evoFromId = evoFromId;
+        this.spriteUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+        this.profileUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
     }
 
-    static makeEdits(mon, changes) {
+    static makeMon(mon, changes) {
         const newMon = { ...mon, ...changes };
-        return [
+        return new Pokemon(
             newMon.id,
             newMon.name,
+            newMon.gen,
             newMon.type1,
             newMon.type2,
             newMon.ability1,
@@ -67,22 +68,32 @@ class Pokemon {
             newMon.spa,
             newMon.spd,
             newMon.spe,
+            newMon.modifier,
+            newMon.spriteUrl,
+            newMon.profileUrl,
+            newMon.evoTo,
+            newMon.evoFromId,
             newMon.levelLearn,
             newMon.tmLearn,
-            newMon.tutorLearn,
-            newMon.modifier,
-            newMon.sprite,
-            newMon.profile,
-            newMon.evolutions,
-        ];
+            newMon.tutorLearn
+        );
     }
 
-    static makeSingle(species, typesArray, abilitiesArray) {
-        const type1 = Help.findInArray(species.type1Id, typesArray);
-        const type2 = Help.findInArray(species.type2Id, typesArray);
-        const ability1 = Help.findInArray(species.ability1Id, abilitiesArray);
-        const ability2 = Help.findInArray(species.ability2Id, abilitiesArray);
-        const abilityH = Help.findInArray(species.abilityHId, abilitiesArray);
+    static makeSingle(species, typesArray, abilitiesArray, movesArray, tutorsArray) {
+        const type1 = Help.findInArray(species.type1, typesArray);
+        const type2 = Help.findInArray(species.type2, typesArray);
+        const ability1 = Help.findInArray(species.ability1, abilitiesArray);
+        const ability2 = Help.findInArray(species.ability2, abilitiesArray);
+        const abilityH = Help.findInArray(species.abilityH, abilitiesArray);
+        const levelLearn = LevelLearnMove.makeArray(
+            species.levelLearn,
+            movesArray
+        );
+        const tutorLearn = TutorMove.makeArray(
+            species.tutorLearn,
+            movesArray,
+            tutorsArray
+        );
         return new Pokemon(
             species.id,
             species.name,
@@ -97,20 +108,19 @@ class Pokemon {
             species.spa,
             species.spd,
             species.spe,
-            species.levelLearn,
-            species.tmLearn,
-            species.tutorLearn,
             species.modifier,
             species.sprite,
             species.profile,
             species.evolutions,
+            levelLearn,
+            tmLearn,
+            tutorLearn,
         );
     }
 
-    static makeArray(rawJsonArray, typesArray, abilitiesArray) {
-        const jsonArray = JSON.parse(rawJsonArray);
-        return jsonArray.map((mon) => {
-            return Pokemon.makeSingle(mon, typesArray, abilitiesArray);
+    static makeArray(speciesJson, typesArray, abilitiesArray, movesArray) {
+        return speciesJson.map((mon) => {
+            return Pokemon.makeSingle(mon, typesArray, abilitiesArray, movesArray)
         });
     }
 

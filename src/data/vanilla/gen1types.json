@@ -73,7 +73,7 @@
     },
     {
         "id": 8,
-        "name": "Flying",
+        "name": "Ghost",
         "superEffective": [8],
         "notVeryEffective": [],
         "noEffect": [1, 14],

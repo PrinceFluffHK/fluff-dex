@@ -1,6 +1,7 @@
 import Type from "../../models/Type"
-import data from "../vanilla/oldGenTypes.json"
+import typeData from "../vanilla/oldGenTypes.json"
 
-const b2deTypes = Type.makeArray(data)
+const b2deTypes = Type.makeArray(typeData)
+// console.log(b2deTypes)
 
 export default b2deTypes

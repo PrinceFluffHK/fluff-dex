@@ -11,7 +11,12 @@ class Romhack {
         pokedexComponent,
         trainersComponent,
         encountersComponent,
-        itemsComponent
+        itemsComponent,
+        species,
+        speciesEdits,
+        moves,
+        abilities,
+        tutors,
     ) {
         this.name = name;
         this.link = link;

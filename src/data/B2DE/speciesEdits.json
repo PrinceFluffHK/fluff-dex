@@ -1,0 +1,2430 @@
+[
+    {
+        "id": 494,
+        "levelLearn": [
+            { "level": 1, "moveId": "Endure" },
+            { "level": 1, "moveId": "HelpingHand" },
+            { "level": 1, "moveId": "Incinerate" },
+            { "level": 1, "moveId": "QuickAttack" },
+            { "level": 1, "moveId": "Confusion" },
+            { "level": 9, "moveId": "FocusEnergy" },
+            { "level": 17, "moveId": "Headbutt" },
+            { "level": 25, "moveId": "FlameCharge" },
+            { "level": 33, "moveId": "Reversal" },
+            { "level": 41, "moveId": "FlameBurst" },
+            { "level": 49, "moveId": "ZenHeadbutt" },
+            { "level": 57, "moveId": "SearingShot" },
+            { "level": 65, "moveId": "Double-Edge" },
+            { "level": 73, "moveId": "FlareBlitz" },
+            { "level": 81, "moveId": "FinalGambit" },
+            { "level": 89, "moveId": "StoredPower" },
+            { "level": 97, "moveId": "V-Create" }
+        ],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 495,
+        "ability1Id": 126,
+        "abilityHId": 65,
+        "levelLearn": [
+            { "level": 1, "moveId": "Tackle" },
+            { "level": 4, "moveId": "Leer" },
+            { "level": 7, "moveId": "VineWhip" },
+            { "level": 10, "moveId": "Twister" },
+            { "level": 13, "moveId": "Growth" },
+            { "level": 16, "moveId": "LeafTornado" },
+            { "level": 19, "moveId": "LeechSeed" },
+            { "level": 22, "moveId": "MegaDrain" },
+            { "level": 25, "moveId": "BodySlam" },
+            { "level": 28, "moveId": "LeafBlade" },
+            { "level": 31, "moveId": "Coil" },
+            { "level": 34, "moveId": "GigaDrain" },
+            { "level": 37, "moveId": "WringOut" },
+            { "level": 40, "moveId": "GastroAcid" },
+            { "level": 43, "moveId": "LeafStorm" }
+        ],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 496,
+        "ability1Id": 126,
+        "abilityHId": 65,
+        "levelLearn": [
+            { "level": 1, "moveId": "Glare" },
+            { "level": 1, "moveId": "Wrap" },
+            { "level": 1, "moveId": "Tackle" },
+            { "level": 4, "moveId": "Leer" },
+            { "level": 7, "moveId": "VineWhip" },
+            { "level": 10, "moveId": "Twister" },
+            { "level": 13, "moveId": "Growth" },
+            { "level": 16, "moveId": "LeafTornado" },
+            { "level": 20, "moveId": "LeechSeed" },
+            { "level": 24, "moveId": "MegaDrain" },
+            { "level": 28, "moveId": "BodySlam" },
+            { "level": 32, "moveId": "LeafBlade" },
+            { "level": 36, "moveId": "Coil" },
+            { "level": 40, "moveId": "GigaDrain" },
+            { "level": 44, "moveId": "WringOut" },
+            { "level": 48, "moveId": "GastroAcid" },
+            { "level": 52, "moveId": "LeafStorm" }
+        ],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 497,
+        "type2Id": 16,
+        "ability1Id": 126,
+        "abilityHId": 65,
+        "levelLearn": [
+            { "level": 1, "moveId": "DragonPulse" },
+            { "level": 1, "moveId": "Glare" },
+            { "level": 1, "moveId": "Wrap" },
+            { "level": 1, "moveId": "Tackle" },
+            { "level": 4, "moveId": "Leer" },
+            { "level": 7, "moveId": "VineWhip" },
+            { "level": 10, "moveId": "Twister" },
+            { "level": 13, "moveId": "Growth" },
+            { "level": 16, "moveId": "LeafTornado" },
+            { "level": 20, "moveId": "LeechSeed" },
+            { "level": 24, "moveId": "MegaDrain" },
+            { "level": 28, "moveId": "BodySlam" },
+            { "level": 32, "moveId": "LeafBlade" },
+            { "level": 38, "moveId": "Coil" },
+            { "level": 44, "moveId": "GigaDrain" },
+            { "level": 50, "moveId": "WringOut" },
+            { "level": 56, "moveId": "GastroAcid" },
+            { "level": 62, "moveId": "LeafStorm" }
+        ],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 498,
+        "ability1Id": 47,
+        "abilityHId": 66,
+        "levelLearn": [
+            { "level": 1, "moveId": "Tackle" },
+            { "level": 3, "moveId": "TailWhip" },
+            { "level": 7, "moveId": "Ember" },
+            { "level": 9, "moveId": "Roar" },
+            { "level": 13, "moveId": "DefenseCurl" },
+            { "level": 15, "moveId": "FlameCharge" },
+            { "level": 19, "moveId": "ClearSmog" },
+            { "level": 21, "moveId": "Rollout" },
+            { "level": 25, "moveId": "TakeDown" },
+            { "level": 27, "moveId": "HeatCrash" },
+            { "level": 31, "moveId": "Assurance" },
+            { "level": 33, "moveId": "Flamethrower" },
+            { "level": 37, "moveId": "HeadSmash" },
+            { "level": 39, "moveId": "HeavySlam" },
+            { "level": 43, "moveId": "FlareBlitz" }
+        ],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 499,
+        "ability1Id": 47,
+        "abilityHId": 66,
+        "levelLearn": [
+            { "level": 1, "moveId": "Yawn" },
+            { "level": 1, "moveId": "Tackle" },
+            { "level": 3, "moveId": "TailWhip" },
+            { "level": 7, "moveId": "Ember" },
+            { "level": 9, "moveId": "Roar" },
+            { "level": 13, "moveId": "DefenseCurl" },
+            { "level": 15, "moveId": "FlameCharge" },
+            { "level": 17, "moveId": "ArmThrust" },
+            { "level": 20, "moveId": "ClearSmog" },
+            { "level": 23, "moveId": "Rollout" },
+            { "level": 28, "moveId": "TakeDown" },
+            { "level": 31, "moveId": "HeatCrash" },
+            { "level": 36, "moveId": "Assurance" },
+            { "level": 39, "moveId": "Flamethrower" },
+            { "level": 44, "moveId": "HeadSmash" },
+            { "level": 47, "moveId": "HeavySlam" },
+            { "level": 52, "moveId": "FlareBlitz" }
+        ],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 500,
+        "ability1Id": 120,
+        "abilityHId": 66,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 501,
+        "ability1Id": 75,
+        "abilityHId": 67,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 502,
+        "ability1Id": 75,
+        "abilityHId": 67,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 503,
+        "ability1Id": 75,
+        "abilityHId": 67,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 133,
+        "ability1Id": 132,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 134,
+                "condition": "Water Stone",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 135,
+                "condition": "Thunder Stone",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 136,
+                "condition": "Fire Stone",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 196,
+                "condition": "Sun Stone",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 197,
+                "condition": "Moon Stone",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 470,
+                "condition": "Leaf Stone",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 471,
+                "condition": "Shiny Stone",
+                "method": "Use Item"
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 135,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 136,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 196,
+        "ability1Id": 156,
+        "abilityHId": 28,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 197,
+        "ability1Id": 39,
+        "abilityHId": 28,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 470,
+        "ability1Id": "Chlorophyll",
+        "abilityHId": "Leaf Guard",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 471,
+        "ability1Id": "Ice Body",
+        "abilityHId": "Snow Warning",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 504,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 505,
+        "ability1Id": "Scrappy",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 509,
+        "ability2Id": "Prankster",
+        "abilityHId": "Unburden",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 510,
+        "ability2Id": "Prankster",
+        "abilityHId": "Unburden",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 519,
+        "ability1Id": "Oblivious",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 520,
+        "ability1Id": "Serene Grace",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 521,
+        "ability1Id": "Serene Grace",
+        "atk": 115,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 540,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 541,
+        "evoTo": [
+            {
+                "nextMonId": 542,
+                "condition": "Leaf Stone",
+                "method": "Use Item"
+            }
+        ],
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 542,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 191,
+        "type2Id": 10,
+        "ability2Id": 0,
+        "hp": 40,
+        "atk": 40,
+        "def": 40,
+        "spa": 40,
+        "spd": 40,
+        "spe": 40,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 192,
+        "type2Id": 10,
+        "ability2Id": 0,
+        "spe": 80,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 506,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 507,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 508,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 179,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 180,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 181,
+        "type2Id": 17,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 298,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 182,
+                "condition": 12,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 184,
+                "condition": 27,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 231,
+        "ability2Id": "Simple",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 232,
+        "type2Id": 2,
+        "ability2Id": "Battle Armor",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 447,
+                "condition": 30,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 447,
+        "ability1Id": "Prankster",
+        "ability2Id": 0,
+        "abilityHId": 39,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 448,
+        "ability1Id": "Adaptability",
+        "ability2Id": 0,
+        "abilityHId": 39,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 206,
+        "type2Id": 17,
+        "abilityHId": 126,
+        "spe": 80,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 531,
+        "ability1Id": "Healer",
+        "ability2Id": "Regenerator",
+        "abilityHId": "Klutz",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 543,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 544,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 545,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 240,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 126,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 467,
+                "condition": "Magmarizer",
+                "method": "Use Item"
+            }
+        ]
+    },
+    {
+        "id": 467,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 239,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 125,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 466,
+                "condition": "Electirizer",
+                "method": "Use Item"
+            }
+        ]
+    },
+    {
+        "id": 466,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 54,
+        "type2Id": 14,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 55,
+        "type2Id": 14,
+        "abilityHId": "Drizzle",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 109,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 110,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 81,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 82,
+                "condition": "Chargestone Cave",
+                "method": "Level-up at"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 462,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 58,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 59,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 19,
+        "ability2Id": 0,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 20,
+        "ability2Id": 0,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 41,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 42,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 169,
+                "condition": 33,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 88,
+        "ability2Id": "Poison Touch",
+        "abilityHId": "Sticky Hold",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 89,
+        "ability2Id": "Poison Touch",
+        "abilityHId": "Sticky Hold",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 211,
+        "ability2Id": "Intimidate",
+        "abilityHId": "Swift Swim",
+        "atk": 110,
+        "spd": 80,
+        "spe": 105,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 527,
+        "ability2Id": "Simple",
+        "abilityHId": "Klutz",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 528,
+                "condition": 25,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 528,
+        "ability2Id": "Simple",
+        "abilityHId": "Klutz",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 524,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 525,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 526,
+                "condition": 40,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 526,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 95,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 182,
+                "condition": "Metal Coat",
+                "method": "Use Item"
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "abilityHId": "Sand Stream",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 532,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 533,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 534,
+                "condition": 40,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 534,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 529,
+        "ability2Id": "Mold Breaker",
+        "abilityHId": "Sand Force",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 530,
+        "ability2Id": "Mold Breaker",
+        "abilityHId": "Sand Force",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 427,
+        "ability2Id": "Limber",
+        "abilityHId": "Klutz",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 428,
+                "condition": 25,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 428,
+        "type2Id": 2,
+        "ability1Id": "Scrappy",
+        "ability2Id": "Limber",
+        "abilityHId": "Klutz",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 546,
+        "type2Id": 3,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 547,
+        "type2Id": 3,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 548,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 549,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 550,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 10016,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 551,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 552,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 553,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 568,
+        "type2Id": 9,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 569,
+        "type2Id": 9,
+        "ability2Id": "Regenerator",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 559,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 560,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 592,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 593,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 222,
+        "def": 110,
+        "spd": 110,
+        "ability1Id": "Regenerator",
+        "abilityHId": "Hustle",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 27,
+        "ability1Id": "Sand Rush",
+        "ability2Id": "Sand Force",
+        "abilityHId": "Sand Veil",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 28,
+        "ability1Id": "Sand Rush",
+        "ability2Id": "Sand Force",
+        "abilityHId": "Sand Veil",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 557,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 558,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 328,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 329,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 330,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 556,
+        "hp": 95,
+        "def": 72,
+        "spa": 115,
+        "spd": 72,
+        "ability1Id": "Storm Drain",
+        "ability2Id": "Sand Rush",
+        "abilityHId": "Chlorophyll",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 554,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 555,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 561,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 562,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 563,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 343,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 344,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 564,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 565,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 566,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 567,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 453,
+        "ability1Id": "Poison Touch",
+        "abilityHId": "Anticipation",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 454,
+        "ability1Id": "Poison Touch",
+        "abilityHId": "Anticipation",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 123,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 212,
+                "condition": "Metal Coat",
+                "method": "Use Item"
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "ability1Id": "Iron Barbs",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 285,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 286,
+        "ability1Id": "Technician",
+        "abilityHId": "Quick Feet",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 511,
+        "ability1Id": 65,
+        "abilityHId": "Gluttony",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 512,
+        "ability1Id": 65,
+        "abilityHId": "Gluttony",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 513,
+        "ability1Id": 66,
+        "abilityHId": "Gluttony",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 514,
+        "ability1Id": 66,
+        "abilityHId": "Gluttony",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 515,
+        "ability1Id": 67,
+        "abilityHId": "Gluttony",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 516,
+        "ability1Id": 67,
+        "abilityHId": "Gluttony",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 406,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 315,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 407,
+                "condition": 12,
+                "method": "Level-up"
+            }
+        ]
+    },
+    {
+        "id": 407,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 415,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 416,
+        "ability1Id": "Tinted Lens",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 214,
+        "ability1Id": "Moxie",
+        "abilityHId": "Swarm",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 127,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 418,
+        "ability1Id": "Water Veil",
+        "abilityHId": "Swift Swim",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 419,
+        "ability1Id": "Moxie",
+        "abilityHId": "Swift Swim",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 587,
+        "ability1Id": "Static",
+        "abilityHId": "Motor Drive",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 572,
+        "ability1Id": "Simple",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 573,
+        "ability1Id": "Simple",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 574,
+        "ability1Id": "Shadow Tag",
+        "abilityHId": "Frisk",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 575,
+        "ability1Id": "Shadow Tag",
+        "abilityHId": "Frisk",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 576,
+        "ability1Id": "Shadow Tag",
+        "abilityHId": "Frisk",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 577,
+        "ability1Id": "Regenerator",
+        "abilityHId": "Overcoat",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 578,
+        "ability1Id": "Regenerator",
+        "abilityHId": "Overcoat",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 579,
+        "ability1Id": "Regenerator",
+        "abilityHId": "Overcoat",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 37,
+        "ability1Id": "Flame Body",
+        "ability2Id": "Prankster",
+        "abilityHId": "Flash Fire",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 38,
+        "ability1Id": "Drought",
+        "ability2Id": 156,
+        "abilityHId": "Flash Fire",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 580,
+        "ability2Id": 0,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 581,
+        "atk": 77,
+        "spa": 97,
+        "ability1Id": "Intimidate",
+        "ability2Id": 0,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 227,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 207,
+        "ability2Id": "Immunity",
+        "abilityHId": "Sand Veil",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 472,
+        "ability2Id": "Poison Heal",
+        "abilityHId": "Sand Veil",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 215,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 461,
+        "ability1Id": 39,
+        "ability2Id": "Keen Eye",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 538,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 539,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 246,
+        "ability2Id": "Sturdy",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 247,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 248,
+        "ability2Id": "Intimidate",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 570,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 571,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 588,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 589,
+                "condition": "Iron Defense",
+                "method": "Level-up with Move"
+            }
+        ]
+    },
+    {
+        "id": 589,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 616,
+        "type2Id": 9,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 617,
+                "condition": "Shadow Sneak",
+                "method": "Level-up with Move"
+            }
+        ]
+    },
+    {
+        "id": 617,
+        "type2Id": 8,
+        "ability1Id": "Dry Skin",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 585,
+        "ability1Id": "Serene Grace",
+        "abilityHId": "Chlorophyll",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 586,
+        "ability1Id": "Serene Grace",
+        "abilityHId": "Chlorophyll",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 590,
+        "ability2Id": "Regenerator",
+        "abilityHId": "Damp",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 591,
+        "ability2Id": "Regenerator",
+        "abilityHId": "Damp",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 351,
+        "spe": 100,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 120,
+        "ability1Id": "Analytic",
+        "abilityHId": "Illuminate",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 121,
+        "ability1Id": "Analytic",
+        "abilityHId": "Illuminate",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 610,
+        "ability1Id": "Unnerve",
+        "abilityHId": "Rivalry",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 611,
+        "ability1Id": "Unnerve",
+        "abilityHId": "Rivalry",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 612,
+        "ability1Id": "Unnerve",
+        "abilityHId": "Rivalry",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 304,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 305,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 306,
+        "type2Id": 9,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 302,
+        "ability1Id": "Prankster",
+        "ability2Id": 0,
+        "abilityHId": "Stall",
+        "def": 100,
+        "spd": 90,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 303,
+        "type2Id": 8,
+        "ability1Id": "Huge Power",
+        "atk": 75,
+        "spd": 95,
+        "spe": 70,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 299,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 476,
+                "condition": "Chargestone Cave",
+                "method": "Level-up at"
+            }
+        ]
+    },
+    {
+        "id": 476,
+        "ability1Id": "Levitate",
+        "ability2Id": 0,
+        "abilityHId": 0,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 595,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 596,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 597,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 598,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 602,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 603,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 604,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 599,
+        "ability1Id": "Clear Body",
+        "ability2Id": 0,
+        "abilityHId": "Minus",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 600,
+        "ability1Id": "Clear Body",
+        "ability2Id": 0,
+        "abilityHId": "Minus",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 601,
+        "ability1Id": "Clear Body",
+        "ability2Id": 0,
+        "abilityHId": "Minus",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 522,
+        "type2Id": 1,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 523,
+        "type2Id": 1,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 335,
+        "ability1Id": "Toxic Boost",
+        "abilityHId": "Immunity",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 336,
+        "ability1Id": "Intimidate",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 613,
+        "ability1Id": "Rattled",
+        "abilityHId": "Guts",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 614,
+        "ability1Id": "Swift Swim",
+        "abilityHId": "Guts",
+        "atk": 130,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 605,
+        "type2Id": 9,
+        "ability1Id": "Levitate",
+        "ability2Id": 0,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 606,
+        "type2Id": 9,
+        "ability1Id": "Levitate",
+        "ability2Id": 0,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 607,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 608,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 609,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 451,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 452,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 322,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 323,
+        "ability1Id": "Flame Body",
+        "hp": 110,
+        "def": 80,
+        "spd": 85,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 425,
+        "ability1Id": "Flare Boost",
+        "abilityHId": "Aftermath",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 426,
+        "ability1Id": "Flare Boost",
+        "abilityHId": "Aftermath",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 353,
+        "type2Id": 1,
+        "ability2Id": "Cursed Body",
+        "abilityHId": "Frisk",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 354,
+        "type2Id": 1,
+        "ability2Id": "Cursed Body",
+        "abilityHId": "Frisk",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 517,
+        "ability1Id": "Telepathy",
+        "abilityHId": "Forewarn",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 518,
+        "ability1Id": "Telepathy",
+        "abilityHId": "Forewarn",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 631,
+        "ability2Id": "Flash Fire",
+        "abilityHId": "Gluttony",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 632,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 324,
+        "ability2Id": 75,
+        "abilityHId": "Drought",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 320,
+        "ability1Id": "Water Veil",
+        "ability2Id": "Pressure",
+        "abilityHId": "Oblivious",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 321,
+        "ability2Id": "Pressure",
+        "abilityHId": "Oblivious",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 341,
+        "ability1Id": "Adaptability",
+        "abilityHId": "Hyper Cutter",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 342,
+        "ability1Id": "Adaptability",
+        "abilityHId": "Hyper Cutter",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 594,
+        "ability1Id": "Regenerator",
+        "abilityHId": "Healer",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 363,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 364,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 365,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 213,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 333,
+        "ability2Id": "Cloud Nine",
+        "abilityHId": "Serene Grace",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 334,
+        "ability2Id": "Cloud Nine",
+        "abilityHId": "Serene Grace",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 359,
+        "ability1Id": "Justified",
+        "abilityHId": "Pressure",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 337,
+        "hp": 100,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 338,
+        "hp": 100,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 422,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 423,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 114,
+        "ability2Id": "Regenerator",
+        "abilityHId": "Chlorophyll",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 465,
+        "ability2Id": "Regenerator",
+        "abilityHId": "Chlorophyll",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 357,
+        "type2Id": 17,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 60,
+        "ability2Id": "Swift Swim",
+        "abilityHId": "Damp",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 61,
+        "ability2Id": "Swift Swim",
+        "abilityHId": "Damp",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 62,
+        "ability2Id": "Swift Swim",
+        "abilityHId": "Damp",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 186,
+        "ability2Id": "Drizzle",
+        "abilityHId": "Damp",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 131,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 624,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 625,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 479,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 193,
+        "ability1Id": "Unnerve",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 469,
+        "ability1Id": "Intimidate",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 535,
+        "ability1Id": "Water Absorb",
+        "abilityHId": "Swift Swim",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 536,
+        "ability1Id": "Water Absorb",
+        "abilityHId": "Swift Swim",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 537,
+        "ability1Id": "Water Absorb",
+        "abilityHId": "Swift Swim",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 618,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 619,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 620,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 220,
+        "ability2Id": 47,
+        "abilityHId": "Snow Cloak",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 221,
+        "ability2Id": 47,
+        "abilityHId": "Snow Cloak",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 473,
+        "ability1Id": "Intimidate",
+        "ability2Id": 47,
+        "abilityHId": "Snow Cloak",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 225,
+        "ability2Id": "Insomnia",
+        "abilityHId": "Hustle",
+        "hp": 56,
+        "atk": 80,
+        "def": 114,
+        "spa": 124,
+        "spd": 60,
+        "spe": 136,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 582,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 583,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 584,
+        "ability1Id": "Snow Warning",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 349,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 350,
+                "condition": "Prism Scale",
+                "method": "Use Item"
+            }
+        ]
+    },
+    {
+        "id": 350,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 621,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 622,
+        "ability2Id": "No Guard",
+        "abilityHId": "Klutz",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 623,
+        "ability2Id": "No Guard",
+        "abilityHId": "Klutz",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 72,
+        "ability2Id": "Rain Dish",
+        "abilityHId": "Liquid Ooze",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 73,
+        "ability2Id": "Rain Dish",
+        "abilityHId": "Liquid Ooze",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 173,
+        "ability1Id": 132,
+        "abilityHId": "Cute Charm",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 35,
+        "ability1Id": 132,
+        "abilityHId": "Cute Charm",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 36,
+        "ability1Id": "Unaware",
+        "abilityHId": "Cute Charm",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 132,
+        "ability1Id": "Imposter",
+        "abilityHId": "Limber",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 374,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 375,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 376,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 615,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 626,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 627,
+        "ability1Id": "Hustle",
+        "abilityHId": "Keen Eye",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 628,
+        "ability1Id": "Defiant",
+        "abilityHId": "Keen Eye",
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 629,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 630,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 633,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 634,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 635,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 636,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 637,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 488,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 485,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 638,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 639,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 640,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 641,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 642,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 645,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 643,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 644,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 646,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 647,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 648,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 10018,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    },
+    {
+        "id": 649,
+        "levelLearn": [],
+        "tutorLearn": [],
+        "tmLearn": []
+    }
+]

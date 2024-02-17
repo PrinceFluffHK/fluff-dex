@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { b2deDex, b2deDexArray } from "../../data/B2DE/dex";
 import PokemonDisplay from "./PokemonDisplay";
 import { Grid } from "@mui/material";
-import data from "../../data/vanilla/species.json"
+import b2deDex from "../../data/B2DE/pokedex";
 
 const B2DEPokedex = (props) => {
     const [selectedIndex, setSelectedIndex] = useState(-1);
     const [selectedMon, setSelectedMon] = useState(0);
+    // console.log(b2deDex)
 
-    const pokedex = b2deDexArray.map((mon, index) => {
+    const pokedex = b2deDex.map((mon, index) => {
         const handleSelect = () => {
             setSelectedMon(mon);
             setSelectedIndex(index);
@@ -40,8 +40,8 @@ const B2DEPokedex = (props) => {
                     >
                         <img
                             className="dex-sprite"
-                            src={mon.sprite}
-                            alt={mon.name}
+                            src={mon.spriteUrl}
+                            alt={`Sprite of ${mon.name}`}
                         />
                     </Grid>
                 </Grid>
@@ -58,7 +58,7 @@ const B2DEPokedex = (props) => {
                 selectedIndex={selectedIndex}
                 setSelectedMon={setSelectedMon}
                 setSelectedIndex={setSelectedIndex}
-                pokedex={b2deDexArray}
+                pokedex={b2deDex}
             />
         );
     }

@@ -3031,7 +3031,7 @@
         "bp": 90,
         "acc": 100,
         "pp": 10,
-        "targetId": 11,
+        "targetId": 13,
         "generation": 3,
         "description": "User attacks for 3 turns and prevents sleep."
     },

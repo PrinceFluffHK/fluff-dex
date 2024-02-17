@@ -1,5 +1,7 @@
 import DexEntry from "../../models/DexEntry";
-import pokedexData from "../vanilla/pokedex.json";
+import b2deSpecies from "./species";
+import Help from "../../models/Help.js";
+// import pokedexData from "../vanilla/pokedex.json";
 
 //In: vanilla dex entries/species, natNum array, dex edits
 
@@ -30,12 +32,12 @@ const b2deDexOrder = [
     639, 640, 641, 642, 645, 643, 644, 646, 647, 648, 649
 ];
 
-const b2deDexObjArray = b2deDexOrder.map(monId => {
-    return Help.findInArray(monId, pokedexData)
+const b2deDex = b2deDexOrder.map((monId, index) => {
+    const foundMon = Help.findInArray(monId, b2deSpecies)
+    foundMon.regId = index + 1
+    return foundMon
 })
 
-const b2deEditsArray = DexEntry.makeSubstitutions(b2deDexObjArray, )
-
-const b2deDex = DexEntry.makePokedex(b2deEditsArray)
+export default b2deDex
 
 // const b2deDexEdits =

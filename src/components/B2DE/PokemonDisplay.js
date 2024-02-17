@@ -9,6 +9,7 @@ const PokemonDisplay = ({
     setSelectedMon,
     pokedex,
 }) => {
+    console.log(selectedMon)
     const type1Banner = selectedMon.type1.displayBanner("display-type");
     const type2Banner =
         selectedMon.type2.id === 0
