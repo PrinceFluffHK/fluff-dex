@@ -30,18 +30,6 @@ class Move {
         );
     }
 
-    static insertEdits(vanillaObjArray, editObjArray) {
-        return vanillaObjArray.map((moveObj) => {
-            const moveEdits = editObjArray.find((editObj) => {
-                return moveObj.id === editObj.moveId;
-            });
-            if (moveEdits) {
-                return { ...moveObj, ...moveEdits };
-            }
-            return moveObj;
-        });
-    }
-
     static makeSingle(moveObj, types, targets, categories) {
             const type = Help.findInArray(moveObj.id, types);
             const target = Help.findInArray(moveObj.id, targets);

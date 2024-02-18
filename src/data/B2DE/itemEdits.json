@@ -1,0 +1,98 @@
+[
+    {
+        "id": 30,
+        "description": "Restores 30 HP and cures all status problems."
+    },
+    {
+        "id": 31,
+        "description": "Restores 50 HP and cures all status problems."
+    },
+    {
+        "id": 32,
+        "description": "Restores 70 HP and cures all status problems."
+    },
+    {
+        "id": 33,
+        "description": "Milk with high nutrition content that restores 100 HP and cures all status problems."
+    },
+    {
+        "id": 1279,
+        "description": "Evolves Feebas when used."
+    },
+    {
+        "id": 321,
+        "description": "Evolves Rhydon when used."
+    },
+    {
+        "id": 322,
+        "description": "Evolves Electabuzz when used."
+    },
+    {
+        "id": 323,
+        "description": "Evolves Magmar when used."
+    },
+    {
+        "id": 324,
+        "description": "Evolves Porygon2 when used."
+    },
+    {
+        "id": 325,
+        "description": "Evolves Dusclops when used."
+    },
+    {
+        "id": 326,
+        "description": "Increases critical-hit ratio. Evolves Sneasel when used."
+    },
+    {
+        "id": 327,
+        "description": "May cause opponent to flinch. Evolves Gligar when used."
+    },
+    {
+        "id": 45,
+        "description": "Increases HP EVs by 50."
+    },
+    {
+        "id": 46,
+        "description": "Increases Attack EVs by 50."
+    },
+    {
+        "id": 47,
+        "description": "Increases Defense EVs by 50."
+    },
+    {
+        "id": 48,
+        "description": "Increases Speed EVs by 50."
+    },
+    {
+        "id": 49,
+        "description": "Increases Special Attack EVs by 50."
+    },
+    {
+        "id": 52,
+        "description": "Increases Special Defense EVs by 50."
+    },
+    {
+        "id": 17,
+        "priceP": 100
+    },
+    {
+        "id": 18,
+        "priceP": 100
+    },
+    {
+        "id": 19,
+        "priceP": 100
+    },
+    {
+        "id": 20,
+        "priceP": 100
+    },
+    {
+        "id": 21,
+        "priceP": 100
+    },
+    {
+        "id": 22,
+        "priceP": 100
+    }
+]

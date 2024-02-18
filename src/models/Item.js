@@ -1,11 +1,31 @@
 class Item {
-    constructor (id, name, itemType, price, description) {
-        this.id = id
-        this.name = name
-        this.itemType = itemType
-        this.price = price
-        this.description = description
+    constructor(id, name, gen, type, description, priceP, priceBP) {
+        this.id = id;
+        this.name = name;
+        this.gen = gen
+        this.type = type;
+        this.description = description;
+        this.priceP = priceP;
+        this.priceBP = priceBP;
+    }
+
+    static makeSingle(itemObj) {
+        return new Item(
+            itemObj.id,
+            itemObj.name,
+            itemObj.gen,
+            itemObj.type,
+            itemObj.description,
+            itemObj.priceP,
+            itemObj.priceBp
+        );
+    }
+
+    static makeArray(itemObjArray) {
+        itemObjArray.map(itemObj => {
+            return Item.makeSingle(itemObj)
+        })
     }
 }
 
-export default Item
+export default Item;

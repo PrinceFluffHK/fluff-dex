@@ -1,0 +1,225 @@
+[
+    {
+        "id": 51,
+        "effects": "Always lowers opponent's Special Defense"
+    },
+    {
+        "id": 332,
+        "bp": 85
+    },
+    {
+        "id": 292,
+        "effects": "Hits exactly 4 times in a row."
+    },
+    {
+        "id": 454,
+        "targetId": 5
+    },
+    {
+        "id": 198,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 61,
+        "targetId": 5
+    },
+    {
+        "id": 268,
+        "effects": "Raises user's Speed and next Electric move's power increases."
+    },
+    {
+        "id": 4,
+        "typeId": 2,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 15,
+        "typeId": 12,
+        "bp": 65
+    },
+    {
+        "id": 440,
+        "bp": 90
+    },
+    {
+        "id": 291,
+        "bp": 120,
+        "effects": "Dives underwater on first turn, attacks with 33% recoil on second turn."
+    },
+    {
+        "id": 146,
+        "effects": "50% chance to confuse opponent."
+    },
+    {
+        "id": 3,
+        "bp": 30,
+        "effects": "Hits exactly twice in a row."
+    },
+    {
+        "id": 407,
+        "bp": 120,
+        "acc": 100,
+        "effects": "User receives 33% recoil damage."
+    },
+    {
+        "id": 121,
+        "typeId": 12,
+        "acc": 100
+    },
+    {
+        "id": 153,
+        "effects": "Always critical-hits. User faints."
+    },
+    {
+        "id": 120,
+        "effects": "Always critical-hits. User faints."
+    },
+    {
+        "id": 19,
+        "acc": 100
+    },
+    {
+        "id": 31,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 154,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 544,
+        "acc": 100
+    },
+    {
+        "id": 549,
+        "bp": 75
+    },
+    {
+        "id": 531,
+        "bp": 75
+    },
+    {
+        "id": 556,
+        "bp": 75,
+        "targetId": 5
+    },
+    {
+        "id": 333,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 231,
+        "acc": 85
+    },
+    {
+        "id": 282,
+        "effects": "Removes opponent's held item for the rest of the battle (does not increase damage)."
+    },
+    {
+        "id": 536,
+        "targetId": 5
+    },
+    {
+        "id": 295,
+        "bp": 80,
+        "effects": "Lowers opponent's Special Defense."
+    },
+    {
+        "id": 429,
+        "acc": 95,
+        "effects": "20% chance to lower opponent's Accuracy."
+    },
+    {
+        "id": 296,
+        "bp": 80,
+        "effects": "Lowers opponent's Special Attack."
+    },
+    {
+        "id": 189,
+        "bp": 50,
+        "categoryId": 1,
+        "effects": "10% chance to lower opponent's Accuracy."
+    },
+    {
+        "id": 200,
+        "targetId": 1
+    },
+    {
+        "id": 80,
+        "targetId": 1
+    },
+    {
+        "id": 42,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 305,
+        "effects": "Badly poisons the opponent."
+    },
+    {
+        "id": 342,
+        "targetId": 5,
+        "effects": "High critical hit ratio. Poisons opponents."
+    },
+    {
+        "id": 350,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 431,
+        "typeId": 6,
+        "acc": 90
+    },
+    {
+        "id": 249,
+        "effects": "Lowers opponent's Defense."
+    },
+    {
+        "id": 159,
+        "targetId": 4,
+        "effects": "Raises the target's Attack and Special Attack."
+    },
+    {
+        "id": 327,
+        "acc": 100
+    },
+    {
+        "id": 169,
+        "targetId": 5
+    },
+    {
+        "id": 211,
+        "effects": "Raises user's Defense."
+    },
+    {
+        "id": 70,
+        "targetId": 5
+    },
+    {
+        "id": 541,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row."
+    },
+    {
+        "id": 37,
+        "targetId": 1
+    },
+    {
+        "id": 161,
+        "bp": 90
+    },
+    {
+        "id": 344,
+        "categoryId": 2
+    },
+    {
+        "id": 528,
+        "bp": 120
+    }
+]

@@ -1,33 +1,18 @@
 import React from "react";
+import Help from "./Help";
 
 class DexEntry {
-    constructor(id, name, forms) {
+    constructor(id, index, forms) {
         this.id = id;
-        this.name = name;
+        this.dexNum = index;
         this.forms = forms;
     }
 
-    static makeSubstitutions(vanillaEntries, modEntries) {
-        return vanillaEntries.map(vanillaEntry => {
-            const replacement = modEntries.find(modEntry => {
-                return vanillaEntry.id === modEntry.id
-            })
-            if (replacement) {
-                return replacement
-            }
-            return vanillaEntry
-        })
-    }
-
-    static makePokedex(dexObjArray, speciesArray) {
-        return dexObjArray.map((entry) => {
-            const newForms = entry.forms.map((form) => {
-                return speciesArray.find((species) => {
-                    return species.id === form.id;
-                });
-            });
-            return new DexEntry(entry.id, entry.name, newForms);
+    static makeSingle(dexEntryObj, speciesArray, index) {
+        const newForms = dexEntryObj.forms.map((form) => {
+            return Help.findInArray(form, speciesArray);
         });
+        return new DexEntry(dexEntryObj.id, index, newForms);
     }
 }
 

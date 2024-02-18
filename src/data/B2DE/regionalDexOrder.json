@@ -1,16 +1,5 @@
-import DexEntry from "../../models/DexEntry";
-import b2deSpecies from "./species";
-import Help from "../../models/Help.js";
-// import pokedexData from "../vanilla/pokedex.json";
-
-//In: vanilla dex entries/species, natNum array, dex edits
-
-//create
-
-//Out: exact b2de regionaldex
-
-const b2deDexOrder = [
-    494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 133, 134, 135, 136, 196,
+[
+    0, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 133, 134, 135, 136, 196,
     197, 470, 471, 504, 505, 509, 510, 519, 520, 521, 540, 541, 542, 191, 192,
     506, 507, 508, 179, 180, 181, 298, 183, 184, 231, 232, 447, 448, 206, 531,
     543, 544, 545, 240, 126, 467, 239, 125, 466, 54, 55, 109, 110, 81, 82, 462,
@@ -30,14 +19,4 @@ const b2deDexOrder = [
     582, 583, 584, 349, 350, 621, 622, 623, 72, 73, 173, 35, 36, 132, 374, 375,
     376, 615, 626, 627, 628, 629, 630, 633, 634, 635, 636, 637, 488, 485, 638,
     639, 640, 641, 642, 645, 643, 644, 646, 647, 648, 649
-];
-
-const b2deDex = b2deDexOrder.map((monId, index) => {
-    const foundMon = Help.findInArray(monId, b2deSpecies)
-    foundMon.regId = index + 1
-    return foundMon
-})
-
-export default b2deDex
-
-// const b2deDexEdits =
+]

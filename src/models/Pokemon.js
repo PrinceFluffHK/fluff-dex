@@ -1,5 +1,6 @@
 import Help from "./Help";
 import LevelLearnMove from "./LevelLearnMove";
+import TmMove from "./TmMove";
 import TutorMove from "./TutorMove";
 
 class Pokemon {
@@ -79,7 +80,7 @@ class Pokemon {
         );
     }
 
-    static makeSingle(species, typesArray, abilitiesArray, movesArray, tutorsArray) {
+    static makeSingle(species, typesArray, abilitiesArray, movesArray, tutorsArray, itemsArray) {
         const type1 = Help.findInArray(species.type1, typesArray);
         const type2 = Help.findInArray(species.type2, typesArray);
         const ability1 = Help.findInArray(species.ability1, abilitiesArray);
@@ -94,9 +95,11 @@ class Pokemon {
             movesArray,
             tutorsArray
         );
+        const tmLearn = TmMove.makeArray([], itemsArray, movesArray)
         return new Pokemon(
             species.id,
             species.name,
+            species.gen,
             type1,
             type2,
             ability1,
@@ -109,24 +112,18 @@ class Pokemon {
             species.spd,
             species.spe,
             species.modifier,
-            species.sprite,
-            species.profile,
-            species.evolutions,
+            species.evoTo,
+            species.evoFromId,
             levelLearn,
             tmLearn,
             tutorLearn,
         );
     }
 
-    static makeArray(speciesJson, typesArray, abilitiesArray, movesArray) {
-        return speciesJson.map((mon) => {
-            return Pokemon.makeSingle(mon, typesArray, abilitiesArray, movesArray)
+    static makeArray(speciesObjArray, typesArray, abilitiesArray, movesArray, tutorsArray, itemsArray) {
+        return speciesObjArray.map((mon) => {
+            return Pokemon.makeSingle(mon, typesArray, abilitiesArray, movesArray, tutorsArray, itemsArray)
         });
-    }
-
-    dexListItem() {
-        // return (
-        // )
     }
 }
 

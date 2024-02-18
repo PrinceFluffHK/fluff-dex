@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "No Mon",
-        "gen": 1,
+        "gen": 0,
         "type1": 0,
         "type2": 0,
         "ability1": 0,
@@ -20998,7 +20998,7 @@
     {
         "id": 10250,
         "name": "Tauros",
-        "gen": 1,
+        "gen": 9,
         "type1": 2,
         "type2": 0,
         "ability1": 22,
@@ -21017,7 +21017,7 @@
     {
         "id": 10251,
         "name": "Tauros",
-        "gen": 1,
+        "gen": 9,
         "type1": 2,
         "type2": 10,
         "ability1": 22,
@@ -21036,7 +21036,7 @@
     {
         "id": 10252,
         "name": "Tauros",
-        "gen": 1,
+        "gen": 9,
         "type1": 2,
         "type2": 11,
         "ability1": 22,
@@ -21055,7 +21055,7 @@
     {
         "id": 10253,
         "name": "Wooper",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 5,
         "ability1": 38,
@@ -21074,7 +21074,7 @@
     {
         "id": 906,
         "name": "Sprigatito",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 0,
         "ability1": 65,
@@ -21099,7 +21099,7 @@
     {
         "id": 907,
         "name": "Floragato",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 0,
         "ability1": 65,
@@ -21124,7 +21124,7 @@
     {
         "id": 908,
         "name": "Meowscarada",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 17,
         "ability1": 65,
@@ -21143,7 +21143,7 @@
     {
         "id": 909,
         "name": "Fuecoco",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 0,
         "ability1": 66,
@@ -21162,7 +21162,7 @@
     {
         "id": 910,
         "name": "Crocolor",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 0,
         "ability1": 66,
@@ -21181,7 +21181,7 @@
     {
         "id": 911,
         "name": "Skeledirge",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 8,
         "ability1": 66,
@@ -21200,7 +21200,7 @@
     {
         "id": 912,
         "name": "Quaxly",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 67,
@@ -21219,7 +21219,7 @@
     {
         "id": 913,
         "name": "Quaxwell",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 67,
@@ -21238,7 +21238,7 @@
     {
         "id": 914,
         "name": "Quaquaval",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 2,
         "ability1": 67,
@@ -21257,7 +21257,7 @@
     {
         "id": 915,
         "name": "Lechonk",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 165,
@@ -21276,7 +21276,7 @@
     {
         "id": 916,
         "name": "Oinkologne",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 268,
@@ -21295,7 +21295,7 @@
     {
         "id": 10254,
         "name": "Oinkologne",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 165,
@@ -21314,7 +21314,7 @@
     {
         "id": 917,
         "name": "Tarountula",
-        "gen": 1,
+        "gen": 9,
         "type1": 7,
         "type2": 0,
         "ability1": 17,
@@ -21333,7 +21333,7 @@
     {
         "id": 918,
         "name": "Spidops",
-        "gen": 1,
+        "gen": 9,
         "type1": 7,
         "type2": 0,
         "ability1": 17,
@@ -21352,7 +21352,7 @@
     {
         "id": 919,
         "name": "Nymble",
-        "gen": 1,
+        "gen": 9,
         "type1": 7,
         "type2": 0,
         "ability1": 68,
@@ -21371,7 +21371,7 @@
     {
         "id": 920,
         "name": "Lokix",
-        "gen": 1,
+        "gen": 9,
         "type1": 7,
         "type2": 17,
         "ability1": 68,
@@ -21390,7 +21390,7 @@
     {
         "id": 921,
         "name": "Pawmi",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 0,
         "ability1": 9,
@@ -21409,7 +21409,7 @@
     {
         "id": 922,
         "name": "Pawmo",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 2,
         "ability1": 11,
@@ -21428,7 +21428,7 @@
     {
         "id": 923,
         "name": "Pawmot",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 2,
         "ability1": 11,
@@ -21447,7 +21447,7 @@
     {
         "id": 924,
         "name": "Tandemaus",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 50,
@@ -21466,7 +21466,7 @@
     {
         "id": 925,
         "name": "Maushold",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 132,
@@ -21485,7 +21485,7 @@
     {
         "id": 926,
         "name": "Fidough",
-        "gen": 1,
+        "gen": 9,
         "type1": 18,
         "type2": 0,
         "ability1": 20,
@@ -21504,7 +21504,7 @@
     {
         "id": 927,
         "name": "Dachsbun",
-        "gen": 1,
+        "gen": 9,
         "type1": 18,
         "type2": 0,
         "ability1": 273,
@@ -21523,7 +21523,7 @@
     {
         "id": 928,
         "name": "Smoliv",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 0,
         "ability1": 48,
@@ -21542,7 +21542,7 @@
     {
         "id": 929,
         "name": "Dolliv",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 0,
         "ability1": 48,
@@ -21561,7 +21561,7 @@
     {
         "id": 930,
         "name": "Arboliva",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 0,
         "ability1": 269,
@@ -21580,7 +21580,7 @@
     {
         "id": 931,
         "name": "Squawkabilly",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 3,
         "ability1": 22,
@@ -21599,7 +21599,7 @@
     {
         "id": 10260,
         "name": "Squawkabilly",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 3,
         "ability1": 22,
@@ -21618,7 +21618,7 @@
     {
         "id": 10261,
         "name": "Squawkabilly",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 3,
         "ability1": 22,
@@ -21637,7 +21637,7 @@
     {
         "id": 10262,
         "name": "Squawkabilly",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 3,
         "ability1": 22,
@@ -21656,7 +21656,7 @@
     {
         "id": 932,
         "name": "Nacli",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 0,
         "ability1": 272,
@@ -21675,7 +21675,7 @@
     {
         "id": 933,
         "name": "Naclstack",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 0,
         "ability1": 272,
@@ -21694,7 +21694,7 @@
     {
         "id": 934,
         "name": "Garganacl",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 0,
         "ability1": 272,
@@ -21713,7 +21713,7 @@
     {
         "id": 935,
         "name": "Charcadet",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 0,
         "ability1": 18,
@@ -21732,7 +21732,7 @@
     {
         "id": 936,
         "name": "Armarouge",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 14,
         "ability1": 18,
@@ -21751,7 +21751,7 @@
     {
         "id": 937,
         "name": "Ceruledge",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 8,
         "ability1": 18,
@@ -21770,7 +21770,7 @@
     {
         "id": 938,
         "name": "Tadbulb",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 0,
         "ability1": 20,
@@ -21789,7 +21789,7 @@
     {
         "id": 939,
         "name": "Bellibolt",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 0,
         "ability1": 280,
@@ -21808,7 +21808,7 @@
     {
         "id": 940,
         "name": "Wattrel",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 3,
         "ability1": 277,
@@ -21827,7 +21827,7 @@
     {
         "id": 941,
         "name": "Kilowattrel",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 3,
         "ability1": 277,
@@ -21846,7 +21846,7 @@
     {
         "id": 942,
         "name": "Maschiff",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 0,
         "ability1": 22,
@@ -21865,7 +21865,7 @@
     {
         "id": 943,
         "name": "Mabosstiff",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 0,
         "ability1": 22,
@@ -21884,7 +21884,7 @@
     {
         "id": 944,
         "name": "Shroodle",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 1,
         "ability1": 84,
@@ -21903,7 +21903,7 @@
     {
         "id": 945,
         "name": "Grafaiai",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 1,
         "ability1": 84,
@@ -21922,7 +21922,7 @@
     {
         "id": 946,
         "name": "Bramblin",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 8,
         "ability1": 274,
@@ -21941,7 +21941,7 @@
     {
         "id": 947,
         "name": "Bramblegast",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 8,
         "ability1": 274,
@@ -21960,7 +21960,7 @@
     {
         "id": 948,
         "name": "Toedscool",
-        "gen": 1,
+        "gen": 9,
         "type1": 5,
         "type2": 12,
         "ability1": 298,
@@ -21979,7 +21979,7 @@
     {
         "id": 949,
         "name": "Toedscruel",
-        "gen": 1,
+        "gen": 9,
         "type1": 5,
         "type2": 12,
         "ability1": 298,
@@ -21998,7 +21998,7 @@
     {
         "id": 950,
         "name": "Klawf",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 0,
         "ability1": 271,
@@ -22017,7 +22017,7 @@
     {
         "id": 951,
         "name": "Caspakid",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 0,
         "ability1": 34,
@@ -22036,7 +22036,7 @@
     {
         "id": 952,
         "name": "Scovillain",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 10,
         "ability1": 34,
@@ -22055,7 +22055,7 @@
     {
         "id": 953,
         "name": "Rellor",
-        "gen": 1,
+        "gen": 9,
         "type1": 7,
         "type2": 0,
         "ability1": 14,
@@ -22074,7 +22074,7 @@
     {
         "id": 954,
         "name": "Rabsca",
-        "gen": 1,
+        "gen": 9,
         "type1": 7,
         "type2": 14,
         "ability1": 28,
@@ -22093,7 +22093,7 @@
     {
         "id": 955,
         "name": "Flittle",
-        "gen": 1,
+        "gen": 9,
         "type1": 14,
         "type2": 0,
         "ability1": 107,
@@ -22112,7 +22112,7 @@
     {
         "id": 956,
         "name": "Espathra",
-        "gen": 1,
+        "gen": 9,
         "type1": 14,
         "type2": 0,
         "ability1": 290,
@@ -22131,7 +22131,7 @@
     {
         "id": 957,
         "name": "Tinkatink",
-        "gen": 1,
+        "gen": 9,
         "type1": 18,
         "type2": 9,
         "ability1": 104,
@@ -22150,7 +22150,7 @@
     {
         "id": 958,
         "name": "Tinkatuff",
-        "gen": 1,
+        "gen": 9,
         "type1": 18,
         "type2": 9,
         "ability1": 104,
@@ -22169,7 +22169,7 @@
     {
         "id": 959,
         "name": "Tinkaton",
-        "gen": 1,
+        "gen": 9,
         "type1": 18,
         "type2": 9,
         "ability1": 104,
@@ -22188,7 +22188,7 @@
     {
         "id": 960,
         "name": "Wiglett",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 183,
@@ -22207,7 +22207,7 @@
     {
         "id": 961,
         "name": "Wugtrio",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 183,
@@ -22226,7 +22226,7 @@
     {
         "id": 962,
         "name": "Bombirdier",
-        "gen": 1,
+        "gen": 9,
         "type1": 3,
         "type2": 17,
         "ability1": 145,
@@ -22245,7 +22245,7 @@
     {
         "id": 963,
         "name": "Finizen",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 41,
@@ -22264,7 +22264,7 @@
     {
         "id": 964,
         "name": "Palafin",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 278,
@@ -22283,7 +22283,7 @@
     {
         "id": 10256,
         "name": "Palafin",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 278,
@@ -22302,7 +22302,7 @@
     {
         "id": 965,
         "name": "Varoom",
-        "gen": 1,
+        "gen": 9,
         "type1": 9,
         "type2": 4,
         "ability1": 142,
@@ -22321,7 +22321,7 @@
     {
         "id": 966,
         "name": "Revavroom",
-        "gen": 1,
+        "gen": 9,
         "type1": 9,
         "type2": 4,
         "ability1": 142,
@@ -22340,7 +22340,7 @@
     {
         "id": 967,
         "name": "Cyclizar",
-        "gen": 1,
+        "gen": 9,
         "type1": 16,
         "type2": 1,
         "ability1": 61,
@@ -22359,7 +22359,7 @@
     {
         "id": 968,
         "name": "Orthworm",
-        "gen": 1,
+        "gen": 9,
         "type1": 9,
         "type2": 0,
         "ability1": 297,
@@ -22378,7 +22378,7 @@
     {
         "id": 969,
         "name": "Glimmet",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 4,
         "ability1": 295,
@@ -22397,7 +22397,7 @@
     {
         "id": 970,
         "name": "Glimmora",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 4,
         "ability1": 295,
@@ -22416,7 +22416,7 @@
     {
         "id": 971,
         "name": "Greavard",
-        "gen": 1,
+        "gen": 9,
         "type1": 8,
         "type2": 0,
         "ability1": 53,
@@ -22435,7 +22435,7 @@
     {
         "id": 972,
         "name": "Houndstone",
-        "gen": 1,
+        "gen": 9,
         "type1": 8,
         "type2": 0,
         "ability1": 146,
@@ -22454,7 +22454,7 @@
     {
         "id": 973,
         "name": "Flamigo",
-        "gen": 1,
+        "gen": 9,
         "type1": 3,
         "type2": 2,
         "ability1": 113,
@@ -22473,7 +22473,7 @@
     {
         "id": 974,
         "name": "Cetoddle",
-        "gen": 1,
+        "gen": 9,
         "type1": 15,
         "type2": 0,
         "ability1": 47,
@@ -22492,7 +22492,7 @@
     {
         "id": 975,
         "name": "Cetitan",
-        "gen": 1,
+        "gen": 9,
         "type1": 15,
         "type2": 0,
         "ability1": 47,
@@ -22511,7 +22511,7 @@
     {
         "id": 976,
         "name": "Veluza",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 14,
         "ability1": 104,
@@ -22530,7 +22530,7 @@
     {
         "id": 977,
         "name": "Dondozo",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 0,
         "ability1": 109,
@@ -22549,7 +22549,7 @@
     {
         "id": 978,
         "name": "Tatsugiri",
-        "gen": 1,
+        "gen": 9,
         "type1": 16,
         "type2": 11,
         "ability1": 279,
@@ -22568,7 +22568,7 @@
     {
         "id": 979,
         "name": "Annihilape",
-        "gen": 1,
+        "gen": 9,
         "type1": 2,
         "type2": 8,
         "ability1": 72,
@@ -22587,7 +22587,7 @@
     {
         "id": 980,
         "name": "Clodsire",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 5,
         "ability1": 38,
@@ -22606,7 +22606,7 @@
     {
         "id": 981,
         "name": "Farigiraf",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 14,
         "ability1": 291,
@@ -22625,7 +22625,7 @@
     {
         "id": 982,
         "name": "Dudunsparce",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 32,
@@ -22644,7 +22644,7 @@
     {
         "id": 983,
         "name": "Kingambit",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 9,
         "ability1": 128,
@@ -22663,7 +22663,7 @@
     {
         "id": 984,
         "name": "Great Tusk",
-        "gen": 1,
+        "gen": 9,
         "type1": 5,
         "type2": 2,
         "ability1": 281,
@@ -22682,7 +22682,7 @@
     {
         "id": 985,
         "name": "Scream Tail",
-        "gen": 1,
+        "gen": 9,
         "type1": 18,
         "type2": 14,
         "ability1": 281,
@@ -22701,7 +22701,7 @@
     {
         "id": 986,
         "name": "Brute Bonnet",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 17,
         "ability1": 281,
@@ -22720,7 +22720,7 @@
     {
         "id": 987,
         "name": "Flutter Mane",
-        "gen": 1,
+        "gen": 9,
         "type1": 8,
         "type2": 18,
         "ability1": 281,
@@ -22739,7 +22739,7 @@
     {
         "id": 988,
         "name": "Slither Wing",
-        "gen": 1,
+        "gen": 9,
         "type1": 7,
         "type2": 2,
         "ability1": 281,
@@ -22758,7 +22758,7 @@
     {
         "id": 989,
         "name": "Sandy Shocks",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 5,
         "ability1": 281,
@@ -22777,7 +22777,7 @@
     {
         "id": 990,
         "name": "Iron Treads",
-        "gen": 1,
+        "gen": 9,
         "type1": 5,
         "type2": 9,
         "ability1": 282,
@@ -22796,7 +22796,7 @@
     {
         "id": 991,
         "name": "Iron Bundle",
-        "gen": 1,
+        "gen": 9,
         "type1": 15,
         "type2": 11,
         "ability1": 282,
@@ -22815,7 +22815,7 @@
     {
         "id": 992,
         "name": "Iron Hands",
-        "gen": 1,
+        "gen": 9,
         "type1": 2,
         "type2": 13,
         "ability1": 282,
@@ -22834,7 +22834,7 @@
     {
         "id": 993,
         "name": "Iron Jugulis",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 3,
         "ability1": 282,
@@ -22853,7 +22853,7 @@
     {
         "id": 994,
         "name": "Iron Moth",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 4,
         "ability1": 282,
@@ -22872,7 +22872,7 @@
     {
         "id": 995,
         "name": "Iron Thorns",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 13,
         "ability1": 282,
@@ -22891,7 +22891,7 @@
     {
         "id": 996,
         "name": "Frigibax",
-        "gen": 1,
+        "gen": 9,
         "type1": 16,
         "type2": 15,
         "ability1": 270,
@@ -22910,7 +22910,7 @@
     {
         "id": 997,
         "name": "Arctibax",
-        "gen": 1,
+        "gen": 9,
         "type1": 16,
         "type2": 15,
         "ability1": 270,
@@ -22929,7 +22929,7 @@
     {
         "id": 998,
         "name": "Baxcalibur",
-        "gen": 1,
+        "gen": 9,
         "type1": 16,
         "type2": 15,
         "ability1": 270,
@@ -22948,7 +22948,7 @@
     {
         "id": 999,
         "name": "Gimmighoul",
-        "gen": 1,
+        "gen": 9,
         "type1": 8,
         "type2": 0,
         "ability1": 155,
@@ -22967,7 +22967,7 @@
     {
         "id": 1000,
         "name": "Gholdengo",
-        "gen": 1,
+        "gen": 9,
         "type1": 9,
         "type2": 8,
         "ability1": 283,
@@ -22986,7 +22986,7 @@
     {
         "id": 1001,
         "name": "Wo-Chien",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 12,
         "ability1": 286,
@@ -23005,7 +23005,7 @@
     {
         "id": 1002,
         "name": "Chien-Pao",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 15,
         "ability1": 285,
@@ -23024,7 +23024,7 @@
     {
         "id": 1003,
         "name": "Ting-Lu",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 5,
         "ability1": 284,
@@ -23043,7 +23043,7 @@
     {
         "id": 1004,
         "name": "Chi-Yu",
-        "gen": 1,
+        "gen": 9,
         "type1": 17,
         "type2": 10,
         "ability1": 287,
@@ -23062,7 +23062,7 @@
     {
         "id": 1005,
         "name": "Roaring Moon",
-        "gen": 1,
+        "gen": 9,
         "type1": 16,
         "type2": 17,
         "ability1": 281,
@@ -23081,7 +23081,7 @@
     {
         "id": 1006,
         "name": "Iron Valiant",
-        "gen": 1,
+        "gen": 9,
         "type1": 18,
         "type2": 2,
         "ability1": 282,
@@ -23100,7 +23100,7 @@
     {
         "id": 1007,
         "name": "Koraidon",
-        "gen": 1,
+        "gen": 9,
         "type1": 2,
         "type2": 16,
         "ability1": 288,
@@ -23119,7 +23119,7 @@
     {
         "id": 1008,
         "name": "Miraidon",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 16,
         "ability1": 289,
@@ -23138,7 +23138,7 @@
     {
         "id": 1009,
         "name": "Walking Wake",
-        "gen": 1,
+        "gen": 9,
         "type1": 11,
         "type2": 16,
         "ability1": 281,
@@ -23157,7 +23157,7 @@
     {
         "id": 1010,
         "name": "Iron Leaves",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 14,
         "ability1": 282,
@@ -23176,7 +23176,7 @@
     {
         "id": 1011,
         "name": "Dipplin",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 16,
         "ability1": 306,
@@ -23195,7 +23195,7 @@
     {
         "id": 1012,
         "name": "Poltchageist",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 8,
         "ability1": 299,
@@ -23214,7 +23214,7 @@
     {
         "id": 1013,
         "name": "Sinistcha",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 8,
         "ability1": 299,
@@ -23233,7 +23233,7 @@
     {
         "id": 1014,
         "name": "Okidogi",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 2,
         "ability1": 305,
@@ -23252,7 +23252,7 @@
     {
         "id": 1015,
         "name": "Munkidori",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 14,
         "ability1": 305,
@@ -23271,7 +23271,7 @@
     {
         "id": 1016,
         "name": "Fezandipiti",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 18,
         "ability1": 305,
@@ -23290,7 +23290,7 @@
     {
         "id": 1017,
         "name": "Ogerpon",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 0,
         "ability1": 128,
@@ -23309,7 +23309,7 @@
     {
         "id": 10273,
         "name": "Ogerpon",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 11,
         "ability1": 11,
@@ -23328,7 +23328,7 @@
     {
         "id": 10274,
         "name": "Ogerpon",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 10,
         "ability1": 104,
@@ -23347,7 +23347,7 @@
     {
         "id": 10275,
         "name": "Ogerpon",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 6,
         "ability1": 5,
@@ -23366,7 +23366,7 @@
     {
         "id": 1018,
         "name": "Archaludon",
-        "gen": 1,
+        "gen": 9,
         "type1": 9,
         "type2": 16,
         "ability1": 192,
@@ -23385,7 +23385,7 @@
     {
         "id": 1019,
         "name": "Hydrapple",
-        "gen": 1,
+        "gen": 9,
         "type1": 12,
         "type2": 16,
         "ability1": 306,
@@ -23404,7 +23404,7 @@
     {
         "id": 1020,
         "name": "Gouging Fire",
-        "gen": 1,
+        "gen": 9,
         "type1": 10,
         "type2": 16,
         "ability1": 281,
@@ -23423,7 +23423,7 @@
     {
         "id": 1021,
         "name": "Raging Bolt",
-        "gen": 1,
+        "gen": 9,
         "type1": 13,
         "type2": 16,
         "ability1": 281,
@@ -23442,7 +23442,7 @@
     {
         "id": 1022,
         "name": "Iron Boulder",
-        "gen": 1,
+        "gen": 9,
         "type1": 6,
         "type2": 14,
         "ability1": 282,
@@ -23461,7 +23461,7 @@
     {
         "id": 1023,
         "name": "Iron Crown",
-        "gen": 1,
+        "gen": 9,
         "type1": 9,
         "type2": 14,
         "ability1": 282,
@@ -23480,7 +23480,7 @@
     {
         "id": 1024,
         "name": "Terapagos",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 307,
@@ -23499,7 +23499,7 @@
     {
         "id": 10276,
         "name": "Terapagos",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 308,
@@ -23518,7 +23518,7 @@
     {
         "id": 10277,
         "name": "Terapagos",
-        "gen": 1,
+        "gen": 9,
         "type1": 1,
         "type2": 0,
         "ability1": 309,
@@ -23537,7 +23537,7 @@
     {
         "id": 1025,
         "name": "Pecharunt",
-        "gen": 1,
+        "gen": 9,
         "type1": 4,
         "type2": 8,
         "ability1": 310,

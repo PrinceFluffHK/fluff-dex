@@ -2,17 +2,19 @@ import "./assets/styles/App.scss";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./components/Homepage";
 import TopBar from "./components/TopBar";
-import * as romhacks from "./data/romhacks"
+import Pokedex from "./components/pokedex/Pokedex";
+import NavPage from "./components/NavPage";
 
 function App() {
-    
+
     return (
         <div className="">
             <HashRouter>
-                <TopBar/>
+                <TopBar />
                 <Routes>
-                    {romhacks.b2de.routes()}
+                    <Route exact path="/:id/pokedex" Component={Pokedex} />
                     <Route exact path="/" Component={Homepage} />
+                    <Route exact path="/:id" Component={NavPage} />
                 </Routes>
             </HashRouter>
         </div>
