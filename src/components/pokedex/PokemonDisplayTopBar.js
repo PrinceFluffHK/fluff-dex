@@ -14,11 +14,11 @@ const PokemonDisplayTopBar = ({
         dexType === 0
             ? selectedRomhack.regionalDex.dexArray
             : selectedRomhack.nationalDex.dexArray;
-    // console.log(pokedex);
     const baseMon = DexEntry.findFromForm(selectedMonId, pokedex);
+    console.log(baseMon);
     const thisMon = Help.findInArray(baseMon.id, pokedex);
+    console.log(thisMon);
     const thisMonIndex = pokedex.indexOf(thisMon);
-    // console.log(thisMonIndex);
     const nextMon =
         thisMonIndex === pokedex.length - 1
             ? pokedex[1].forms[0]
@@ -27,7 +27,7 @@ const PokemonDisplayTopBar = ({
         thisMonIndex === 1
             ? pokedex[pokedex.length - 1].forms[0]
             : pokedex[thisMonIndex - 1].forms[0];
-    // console.log(nextMon, lastMon)
+
     const incrementUp = () => {
         setSelectedMonId(nextMon.id);
     };
@@ -50,21 +50,18 @@ const PokemonDisplayTopBar = ({
                 />
                 <FontAwesomeIcon
                     icon={faArrowRight}
-                    style={{ color: "white" }}
+                    style={{ color: "black" }}
                     size="2xl"
                 />
             </div>
         );
     };
     const IncrementDownButton = () => {
-        // if (thisMonIndex === 1) {
-        //     return <div></div>;
-        // }
         return (
             <div className="increment-container" onClick={incrementDown}>
                 <FontAwesomeIcon
                     icon={faArrowLeft}
-                    style={{ color: "white" }}
+                    style={{ color: "black" }}
                     size="2xl"
                 />
                 <img
@@ -91,7 +88,8 @@ const PokemonDisplayTopBar = ({
     return (
         <div className="dex-top-bar">
             <IncrementDownButton />
-            <BackToDex />
+            <h1>{thisMon.forms[0].name}</h1>
+            {/* <BackToDex /> */}
             <IncrementUpButton />
         </div>
     );

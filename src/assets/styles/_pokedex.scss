@@ -4,15 +4,16 @@
 
 .dex-top-bar{
     height: 5rem;
-    background-color: gray;
+    // background-color: gray;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .increment-container{
     height: 100%;
     width: 33%;
-    display: flex;
+    display: flex;  
     justify-content: center;
     align-items: center;
     // flex-direction: column;
@@ -31,6 +32,17 @@
 .display-portrait {
     width: 80%;
     height: auto;
+}
+
+.portrait-container {
+    position: relative;
+    text-align: center;
+}
+
+.portrait-container h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .display-scroll {
