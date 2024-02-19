@@ -534,6 +534,12 @@
         "description": "The Pokémon compares an opposing Pokémon's Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective."
     },
     {
+        "id": 89,
+        "name": "Iron Fist",
+        "gen": 4,
+        "description": "Powers up punching moves."
+    },
+    {
         "id": 90,
         "name": "Poison Heal",
         "gen": 4,

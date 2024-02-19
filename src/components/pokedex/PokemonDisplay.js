@@ -3,6 +3,10 @@ import React from "react";
 import Help from "../../models/Help";
 import PokemonDisplayTopBar from "./PokemonDisplayTopBar";
 import AbilityDisplay from "./AbilityDisplay";
+import FormSelect from "./FormSelect";
+import DexEntry from "../../models/DexEntry";
+import PortraitDisplay from "./PortraitDisplay";
+import StatDisplay from "./StatDisplay";
 
 const PokemonDisplay = ({
     selectedMonId,
@@ -14,11 +18,10 @@ const PokemonDisplay = ({
         selectedMonId,
         selectedRomhack.species
     );
-    const type1Banner = selectedMon.type1.displayBanner("display-type");
-    const type2Banner =
-        selectedMon.type2.id === 0
-            ? ""
-            : selectedMon.type2.displayBanner("display-type");
+    const baseDexEntry = DexEntry.findFromForm(
+        selectedMonId,
+        selectedRomhack.nationalDex.dexArray
+    );
 
     return (
         <div>
@@ -28,40 +31,23 @@ const PokemonDisplay = ({
                 selectedRomhack={selectedRomhack}
                 dexType={dexType}
             />
-            <div className="display-scroll">
-                <Grid container spacing={0}>
-                    <Grid
-                        className="center"
-                        item
-                        xs={12}
-                        style={{ flexDirection: "column" }}
-                    >
-                        <h1>{selectedMon.name}</h1>
-                        <img
-                            className="display-portrait"
-                            src={selectedMon.profileUrl}
-                            alt={selectedMon.name}
-                        />
-                    </Grid>
-                    <Grid
-                        className="center"
-                        item
-                        xs={12}
-                        style={{ flexDirection: "column" }}
-                    >
-                        <div
-                            className="justify-around"
-                            style={{ width: "90%" }}
-                        >
-                            {type1Banner}
-                            {type2Banner}
-                        </div>
-                        <AbilityDisplay
-                            selectedMon={selectedMon}
-                        />
-                    </Grid>
-                </Grid>
-            </div>
+            <FormSelect
+                selectedRomhack={selectedRomhack}
+                selectedMonId={selectedMonId}
+                setSelectedMonId={setSelectedMonId}
+                baseDexEntry={baseDexEntry}
+            />
+
+            <Grid className="display-scroll" container spacing={0}>
+                <PortraitDisplay
+                    baseDexEntry={baseDexEntry}
+                    selectedMon={selectedMon}
+                />
+                <AbilityDisplay selectedMon={selectedMon} />
+                <StatDisplay
+                    selectedMon={selectedMon}
+                />
+            </Grid>
         </div>
     );
 };

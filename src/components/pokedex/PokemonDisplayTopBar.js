@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import Help from "../../models/Help";
+import DexEntry from "../../models/DexEntry";
 
 const PokemonDisplayTopBar = ({
     selectedMonId,
@@ -14,8 +15,8 @@ const PokemonDisplayTopBar = ({
             ? selectedRomhack.regionalDex.dexArray
             : selectedRomhack.nationalDex.dexArray;
     // console.log(pokedex);
-    const thisMon = Help.findInArray(selectedMonId, pokedex);
-    // console.log(thisMon);
+    const baseMon = DexEntry.findFromForm(selectedMonId, pokedex);
+    const thisMon = Help.findInArray(baseMon.id, pokedex);
     const thisMonIndex = pokedex.indexOf(thisMon);
     // console.log(thisMonIndex);
     const nextMon =
@@ -42,7 +43,11 @@ const PokemonDisplayTopBar = ({
     const IncrementUpButton = () => {
         return (
             <div className="increment-container" onClick={incrementUp}>
-                <img src={nextMon.spriteUrl} alt="next pokemon" />
+                <img
+                    className="dex-nav-sprite"
+                    src={nextMon.spriteUrl}
+                    alt="next pokemon"
+                />
                 <FontAwesomeIcon
                     icon={faArrowRight}
                     style={{ color: "white" }}
@@ -62,7 +67,11 @@ const PokemonDisplayTopBar = ({
                     style={{ color: "white" }}
                     size="2xl"
                 />
-                <img src={lastMon.spriteUrl} alt="previous pokemon" />
+                <img
+                    className="dex-nav-sprite"
+                    src={lastMon.spriteUrl}
+                    alt="previous pokemon"
+                />
             </div>
         );
     };
@@ -70,7 +79,11 @@ const PokemonDisplayTopBar = ({
     const BackToDex = (props) => {
         return (
             <div onClick={returnToDex}>
-                <img src={thisMon.forms[0].spriteUrl} alt="this pokemon" />
+                <img
+                    className="dex-nav-sprite"
+                    src={thisMon.forms[0].spriteUrl}
+                    alt="this pokemon"
+                />
             </div>
         );
     };

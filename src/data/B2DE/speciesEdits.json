@@ -115,14 +115,14 @@
     },
     {
         "id": 19,
-        "ability2Id": 0,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 20,
-        "ability2Id": 0,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -165,18 +165,18 @@
     },
     {
         "id": 27,
-        "ability1Id": "Sand Rush",
-        "ability2Id": "Sand Force",
-        "abilityHId": "Sand Veil",
+        "ability1": 146,
+        "ability2": 159,
+        "abilityH": 8,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 28,
-        "ability1Id": "Sand Rush",
-        "ability2Id": "Sand Force",
-        "abilityHId": "Sand Veil",
+        "ability1": 146,
+        "ability2": 159,
+        "abilityH": 8,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -219,34 +219,36 @@
     },
     {
         "id": 35,
-        "ability1Id": 132,
-        "abilityHId": "Cute Charm",
+        "type1": 1,
+        "ability1": 132,
+        "abilityH": 56,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 36,
-        "ability1Id": "Unaware",
-        "abilityHId": "Cute Charm",
+        "type1": 1,
+        "ability1": 109,
+        "abilityH": 56,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 37,
-        "ability1Id": "Flame Body",
-        "ability2Id": "Prankster",
-        "abilityHId": "Flash Fire",
+        "ability1": 49,
+        "ability2": 158,
+        "abilityH": 18,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 38,
-        "ability1Id": "Drought",
-        "ability2Id": 156,
-        "abilityHId": "Flash Fire",
+        "ability1": 70,
+        "ability2": 156,
+        "abilityH": 18,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -356,15 +358,15 @@
     },
     {
         "id": 54,
-        "type2Id": 14,
+        "type2": 14,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 55,
-        "type2Id": 14,
-        "abilityHId": "Drizzle",
+        "type2": 14,
+        "abilityH": 2,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -395,24 +397,24 @@
     },
     {
         "id": 60,
-        "ability2Id": "Swift Swim",
-        "abilityHId": "Damp",
+        "ability2": 33,
+        "abilityH": 6,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 61,
-        "ability2Id": "Swift Swim",
-        "abilityHId": "Damp",
+        "ability2": 33,
+        "abilityH": 6,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 62,
-        "ability2Id": "Swift Swim",
-        "abilityHId": "Damp",
+        "ability2": 33,
+        "abilityH": 6,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -473,16 +475,16 @@
     },
     {
         "id": 72,
-        "ability2Id": "Rain Dish",
-        "abilityHId": "Liquid Ooze",
+        "ability2": 44,
+        "abilityH": 64,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 73,
-        "ability2Id": "Rain Dish",
-        "abilityHId": "Liquid Ooze",
+        "ability2": 44,
+        "abilityH": 64,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -580,16 +582,16 @@
     },
     {
         "id": 88,
-        "ability2Id": "Poison Touch",
-        "abilityHId": "Sticky Hold",
+        "ability2": 143,
+        "abilityH": 60,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 89,
-        "ability2Id": "Poison Touch",
-        "abilityHId": "Sticky Hold",
+        "ability2": 143,
+        "abilityH": 60,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -717,12 +719,14 @@
     },
     {
         "id": 109,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 110,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -747,8 +751,8 @@
     },
     {
         "id": 114,
-        "ability2Id": "Regenerator",
-        "abilityHId": "Chlorophyll",
+        "ability2": 144,
+        "abilityH": 34,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -785,16 +789,16 @@
     },
     {
         "id": 120,
-        "ability1Id": "Analytic",
-        "abilityHId": "Illuminate",
+        "ability1": 148,
+        "abilityH": 35,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 121,
-        "ability1Id": "Analytic",
-        "abilityHId": "Illuminate",
+        "ability1": 148,
+        "abilityH": 35,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -875,15 +879,15 @@
     },
     {
         "id": 132,
-        "ability1Id": "Imposter",
-        "abilityHId": "Limber",
+        "ability1": 150,
+        "abilityH": 7,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 133,
-        "ability1Id": 132,
+        "ability1": 132,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -1161,6 +1165,7 @@
     },
     {
         "id": 173,
+        "type1": 1,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -1216,7 +1221,7 @@
     },
     {
         "id": 181,
-        "type2Id": 17,
+        "type2": 16,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1229,6 +1234,7 @@
     },
     {
         "id": 183,
+        "type2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -1242,6 +1248,7 @@
     },
     {
         "id": 184,
+        "type2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1254,8 +1261,8 @@
     },
     {
         "id": 186,
-        "ability2Id": "Drizzle",
-        "abilityHId": "Damp",
+        "ability2": 2,
+        "abilityH": 6,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1286,8 +1293,8 @@
     },
     {
         "id": 191,
-        "type2Id": 10,
-        "ability2Id": 0,
+        "type2": 10,
+        "ability2": 0,
         "hp": 40,
         "atk": 40,
         "def": 40,
@@ -1300,8 +1307,8 @@
     },
     {
         "id": 192,
-        "type2Id": 10,
-        "ability2Id": 0,
+        "type2": 10,
+        "ability2": 0,
         "spe": 80,
         "levelLearn": [],
         "tutorLearn": [],
@@ -1309,7 +1316,7 @@
     },
     {
         "id": 193,
-        "ability1Id": "Unnerve",
+        "ability1": 127,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1328,16 +1335,16 @@
     },
     {
         "id": 196,
-        "ability1Id": 156,
-        "abilityHId": 28,
+        "ability1": 156,
+        "abilityH": 28,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 197,
-        "ability1Id": 39,
-        "abilityHId": 28,
+        "ability1": 39,
+        "abilityH": 28,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1392,8 +1399,8 @@
     },
     {
         "id": 206,
-        "type2Id": 17,
-        "abilityHId": 126,
+        "type2": 17,
+        "abilityH": 126,
         "spe": 80,
         "levelLearn": [],
         "tutorLearn": [],
@@ -1401,15 +1408,15 @@
     },
     {
         "id": 207,
-        "ability2Id": "Immunity",
-        "abilityHId": "Sand Veil",
+        "ability2": 17,
+        "abilityH": 8,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 208,
-        "abilityHId": "Sand Stream",
+        "abilityH": 45,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1428,8 +1435,8 @@
     },
     {
         "id": 211,
-        "ability2Id": "Intimidate",
-        "abilityHId": "Swift Swim",
+        "ability2": 22,
+        "abilityH": 33,
         "atk": 110,
         "spd": 80,
         "spe": 105,
@@ -1439,7 +1446,7 @@
     },
     {
         "id": 212,
-        "ability1Id": "Iron Barbs",
+        "ability1": 160,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1452,8 +1459,8 @@
     },
     {
         "id": 214,
-        "ability1Id": "Moxie",
-        "abilityHId": "Swarm",
+        "ability1": 153,
+        "abilityH": 68,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1490,16 +1497,16 @@
     },
     {
         "id": 220,
-        "ability2Id": 47,
-        "abilityHId": "Snow Cloak",
+        "ability2": 47,
+        "abilityH": 81,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 221,
-        "ability2Id": 47,
-        "abilityHId": "Snow Cloak",
+        "ability2": 47,
+        "abilityH": 81,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1508,8 +1515,8 @@
         "id": 222,
         "def": 110,
         "spd": 110,
-        "ability1Id": "Regenerator",
-        "abilityHId": "Hustle",
+        "ability1": 144,
+        "abilityH": 55,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1528,8 +1535,8 @@
     },
     {
         "id": 225,
-        "ability2Id": "Insomnia",
-        "abilityHId": "Hustle",
+        "ability2": 15,
+        "abilityH": 55,
         "hp": 56,
         "atk": 80,
         "def": 114,
@@ -1572,15 +1579,15 @@
     },
     {
         "id": 231,
-        "ability2Id": "Simple",
+        "ability2": 86,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 232,
-        "type2Id": 2,
-        "ability2Id": "Battle Armor",
+        "type2": 2,
+        "ability2": 4,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -1672,7 +1679,7 @@
     },
     {
         "id": 246,
-        "ability2Id": "Sturdy",
+        "ability2": 5,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1685,7 +1692,7 @@
     },
     {
         "id": 248,
-        "ability2Id": "Intimidate",
+        "ability2": 22,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1914,8 +1921,8 @@
     },
     {
         "id": 286,
-        "ability1Id": "Technician",
-        "abilityHId": "Quick Feet",
+        "ability1": 101,
+        "abilityH": 95,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -1988,6 +1995,7 @@
     },
     {
         "id": 298,
+        "type2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -2025,6 +2033,7 @@
     },
     {
         "id": 303,
+        "type2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2134,17 +2143,16 @@
     },
     {
         "id": 320,
-        "ability1Id": "Water Veil",
-        "ability2Id": "Pressure",
-        "abilityHId": "Oblivious",
+        "ability2": 46,
+        "abilityH": 12,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 321,
-        "ability2Id": "Pressure",
-        "abilityHId": "Oblivious",
+        "ability2": 46,
+        "abilityH": 12,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2157,7 +2165,7 @@
     },
     {
         "id": 323,
-        "ability1Id": "Flame Body",
+        "ability1": 49,
         "hp": 110,
         "def": 80,
         "spd": 85,
@@ -2167,8 +2175,8 @@
     },
     {
         "id": 324,
-        "ability2Id": 75,
-        "abilityHId": "Drought",
+        "ability2": 75,
+        "abilityH": 70,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2223,31 +2231,31 @@
     },
     {
         "id": 333,
-        "ability2Id": "Cloud Nine",
-        "abilityHId": "Serene Grace",
+        "ability2": 13,
+        "abilityH": 32,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 334,
-        "ability2Id": "Cloud Nine",
-        "abilityHId": "Serene Grace",
+        "ability2": 13,
+        "abilityH": 32,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 335,
-        "ability1Id": "Toxic Boost",
-        "abilityHId": "Immunity",
+        "ability1": 137,
+        "abilityH": 17,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 336,
-        "ability1Id": "Intimidate",
+        "ability1": 22,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2280,16 +2288,16 @@
     },
     {
         "id": 341,
-        "ability1Id": "Adaptability",
-        "abilityHId": "Hyper Cutter",
+        "ability1": 91,
+        "abilityH": 52,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 342,
-        "ability1Id": "Adaptability",
-        "abilityHId": "Hyper Cutter",
+        "ability1": 91,
+        "abilityH": 52,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2345,6 +2353,7 @@
     },
     {
         "id": 350,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2382,18 +2391,18 @@
     },
     {
         "id": 353,
-        "type2Id": 1,
-        "ability2Id": "Cursed Body",
-        "abilityHId": "Frisk",
+        "type2": 1,
+        "ability2": 130,
+        "abilityH": 119,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 354,
-        "type2Id": 1,
-        "ability2Id": "Cursed Body",
-        "abilityHId": "Frisk",
+        "type2": 1,
+        "ability2": 130,
+        "abilityH": 119,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2412,7 +2421,7 @@
     },
     {
         "id": 357,
-        "type2Id": 17,
+        "type2": 16,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2425,8 +2434,8 @@
     },
     {
         "id": 359,
-        "ability1Id": "Justified",
-        "abilityHId": "Pressure",
+        "ability1": 154,
+        "abilityH": 46,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2799,7 +2808,7 @@
     },
     {
         "id": 416,
-        "ability1Id": "Tinted Lens",
+        "ability1": 110,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2812,16 +2821,16 @@
     },
     {
         "id": 418,
-        "ability1Id": "Water Veil",
-        "abilityHId": "Swift Swim",
+        "ability1": 41,
+        "abilityH": 33,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 419,
-        "ability1Id": "Moxie",
-        "abilityHId": "Swift Swim",
+        "ability1": 153,
+        "abilityH": 33,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -2870,24 +2879,24 @@
     },
     {
         "id": 425,
-        "ability1Id": "Flare Boost",
-        "abilityHId": "Aftermath",
+        "ability1": 138,
+        "abilityH": 106,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 426,
-        "ability1Id": "Flare Boost",
-        "abilityHId": "Aftermath",
+        "ability1": 138,
+        "abilityH": 106,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 427,
-        "ability2Id": "Limber",
-        "abilityHId": "Klutz",
+        "ability2": 7,
+        "abilityH": 103,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -2901,10 +2910,10 @@
     },
     {
         "id": 428,
-        "type2Id": 2,
-        "ability1Id": "Scrappy",
-        "ability2Id": "Limber",
-        "abilityHId": "Klutz",
+        "type2": 2,
+        "ability1": 113,
+        "ability2": 7,
+        "abilityH": 103,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3019,18 +3028,18 @@
     },
     {
         "id": 447,
-        "ability1Id": "Prankster",
-        "ability2Id": 0,
-        "abilityHId": 39,
+        "ability1": 158,
+        "ability2": 0,
+        "abilityH": 39,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 448,
-        "ability1Id": "Adaptability",
-        "ability2Id": 0,
-        "abilityHId": 39,
+        "ability1": 91,
+        "ability2": 0,
+        "abilityH": 39,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3067,16 +3076,16 @@
     },
     {
         "id": 453,
-        "ability1Id": "Poison Touch",
-        "abilityHId": "Anticipation",
+        "ability1": 143,
+        "abilityH": 107,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 454,
-        "ability1Id": "Poison Touch",
-        "abilityHId": "Anticipation",
+        "ability1": 143,
+        "abilityH": 107,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3125,8 +3134,8 @@
     },
     {
         "id": 461,
-        "ability1Id": 39,
-        "ability2Id": "Keen Eye",
+        "ability1": 39,
+        "ability2": 51,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3151,8 +3160,8 @@
     },
     {
         "id": 465,
-        "ability2Id": "Regenerator",
-        "abilityHId": "Chlorophyll",
+        "ability2": 144,
+        "abilityH": 34,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3178,40 +3187,41 @@
     },
     {
         "id": 469,
-        "ability1Id": "Intimidate",
+        "type2": 16,
+        "ability1": 22,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 470,
-        "ability1Id": "Chlorophyll",
-        "abilityHId": "Leaf Guard",
+        "ability1": 34,
+        "abilityH": 102,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 471,
-        "ability1Id": "Ice Body",
-        "abilityHId": "Snow Warning",
+        "ability1": 115,
+        "abilityH": 117,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 472,
-        "ability2Id": "Poison Heal",
-        "abilityHId": "Sand Veil",
+        "ability2": 90,
+        "abilityH": 8,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 473,
-        "ability1Id": "Intimidate",
-        "ability2Id": 47,
-        "abilityHId": "Snow Cloak",
+        "ability1": 22,
+        "ability2": 47,
+        "abilityH": 81,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3230,9 +3240,9 @@
     },
     {
         "id": 476,
-        "ability1Id": "Levitate",
-        "ability2Id": 0,
-        "abilityHId": 0,
+        "ability1": 26,
+        "ability2": 0,
+        "abilityH": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3407,8 +3417,8 @@
     },
     {
         "id": 495,
-        "ability1Id": 126,
-        "abilityHId": 65,
+        "ability1": 126,
+        "abilityH": 65,
         "levelLearn": [
             { "level": 1, "moveId": "Tackle" },
             { "level": 4, "moveId": "Leer" },
@@ -3431,8 +3441,8 @@
     },
     {
         "id": 496,
-        "ability1Id": 126,
-        "abilityHId": 65,
+        "ability1": 126,
+        "abilityH": 65,
         "levelLearn": [
             { "level": 1, "moveId": "Glare" },
             { "level": 1, "moveId": "Wrap" },
@@ -3457,9 +3467,9 @@
     },
     {
         "id": 497,
-        "type2Id": 16,
-        "ability1Id": 126,
-        "abilityHId": 65,
+        "type2": 16,
+        "ability1": 126,
+        "abilityH": 65,
         "levelLearn": [
             { "level": 1, "moveId": "DragonPulse" },
             { "level": 1, "moveId": "Glare" },
@@ -3485,8 +3495,8 @@
     },
     {
         "id": 498,
-        "ability1Id": 47,
-        "abilityHId": 66,
+        "ability1": 47,
+        "abilityH": 66,
         "levelLearn": [
             { "level": 1, "moveId": "Tackle" },
             { "level": 3, "moveId": "TailWhip" },
@@ -3509,8 +3519,8 @@
     },
     {
         "id": 499,
-        "ability1Id": 47,
-        "abilityHId": 66,
+        "ability1": 47,
+        "abilityH": 66,
         "levelLearn": [
             { "level": 1, "moveId": "Yawn" },
             { "level": 1, "moveId": "Tackle" },
@@ -3535,32 +3545,32 @@
     },
     {
         "id": 500,
-        "ability1Id": 120,
-        "abilityHId": 66,
+        "ability1": 120,
+        "abilityH": 66,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 501,
-        "ability1Id": 75,
-        "abilityHId": 67,
+        "ability1": 75,
+        "abilityH": 67,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 502,
-        "ability1Id": 75,
-        "abilityHId": 67,
+        "ability1": 75,
+        "abilityH": 67,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 503,
-        "ability1Id": 75,
-        "abilityHId": 67,
+        "ability1": 75,
+        "abilityH": 67,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3573,7 +3583,7 @@
     },
     {
         "id": 505,
-        "ability1Id": "Scrappy",
+        "ability1": 113,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3598,101 +3608,101 @@
     },
     {
         "id": 509,
-        "ability2Id": "Prankster",
-        "abilityHId": "Unburden",
+        "ability2": 158,
+        "abilityH": 84,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 510,
-        "ability2Id": "Prankster",
-        "abilityHId": "Unburden",
+        "ability2": 158,
+        "abilityH": 84,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 511,
-        "ability1Id": 65,
-        "abilityHId": "Gluttony",
+        "ability1": 65,
+        "abilityH": 82,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 512,
-        "ability1Id": 65,
-        "abilityHId": "Gluttony",
+        "ability1": 65,
+        "abilityH": 82,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 513,
-        "ability1Id": 66,
-        "abilityHId": "Gluttony",
+        "ability1": 66,
+        "abilityH": 82,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 514,
-        "ability1Id": 66,
-        "abilityHId": "Gluttony",
+        "ability1": 66,
+        "abilityH": 82,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 515,
-        "ability1Id": 67,
-        "abilityHId": "Gluttony",
+        "ability1": 67,
+        "abilityH": 82,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 516,
-        "ability1Id": 67,
-        "abilityHId": "Gluttony",
+        "ability1": 67,
+        "abilityH": 82,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 517,
-        "ability1Id": "Telepathy",
-        "abilityHId": "Forewarn",
+        "ability1": 140,
+        "abilityH": 108,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 518,
-        "ability1Id": "Telepathy",
-        "abilityHId": "Forewarn",
+        "ability1": 140,
+        "abilityH": 108,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 519,
-        "ability1Id": "Oblivious",
+        "ability1": 12,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 520,
-        "ability1Id": "Serene Grace",
+        "ability1": 32,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 521,
-        "ability1Id": "Serene Grace",
+        "ability1": 32,
         "atk": 115,
         "levelLearn": [],
         "tutorLearn": [],
@@ -3700,14 +3710,14 @@
     },
     {
         "id": 522,
-        "type2Id": 1,
+        "type2": 1,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 523,
-        "type2Id": 1,
+        "type2": 1,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3739,8 +3749,8 @@
     },
     {
         "id": 527,
-        "ability2Id": "Simple",
-        "abilityHId": "Klutz",
+        "ability2": 86,
+        "abilityH": 103,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -3754,33 +3764,33 @@
     },
     {
         "id": 528,
-        "ability2Id": "Simple",
-        "abilityHId": "Klutz",
+        "ability2": 86,
+        "abilityH": 103,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 529,
-        "ability2Id": "Mold Breaker",
-        "abilityHId": "Sand Force",
+        "ability2": 104,
+        "abilityH": 159,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 530,
-        "ability2Id": "Mold Breaker",
-        "abilityHId": "Sand Force",
+        "ability2": 104,
+        "abilityH": 159,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 531,
-        "ability1Id": "Healer",
-        "ability2Id": "Regenerator",
-        "abilityHId": "Klutz",
+        "ability1": 131,
+        "ability2": 144,
+        "abilityH": 103,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3812,24 +3822,24 @@
     },
     {
         "id": 535,
-        "ability1Id": "Water Absorb",
-        "abilityHId": "Swift Swim",
+        "ability1": 11,
+        "abilityH": 33,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 536,
-        "ability1Id": "Water Absorb",
-        "abilityHId": "Swift Swim",
+        "ability1": 11,
+        "abilityH": 33,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 537,
-        "ability1Id": "Water Absorb",
-        "abilityHId": "Swift Swim",
+        "ability1": 11,
+        "abilityH": 33,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3891,14 +3901,14 @@
     },
     {
         "id": 546,
-        "type2Id": 3,
+        "type2": 3,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 547,
-        "type2Id": 3,
+        "type2": 3,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -3963,9 +3973,9 @@
         "def": 72,
         "spa": 115,
         "spd": 72,
-        "ability1Id": "Storm Drain",
-        "ability2Id": "Sand Rush",
-        "abilityHId": "Chlorophyll",
+        "ability1": 114,
+        "ability2": 146,
+        "abilityH": 34,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4044,15 +4054,15 @@
     },
     {
         "id": 568,
-        "type2Id": 9,
+        "type2": 9,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 569,
-        "type2Id": 9,
-        "ability2Id": "Regenerator",
+        "type2": 9,
+        "ability2": 144,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4071,69 +4081,72 @@
     },
     {
         "id": 572,
-        "ability1Id": "Simple",
+        "ability1": 86,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 573,
-        "ability1Id": "Simple",
+        "ability1": 86,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 574,
-        "ability1Id": "Shadow Tag",
-        "abilityHId": "Frisk",
+        "ability1": 23,
+        "ability2": 0,
+        "abilityH": 119,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 575,
-        "ability1Id": "Shadow Tag",
-        "abilityHId": "Frisk",
+        "ability1": 23,
+        "ability2": 0,
+        "abilityH": 119,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 576,
-        "ability1Id": "Shadow Tag",
-        "abilityHId": "Frisk",
+        "ability1": 23,
+        "ability2": 0,
+        "abilityH": 119,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 577,
-        "ability1Id": "Regenerator",
-        "abilityHId": "Overcoat",
+        "ability1": 144,
+        "abilityH": 142,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 578,
-        "ability1Id": "Regenerator",
-        "abilityHId": "Overcoat",
+        "ability1": 144,
+        "abilityH": 142,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 579,
-        "ability1Id": "Regenerator",
-        "abilityHId": "Overcoat",
+        "ability1": 144,
+        "abilityH": 142,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 580,
-        "ability2Id": 0,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4142,8 +4155,8 @@
         "id": 581,
         "atk": 77,
         "spa": 97,
-        "ability1Id": "Intimidate",
-        "ability2Id": 0,
+        "ability1": 22,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4162,31 +4175,31 @@
     },
     {
         "id": 584,
-        "ability1Id": "Snow Warning",
+        "ability1": 117,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 585,
-        "ability1Id": "Serene Grace",
-        "abilityHId": "Chlorophyll",
+        "ability1": 32,
+        "abilityH": 34,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 586,
-        "ability1Id": "Serene Grace",
-        "abilityHId": "Chlorophyll",
+        "ability1": 32,
+        "abilityH": 34,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 587,
-        "ability1Id": "Static",
-        "abilityHId": "Motor Drive",
+        "ability1": 9,
+        "abilityH": 78,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4212,16 +4225,16 @@
     },
     {
         "id": 590,
-        "ability2Id": "Regenerator",
-        "abilityHId": "Damp",
+        "ability2": 144,
+        "abilityH": 6,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 591,
-        "ability2Id": "Regenerator",
-        "abilityHId": "Damp",
+        "ability2": 144,
+        "abilityH": 6,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4240,8 +4253,8 @@
     },
     {
         "id": 594,
-        "ability1Id": "Regenerator",
-        "abilityHId": "Healer",
+        "ability1": 144,
+        "abilityH": 131,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4272,27 +4285,27 @@
     },
     {
         "id": 599,
-        "ability1Id": "Clear Body",
-        "ability2Id": 0,
-        "abilityHId": "Minus",
+        "ability1": 29,
+        "ability2": 0,
+        "abilityH": 58,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 600,
-        "ability1Id": "Clear Body",
-        "ability2Id": 0,
-        "abilityHId": "Minus",
+        "ability1": 29,
+        "ability2": 0,
+        "abilityH": 58,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 601,
-        "ability1Id": "Clear Body",
-        "ability2Id": 0,
-        "abilityHId": "Minus",
+        "ability1": 29,
+        "ability2": 0,
+        "abilityH": 58,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4317,18 +4330,18 @@
     },
     {
         "id": 605,
-        "type2Id": 9,
-        "ability1Id": "Levitate",
-        "ability2Id": 0,
+        "type2": 9,
+        "ability1": 26,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 606,
-        "type2Id": 9,
-        "ability1Id": "Levitate",
-        "ability2Id": 0,
+        "type2": 9,
+        "ability1": 26,
+        "ability2": 0,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4353,40 +4366,42 @@
     },
     {
         "id": 610,
-        "ability1Id": "Unnerve",
-        "abilityHId": "Rivalry",
+        "ability1": 127,
+        "abilityH": 79,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 611,
-        "ability1Id": "Unnerve",
-        "abilityHId": "Rivalry",
+        "ability1": 127,
+        "abilityH": 79,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 612,
-        "ability1Id": "Unnerve",
-        "abilityHId": "Rivalry",
+        "ability1": 127,
+        "abilityH": 79,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 613,
-        "ability1Id": "Rattled",
-        "abilityHId": "Guts",
+        "ability1": 155,
+        "ability2": 0,
+        "abilityH": 62,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 614,
-        "ability1Id": "Swift Swim",
-        "abilityHId": "Guts",
+        "ability1": 33,
+        "ability2": 0,
+        "abilityH": 62,
         "atk": 130,
         "levelLearn": [],
         "tutorLearn": [],
@@ -4400,7 +4415,7 @@
     },
     {
         "id": 616,
-        "type2Id": 9,
+        "type2": 9,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": [],
@@ -4414,8 +4429,8 @@
     },
     {
         "id": 617,
-        "type2Id": 8,
-        "ability1Id": "Dry Skin",
+        "type2": 8,
+        "ability1": 87,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4446,16 +4461,16 @@
     },
     {
         "id": 622,
-        "ability2Id": "No Guard",
-        "abilityHId": "Klutz",
+        "ability2": 99,
+        "abilityH": 103,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 623,
-        "ability2Id": "No Guard",
-        "abilityHId": "Klutz",
+        "ability2": 99,
+        "abilityH": 103,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4480,16 +4495,16 @@
     },
     {
         "id": 627,
-        "ability1Id": "Hustle",
-        "abilityHId": "Keen Eye",
+        "ability1": 55,
+        "abilityH": 51,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
     },
     {
         "id": 628,
-        "ability1Id": "Defiant",
-        "abilityHId": "Keen Eye",
+        "ability1": 128,
+        "abilityH": 51,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4508,8 +4523,8 @@
     },
     {
         "id": 631,
-        "ability2Id": "Flash Fire",
-        "abilityHId": "Gluttony",
+        "ability2": 18,
+        "abilityH": 82,
         "levelLearn": [],
         "tutorLearn": [],
         "tmLearn": []
@@ -4610,7 +4625,7 @@
         "tutorLearn": [],
         "tmLearn": []
     },
-{
+    {
         "id": 10021,
         "levelLearn": [],
         "tutorLearn": [],

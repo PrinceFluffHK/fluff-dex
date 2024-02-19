@@ -14,6 +14,15 @@ class DexEntry {
         });
         return new DexEntry(dexEntryObj.id, index, newForms);
     }
+
+    static findFromForm (formId, entryArray) {
+        return entryArray.find(dexEntry => {
+            const foundForm = dexEntry.forms.find(form => {
+                return form.id === formId
+            })
+            return foundForm
+        })
+    }
 }
 
 export default DexEntry;

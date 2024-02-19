@@ -1,48 +1,93 @@
-import { Button, Tooltip } from "@mui/material";
+import { Button, Grid, Tooltip } from "@mui/material";
 import React from "react";
 
 const AbilityDisplay = ({ selectedMon }) => {
-    return (
-        <div className="ability-container">
-            <div className="">
-                <h3>
-                    Ability 1: {selectedMon.ability1.name}
-                    {/* <Tooltip title={selectedMon.ability1.description} placement="right" arrow>
-                        <Button>
-                            {selectedMon.ability1.name}
-                        </Button>
-                    </Tooltip> */}
-                </h3>
-                <p>{selectedMon.ability1.description}</p>
-            </div>
-            <div>
-                <div>
-                    <h3>
-                        Ability 2: {selectedMon.ability2.name}
-                        {/* <Tooltip title={"Ability 2"} placement="right" arrow>
-                            <Button> */}
-                        {/* </Button>
-                        </Tooltip> */}
-                    </h3>
-                    <p>{selectedMon.ability2.description}</p>
+    const abilityList = [
+        {
+            slot: 1,
+            ability: selectedMon.ability1,
+        },
+        {
+            slot: 2,
+            ability: selectedMon.ability2,
+        },
+    ];
+
+    const abilities = abilityList.map((item) => {
+        const { ability } = item;
+
+        const Description = React.forwardRef(function Description(props, ref) {
+            return (
+                <div {...props} ref={ref}>
+                    {ability.name}
                 </div>
-                <p>
-                    {selectedMon.ability2.id === 0
-                        ? ""
-                        : selectedMon.ability2.description}
-                </p>
+            );
+        });
+
+        if (item.ability.id === 0) {
+            return;
+        }
+        return (
+            <Grid className="center" item xs key={ability.id}>
+                <div className="ability-box">
+                    <h3>
+                        <Tooltip title={ability.description} followCursor>
+                            <Description />
+                        </Tooltip>
+                    </h3>
+                </div>
+            </Grid>
+        );
+    });
+
+    const HiddenAbility = (props) => {
+        const ability = selectedMon.abilityH;
+        const Description = React.forwardRef(function Description(props, ref) {
+            return (
+                <div {...props} ref={ref}>
+                    {ability.name}
+                </div>
+            );
+        });
+        if (ability.id > 0) {
+            return (
+                <div className="center">
+                    <div className="ability-box">
+                        <h3>
+                            <Tooltip title={ability.description} followCursor>
+                                <Description />
+                            </Tooltip>
+                        </h3>
+                    </div>
+                </div>
+            );
+        }
+    };
+
+    const HiddenText = (props) => {
+
+        if (selectedMon.abilityH.id > 0) {
+            return (
+                <div className="center">
+                    <h3>Hidden Ability</h3>
+                </div>
+            );
+        }
+    };
+
+    return (
+        <Grid className="center" item xs={12} sm={6}>
+            <div className="ability-container">
+                <div className="center">
+                    <h1>Abilities</h1>
+                </div>
+                <Grid container spacing={0.5}>
+                    {abilities}
+                </Grid>
+                <HiddenText />
+                <HiddenAbility />
             </div>
-            <div>
-                <h3>
-                    {" "}
-                    Hidden Ability: {selectedMon.abilityH.name}
-                    {/* {selectedMon.abilityH.id === 0
-                        ? ""
-                        : selectedMon.abilityH.name} */}
-                </h3>
-                <p>{selectedMon.abilityH.description}</p>
-            </div>
-        </div>
+        </Grid>
     );
 };
 

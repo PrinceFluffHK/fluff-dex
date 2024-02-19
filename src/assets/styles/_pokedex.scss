@@ -44,6 +44,36 @@
 }
 
 .display-type {
-    width: 9rem;
+    width: 45%;
     height: auto;
+}
+
+.form-select-sprite {
+    height: 60%;
+    width: auto;
+}
+
+.dex-nav-sprite {
+    height: 90%;
+    width: auto;
+}
+
+.form-sprite-container {
+    height: 100%;
+    width: 100%;
+}
+
+.selected-form {
+    background-color: aquamarine;
+}
+
+.ability-box {
+    border: 3px black solid;
+    width: 95%;
+    border-radius: 75px;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
 }
