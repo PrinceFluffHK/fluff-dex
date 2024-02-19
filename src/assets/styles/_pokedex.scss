@@ -25,6 +25,7 @@
 
 .dex-padding {
     padding: 0rem 2rem 0rem 2rem;
+    border-bottom: 2px solid black;
 }
 
 .display-portrait {
@@ -76,4 +77,25 @@
     justify-content: center;
     align-items: center;
     margin-bottom: .5rem;
+}
+
+.chart-bar {
+    height: 30px;
+    margin-top: 1rem;
+}
+
+.chart-margins {
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+.label-container-margins {
+    margin-top: 5px;
+    margin-right: 1rem;
+}
+
+.chart-base {
+    height: 290px;
+    width: 2px;
+    background-color: black;
 }

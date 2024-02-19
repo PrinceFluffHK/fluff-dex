@@ -18,8 +18,8 @@ const AbilityDisplay = ({ selectedMon }) => {
 
         const Description = React.forwardRef(function Description(props, ref) {
             return (
-                <div {...props} ref={ref}>
-                    {ability.name}
+                <div {...props} ref={ref} className="ability-box">
+                    <h2>{ability.name}</h2>
                 </div>
             );
         });
@@ -29,13 +29,9 @@ const AbilityDisplay = ({ selectedMon }) => {
         }
         return (
             <Grid className="center" item xs key={ability.id}>
-                <div className="ability-box">
-                    <h3>
-                        <Tooltip title={ability.description} followCursor>
-                            <Description />
-                        </Tooltip>
-                    </h3>
-                </div>
+                <Tooltip title={ability.description} followCursor>
+                    <Description />
+                </Tooltip>
             </Grid>
         );
     });
@@ -44,28 +40,23 @@ const AbilityDisplay = ({ selectedMon }) => {
         const ability = selectedMon.abilityH;
         const Description = React.forwardRef(function Description(props, ref) {
             return (
-                <div {...props} ref={ref}>
-                    {ability.name}
+                <div {...props} ref={ref} className="ability-box">
+                    <h2>{ability.name}</h2>
                 </div>
             );
         });
         if (ability.id > 0) {
             return (
                 <div className="center">
-                    <div className="ability-box">
-                        <h3>
-                            <Tooltip title={ability.description} followCursor>
-                                <Description />
-                            </Tooltip>
-                        </h3>
-                    </div>
+                    <Tooltip title={ability.description} followCursor>
+                        <Description />
+                    </Tooltip>
                 </div>
             );
         }
     };
 
     const HiddenText = (props) => {
-
         if (selectedMon.abilityH.id > 0) {
             return (
                 <div className="center">

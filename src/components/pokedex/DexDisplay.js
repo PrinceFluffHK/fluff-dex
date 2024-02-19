@@ -15,7 +15,7 @@ const DexDisplay = ({ selectedRomhack, dexType, setSelectedMonId }) => {
 
             let bgColor = "white";
             if (index % 2) {
-                bgColor = "#00ebc7";
+                bgColor = "lightcyan";
             }
 
             return (
@@ -26,16 +26,16 @@ const DexDisplay = ({ selectedRomhack, dexType, setSelectedMonId }) => {
                     style={{ backgroundColor: bgColor }}
                 >
                     <Grid container spacing={0}>
-                        <Grid item xs={3} className="flex align-center">
+                        <Grid item xs={3} className="align-center">
                             <h3>#{entry.id}:</h3>
                         </Grid>
-                        <Grid item xs={6} className="flex align-center">
+                        <Grid item xs={6} className="align-center">
                             <h3>{mon.name}</h3>
                         </Grid>
                         <Grid
                             item
                             xs={3}
-                            className="flex align-center justify-right"
+                            className="align-center justify-right"
                         >
                             <img
                                 className="dex-sprite"
