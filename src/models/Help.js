@@ -4,6 +4,16 @@ class Help {
             return id === obj.id;
         });
     }
+    // static findInArray(id, array) {
+    //     const foundObj = array.find((obj) => {
+    //         return id === obj.id;
+    //     });
+    //     if (!foundObj) {
+    //         console.log(`No item with id of [${id}] found in`, array)
+    //     } else {
+    //         return foundObj
+    //     }
+    // }
 
     static constructLearnset(monId, learnsetArray, moveArray) {
         const rawLearnset = learnsetArray.find((learnset) => {

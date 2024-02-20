@@ -1,22 +1,11 @@
 import React from "react";
-import TypeDisplay from "./TypeDisplay";
 import { Grid } from "@mui/material";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import FormSelect from "./FormSelect";
 
-const PortraitDisplay = ({ baseDexEntry, selectedMon }) => {
-    const type1Banner = selectedMon.type1.displayBanner("display-type");
-    const type2Banner =
-        selectedMon.type2.id === 0
-            ? ""
-            : selectedMon.type2.displayBanner("display-type");
-
-    const formName =
-        selectedMon.modifier === "" ? "" : ` (${selectedMon.modifier})`;
-
+const PortraitDisplay = ({ selectedRomhack, selectedMonId, setSelectedMonId, baseDexEntry, selectedMon }) => {
     return (
         <Grid
-            className="center"
+            className="center top-1 width-100"
             item
             xs={12}
             sm={6}
@@ -28,9 +17,15 @@ const PortraitDisplay = ({ baseDexEntry, selectedMon }) => {
                     src={selectedMon.profileUrl}
                     alt={selectedMon.name}
                 />
-                <h1>#{baseDexEntry.id}</h1>
+                {/* <h1>#{baseDexEntry.id}</h1> */}
             </div>
-            <TypeDisplay type1Banner={type1Banner} type2Banner={type2Banner} />
+
+            <FormSelect
+                setSelectedMonId={setSelectedMonId}
+                selectedRomhack={selectedRomhack}
+                selectedMonId={selectedMonId}
+                baseDexEntry={baseDexEntry}
+            />
         </Grid>
     );
 };

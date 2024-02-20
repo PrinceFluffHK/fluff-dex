@@ -4,6 +4,7 @@ import Homepage from "./components/Homepage";
 import TopBar from "./components/TopBar";
 import Pokedex from "./components/pokedex/Pokedex";
 import NavPage from "./components/NavPage";
+import PokemonDisplay from "./components/pokedex/PokemonDisplay";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <div className="content-padding">
                     <Routes>
                         <Route exact path="/:id/pokedex" Component={Pokedex} />
+                        <Route exact path="/:id/pokedex/:selectedEntryId/:selectedFormIndex" Component={PokemonDisplay} />
                         <Route exact path="/" Component={Homepage} />
                         <Route exact path="/:id" Component={NavPage} />
                     </Routes>

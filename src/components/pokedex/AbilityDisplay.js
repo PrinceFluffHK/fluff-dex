@@ -1,7 +1,13 @@
 import { Button, Grid, Tooltip } from "@mui/material";
 import React from "react";
+import TypeDisplay from "./TypeDisplay";
 
 const AbilityDisplay = ({ selectedMon }) => {
+    const type1Banner = selectedMon.type1.displayBanner("display-type");
+    const type2Banner =
+        selectedMon.type2.id === 0
+            ? ""
+            : selectedMon.type2.displayBanner("display-type");
     const abilityList = [
         {
             slot: 1,
@@ -67,16 +73,22 @@ const AbilityDisplay = ({ selectedMon }) => {
     };
 
     return (
-        <Grid className="center" item xs={12} sm={6}>
-            <div className="ability-container">
-                <div className="center">
-                    <h1>Abilities</h1>
+        <Grid className="center top-1" item xs={12} sm={6}>
+            <div style={{ width: "100%", flexDirection: "column", alignItems: "center" }} className="flex">
+                <TypeDisplay
+                    type1Banner={type1Banner}
+                    type2Banner={type2Banner}
+                />
+                <div className="ability-container">
+                    <div className="center">
+                        <h1>Abilities</h1>
+                    </div>
+                    <Grid container spacing={0.5}>
+                        {abilities}
+                    </Grid>
+                    <HiddenText />
+                    <HiddenAbility />
                 </div>
-                <Grid container spacing={0.5}>
-                    {abilities}
-                </Grid>
-                <HiddenText />
-                <HiddenAbility />
             </div>
         </Grid>
     );

@@ -1,16 +1,14 @@
 import { Grid } from "@mui/material";
+import { Link } from "react-router-dom";
 
-const DexDisplay = ({ selectedRomhack, dexType, setSelectedMonId }) => {
+const DexDisplay = ({ selectedRomhack, dexType }) => {
     const dexList =
         dexType === 0
             ? selectedRomhack.regionalDex.dexArray
             : selectedRomhack.nationalDex.dexArray;
-    // console.log("dexlist", dexList);
+            
     const pokedex = dexList.map((entry, index) => {
         if (entry.id > 0) {
-            const handleSelect = () => {
-                setSelectedMonId(entry.id);
-            };
             const mon = entry.forms[0];
 
             let bgColor = "white";
@@ -19,10 +17,10 @@ const DexDisplay = ({ selectedRomhack, dexType, setSelectedMonId }) => {
             }
 
             return (
-                <div
+                <Link
                     className="dex-padding"
+                    to={`${entry.id}/0`}
                     key={index}
-                    onClick={handleSelect}
                     style={{ backgroundColor: bgColor }}
                 >
                     <Grid container spacing={0}>
@@ -44,7 +42,7 @@ const DexDisplay = ({ selectedRomhack, dexType, setSelectedMonId }) => {
                             />
                         </Grid>
                     </Grid>
-                </div>
+                </Link>
             );
         }
     });

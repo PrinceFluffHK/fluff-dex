@@ -1,27 +1,38 @@
-.mon-container-expanded{
+.mon-container-expanded {
     height: 10rem;
 }
 
-.dex-top-bar{
+.mon-top-bar {
     height: 5rem;
-    // background-color: gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background-color: white;
+    border-bottom: 2px solid black;
 }
 
-.increment-container{
+.increment-container {
     height: 100%;
-    width: 33%;
-    display: flex;  
+    // width: 33%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    // flex-direction: column;
+    padding: 0rem 1rem 0rem 1rem;
 }
 
 .dex-sprite {
     height: 64px;
     width: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+.icon-container {
+    position: relative;
+    text-align: center;
 }
 
 .dex-padding {
@@ -29,30 +40,41 @@
     border-bottom: 2px solid black;
 }
 
+.mon-content {
+    padding-top: 5rem;
+}
+
 .display-portrait {
-    width: 80%;
+    width: 25rem;
     height: auto;
 }
 
 .portrait-container {
     position: relative;
     text-align: center;
+    width: 100%;
 }
 
 .portrait-container h1 {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 0;
+    left: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px 3px 3px 3px;
+    margin: 0rem 0rem 0rem 0rem;
 }
 
 .display-scroll {
     overflow: scroll;
 }
 
-.ability-container{
+.ability-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
+    // align-items: center;
     width: 90%;
 }
 
@@ -62,7 +84,7 @@
 }
 
 .form-select-sprite {
-    height: 60%;
+    height: 5rem;
     width: auto;
 }
 
@@ -74,10 +96,25 @@
 .form-sprite-container {
     height: 100%;
     width: 100%;
+    border: 2px solid black;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .selected-form {
-    background-color: aquamarine;
+    background-color: white;
+    border-top: 2px solid white;
+}
+
+.unselected-form {
+    background-color: lightgray;
+}
+
+.form-select-line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    // position: fixed;
+    z-index: -1;
 }
 
 .ability-box {
@@ -88,7 +125,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
 }
 
 .chart-bar {
