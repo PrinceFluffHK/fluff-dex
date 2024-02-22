@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import b2de from "../../data/b2deData";
-import DexDisplay from "./DexDisplay";
 import { Grid } from "@mui/material";
+import TopBar from "../TopBar";
 
 const Pokedex = (props) => {
     const { id } = useParams();
@@ -15,7 +15,7 @@ const Pokedex = (props) => {
         dexType === 0
             ? selectedRomhack.regionalDex.dexArray
             : selectedRomhack.nationalDex.dexArray;
-            
+
     const pokedex = dexList.map((entry, index) => {
         if (entry.id > 0) {
             const mon = entry.forms[0];
@@ -57,7 +57,8 @@ const Pokedex = (props) => {
     });
     return (
         <div>
-            {pokedex}
+            <TopBar />
+            <div className="top-bar-padding">{pokedex}</div>
         </div>
     );
 };

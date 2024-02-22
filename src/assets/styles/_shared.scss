@@ -6,7 +6,7 @@
 .center {
     @extend .flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 .align-center {
     @extend .flex;
@@ -61,4 +61,97 @@
 
 .width-100 {
     width: 100%;
+}
+
+// xs, extra-small: 0px
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1536px;
+
+.invis {
+    display: none;
+    &-xs {
+        @media only screen and (max-width: $sm) {
+            display: none;
+        }
+    }
+    &-sm {
+        @media only screen and (max-width: $md) {
+            display: none;
+        }
+    }
+    &-md {
+        @media only screen and (max-width: $lg) {
+            display: none;
+        }
+    }
+    &-lg {
+        @media only screen and (max-width: $xl) {
+            display: none;
+        }
+    }
+}
+
+.vis {
+    &-xs {
+        display: none;
+        @media only screen and (max-width: $sm) {
+            display: contents;
+        }
+    }
+    &-sm {
+        display: none;
+        @media only screen and (max-width: $md) {
+            display: contents;
+        }
+    }
+    &-md {
+        display: none;
+        @media only screen and (max-width: $lg) {
+            display: contents;
+        }
+    }
+    &-lg {
+        display: none;
+        @media only screen and (max-width: $xl) {
+            display: contents;
+        }
+    }
+}
+
+.background {
+    position: absolute;
+    background-color: #494949;
+    opacity: 1;
+    background: repeating-linear-gradient(
+        -45deg,
+        #49f1ff,
+        #49f1ff 12.5px,
+        #494949 12.5px,
+        #494949 62.5px
+    );
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    z-index: -10;
+    @media only screen and (max-width: 1000px) {
+        background-color: #494949;
+        opacity: 1;
+        background: repeating-linear-gradient(
+            -45deg,
+            #49f1ff,
+            #49f1ff 12.5px,
+            #494949 12.5px,
+            #494949 62.5px
+        );
+    }
+}
+
+.content-background {
+    background-color: white;
+    width: 1536px;
+    @media only screen and (max-width: 1536px) {
+        width: 100vw;
+    }
 }

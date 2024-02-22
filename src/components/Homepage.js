@@ -10,7 +10,7 @@ const Homepage = (props) => {
     const listDisplay = romhackList.map((romhack) => {
         return (
             <Grid item xs={12} md={6} key={romhack.name}>
-                <Link to={`/${romhack.id}`}>
+                <Link to={`/${romhack.id}/pokedex`}>
                     <div className="nav-container-tall">
                         <div>{romhack.name}</div>
                     </div>

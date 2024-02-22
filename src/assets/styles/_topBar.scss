@@ -1,14 +1,38 @@
 $top-bar-height: 80px;
+$font-size: 25px;
 
 .top-bar {
     height: $top-bar-height;
-    width: 100vw;
     background-color: lightgray;
     position: fixed;
     z-index: 10;
     border-bottom: 3px solid black;
+    width: 1536px;
+    @media only screen and (max-width: 1536px) {
+        width: 100%;
+    }
 }
 
-.content-padding {
+.top-bar-padding {
     padding-top: $top-bar-height;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+}
+
+.home-icon {
+    font-size: $font-size;
+    margin-left: 1.5rem;
+}
+
+.menu-topbar {
+    font-size: $font-size;
+    margin-right: 2rem;
+}
+
+.menu-topbar a {
+    text-decoration: none;
+    color: black;
 }

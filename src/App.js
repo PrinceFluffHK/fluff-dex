@@ -1,25 +1,25 @@
 import "./assets/styles/App.scss";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Homepage from "./components/Homepage";
-import TopBar from "./components/TopBar";
 import Pokedex from "./components/pokedex/Pokedex";
-import NavPage from "./components/NavPage";
-import PokemonDisplay from "./components/pokedex/PokemonDisplay";
+import PokemonDisplay from "./components/pokemon/PokemonDisplay";
 
 function App() {
     return (
-        <div>
-            <HashRouter>
-                <TopBar />
-                <div className="content-padding">
+        <div className="background">
+            <div className="content-background">
+                <HashRouter>
                     <Routes>
-                        <Route exact path="/:id/pokedex" Component={Pokedex} />
-                        <Route exact path="/:id/pokedex/:selectedEntryId/:selectedFormIndex" Component={PokemonDisplay} />
                         <Route exact path="/" Component={Homepage} />
-                        <Route exact path="/:id" Component={NavPage} />
+                        <Route exact path="/:id/pokedex" Component={Pokedex} />
+                        <Route
+                            exact
+                            path="/:id/pokedex/:selectedEntryId/:selectedFormIndex"
+                            Component={PokemonDisplay}
+                        />
                     </Routes>
-                </div>
-            </HashRouter>
+                </HashRouter>
+            </div>
         </div>
     );
 }

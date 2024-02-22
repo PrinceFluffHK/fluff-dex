@@ -5,6 +5,7 @@
         "eff": [],
         "inEff": [],
         "noEff": [],
+        "color": "",
         "icon": "",
         "banner": ""
     },
@@ -14,6 +15,7 @@
         "eff": [],
         "inEff": [6],
         "noEff": [3],
+        "color": "#9ea19f",
         "icon": "https://archives.bulbagarden.net/media/upload/8/8c/Normal_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/0/08/NormalIC_SV.png"
     },
@@ -23,6 +25,7 @@
         "eff": [1, 6, 9, 15],
         "inEff": [3, 4, 7, 14],
         "noEff": [8],
+        "color": "#ff8001",
         "icon": "https://archives.bulbagarden.net/media/upload/c/c2/Fighting_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/0/0f/FightingIC_SV.png"
     },
@@ -32,6 +35,7 @@
         "eff": [2, 7, 12],
         "inEff": [6, 9, 13],
         "noEff": [],
+        "color": "#81b8ef",
         "icon": "https://archives.bulbagarden.net/media/upload/c/c5/Flying_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/d/d7/FlyingIC_SV.png"
     },
@@ -41,6 +45,7 @@
         "eff": [12],
         "inEff": [4, 5, 6, 8],
         "noEff": [9],
+        "color": "#913ecd",
         "icon": "https://archives.bulbagarden.net/media/upload/9/98/Poison_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/9/9d/PoisonIC_SV.png"
     },
@@ -50,6 +55,7 @@
         "eff": [4, 6, 9, 10, 13],
         "inEff": [7, 12],
         "noEff": [3],
+        "color": "#924f1c",
         "icon": "https://archives.bulbagarden.net/media/upload/e/ee/Ground_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/f/f8/GroundIC_SV.png"
     },
@@ -59,6 +65,7 @@
         "eff": [3, 7, 10, 15],
         "inEff": [2, 5, 9],
         "noEff": [],
+        "color": "#afa980",
         "icon": "https://archives.bulbagarden.net/media/upload/5/51/Rock_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/3/32/RockIC_SV.png"
     },
@@ -68,6 +75,7 @@
         "eff": [12, 14],
         "inEff": [2, 3, 4, 8, 9, 10],
         "noEff": [],
+        "color": "#92a212",
         "icon": "https://archives.bulbagarden.net/media/upload/5/51/Bug_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/d/d1/BugIC_SV.png"
     },
@@ -77,6 +85,7 @@
         "eff": [8, 14],
         "inEff": [9],
         "noEff": [1],
+        "color": "#713e71",
         "icon": "https://archives.bulbagarden.net/media/upload/2/23/Ghost_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/2/2c/GhostIC_SV.png"
     },
@@ -86,6 +95,7 @@
         "eff": [6, 15],
         "inEff": [9, 10, 11, 13],
         "noEff": [],
+        "color": "#5fa2b9",
         "icon": "https://archives.bulbagarden.net/media/upload/7/78/Steel_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/b/b8/SteelIC_SV.png"
     },
@@ -95,6 +105,7 @@
         "eff": [9, 12, 15],
         "inEff": [6, 10, 11, 16],
         "noEff": [],
+        "color": "#e72224",
         "icon": "https://archives.bulbagarden.net/media/upload/f/f9/Fire_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/a/a2/FireIC_SV.png"
     },
@@ -104,6 +115,7 @@
         "eff": [5, 6, 10],
         "inEff": [11, 12, 16],
         "noEff": [],
+        "color": "#2880ee",
         "icon": "https://archives.bulbagarden.net/media/upload/e/e7/Water_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/d/de/WaterIC_SV.png"
     },
@@ -113,6 +125,7 @@
         "eff": [5, 6, 11],
         "inEff": [3, 4, 7, 9, 10, 12, 16],
         "noEff": [],
+        "color": "#41a128",
         "icon": "https://archives.bulbagarden.net/media/upload/8/81/Grass_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/7/7b/GrassIC_SV.png"
     },
@@ -122,6 +135,7 @@
         "eff": [3, 11],
         "inEff": [12, 16],
         "noEff": [5],
+        "color": "#fabf00",
         "icon": "https://archives.bulbagarden.net/media/upload/c/cf/Electric_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/7/77/ElectricIC_SV.png"
     },
@@ -131,6 +145,7 @@
         "eff": [2, 4],
         "inEff": [9, 14],
         "noEff": [],
+        "color": "#ef4178",
         "icon": "https://archives.bulbagarden.net/media/upload/2/2d/Psychic_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/9/96/PsychicIC_SV.png"
     },
@@ -140,6 +155,7 @@
         "eff": [3, 5, 12, 16],
         "inEff": [10, 15, 9],
         "noEff": [],
+        "color": "#3dd9ff",
         "icon": "https://archives.bulbagarden.net/media/upload/8/86/Ice_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/1/13/IceIC_SV.png"
     },
@@ -149,6 +165,7 @@
         "eff": [16],
         "inEff": [9],
         "noEff": [],
+        "color": "#4f61e1",
         "icon": "https://archives.bulbagarden.net/media/upload/c/c6/Dragon_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/7/7f/DragonIC_SV.png"
     },
@@ -158,6 +175,7 @@
         "eff": [8, 14],
         "inEff": [2, 9],
         "noEff": [],
+        "color": "#50413e",
         "icon": "https://archives.bulbagarden.net/media/upload/7/71/Dark_icon_HOME3.png",
         "banner": "https://archives.bulbagarden.net/media/upload/3/30/DarkIC_SV.png"
     }
