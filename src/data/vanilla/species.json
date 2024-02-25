@@ -654,7 +654,7 @@
     },
     {
         "id": 29,
-        "name": "NidoranF",
+        "name": "Nidoran♀",
         "gen": 1,
         "type1": 4,
         "type2": 0,
@@ -723,7 +723,7 @@
     },
     {
         "id": 32,
-        "name": "NidoranM",
+        "name": "Nidoran♂",
         "gen": 1,
         "type1": 4,
         "type2": 0,
@@ -861,7 +861,7 @@
     },
     {
         "id": 38,
-        "name": "Ninetails",
+        "name": "Ninetales",
         "gen": 1,
         "type1": 10,
         "type2": 0,
@@ -3446,7 +3446,7 @@
     },
     {
         "id": 152,
-        "name": "Chicorita",
+        "name": "Chikorita",
         "gen": 3,
         "type1": 12,
         "type2": 0,
@@ -8069,7 +8069,7 @@
     {
         "id": 10001,
         "name": "Deoxys",
-        "gen": 1,
+        "gen": 3,
         "type1": 14,
         "type2": 0,
         "ability1": 46,
@@ -8088,7 +8088,7 @@
     {
         "id": 10002,
         "name": "Deoxys",
-        "gen": 1,
+        "gen": 3,
         "type1": 14,
         "type2": 0,
         "ability1": 46,
@@ -8107,7 +8107,7 @@
     {
         "id": 10003,
         "name": "Deoxys",
-        "gen": 1,
+        "gen": 3,
         "type1": 14,
         "type2": 0,
         "ability1": 46,
@@ -8144,7 +8144,7 @@
     },
     {
         "id": 388,
-        "name": "Grottle",
+        "name": "Grotle",
         "gen": 4,
         "type1": 12,
         "type2": 0,
@@ -8524,7 +8524,7 @@
     },
     {
         "id": 408,
-        "name": "Craniados",
+        "name": "Cranidos",
         "gen": 4,
         "type1": 6,
         "type2": 0,
@@ -8543,7 +8543,7 @@
     },
     {
         "id": 409,
-        "name": "Ramparados",
+        "name": "Rampardos",
         "gen": 4,
         "type1": 6,
         "type2": 0,

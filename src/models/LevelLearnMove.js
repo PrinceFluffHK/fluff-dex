@@ -7,7 +7,6 @@ class LevelLearnMove {
     }
 
     static makeArray(learnsetArray, movesArray) {
-        // console.log(learnsetArray)
         return learnsetArray.map(learnMove => {
             const move = Help.findInArray(learnMove.moveId, movesArray)
             return new LevelLearnMove(learnMove.level, move)

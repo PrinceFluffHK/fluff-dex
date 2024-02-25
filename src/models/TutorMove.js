@@ -20,6 +20,12 @@ class TutorMove {
             TutorMove.makeSingle(tutorMoveObj, movesArray, tutorsArray)
         })
     }
+
+    static getTutorMoves(moveIdArray, tutorMoves) {
+        return moveIdArray.map(moveId => {
+            return Help.findInArray(moveId, tutorMoves)
+        })
+    }
 }
 
 export default TutorMove

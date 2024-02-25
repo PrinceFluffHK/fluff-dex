@@ -15,15 +15,6 @@ class Help {
     //     }
     // }
 
-    static constructLearnset(monId, learnsetArray, moveArray) {
-        const rawLearnset = learnsetArray.find((learnset) => {
-            return learnset.monId === monId;
-        });
-        return rawLearnset.map((moveId) => {
-            return Help.findInArray(moveId, moveArray);
-        });
-    }
-
     static filterByGen(objArray, genNum) {
         return objArray.filter((obj) => {
             return obj.gen < genNum + 1;

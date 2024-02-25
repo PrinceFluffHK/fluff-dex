@@ -10,6 +10,7 @@ import StatDisplay from "./StatDisplay";
 import { romhackList } from "../Homepage";
 import { useParams } from "react-router-dom";
 import TopBar from "../TopBar";
+import LevelLearnDisplay from "./LevelLearnDisplay";
 
 const PokemonDisplay = ({ dexType }) => {
     const { id, selectedEntryId, selectedFormIndex } = useParams();
@@ -52,6 +53,14 @@ const PokemonDisplay = ({ dexType }) => {
                     />
                     <AbilityDisplay selectedMon={selectedMon} />
                     <StatDisplay selectedMon={selectedMon} />
+                    <Grid item xs={12}>
+                        <Grid container>
+                            <LevelLearnDisplay
+                                selectedMon={selectedMon}
+                                movesData={selectedRomhack.moves}
+                            />
+                        </Grid>
+                    </Grid>
                 </Grid>
             </div>
         </div>

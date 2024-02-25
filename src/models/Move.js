@@ -26,14 +26,15 @@ class Move {
             newMove.pp,
             newMove.target,
             newMove.gen,
-            newMove.effects
+            newMove.description
         );
     }
 
     static makeSingle(moveObj, types, targets, categories) {
-            const type = Help.findInArray(moveObj.id, types);
-            const target = Help.findInArray(moveObj.id, targets);
-            const category = Help.findInArray(moveObj.id, categories);
+
+            const type = Help.findInArray(moveObj.typeId, types);
+            const target = Help.findInArray(moveObj.targetId, targets);
+            const category = Help.findInArray(moveObj.categoryId, categories);
 
             return new Move(
                 moveObj.id,
@@ -45,7 +46,7 @@ class Move {
                 moveObj.pp,
                 target,
                 moveObj.gen,
-                moveObj.effects
+                moveObj.description
             );
     }
 
