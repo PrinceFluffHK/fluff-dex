@@ -1,19 +1,24 @@
 class Help {
-    static findInArray(id, array) {
-        return array.find((obj) => {
-            return id === obj.id;
-        });
-    }
-    // static findInArray(id, array) {
-    //     const foundObj = array.find((obj) => {
+    // static findInArray(id, array, debugTrigger) {
+    //     if (debugTrigger) {
+    //         console.log(id, array)
+    //     }
+    //     return array.find((obj) => {
     //         return id === obj.id;
     //     });
-    //     if (!foundObj) {
-    //         console.log(`No item with id of [${id}] found in`, array)
-    //     } else {
-    //         return foundObj
-    //     }
     // }
+    static findInArray(id, array, debugTrigger) {
+        const foundObj = array.find((obj) => {
+            return id === obj.id;
+        });
+        if (!foundObj) {
+            if (debugTrigger) {
+                console.log(`No item with id of [${id}] found in`, array);
+            }
+        } else {
+            return foundObj;
+        }
+    }
 
     static filterByGen(objArray, genNum) {
         return objArray.filter((obj) => {
@@ -34,25 +39,25 @@ class Help {
     }
 
     static getDexSize(gen) {
-        switch(gen) {
+        switch (gen) {
             case 1:
-                return 151
+                return 151;
             case 2:
-                return 251
+                return 251;
             case 3:
-                return 386
+                return 386;
             case 4:
-                return 494
+                return 494;
             case 5:
-                return 649
+                return 649;
             case 6:
-                return 721
+                return 721;
             case 7:
-                return 809
+                return 809;
             case 8:
-                return 905
+                return 905;
             case 9:
-                return 1025
+                return 1025;
         }
     }
 }

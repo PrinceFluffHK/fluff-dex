@@ -61,6 +61,7 @@ class Romhack {
 
 
     static make(
+        id,
         gen,
         title,
         typeData,
@@ -106,7 +107,7 @@ class Romhack {
         );
 
         return new Romhack(
-            gen,
+            id,
             title,
             "",
             species,

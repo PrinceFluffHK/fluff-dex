@@ -1,5 +1,17 @@
 [
     {
+        "id": 0,
+        "name": "No Move",
+        "typeId": 0,
+        "categoryId": 1,
+        "bp": 0,
+        "acc": 0,
+        "pp": 0,
+        "targetId": 1,
+        "gen": 1,
+        "description": ""
+    },
+    {
         "id": 1,
         "name": "Pound",
         "typeId": 1,

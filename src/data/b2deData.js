@@ -10,6 +10,7 @@ import pokedexEdits from "./B2DE/pokedexEdits.json";
 import itemEdits from "./B2DE/itemEdits.json";
 
 const b2de = Romhack.make(
+    1,
     5,
     "Black 2: DE",
     oldGenTypesData,

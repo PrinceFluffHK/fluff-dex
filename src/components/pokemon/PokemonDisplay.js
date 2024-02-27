@@ -9,13 +9,16 @@ import PortraitDisplay from "./PortraitDisplay";
 import StatDisplay from "./StatDisplay";
 import { romhackList } from "../Homepage";
 import { useParams } from "react-router-dom";
-import TopBar from "../TopBar";
+import TopBar from "../navigation/TopBar";
 import LevelLearnDisplay from "./LevelLearnDisplay";
 
 const PokemonDisplay = ({ dexType }) => {
-    const { id, selectedEntryId, selectedFormIndex } = useParams();
+    let { id, selectedEntryId, selectedFormIndex } = useParams();
+    id = parseInt(id)
+    selectedEntryId = parseInt(selectedEntryId)
+    selectedFormIndex = parseInt(selectedFormIndex)
 
-    const selectedRomhack = romhackList[id - 1];
+    const selectedRomhack = Help.findInArray(id, romhackList)
 
     const [selectedMonId, setSelectedMonId] = useState(() => {
         const selectedEntry =

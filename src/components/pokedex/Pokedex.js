@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import b2de from "../../data/b2deData";
 import { Grid, Tooltip } from "@mui/material";
-import TopBar from "../TopBar";
+import TopBar from "../navigation/TopBar";
+import PokedexTopBar from "./PokedexTopBar";
 
 const Pokedex = (props) => {
     const { id } = useParams();
@@ -20,11 +21,12 @@ const Pokedex = (props) => {
     const pokedex = dexList.map((entry, index) => {
         if (entry.id > 0) {
             const mon = entry.forms[0];
+            // console.log(mon);
 
             let bgColor = "lightcyan";
-            let abilityBgColor = "#d3ebea"
+            let abilityBgColor = "#d3ebea";
             if (index % 2) {
-                abilityBgColor = "#ededed"
+                abilityBgColor = "#ededed";
                 bgColor = "white";
             }
 
@@ -42,44 +44,43 @@ const Pokedex = (props) => {
                 mon.ability2,
                 mon.abilityH,
             ].map((ability, index) => {
-                let prefix = "1" 
-                if (index === 1) {
-                    prefix = "2"
-                }
-                if (index === 2) {
-                    prefix = "H"
-                }
-                // const color = ability.id === 0 ? "lightgray" : abilityBgColor;
-                const color = abilityBgColor;
-                // const color = bgColor;
-                const Name = React.forwardRef(function Name(props, ref) {
+                if (ability.id > 0) {
+                    const color = abilityBgColor;
+                    const Name = React.forwardRef(function Name(props, ref) {
+                        return (
+                            <div
+                                {...props}
+                                ref={ref}
+                                className="dex-ability-box"
+                                style={{ backgroundColor: color }}
+                            >
+                                <h5>
+                                    {ability.name}
+                                </h5>
+                            </div>
+                        );
+                    });
                     return (
                         <div
-                            {...props}
-                            ref={ref}
-                            className="dex-ability-box"
-                            style={{ backgroundColor: color }}
+                            className="align-center dex-ability-container"
+                            key={index}
                         >
-                            <h5>{prefix}: {ability.name}</h5>
+                            <Tooltip title={ability.description} followCursor>
+                                <Name />
+                            </Tooltip>
                         </div>
                     );
-                });
-                return (
-                    <div
-                        className="align-center dex-ability-container"
-                        key={index}
-                    >
-                        <Tooltip title={ability.description} followCursor>
-                            <Name />
-                        </Tooltip>
-                    </div>
-                );
+                }
             });
 
+            let dexNum = index;
+            if (dexType === 1) {
+                dexNum = entry.id;
+            }
             return (
                 <div
                     style={{ backgroundColor: bgColor }}
-                    className="dex-padding"
+                    className="list-padding"
                     key={index}
                 >
                     <Link to={`${entry.id}/0`}>
@@ -91,7 +92,7 @@ const Pokedex = (props) => {
                                 md={1}
                                 className="align-center"
                             >
-                                <h3>#{entry.id}:</h3>
+                                <h3>#{dexNum}:</h3>
                             </Grid>
                             <Grid id="name" item xs sm={2}>
                                 <h3>{mon.name}</h3>
@@ -136,7 +137,8 @@ const Pokedex = (props) => {
     return (
         <div className="">
             <TopBar />
-            <div className="top-bar-padding dex-container">{pokedex}</div>
+            <PokedexTopBar dexType={dexType} setDexType={setDexType} />
+            <div className=" dex-container">{pokedex}</div>
         </div>
     );
 };

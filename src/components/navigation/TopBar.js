@@ -6,6 +6,7 @@ import { faHouse, faBars } from "@fortawesome/free-solid-svg-icons";
 const TopBar = (props) => {
     const { id } = useParams();
     const { pathname } = useLocation();
+    console.log("id:", id)
 
     const location = pathname.split("/")[2];
 
@@ -14,14 +15,19 @@ const TopBar = (props) => {
             name: "Pokedex",
             link: `/${id}/pokedex`,
         },
+        {
+            name: "Moves",
+            link: `/${id}/moves`
+        }
     ];
 
     const links = linkObjs.map((link) => {
         const linkLocation = link.link.split("/")[2];
-        const isSelected = location === linkLocation ? true : false;
+        const isSelected = location === linkLocation ? "top-bar-selected" : "";
+        const className = `top-bar-link ${isSelected}`
 
         return (
-            <Link to={link.link} key={link.name}>
+            <Link className={className} to={link.link} key={link.name}>
                 <b>{link.name}</b>
             </Link>
         );

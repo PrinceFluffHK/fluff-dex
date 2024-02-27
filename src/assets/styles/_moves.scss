@@ -1,0 +1,15 @@
+.move-stat-divider{
+    width: 100%;
+    background-color: lightgray;
+    height: 3px;
+}
+
+.move-top-bar {
+    background-color: white;
+    position: fixed;
+    height: 3rem;
+    width: 1536px;
+    @media only screen and (max-width: 1536px) {
+        width: 100vw;
+    }
+}

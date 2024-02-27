@@ -62,6 +62,12 @@
 .width-100 {
     width: 100%;
 }
+.width-80 {
+    width: 80%;
+}
+.width-60 {
+    width: 60%;
+}
 
 // xs, extra-small: 0px
 $sm: 600px;
@@ -122,36 +128,37 @@ $xl: 1536px;
 
 .background {
     position: absolute;
-    background-color: #494949;
+    background-color: #696969;
     opacity: 1;
-    background: repeating-linear-gradient(
-        -45deg,
-        #49f1ff,
-        #49f1ff 12.5px,
-        #494949 12.5px,
-        #494949 62.5px
-    );
     display: flex;
     justify-content: center;
     width: 100vw;
     z-index: -10;
     @media only screen and (max-width: 1000px) {
         background-color: #494949;
-        opacity: 1;
-        background: repeating-linear-gradient(
-            -45deg,
-            #49f1ff,
-            #49f1ff 12.5px,
-            #494949 12.5px,
-            #494949 62.5px
-        );
     }
 }
 
 .content-background {
     background-color: white;
-    width: 1536px;
-    @media only screen and (max-width: 1536px) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: $xl;
+    @media only screen and (max-width: $xl) {
+        border: none;
         width: 100vw;
+    }
+}
+
+.suppress-link {
+    text-decoration: none;
+    color: black;
+}
+
+.list-padding {
+    border-bottom: 2px solid black;
+    padding: 0rem 10% 0rem 10%;
+    @media only screen and (max-width: $sm) {
+        padding: 0rem 5% 0rem 5%;
     }
 }

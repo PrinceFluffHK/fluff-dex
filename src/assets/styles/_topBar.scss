@@ -5,9 +5,10 @@ $font-size: 25px;
     height: $top-bar-height;
     background-color: lightgray;
     position: fixed;
+    left: 0;
     z-index: 10;
     border-bottom: 3px solid black;
-    width: 1536px;
+    width: 100vw;
     @media only screen and (max-width: 1536px) {
         width: 100%;
     }
@@ -35,4 +36,15 @@ $font-size: 25px;
 .menu-topbar a {
     text-decoration: none;
     color: black;
+}
+
+.top-bar-link {
+    margin-right: 1rem;
+}
+.top-bar-link b {
+    color: black;
+}
+
+.top-bar-selected b {
+    color: darkgray;
 }
