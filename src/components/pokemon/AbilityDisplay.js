@@ -71,7 +71,7 @@ const AbilityDisplay = ({ selectedMon }) => {
         }
     };
 
-    const HiddenText = (props) => {
+    const HiddenText = () => {
         if (selectedMon.abilityH.id > 0) {
             return (
                 <div className="align-center">

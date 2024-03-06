@@ -1,0 +1,584 @@
+[
+    {
+        "id": 0,
+        "name": "No Class",
+        "modifier": "",
+        "sprite": ""
+    },
+    {
+        "id": 1,
+        "name": "Youngster",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/c/cd/Spr_B2W2_Youngster.png"
+    },
+    {
+        "id": 2,
+        "name": "Lass",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_B2W2_Lass.png"
+    },
+    {
+        "id": 3,
+        "name": "Ace Trainer",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3a/Spr_B2W2_Ace_Trainer_M.png"
+    },
+    {
+        "id": 4,
+        "name": "Ace Trainer",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/08/Spr_B2W2_Ace_Trainer_F.png"
+    },
+    {
+        "id": 5,
+        "name": "Artist",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/8b/Spr_B2W2_Artist.png"
+    },
+    {
+        "id": 6,
+        "name": "Backers",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/c/c8/Spr_B2W2_Backers_M.png"
+    },
+    {
+        "id": 7,
+        "name": "Backers",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/1d/Spr_B2W2_Backers_F.png"
+    },
+    {
+        "id": 8,
+        "name": "Backpacker",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/30/Spr_B2W2_Backpacker_M.png"
+    },
+    {
+        "id": 9,
+        "name": "Backpacker",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/7c/Spr_B2W2_Backpacker_F.png"
+    },
+    {
+        "id": 10,
+        "name": "Baker",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/26/Spr_B2W2_Baker.png"
+    },
+    {
+        "id": 11,
+        "name": "Battle Girl",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5a/Spr_B2W2_Battle_Girl.png"
+    },
+    {
+        "id": 12,
+        "name": "Biker",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e3/Spr_B2W2_Biker.png"
+    },
+    {
+        "id": 13,
+        "name": "Black Belt",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/1c/Spr_B2W2_Black_Belt.png"
+    },
+    {
+        "id": 14,
+        "name": "Clerk",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/c/ca/Spr_B2W2_Clerk_M.png"
+    },
+    {
+        "id": 15,
+        "name": "Clerk",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/09/Spr_B2W2_Clerk_F.png"
+    },
+    {
+        "id": 16,
+        "name": "Clerk",
+        "modifier": "Elder",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/0d/Spr_B2W2_Clerk_M_B.png"
+    },
+    {
+        "id": 17,
+        "name": "Cyclist",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b1/Spr_B2W2_Cyclist_M.png"
+    },
+    {
+        "id": 18,
+        "name": "Cyclist",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/95/Spr_B2W2_Cyclist_F.png"
+    },
+    {
+        "id": 19,
+        "name": "Dancer",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b1/Spr_B2W2_Dancer.png"
+    },
+    {
+        "id": 20,
+        "name": "Depot Agent",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b7/Spr_B2W2_Depot_Agent.png"
+    },
+    {
+        "id": 21,
+        "name": "Doctor",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/73/Spr_B2W2_Doctor.png"
+    },
+    {
+        "id": 22,
+        "name": "Fisherman",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/c/c2/Spr_B2W2_Fisherman.png"
+    },
+    {
+        "id": 23,
+        "name": "Gentleman",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/25/Spr_B2W2_Gentleman.png"
+    },
+    {
+        "id": 24,
+        "name": "Harlequin",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/c/c4/Spr_B2W2_Harlequin.png"
+    },
+    {
+        "id": 25,
+        "name": "Hiker",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/84/Spr_B2W2_Hiker.png"
+    },
+    {
+        "id": 26,
+        "name": "Hooligans",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/a/ad/Spr_B2W2_Hooligans.png"
+    },
+    {
+        "id": 27,
+        "name": "Hoopster",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/a/a6/Spr_B2W2_Hoopster.png"
+    },
+    {
+        "id": 28,
+        "name": "Infielder",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/6/66/Spr_B2W2_Infielder.png"
+    },
+    {
+        "id": 29,
+        "name": "Janitor",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/0f/Spr_B2W2_Janitor.png"
+    },
+    {
+        "id": 30,
+        "name": "Lady",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e0/Spr_B2W2_Lady.png"
+    },
+    {
+        "id": 31,
+        "name": "Linebacker",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/13/Spr_B2W2_Linebacker.png"
+    },
+    {
+        "id": 32,
+        "name": "Maid",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/ec/Spr_B2W2_Maid.png"
+    },
+    {
+        "id": 33,
+        "name": "Motorcyclist",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e3/Spr_B2W2_Biker.png"
+    },
+    {
+        "id": 34,
+        "name": "Musician",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/d/da/Spr_B2W2_Musician.png"
+    },
+    {
+        "id": 35,
+        "name": "Nurse",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/54/Spr_B2W2_Nurse.png"
+    },
+    {
+        "id": 36,
+        "name": "Nursery Aide",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/01/Spr_B2W2_Nursery_Aide.png"
+    },
+    {
+        "id": 37,
+        "name": "Parasol Lady",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/fa/Spr_B2W2_Parasol_Lady.png"
+    },
+    {
+        "id": 38,
+        "name": "Pilot",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/ed/Spr_B2W2_Pilot.png"
+    },
+    {
+        "id": 39,
+        "name": "Pokefan",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/83/Spr_B2W2_Pok%C3%A9fan_M.png"
+    },
+    {
+        "id": 40,
+        "name": "Pokefan",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5d/Spr_B2W2_Pok%C3%A9fan_F.png"
+    },
+    {
+        "id": 41,
+        "name": "PKMN Breeder",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/8d/Spr_B2W2_Pok%C3%A9mon_Breeder_M.png"
+    },
+    {
+        "id": 42,
+        "name": "PKMN Breeder",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e9/Spr_B2W2_Pok%C3%A9mon_Breeder_F.png"
+    },
+    {
+        "id": 43,
+        "name": "PKMN Ranger",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/ba/Spr_B2W2_Pok%C3%A9mon_Ranger_M.png"
+    },
+    {
+        "id": 44,
+        "name": "PKMN Ranger",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5f/Spr_B2W2_Pok%C3%A9mon_Ranger_F.png"
+    },
+    {
+        "id": 45,
+        "name": "Policeman",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/a/a5/Spr_B2W2_Policeman.png"
+    },
+    {
+        "id": 46,
+        "name": "Preschooler",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/72/Spr_B2W2_Preschooler_M.png"
+    },
+    {
+        "id": 47,
+        "name": "Preschooler",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/8b/Spr_B2W2_Preschooler_F.png"
+    },
+    {
+        "id": 48,
+        "name": "Psychic",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/35/Spr_B2W2_Psychic_M.png"
+    },
+    {
+        "id": 49,
+        "name": "Psychic",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/7c/Spr_B2W2_Psychic_F.png"
+    },
+    {
+        "id": 50,
+        "name": "Rich Boy",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/48/Spr_B2W2_Rich_Boy.png"
+    },
+    {
+        "id": 51,
+        "name": "Roughneck",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/d/dc/Spr_B2W2_Roughneck.png"
+    },
+    {
+        "id": 52,
+        "name": "School Kid",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5b/Spr_B2W2_School_Kid_M.png"
+    },
+    {
+        "id": 53,
+        "name": "School Kid",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/9b/Spr_B2W2_School_Kid_F.png"
+    },
+    {
+        "id": 54,
+        "name": "Scientist",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/fb/Spr_B2W2_Scientist_M.png"
+    },
+    {
+        "id": 55,
+        "name": "Scientist",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/78/Spr_B2W2_Scientist_F.png"
+    },
+    {
+        "id": 56,
+        "name": "Smasher",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3b/Spr_B2W2_Smasher.png"
+    },
+    {
+        "id": 57,
+        "name": "Socialite",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5c/Spr_B2W2_Socialite.png"
+    },
+    {
+        "id": 58,
+        "name": "Striker",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/ee/Spr_B2W2_Striker.png"
+    },
+    {
+        "id": 59,
+        "name": "Swimmer",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e2/Spr_B2W2_Swimmer_M.png"
+    },
+    {
+        "id": 60,
+        "name": "Swimmer",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e2/Spr_B2W2_Swimmer_F.png"
+    },
+    {
+        "id": 61,
+        "name": "Twins",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/97/Spr_B2W2_Twins.png"
+    },
+    {
+        "id": 62,
+        "name": "Veteran",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/4f/Spr_B2W2_Veteran_M.png"
+    },
+    {
+        "id": 63,
+        "name": "Veteran",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/4f/Spr_B2W2_Veteran_F.png"
+    },
+    {
+        "id": 64,
+        "name": "Waiter",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/30/Spr_B2W2_Waiter.png"
+    },
+    {
+        "id": 65,
+        "name": "Waitress",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/0/00/Spr_B2W2_Waitress.png"
+    },
+    {
+        "id": 66,
+        "name": "Worker",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f9/Spr_B2W2_Worker.png"
+    },
+    {
+        "id": 67,
+        "name": "Beauty",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/93/Spr_B2W2_Beauty.png"
+    },
+    {
+        "id": 68,
+        "name": "Guitarist",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/74/Spr_B2W2_Guitarist.png"
+    },
+    {
+        "id": 69,
+        "name": "Plasma",
+        "modifier": "Male",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_B2W2_Plasma_Grunt_M.png"
+    },
+    {
+        "id": 70,
+        "name": "Plasma",
+        "modifier": "Female",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_B2W2_Plasma_Grunt_F.png"
+    },
+    {
+        "id": 71,
+        "name": "Team Plasma",
+        "modifier": "Shadow",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/96/Spr_B2W2_Shadow_Triad.png"
+    },
+    {
+        "id": 72,
+        "name": "Team Plasma",
+        "modifier": "Zinzolin",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/3c/Spr_B2W2_Zinzolin.png"
+    },
+    {
+        "id": 73,
+        "name": "Team Plasma",
+        "modifier": "Colress",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e6/Spr_B2W2_Colress.png"
+    },
+    {
+        "id": 74,
+        "name": "Team Plasma",
+        "modifier": "Ghetsis",
+        "sprite": "https://archives.bulbagarden.net/media/upload/a/a2/Spr_B2W2_Ghetsis.png"
+    },
+    {
+        "id": 75,
+        "name": "Subway Boss",
+        "modifier": "Ingo",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/87/Spr_B2W2_Ingo.png"
+    },
+    {
+        "id": 76,
+        "name": "Subway Boss",
+        "modifier": "Emmet",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/73/Spr_B2W2_Emmet.png"
+    },
+    {
+        "id": 77,
+        "name": "Leader",
+        "modifier": "Cheren",
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/1d/Spr_B2W2_Cheren.png"
+    },
+    {
+        "id": 78,
+        "name": "Leader",
+        "modifier": "Roxie",
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/22/Spr_B2W2_Roxie.png"
+    },
+    {
+        "id": 79,
+        "name": "Leader",
+        "modifier": "Burgh",
+        "sprite": "https://archives.bulbagarden.net/media/upload/3/35/Spr_B2W2_Burgh.png"
+    },
+    {
+        "id": 80,
+        "name": "Leader",
+        "modifier": "Elesa",
+        "sprite": "https://archives.bulbagarden.net/media/upload/9/97/Spr_B2W2_Elesa.png"
+    },
+    {
+        "id": 81,
+        "name": "Leader",
+        "modifier": "Clay",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/bb/Spr_B2W2_Clay.png"
+    },
+    {
+        "id": 82,
+        "name": "Leader",
+        "modifier": "Skyla",
+        "sprite": "https://archives.bulbagarden.net/media/upload/5/5a/Spr_B2W2_Skyla.png"
+    },
+    {
+        "id": 83,
+        "name": "Leader",
+        "modifier": "Drayden",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_B2W2_Drayden.png"
+    },
+    {
+        "id": 84,
+        "name": "Leader",
+        "modifier": "Marlon",
+        "sprite": "https://archives.bulbagarden.net/media/up    load/5/57/Spr_B2W2_Marlon.png"
+    },
+    {
+        "id": 85,
+        "name": "PKMN Trainer",
+        "modifier": "Hugh",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/70/Spr_B2W2_Hugh.png"
+    },
+    {
+        "id": 86,
+        "name": "PKMN Trainer",
+        "modifier": "Alder",
+        "sprite": "https://archives.bulbagarden.net/media/upload/e/e8/Spr_B2W2_Alder.png"
+    },
+    {
+        "id": 87,
+        "name": "PKMN Trainer",
+        "modifier": "N",
+        "sprite": "https://archives.bulbagarden.net/media/upload/2/2c/Spr_B2W2_N.png"
+    },
+    {
+        "id": 88,
+        "name": "Boss Trainer",
+        "modifier": "Benga",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f7/Spr_B2W2_Benga.png"
+    },
+    {
+        "id": 89,
+        "name": "",
+        "modifier": "",
+        "sprite": ""
+    },
+    {
+        "id": 90,
+        "name": "Elite Four",
+        "modifier": "Shauntal",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_B2W2_Shauntal.png"
+    },
+    {
+        "id": 91,
+        "name": "Elite Four",
+        "modifier": "Marshal",
+        "sprite": "https://archives.bulbagarden.net/media/upload/d/de/Spr_B2W2_Marshal.png"
+    },
+    {
+        "id": 92,
+        "name": "Elite Four",
+        "modifier": "Grimsley",
+        "sprite": "https://archives.bulbagarden.net/media/upload/7/72/Spr_B2W2_Grimsley.png"
+    },
+    {
+        "id": 93,
+        "name": "Elite Four",
+        "modifier": "Caitlin",
+        "sprite": "https://archives.bulbagarden.net/media/upload/1/18/Spr_B2W2_Caitlin.png"
+    },
+    {   
+        "id": 94,
+        "name": "Champion",
+        "modifier": "",
+        "sprite": "https://archives.bulbagarden.net/media/upload/6/6c/Spr_B2W2_Iris.png"
+    },
+    {
+        "id": 95,
+        "name": "GAMEFREAK",
+        "modifier": "Morimoto",
+        "sprite": "https://archives.bulbagarden.net/media/upload/4/4f/Spr_B2W2_Veteran_M.png"
+    },
+    {
+        "id": 96,
+        "name": "GAMEFREAK",
+        "modifier": "Nishino",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/84/Spr_B2W2_Hiker.png"
+    }
+]

@@ -82,7 +82,7 @@ const PokemonDisplayTopBar = ({
     return (
         <div className="mon-top-bar">
             <IncrementDownButton />
-            <h1>{thisMon.forms[0].name}</h1>
+            <h2>{thisMon.forms[0].name}</h2>
             <IncrementUpButton />
         </div>
     );

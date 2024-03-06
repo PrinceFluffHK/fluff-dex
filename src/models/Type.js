@@ -42,10 +42,17 @@ class Type {
     }
 
     displayBanner(bannerStyleObj, textStyleObj) {
+        let color = "white"
+        let opacity = "100%"
+        if (this.id === 0) {
+            opacity = "0%"
+            color = "black"
+        }
         return (
             <div
                 style={{
                     backgroundColor: this.color,
+                    opacity: opacity,
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
@@ -55,12 +62,13 @@ class Type {
                     border: "3px solid black",
                     ...bannerStyleObj,
                 }}
-            >
+                >
                 <div
                     style={{
+                        opacity: opacity,
                         ...textStyleObj,
                         fontSize: "90%",
-                        color: "white",
+                        color: color,
                         fontWeight: "bold",
                     }}
                 >

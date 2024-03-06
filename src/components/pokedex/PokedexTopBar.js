@@ -61,8 +61,9 @@ const PokedexTopBar = ({ dexType, setDexType }) => {
                         className="align-center justify-around"
                     >
                         <Grid container>
-                            <Grid item xs lg={4} className="center invis-xs">
-                                <h2>Type(s)</h2>
+                            <Grid item xs lg={4} className="align-center justify-around invis-xs">
+                                <h2>Type 1</h2>
+                                <h2>Type 2</h2>
                             </Grid>
                             <Grid item xs={1} className="invis-md"/>
                             <Grid item xs={6} className="align-center justify-between invis-md">

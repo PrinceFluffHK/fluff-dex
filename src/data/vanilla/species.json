@@ -518,7 +518,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 21
     },
     {
         "id": 23,
@@ -1404,7 +1404,7 @@
             {
                 "nextMonId": 186,
                 "condition": "King's Rock",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 60
@@ -1817,7 +1817,7 @@
             {
                 "nextMonId": 199,
                 "condition": "King's Rock",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 0
@@ -2175,7 +2175,7 @@
             {
                 "nextMonId": 208,
                 "condition": "Metal Coat",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 0
@@ -2567,7 +2567,7 @@
             {
                 "nextMonId": 464,
                 "condition": "Protector",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 111
@@ -2686,7 +2686,7 @@
             {
                 "nextMonId": 230,
                 "condition": "Dragon Scale",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 116
@@ -2818,7 +2818,7 @@
             {
                 "nextMonId": 212,
                 "condition": "Metal Coat",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 0
@@ -2862,7 +2862,7 @@
             {
                 "nextMonId": 466,
                 "condition": "Electirizer",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 239
@@ -2887,7 +2887,7 @@
             {
                 "nextMonId": 467,
                 "condition": "Magmarizer",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 240
@@ -3149,7 +3149,7 @@
             {
                 "nextMonId": 233,
                 "condition": "Upgrade",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 0
@@ -5063,7 +5063,7 @@
             {
                 "nextMonId": 474,
                 "condition": "Dubious Disc",
-                "method": "Trade with Item"
+                "method": "Trade w/ Item"
             }
         ],
         "evoFromId": 0

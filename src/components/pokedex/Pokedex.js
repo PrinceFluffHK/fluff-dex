@@ -34,10 +34,7 @@ const Pokedex = (props) => {
                 { marginRight: "1rem" },
                 {}
             );
-            const type2Display =
-                mon.type2.id === 0
-                    ? mon.type1.displayBanner({}, {})
-                    : mon.type2.displayBanner({}, {});
+            const type2Display = mon.type2.displayBanner({}, {});
 
             const abilityDisplay = [
                 mon.ability1,

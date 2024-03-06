@@ -11,14 +11,15 @@ import { romhackList } from "../Homepage";
 import { useParams } from "react-router-dom";
 import TopBar from "../navigation/TopBar";
 import LevelLearnDisplay from "./LevelLearnDisplay";
+import EvoDisplay from "./EvoDisplay";
 
 const PokemonDisplay = ({ dexType }) => {
     let { id, selectedEntryId, selectedFormIndex } = useParams();
-    id = parseInt(id)
-    selectedEntryId = parseInt(selectedEntryId)
-    selectedFormIndex = parseInt(selectedFormIndex)
+    id = parseInt(id);
+    selectedEntryId = parseInt(selectedEntryId);
+    selectedFormIndex = parseInt(selectedFormIndex);
 
-    const selectedRomhack = Help.findInArray(id, romhackList)
+    const selectedRomhack = Help.findInArray(id, romhackList);
 
     const [selectedMonId, setSelectedMonId] = useState(() => {
         const selectedEntry =
@@ -56,7 +57,12 @@ const PokemonDisplay = ({ dexType }) => {
                     />
                     <AbilityDisplay selectedMon={selectedMon} />
                     <StatDisplay selectedMon={selectedMon} />
-                    <Grid item xs={12}>
+                    <EvoDisplay
+                        selectedMon={selectedMon}
+                        selectedRomhack={selectedRomhack}
+                        setSelectedMonId={setSelectedMonId}
+                    />
+                    <Grid id="moves-container" item xs={12}>
                         <Grid container>
                             <LevelLearnDisplay
                                 selectedMon={selectedMon}

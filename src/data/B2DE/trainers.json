@@ -1,0 +1,5569 @@
+[
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Tepig",
+                "level": 5,
+                "ability": "Thick Fat",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Tackle", "Tail Whip", "", ""]
+            }
+        ],
+        "notes": "Player Snivy"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Oshawott",
+                "level": 5,
+                "ability": "Shell Armor",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Tackle", "Tail Whip", "", ""]
+            }
+        ],
+        "notes": "Player Tepig"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Snivy",
+                "level": 5,
+                "ability": "Contrary",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Tackle", "Leer", "", ""]
+            }
+        ],
+        "notes": "Player Oshawott"
+    },
+    {
+        "name": "Terrell",
+        "trainerClass": 1,
+        "team": [
+            {
+                "pokemon": "Patrat",
+                "level": 3,
+                "ability": "Run Away",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Bite", "Leer", "", ""]
+            },
+            {
+                "pokemon": "Rattata",
+                "level": 3,
+                "ability": "Guts",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Tackle", "Tail Whip", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Isabel",
+        "trainerClass": 2,
+        "team": [
+            {
+                "pokemon": "Purrloin",
+                "level": 3,
+                "ability": "Limber",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Scratch", "Growl", "", ""]
+            },
+            {
+                "pokemon": "Buneary",
+                "level": 3,
+                "ability": "Klutz",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Pound", "Splash", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Petey",
+        "trainerClass": 2,
+        "team": [
+            {
+                "pokemon": "Lillipup",
+                "level": 3,
+                "ability": "Pickup",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Tackle", "Leer", "", ""]
+            },
+            {
+                "pokemon": "Pidove",
+                "level": 4,
+                "ability": "Oblivious",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Gust", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Pidove",
+                "level": 5,
+                "ability": "Oblivious",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Gust", "Growl", "", ""]
+            },
+            {
+                "pokemon": "Tepig",
+                "level": 7,
+                "ability": "Thick Fat",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Ember", "Tackle", "Tail Whip", ""]
+            }
+        ],
+        "notes": "If the player chose Snivy"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Pidove",
+                "level": 5,
+                "ability": "Oblivious",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Gust", "Growl", "", ""]
+            },
+            {
+                "pokemon": "Oshawott",
+                "level": 7,
+                "ability": "Shell Armor",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Water Gun", "Tackle", "Tail Whip", ""]
+            }
+        ],
+        "notes": "If the player chose Tepig"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Pidove",
+                "level": 5,
+                "ability": "Oblivious",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Gust", "Growl", "", ""]
+            },
+            {
+                "pokemon": "Snivy",
+                "level": 7,
+                "ability": "Contrary",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Vine Whip", "Tackle", "Leer", ""]
+            }
+        ],
+        "notes": "If the player chose Oshawott"
+    },
+    {
+        "name": "Molly",
+        "trainerClass": 2,
+        "team": [
+            {
+                "pokemon": "Purrloin",
+                "level": 5,
+                "ability": "Prankster",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Fake Out", "Scratch", "Growl", ""]
+            },
+            {
+                "pokemon": "Sewaddle",
+                "level": 6,
+                "ability": "Swarm",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Tackle", "String Shot", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Orville",
+        "trainerClass": 29,
+        "team": [
+            {
+                "pokemon": "Riolu",
+                "level": 6,
+                "ability": "Prankster",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Quick Attack", "Endure", "Helping Hand", ""]
+            },
+            {
+                "pokemon": "Mareep",
+                "level": 6,
+                "ability": "Static",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Tackle", "Growl", "Thunder Wave", ""]
+            }
+        ]
+    },
+    {
+        "name": "Kenny",
+        "trainerClass": 1,
+        "team": [
+            {
+                "pokemon": "Vulpix",
+                "level": 6,
+                "ability": "Flash Fire",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Ember", "Faint Attack", "Roar", ""]
+            },
+            {
+                "pokemon": "Psyduck",
+                "level": 7,
+                "ability": "Damp",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Scratch", "Tail Whip", "Rain Dance", ""]
+            }
+        ]
+    },
+    {
+        "name": "Seymour",
+        "trainerClass": 52,
+        "team": [
+            {
+                "pokemon": "Panpour",
+                "level": 8,
+                "ability": "Torrent",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Water Gun", "Scratch", "Leer", ""]
+            },
+            {
+                "pokemon": "Tympole",
+                "level": 7,
+                "ability": "Hydration",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Bubble", "Growl", "Supersonic", ""]
+            }
+        ],
+        "notes": "If the player chose Snivy"
+    },
+    {
+        "name": "Seymour",
+        "trainerClass": 52,
+        "team": [
+            {
+                "pokemon": "Pansage",
+                "level": 8,
+                "ability": "Overgrow",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Vine Whip", "Scratch", "Leer", ""]
+            },
+            {
+                "pokemon": "Petilil",
+                "level": 7,
+                "ability": "Leaf Guard",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Absorb", "Growth", "", ""]
+            }
+        ],
+        "notes": "If the player chose Tepig"
+    },
+    {
+        "name": "Seymour",
+        "trainerClass": 52,
+        "team": [
+            {
+                "pokemon": "Pansear",
+                "level": 8,
+                "ability": "Blaze",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Ember", "Scratch", "Leer", ""]
+            },
+            {
+                "pokemon": "Darumaka",
+                "level": 7,
+                "ability": "Inner Focus",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Incinerate", "Tackle", "", ""]
+            }
+        ],
+        "notes": "If the player chose Oshawott"
+    },
+    {
+        "name": "Cassie",
+        "trainerClass": 53,
+        "team": [
+            {
+                "pokemon": "Pansear",
+                "level": 8,
+                "ability": "Blaze",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Ember", "Scratch", "Leer", ""]
+            },
+            {
+                "pokemon": "Darumaka",
+                "level": 7,
+                "ability": "Inner Focus",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Incinerate", "Tackle", "", ""]
+            }
+        ],
+        "notes": "If the player chose Snivy"
+    },
+    {
+        "name": "Cassie",
+        "trainerClass": 53,
+        "team": [
+            {
+                "pokemon": "Panpour",
+                "level": 8,
+                "ability": "Torrent",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Water Gun", "Scratch", "Leer", ""]
+            },
+            {
+                "pokemon": "Tympole",
+                "level": 7,
+                "ability": "Hydration",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Bubble", "Growl", "Supersonic", ""]
+            }
+        ],
+        "notes": "If the player chose Tepig"
+    },
+    {
+        "name": "Cassie",
+        "trainerClass": 53,
+        "team": [
+            {
+                "pokemon": "Pansage",
+                "level": 8,
+                "ability": "Overgrow",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Vine Whip", "Scratch", "Leer", ""]
+            },
+            {
+                "pokemon": "Petilil",
+                "level": 7,
+                "ability": "Leaf Guard",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Absorb", "Growth", "", ""]
+            }
+        ],
+        "notes": "If the player chose Oshawott"
+    },
+    {
+        "name": "Alder",
+        "trainerClass": 86,
+        "team": [
+            {
+                "pokemon": "Accelgor",
+                "level": 60,
+                "ability": "Dry Skin",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Bug Buzz", "Shadow Ball", "Giga Drain", "Acid Spray"]
+            },
+            {
+                "pokemon": "Escavalier",
+                "level": 60,
+                "ability": "Overcoat",
+                "nature": "Brave",
+                "item": "Occa Berry",
+                "moves": ["X-Scissor", "Iron Head", "Reversal", "Swords Dance"]
+            },
+            {
+                "pokemon": "Bouffalant",
+                "level": 61,
+                "ability": "Reckless",
+                "nature": "Adamant",
+                "item": "",
+                "moves": [
+                    "Head Charge",
+                    "Megahorn",
+                    "Wild Charge",
+                    "Rock Climb"
+                ]
+            },
+            {
+                "pokemon": "Conkeldurr",
+                "level": 61,
+                "ability": "Guts",
+                "nature": "Impish",
+                "item": "Sitrus Berry",
+                "moves": ["Superpower", "Rock Tomb", "Bulk Up", "Wide Guard"]
+            },
+            {
+                "pokemon": "Braviary",
+                "level": 61,
+                "ability": "Defiant",
+                "nature": "Adamant",
+                "item": "Salac Berry",
+                "moves": ["Crush Claw", "Aerial Ace", "Rock Slide", "Leer"]
+            },
+            {
+                "pokemon": "Volcarona",
+                "level": 62,
+                "ability": "Flame Body",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Fiery Dance", "Bug Buzz", "Psychic", "Quiver Dance"]
+            }
+        ]
+    },
+    {
+        "name": "Benga",
+        "trainerClass": 88,
+        "team": [
+            {
+                "pokemon": "Flygon",
+                "level": 62,
+                "ability": "Levitate",
+                "nature": "Adamant",
+                "item": "Choice Scarf",
+                "moves": ["Dragon Claw", "Earth Power", "Rock Slide", "U-Turn"]
+            },
+            {
+                "pokemon": "Breloom",
+                "level": 62,
+                "ability": "Technician",
+                "nature": "Quirky",
+                "item": "Focus Sash",
+                "moves": ["Mach Punch", "Bullet Seed", "Rock Tomb", "         "]
+            },
+            {
+                "pokemon": "Chandelure",
+                "level": 63,
+                "ability": "Shadow Tag",
+                "nature": "Timid",
+                "item": "Air Balloon",
+                "moves": [
+                    "Heat Wave",
+                    "Shadow Ball",
+                    "Dark Pulse",
+                    "Will-O-Wisp"
+                ]
+            },
+            {
+                "pokemon": "Crawdaunt",
+                "level": 63,
+                "ability": "Adaptability",
+                "nature": "Bashful",
+                "item": "BlackGlasses",
+                "moves": ["Aqua Jet", "Waterfall", "Knock Off", "Swords Dance"]
+            },
+            {
+                "pokemon": "Galvantula",
+                "level": 63,
+                "ability": "Compoundeyes",
+                "nature": "Naive",
+                "item": "Electric Gem",
+                "moves": ["Thunder", "Electroweb", "Bug Buzz", "Giga Drain"]
+            },
+            {
+                "pokemon": "Salamence",
+                "level": 64,
+                "ability": "Intimidate",
+                "nature": "Hardy",
+                "item": "Yache Berry",
+                "moves": [
+                    "Draco Meteor",
+                    "Double-Edge",
+                    "Zen Headbutt",
+                    "Crunch"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Pedro",
+        "trainerClass": 1,
+        "team": [
+            {
+                "pokemon": "Patrat",
+                "level": 8,
+                "ability": "Analytic",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Tackle", "Bite", "Leer", ""]
+            },
+            {
+                "pokemon": "Lillipup",
+                "level": 8,
+                "ability": "Vital Spirit",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Tackle", "Bite", "Lick", ""]
+            },
+            {
+                "pokemon": "Pidove",
+                "level": 8,
+                "ability": "Super Luck",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Gust", "Growl", "Leer", ""]
+            }
+        ]
+    },
+    {
+        "name": "Serena",
+        "trainerClass": 2,
+        "team": [
+            {
+                "pokemon": "Azurill",
+                "level": 9,
+                "ability": "Huge Power",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Covet", "Water Gun", "Tail Whip", ""]
+            },
+            {
+                "pokemon": "Buneary",
+                "level": 9,
+                "ability": "Limber",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Fake Out", "Pound", "Defense Curl", ""]
+            },
+            {
+                "pokemon": "Minccino",
+                "level": 9,
+                "ability": "Technician",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Pound", "Growl", "Tickle", ""]
+            }
+        ]
+    },
+    {
+        "name": "Cheren",
+        "trainerClass": 77,
+        "team": [
+            {
+                "pokemon": "Cleffa",
+                "level": 10,
+                "ability": "Friend Guard",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Metronome", "", "", ""]
+            },
+            {
+                "pokemon": "Rufflet",
+                "level": 10,
+                "ability": "Keen Eye",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Peck", "Fury Attack", "Leer", ""]
+            },
+            {
+                "pokemon": "Eevee",
+                "level": 11,
+                "ability": "Adaptability",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Tackle", "Quick Attack", "Tickle", ""]
+            },
+            {
+                "pokemon": "Lillipup",
+                "level": 12,
+                "ability": "Vital Spirit",
+                "nature": "Docile",
+                "item": "Oran Berry",
+                "moves": ["Tackle", "Bite", "Work Up", ""]
+            }
+        ]
+    },
+    {
+        "name": "Jerome",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemon": "Riolu",
+                "level": 11,
+                "ability": "Inner Focus",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Quick Attack", "Counter", "Endure", ""]
+            },
+            {
+                "pokemon": "Roggenrola",
+                "level": 10,
+                "ability": "Sturdy",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Tackle", "Sand-Attack", "Harden", ""]
+            }
+        ]
+    },
+    {
+        "name": "Albert",
+        "trainerClass": 46,
+        "team": [
+            {
+                "pokemon": "Psyduck",
+                "level": 11,
+                "ability": "Cloud Nine",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Water Gun", "Scratch", "Rain Dance", ""]
+            },
+            {
+                "pokemon": "Rattata",
+                "level": 11,
+                "ability": "Guts",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Quick Attack", "Bite", "Focus Energy", ""]
+            },
+            {
+                "pokemon": "Feebas",
+                "level": 12,
+                "ability": "Swift Swim",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Splash", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Lin",
+        "trainerClass": 47,
+        "team": [
+            {
+                "pokemon": "Munna",
+                "level": 10,
+                "ability": "Frisk",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Confusion", "Defense Curl", "Lucky Chant", ""]
+            },
+            {
+                "pokemon": "Budew",
+                "level": 10,
+                "ability": "Natural Cure",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Absorb", "Growth", "Worry Seed", ""]
+            },
+            {
+                "pokemon": "Buizel",
+                "level": 11,
+                "ability": "Water Veil",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Quick Attack", "Aqua Ring", "Growl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Kimya",
+        "trainerClass": 36,
+        "team": [
+            {
+                "pokemon": "Dunsparce",
+                "level": 10,
+                "ability": "Serene Grace",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Tackle", "Twister", "Pursuit", ""]
+            },
+            {
+                "pokemon": "Audino",
+                "level": 15,
+                "ability": "Healer",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Entrainment", "Refresh", "Growl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Lia & Lily",
+        "trainerClass": 61,
+        "team": [
+            {
+                "pokemon": "Sunkern",
+                "level": 11,
+                "ability": "Early Bird",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Ember", "Sunny Day", "Growth", ""]
+            },
+            {
+                "pokemon": "Sunkern",
+                "level": 11,
+                "ability": "Chlorophyll",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Absorb", "Synthesis", "Growth", ""]
+            }
+        ]
+    },
+    {
+        "name": "Leaf",
+        "trainerClass": 43,
+        "team": [
+            {
+                "pokemon": "Leafeon",
+                "level": 32,
+                "ability": "Chlorophyll",
+                "nature": "Jolly",
+                "item": "Occa Berry",
+                "moves": ["Razor Leaf", "Quick Attack", "Swords Dance", ""]
+            },
+            {
+                "pokemon": "Scolipede",
+                "level": 32,
+                "ability": "Swarm",
+                "nature": "Gentle",
+                "item": "Payapa Berry",
+                "moves": ["Bug Bite", "Pursuit", "Rollout", ""]
+            },
+            {
+                "pokemon": "Stunfisk",
+                "level": 32,
+                "ability": "Static",
+                "nature": "Rash",
+                "item": "Passho Berry",
+                "moves": ["Discharge", "Mud Bomb", "Camouflage", ""]
+            }
+        ]
+    },
+    {
+        "name": "Malory",
+        "trainerClass": 44,
+        "team": [
+            {
+                "pokemon": "Arcanine",
+                "level": 33,
+                "ability": "Intimidate",
+                "nature": "Lonely",
+                "item": "Shuca Berry",
+                "moves": ["Fire Fang", "Thunder Fang", "Bite", ""]
+            },
+            {
+                "pokemon": "Ninetales",
+                "level": 33,
+                "ability": "Drought",
+                "nature": "Adamant",
+                "item": "Charti Berry",
+                "moves": ["Flame Burst", "Quick Attack", "Nasty Plot", ""]
+            }
+        ]
+    },
+    {
+        "name": "Bret",
+        "trainerClass": 43,
+        "team": [
+            {
+                "pokemon": "Stoutland",
+                "level": 32,
+                "ability": "Scrappy",
+                "nature": "Lonely",
+                "item": "Chople Berry",
+                "moves": ["Strength", "Charm", "Helping Hand", ""]
+            },
+            {
+                "pokemon": "Azumarill",
+                "level": 32,
+                "ability": "Huge Power",
+                "nature": "Lonely",
+                "item": "Rindo Berry",
+                "moves": ["Bubblebeam", "Double-Edge", "Bounce", ""]
+            },
+            {
+                "pokemon": "Tropius",
+                "level": 32,
+                "ability": "Chlorophyll",
+                "nature": "Hardy",
+                "item": "Yache Berry",
+                "moves": ["Razor Leaf", "Stomp", "Dragonbreath", ""]
+            }
+        ]
+    },
+    {
+        "name": "Naoko",
+        "trainerClass": 44,
+        "team": [
+            {
+                "pokemon": "Amoonguss",
+                "level": 60,
+                "ability": "Damp",
+                "nature": "Naughty",
+                "item": "Lum Berry",
+                "moves": [
+                    "Sludge Bomb",
+                    "Worry Seed",
+                    "Stun Spore",
+                    "Rage Powder"
+                ]
+            },
+            {
+                "pokemon": "Leavanny",
+                "level": 60,
+                "ability": "Swarm",
+                "nature": "Adamant",
+                "item": "Lum Berry",
+                "moves": [
+                    "Leaf Blade",
+                    "Bug Bite",
+                    "String Shot",
+                    "Swords Dance"
+                ]
+            },
+            {
+                "pokemon": "Yanmega",
+                "level": 60,
+                "ability": "Intimidate",
+                "nature": "Careful",
+                "item": "Lum Berry",
+                "moves": ["Bug Bite", "Air Slash", "Ancientpower", "Pursuit"]
+            },
+            {
+                "pokemon": "Sawsbuck",
+                "level": 60,
+                "ability": "Serene Grace",
+                "nature": "Timid",
+                "item": "Lum Berry",
+                "moves": [
+                    "Nature Power",
+                    "Seed Bomb",
+                    "Natural Gift",
+                    "Jump Kick"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Masahiro",
+        "trainerClass": 1,
+        "team": [
+            {
+                "pokemon": "Rattata",
+                "level": 11,
+                "ability": "Guts",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Bite", "Quick Attack", "Focus Energy", "Tail Whip"]
+            },
+            {
+                "pokemon": "Venipede",
+                "level": 11,
+                "ability": "Poison Point",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Poison Sting", "Pursuit", "Screech", ""]
+            },
+            {
+                "pokemon": "Phanpy",
+                "level": 11,
+                "ability": "Pickup",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Mud-Slap", "Flail", "Defense Curl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Mitchell",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Trubbish",
+                "level": 12,
+                "ability": "Sticky Hold",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Acid Spray", "Toxic Spikes", "", ""]
+            },
+            {
+                "pokemon": "Elekid",
+                "level": 12,
+                "ability": "Static",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Thundershock", "Low Kick", "Swift", "Leer"]
+            }
+        ]
+    },
+    {
+        "name": "Waylon",
+        "trainerClass": 1,
+        "team": [
+            {
+                "pokemon": "Poliwag",
+                "level": 13,
+                "ability": "Swift Swim",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Water Gun", "Round", "Encore", ""]
+            },
+            {
+                "pokemon": "Drilbur",
+                "level": 12,
+                "ability": "Sand Rush",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Mud-Slap", "Fury Swipes", "Rock Smash", ""]
+            },
+            {
+                "pokemon": "Shroomish",
+                "level": 13,
+                "ability": "Effect Spore",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Bullet Seed", "Leech Seed", "Stun Spore", ""]
+            }
+        ]
+    },
+    {
+        "name": "Nathan",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Magnemite",
+                "level": 12,
+                "ability": "Magnet Pull",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Thundershock", "Tackle", "Metal Sound", ""]
+            },
+            {
+                "pokemon": "Magnemite",
+                "level": 12,
+                "ability": "Magnet Pull",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Thundershock", "Tackle", "Metal Sound", ""]
+            },
+            {
+                "pokemon": "Nosepass",
+                "level": 12,
+                "ability": "Magnet Pull",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Rock Throw", "Block", "Harden", ""]
+            }
+        ]
+    },
+    {
+        "name": "Isaac",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Magby",
+                "level": 13,
+                "ability": "Flame Body",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Ember", "Smog", "Leer", ""]
+            },
+            {
+                "pokemon": "Koffing",
+                "level": 12,
+                "ability": "Levitate",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Tackle", "Assurance", "Poison Gas", ""]
+            },
+            {
+                "pokemon": "Timburr",
+                "level": 12,
+                "ability": "Guts",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Low Kick", "Focus Energy", "Helping Hand", "Leer"]
+            }
+        ]
+    },
+    {
+        "name": "Daya",
+        "trainerClass": 2,
+        "team": [
+            {
+                "pokemon": "Woobat",
+                "level": 13,
+                "ability": "Unaware",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Confusion", "Gust", "Assurance", ""]
+            },
+            {
+                "pokemon": "Zubat",
+                "level": 13,
+                "ability": "Inner Focus",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Bite ", "Astonish", "Absorb", "Supersonic"]
+            }
+        ]
+    },
+    {
+        "name": "Nicky",
+        "trainerClass": 51,
+        "team": [
+            {
+                "pokemon": "Grimer",
+                "level": 14,
+                "ability": "Poison Touch",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Pound", "Poison Gas", "Disable", ""]
+            },
+            {
+                "pokemon": "Koffing",
+                "level": 14,
+                "ability": "Levitate",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Tackle", "Assurance", "Poison Gas", ""]
+            },
+            {
+                "pokemon": "Zubat",
+                "level": 15,
+                "ability": "Inner Focus",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Venoshock", "Wing Attack", "Supersonic", ""]
+            }
+        ]
+    },
+    {
+        "name": "Billy Jo",
+        "trainerClass": 68,
+        "team": [
+            {
+                "pokemon": "Skorupi",
+                "level": 15,
+                "ability": "Battle Armor",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Twineedle", "Knock Off", "Leer", ""]
+            },
+            {
+                "pokemon": "Tentacool",
+                "level": 14,
+                "ability": "Liquid Ooze",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Acid", "Wrap", "", ""]
+            },
+            {
+                "pokemon": "Roselia",
+                "level": 14,
+                "ability": "Poison Point",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Mega Drain", "Acid", "Growth", ""]
+            }
+        ]
+    },
+    {
+        "name": "Roxie",
+        "trainerClass": 78,
+        "team": [
+            {
+                "pokemon": "Skorupi",
+                "level": 15,
+                "ability": "Battle Armor",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Twineedle", "Knock Off", "Leer", ""]
+            },
+            {
+                "pokemon": "Tentacool",
+                "level": 14,
+                "ability": "Liquid Ooze",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Acid", "Wrap", "", ""]
+            },
+            {
+                "pokemon": "Roselia",
+                "level": 14,
+                "ability": "Poison Point",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Mega Drain", "Acid", "Growth", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Patrat",
+                "level": 16,
+                "ability": "Keen Eye",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Crunch", "Tackle", "Helping Hand", ""]
+            },
+            {
+                "pokemon": "Zubat",
+                "level": 16,
+                "ability": "Infiltrator",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Wing Attack", "Bite", "Astonish", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Purrloin",
+                "level": 15,
+                "ability": "Limber",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Pursuit", "Fury Swipes", "Fake Out", ""]
+            },
+            {
+                "pokemon": "Sewaddle",
+                "level": 15,
+                "ability": "Swarm",
+                "nature": "Quirky",
+                "item": "Bug Gem",
+                "moves": ["Razor Leaf", "Bug Bite", "", ""]
+            },
+            {
+                "pokemon": "Growlithe",
+                "level": 15,
+                "ability": "Intimidate",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Ember", "Bite", "Howl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Clemens",
+        "trainerClass": 14,
+        "team": [
+            {
+                "pokemon": "Growlithe",
+                "level": 16,
+                "ability": "Intimidate",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Ember", "Helping Hand", "Roar", ""]
+            },
+            {
+                "pokemon": "Vulpix",
+                "level": 16,
+                "ability": "Prankster",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Fire Spin", "Quick Attack", "Confuse Ray", ""]
+            }
+        ]
+    },
+    {
+        "name": "Warren",
+        "trainerClass": 14,
+        "team": [
+            {
+                "pokemon": "Marill",
+                "level": 16,
+                "ability": "Sap Sipper",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Bubblebeam", "Rollout", "Defense Curl", ""]
+            },
+            {
+                "pokemon": "Ducklett",
+                "level": 16,
+                "ability": "Big Pecks",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Water Pulse", "Air Cutter", "Rain Dance", ""]
+            }
+        ]
+    },
+    {
+        "name": "Britney",
+        "trainerClass": 15,
+        "team": [
+            {
+                "pokemon": "Tangela",
+                "level": 16,
+                "ability": "Leaf Guard",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Vine Whip", "Leech Seed", "Ingrain", ""]
+            },
+            {
+                "pokemon": "Deerling",
+                "level": 16,
+                "ability": "Serene Grace",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Tackle", "Double Kick", "Faint Attack", ""]
+            }
+        ]
+    },
+    {
+        "name": "Gilligan",
+        "trainerClass": 16,
+        "team": [
+            {
+                "pokemon": "Pidove",
+                "level": 17,
+                "ability": "Oblivious",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Air Cutter", "Quick Attack", "Leer", "Growl"]
+            },
+            {
+                "pokemon": "Phanpy",
+                "level": 17,
+                "ability": "Simple",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Bulldoze", "Take Down", "Defense Curl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Neil",
+        "trainerClass": 52,
+        "team": [
+            {
+                "pokemon": "Eevee",
+                "level": 17,
+                "ability": "Adaptability",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Quick Attack", "Bite", "Tail Whip", "Growl"]
+            },
+            {
+                "pokemon": "Herdier",
+                "level": 16,
+                "ability": "Intimidate",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Headbutt", "Bite", "Helping Hand", "Charm"]
+            },
+            {
+                "pokemon": "Clefairy",
+                "level": 16,
+                "ability": "Friend Guard",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Doubleslap", "Follow Me", "Encore", "Defense Curl"]
+            }
+        ]
+    },
+    {
+        "name": "Morimoto",
+        "trainerClass": 95,
+        "team": [
+            {
+                "pokemon": "Larvitar",
+                "level": 18,
+                "ability": "Sturdy",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Rock Tomb", "Chip Away", "Sandstorm", "Leer"]
+            },
+            {
+                "pokemon": "Beldum",
+                "level": 18,
+                "ability": "Clear Body",
+                "nature": "Lonely",
+                "item": "Choice Band",
+                "moves": ["Take Down", "", "", ""]
+            },
+            {
+                "pokemon": "Deino",
+                "level": 18,
+                "ability": "Hustle",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Dragonbreath", "Bite", "Headbutt", ""]
+            }
+        ]
+    },
+    {
+        "name": "Nishino",
+        "trainerClass": 96,
+        "team": [
+            {
+                "pokemon": "Clefairy",
+                "level": 18,
+                "ability": "Magic Guard",
+                "nature": "Quirky",
+                "item": "Leftovers",
+                "moves": ["Metronome", "", "", ""]
+            },
+            {
+                "pokemon": "Poliwhirl",
+                "level": 18,
+                "ability": "Swift Swim",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Water Gun", "Doubleslap", "Rain Dance", ""]
+            },
+            {
+                "pokemon": "Eevee",
+                "level": 18,
+                "ability": "Friend Guard",
+                "nature": "Hasty",
+                "item": "Expert Belt",
+                "moves": ["Ember", "Water Gun", "Thundershock", "Work Up"]
+            }
+        ]
+    },
+    {
+        "name": "Ricky",
+        "trainerClass": 51,
+        "team": [
+            {
+                "pokemon": "Scraggy",
+                "level": 33,
+                "ability": "Intimidate",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Brick Break", "Dual Chop", "Leer", ""]
+            },
+            {
+                "pokemon": "Torkoal",
+                "level": 33,
+                "ability": "Shell Armor",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Dragon Claw", "Headbutt", "Protect", ""]
+            }
+        ]
+    },
+    {
+        "name": "Jean-Paul",
+        "trainerClass": 19,
+        "team": [
+            {
+                "pokemon": "Darumaka",
+                "level": 32,
+                "ability": "Hustle",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Fire Punch", "Zen Headbutt", "Belly Drum", ""]
+            },
+            {
+                "pokemon": "Basculin",
+                "level": 32,
+                "ability": "Mold Breaker",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Aqua Tail", "Crunch", "Chip Away", ""]
+            },
+            {
+                "pokemon": "Breloom",
+                "level": 32,
+                "ability": "Quick Feet",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Giga Drain", "Wake-Up Slap", "Headbutt", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tina",
+        "trainerClass": 68,
+        "team": [
+            {
+                "pokemon": "Krokorok",
+                "level": 31,
+                "ability": "Anger Point",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Dig", "Assurance", "Swagger", ""]
+            },
+            {
+                "pokemon": "Liepard",
+                "level": 31,
+                "ability": "Prankster",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Fake Out", "Foul Play", "Assist", ""]
+            },
+            {
+                "pokemon": "Qwilfish",
+                "level": 31,
+                "ability": "Intimidate",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Bubblebeam", "Poison Tail", "Aqua Jet", ""]
+            },
+            {
+                "pokemon": "Skarmory",
+                "level": 31,
+                "ability": "Weak Armor",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Sky Attack", "Iron Head", "Tailwind", ""]
+            }
+        ]
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Pignite",
+                "level": 20,
+                "ability": "Thick Fat",
+                "nature": "Docile",
+                "item": "Charcoal",
+                "moves": [
+                    "Arm Thrust",
+                    "Flame Charge",
+                    "Clear Smog",
+                    "Defense Curl"
+                ]
+            },
+            {
+                "pokemon": "Tranquill",
+                "level": 20,
+                "ability": "Serene Grace",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Quick Attack", "Air Cutter", "Leer", "Roost"]
+            }
+        ],
+        "notes": "If the player chose Snivy",
+        "modifier": "partner"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Dewott",
+                "level": 20,
+                "ability": "Shell Armor",
+                "nature": "Adamant",
+                "item": "Mystic Water",
+                "moves": [
+                    "Razor Shell",
+                    "Fury Cutter",
+                    "Tail Whip",
+                    "Focus Energy"
+                ]
+            },
+            {
+                "pokemon": "Tranquill",
+                "level": 20,
+                "ability": "Serene Grace",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Quick Attack", "Air Cutter", "Leer", "Roost"]
+            }
+        ],
+        "notes": "If the player chose Tepig",
+        "modifier": "partner"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Servine",
+                "level": 20,
+                "ability": "Contrary",
+                "nature": "Bold",
+                "item": "Miracle Seed",
+                "moves": ["Leaf Tornado", "Twister", "Leech Seed", "Growth"]
+            },
+            {
+                "pokemon": "Tranquill",
+                "level": 20,
+                "ability": "Serene Grace",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Quick Attack", "Air Cutter", "Leer", "Roost"]
+            }
+        ],
+        "notes": "If the player chose Oshawott",
+        "modifier": "partner"
+    },
+    {
+        "name": "Felix",
+        "trainerClass": 29,
+        "team": [
+            {
+                "pokemon": "Grimer",
+                "level": 17,
+                "ability": "Stench",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Sludge", "Mud-Slap", "Harden", ""]
+            },
+            {
+                "pokemon": "Trubbish",
+                "level": 17,
+                "ability": "Stench",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Metal Claw", "Acid Spray", "Poison Gas", ""]
+            }
+        ]
+    },
+    {
+        "name": "Heath",
+        "trainerClass": 21,
+        "team": [
+            {
+                "pokemon": "Woobat",
+                "level": 16,
+                "ability": "Simple",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Heart Stamp", "Gust", "Assurance", "Helping Hand"]
+            },
+            {
+                "pokemon": "Roselia",
+                "level": 16,
+                "ability": "Natural Cure",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Mega Drain", "Acid", "Stun Spore", "Leech Seed"]
+            },
+            {
+                "pokemon": "Swadloon",
+                "level": 20,
+                "ability": "Overcoat",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Razor Leaf", "Bug Bite", "String Shot", "Protect"]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Sandile",
+                "level": 18,
+                "ability": "Moxie",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Sand Tomb", "Assurance", "Torment", "Sand-Attack"]
+            },
+            {
+                "pokemon": "Elekid",
+                "level": 19,
+                "ability": "Static",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Shock Wave", "Low Kick", "Swift", "Thunder Wave"]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Scraggy",
+                "level": 18,
+                "ability": "Moxie",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Faint Attack", "Headbutt", "Sand-Attack", "Swagger"]
+            },
+            {
+                "pokemon": "Magby",
+                "level": 19,
+                "ability": "Flame Body",
+                "nature": "Quiet",
+                "item": "",
+                "moves": [
+                    "Fire Spin",
+                    "Faint Attack",
+                    "Clear Smog",
+                    "Smokescreen"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Scott",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Timburr",
+                "level": 17,
+                "ability": "Sheer Force",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Low Kick", "Rock Tomb", "Leer", "Focus Energy"]
+            },
+            {
+                "pokemon": "Onix",
+                "level": 17,
+                "ability": "Sturdy",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Rock Throw", "Rage", "Bind", "Harden"]
+            }
+        ]
+    },
+    {
+        "name": "Caroline",
+        "trainerClass": 55,
+        "team": [
+            {
+                "pokemon": "Grimer",
+                "level": 18,
+                "ability": "Sticky Hold",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Sludge", "Mud-Slap", "Disable", ""]
+            },
+            {
+                "pokemon": "Klink",
+                "level": 17,
+                "ability": "Clear Body",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Gear Grind", "Thundershock", "Vicegrip", "Charge"]
+            },
+            {
+                "pokemon": "Castform",
+                "level": 17,
+                "ability": "Forecast",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Headbutt", "Powder Snow", "Ember", "Water Gun"]
+            }
+        ]
+    },
+    {
+        "name": "Clark",
+        "trainerClass": 54,
+        "team": [
+            {
+                "pokemon": "Magneton",
+                "level": 33,
+                "ability": "Sturdy",
+                "nature": "Modest",
+                "item": "Red Card",
+                "moves": ["Tri Attack", "Mirror Shot", "Magnet Rise", ""]
+            },
+            {
+                "pokemon": "Elgyem",
+                "level": 34,
+                "ability": "Analytic",
+                "nature": "Impish",
+                "item": "Cell Battery",
+                "moves": ["Psychic", "Heal Block", "Simple Beam", ""]
+            }
+        ]
+    },
+    {
+        "name": "Brady",
+        "trainerClass": 29,
+        "team": [
+            {
+                "pokemon": "Azumarill",
+                "level": 32,
+                "ability": "Huge Power",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Aqua Jet", "Double-Edge", "Belly Drum", ""]
+            },
+            {
+                "pokemon": "Cinccino",
+                "level": 32,
+                "ability": "Simple",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Tail Slap", "Swift", "Work Up", ""]
+            },
+            {
+                "pokemon": "Crobat",
+                "level": 33,
+                "ability": "Inner Focus",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Wing Attack", "Cross Poison", "Super Fang", ""]
+            }
+        ]
+    },
+    {
+        "name": "Terence",
+        "trainerClass": 54,
+        "team": [
+            {
+                "pokemon": "Ditto",
+                "level": 18,
+                "ability": "Imposter",
+                "nature": "Impish",
+                "item": "Choice Band",
+                "moves": ["Transform", "", "", ""]
+            },
+            {
+                "pokemon": "Ditto",
+                "level": 18,
+                "ability": "Imposter",
+                "nature": "Impish",
+                "item": "Choice Specs",
+                "moves": ["Transform", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Lumina",
+        "trainerClass": 55,
+        "team": [
+            {
+                "pokemon": "Litwick",
+                "level": 18,
+                "ability": "Flash Fire",
+                "nature": "Careful",
+                "item": "",
+                "moves": [
+                    "Fire Spin",
+                    "Night Shade",
+                    "Confuse Ray",
+                    "Will-O-Wisp"
+                ]
+            },
+            {
+                "pokemon": "Koffing",
+                "level": 17,
+                "ability": "Levitate",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Selfdestruct", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Kendall",
+        "trainerClass": 9,
+        "team": [
+            {
+                "pokemon": "Herdier",
+                "level": 18,
+                "ability": "Intimidate",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Headbutt", "Lick", "Bite", "Work Up"]
+            },
+            {
+                "pokemon": "Growlithe",
+                "level": 18,
+                "ability": "Intimidate",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Flame Wheel", "Bite", "Howl", ""]
+            },
+            {
+                "pokemon": "Deerling",
+                "level": 18,
+                "ability": "Chlorophyll",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Double Kick", "Faint Attack", "Leech Seed", ""]
+            }
+        ]
+    },
+    {
+        "name": "Clarence",
+        "trainerClass": 24,
+        "team": [
+            {
+                "pokemon": "Swadloon",
+                "level": 20,
+                "ability": "Swarm",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Razor Leaf", "Bug Bite", "String Shot", "Protect"]
+            },
+            {
+                "pokemon": "Dwebble",
+                "level": 19,
+                "ability": "Sturdy",
+                "nature": "Modest",
+                "item": "",
+                "moves": [
+                    "Smack Down",
+                    "Faint Attack",
+                    "Stealth Rock",
+                    "Rock Polish"
+                ]
+            },
+            {
+                "pokemon": "Yanma",
+                "level": 19,
+                "ability": "Unnerve",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Bug Bite", "Sonicboom", "Quick Attack", "Detect"]
+            }
+        ]
+    },
+    {
+        "name": "Jack",
+        "trainerClass": 24,
+        "team": [
+            {
+                "pokemon": "Combee",
+                "level": 19,
+                "ability": "Honey Gather",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Bug Bite", "Gust", "Sweet Scent", ""]
+            },
+            {
+                "pokemon": "Combee",
+                "level": 19,
+                "ability": "Honey Gather",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Bug Bite", "Endeavor", "Tailwind", ""]
+            },
+            {
+                "pokemon": "Vespiquen",
+                "level": 21,
+                "ability": "Tinted Lens",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Struggle Bug", "Wing Attack", "Slash", ""]
+            }
+        ]
+    },
+    {
+        "name": "Gary",
+        "trainerClass": 24,
+        "team": [
+            {
+                "pokemon": "Joltik",
+                "level": 19,
+                "ability": "Compoundeyes",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Leech Life", "Electroweb", "Screech", ""]
+            },
+            {
+                "pokemon": "Skorupi",
+                "level": 20,
+                "ability": "Sniper",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Twineedle", "Knock Off", "Leer", ""]
+            },
+            {
+                "pokemon": "Larvesta",
+                "level": 19,
+                "ability": "Flame Body",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Bug Bite", "Giga Drain", "Will-O-Wisp", ""]
+            }
+        ]
+    },
+    {
+        "name": "Anders",
+        "trainerClass": 24,
+        "team": [
+            {
+                "pokemon": "Karrablast",
+                "level": 21,
+                "ability": "Shed Skin",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Headbutt", "Fury Cutter", "Endure", "Leer"]
+            },
+            {
+                "pokemon": "Shelmet",
+                "level": 21,
+                "ability": "Overcoat",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Struggle Bug", "Mega Drain", "Feint", ""]
+            },
+            {
+                "pokemon": "Pinsir",
+                "level": 19,
+                "ability": "Hyper Cutter",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Revenge", "Bind", "Focus Energy", ""]
+            },
+            {
+                "pokemon": "Heracross",
+                "level": 19,
+                "ability": "Moxie",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Bug Bite", "Chip Away", "Leer", ""]
+            }
+        ]
+    },
+    {
+        "name": "Burgh",
+        "trainerClass": 79,
+        "team": [
+            {
+                "pokemon": "Scyther",
+                "level": 21,
+                "ability": "Technician",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Wing Attack", "Steel Wing", "Quick Attack", "Leer"]
+            },
+            {
+                "pokemon": "Trapinch",
+                "level": 22,
+                "ability": "Arena Trap",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Bulldoze", "Bug Bite", "Bite", ""]
+            },
+            {
+                "pokemon": "Shuckle",
+                "level": 21,
+                "ability": "Sturdy",
+                "nature": "Serious",
+                "item": "",
+                "moves": [
+                    "Struggle Bug",
+                    "Rock Tomb",
+                    "Withdraw",
+                    "Stealth Rock"
+                ]
+            },
+            {
+                "pokemon": "Durant",
+                "level": 21,
+                "ability": "Swarm",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Metal Claw", "Fury Cutter", "Sand-Attack", ""]
+            },
+            {
+                "pokemon": "Joltik",
+                "level": 22,
+                "ability": "Unnerve",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Electroweb", "Bug Buzz", "Giga Drain", ""]
+            },
+            {
+                "pokemon": "Leavanny",
+                "level": 23,
+                "ability": "Chlorophyll",
+                "nature": "Lax",
+                "item": "Focus Sash",
+                "moves": [
+                    "Razor Leaf",
+                    "Bug Bite",
+                    "Electroweb",
+                    "Struggle Bug"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Irene",
+        "trainerClass": 42,
+        "team": [
+            {
+                "pokemon": "Drilbur",
+                "level": 17,
+                "ability": "Sand Rush",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Mud-Slap", "Metal Claw", "Fury Swipes", "Rapid Spin"]
+            },
+            {
+                "pokemon": "Marill",
+                "level": 18,
+                "ability": "Thick Fat",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Bubblebeam", "Tackle", "Helping Hand", ""]
+            }
+        ]
+    },
+    {
+        "name": "Braven",
+        "trainerClass": 45,
+        "team": [
+            {
+                "pokemon": "Herdier",
+                "level": 17,
+                "ability": "Intimidate",
+                "nature": "Brave",
+                "item": "Choice Band",
+                "moves": ["Covet", "", "", ""]
+            },
+            {
+                "pokemon": "Herdier",
+                "level": 17,
+                "ability": "Intimidate",
+                "nature": "Brave",
+                "item": "Choice Band",
+                "moves": ["Covet", "", "", ""]
+            },
+            {
+                "pokemon": "Herdier",
+                "level": 17,
+                "ability": "Intimidate",
+                "nature": "Brave",
+                "item": "Choice Band",
+                "moves": ["Covet", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Andrew",
+        "trainerClass": 22,
+        "team": [
+            {
+                "pokemon": "Staryu",
+                "level": 20,
+                "ability": "Analytic",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Confusion", "Water Gun", "Swift", ""]
+            },
+            {
+                "pokemon": "Spheal",
+                "level": 20,
+                "ability": "Thick Fat",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Ice Ball", "Body Slam", "Defense Curl", ""]
+            },
+            {
+                "pokemon": "Frillish",
+                "level": 20,
+                "ability": "Water Absorb",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Bubblebeam", "Night Shade", "Absorb", "Recover"]
+            }
+        ]
+    },
+    {
+        "name": "Hubert",
+        "trainerClass": 22,
+        "team": [
+            {
+                "pokemon": "Feebas",
+                "level": 20,
+                "ability": "Swift Swim",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Splash", "Tackle", "", ""]
+            },
+            {
+                "pokemon": "Feebas",
+                "level": 21,
+                "ability": "Swift Swim",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Splash", "Tackle", "", ""]
+            },
+            {
+                "pokemon": "Feebas",
+                "level": 22,
+                "ability": "Swift Swim",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Splash", "Tackle", "", ""]
+            },
+            {
+                "pokemon": "Feebas",
+                "level": 23,
+                "ability": "Swift Swim",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Splash", "Tackle", "", ""]
+            },
+            {
+                "pokemon": "Feebas",
+                "level": 24,
+                "ability": "Swift Swim",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Splash", "Tackle", "", ""]
+            },
+            {
+                "pokemon": "Feebas",
+                "level": 25,
+                "ability": "Swift Swim",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Splash", "Tackle", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Colress",
+        "trainerClass": 73,
+        "team": [
+            {
+                "pokemon": "Magnemite",
+                "level": 22,
+                "ability": "Sturdy",
+                "nature": "Lonely",
+                "item": "Life Orb",
+                "moves": ["Volt Switch", "Magnet Bomb", "Thunder Wave", ""]
+            },
+            {
+                "pokemon": "Klink",
+                "level": 22,
+                "ability": "Clear Body",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Gear Grind", "Thundershock", "Charge", ""]
+            },
+            {
+                "pokemon": "Ditto",
+                "level": 22,
+                "ability": "Impostor",
+                "nature": "Lax",
+                "item": "Choice Scarf",
+                "moves": ["Transform", "", "", ""]
+            },
+            {
+                "pokemon": "Elgyem",
+                "level": 22,
+                "ability": "Levitate",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Confusion", "Hidden Power", "Growl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Dell",
+        "trainerClass": 45,
+        "team": [
+            {
+                "pokemon": "Swinub",
+                "level": 22,
+                "ability": "Oblivious",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Mud Bomb", "Powder Snow", "Ancient Power", ""]
+            },
+            {
+                "pokemon": "Swinub",
+                "level": 22,
+                "ability": "Thick Fat",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Bulldoze", "Bite", "", ""]
+            },
+            {
+                "pokemon": "Swinub",
+                "level": 24,
+                "ability": "Snow Cloak",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Ice Fang", "Body Slam", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Neagle",
+        "trainerClass": 45,
+        "team": [
+            {
+                "pokemon": "Pignite",
+                "level": 22,
+                "ability": "Thick Fat",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Flame Charge", "Covet", "Clear Smog", "Roar"]
+            },
+            {
+                "pokemon": "Raticate",
+                "level": 22,
+                "ability": "Hustle",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Hyper Fang", "Pursuit", "Sucker Punch", ""]
+            }
+        ]
+    },
+    {
+        "name": "Silvester",
+        "trainerClass": 51,
+        "team": [
+            {
+                "pokemon": "Darumaka",
+                "level": 22,
+                "ability": "Hustle",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Fire Fang", "Headbutt", "", ""]
+            },
+            {
+                "pokemon": "Scraggy",
+                "level": 23,
+                "ability": "Intimidate",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Payback", "Low Kick", "Leer", "Sand-Attack"]
+            }
+        ]
+    },
+    {
+        "name": "Joey",
+        "trainerClass": 51,
+        "team": [
+            {
+                "pokemon": "Venipede",
+                "level": 21,
+                "ability": "Quick Feet",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Poison Tail", "Venoshock", "Pursuit", ""]
+            },
+            {
+                "pokemon": "Sandile",
+                "level": 22,
+                "ability": "Anger Point",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Mud-Slap", "Assurance", "Embargo", ""]
+            },
+            {
+                "pokemon": "Vullaby",
+                "level": 23,
+                "ability": "Big Pecks",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Faint Attack", "Pluck", "Fury Attack", "Leer"]
+            }
+        ]
+    },
+    {
+        "name": "Sinclair",
+        "trainerClass": 1,
+        "team": [
+            {
+                "pokemon": "Tranquill",
+                "level": 22,
+                "ability": "Super Luck",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Air Cutter", "Quick Attack", "Roost", ""]
+            },
+            {
+                "pokemon": "Watchog",
+                "level": 22,
+                "ability": "Keen Eye",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Crunch", "Super Fang", "Low Kick", ""]
+            }
+        ]
+    },
+    {
+        "name": "Stanley",
+        "trainerClass": 12,
+        "team": [
+            {
+                "pokemon": "Golbat",
+                "level": 22,
+                "ability": "Inner Focus",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Wing Attack", "Bite", "Confuse Ray", ""]
+            },
+            {
+                "pokemon": "Timburr",
+                "level": 22,
+                "ability": "Guts",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Wake-Up Slap", "Rock Tomb", "Helping Hand", ""]
+            },
+            {
+                "pokemon": "Growlithe",
+                "level": 21,
+                "ability": "Intimidate",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Fire Fang", "Reversal", "Howl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Rob and Sal",
+        "trainerClass": 26,
+        "team": [
+            {
+                "pokemon": "Zorua",
+                "level": 22,
+                "ability": "Illusion",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Hidden Power", "Grass Knot", "", ""]
+            },
+            {
+                "pokemon": "Cottonee",
+                "level": 22,
+                "ability": "Prankster",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Razor Leaf", "Mega Drain", "Growth", ""]
+            },
+            {
+                "pokemon": "Zorua",
+                "level": 22,
+                "ability": "Illusion",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Snarl", "Faint Attack", "Incinerate", ""]
+            },
+            {
+                "pokemon": "Petilil",
+                "level": 22,
+                "ability": "Own Tempo",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Mega Drain", "Stun Spore", "Leech Seed", ""]
+            }
+        ]
+    },
+    {
+        "name": "Mariah",
+        "trainerClass": 35,
+        "team": [
+            {
+                "pokemon": "Clefairy",
+                "level": 24,
+                "ability": "Friend Guard",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Metronome", "", "", ""]
+            },
+            {
+                "pokemon": "Clefairy",
+                "level": 24,
+                "ability": "Friend Guard",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Metronome", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Jaden",
+        "trainerClass": 43,
+        "team": [
+            {
+                "pokemon": "Darumaka",
+                "level": 24,
+                "ability": "Inner Focus",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Fire Punch", "Heabutt", "Rage", ""]
+            },
+            {
+                "pokemon": "Axew",
+                "level": 24,
+                "ability": "Unnerve",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Dual Chop", "Slash", "Scary Face", ""]
+            }
+        ]
+    },
+    {
+        "name": "Sam",
+        "trainerClass": 8,
+        "team": [
+            {
+                "pokemon": "Dwebble",
+                "level": 24,
+                "ability": "Weak Armor",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Bug Bite", "Smack Down", "Rock Polish", ""]
+            },
+            {
+                "pokemon": "Numel",
+                "level": 24,
+                "ability": "Simple",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Lava Plume", "Bulldoze", "Focus Energy", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tami",
+        "trainerClass": 9,
+        "team": [
+            {
+                "pokemon": "Drilbur",
+                "level": 24,
+                "ability": "Sand Rush",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Bulldoze", "Slash", "Hone Claws", ""]
+            },
+            {
+                "pokemon": "Baltoy",
+                "level": 24,
+                "ability": "Levitate",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Psybeam", "Anciantpower", "Rapid Spin", ""]
+            }
+        ]
+    },
+    {
+        "name": "Walt",
+        "trainerClass": 8,
+        "team": [
+            {
+                "pokemon": "Sandile",
+                "level": 24,
+                "ability": "Moxie",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Dig", "", "", ""]
+            },
+            {
+                "pokemon": "Gligar",
+                "level": 24,
+                "ability": "Immunity",
+                "nature": "Brave",
+                "item": "Rawst Berry",
+                "moves": ["Acrobatics", "Faint Attack", "Knock Off", ""]
+            }
+        ]
+    },
+    {
+        "name": "Future",
+        "trainerClass": 49,
+        "team": [
+            {
+                "pokemon": "Drifloon",
+                "level": 24,
+                "ability": "Flare Boost",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Ominous Wind", "Payback", "Weather Ball", ""]
+            },
+            {
+                "pokemon": "Shuppet",
+                "level": 24,
+                "ability": "Insomnia",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Hex", "Covet", "Curse", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tommy",
+        "trainerClass": 48,
+        "team": [
+            {
+                "pokemon": "Woobat",
+                "level": 24,
+                "ability": "Unaware",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Air Cutter", "Heart Stamp", "Assurance", ""]
+            },
+            {
+                "pokemon": "Yamask",
+                "level": 25,
+                "ability": "Mummy",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Hex", "Will-o-Wisp", "Disable", ""]
+            }
+        ]
+    },
+    {
+        "name": "Anja",
+        "trainerClass": 44,
+        "team": [
+            {
+                "pokemon": "Magby",
+                "level": 24,
+                "ability": "Flame Body",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Flame Burst", "Clear Smog", "Faint Attack", ""]
+            },
+            {
+                "pokemon": "Cubchoo",
+                "level": 24,
+                "ability": "Rattled",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Icy Wind", "Brine", "Growl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Clara",
+        "trainerClass": 9,
+        "team": [
+            {
+                "pokemon": "Sandshrew",
+                "level": 24,
+                "ability": "Sand Rush",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Sand Tomb", "Super Fang", "Poison Tail", ""]
+            },
+            {
+                "pokemon": "Shellos",
+                "level": 24,
+                "ability": "Sand Force",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Mud Shot", "Water Pulse", "Sandstorm", ""]
+            }
+        ]
+    },
+    {
+        "name": "Perry",
+        "trainerClass": 48,
+        "team": [
+            {
+                "pokemon": "Sigilyph",
+                "level": 24,
+                "ability": "Magic Guard",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Air Cutter", "Light Screen", "Reflect", ""]
+            },
+            {
+                "pokemon": "Baltoy",
+                "level": 25,
+                "ability": "Levitate",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Psybeam", "Bulldoze", "Ancientpower", ""]
+            },
+            {
+                "pokemon": "Elgyem",
+                "level": 24,
+                "ability": "Levitate",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Flash Cannon", "Psybeam", "Hidden Power", ""]
+            }
+        ]
+    },
+    {
+        "name": "Due",
+        "trainerClass": 49,
+        "team": [
+            {
+                "pokemon": "Absol",
+                "level": 25,
+                "ability": "Justified",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Bite", "Snarl", "Quick Attack", ""]
+            },
+            {
+                "pokemon": "Espeon",
+                "level": 25,
+                "ability": "Magic Bounce",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Confusion", "Swift", "Quick Attack", ""]
+            }
+        ]
+    },
+    {
+        "name": "Low",
+        "trainerClass": 48,
+        "team": [
+            {
+                "pokemon": "Solosis",
+                "level": 24,
+                "ability": "Overcoat",
+                "nature": "Relaxed",
+                "item": "Eviolite",
+                "moves": ["Confusion", "Shadow Ball", "Charm", ""]
+            },
+            {
+                "pokemon": "Gothita",
+                "level": 24,
+                "ability": "Frisk",
+                "nature": "Rash",
+                "item": "Eviolite",
+                "moves": ["Psybeam", "Energy Ball", "Tickle", ""]
+            },
+            {
+                "pokemon": "Musharna",
+                "level": 24,
+                "ability": "Synchronize",
+                "nature": "Quiet",
+                "item": "Muscle Band",
+                "moves": ["Zen Headbutt", "Rock Slide", "Gyro Ball", ""]
+            }
+        ]
+    },
+    {
+        "name": "Nate",
+        "trainerClass": "Nate",
+        "team": [
+            {
+                "pokemon": "Dewott",
+                "level": 26,
+                "ability": "Shell Armor",
+                "nature": "Lonely",
+                "item": "Sitrus Berry",
+                "moves": ["Razor Shell", "Grass Knot", "Air Slash", ""]
+            },
+            {
+                "pokemon": "Flareon",
+                "level": 25,
+                "ability": "Flash Fire",
+                "nature": "Serious",
+                "item": "Charcoal",
+                "moves": ["Fire Fang", "Bite", "Facade", ""]
+            },
+            {
+                "pokemon": "Dunsparce",
+                "level": 25,
+                "ability": "Serene Grace",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Headbutt", "Twister", "Ancientpower", ""]
+            }
+        ]
+    },
+    {
+        "name": "Nate",
+        "trainerClass": "Nate",
+        "team": [
+            {
+                "pokemon": "Servine",
+                "level": 26,
+                "ability": "Contrary",
+                "nature": "Quirky",
+                "item": "Sitrus Berry",
+                "moves": ["Leaf Tornado", "Glare", "Leech Seed", ""]
+            },
+            {
+                "pokemon": "Vaporeon",
+                "level": 25,
+                "ability": "Water Absorb",
+                "nature": "Bashful",
+                "item": "Mystic Water",
+                "moves": ["Water Pulse", "Aurora Beam", "Heal Bell", ""]
+            },
+            {
+                "pokemon": "Dunsparce",
+                "level": 25,
+                "ability": "Serene Grace",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Headbutt", "Twister", "Ancientpower", ""]
+            }
+        ]
+    },
+    {
+        "name": "Nate",
+        "trainerClass": "Nate",
+        "team": [
+            {
+                "pokemon": "Pignite",
+                "level": 26,
+                "ability": "Thick Fat",
+                "nature": "Hardy",
+                "item": "Sitrus Berry",
+                "moves": ["Arm Thrust", "Flame Charge", "Work Up", ""]
+            },
+            {
+                "pokemon": "Jolteon",
+                "level": 25,
+                "ability": "Volt Absorb",
+                "nature": "Docile",
+                "item": "Magnet",
+                "moves": ["Shock Wave", "Pin Missile", "Double Kick", ""]
+            },
+            {
+                "pokemon": "Dunsparce",
+                "level": 25,
+                "ability": "Serene Grace",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Headbutt", "Twister", "Ancientpower", ""]
+            }
+        ]
+    },
+    {
+        "name": "Rosa",
+        "trainerClass": "Rosa",
+        "team": [
+            {
+                "pokemon": "Dewott",
+                "level": 26,
+                "ability": "Shell Armor",
+                "nature": "Lonely",
+                "item": "Sitrus Berry",
+                "moves": ["Razor Shell", "Grass Knot", "Air Slash", ""]
+            },
+            {
+                "pokemon": "Flareon",
+                "level": 25,
+                "ability": "Flash Fire",
+                "nature": "Serious",
+                "item": "Charcoal",
+                "moves": ["Fire Fang", "Bite", "Facade", ""]
+            },
+            {
+                "pokemon": "Dunsparce",
+                "level": 25,
+                "ability": "Serene Grace",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Headbutt", "Twister", "Ancientpower", ""]
+            }
+        ]
+    },
+    {
+        "name": "Rosa",
+        "trainerClass": "Rosa",
+        "team": [
+            {
+                "pokemon": "Servine",
+                "level": 26,
+                "ability": "Contrary",
+                "nature": "Quirky",
+                "item": "Sitrus Berry",
+                "moves": ["Leaf Tornado", "Glare", "Leech Seed", ""]
+            },
+            {
+                "pokemon": "Vaporeon",
+                "level": 25,
+                "ability": "Water Absorb",
+                "nature": "Bashful",
+                "item": "Mystic Water",
+                "moves": ["Water Pulse", "Aurora Beam", "Heal Bell", ""]
+            },
+            {
+                "pokemon": "Dunsparce",
+                "level": 25,
+                "ability": "Serene Grace",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Headbutt", "Twister", "Ancientpower", ""]
+            }
+        ]
+    },
+    {
+        "name": "Rosa",
+        "trainerClass": "Rosa",
+        "team": [
+            {
+                "pokemon": "Pignite",
+                "level": 26,
+                "ability": "Thick Fat",
+                "nature": "Hardy",
+                "item": "Sitrus Berry",
+                "moves": ["Arm Thrust", "Flame Charge", "Work Up", ""]
+            },
+            {
+                "pokemon": "Jolteon",
+                "level": 25,
+                "ability": "Volt Absorb",
+                "nature": "Docile",
+                "item": "Magnet",
+                "moves": ["Shock Wave", "Pin Missile", "Double Kick", ""]
+            },
+            {
+                "pokemon": "Dunsparce",
+                "level": 25,
+                "ability": "Serene Grace",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Headbutt", "Twister", "Ancientpower", ""]
+            }
+        ]
+    },
+    {
+        "name": "Ingo",
+        "trainerClass": 75,
+        "team": [
+            {
+                "pokemon": "Boldore",
+                "level": 25,
+                "ability": "Sturdy",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Smack Down", "Mud-Slap", "Curse", ""]
+            },
+            {
+                "pokemon": "Gligar",
+                "level": 25,
+                "ability": "Immunity",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Acrobatics", "Faint Attack", "U-Turn", ""]
+            },
+            {
+                "pokemon": "Tangela",
+                "level": 25,
+                "ability": "Leaf Guard",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Mega Drain", "Poisonpowder", "Leech Seed", ""]
+            }
+        ]
+    },
+    {
+        "name": "Emmet",
+        "trainerClass": 76,
+        "team": [
+            {
+                "pokemon": "Gurdurr",
+                "level": 25,
+                "ability": "Guts",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Fire Punch", "Ice Punch", "Thunderpunch", ""]
+            },
+            {
+                "pokemon": "Durant",
+                "level": 25,
+                "ability": "Hustle",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Bug Bite", "Metal Claw", "Dig", ""]
+            },
+            {
+                "pokemon": "Skarmory",
+                "level": 25,
+                "ability": "Sturdy",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Sky Drop", "Stealth Rock", "Whirlwind", ""]
+            }
+        ]
+    },
+    {
+        "name": "Hank",
+        "trainerClass": 20,
+        "team": [
+            {
+                "pokemon": "Drilbur",
+                "level": 26,
+                "ability": "Mold Breaker",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Dig", "Metal Claw", "Rapid Spin", ""]
+            },
+            {
+                "pokemon": "Minccino",
+                "level": 26,
+                "ability": "Simple",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Tail Slap", "Work Up", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Hector",
+        "trainerClass": 17,
+        "team": [
+            {
+                "pokemon": "Tranquill",
+                "level": 26,
+                "ability": "Super Luck",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Air Cutter", "Quick Attack", "Detect", ""]
+            },
+            {
+                "pokemon": "Lopunny",
+                "level": 25,
+                "ability": "Klutz",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Fake Out", "Jump Kick", "Quick Attack", ""]
+            }
+        ]
+    },
+    {
+        "name": "Ivan",
+        "trainerClass": 8,
+        "team": [
+            {
+                "pokemon": "Watchog",
+                "level": 25,
+                "ability": "Keen Eye",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Super Fang", "Crunch", "Seed Bomb", ""]
+            },
+            {
+                "pokemon": "Swablu",
+                "level": 26,
+                "ability": "Serene Grace",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Body Slam", "Sing", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Stu & Art",
+        "trainerClass": 6,
+        "team": [
+            {
+                "pokemon": "Ninetales",
+                "level": 24,
+                "ability": "Drought",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Fire Spin", "Faint Attack", "Disable", ""]
+            },
+            {
+                "pokemon": "Swadloon",
+                "level": 24,
+                "ability": "Chlorophyll",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Razor Leaf", "Bug Bite", "Protect", ""]
+            },
+            {
+                "pokemon": "Petilil",
+                "level": 24,
+                "ability": "Chlorophyll",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Mega Drain", "Synthesis", "Growth", ""]
+            },
+            {
+                "pokemon": "Deerling",
+                "level": 24,
+                "ability": "Chlorophyll",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Jump Kick", "Headbutt", "Faint Attack", ""]
+            }
+        ]
+    },
+    {
+        "name": "Krissa",
+        "trainerClass": 18,
+        "team": [
+            {
+                "pokemon": "Whirlipede",
+                "level": 25,
+                "ability": "Poison Point",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Bug Bite", "Venoshock", "Toxic Spikes", ""]
+            },
+            {
+                "pokemon": "Buizel",
+                "level": 25,
+                "ability": "Water Veil",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Scald", "Aqua Jet", "Quick Attack", ""]
+            },
+            {
+                "pokemon": "Blitzle",
+                "level": 25,
+                "ability": "Lightningrod",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Spark", "Flame Charge", "Pursuit", ""]
+            }
+        ]
+    },
+    {
+        "name": "Blossom",
+        "trainerClass": 9,
+        "team": [
+            {
+                "pokemon": "Liepard",
+                "level": 25,
+                "ability": "Limber",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Fake Out", "Pursuit", "Torment", "Thunder Wave"]
+            },
+            {
+                "pokemon": "Flaaffy",
+                "level": 26,
+                "ability": "Static",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Electro Ball", "Take Down", "Charge", ""]
+            },
+            {
+                "pokemon": "Servine",
+                "level": 26,
+                "ability": "Overgrow",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Leaf Tornado", "Glare", "Leech Seed", ""]
+            }
+        ]
+    },
+    {
+        "name": "Galen",
+        "trainerClass": 41,
+        "team": [
+            {
+                "pokemon": "Tranquill",
+                "level": 26,
+                "ability": "Serene Grace",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Air Cutter", "Quick Attack", "Roost", ""]
+            },
+            {
+                "pokemon": "Liepard",
+                "level": 26,
+                "ability": "Limber",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Pursuit", "Fury Swipes", "Fake Tears", ""]
+            }
+        ]
+    },
+    {
+        "name": "Serenity",
+        "trainerClass": 44,
+        "team": [
+            {
+                "pokemon": "Trubbish",
+                "level": 25,
+                "ability": "Stench",
+                "nature": "Relaxed",
+                "item": "Persim Berry",
+                "moves": ["Iron Head", "Poison Gas", "Haze", ""]
+            },
+            {
+                "pokemon": "Emolga",
+                "level": 25,
+                "ability": "Static",
+                "nature": "Quiet",
+                "item": "Persim Berry",
+                "moves": ["Spark", "Pursuit", "Charge", ""]
+            },
+            {
+                "pokemon": "Swoobat",
+                "level": 25,
+                "ability": "Simple",
+                "nature": "Naive",
+                "item": "Persim Berry",
+                "moves": ["Heart Stamp", "Assurance", "Super Fang", ""]
+            }
+        ]
+    },
+    {
+        "name": "Forrest",
+        "trainerClass": 43,
+        "team": [
+            {
+                "pokemon": "Ferroseed",
+                "level": 25,
+                "ability": "Iron Barbs",
+                "nature": "Quirky",
+                "item": "Cheri Berry",
+                "moves": ["Gyro Ball", "Pin Missile", "Leech Seed", ""]
+            },
+            {
+                "pokemon": "Roselia",
+                "level": 25,
+                "ability": "Leaf Guard",
+                "nature": "Sassy",
+                "item": "Cheri Berry",
+                "moves": ["Giga Drain", "Acid", "Growth", ""]
+            },
+            {
+                "pokemon": "Breloom",
+                "level": 25,
+                "ability": "Poison Heal",
+                "nature": "Calm",
+                "item": "Cheri Berry",
+                "moves": ["Mach Punch", "Mega Drain", "Headbutt", ""]
+            },
+            {
+                "pokemon": "Tropius",
+                "level": 25,
+                "ability": "Chlorophyll",
+                "nature": "Impish",
+                "item": "Cheri Berry",
+                "moves": ["Dragon Tail", "Razor Leaf", "Stomp", ""]
+            }
+        ]
+    },
+    {
+        "name": "Murphy",
+        "trainerClass": 62,
+        "team": [
+            {
+                "pokemon": "Heracross",
+                "level": 60,
+                "ability": "Moxie",
+                "nature": "Careful",
+                "item": "",
+                "moves": [
+                    "Brick Break",
+                    "Aerial Ace",
+                    "Rock Slide",
+                    "Swords Dance"
+                ]
+            },
+            {
+                "pokemon": "Pinsir",
+                "level": 60,
+                "ability": "Moxie",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["X-Scissor", "Feint", "Storm Throw", "Bulk Up"]
+            },
+            {
+                "pokemon": "Volcarona",
+                "level": 60,
+                "ability": "Flame Body",
+                "nature": "Brave",
+                "item": "",
+                "moves": [
+                    "Flame Charge",
+                    "Wild Charge",
+                    "Double-Edge",
+                    "Acrobatics"
+                ]
+            },
+            {
+                "pokemon": "Leavanny",
+                "level": 60,
+                "ability": "Swarm",
+                "nature": "Hardy",
+                "item": "",
+                "moves": [
+                    "Leaf Blade",
+                    "Shadow Claw",
+                    "Electroweb",
+                    "Swords Dance"
+                ]
+            },
+            {
+                "pokemon": "Scolipede",
+                "level": 60,
+                "ability": "Poison Point",
+                "nature": "Naughty",
+                "item": "",
+                "moves": [
+                    "Megahorn",
+                    "Poison Jab",
+                    "Rock Slide",
+                    "Swords Dance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Jenn",
+        "trainerClass": 10,
+        "team": [
+            {
+                "pokemon": "Sunflora",
+                "level": 25,
+                "ability": "Early Bird",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Flame Burst", "Razor Leaf", "Worry Seed", ""]
+            },
+            {
+                "pokemon": "Growlithe",
+                "level": 25,
+                "ability": "Flash Fire",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Fire Fang", "Take Down", "Howl", ""]
+            },
+            {
+                "pokemon": "Vespiquen",
+                "level": 24,
+                "ability": "Tinted Lens",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Wing Attack", "Fury Cutter", "Slash", ""]
+            }
+        ]
+    },
+    {
+        "name": "Horton",
+        "trainerClass": 5,
+        "team": [
+            {
+                "pokemon": "Sigilyph",
+                "level": 25,
+                "ability": "Wonder Skin",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Psybeam", "Tailwind", "", ""]
+            },
+            {
+                "pokemon": "Roselia",
+                "level": 25,
+                "ability": "Natural Cure",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Acid", "Giga Drain", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Lois",
+        "trainerClass": 44,
+        "team": [
+            {
+                "pokemon": "Ninetales",
+                "level": 25,
+                "ability": "Magic Bounce",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Flame Burst", "Hex", "Nasty Plot", ""]
+            },
+            {
+                "pokemon": "Cinccino",
+                "level": 25,
+                "ability": "Technician",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["DoubleSlap", "Swift", "Growl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Brian",
+        "trainerClass": 19,
+        "team": [
+            {
+                "pokemon": "Flareon",
+                "level": 24,
+                "ability": "Flash Fire",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Fire Fang", "Covet", "Bite", ""]
+            },
+            {
+                "pokemon": "Jolteon",
+                "level": 24,
+                "ability": "Volt Absorb",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Volt Switch", "", "", ""]
+            },
+            {
+                "pokemon": "Vaporeon",
+                "level": 24,
+                "ability": "Water Absorb",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Water Pulse", "Aurora Beam", "Growl", ""]
+            }
+        ]
+    },
+    {
+        "name": "Ava & Aya",
+        "trainerClass": 7,
+        "team": [
+            {
+                "pokemon": "Marill",
+                "level": 24,
+                "ability": "Huge Power",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Double-Edge", "BubbleBeam", "", ""]
+            },
+            {
+                "pokemon": "Flaaffy",
+                "level": 24,
+                "ability": "Static",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Volt Switch", "Take Down", "Charge", ""]
+            },
+            {
+                "pokemon": "Vullaby",
+                "level": 24,
+                "ability": "Overcoat",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Faint Attack", "Pluck", "Flatter", ""]
+            },
+            {
+                "pokemon": "Rufflet",
+                "level": 24,
+                "ability": "Hustle",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Wing Attack", "Fury Attack", "Hone Claws", ""]
+            }
+        ]
+    },
+    {
+        "name": "Preston",
+        "trainerClass": 34,
+        "team": [
+            {
+                "pokemon": "Maractus",
+                "level": 25,
+                "ability": "Storm Drain",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Needle Arm", "Pin Missile", "Spikes", ""]
+            },
+            {
+                "pokemon": "Magnemite",
+                "level": 25,
+                "ability": "Sturdy",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Mirror Shot", "Shock Wave", "", ""]
+            },
+            {
+                "pokemon": "Archen",
+                "level": 25,
+                "ability": "Defeatist",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Pluck", "Rock Tomb", "Scary Face", ""]
+            }
+        ]
+    },
+    {
+        "name": "Persephone",
+        "trainerClass": 2,
+        "team": [
+            {
+                "pokemon": "Liepard",
+                "level": 25,
+                "ability": "Prankster",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Fake Out", "Pursuit", "Fury Swipes", "Torment"]
+            },
+            {
+                "pokemon": "Numel",
+                "level": 25,
+                "ability": "Simple",
+                "nature": "Lax",
+                "item": "",
+                "moves": [
+                    "Lava Plume",
+                    "Flame Burst",
+                    "Amnesia",
+                    "Focus Energy"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "June",
+        "trainerClass": 36,
+        "team": [
+            {
+                "pokemon": "Swadloon",
+                "level": 25,
+                "ability": "Swarm",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Bug Bite", "Razor Leaf", "String Shot", "Protect"]
+            },
+            {
+                "pokemon": "Audino",
+                "level": 25,
+                "ability": "Regenerator",
+                "nature": "Quirky",
+                "item": "",
+                "moves": [
+                    "Doubleslap",
+                    "Secret Power",
+                    "Heal Bell",
+                    "Helping Hand"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Trisha",
+        "trainerClass": 15,
+        "team": [
+            {
+                "pokemon": "Minccino",
+                "level": 25,
+                "ability": "Technician",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Tail Slap", "Swift", "Encore", "Sing"]
+            },
+            {
+                "pokemon": "Donphan",
+                "level": 25,
+                "ability": "Sturdy",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Brick Break", "Bulldoze", "Rollout", "Slam"]
+            }
+        ]
+    },
+    {
+        "name": "December",
+        "trainerClass": 67,
+        "team": [
+            {
+                "pokemon": "Flaaffy",
+                "level": 25,
+                "ability": "Static",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Electro Ball", "Take Down", "Charge", "Cotton Spore"]
+            },
+            {
+                "pokemon": "Litwick",
+                "level": 25,
+                "ability": "Flame Body",
+                "nature": "Quirky",
+                "item": "",
+                "moves": [
+                    "Flame Burst",
+                    "Night Shade",
+                    "Will-o-Wisp",
+                    "Imprison"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dirk",
+        "trainerClass": 19,
+        "team": [
+            {
+                "pokemon": "Darumaka",
+                "level": 25,
+                "ability": "Hustle",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Fire Punch", "Facade", "Uproar", "Work Out"]
+            },
+            {
+                "pokemon": "Mienfoo",
+                "level": 25,
+                "ability": "Inner Focus",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Fake Out", "Doubleslap", "Swift", "Calm Mind"]
+            }
+        ]
+    },
+    {
+        "name": "Augustin",
+        "trainerClass": 14,
+        "team": [
+            {
+                "pokemon": "Tranquill",
+                "level": 25,
+                "ability": "Rivalry",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Air Cutter", "Quick Attack", "Roost", "Detect"]
+            },
+            {
+                "pokemon": "Basculin",
+                "level": 25,
+                "ability": "Mold Breaker",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Aqua Jet", "Crunch", "Take Down", "Chip Away"]
+            }
+        ]
+    },
+    {
+        "name": "Andy",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemon": "Boldore",
+                "level": 25,
+                "ability": "Sand Force",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Rock Blast", "Power Gem", "Mud-Slap", "Iron Defense"]
+            },
+            {
+                "pokemon": "Trapinch",
+                "level": 25,
+                "ability": "Sheer Force",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Bulldoze", "Bug Bite", "Rock Slide", "Mud-Slap"]
+            }
+        ]
+    },
+    {
+        "name": "January",
+        "trainerClass": 68,
+        "team": [
+            {
+                "pokemon": "Whirlipede",
+                "level": 25,
+                "ability": "Poison Point",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Bug Bite", "Poison Tail", "Iron Defense", "Protect"]
+            },
+            {
+                "pokemon": "Blitzle",
+                "level": 25,
+                "ability": "Lightningrod",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Spark", "Pursuit", "Flame Charge", "Thunder Wave"]
+            }
+        ]
+    },
+    {
+        "name": "Rolan",
+        "trainerClass": 50,
+        "team": [
+            {
+                "pokemon": "Blitzle",
+                "level": 26,
+                "ability": "Motor Drive",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Spark", "Pursuit", "Flame Charge", ""]
+            },
+            {
+                "pokemon": "Emolga",
+                "level": 26,
+                "ability": "Static",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Shock Wave", "Thunder Wave", "Charge", ""]
+            }
+        ]
+    },
+    {
+        "name": "Colette",
+        "trainerClass": 30,
+        "team": [
+            {
+                "pokemon": "Joltik",
+                "level": 26,
+                "ability": "Compoundeyes",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Electroweb", "Bug Bite", "Gastro Acid", ""]
+            },
+            {
+                "pokemon": "Tynamo",
+                "level": 26,
+                "ability": "Levitate",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Charge Beam", "Spark", "Thunder Wave", ""]
+            },
+            {
+                "pokemon": "Stunfisk",
+                "level": 26,
+                "ability": "Limber",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Discharge", "Mud Bomb", "Yawn", ""]
+            }
+        ]
+    },
+    {
+        "name": "Nikola",
+        "trainerClass": 67,
+        "team": [
+            {
+                "pokemon": "Elekid",
+                "level": 28,
+                "ability": "Static",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Thunderpunch", "Karate Chop", "Quick Attack", ""]
+            },
+            {
+                "pokemon": "Magnemite",
+                "level": 28,
+                "ability": "Sturdy",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Flash Cannon", "Volt Switch", "Signal Beam", ""]
+            },
+            {
+                "pokemon": "Joltik",
+                "level": 28,
+                "ability": "Unnerve",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Electroweb", "Struggle Bug", "Energy Ball", ""]
+            }
+        ]
+    },
+    {
+        "name": "Fleming",
+        "trainerClass": 67,
+        "team": [
+            {
+                "pokemon": "Flaaffy",
+                "level": 29,
+                "ability": "Plus",
+                "nature": "Brave",
+                "item": "Choice Scarf",
+                "moves": ["Electro Ball", "", "", ""]
+            },
+            {
+                "pokemon": "Klink",
+                "level": 29,
+                "ability": "Minus",
+                "nature": "Naughty",
+                "item": "Choice Scarf",
+                "moves": ["Flash Cannon", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Ampre",
+        "trainerClass": 67,
+        "team": [
+            {
+                "pokemon": "Jolteon",
+                "level": 27,
+                "ability": "Volt Absorb",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Volt Switch", "Pin Missile", "Double Kick", ""]
+            },
+            {
+                "pokemon": "Nosepass",
+                "level": 27,
+                "ability": "Sturdy",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Rock Slide", "Thunder Wave", "Stealth Rock", ""]
+            },
+            {
+                "pokemon": "Rotom",
+                "level": 27,
+                "ability": "Levitate",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Electro Ball", "Hex", "Charge", ""]
+            },
+            {
+                "pokemon": "Magneton",
+                "level": 30,
+                "ability": "Analytic",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Volt Switch", "Gyro Ball", "Thunder Wave", ""]
+            }
+        ]
+    },
+    {
+        "name": "Elesa",
+        "trainerClass": 80,
+        "team": [
+            {
+                "pokemon": "Emolga",
+                "level": 28,
+                "ability": "Static",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Volt Switch", "Air Slash", "Quick Attack", ""]
+            },
+            {
+                "pokemon": "Stunfisk",
+                "level": 28,
+                "ability": "Static",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Shock Wave", "Bulldoze", "Thunder Wave", ""]
+            },
+            {
+                "pokemon": "Emolga",
+                "level": 29,
+                "ability": "Motor Drive",
+                "nature": "Serious",
+                "item": "Sitrus Berry",
+                "moves": ["Volt Switch", "Acrobatics", "Pursuit", ""]
+            },
+            {
+                "pokemon": "Roserade",
+                "level": 29,
+                "ability": "Leaf Guard",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Mega Drain", "Acid", "Stun Spore", ""]
+            },
+            {
+                "pokemon": "Ampharos",
+                "level": 30,
+                "ability": "Static",
+                "nature": "Hasty",
+                "item": "Muscle Band",
+                "moves": ["ThunderPunch", "Dragon Tail", "Charge", ""]
+            },
+            {
+                "pokemon": "Zebstrika",
+                "level": 30,
+                "ability": "Motor Drive",
+                "nature": "Adamant",
+                "item": "Air Balloon",
+                "moves": ["Wild Charge", "Quick Attack", "Flame Charge", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Trubbish",
+                "level": 29,
+                "ability": "Stench",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Iron Head", "Sludge", "Haze", ""]
+            },
+            {
+                "pokemon": "Umbreon",
+                "level": 28,
+                "ability": "Inner Focus",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Faint Attack", "Helping Hand", "Confuse Ray", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Watchog",
+                "level": 29,
+                "ability": "Keen Eye",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Super Fang", "Crunch", "Iron Tail", ""]
+            },
+            {
+                "pokemon": "Espeon",
+                "level": 28,
+                "ability": "Magic Bounce",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Psybeam", "Swift", "Hidden Power", ""]
+            }
+        ]
+    },
+    {
+        "name": "Elliot",
+        "trainerClass": 39,
+        "team": [
+            {
+                "pokemon": "Servine",
+                "level": 30,
+                "ability": "Overgrow",
+                "nature": "Careful",
+                "item": "Grass Gem",
+                "moves": ["Leaf Tornado", "Body Slam", "Leech Seed", ""]
+            },
+            {
+                "pokemon": "Pignite",
+                "level": 30,
+                "ability": "Blaze",
+                "nature": "Hasty",
+                "item": "Fire Gem",
+                "moves": ["Flame Charge", "Arm Thrust", "Tail Whip", ""]
+            },
+            {
+                "pokemon": "Dewott",
+                "level": 30,
+                "ability": "Torrent",
+                "nature": "Lax",
+                "item": "Water Gem",
+                "moves": ["Razor Shell", "Fury Cutter", "Sharpen", ""]
+            }
+        ]
+    },
+    {
+        "name": "Talon",
+        "trainerClass": 8,
+        "team": [
+            {
+                "pokemon": "Croagunk",
+                "level": 31,
+                "ability": "Poison Touch",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Sucker Punch", "Revenge", "Taunt", ""]
+            },
+            {
+                "pokemon": "Pinsir",
+                "level": 30,
+                "ability": "Hyper Cutter",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["X-Scissor", "Submission", "Bind", ""]
+            }
+        ]
+    },
+    {
+        "name": "Corin",
+        "trainerClass": 9,
+        "team": [
+            {
+                "pokemon": "Herdier",
+                "level": 30,
+                "ability": "Intimidate",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Headbutt", "Crunch", "Leer", ""]
+            },
+            {
+                "pokemon": "Golett",
+                "level": 30,
+                "ability": "No Guard",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Shadow Punch", "Mega Punch", "Iron Defense", ""]
+            },
+            {
+                "pokemon": "Magmar",
+                "level": 30,
+                "ability": "Vital Spirit",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Fire Punch", "Clear Smog", "Faint Attack", ""]
+            }
+        ]
+    },
+    {
+        "name": "Lydia",
+        "trainerClass": 40,
+        "team": [
+            {
+                "pokemon": "Liepard",
+                "level": 30,
+                "ability": "Limber",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Foul Play", "Torment", "Taunt", ""]
+            },
+            {
+                "pokemon": "Mawile",
+                "level": 30,
+                "ability": "Huge Power",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Poison Fang", "Faint Attack", "Fake Tears", ""]
+            },
+            {
+                "pokemon": "Milotic",
+                "level": 30,
+                "ability": "Marvel Scale",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Whirlpool", "Dragon Tail", "Aqua Ring", ""]
+            }
+        ]
+    },
+    {
+        "name": "Charles",
+        "trainerClass": 33,
+        "team": [
+            {
+                "pokemon": "Tirtouga",
+                "level": 29,
+                "ability": "Sturdy",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Brine", "Ancientpower", "Protect", ""]
+            },
+            {
+                "pokemon": "Sigilyph",
+                "level": 30,
+                "ability": "Tinted Lens",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Psybeam", "Air Cutter", "Light Screen", "Reflect"]
+            },
+            {
+                "pokemon": "Archen",
+                "level": 29,
+                "ability": "Defeatist",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Wing Attack", "Rock Tomb", "Agility", ""]
+            }
+        ],
+        "notes": "Triple Battle"
+    },
+    {
+        "name": "Charles",
+        "trainerClass": 33,
+        "team": [
+            {
+                "pokemon": "Sigilyph",
+                "level": 30,
+                "ability": "Tinted Lens",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Psybeam", "Air Cutter", "Light Screen", "Reflect"]
+            },
+            {
+                "pokemon": "Tirtouga",
+                "level": 29,
+                "ability": "Sturdy",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Brine", "Ancientpower", "Protect", ""]
+            },
+            {
+                "pokemon": "Archen",
+                "level": 29,
+                "ability": "Defeatist",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Wing Attack", "Rock Tomb", "Agility", ""]
+            }
+        ],
+        "notes": "Rotation Battle"
+    },
+    {
+        "name": "Rood",
+        "trainerClass": "Rood",
+        "team": [
+            {
+                "pokemon": "Gurdurr",
+                "level": 28,
+                "ability": "Guts",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Wake-Up Slap", "Rock Tomb", "Chip Away", ""]
+            },
+            {
+                "pokemon": "Swoobat",
+                "level": 28,
+                "ability": "Unaware",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Heart Stamp", "Super Fang", "Trick Room", ""]
+            },
+            {
+                "pokemon": "Zorua",
+                "level": 28,
+                "ability": "Illusion",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Foul Play", "Facade", "Leer", ""]
+            },
+            {
+                "pokemon": "Herdier",
+                "level": 28,
+                "ability": "Intimidate",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Headbutt", "Lick", "Helping Hand", ""]
+            }
+        ]
+    },
+    {
+        "name": "April",
+        "trainerClass": 42,
+        "team": [
+            {
+                "pokemon": "Minccino",
+                "level": 30,
+                "ability": "Simple",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Tail Slap", "Swift", "Work Up", ""]
+            },
+            {
+                "pokemon": "Ducklett",
+                "level": 30,
+                "ability": "Big Pecks",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Air Slash", "Water Pulse", "Featherdance", ""]
+            }
+        ]
+    },
+    {
+        "name": "Nicole",
+        "trainerClass": 37,
+        "team": [
+            {
+                "pokemon": "Castform",
+                "level": 30,
+                "ability": "Forecast",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Weather Ball", "Headbutt", "", ""]
+            },
+            {
+                "pokemon": "Poliwhirl",
+                "level": 29,
+                "ability": "Swift Swim",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Bubblebeam", "Body Slam", "Rain Dance", ""]
+            }
+        ]
+    },
+    {
+        "name": "Mara",
+        "trainerClass": 53,
+        "team": [
+            {
+                "pokemon": "Deerling",
+                "level": 29,
+                "ability": "Sap Sipper",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Jump Kick", "Headbutt", "Aromatherapy", ""]
+            },
+            {
+                "pokemon": "Shelmet",
+                "level": 29,
+                "ability": "Hydration",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Struggle Bug", "Mega Drain", "Yawn", "Protect"]
+            },
+            {
+                "pokemon": "Palpitoad",
+                "level": 29,
+                "ability": "Water Absorb",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Muddy Water", "Mud Shot", "Icy Wind", ""]
+            }
+        ]
+    },
+    {
+        "name": "Jacques",
+        "trainerClass": 54,
+        "team": [
+            {
+                "pokemon": "Deerling",
+                "level": 28,
+                "ability": "Serene Grace",
+                "nature": "Quiet",
+                "item": "",
+                "moves": [
+                    "Jump Kick",
+                    "Headbutt",
+                    "Faint Attack",
+                    "Aromatherapy"
+                ]
+            },
+            {
+                "pokemon": "Deerling",
+                "level": 28,
+                "ability": "Serene Grace",
+                "nature": "Quiet",
+                "item": "",
+                "moves": [
+                    "Jump Kick",
+                    "Headbutt",
+                    "Faint Attack",
+                    "Aromatherapy"
+                ]
+            },
+            {
+                "pokemon": "Deerling",
+                "level": 28,
+                "ability": "Serene Grace",
+                "nature": "Quiet",
+                "item": "",
+                "moves": [
+                    "Jump Kick",
+                    "Headbutt",
+                    "Faint Attack",
+                    "Aromatherapy"
+                ]
+            },
+            {
+                "pokemon": "Deerling",
+                "level": 28,
+                "ability": "Serene Grace",
+                "nature": "Quiet",
+                "item": "",
+                "moves": [
+                    "Jump Kick",
+                    "Headbutt",
+                    "Faint Attack",
+                    "Aromatherapy"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Marissa",
+        "trainerClass": 55,
+        "team": [
+            {
+                "pokemon": "Shelmet",
+                "level": 30,
+                "ability": "Shell Armor",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Giga Drain", "Bug Bite", "Acid", ""]
+            },
+            {
+                "pokemon": "Karrablast",
+                "level": 30,
+                "ability": "Swarm",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Bug Buzz", "Fury Attack", "Peck", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tihana",
+        "trainerClass": 42,
+        "team": [
+            {
+                "pokemon": "Castform",
+                "level": 30,
+                "ability": "Forecast",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Weather Ball", "Headbutt", "Sunny Day", ""]
+            },
+            {
+                "pokemon": "Drifblim",
+                "level": 29,
+                "ability": "Flare Boost",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Hex", "Air Cutter", "Disable", ""]
+            }
+        ]
+    },
+    {
+        "name": "Alvin",
+        "trainerClass": 52,
+        "team": [
+            {
+                "pokemon": "Foongus",
+                "level": 29,
+                "ability": "Damp",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Giga Drain", "Faint Attack", "Acid", ""]
+            },
+            {
+                "pokemon": "Karrablast",
+                "level": 29,
+                "ability": "Shed Skin",
+                "nature": "Brave",
+                "item": "",
+                "moves": ["Bug Bite", "Poison Jab", "Knock Off", ""]
+            },
+            {
+                "pokemon": "Aron",
+                "level": 30,
+                "ability": "Sturdy",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Iron Head", "Rock Tomb", "Headbutt", ""]
+            }
+        ]
+    },
+    {
+        "name": "Richard",
+        "trainerClass": 43,
+        "team": [
+            {
+                "pokemon": "Pinsir",
+                "level": 29,
+                "ability": "Hyper Cutter",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["X-Scissor", "Submission", "Seismic Toss", ""]
+            },
+            {
+                "pokemon": "Zangoose",
+                "level": 29,
+                "ability": "Toxic Boost",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Crush Claw", "Revenge", "Pursuit", ""]
+            },
+            {
+                "pokemon": "Floatzel",
+                "level": 29,
+                "ability": "Moxie",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Dive", "Crunch", "Ice Fang", ""]
+            }
+        ]
+    },
+    {
+        "name": "Noel",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Gligar",
+                "level": 30,
+                "ability": "Hyper Cutter",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Acrobatics", "U-Turn", "Knock Off", ""]
+            },
+            {
+                "pokemon": "Onix",
+                "level": 30,
+                "ability": "Sturdy",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Smack Down", "Bulldoze", "Stealth Rock", ""]
+            },
+            {
+                "pokemon": "Trapinch",
+                "level": 31,
+                "ability": "Sheer Force",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Bulldoze", "Rock Slide", "Bug Bite", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tavarius",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Drilbur",
+                "level": 30,
+                "ability": "Sand Rush",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Rock Slide", "Metal Claw", "Rock Smash", ""]
+            },
+            {
+                "pokemon": "Krokorok",
+                "level": 30,
+                "ability": "Moxie",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Assurance", "Sand Tomb", "Sandstorm", ""]
+            },
+            {
+                "pokemon": "Golett",
+                "level": 30,
+                "ability": "Iron Fist",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Shadow Punch", "Mega Punch", "Mud-Slap", ""]
+            }
+        ]
+    },
+    {
+        "name": "Niel",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Baltoy",
+                "level": 31,
+                "ability": "Levitate",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Extrasensory", "Ancientpower", "Cosmic Power", ""]
+            },
+            {
+                "pokemon": "Stunfisk",
+                "level": 30,
+                "ability": "Limber",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Mud Shot", "Discharge", "Pain Split", ""]
+            },
+            {
+                "pokemon": "Palpitoad",
+                "level": 31,
+                "ability": "Water Absorb",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Muddy Water", "Mud Shot", "Uproar", ""]
+            }
+        ]
+    },
+    {
+        "name": "Friedrich",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Piloswine",
+                "level": 33,
+                "ability": "Thick Fat",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Ice Shard", "Earthquake", "Rock Climb", ""]
+            },
+            {
+                "pokemon": "Vibrava",
+                "level": 35,
+                "ability": "Levitate",
+                "nature": "Rash",
+                "item": "",
+                "moves": ["Bug Bite", "Sand Tomb", "Feint", ""]
+            }
+        ]
+    },
+    {
+        "name": "Pasqual",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Pupitar",
+                "level": 31,
+                "ability": "Shed Skin",
+                "nature": "Gentle",
+                "item": "Eviolite",
+                "moves": ["Rock Slide", "Stealth Rock", "Sandstorm", ""]
+            },
+            {
+                "pokemon": "Donphan",
+                "level": 31,
+                "ability": "Sturdy",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Brick Break", "Bone Rush", "Rapid Spin", ""]
+            },
+            {
+                "pokemon": "Steelix",
+                "level": 31,
+                "ability": "Rock Head",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Iron Head", "Earth Power", "Rock Tomb", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tibor",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Maractus",
+                "level": 31,
+                "ability": "Sand Rush",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Giga Drain", "Drain Punch", "Leech Seed", ""]
+            },
+            {
+                "pokemon": "Sandslash",
+                "level": 31,
+                "ability": "Sand Force",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Bone Rush", "Rock Slide", "Metal Claw", ""]
+            },
+            {
+                "pokemon": "Herdier",
+                "level": 31,
+                "ability": "Sand Rush",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Fire Fang", "Thunder Fang", "Ice Fang", ""]
+            },
+            {
+                "pokemon": "Boldore",
+                "level": 31,
+                "ability": "Sand Force",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Rock Blast", "Heavy Slam", "Mud-Slap", ""]
+            }
+        ]
+    },
+    {
+        "name": "Maynard",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": "Mamoswine",
+                "level": 34,
+                "ability": "Intimidate",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Bulldoze", "Ice Fang", "Ancientpower", ""]
+            },
+            {
+                "pokemon": "Claydol",
+                "level": 36,
+                "ability": "Levitate",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Extrasensory", "Ancientpower", "Calm Mind", ""]
+            }
+        ]
+    },
+    {
+        "name": "Clay",
+        "trainerClass": 81,
+        "team": [
+            {
+                "pokemon": "Krokorok",
+                "level": 32,
+                "ability": "Intimidate",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Crunch", "Dig", "Torment", "Stealth Rock"]
+            },
+            {
+                "pokemon": "Sandslash",
+                "level": 32,
+                "ability": "Sand Rush",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Bone Rush", "Smack Down", "Iron Tail", "Super Fang"]
+            },
+            {
+                "pokemon": "Gastrodon",
+                "level": 33,
+                "ability": "Storm Drain",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Brine", "Mud Bomb", "Icy Wind", "Sandstorm"]
+            },
+            {
+                "pokemon": "Camerupt",
+                "level": 33,
+                "ability": "Solid Rock",
+                "nature": "Serious",
+                "item": "Passho Berry",
+                "moves": ["Lava Plume", "Bulldoze", "Rock Slide", "Sandstorm"]
+            },
+            {
+                "pokemon": "Gliscor",
+                "level": 34,
+                "ability": "Poison Heal",
+                "nature": "Gentle",
+                "item": "Toxic Orb",
+                "moves": ["Aerial Ace", "Ice Fang", "Thunder Fang", "Sandstorm"]
+            },
+            {
+                "pokemon": "Excadrill",
+                "level": 34,
+                "ability": "Sand Rush",
+                "nature": "Lax",
+                "item": "Focus Sash",
+                "moves": ["Earthquake", "Iron Head", "Rock Slide", "Rapid Spin"]
+            }
+        ]
+    },
+    {
+        "name": "Maggie",
+        "trainerClass": 68,
+        "team": [
+            {
+                "pokemon": "Emolga",
+                "level": 31,
+                "ability": "Static",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Acrobatics", "Electro Ball", "Charge", ""]
+            },
+            {
+                "pokemon": "Scolipede",
+                "level": 30,
+                "ability": "Quick Feet",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Poison Tail", "Venoshock", "Bug Bite", ""]
+            }
+        ]
+    },
+    {
+        "name": "Ronald",
+        "trainerClass": 54,
+        "team": [
+            {
+                "pokemon": "Magneton",
+                "level": 31,
+                "ability": "Magnet Pull",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Thunderbolt", "Mirror Shot", "Magnet Rise", ""]
+            },
+            {
+                "pokemon": "Ditto",
+                "level": 31,
+                "ability": "Impostor",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Transform", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Eileen",
+        "trainerClass": 9,
+        "team": [
+            {
+                "pokemon": "Sandslash",
+                "level": 32,
+                "ability": "Sand Rush",
+                "nature": "Bold",
+                "item": "",
+                "moves": ["Bone Rush", "Slash", "Rapid Spin", ""]
+            },
+            {
+                "pokemon": "Arcanine",
+                "level": 31,
+                "ability": "Intimidate",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Flame Wheel", "Take Down", "Bite", ""]
+            }
+        ]
+    },
+    {
+        "name": "Keith",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemon": "Sneasel",
+                "level": 31,
+                "ability": "Pickpocket",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Faint Attack", "Icy Wind", "Metal Claw", ""]
+            },
+            {
+                "pokemon": "Boldore",
+                "level": 31,
+                "ability": "Sturdy",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Rock Slide", "Mud-Slap", "Curse", ""]
+            },
+            {
+                "pokemon": "Metang",
+                "level": 32,
+                "ability": "Clear Body",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Bullet Punch", "Psychic", "Scary Face", ""]
+            }
+        ]
+    },
+    {
+        "name": "Randall",
+        "trainerClass": 8,
+        "team": [
+            {
+                "pokemon": "Raticate",
+                "level": 31,
+                "ability": "Guts",
+                "nature": "Quiet",
+                "item": "Flame Orb",
+                "moves": ["Hyper Fang", "Pursuit", "Protect", ""]
+            },
+            {
+                "pokemon": "Piloswine",
+                "level": 33,
+                "ability": "Thick Fat",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Bulldoze", "Rock Climb", "Double Hit", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tobias",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemon": "Ferroseed",
+                "level": 32,
+                "ability": "Iron Barbs",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Gyro Ball", "Pin Missile", "Leech Seed", ""]
+            },
+            {
+                "pokemon": "Gurdurr",
+                "level": 32,
+                "ability": "Iron Fist",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Wake-Up Slap", "Thunderpunch", "Bulk Up", ""]
+            },
+            {
+                "pokemon": "Palpitoad",
+                "level": 32,
+                "ability": "Water Absorb",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Muddy Water", "Mud Shot", "Round", ""]
+            }
+        ]
+    },
+    {
+        "name": "Tully",
+        "trainerClass": 49,
+        "team": [
+            {
+                "pokemon": "Swoobat",
+                "level": 33,
+                "ability": "Unaware",
+                "nature": "Lonely",
+                "item": "",
+                "moves": ["Heart Stamp", "Air Cutter", "Roost", "Trick Room"]
+            },
+            {
+                "pokemon": "Gothorita",
+                "level": 33,
+                "ability": "Frisk",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Fake Out", "Psyshock", "Flatter", ""]
+            }
+        ]
+    },
+    {
+        "name": "Annie",
+        "trainerClass": 9,
+        "team": [
+            {
+                "pokemon": "Watchog",
+                "level": 33,
+                "ability": "Scrappy",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Low Kick", "Seed Bomb", "Iron Tail", ""]
+            },
+            {
+                "pokemon": "Floatzel",
+                "level": 33,
+                "ability": "Moxie",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Aqua Jet", "Ice Fang", "Headbutt", ""]
+            }
+        ]
+    },
+    {
+        "name": "Ena",
+        "trainerClass": 48,
+        "team": [
+            {
+                "pokemon": "Baltoy",
+                "level": 33,
+                "ability": "Levitate",
+                "nature": "Quirky",
+                "item": "",
+                "moves": ["Selfdestruct", "", "", ""]
+            },
+            {
+                "pokemon": "Cofagrigus",
+                "level": 34,
+                "ability": "Mummy",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Shadow Ball", "Knock Off", "Imprison", "Protect"]
+            },
+            {
+                "pokemon": "Drifblim",
+                "level": 32,
+                "ability": "Aftermath",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Hex", "Air Cutter", "Weather Ball", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Koffing",
+                "level": 32,
+                "ability": "Levitate",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Clear Smog", "Gyro Ball", "Poison Gas", ""]
+            },
+            {
+                "pokemon": "Qwilfish",
+                "level": 31,
+                "ability": "Intimidate",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Aqua Jet", "Revenge", "Toxic Spikes", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Trubbish",
+                "level": 31,
+                "ability": "Stench",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Iron Head", "Sludge Bomb", "Haze", ""]
+            },
+            {
+                "pokemon": "Sableye",
+                "level": 31,
+                "ability": "Prankster",
+                "nature": "Gentle",
+                "item": "",
+                "moves": ["Fake Out", "Knock Off", "Shadow Sneak", ""]
+            },
+            {
+                "pokemon": "Zangoose",
+                "level": 31,
+                "ability": "Toxic Boost",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Slash", "Pursuit", "Metal Claw", ""]
+            }
+        ]
+    },
+    {
+        "name": "Cheren",
+        "trainerClass": 77,
+        "team": [
+            {
+                "pokemon": "Stoutland",
+                "level": 33,
+                "ability": "Intimidate",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Strength", "Crunch", "Thunder Fang", "Fire Fang"]
+            },
+            {
+                "pokemon": "Watchog",
+                "level": 31,
+                "ability": "Scrappy",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Hyper Fang", "Low Kick", "Crunch", "Hypnosis"]
+            },
+            {
+                "pokemon": "Clefairy",
+                "level": 31,
+                "ability": "Friend Guard",
+                "nature": "Hasty",
+                "item": "Eviolite",
+                "moves": ["Psyshock", "Ice Beam", "Grass Knot", "Thunder Wave"]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Golbat",
+                "level": 32,
+                "ability": "Infiltrator",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Wing Attack", "Bite", "Confuse Ray", ""]
+            },
+            {
+                "pokemon": "Liepard",
+                "level": 32,
+                "ability": "Unburden",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Fake Out", "Foul Play", "Fake Tears", ""]
+            },
+            {
+                "pokemon": "Durant",
+                "level": 32,
+                "ability": "Hustle",
+                "nature": "Mild",
+                "item": "",
+                "moves": ["Bug Bite", "Metal Claw", "Crunch", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Ferroseed",
+                "level": 32,
+                "ability": "Iron Barbs",
+                "nature": "Bashful",
+                "item": "",
+                "moves": ["Gyro Ball", "Leech Seed", "Spikes", ""]
+            },
+            {
+                "pokemon": "Krokorok",
+                "level": 32,
+                "ability": "Anger Point",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Dig", "Assurance", "Leer", ""]
+            },
+            {
+                "pokemon": "Heatmor",
+                "level": 32,
+                "ability": "White Smoke",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Flame Burst", "Incinerate", "Fury Swipes", ""]
+            }
+        ]
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Pignite",
+                "level": 33,
+                "ability": "Thick Fat",
+                "nature": "Adamant",
+                "item": "Charcoal",
+                "moves": ["Heat Crash", "Arm Thrust", "Take Down", "Rollout"]
+            },
+            {
+                "pokemon": "Simipour",
+                "level": 31,
+                "ability": "Torrent",
+                "nature": "Bold",
+                "item": "Sitrus Berry",
+                "moves": ["Brine", "Bite", "Acrobatics", "Low Kick"]
+            },
+            {
+                "pokemon": "Tranquill",
+                "level": 31,
+                "ability": "Serene Grace",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Aerial Ace", "Quick Attack", "Leer", "Roost"]
+            }
+        ],
+        "notes": "If the player chose Snivy"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Dewott",
+                "level": 33,
+                "ability": "Shell Armor",
+                "nature": "Jolly",
+                "item": "Mystic Water",
+                "moves": ["Razor Shell", "Aqua Jet", "Revenge", "Night Slash"]
+            },
+            {
+                "pokemon": "Simisage",
+                "level": 31,
+                "ability": "Overgrow",
+                "nature": "Bashful",
+                "item": "Sitrus Berry",
+                "moves": ["Seed Bomb", "Bite", "Acrobatics", "Low Kick"]
+            },
+            {
+                "pokemon": "Tranquill",
+                "level": 31,
+                "ability": "Serene Grace",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Aerial Ace", "Quick Attack", "Leer", "Roost"]
+            }
+        ],
+        "notes": "If the player chose Tepig"
+    },
+    {
+        "name": "Hugh",
+        "trainerClass": 85,
+        "team": [
+            {
+                "pokemon": "Servine",
+                "level": 33,
+                "ability": "Contrary",
+                "nature": "Adamant",
+                "item": "Miracle Seed",
+                "moves": ["Leaf Blade", "Body Slam", "Leech Seed", "Glare"]
+            },
+            {
+                "pokemon": "Simisear",
+                "level": 31,
+                "ability": "Blaze",
+                "nature": "Bold",
+                "item": "Sitrus Berry",
+                "moves": ["Flame Burst", "Bite", "Acrobatics", "Low Kick"]
+            },
+            {
+                "pokemon": "Tranquill",
+                "level": 31,
+                "ability": "Serene Grace",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Aerial Ace", "Quick Attack", "Leer", "Roost"]
+            }
+        ],
+        "notes": "If the player chose Oshawott"
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Axew",
+                "level": 32,
+                "ability": "Unnerve",
+                "nature": "Lax",
+                "item": "",
+                "moves": ["Dragon Claw", "Slash", "Dragon Dance", ""]
+            },
+            {
+                "pokemon": "Watchog",
+                "level": 32,
+                "ability": "Analytic",
+                "nature": "Naughty",
+                "item": "",
+                "moves": ["Hyper Fang", "Crunch", "Confuse Ray", ""]
+            },
+            {
+                "pokemon": "Zangoose",
+                "level": 32,
+                "ability": "Toxic Boost",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Crush Claw", "Metal Claw", "Quick Attack", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 69,
+        "team": [
+            {
+                "pokemon": "Grimer",
+                "level": 32,
+                "ability": "Poison Touch",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Crunch", "Mud Bomb", "Disable", "Poison Gas"]
+            },
+            {
+                "pokemon": "Raticate",
+                "level": 32,
+                "ability": "Guts",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Hyper Fang", "Assurance", "Zen Headbutt", ""]
+            },
+            {
+                "pokemon": "Seviper",
+                "level": 32,
+                "ability": "Intimidate",
+                "nature": "Calm",
+                "item": "",
+                "moves": ["Poison Tail", "Night Slash", "Wrap", ""]
+            }
+        ]
+    },
+    {
+        "name": "Grunt",
+        "trainerClass": 98,
+        "team": [
+            {
+                "pokemon": "Tirtouga",
+                "level": 33,
+                "ability": "Solid Rock",
+                "nature": "Docile",
+                "item": "",
+                "moves": ["Waterfall", "Ancientpower", "Aqua Jet", "Wide Guard"]
+            },
+            {
+                "pokemon": "Archen",
+                "level": 33,
+                "ability": "Defeatist",
+                "nature": "Adamant",
+                "item": "",
+                "moves": [
+                    "Acrobatics",
+                    "Rock Tomb",
+                    "Dragonbreath",
+                    "Quick Guard"
+                ]
+            },
+            {
+                "pokemon": "Axew",
+                "level": 34,
+                "ability": "Mold Breaker",
+                "nature": "Naughty",
+                "item": "Eviolite",
+                "moves": ["Dragon Claw", "Assurance", "Slash", "Dragon Dance"]
+            }
+        ]
+    },
+    {
+        "name": "Geoff",
+        "trainerClass": 3,
+        "team": [
+            {
+                "pokemon": "Sableye",
+                "level": 34,
+                "ability": "Prankster",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Fake Out", "Shadow Claw", "Mean Look", "Will-o-Wisp"]
+            },
+            {
+                "pokemon": "Mawile",
+                "level": 34,
+                "ability": "Sheer Force",
+                "nature": "Impish",
+                "item": "",
+                "moves": [
+                    "Fire Fang",
+                    "Thunder Fang",
+                    "Ice Fang",
+                    "Poison Fang"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Belle",
+        "trainerClass": 4,
+        "team": [
+            {
+                "pokemon": "Sableye",
+                "level": 34,
+                "ability": "Prankster",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Fake Out", "Shadow Claw", "Mean Look", "Will-o-Wisp"]
+            },
+            {
+                "pokemon": "Mawile",
+                "level": 34,
+                "ability": "Sheer Force",
+                "nature": "Impish",
+                "item": "",
+                "moves": [
+                    "Fire Fang",
+                    "Thunder Fang",
+                    "Ice Fang",
+                    "Poison Fang"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Corky",
+        "trainerClass": 3,
+        "team": [
+            {
+                "pokemon": "Sandslash",
+                "level": 33,
+                "ability": "Sand Rush",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Bulldoze", "Super Fang", "Crush Claw", ""]
+            },
+            {
+                "pokemon": "Klink",
+                "level": 33,
+                "ability": "Clear Body",
+                "nature": "Mild",
+                "item": "Air Balloon",
+                "moves": ["Gear Grind", "Charge Beam", "Bind", "Autotomize"]
+            },
+            {
+                "pokemon": "Unfezant",
+                "level": 33,
+                "ability": "Serene Grace",
+                "nature": "Jolly",
+                "item": "",
+                "moves": ["Air Slash", "Quick Attack", "Detect", ""]
+            }
+        ]
+    },
+    {
+        "name": "Louis",
+        "trainerClass": 43,
+        "team": [
+            {
+                "pokemon": "Ampharos",
+                "level": 33,
+                "ability": "Static",
+                "nature": "Hasty",
+                "item": "",
+                "moves": ["Shock Wave", "Fire Punch", "Agility", ""]
+            },
+            {
+                "pokemon": "Ferroseed",
+                "level": 34,
+                "ability": "Iron Barbs",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Gyro Ball", "Pin Missile", "Leech Seed", ""]
+            }
+        ]
+    },
+    {
+        "name": "Briana",
+        "trainerClass": 44,
+        "team": [
+            {
+                "pokemon": "Cinccino",
+                "level": 33,
+                "ability": "Skill Link",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Tail Slap", "Bullet Seed", "Rock Blast", ""]
+            },
+            {
+                "pokemon": "Excadrill",
+                "level": 33,
+                "ability": "Mold Breaker",
+                "nature": "Modest",
+                "item": "",
+                "moves": ["Rock Slide", "Dig", "Hone Claws", ""]
+            },
+            {
+                "pokemon": "Heracross",
+                "level": 33,
+                "ability": "Guts",
+                "nature": "Quiet",
+                "item": "",
+                "moves": ["Brick Break", "Bug Bite", "Counter", ""]
+            }
+        ]
+    },
+    {
+        "name": "Kit",
+        "trainerClass": 21,
+        "team": [
+            {
+                "pokemon": "Duosion",
+                "level": 34,
+                "ability": "Magic Guard",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Psyshock", "Energy Ball", "Hidden Power", ""]
+            },
+            {
+                "pokemon": "Gothorita",
+                "level": 34,
+                "ability": "Frisk",
+                "nature": "Impish",
+                "item": "",
+                "moves": ["Fake Out", "Future Sight", "Embargo", ""]
+            }
+        ]
+    },
+    {
+        "name": "Lumi",
+        "trainerClass": 54,
+        "team": [
+            {
+                "pokemon": "Joltik",
+                "level": 33,
+                "ability": "Compoundeyes",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Struggle Bug", "Electroweb", "Giga Drain", ""]
+            },
+            {
+                "pokemon": "Swoobat",
+                "level": 33,
+                "ability": "Unaware",
+                "nature": "Serious",
+                "item": "",
+                "moves": ["Air Slash", "Heart Stamp", "Calm Mind", ""]
+            },
+            {
+                "pokemon": "Ditto",
+                "level": 33,
+                "ability": "Impostor",
+                "nature": "Naive",
+                "item": "",
+                "moves": ["Transform", "", "", ""]
+            }
+        ]
+    },
+    {
+        "name": "Beverly",
+        "trainerClass": 68,
+        "team": [
+            {
+                "pokemon": "Zebstrika",
+                "level": 34,
+                "ability": "Motor Drive",
+                "nature": "Relaxed",
+                "item": "",
+                "moves": ["Double-Edge", "Bounce", "Flame Charge", ""]
+            },
+            {
+                "pokemon": "Sneasel",
+                "level": 34,
+                "ability": "Inner Focus",
+                "nature": "Serious",
+                "item": "Eviolite",
+                "moves": ["Fake Out", "Ice Punch", "Icy Wind", ""]
+            }
+        ]
+    },
+    {
+        "name": "Shaye",
+        "trainerClass": 4,
+        "team": [
+            {
+                "pokemon": "Scizor",
+                "level": 36,
+                "ability": "Technician",
+                "nature": "Jolly",
+                "item": "Occa Berry",
+                "moves": ["Bullet Punch", "U-Turn", "Knock Off", "Roost"]
+            },
+            {
+                "pokemon": "Larvesta",
+                "level": 36,
+                "ability": "Flame Body",
+                "nature": "Hasty",
+                "item": "Focus Sash",
+                "moves": [
+                    "Leech Life",
+                    "Flame Charge",
+                    "Zen Headbutt",
+                    "String Shot"
+                ]
+            },
+            {
+                "pokemon": "Trapinch",
+                "level": 36,
+                "ability": "Arena Trap",
+                "nature": "Docile",
+                "item": "Eviolite",
+                "moves": ["Superpower", "Rock Slide", "Crunch", "Protect"]
+            },
+            {
+                "pokemon": "Ampharos",
+                "level": 36,
+                "ability": "Static",
+                "nature": "Modest",
+                "item": "White Herb",
+                "moves": [
+                    "Draco Meteor",
+                    "Volt Switch",
+                    "Fire Punch",
+                    "Thunder Wave"
+                ]
+            },
+            {
+                "pokemon": "Crobat",
+                "level": 36,
+                "ability": "Inner Focus",
+                "nature": "Adamant",
+                "item": "Flying Gem",
+                "moves": [
+                    "Acrobatics",
+                    "Cross Poison",
+                    "Steel Wing",
+                    "Giga Drain"
+                ]
+            },
+            {
+                "pokemon": "Sceptile",
+                "level": 36,
+                "ability": "Unburden",
+                "nature": "Serious",
+                "item": "Sitrus Berry",
+                "moves": [
+                    "Giga Drain",
+                    "X-Scissor",
+                    "Dragon Pulse",
+                    "Drain Punch"
+                ]
+            }
+        ],
+        "bossName": "Wren"
+    },
+    {
+        "name": "Vicki",
+        "trainerClass": 4,
+        "team": [
+            {
+                "pokemon": "Stoutland",
+                "level": 34,
+                "ability": "Intimidate",
+                "nature": "Hardy",
+                "item": "",
+                "moves": ["Covet", "Snarl", "Lick", "Helping Hand"]
+            },
+            {
+                "pokemon": "Krokorok",
+                "level": 34,
+                "ability": "Intimidate",
+                "nature": "Adamant",
+                "item": "",
+                "moves": ["Crunch", "Sand Tomb", "Knock Off", ""]
+            },
+            {
+                "pokemon": "Leavanny",
+                "level": 34,
+                "ability": "Swarm",
+                "nature": "Quiet",
+                "item": "Grass Gem",
+                "moves": ["Razor Leaf", "Struggle Bug", "Slash", ""]
+            }
+        ],
+        "notes": "Triple Battle"
+    },
+    {
+        "name": "Mary",
+        "trainerClass": 4,
+        "team": [
+            {
+                "pokemon": "Golduck",
+                "level": 34,
+                "ability": "Damp",
+                "nature": "Sassy",
+                "item": "",
+                "moves": ["Scald", "Zen Headbutt", "Screech", ""]
+            },
+            {
+                "pokemon": "Magmar",
+                "level": 34,
+                "ability": "Flame Body",
+                "nature": "Timid",
+                "item": "",
+                "moves": ["Fire Punch", "Clear Smog", "Confuse Ray", ""]
+            }
+        ]
+    },
+    {
+        "name": "Otto",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemon": "Nosepass",
+                "level": 34,
+                "ability": "Magnet Pull",
+                "nature": "Relaxed",
+                "item": "Eviolite",
+                "moves": ["Power Gem", "Bulldoze", "Thunder Wave", ""]
+            },
+            {
+                "pokemon": "Probopass",
+                "level": 34,
+                "ability": "Levitate",
+                "nature": "Careful",
+                "item": "",
+                "moves": ["Rock Slide", "Magnet Bomb", "Thunderpunch", ""]
+            }
+        ]
+    },
+    {
+        "name": "Marcus",
+        "trainerClass": 41,
+        "team": [
+            {"pokemon": "Swanna", "level": 35, "ability": "Intimidate", "nature": "Bashful", "item": "", "moves": [ "Air Slash", "Water Pulse", "Icy Wind", ""] },
+{"pokemon": "Unfezant", "level": 35, "ability": "Super Luck", "nature": "Naughty", "item": "", "moves": [ "Air Slash", "Heat Wave", "Quick Attack", ""] }
+        ]
+    },
+    {
+        "name": "Cody",
+        "trainerClass": 1,
+        "team": [
+            {"pokemon": "Stoutland", "level": 33, "ability": "Sand Rush", "nature": "Bold", "item": "", "moves": [ "Headbutt", "Crunch", "Roar", "Charm"] },
+{"pokemon": "Sawsbuck", "level": 33, "ability": "Chlorophyll", "nature": "Naive", "item": "", "moves": [ "Energy Ball", "Headbutt", "Jump Kick", "Camouflage"] },
+{"pokemon": "Qwilfish", "level": 33, "ability": "Swift Swim", "nature": "Docile", "item": "", "moves": [ "Poison Tail", "Brine", "Aqua Jet", ""] }
+        ]
+    },
+    {
+        "name": "Flo",
+        "trainerClass": 2,
+        "team": [
+            {"pokemon": "Breloom", "level": 33, "ability": "Quick Feet", "nature": "Quirky", "item": "", "moves": [ "Giga Drain", "Mach Punch", "Strength", "Charm"] },
+{"pokemon": "Camerupt", "level": 34, "ability": "Solid Rock", "nature": "Modest", "item": "", "moves": [ "Earth Power", "Flame Burst", "Ancientpower", "Amnesia"] },
+{"pokemon": "Sealeo", "level": 33, "ability": "Ice Body", "nature": "Sassy", "item": "", "moves": [ "Brine", "Aurora Beam", "Body Slam", "Growl"] }
+        ],
+        "notes": "Triple Battle"
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    },
+    {
+        "name": "",
+        "trainerClass": 1,
+        "team": []
+    }
+]
