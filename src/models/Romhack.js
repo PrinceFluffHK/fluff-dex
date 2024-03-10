@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import moveTargets from "../data/vanilla/targets";
 import moveCategories from "../data/vanilla/moveCategories";
+import natures from "../data/vanilla/natures";
 import abilityData from "../data/vanilla/abilities.json";
 import speciesData from "../data/vanilla/species.json";
 import moveData from "../data/vanilla/moves.json";
@@ -19,6 +20,8 @@ import TutorMove from "./TutorMove";
 import Item from "./Item";
 import Pokemon from "./Pokemon";
 import Pokedex from "./Pokedex";
+import TrainerClass from "./TrainerClass";
+import Trainer from "./Trainer";
 
 class Romhack {
     constructor(
@@ -32,7 +35,9 @@ class Romhack {
         abilities,
         types,
         tutors,
-        tutorMoves
+        tutorMoves,
+        trainerClasses,
+        trainers
     ) {
         this.id = id;
         this.name = name;
@@ -45,6 +50,8 @@ class Romhack {
         this.types = types;
         this.tutors = tutors;
         this.tutorMoves = tutorMoves;
+        this.trainerClasses = trainerClasses;
+        this.trainers = trainers;
     }
 
     navDisplayShort() {
@@ -59,7 +66,6 @@ class Romhack {
         );
     }
 
-
     static make(
         id,
         gen,
@@ -71,7 +77,9 @@ class Romhack {
         tutorMoveData,
         regionalDexOrder,
         pokedexEdits,
-        itemEdits
+        itemEdits,
+        trainerClassData,
+        trainerData
     ) {
         const abilities = Ability.makeArray(Help.filterByGen(abilityData, gen));
         const types = Type.makeArray(typeData);
@@ -84,6 +92,7 @@ class Romhack {
         const tutors = Tutor.makeArray(tutorData);
         const tutorMoves = TutorMove.makeArray(tutorMoveData, moves, tutorData);
         const items = Item.makeArray(
+            // Help.insertEdits(itemData, itemEdits)
             Help.insertEdits(Help.filterByGen(itemData, gen), itemEdits)
         );
         const species = Pokemon.makeArray(
@@ -106,6 +115,16 @@ class Romhack {
             species
         );
 
+        const trainerClasses = TrainerClass.makeArray(trainerClassData);
+        const trainers = Trainer.makeArray(
+            trainerData,
+            trainerClasses,
+            species,
+            abilities,
+            items,
+            moves
+        );
+
         return new Romhack(
             id,
             title,
@@ -117,7 +136,9 @@ class Romhack {
             abilities,
             types,
             tutors,
-            tutorMoves
+            tutorMoves,
+            trainerClasses,
+            trainers
         );
     }
 }

@@ -22,7 +22,7 @@ class Item {
     }
 
     static makeArray(itemObjArray) {
-        itemObjArray.map(itemObj => {
+        return itemObjArray.map(itemObj => {
             return Item.makeSingle(itemObj)
         })
     }

@@ -8,6 +8,8 @@ import tutorMoveData from "./B2DE/tutorMoves.json";
 import regionalDexOrder from "./B2DE/regionalDexOrder.json";
 import pokedexEdits from "./B2DE/pokedexEdits.json";
 import itemEdits from "./B2DE/itemEdits.json";
+import trainerClassData from "./B2DE/trainerClasses.json";
+import trainerData from "./B2DE/trainers.json"
 
 const b2de = Romhack.make(
     1,
@@ -20,7 +22,9 @@ const b2de = Romhack.make(
     tutorMoveData,
     regionalDexOrder,
     pokedexEdits,
-    itemEdits
+    itemEdits,
+    trainerClassData,
+    trainerData
 );
 
 export default b2de;

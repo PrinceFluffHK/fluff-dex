@@ -5,6 +5,8 @@ import Pokedex from "./components/pokedex/Pokedex";
 import PokemonDisplay from "./components/pokemon/PokemonDisplay";
 import MovePage from "./components/moves/MovePage";
 import MoveList from "./components/moves/MoveList";
+import TrainerList from "./components/trainers/TrainerList";
+import TrainerDisplay from "./components/trainers/TrainerDisplay";
 
 function App() {
     return (
@@ -24,6 +26,16 @@ function App() {
                             exact
                             path="/:id/moves/:moveId"
                             Component={MovePage}
+                        />
+                        <Route
+                            exact
+                            path="/:id/trainers"
+                            Component={TrainerList}
+                        />
+                        <Route
+                            exact
+                            path="/:id/trainers/:trainerId"
+                            Component={TrainerDisplay}
                         />
                     </Routes>
                 </HashRouter>

@@ -16,15 +16,18 @@ const TopBar = (props) => {
             link: `/${id}/pokedex`,
         },
         {
+            name: "Trainers",
+            link: `/${id}/trainers`,
+        },
+        {
             name: "Moves",
             link: `/${id}/moves`
         }
     ];
 
     const links = linkObjs.map((link) => {
-        const linkLocation = link.link.split("/")[2];
-        const isSelected = location === linkLocation ? "top-bar-selected" : "";
-        const className = `top-bar-link ${isSelected}`
+        // const linkLocation = link.link.split("/")[2];
+        const className = `top-bar-link`
 
         return (
             <Link className={className} to={link.link} key={link.name}>

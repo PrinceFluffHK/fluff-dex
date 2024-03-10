@@ -415,13 +415,13 @@
     },
     {
         "id": 69,
-        "name": "Plasma",
+        "name": "Team Plasma",
         "modifier": "Male",
         "sprite": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_B2W2_Plasma_Grunt_M.png"
     },
     {
         "id": 70,
-        "name": "Plasma",
+        "name": "Team Plasma",
         "modifier": "Female",
         "sprite": "https://archives.bulbagarden.net/media/upload/b/b6/Spr_B2W2_Plasma_Grunt_F.png"
     },
@@ -535,9 +535,9 @@
     },
     {
         "id": 89,
-        "name": "",
-        "modifier": "",
-        "sprite": ""
+        "name": "PKMN Trainer",
+        "modifier": "Bianca",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f0/Spr_B2W2_Bianca.png"
     },
     {
         "id": 90,
@@ -563,7 +563,7 @@
         "modifier": "Caitlin",
         "sprite": "https://archives.bulbagarden.net/media/upload/1/18/Spr_B2W2_Caitlin.png"
     },
-    {   
+    {
         "id": 94,
         "name": "Champion",
         "modifier": "",
@@ -580,5 +580,23 @@
         "name": "GAMEFREAK",
         "modifier": "Nishino",
         "sprite": "https://archives.bulbagarden.net/media/upload/8/84/Spr_B2W2_Hiker.png"
+    },
+    {
+        "id": 97,
+        "name": "PKMN Trainer",
+        "modifier": "Nate",
+        "sprite": "https://archives.bulbagarden.net/media/upload/c/cd/Spr_B2W2_Nate.png"
+    },
+    {
+        "id": 98,
+        "name": "PKMN Trainer",
+        "modifier": "Rosa",
+        "sprite": "https://archives.bulbagarden.net/media/upload/b/b5/Spr_B2W2_Rosa.png"
+    },
+    {
+        "id": 99,
+        "name": "PKMN Trainer",
+        "modifier": "Cynthia",
+        "sprite": "https://archives.bulbagarden.net/media/upload/8/83/Spr_B2W2_Cynthia.png"
     }
 ]

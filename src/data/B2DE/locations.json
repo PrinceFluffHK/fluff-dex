@@ -1,0 +1,3442 @@
+[
+    {
+        "name": "No Location",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Aspertia City",
+        "trainers": [1, 2, 3],
+        "encounters": [
+            {
+                "type": "Starter Gift",
+                "pokemon": [
+                    {
+                        "pokemon": "Snivy",
+                        "percent": 0,
+                        "minLv": 5,
+                        "maxLv": 5
+                    },
+                    {
+                        "pokemon": "Tepig",
+                        "percent": 0,
+                        "minLv": 5,
+                        "maxLv": 5
+                    },
+                    {
+                        "pokemon": "Oshawott",
+                        "percent": 0,
+                        "minLv": 5,
+                        "maxLv": 5
+                    }
+                ],
+                "notes": "Mutually exclusive"
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin (R)",
+                        "percent": 100,
+                        "minLv": 15,
+                        "maxLv": 20
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin (B)",
+                        "percent": 100,
+                        "minLv": 20,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 19",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Eevee",
+                        "percent": 90,
+                        "minLv": 4,
+                        "maxLv": 4
+                    },
+                    {
+                        "pokemon": "Purrloin",
+                        "percent": 5,
+                        "minLv": 4,
+                        "maxLv": 4
+                    },
+                    {
+                        "pokemon": "Patrat",
+                        "percent": 5,
+                        "minLv": 4,
+                        "maxLv": 4
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Patrat",
+                        "percent": 85,
+                        "minLv": 4,
+                        "maxLv": 4
+                    },
+                    {
+                        "pokemon": "Snivy",
+                        "percent": 5,
+                        "minLv": 4,
+                        "maxLv": 4
+                    },
+                    {
+                        "pokemon": "Tepig",
+                        "percent": 5,
+                        "minLv": 4,
+                        "maxLv": 4
+                    },
+                    {
+                        "pokemon": "Oshawott",
+                        "percent": 5,
+                        "minLv": 4,
+                        "maxLv": 4
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin (R)",
+                        "percent": 100,
+                        "minLv": 15,
+                        "maxLv": 20
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin (B)",
+                        "percent": 100,
+                        "minLv": 20,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": []
+    },
+    {
+        "name": "Route 20",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": [
+            {
+                "name": "Pre-Basic Badge",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": "Patrat",
+                                "percent": 25,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Pidove",
+                                "percent": 25,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Sewaddle",
+                                "percent": 20,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Purrloin",
+                                "percent": 15,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Sunkern",
+                                "percent": 15,
+                                "minLv": 4,
+                                "maxLv": 5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dark Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": "Pidove",
+                                "percent": 25,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Patrat",
+                                "percent": 25,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Venipede",
+                                "percent": 20,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Purrloin",
+                                "percent": 15,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Sewaddle",
+                                "percent": 10,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Sunkern",
+                                "percent": 5,
+                                "minLv": 11,
+                                "maxLv": 12
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rustling Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": "Audino",
+                                "percent": 80,
+                                "minLv": 5,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Dunsparce",
+                                "percent": 10,
+                                "minLv": 5,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Sunflora",
+                                "percent": 10,
+                                "minLv": 5,
+                                "maxLv": 5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fishing",
+                        "pokemon": [
+                            {
+                                "pokemon": "Basculin (R)",
+                                "percent": 100,
+                                "minLv": 15,
+                                "maxLv": 20
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rippling Water",
+                        "pokemon": [
+                            {
+                                "pokemon": "Basculin (B)",
+                                "percent": 100,
+                                "minLv": 20,
+                                "maxLv": 25
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "Post-Basic Badge",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": "Patrat",
+                                "percent": 25,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Pidove",
+                                "percent": 25,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Sewaddle",
+                                "percent": 20,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Purrloin",
+                                "percent": 15,
+                                "minLv": 4,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Sunkern",
+                                "percent": 15,
+                                "minLv": 4,
+                                "maxLv": 5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dark Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": "Pidove",
+                                "percent": 25,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Patrat",
+                                "percent": 25,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Venipede",
+                                "percent": 20,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Purrloin",
+                                "percent": 15,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Sewaddle",
+                                "percent": 10,
+                                "minLv": 11,
+                                "maxLv": 12
+                            },
+                            {
+                                "pokemon": "Sunkern",
+                                "percent": 5,
+                                "minLv": 11,
+                                "maxLv": 12
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rustling Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": "Audino",
+                                "percent": 80,
+                                "minLv": 5,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Dunsparce",
+                                "percent": 10,
+                                "minLv": 5,
+                                "maxLv": 5
+                            },
+                            {
+                                "pokemon": "Sunflora",
+                                "percent": 10,
+                                "minLv": 5,
+                                "maxLv": 5
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fishing",
+                        "pokemon": [
+                            {
+                                "pokemon": "Basculin (R)",
+                                "percent": 100,
+                                "minLv": 15,
+                                "maxLv": 20
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rippling Water",
+                        "pokemon": [
+                            {
+                                "pokemon": "Basculin (B)",
+                                "percent": 100,
+                                "minLv": 20,
+                                "maxLv": 25
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Floccesy Ranch",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Lillipup",
+                        "percent": 30,
+                        "minLv": 6,
+                        "maxLv": 7
+                    },
+                    {
+                        "pokemon": "Azurill",
+                        "percent": 20,
+                        "minLv": 6,
+                        "maxLv": 7
+                    },
+                    {
+                        "pokemon": "Mareep",
+                        "percent": 20,
+                        "minLv": 6,
+                        "maxLv": 7
+                    },
+                    {
+                        "pokemon": "Phanpy",
+                        "percent": 20,
+                        "minLv": 6,
+                        "maxLv": 7
+                    },
+                    {
+                        "pokemon": "Riolu",
+                        "percent": 10,
+                        "minLv": 6,
+                        "maxLv": 7
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 90,
+                        "minLv": 7,
+                        "maxLv": 7
+                    },
+                    {
+                        "pokemon": "Dunsparce",
+                        "percent": 10,
+                        "minLv": 7,
+                        "maxLv": 7
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin (R)",
+                        "percent": 100,
+                        "minLv": 15,
+                        "maxLv": 20
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin (B)",
+                        "percent": 100,
+                        "minLv": 20,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Virbank City",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Magby",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Elekid",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Psyduck",
+                        "percent": 20,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Patrat",
+                        "percent": 10,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Pidove",
+                        "percent": 10,
+                        "minLv": 12,
+                        "maxLv": 13
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 100,
+                        "minLv": 14,
+                        "maxLv": 14
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Frillish",
+                        "percent": 100,
+                        "minLv": 15,
+                        "maxLv": 20
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Frillish",
+                        "percent": 100,
+                        "minLv": 20,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Virbank Complex",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Magnemite",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Growlithe",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Koffing",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Elekid",
+                        "percent": 5,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Magby",
+                        "percent": 5,
+                        "minLv": 12,
+                        "maxLv": 13
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Magnemite",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Growlithe",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Koffing",
+                        "percent": 30,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Elekid",
+                        "percent": 5,
+                        "minLv": 12,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": "Magby",
+                        "percent": 5,
+                        "minLv": 12,
+                        "maxLv": 13
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 100,
+                        "minLv": 14,
+                        "maxLv": 14
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Castelia City",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Gift",
+                "pokemon": [
+                    {
+                        "pokemon": "Eevee",
+                        "percent": 0,
+                        "minLv": 10,
+                        "maxLv": 10,
+                        "notes": "Has Hidden Ability"
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Castelia Sewers",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Sewers",
+                "pokemon": [
+                    {
+                        "pokemon": "Zubat",
+                        "percent": 45,
+                        "minLv": 15,
+                        "maxLv": 17
+                    },
+                    {
+                        "pokemon": "Rattata",
+                        "percent": 45,
+                        "minLv": 15,
+                        "maxLv": 17
+                    },
+                    {
+                        "pokemon": "Grimer",
+                        "percent": 10,
+                        "minLv": 15,
+                        "maxLv": 17
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Grimer",
+                        "percent": 100,
+                        "minLv": 15,
+                        "maxLv": 20
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Grimer",
+                        "percent": 65,
+                        "minLv": 20,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Qwilfish",
+                        "percent": 35,
+                        "minLv": 20,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Relic Passage",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": [
+            {
+                "name": "Castelia Side",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemon": "Roggenrola",
+                                "percent": 35,
+                                "minLv": 17,
+                                "maxLv": 18
+                            },
+                            {
+                                "pokemon": "Woobat",
+                                "percent": 30,
+                                "minLv": 17,
+                                "maxLv": 18
+                            },
+                            {
+                                "pokemon": "Timburr",
+                                "percent": 20,
+                                "minLv": 17,
+                                "maxLv": 18
+                            },
+                            {
+                                "pokemon": "Rattata",
+                                "percent": 10,
+                                "minLv": 17,
+                                "maxLv": 18
+                            },
+                            {
+                                "pokemon": "Onix",
+                                "percent": 5,
+                                "minLv": 17,
+                                "maxLv": 18
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemon": "Drilbur",
+                                "percent": 80,
+                                "minLv": 18,
+                                "maxLv": 19
+                            },
+                            {
+                                "pokemon": "Onix",
+                                "percent": 20,
+                                "minLv": 18,
+                                "maxLv": 19
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "Driftveil Side",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemon": "Boldore",
+                                "percent": 35,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Swoobat",
+                                "percent": 30,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Gurdurr",
+                                "percent": 20,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Onix",
+                                "percent": 15,
+                                "minLv": 31,
+                                "maxLv": 32
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemon": "Drilbur",
+                                "percent": 80,
+                                "minLv": 32,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Onix",
+                                "percent": 20,
+                                "minLv": 32,
+                                "maxLv": 32
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fishing",
+                        "pokemon": [
+                            {
+                                "pokemon": "Basculin (R)",
+                                "percent": 70,
+                                "minLv": 25,
+                                "maxLv": 30
+                            },
+                            {
+                                "pokemon": "Tirtouga",
+                                "percent": 30,
+                                "minLv": 25,
+                                "maxLv": 30
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rippling Water",
+                        "pokemon": [
+                            {
+                                "pokemon": "Tirtouga",
+                                "percent": 65,
+                                "minLv": 30,
+                                "maxLv": 35
+                            },
+                            {
+                                "pokemon": "Basculin (B)",
+                                "percent": 35,
+                                "minLv": 30,
+                                "maxLv": 35
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Liberty Garden",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Victini",
+                        "percent": 100,
+                        "minLv": 25,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Castelia Park",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Buneary",
+                        "percent": 40,
+                        "minLv": 17,
+                        "maxLv": 19
+                    },
+                    {
+                        "pokemon": "Cottonee",
+                        "percent": 20,
+                        "minLv": 17,
+                        "maxLv": 19
+                    },
+                    {
+                        "pokemon": "Petilil",
+                        "percent": 20,
+                        "minLv": 17,
+                        "maxLv": 19
+                    },
+                    {
+                        "pokemon": "Pidove",
+                        "percent": 15,
+                        "minLv": 17,
+                        "maxLv": 19
+                    },
+                    {
+                        "pokemon": "Eevee",
+                        "percent": 5,
+                        "minLv": 17,
+                        "maxLv": 19
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Buneary",
+                        "percent": 40,
+                        "minLv": 18,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Cottonee",
+                        "percent": 20,
+                        "minLv": 18,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Petilil",
+                        "percent": 20,
+                        "minLv": 18,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Pidove",
+                        "percent": 15,
+                        "minLv": 18,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Eevee",
+                        "percent": 5,
+                        "minLv": 18,
+                        "maxLv": 20
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 40,
+                        "minLv": 20,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Jolteon",
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Flareon",
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Vaporeon",
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Espeon",
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Umbreon",
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Leafeon",
+                        "percent": 5,
+                        "minLv": 20,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Glaceon",
+                        "percent": 5,
+                        "minLv": 20,
+                        "maxLv": 20
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 4",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Sand",
+                "pokemon": [
+                    {
+                        "pokemon": "Sandile",
+                        "percent": 30,
+                        "minLv": 16,
+                        "maxLv": 17
+                    },
+                    {
+                        "pokemon": "Trubbish",
+                        "percent": 30,
+                        "minLv": 16,
+                        "maxLv": 17
+                    },
+                    {
+                        "pokemon": "Scraggy",
+                        "percent": 30,
+                        "minLv": 16,
+                        "maxLv": 17
+                    },
+                    {
+                        "pokemon": "Rattata",
+                        "percent": 10,
+                        "minLv": 16,
+                        "maxLv": 17
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Frillish",
+                        "percent": 70,
+                        "minLv": 15,
+                        "maxLv": 20
+                    },
+                    {
+                        "pokemon": "Corsola",
+                        "percent": 30,
+                        "minLv": 15,
+                        "maxLv": 20
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Corsola",
+                        "percent": 65,
+                        "minLv": 20,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Frillish",
+                        "percent": 35,
+                        "minLv": 20,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Desert Canyon",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Sand",
+                "pokemon": [
+                    {
+                        "pokemon": "Trapinch",
+                        "percent": 30,
+                        "minLv": 21,
+                        "maxLv": 23
+                    },
+                    {
+                        "pokemon": "Dwebble",
+                        "percent": 25,
+                        "minLv": 21,
+                        "maxLv": 23
+                    },
+                    {
+                        "pokemon": "Sandshrew",
+                        "percent": 25,
+                        "minLv": 21,
+                        "maxLv": 23
+                    },
+                    {
+                        "pokemon": "Sandile",
+                        "percent": 20,
+                        "minLv": 21,
+                        "maxLv": 23
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Desert Resort",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Sand",
+                "pokemon": [
+                    {
+                        "pokemon": "Darumaka",
+                        "percent": 30,
+                        "minLv": 22,
+                        "maxLv": 23
+                    },
+                    {
+                        "pokemon": "Maractus",
+                        "percent": 30,
+                        "minLv": 22,
+                        "maxLv": 23
+                    },
+                    {
+                        "pokemon": "Sigilyph",
+                        "percent": 25,
+                        "minLv": 22,
+                        "maxLv": 23
+                    },
+                    {
+                        "pokemon": "Sandile",
+                        "percent": 10,
+                        "minLv": 22,
+                        "maxLv": 23
+                    },
+                    {
+                        "pokemon": "Trapinch",
+                        "percent": 5,
+                        "minLv": 22,
+                        "maxLv": 23
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Relic Castle",
+        "trainers": [],
+        "encounters": [{ "type": "Sand", "pokemon": [] }],
+        "items": [],
+        "subLocations": [
+            {
+                "name": "1F-B1F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Sand",
+                        "pokemon": [
+                            {
+                                "pokemon": "Yamask",
+                                "percent": 50,
+                                "minLv": 22,
+                                "maxLv": 24
+                            },
+                            {
+                                "pokemon": "Baltoy",
+                                "percent": 50,
+                                "minLv": 22,
+                                "maxLv": 24
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "Lowest Floor (Accessible from Relic Passage: Driftveil Side)",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Sand",
+                        "pokemon": [
+                            {
+                                "pokemon": "Yamask",
+                                "percent": 50,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Baltoy",
+                                "percent": 49,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Larvesta",
+                                "percent": 1,
+                                "minLv": 31,
+                                "maxLv": 32
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Sand",
+                        "pokemon": [
+                            {
+                                "pokemon": "Baltoy",
+                                "percent": 100,
+                                "minLv": 32,
+                                "maxLv": 33
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Static",
+                        "pokemon": [
+                            {
+                                "pokemon": "Volcarona",
+                                "percent": 100,
+                                "minLv": 35,
+                                "maxLv": 35
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Route 16",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Croagunk",
+                        "percent": 30,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Venipede",
+                        "percent": 30,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Shroomish",
+                        "percent": 30,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Scyther",
+                        "percent": 10,
+                        "minLv": 23,
+                        "maxLv": 24
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Croagunk",
+                        "percent": 30,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Venipede",
+                        "percent": 30,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Shroomish",
+                        "percent": 30,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Scyther",
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 25
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 85,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 10,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Breloom",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Lostlorn Forest",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Roselia",
+                        "percent": 30,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Combee",
+                        "percent": 20,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Cottonee",
+                        "percent": 15,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Petilil",
+                        "percent": 15,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Swadloon",
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Pinsir",
+                        "percent": 5,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Heracross",
+                        "percent": 5,
+                        "minLv": 24,
+                        "maxLv": 25
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Roserade",
+                        "percent": 30,
+                        "minLv": 62,
+                        "maxLv": 64
+                    },
+                    {
+                        "pokemon": "Vespiquen",
+                        "percent": 20,
+                        "minLv": 62,
+                        "maxLv": 64
+                    },
+                    {
+                        "pokemon": "Whimsicott",
+                        "percent": 15,
+                        "minLv": 62,
+                        "maxLv": 64
+                    },
+                    {
+                        "pokemon": "Lilligant",
+                        "percent": 15,
+                        "minLv": 62,
+                        "maxLv": 64
+                    },
+                    {
+                        "pokemon": "Leavanny",
+                        "percent": 10,
+                        "minLv": 62,
+                        "maxLv": 64
+                    },
+                    {
+                        "pokemon": "Pinsir",
+                        "percent": 5,
+                        "minLv": 62,
+                        "maxLv": 64
+                    },
+                    {
+                        "pokemon": "Heracross",
+                        "percent": 5,
+                        "minLv": 62,
+                        "maxLv": 64
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 40,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 10,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Pansage",
+                        "percent": 10,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Pansear",
+                        "percent": 10,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Panpour",
+                        "percent": 10,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Roserade",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Vespiquen",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Whimsicott",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Lilligant",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin",
+                        "percent": 70,
+                        "minLv": 20,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Buizel",
+                        "percent": 30,
+                        "minLv": 20,
+                        "maxLv": 25
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Buizel",
+                        "percent": 65,
+                        "minLv": 25,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Basculin",
+                        "percent": 35,
+                        "minLv": 25,
+                        "maxLv": 30
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 5",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Purrloin",
+                        "percent": 30,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Trubbish",
+                        "percent": 20,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Minccino",
+                        "percent": 20,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Gothita",
+                        "percent": 10,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Solosis",
+                        "percent": 10,
+                        "minLv": 23,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": "Vulpix",
+                        "percent": 10,
+                        "minLv": 23,
+                        "maxLv": 24
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Liepard",
+                        "percent": 30,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Trubbish",
+                        "percent": 20,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Minccino",
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Gothita",
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Solosis",
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Vulpix",
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 25
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 85,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Cinccino",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": "Ninetales",
+                        "percent": 5,
+                        "minLv": 25,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Musical Theater",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Meloetta",
+                        "percent": 100,
+                        "minLv": 32,
+                        "maxLv": 32
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Marvelous Bridge",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Gift",
+                "pokemon": [
+                    {
+                        "pokemon": "Feebas",
+                        "percent": 0,
+                        "minLv": 5,
+                        "maxLv": 5
+                    }
+                ]
+            },
+            {
+                "type": "Bridge Shadow",
+                "pokemon": [
+                    {
+                        "pokemon": "Ducklett",
+                        "percent": 90,
+                        "minLv": 27,
+                        "maxLv": 28
+                    },
+                    {
+                        "pokemon": "Skarmory",
+                        "percent": 10,
+                        "minLv": 27,
+                        "maxLv": 28
+                    }
+                ]
+            },
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Cresselia",
+                        "percent": 100,
+                        "minLv": 50,
+                        "maxLv": 50
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 15",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Gligar",
+                        "percent": 25,
+                        "minLv": 28,
+                        "maxLv": 29
+                    },
+                    {
+                        "pokemon": "Sneasel",
+                        "percent": 20,
+                        "minLv": 28,
+                        "maxLv": 29
+                    },
+                    {
+                        "pokemon": "Larvitar",
+                        "percent": 15,
+                        "minLv": 28,
+                        "maxLv": 29
+                    },
+                    {
+                        "pokemon": "Sandshrew",
+                        "percent": 10,
+                        "minLv": 28,
+                        "maxLv": 29
+                    },
+                    {
+                        "pokemon": "Archen",
+                        "percent": 10,
+                        "minLv": 28,
+                        "maxLv": 29
+                    },
+                    {
+                        "pokemon": "Throh",
+                        "percent": 10,
+                        "minLv": 28,
+                        "maxLv": 29
+                    },
+                    {
+                        "pokemon": "Sawk",
+                        "percent": 10,
+                        "minLv": 28,
+                        "maxLv": 29
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Gligar",
+                        "percent": 25,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Sneasel",
+                        "percent": 20,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Larvitar",
+                        "percent": 15,
+                        "minLv": 29,
+                        "maxLv": 29
+                    },
+                    {
+                        "pokemon": "Sandslash",
+                        "percent": 10,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Archen",
+                        "percent": 10,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Throh",
+                        "percent": 10,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Sawk",
+                        "percent": 10,
+                        "minLv": 29,
+                        "maxLv": 30
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 70,
+                        "minLv": 30,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 10,
+                        "minLv": 30,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Gliscor",
+                        "percent": 5,
+                        "minLv": 30,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Weavile",
+                        "percent": 5,
+                        "minLv": 30,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Throh",
+                        "percent": 5,
+                        "minLv": 30,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Sawk",
+                        "percent": 5,
+                        "minLv": 30,
+                        "maxLv": 30
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Driftveil Drawbridge",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Bridge Shadow",
+                "pokemon": [
+                    {
+                        "pokemon": "Ducklett",
+                        "percent": 90,
+                        "minLv": 27,
+                        "maxLv": 28
+                    },
+                    {
+                        "pokemon": "Skarmory",
+                        "percent": 10,
+                        "minLv": 27,
+                        "maxLv": 28
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Driftveil City",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Gift",
+                "pokemon": [
+                    {
+                        "pokemon": "Zorua",
+                        "percent": 0,
+                        "minLv": 28,
+                        "maxLv": 28
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 6",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Gift",
+                "pokemon": [
+                    {
+                        "pokemon": "Deerling",
+                        "percent": 0,
+                        "minLv": 30,
+                        "maxLv": 30
+                    }
+                ]
+            },
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Foongus",
+                        "percent": 100,
+                        "minLv": 29,
+                        "maxLv": 29
+                    }
+                ],
+                "notes": "3x"
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Deerling",
+                        "percent": 40,
+                        "minLv": 28,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Foongus",
+                        "percent": 20,
+                        "minLv": 28,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Marill",
+                        "percent": 10,
+                        "minLv": 28,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Karrablast",
+                        "percent": 15,
+                        "minLv": 28,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Shelmet",
+                        "percent": 15,
+                        "minLv": 28,
+                        "maxLv": 30
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Deerling",
+                        "percent": 30,
+                        "minLv": 30,
+                        "maxLv": 31
+                    },
+                    {
+                        "pokemon": "Azumarill",
+                        "percent": 20,
+                        "minLv": 30,
+                        "maxLv": 31
+                    },
+                    {
+                        "pokemon": "Foongus",
+                        "percent": 20,
+                        "minLv": 30,
+                        "maxLv": 31
+                    },
+                    {
+                        "pokemon": "Karrablast",
+                        "percent": 15,
+                        "minLv": 30,
+                        "maxLv": 31
+                    },
+                    {
+                        "pokemon": "Shelmet",
+                        "percent": 15,
+                        "minLv": 30,
+                        "maxLv": 31
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 75,
+                        "minLv": 31,
+                        "maxLv": 31
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 20,
+                        "minLv": 31,
+                        "maxLv": 31
+                    },
+                    {
+                        "pokemon": "Castform",
+                        "percent": 5,
+                        "minLv": 31,
+                        "maxLv": 31
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin",
+                        "percent": 70,
+                        "minLv": 25,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Staryu",
+                        "percent": 30,
+                        "minLv": 25,
+                        "maxLv": 30
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Staryu",
+                        "percent": 60,
+                        "minLv": 30,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Starmie",
+                        "percent": 5,
+                        "minLv": 30,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Basculin",
+                        "percent": 35,
+                        "minLv": 30,
+                        "maxLv": 35
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Chargestone Cave",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Cave",
+                "pokemon": [
+                    {
+                        "pokemon": "Joltik",
+                        "percent": 25,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Ferroseed",
+                        "percent": 20,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Tynamo",
+                        "percent": 20,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Klink",
+                        "percent": 15,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Nosepass",
+                        "percent": 10,
+                        "minLv": 29,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": "Magnemite",
+                        "percent": 10,
+                        "minLv": 29,
+                        "maxLv": 29
+                    }
+                ]
+            },
+            {
+                "type": "Dust Cloud",
+                "pokemon": [
+                    {
+                        "pokemon": "Drilbur",
+                        "percent": 100,
+                        "minLv": 30,
+                        "maxLv": 30
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Mistralton Cave",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": [
+            {
+                "name": "1F-2F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemon": "Aron",
+                                "percent": 35,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Golbat",
+                                "percent": 30,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Axew",
+                                "percent": 20,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Sableye",
+                                "percent": 10,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Mawile",
+                                "percent": 5,
+                                "minLv": 31,
+                                "maxLv": 32
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemon": "Drilbur",
+                                "percent": 100,
+                                "minLv": 32,
+                                "maxLv": 32
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "3F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemon": "Aron",
+                                "percent": 35,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Axew",
+                                "percent": 35,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Sableye",
+                                "percent": 15,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Golbat",
+                                "percent": 10,
+                                "minLv": 31,
+                                "maxLv": 32
+                            },
+                            {
+                                "pokemon": "Mawile",
+                                "percent": 5,
+                                "minLv": 31,
+                                "maxLv": 32
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemon": "Drilbur",
+                                "percent": 100,
+                                "minLv": 32,
+                                "maxLv": 32
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Route 7",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Foongus",
+                        "percent": 100,
+                        "minLv": 36,
+                        "maxLv": 36
+                    }
+                ],
+                "notes": "2x"
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Blitzle",
+                        "percent": 30,
+                        "minLv": 33,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": "Zangoose",
+                        "percent": 20,
+                        "minLv": 33,
+                        "maxLv": 34
+                    },
+                    {
+                        "pokemon": "Seviper",
+                        "percent": 20,
+                        "minLv": 33,
+                        "maxLv": 34
+                    },
+                    {
+                        "pokemon": "Tranquill",
+                        "percent": 15,
+                        "minLv": 33,
+                        "maxLv": 34
+                    },
+                    {
+                        "pokemon": "Deerling",
+                        "percent": 10,
+                        "minLv": 33,
+                        "maxLv": 34
+                    },
+                    {
+                        "pokemon": "Cubchoo",
+                        "percent": 5,
+                        "minLv": 33,
+                        "maxLv": 34
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Zebstrika",
+                        "percent": 30,
+                        "minLv": 34,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Zangoose",
+                        "percent": 20,
+                        "minLv": 34,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Seviper",
+                        "percent": 20,
+                        "minLv": 34,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Unfezant",
+                        "percent": 15,
+                        "minLv": 34,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Sawsbuck",
+                        "percent": 10,
+                        "minLv": 34,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Cubchoo",
+                        "percent": 5,
+                        "minLv": 34,
+                        "maxLv": 35
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 85,
+                        "minLv": 35,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 10,
+                        "minLv": 35,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": "Cubchoo",
+                        "percent": 5,
+                        "minLv": 35,
+                        "maxLv": 35
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Celestial Tower",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": [
+            {
+                "name": "2F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Floor",
+                        "pokemon": [
+                            {
+                                "pokemon": "Litwick",
+                                "percent": 100,
+                                "minLv": 34,
+                                "maxLv": 35
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "3F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Floor",
+                        "pokemon": [
+                            {
+                                "pokemon": "Litwick",
+                                "percent": 75,
+                                "minLv": 34,
+                                "maxLv": 35
+                            },
+                            {
+                                "pokemon": "Mawile",
+                                "percent": 5,
+                                "minLv": 34,
+                                "maxLv": 35
+                            },
+                            {
+                                "pokemon": "Elgyem",
+                                "percent": 20,
+                                "minLv": 34,
+                                "maxLv": 35
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "4F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Floor",
+                        "pokemon": [
+                            {
+                                "pokemon": "Litwick",
+                                "percent": 60,
+                                "minLv": 34,
+                                "maxLv": 35
+                            },
+                            {
+                                "pokemon": "Mawile",
+                                "percent": 10,
+                                "minLv": 34,
+                                "maxLv": 35
+                            },
+                            {
+                                "pokemon": "Elgyem",
+                                "percent": 30,
+                                "minLv": 34,
+                                "maxLv": 35
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "5F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Floor",
+                        "pokemon": [
+                            {
+                                "pokemon": "Litwick",
+                                "percent": 40,
+                                "minLv": 35,
+                                "maxLv": 36
+                            },
+                            {
+                                "pokemon": "Mawile",
+                                "percent": 20,
+                                "minLv": 35,
+                                "maxLv": 36
+                            },
+                            {
+                                "pokemon": "Elgyem",
+                                "percent": 40,
+                                "minLv": 35,
+                                "maxLv": 36
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Reversal Wastes",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Skorupi",
+                        "percent": 30,
+                        "minLv": 35,
+                        "maxLv": 36
+                    },
+                    {
+                        "pokemon": "Numel",
+                        "percent": 20,
+                        "minLv": 35,
+                        "maxLv": 36
+                    },
+                    {
+                        "pokemon": "Drifloon",
+                        "percent": 15,
+                        "minLv": 35,
+                        "maxLv": 36
+                    },
+                    {
+                        "pokemon": "Donphan",
+                        "percent": 15,
+                        "minLv": 35,
+                        "maxLv": 36
+                    },
+                    {
+                        "pokemon": "Skarmory",
+                        "percent": 10,
+                        "minLv": 35,
+                        "maxLv": 36
+                    },
+                    {
+                        "pokemon": "Vibrava",
+                        "percent": 10,
+                        "minLv": 35,
+                        "maxLv": 36
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Skorupi",
+                        "percent": 30,
+                        "minLv": 36,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Camerupt",
+                        "percent": 20,
+                        "minLv": 36,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Drifblim",
+                        "percent": 15,
+                        "minLv": 36,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Donphan",
+                        "percent": 15,
+                        "minLv": 36,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Skarmory",
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Vibrava",
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 37
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 100,
+                        "minLv": 37,
+                        "maxLv": 37
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Strange House",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Floor",
+                "pokemon": [
+                    {
+                        "pokemon": "Munna",
+                        "percent": 30,
+                        "minLv": 30,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Shuppet",
+                        "percent": 30,
+                        "minLv": 30,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Litwick",
+                        "percent": 20,
+                        "minLv": 30,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Raticate",
+                        "percent": 10,
+                        "minLv": 30,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Golbat",
+                        "percent": 10,
+                        "minLv": 30,
+                        "maxLv": 40
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Reversal Mountain",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Cave",
+                "pokemon": [
+                    {
+                        "pokemon": "Boldore",
+                        "percent": 20,
+                        "minLv": 35,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Numel",
+                        "percent": 20,
+                        "minLv": 35,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Skorupi",
+                        "percent": 15,
+                        "minLv": 35,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Torkoal",
+                        "percent": 10,
+                        "minLv": 35,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Swoobat",
+                        "percent": 10,
+                        "minLv": 35,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Durant",
+                        "percent": 10,
+                        "minLv": 35,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Heatmor",
+                        "percent": 10,
+                        "minLv": 35,
+                        "maxLv": 37
+                    },
+                    {
+                        "pokemon": "Pupitar",
+                        "percent": 5,
+                        "minLv": 35,
+                        "maxLv": 37
+                    }
+                ]
+            },
+            {
+                "type": "Dust Cloud",
+                "pokemon": [
+                    {
+                        "pokemon": "Excadrill",
+                        "percent": 100,
+                        "minLv": 37,
+                        "maxLv": 37
+                    }
+                ]
+            },
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Heatran",
+                        "percent": 100,
+                        "minLv": 50,
+                        "maxLv": 50,
+                        "notes": "Summoned with Magma Stone (found in the furthest depths of the Abyssal Ruins)"
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Undella Town",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Wailmer",
+                        "percent": 70,
+                        "minLv": 35,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Corphish",
+                        "percent": 30,
+                        "minLv": 35,
+                        "maxLv": 40
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Crawdaunt",
+                        "percent": 65,
+                        "minLv": 40,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": "Wailord",
+                        "percent": 30,
+                        "minLv": 40,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": "Alomomola",
+                        "percent": 5,
+                        "minLv": 40,
+                        "maxLv": 45
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Undella Bay",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Jellicent",
+                        "percent": 100,
+                        "minLv": 40,
+                        "maxLv": 40,
+                        "notes": "Once per week, on Monday"
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Wailmer",
+                        "percent": 70,
+                        "minLv": 35,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Sealeo",
+                        "percent": 30,
+                        "minLv": 35,
+                        "maxLv": 40
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Walrein",
+                        "percent": 65,
+                        "minLv": 40,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": "Wailord",
+                        "percent": 30,
+                        "minLv": 40,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": "Alomomola",
+                        "percent": 5,
+                        "minLv": 40,
+                        "maxLv": 45
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Seaside Cave",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": [
+            {
+                "name": "1F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Static",
+                        "pokemon": [
+                            {
+                                "pokemon": "Crustle",
+                                "percent": 100,
+                                "minLv": 42,
+                                "maxLv": 42
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemon": "Swoobat",
+                                "percent": 35,
+                                "minLv": 40,
+                                "maxLv": 42
+                            },
+                            {
+                                "pokemon": "Sealeo",
+                                "percent": 30,
+                                "minLv": 40,
+                                "maxLv": 42
+                            },
+                            {
+                                "pokemon": "Boldore",
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 42
+                            },
+                            {
+                                "pokemon": "Tynamo",
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 42
+                            },
+                            {
+                                "pokemon": "Shuckle",
+                                "percent": 5,
+                                "minLv": 40,
+                                "maxLv": 42
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemon": "Excadrill",
+                                "percent": 80,
+                                "minLv": 42,
+                                "maxLv": 42
+                            },
+                            {
+                                "pokemon": "Crawdaunt",
+                                "percent": 20,
+                                "minLv": 42,
+                                "maxLv": 42
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fishing",
+                        "pokemon": [
+                            {
+                                "pokemon": "Corphish",
+                                "percent": 70,
+                                "minLv": 40,
+                                "maxLv": 45
+                            },
+                            {
+                                "pokemon": "Sealeo",
+                                "percent": 30,
+                                "minLv": 40,
+                                "maxLv": 45
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rippling Water",
+                        "pokemon": [
+                            {
+                                "pokemon": "Walrein",
+                                "percent": 65,
+                                "minLv": 45,
+                                "maxLv": 50
+                            },
+                            {
+                                "pokemon": "Crawdaunt",
+                                "percent": 35,
+                                "minLv": 45,
+                                "maxLv": 50
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            },
+            {
+                "name": "B1F",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemon": "Swoobat",
+                                "percent": 35,
+                                "minLv": 49,
+                                "maxLv": 51
+                            },
+                            {
+                                "pokemon": "Sealeo",
+                                "percent": 30,
+                                "minLv": 49,
+                                "maxLv": 51
+                            },
+                            {
+                                "pokemon": "Boldore",
+                                "percent": 15,
+                                "minLv": 49,
+                                "maxLv": 51
+                            },
+                            {
+                                "pokemon": "Eelektrik",
+                                "percent": 15,
+                                "minLv": 49,
+                                "maxLv": 51
+                            },
+                            {
+                                "pokemon": "Shuckle",
+                                "percent": 5,
+                                "minLv": 49,
+                                "maxLv": 51
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemon": "Excadrill",
+                                "percent": 100,
+                                "minLv": 52,
+                                "maxLv": 52
+                            }
+                        ]
+                    }
+                ],
+                "items": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Route 14",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Swablu",
+                        "percent": 30,
+                        "minLv": 37,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": "Herdier",
+                        "percent": 20,
+                        "minLv": 37,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": "Flaaffy",
+                        "percent": 20,
+                        "minLv": 37,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": "Drifloon",
+                        "percent": 20,
+                        "minLv": 37,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": "Absol",
+                        "percent": 10,
+                        "minLv": 37,
+                        "maxLv": 38
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Altaria",
+                        "percent": 30,
+                        "minLv": 39,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Stoutland",
+                        "percent": 20,
+                        "minLv": 39,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Ampharos",
+                        "percent": 20,
+                        "minLv": 39,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Drifblim",
+                        "percent": 20,
+                        "minLv": 39,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Absol",
+                        "percent": 10,
+                        "minLv": 39,
+                        "maxLv": 40
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 80,
+                        "minLv": 40,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 10,
+                        "minLv": 40,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Absol",
+                        "percent": 10,
+                        "minLv": 40,
+                        "maxLv": 40
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Basculin (R)",
+                        "percent": 70,
+                        "minLv": 35,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Buizel",
+                        "percent": 30,
+                        "minLv": 35,
+                        "maxLv": 40
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Floatzel",
+                        "percent": 65,
+                        "minLv": 40,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": "Basculin (B)",
+                        "percent": 35,
+                        "minLv": 40,
+                        "maxLv": 45
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 13",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": "Cobalion",
+                        "percent": 100,
+                        "minLv": 47,
+                        "maxLv": 47
+                    }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Shellos",
+                        "percent": 40,
+                        "minLv": 38,
+                        "maxLv": 39
+                    },
+                    {
+                        "pokemon": "Tangela",
+                        "percent": 20,
+                        "minLv": 38,
+                        "maxLv": 39
+                    },
+                    {
+                        "pokemon": "Deerling",
+                        "percent": 20,
+                        "minLv": 38,
+                        "maxLv": 39
+                    },
+                    {
+                        "pokemon": "Absol",
+                        "percent": 10,
+                        "minLv": 38,
+                        "maxLv": 39
+                    },
+                    {
+                        "pokemon": "Lunatone",
+                        "percent": 5,
+                        "minLv": 38,
+                        "maxLv": 39
+                    },
+                    {
+                        "pokemon": "Solrock",
+                        "percent": 5,
+                        "minLv": 38,
+                        "maxLv": 39
+                    }
+                ]
+            },
+            {
+                "type": "Dark Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Gastrodon",
+                        "percent": 40,
+                        "minLv": 40,
+                        "maxLv": 41
+                    },
+                    {
+                        "pokemon": "Tangela",
+                        "percent": 20,
+                        "minLv": 40,
+                        "maxLv": 41
+                    },
+                    {
+                        "pokemon": "Sawsbuck",
+                        "percent": 20,
+                        "minLv": 40,
+                        "maxLv": 41
+                    },
+                    {
+                        "pokemon": "Absol",
+                        "percent": 10,
+                        "minLv": 40,
+                        "maxLv": 41
+                    },
+                    {
+                        "pokemon": "Lunatone",
+                        "percent": 5,
+                        "minLv": 40,
+                        "maxLv": 41
+                    },
+                    {
+                        "pokemon": "Solrock",
+                        "percent": 5,
+                        "minLv": 40,
+                        "maxLv": 41
+                    }
+                ]
+            },
+            {
+                "type": "Rustling Grass",
+                "pokemon": [
+                    {
+                        "pokemon": "Audino",
+                        "percent": 85,
+                        "minLv": 40,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Emolga",
+                        "percent": 10,
+                        "minLv": 40,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Tangrowth",
+                        "percent": 5,
+                        "minLv": 40,
+                        "maxLv": 40
+                    }
+                ]
+            },
+            {
+                "type": "Fishing",
+                "pokemon": [
+                    {
+                        "pokemon": "Staryu",
+                        "percent": 70,
+                        "minLv": 35,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": "Frillish",
+                        "percent": 30,
+                        "minLv": 35,
+                        "maxLv": 40
+                    }
+                ]
+            },
+            {
+                "type": "Rippling Water",
+                "pokemon": [
+                    {
+                        "pokemon": "Jellicent",
+                        "percent": 65,
+                        "minLv": 40,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": "Starmie",
+                        "percent": 30,
+                        "minLv": 40,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": "Alomomola",
+                        "percent": 5,
+                        "minLv": 40,
+                        "maxLv": 45
+                    }
+                ]
+            }
+        ],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    },
+    {
+        "name": "",
+        "trainers": [],
+        "encounters": [],
+        "items": [],
+        "subLocations": []
+    }
+]
