@@ -443,7 +443,7 @@
                 "abilityId": 101,
                 "natureId": 24,
                 "itemId": 275,
-                "moves": [183, 331, 317, "         "]
+                "moves": [183, 331, 317]
             },
             {
                 "pokemonId": 609,
@@ -463,6 +463,7 @@
             {
                 "pokemonId": 596,
                 "level": 63,
+                "abilityId": 14,
                 "natureId": 14,
                 "itemId": 550,
                 "moves": [87, 527, 405, 202]

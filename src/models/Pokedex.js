@@ -35,6 +35,15 @@ class Pokedex {
             return dexEntry.forms[0].gen <= gen;
         });
     }
+
+
+    static getBaseForm(mon, speciesData) {
+        if (mon.evoFromId === 0) {
+            return mon;
+        }
+        const prevMon = Help.findInArray(mon.evoFromId, speciesData);
+        return this.getBaseForm(prevMon, speciesData);
+    };
 }
 
 export default Pokedex;

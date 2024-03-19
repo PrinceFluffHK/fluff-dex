@@ -46,20 +46,16 @@
 }
 
 .team-member-container {
-    // height: 13rem;
-    // width: 5rem;
     border: 2px solid black;
     border-radius: 1rem;
     z-index: 2;
-    // display: flex;
-    // flex-direction: column;
-    
+    // background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .team-member-sprite-container {
     width: 64px;
     height: 64px;
-    background-color: gray;
+    background-color: white;
     border: solid 2px black;
     display: flex;
     justify-content: center;
@@ -82,11 +78,16 @@
     // justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 6rem;
-    margin-bottom: 1rem;
+    height: 6.2rem;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid black;
+    padding: 5px 0 10px 0;
+    width: 92%
 }
 
-.text-center{
+.team-stat-text {
     text-align: center;
-
+    margin-bottom: 3px;
 }

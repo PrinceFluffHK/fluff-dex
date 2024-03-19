@@ -21,7 +21,7 @@ const TrainerDisplay = (props) => {
                     {thisTrainer.trainerClass.name} {thisTrainer.name}
                 </h1>
                 <h3 className="text-center" style={{ color: "gray"}}>{thisTrainer.notes}</h3>
-                <div className="lead-window">
+                {/* <div className="lead-window">
                     <div className="oval-left">
                         <div className="lead-mon-container">
                             <img
@@ -36,7 +36,7 @@ const TrainerDisplay = (props) => {
                         className="lead-window-trainer"
                         src={thisTrainer.trainerClass.sprite}
                     />
-                </div>
+                </div> */}
             </div>
             <FullTeamDisplay thisTrainer={thisTrainer} id={id} />
         </div>

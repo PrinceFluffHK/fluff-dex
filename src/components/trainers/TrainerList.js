@@ -14,13 +14,22 @@ const TrainerList = (props) => {
     console.log(selectedRomhack);
     const trainerList = selectedRomhack.trainers.map((trainer, index) => {
         if (index > 0) {
-            let bgColor = "lightcyan"
+            let bgColor = "lightcyan";
             if (index % 2) {
-                bgColor = "white"
+                bgColor = "white";
             }
             return (
-                <Link className="suppress-link" to={`${trainer.id}`} key={index}>
-                    <Grid className="list-padding" style={{backgroundColor: bgColor}} container key={trainer.id}>
+                <Link
+                    className="suppress-link"
+                    to={`${trainer.id}`}
+                    key={index}
+                >
+                    <Grid
+                        className="list-padding"
+                        style={{ backgroundColor: bgColor }}
+                        container
+                        key={trainer.id}
+                    >
                         <Grid
                             className="align-center justify-left"
                             item
@@ -36,13 +45,17 @@ const TrainerList = (props) => {
                             </h3>
                         </Grid>
                         <Grid className="invis-xs" item sm={6}>
-                            <TeamDisplay 
+                            <TeamDisplay
                                 selectedTrainer={trainer}
-                                styleObj={{ }}
-                                gridSizes={{ xs: 4, sm: 4, md: 4, lg: 2, xl: 2 }}
-                            >
-                                
-                            </TeamDisplay>
+                                styleObj={{}}
+                                gridSizes={{
+                                    xs: 4,
+                                    sm: 4,
+                                    md: 4,
+                                    lg: 2,
+                                    xl: 2,
+                                }}
+                            ></TeamDisplay>
                         </Grid>
                         <Grid className="center" item xs={2}>
                             <img
@@ -59,10 +72,9 @@ const TrainerList = (props) => {
     return (
         <div>
             <TopBar />
-            <div className="center top-bar-padding">
-                <h1>Trainer List</h1>
+            <div className="top-bar-padding">
+                <div>{trainerList}</div>
             </div>
-            <div>{trainerList}</div>
         </div>
     );
 };

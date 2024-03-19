@@ -1,18 +1,11 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import EvolutionChain from "../../models/EvolutionChain";
 import Help from "../../models/Help";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import Pokedex from "../../models/Pokedex";
 
 const EvoDisplay = ({ selectedMon, selectedRomhack, setSelectedMonId }) => {
-    const getBaseForm = (mon, speciesData) => {
-        if (mon.evoFromId === 0) {
-            return mon;
-        }
-        const prevMon = Help.findInArray(mon.evoFromId, speciesData);
-        return getBaseForm(prevMon, speciesData);
-    };
 
     const makeLinks = (mon, speciesData, id) => {
         const handleSelect = () => {
@@ -54,7 +47,7 @@ const EvoDisplay = ({ selectedMon, selectedRomhack, setSelectedMonId }) => {
     };
 
     const makeLine = (mon, speciesData, hackId) => {
-        const baseMon = getBaseForm(mon, speciesData);
+        const baseMon = Pokedex.getBaseForm(mon, speciesData);
         return makeLinks(baseMon, speciesData, hackId);
     };
 

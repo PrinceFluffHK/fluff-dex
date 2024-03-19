@@ -6,7 +6,6 @@ import { faHouse, faBars } from "@fortawesome/free-solid-svg-icons";
 const TopBar = (props) => {
     const { id } = useParams();
     const { pathname } = useLocation();
-    // console.log("id:", id)
 
     const location = pathname.split("/")[2];
 
@@ -26,7 +25,6 @@ const TopBar = (props) => {
     ];
 
     const links = linkObjs.map((link) => {
-        // const linkLocation = link.link.split("/")[2];
         const className = `top-bar-link`
 
         return (
