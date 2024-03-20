@@ -57,7 +57,7 @@ const PokemonDisplay = ({ dexType }) => {
                         selectedMon={selectedMon}
                         selectedRomhack={selectedRomhack}
                     />
-                    <Grid id="moves-container" item xs={12}>
+                    <Grid item xs={12}>
                         <Grid container>
                             <LevelLearnDisplay
                                 baseDexEntry={baseDexEntry}

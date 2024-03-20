@@ -4,13 +4,11 @@ import Help from "../../models/Help";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 import Pokedex from "../../models/Pokedex";
+import { Link } from "react-router-dom";
 
-const EvoDisplay = ({ selectedMon, selectedRomhack, setSelectedMonId }) => {
+const EvoDisplay = ({ selectedMon, selectedRomhack }) => {
 
     const makeLinks = (mon, speciesData, id) => {
-        const handleSelect = () => {
-            setSelectedMonId(mon.id);
-        };
         const nextLinks = mon.evoTo.map((link, index) => {
             const nextMon = Help.findInArray(link.nextMonId, speciesData);
             const nextLinks = makeLinks(nextMon, speciesData, id);
@@ -31,11 +29,14 @@ const EvoDisplay = ({ selectedMon, selectedRomhack, setSelectedMonId }) => {
 
         return (
             <div className="center" key={mon.id}>
+                <Link to={`/${selectedRomhack.id}/pokedex/${mon.id}/0`}>
+
                 <img
                     src={mon.spriteUrl}
                     alt={`Sprite of ${mon.name}`}
-                    onClick={handleSelect}
+                    // onClick={handleSelect}
                 />
+                </Link>
                 <div
                     className="justify-around"
                     style={{ flexDirection: "column" }}
