@@ -19,7 +19,7 @@ function App() {
                         <Route exact path="/:id/moves" Component={MoveList} />
                         <Route
                             exact
-                            path="/:id/pokedex/:selectedEntryId/:selectedFormIndex"
+                            path="/:id/pokedex/:entryId/:formIndex"
                             Component={PokemonDisplay}
                         />
                         <Route

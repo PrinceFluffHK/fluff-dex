@@ -1,16 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight, faChevronLeft,  } from "@fortawesome/free-solid-svg-icons";
+import {
+    faChevronRight,
+    faChevronLeft,
+} from "@fortawesome/free-solid-svg-icons";
 
 import Help from "../../models/Help";
 import DexEntry from "../../models/DexEntry";
+import { Link } from "react-router-dom";
 
-const PokemonDisplayTopBar = ({
-    selectedMonId,
-    setSelectedMonId,
-    selectedRomhack,
-    dexType,
-}) => {
+const PokemonDisplayTopBar = ({ selectedMonId, selectedRomhack, dexType }) => {
     const pokedex =
         dexType === 0
             ? selectedRomhack.regionalDex.dexArray
@@ -28,54 +27,36 @@ const PokemonDisplayTopBar = ({
             ? pokedex[pokedex.length - 1].forms[0]
             : pokedex[thisMonIndex - 1].forms[0];
 
-    const incrementUp = () => {
-        setSelectedMonId(nextMon.id);
-    };
-
-    const incrementDown = () => {
-        setSelectedMonId(lastMon.id);
-    };
-
-    const returnToDex = () => {
-        setSelectedMonId(-1);
-    };
-
-    const IncrementUpButton = () => {
+    const IncrementUpButton = ({}) => {
         return (
-            <div className="increment-container" onClick={incrementUp}>
+            <Link
+                to={`/${selectedRomhack.id}/pokedex/${nextMon.id}/0`}
+                className="increment-container"
+            >
                 <img
                     className="dex-nav-sprite"
                     src={nextMon.spriteUrl}
                     alt="next pokemon"
                 />
                 <div>
-                    <FontAwesomeIcon icon={faChevronRight} size="2xl"/>
+                    <FontAwesomeIcon icon={faChevronRight} size="2xl" />
                 </div>
-            </div>
+            </Link>
         );
     };
     const IncrementDownButton = () => {
         return (
-            <div className="increment-container" onClick={incrementDown}>
-                <FontAwesomeIcon icon={faChevronLeft} size="2xl"/>
+            <Link
+                to={`/${selectedRomhack.id}/pokedex/${lastMon.id}/0`}
+                className="increment-container"
+            >
+                <FontAwesomeIcon icon={faChevronLeft} size="2xl" />
                 <img
                     className="dex-nav-sprite"
                     src={lastMon.spriteUrl}
                     alt="previous pokemon"
                 />
-            </div>
-        );
-    };
-
-    const BackToDex = (props) => {
-        return (
-            <div onClick={returnToDex}>
-                <img
-                    className="dex-nav-sprite"
-                    src={thisMon.forms[0].spriteUrl}
-                    alt="this pokemon"
-                />
-            </div>
+            </Link>
         );
     };
 

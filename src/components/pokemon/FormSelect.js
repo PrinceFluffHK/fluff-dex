@@ -1,10 +1,10 @@
 import { Grid } from "@mui/material";
 import React from "react";
 
-const FormSelect = ({ selectedMonId, setSelectedMonId, baseDexEntry }) => {
+const FormSelect = ({ selectedMonId, setSelectedForm, baseDexEntry }) => {
     const formBar = baseDexEntry.forms.map((form, index) => {
         const handleSelect = () => {
-            setSelectedMonId(form.id);
+            setSelectedForm(index);
         };
         let className = "";
         if (selectedMonId === form.id) {

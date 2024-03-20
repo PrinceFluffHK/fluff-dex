@@ -1,7 +1,5 @@
-import React from "react";
 import DexEntry from "./DexEntry";
 import Help from "./Help";
-import { Grid } from "@mui/material";
 
 class Pokedex {
     constructor(dexArray) {

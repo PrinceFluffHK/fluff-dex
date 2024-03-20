@@ -1,11 +1,12 @@
 import React from "react";
-import Help from "../../models/Help";
 import { Grid } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 
-const LevelLearnDisplay = ({ selectedMon }) => {
+const LevelLearnDisplay = ({ selectedMon, baseDexEntry }) => {
     const { id } = useParams();
-    const movesDisplay = selectedMon.levelLearn.map((moveElement, index) => {
+
+    const moveArray = selectedMon.levelLearn.length === 0 ? baseDexEntry.forms[0].levelLearn : selectedMon.levelLearn
+    const movesDisplay = moveArray.map((moveElement, index) => {
         const { move } = moveElement;
         return (
             <Link to={`/${id}/moves/${move.id}`} className="suppress-link" key={index}>
