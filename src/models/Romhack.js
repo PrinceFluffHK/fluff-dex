@@ -54,13 +54,11 @@ class Romhack {
         this.trainers = trainers;
     }
 
-    navDisplayShort() {
+    homeDisplay(index) {
         return (
-            <Grid item xs={12} md={6}>
-                <Link to={this.link}>
-                    <div className="nav-container-short">
-                        <div>{this.name}</div>
-                    </div>
+            <Grid className="center" item xs={12} md={6} lg={4} key={index}>
+                <Link to={`/${this.id}/pokedex`}>
+                    <img className="hack-cover drop-shadow" src={this.thumbnailUrl} alt={`Cover art for ${this.title}`}/>
                 </Link>
             </Grid>
         );
@@ -79,7 +77,8 @@ class Romhack {
         pokedexEdits,
         itemEdits,
         trainerClassData,
-        trainerData
+        trainerData,
+        thumbnail
     ) {
         const abilities = Ability.makeArray(Help.filterByGen(abilityData, gen));
         const types = Type.makeArray(typeData);
@@ -128,7 +127,7 @@ class Romhack {
         return new Romhack(
             id,
             title,
-            "",
+            thumbnail,
             species,
             nationalDex,
             regionalDex,

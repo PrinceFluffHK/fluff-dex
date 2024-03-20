@@ -5,25 +5,18 @@ import { Link } from "react-router-dom";
 
 export const romhackList = [b2de];
 
-const Homepage = (props) => {
-
-    const listDisplay = romhackList.map((romhack) => {
-        return (
-            <Grid item xs={12} md={6} key={romhack.name}>
-                <Link to={`/${romhack.id}/pokedex`}>
-                    <div className="nav-container-tall">
-                        <div>{romhack.name}</div>
-                    </div>
-                </Link>
-            </Grid>
-        );
+const Homepage = () => {
+    const listDisplay = romhackList.map((romhack, index) => {
+        console.log(romhack)
+        return romhack.homeDisplay(index);
     });
     return (
-        <div>
-            Hello from Home
-            <Grid container spacing={0}>
-                {listDisplay}
-            </Grid>
+        <div className="width-100 center">
+            <div className="width-80">
+                <Grid container spacing={0}>
+                    {listDisplay}
+                </Grid>
+            </div>
         </div>
     );
 };

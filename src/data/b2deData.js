@@ -11,6 +11,8 @@ import itemEdits from "./B2DE/itemEdits.json";
 import trainerClassData from "./B2DE/trainerClasses.json";
 import trainerData from "./B2DE/trainers.json"
 
+import b2deCover from "../assets/banners/B2DE_Cover_A.png"
+
 const b2de = Romhack.make(
     1,
     5,
@@ -24,7 +26,8 @@ const b2de = Romhack.make(
     pokedexEdits,
     itemEdits,
     trainerClassData,
-    trainerData
+    trainerData,
+    b2deCover
 );
 
 export default b2de;

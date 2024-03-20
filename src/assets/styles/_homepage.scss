@@ -1,0 +1,10 @@
+@import "./variables";
+
+.hack-cover {
+    height: auto;
+    border: 3px solid black;
+    width: 400px;
+    @media only screen and (max-width: $xl) {
+        width: 300px;
+    }
+}
