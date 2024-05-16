@@ -3,10 +3,13 @@ import React from "react";
 
 const MoveListHeader = (props) => {
     return (
-        <div
-            className=" top-bar-padding align-center move-top-bar"
-        >
-            <Grid container columnSpacing={1} className="align-center list-padding" style={{ height: "3rem"}}>
+        <div className="align-center move-top-bar">
+            <Grid
+                container
+                columnSpacing={1}
+                className="align-center list-padding"
+                style={{ height: "3rem" }}
+            >
                 <Grid item xs={1.5} sm={1} md={0.5}>
                     <b>ID</b>
                 </Grid>

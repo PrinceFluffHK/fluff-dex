@@ -131,7 +131,15 @@
     font-size: 36px;
     @media only screen and (max-width: 440px) {
         font-size: 24px;
-        
-        // width: 100%;
     }
+}
+
+.copy-to-clipboard {
+    z-index: 110000;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 0;
+    color: black;
+    cursor: pointer;
 }

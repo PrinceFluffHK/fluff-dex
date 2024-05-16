@@ -7,7 +7,6 @@
 
 .dex-container {
     width: 100%;
-    padding-top: 220px;
 }
 
 .dex-container a {
@@ -23,37 +22,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // margin-bottom: 0.5rem;
 }
 
 .dex-ability-container {
-    // height: 80%;
     width: 33%;
-}
-
-.dex-type-select {
-    cursor: pointer;
 }
 
 .dex-type-select-container {
     z-index: 2;
     background-color: white;
-    height: 80px;
-    width: 1536px;
+    width: $xl;
     position: fixed;
-    @media only screen and (max-width: 1536px) {
+    @media only screen and (max-width: $xl) {
         width: 100vw;
     }
-}
-
-.dex-type-selected {
-    background-color: white;
-    border-bottom: none;
-    cursor: pointer;
-}
-
-.dex-type-unselected {
-    background-color: lightgray;
-    cursor: pointer;
-    border-bottom: 2px solid black;
 }

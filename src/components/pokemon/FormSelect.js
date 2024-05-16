@@ -1,11 +1,9 @@
 import { Grid } from "@mui/material";
-import React from "react";
+import { React } from "react";
+import { Link } from "react-router-dom";
 
-const FormSelect = ({ selectedMonId, setSelectedForm, baseDexEntry }) => {
+const FormSelect = ({ selectedMonId, baseDexEntry, selectedRomhack }) => {
     const formBar = baseDexEntry.forms.map((form, index) => {
-        const handleSelect = () => {
-            setSelectedForm(index);
-        };
         let className = "";
         if (selectedMonId === form.id) {
             className = `center form-sprite-container selected-form`;
@@ -14,15 +12,19 @@ const FormSelect = ({ selectedMonId, setSelectedForm, baseDexEntry }) => {
         }
 
         return (
-            <Grid onClick={handleSelect} item xs key={form.id}>
-                <div className={className}>
-                    <img
-                        className="form-select-sprite"
-                        src={form.spriteUrl}
-                        alt={`Sprite of ${form.name} (${form.modifier})`}
-                    />
-                </div>
-            </Grid>
+            <Link
+                to={`/${selectedRomhack.id}/pokemon/${baseDexEntry.id}/${index}`}
+            >
+                <Grid item xs key={form.id}>
+                    <div className={className}>
+                        <img
+                            className="form-select-sprite"
+                            src={form.spriteUrl}
+                            alt={`Sprite of ${form.name} (${form.modifier})`}
+                        />
+                    </div>
+                </Grid>
+            </Link>
         );
     });
 
@@ -30,11 +32,7 @@ const FormSelect = ({ selectedMonId, setSelectedForm, baseDexEntry }) => {
         return <></>;
     }
     return (
-        <Grid
-            style={{ width: "90%" }}
-            container
-            className="align-center"
-        >
+        <Grid style={{ width: "90%" }} container className="align-center">
             {formBar}
         </Grid>
     );

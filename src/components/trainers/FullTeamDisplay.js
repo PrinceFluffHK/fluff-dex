@@ -1,9 +1,10 @@
 import { Grid } from "@mui/material";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopy } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const FullTeamDisplay = ({ thisTrainer, id }) => {
-    console.log(thisTrainer, id);
     const teamDisplay = thisTrainer.team.map((mon, index) => {
         const color1 = mon.pokemon.type1.lightColor();
         const color2 = mon.pokemon.type2 ? mon.pokemon.type2.lightColor() : "";
@@ -14,7 +15,6 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
                 backgroundImage: `linear-gradient(to bottom right, ${color1}, ${color2})`,
             };
         }
-        console.log(color1, color2);
 
         const moveList = mon.moves.map((move, index) => {
             return (
@@ -75,11 +75,18 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
                 </p>
             );
         };
-        console.log(mon);
 
         return (
             <Grid className="" item xs={6} sm={4} key={index}>
                 <div className="team-member-container" style={colorStyleObj}>
+                    <FontAwesomeIcon
+                        className="copy-to-clipboard"
+                        icon={faCopy}
+                        size="xl"
+                        onClick={() => {
+                            navigator.clipboard.writeText(mon.getPaste());
+                        }}
+                    />
                     <div className="width-100 center">
                         <Link
                             className="team-member-sprite-container"

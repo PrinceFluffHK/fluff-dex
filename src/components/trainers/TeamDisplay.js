@@ -25,9 +25,9 @@ const TeamDisplay = ({ selectedTrainer, styleObj, gridSizes }) => {
                     lg={gridSizes.lg}
                     xl={gridSizes.xl}
                 >
-                    <Link to={`/${id}/pokedex/${baseMon.id}`}>
-                        <img src={mon.spriteUrl} />
-                    </Link>
+                    {/* <Link to={`/${id}/pokedex/${baseMon.id}`}> */}
+                    <img src={mon.spriteUrl} />
+                    {/* </Link> */}
                 </Grid>
             );
         } catch (error) {

@@ -121,20 +121,20 @@
     }
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 .background {
+    // background-color: #696969;
+    // opacity: 1;
     position: absolute;
-    background-color: #696969;
-    opacity: 1;
     display: flex;
     justify-content: center;
     width: 100vw;
-    z-index: -10;
+    // z-index: -10;
     @media only screen and (max-width: 1000px) {
-        background-color: #494949;
+        // background-color: #494949;
     }
 }
 
@@ -142,7 +142,27 @@
     background-color: white;
     border-left: 2px solid black;
     border-right: 2px solid black;
+}
+
+.content-container {
+    position: fixed;
+    top: $top-bar-height;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.body-container {
     width: $xl;
+    border-left: 3px black solid;
+    border-right: 3px black solid;
+    padding-bottom: 3rem;
+    background-color: white;
+    height: fit-content;
     @media only screen and (max-width: $xl) {
         border: none;
         width: 100vw;

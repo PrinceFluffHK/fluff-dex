@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, useParams } from "react-router-dom";
 import b2de from "../../data/b2deData";
 import { Grid, Tooltip } from "@mui/material";
@@ -6,22 +6,20 @@ import TopBar from "../navigation/TopBar";
 import PokedexTopBar from "./PokedexTopBar";
 
 const Pokedex = (props) => {
-    const { id } = useParams();
-
-    const [dexType, setDexType] = useState(0);
+    let { id, dexType } = useParams();
+    id = parseInt(id)
 
     const romhackList = [b2de];
     const selectedRomhack = romhackList[id - 1];
 
     const dexList =
-        dexType === 0
+        dexType === "regional"
             ? selectedRomhack.regionalDex.dexArray
             : selectedRomhack.nationalDex.dexArray;
 
     const pokedex = dexList.map((entry, index) => {
         if (entry.id > 0) {
             const mon = entry.forms[0];
-            // console.log(mon);
 
             let bgColor = "lightcyan";
             let abilityBgColor = "#d3ebea";
@@ -51,9 +49,7 @@ const Pokedex = (props) => {
                                 className="dex-ability-box"
                                 style={{ backgroundColor: color }}
                             >
-                                <h5>
-                                    {ability.name}
-                                </h5>
+                                <h5>{ability.name}</h5>
                             </div>
                         );
                     });
@@ -71,7 +67,7 @@ const Pokedex = (props) => {
             });
 
             let dexNum = index;
-            if (dexType === 1) {
+            if (dexType === "national") {
                 dexNum = entry.id;
             }
             return (
@@ -80,7 +76,7 @@ const Pokedex = (props) => {
                     className="list-padding"
                     key={index}
                 >
-                    <Link to={`${entry.id}/0`}>
+                    <Link to={`/${id}/pokemon/${entry.id}/0`}>
                         <Grid container spacing={0}>
                             <Grid
                                 item
@@ -131,11 +127,29 @@ const Pokedex = (props) => {
             );
         }
     });
+
+    const topBarToggle = [
+        {
+            name: "Regional",
+            link: `/${id}/pokedex/regional`
+        },
+        {
+            name: "National",
+            link: `/${id}/pokedex/national`
+        }
+    ]
+
     return (
         <div className="">
-            <TopBar />
-            <PokedexTopBar dexType={dexType} setDexType={setDexType} />
-            <div className=" dex-container">{pokedex}</div>
+            <TopBar 
+                toggleArray={topBarToggle}
+            />
+            <div className="content-container">
+                <div className="body-container">
+                    <PokedexTopBar dexType={dexType} />
+                    <div className="dex-container">{pokedex}</div>
+                </div>
+            </div>
         </div>
     );
 };

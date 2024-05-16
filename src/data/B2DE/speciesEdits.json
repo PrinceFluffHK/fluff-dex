@@ -983,7 +983,7 @@
             {
                 "nextMonId": 169,
                 "condition": 33,
-                "method": "Level-up"
+                "method": "Level-Up"
             }
         ],
         "levelLearn": [
@@ -1396,7 +1396,8 @@
             1, 6, 8, 10, 11, 12, 15, 17, 18, 21, 23, 24, 25, 26, 27, 28, 31, 32,
             39, 40, 42, 44, 45, 46, 47, 48, 50, 52, 56, 62, 66, 67, 68, 71, 78,
             80, 83, 84, 87, 89, 90, 94, 99
-        ]
+        ],
+        "evoTo": []
     },
     {
         "id": 58,
@@ -1991,13 +1992,6 @@
     },
     {
         "id": 81,
-        "evoTo": [
-            {
-                "nextMonId": 82,
-                "condition": "Chargestone Cave",
-                "method": "Level-up at"
-            }
-        ],
         "levelLearn": [
             { "level": 1, "moveId": 33 },
             { "level": 4, "moveId": 48 },
@@ -2025,6 +2019,13 @@
     },
     {
         "id": 82,
+        "evoTo": [
+            {
+                "nextMonId": 462,
+                "condition": "Chargestone Cave",
+                "method": "Level-Up at"
+            }
+        ],
         "levelLearn": [
             { "level": 1, "moveId": 161 },
             { "level": 1, "moveId": 33 },
@@ -2381,7 +2382,7 @@
         "id": 95,
         "evoTo": [
             {
-                "nextMonId": 182,
+                "nextMonId": 208,
                 "condition": "Metal Coat",
                 "method": "Use Item"
             }
@@ -3286,6 +3287,13 @@
         "tmLearn": [
             6, 10, 11, 15, 17, 21, 27, 29, 31, 32, 35, 38, 42, 43, 44, 45, 46,
             47, 48, 50, 52, 56, 59, 61, 68, 87, 90, 94, 99
+        ],
+        "evoTo": [
+            {
+                "nextMonId": 467,
+                "condition": "Magmarizer",
+                "method": "Use Item"
+            }
         ]
     },
     {
@@ -4068,6 +4076,13 @@
         "tmLearn": [
             5, 6, 10, 11, 17, 21, 27, 28, 31, 32, 35, 38, 40, 42, 43, 44, 45,
             48, 50, 59, 61, 87, 90, 93, 94, 96, 99
+        ],
+        "evoTo": [
+            {
+                "nextMonId": 157,
+                "condition": 36,
+                "method": "Level-Up"
+            }
         ]
     },
     {
@@ -4509,7 +4524,7 @@
             35, 38, 42, 44, 45, 48, 49, 56, 59, 70, 73, 77, 83, 85, 86, 87, 90
         ],
         "type1": 1,
-        "evoTo": [{ "nextMonId": 35, "condition": 12, "method": "Level-up" }]
+        "evoTo": [{ "nextMonId": 35, "condition": 12, "method": "Level-Up" }]
     },
     {
         "id": 174,
@@ -4771,7 +4786,7 @@
             55, 56, 83, 86, 87, 90, 94, 98, 99, 100, 101
         ],
         "type2": 0,
-        "evoTo": [{ "nextMonId": 184, "condition": 27, "method": "Level-up" }]
+        "evoTo": [{ "nextMonId": 184, "condition": 27, "method": "Level-Up" }]
     },
     {
         "id": 184,
@@ -5284,7 +5299,8 @@
             3, 4, 6, 10, 11, 16, 17, 18, 19, 21, 24, 25, 26, 27, 29, 30, 32, 33,
             42, 44, 45, 46, 48, 49, 53, 57, 67, 70, 73, 77, 78, 83, 85, 86, 87,
             90, 92, 94, 99
-        ]
+        ],
+        "evoTo": []
     },
     {
         "id": 204,
@@ -5372,7 +5388,8 @@
         ],
         "type2": 17,
         "abilityH": 126,
-        "spe": 80
+        "spe": 80,
+        "evoTo": []
     },
     {
         "id": 207,
@@ -5400,7 +5417,14 @@
             84, 87, 89, 90, 94, 96, 99
         ],
         "ability2": 17,
-        "abilityH": 8
+        "abilityH": 8,
+        "evoTo": [
+            {
+                "nextMonId": 472,
+                "condition": "Razor Fang",
+                "method": "Use Item"
+            }
+        ]
     },
     {
         "id": 208,
@@ -5636,6 +5660,13 @@
             1, 4, 6, 7, 10, 11, 12, 13, 14, 17, 18, 21, 27, 28, 30, 31, 32, 33,
             40, 41, 42, 44, 45, 46, 47, 48, 54, 56, 63, 65, 66, 67, 75, 77, 81,
             84, 85, 87, 90, 94, 95, 96, 98, 99
+        ],
+        "evoTo": [
+            {
+                "nextMonId": 461,
+                "condition": "Razor Claw",
+                "method": "Use Item"
+            }
         ]
     },
     {
@@ -5686,7 +5717,8 @@
             1, 5, 6, 8, 10, 11, 12, 15, 17, 18, 21, 23, 26, 27, 28, 31, 32, 39,
             40, 41, 42, 44, 45, 46, 48, 52, 56, 65, 66, 67, 68, 71, 75, 78, 80,
             83, 87, 90, 94, 96, 99
-        ]
+        ],
+        "evoTo": []
     },
     {
         "id": 218,
@@ -6089,8 +6121,7 @@
             68, 69, 71, 74, 78, 80, 84, 87, 90, 94, 99
         ],
         "type2": 2,
-        "ability2": 4,
-        "evoTo": [{ "nextMonId": 447, "condition": 30, "method": "Level-up" }]
+        "ability2": 4
     },
     {
         "id": 233,
@@ -6144,7 +6175,8 @@
             3, 4, 5, 6, 10, 11, 16, 17, 18, 21, 22, 24, 25, 26, 27, 29, 30, 32,
             33, 42, 44, 45, 46, 48, 53, 57, 67, 68, 70, 73, 77, 78, 83, 85, 87,
             90, 92, 93
-        ]
+        ],
+        "evoTo": []
     },
     {
         "id": 235,
@@ -7684,7 +7716,7 @@
             87, 90, 98, 100
         ],
         "type2": 0,
-        "evoTo": [{ "nextMonId": 182, "condition": 12, "method": "Level-up" }]
+        "evoTo": [{ "nextMonId": 183, "condition": 12, "method": "Level-Up" }]
     },
     {
         "id": 299,
@@ -7710,6 +7742,13 @@
         "tmLearn": [
             6, 10, 11, 12, 17, 21, 23, 24, 25, 26, 27, 32, 37, 39, 41, 42, 44,
             45, 48, 64, 69, 71, 72, 73, 78, 80, 87, 90, 94, 99
+        ],
+        "evoTo": [
+            {
+                "nextMonId": 476,
+                "condition": "Chargestone Cave",
+                "method": "Level-Up at"
+            }
         ]
     },
     {
@@ -8140,8 +8179,7 @@
         "tmLearn": [
             6, 9, 10, 11, 17, 18, 21, 22, 27, 30, 32, 36, 42, 44, 45, 48, 53,
             70, 75, 77, 84, 86, 87, 90, 96
-        ],
-        "evoTo": [{ "nextMonId": 407, "condition": 12, "method": "Level-up" }]
+        ]
     },
     {
         "id": 316,
@@ -10572,6 +10610,13 @@
         "tmLearn": [
             6, 9, 10, 11, 17, 18, 21, 22, 27, 30, 32, 36, 42, 44, 45, 48, 53,
             70, 75, 77, 86, 87, 90, 96
+        ],
+        "evoTo": [
+            {
+                "nextMonId": 315,
+                "condition": 12,
+                "method": "Level-Up"
+            }
         ]
     },
     {
@@ -11113,7 +11158,7 @@
         ],
         "ability2": 7,
         "abilityH": 103,
-        "evoTo": [{ "nextMonId": 428, "condition": 25, "method": "Level-up" }]
+        "evoTo": [{ "nextMonId": 428, "condition": 25, "method": "Level-Up" }]
     },
     {
         "id": 428,
@@ -11418,6 +11463,13 @@
             3, 4, 6, 10, 11, 12, 16, 17, 18, 19, 20, 21, 22, 24, 25, 27, 29, 30,
             31, 32, 33, 41, 42, 44, 45, 46, 48, 56, 57, 70, 73, 77, 85, 86, 87,
             90, 92
+        ],
+        "evoTo": [
+            {
+                "nextMonId": 122,
+                "condition": "Mimic",
+                "method": "Level-Up w/ Move"
+            }
         ]
     },
     {
@@ -11604,7 +11656,8 @@
         ],
         "ability1": 158,
         "ability2": 0,
-        "abilityH": 39
+        "abilityH": 39,
+        "evoTo": [{ "nextMonId": 448, "condition": 30, "method": "Level-Up" }]
     },
     {
         "id": 448,
@@ -13183,7 +13236,14 @@
             54, 55, 56, 67, 75, 81, 86, 87, 90, 94, 96, 98, 100, 101
         ],
         "ability1": 75,
-        "abilityH": 67
+        "abilityH": 67,
+        "evoTo": [
+            {
+                "nextMonId": 503,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 503,
@@ -13785,7 +13845,7 @@
             6, 10, 17, 21, 23, 26, 27, 32, 37, 39, 42, 44, 45, 48, 64, 69, 71,
             78, 80, 87, 90, 91, 94, 99
         ],
-        "evoTo": [{ "nextMonId": 526, "condition": 40, "method": "Level-up" }]
+        "evoTo": [{ "nextMonId": 526, "condition": 40, "method": "Level-Up" }]
     },
     {
         "id": 526,
@@ -13842,7 +13902,7 @@
         ],
         "ability2": 86,
         "abilityH": 103,
-        "evoTo": [{ "nextMonId": 528, "condition": 25, "method": "Level-up" }]
+        "evoTo": [{ "nextMonId": 528, "condition": 25, "method": "Level-Up" }]
     },
     {
         "id": 528,
@@ -14017,7 +14077,7 @@
             6, 8, 10, 11, 12, 17, 18, 21, 23, 27, 28, 31, 32, 39, 42, 44, 45,
             47, 48, 52, 56, 66, 67, 71, 80, 83, 84, 86, 87, 90, 94, 99
         ],
-        "evoTo": [{ "nextMonId": 534, "condition": 40, "method": "Level-up" }]
+        "evoTo": [{ "nextMonId": 534, "condition": 40, "method": "Level-Up" }]
     },
     {
         "id": 534,
@@ -14396,6 +14456,13 @@
         "tmLearn": [
             6, 10, 11, 17, 20, 21, 22, 27, 32, 42, 44, 45, 48, 53, 70, 85, 86,
             87, 90, 96
+        ],
+        "evoTo": [
+            {
+                "nextMonId": 549,
+                "condition": "Sun Stone",
+                "method": "Use Item"
+            }
         ]
     },
     {
@@ -15563,7 +15630,7 @@
             {
                 "nextMonId": 589,
                 "condition": "Iron Defense",
-                "method": "Level-up with Move"
+                "method": "Level-Up with Move"
             }
         ]
     },
@@ -16335,7 +16402,7 @@
             {
                 "nextMonId": 617,
                 "condition": "Shadow Sneak",
-                "method": "Level-up with Move"
+                "method": "Level-Up with Move"
             }
         ]
     },
@@ -16597,7 +16664,8 @@
             1, 6, 10, 12, 15, 17, 18, 21, 27, 28, 31, 32, 37, 39, 40, 41, 42,
             44, 45, 46, 47, 48, 52, 54, 56, 63, 65, 66, 67, 68, 69, 71, 73, 75,
             81, 84, 86, 87, 90, 94, 95, 96
-        ]
+        ],
+        "evoTo": []
     },
     {
         "id": 626,
@@ -16649,7 +16717,14 @@
             67, 80, 83, 87, 88, 89, 90, 94, 96, 97, 99
         ],
         "ability1": 55,
-        "abilityH": 51
+        "abilityH": 51,
+        "evoTo": [
+            {
+                "nextMonId": 628,
+                "condition": 54,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 628,

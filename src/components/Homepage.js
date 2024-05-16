@@ -1,13 +1,12 @@
 import React from "react";
 import b2de from "../data/b2deData";
 import { Grid } from "@mui/material";
-import { Link } from "react-router-dom";
 
 export const romhackList = [b2de];
 
 const Homepage = () => {
     const listDisplay = romhackList.map((romhack, index) => {
-        console.log(romhack)
+        // console.log(romhack)
         return romhack.homeDisplay(index);
     });
     return (

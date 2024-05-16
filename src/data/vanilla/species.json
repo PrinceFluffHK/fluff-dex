@@ -606,7 +606,7 @@
         "spe": 110,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 25
     },
     {
         "id": 27,
@@ -894,7 +894,12 @@
         "spd": 25,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 40,
+                "condition": "Moon Stone",
+                "method": "Use Item"
+            }],
         "evoFromId": 174
     },
     {
@@ -1727,7 +1732,7 @@
                 "method": "Trade"
             }
         ],
-        "evoFromId": 0
+        "evoFromId": 74
     },
     {
         "id": 76,
@@ -2060,7 +2065,7 @@
         "modifier": "",
         "evoTo": [
             {
-                "nextMonId": 19,
+                "nextMonId": 91,
                 "condition": "Water Stone",
                 "method": "Use Item"
             }
@@ -2468,7 +2473,7 @@
             {
                 "nextMonId": 463,
                 "condition": "Rollout",
-                "method": "Level-Up with Move"
+                "method": "Level-Up w/ Move"
             }
         ],
         "evoFromId": 0
@@ -2617,7 +2622,7 @@
             {
                 "nextMonId": 465,
                 "condition": "Ancient Power",
-                "method": "Level-Up with Move"
+                "method": "Level-Up w/ Move"
             }
         ],
         "evoFromId": 0
@@ -2819,7 +2824,13 @@
                 "nextMonId": 212,
                 "condition": "Metal Coat",
                 "method": "Trade w/ Item"
+            },
+            {
+                "nextMonId": 900,
+                "condition": "Black Augurite",
+                "method": "Use Item"
             }
+        
         ],
         "evoFromId": 0
     },
@@ -3559,6 +3570,11 @@
                 "nextMonId": 157,
                 "condition": 36,
                 "method": "Level-Up"
+            },
+            {
+                "nextMonId": 10233,
+                "condition": 36,
+                "method": "Level-Up in Hisui"
             }
         ],
         "evoFromId": 155
@@ -3625,7 +3641,7 @@
         "modifier": "",
         "evoTo": [
             {
-                "nextMonId": 161,
+                "nextMonId": 160,
                 "condition": 30,
                 "method": "Level-Up"
             }
@@ -3888,7 +3904,7 @@
         "spe": 67,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 170
     },
     {
         "id": 172,
@@ -4318,7 +4334,7 @@
             {
                 "nextMonId": 424,
                 "condition": "Double Slap",
-                "method": "Level-Up with Move"
+                "method": "Level-Up w/ Move"
             }
         ],
         "evoFromId": 0
@@ -4387,7 +4403,7 @@
             {
                 "nextMonId": 469,
                 "condition": "Ancient Power",
-                "method": "Level-Up with Move"
+                "method": "Level-Up w/ Move"
             }
         ],
         "evoFromId": 0
@@ -4408,11 +4424,13 @@
         "spd": 25,
         "spe": 15,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 195,
-            "condition": 20,
-            "method": "Level-Up"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 195,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4488,11 +4506,13 @@
         "spd": 42,
         "spe": 91,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 430,
-            "condition": "Dusk Stone",
-            "method": "Use Item"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 430,
+                "condition": "Dusk Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4530,11 +4550,13 @@
         "spd": 85,
         "spe": 85,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 429,
-            "condition": "Dusk Stone",
-            "method": "Use Item"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 429,
+                "condition": "Dusk Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4591,11 +4613,13 @@
         "spd": 65,
         "spe": 85,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 981,
-            "condition": "Twin Beam",
-            "method": "Level-Up with Move"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 981,
+                "condition": "Twin Beam",
+                "method": "Level-Up w/ Move"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4614,11 +4638,13 @@
         "spd": 35,
         "spe": 15,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 205,
-            "condition": 31,
-            "method": "Level-Up"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 205,
+                "condition": 31,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4656,11 +4682,13 @@
         "spd": 65,
         "spe": 45,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 982,
-            "condition": "Hyper Drill",
-            "method": "Level-Up with Move"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 982,
+                "condition": "Hyper Drill",
+                "method": "Level-Up w/ Move"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4679,11 +4707,13 @@
         "spd": 65,
         "spe": 85,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 472,
-            "condition": "Razor Fang",
-            "method": "Level-Up w/ Item (Night)"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 472,
+                "condition": "Razor Fang",
+                "method": "Level-Up w/ Item (Night)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4721,11 +4751,13 @@
         "spd": 40,
         "spe": 30,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 210,
-            "condition": 23,
-            "method": "Level-Up"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 210,
+                "condition": 23,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4839,11 +4871,13 @@
         "spd": 75,
         "spe": 115,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 461,
-            "condition": "Razor Claw",
-            "method": "Level-Up w/ Item (Night)"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 461,
+                "condition": "Razor Claw",
+                "method": "Level-Up w/ Item (Night)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4862,11 +4896,13 @@
         "spd": 40,
         "spe": 50,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 217,
-            "condition": 30,
-            "method": "Level-Up"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 217,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4885,11 +4921,13 @@
         "spd": 55,
         "spe": 75,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 901,
-            "condition": "Peat Block",
-            "method": "Use Item"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 901,
+                "condition": "Peat Block",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 216
     },
     {
@@ -4908,7 +4946,13 @@
         "spd": 40,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 219,
+                "condition": 38,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4928,7 +4972,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 218
     },
     {
         "id": 220,
@@ -4946,7 +4990,13 @@
         "spd": 30,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 221,
+                "condition": 33,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -4965,8 +5015,14 @@
         "spd": 60,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 473,
+                "condition": "Ancient Power",
+                "method": "Level-Up w/ Move"
+            }
+        ],
+        "evoFromId": 220
     },
     {
         "id": 222,
@@ -5003,7 +5059,13 @@
         "spd": 35,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 224,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5023,7 +5085,7 @@
         "spe": 45,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 223
     },
     {
         "id": 225,
@@ -5061,7 +5123,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 458
     },
     {
         "id": 227,
@@ -5098,7 +5160,13 @@
         "spd": 50,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 229,
+                "condition": 24,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5118,7 +5186,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 228
     },
     {
         "id": 230,
@@ -5155,7 +5223,13 @@
         "spd": 40,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 232,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5175,7 +5249,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 231
     },
     {
         "id": 233,
@@ -5200,7 +5274,7 @@
                 "method": "Trade w/ Item"
             }
         ],
-        "evoFromId": 0
+        "evoFromId": 137
     },
     {
         "id": 234,
@@ -5218,7 +5292,13 @@
         "spd": 65,
         "spe": 85,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 899,
+                "condition": "Psyshield Bash",
+                "method": "Level-Up w/ Move"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5260,17 +5340,17 @@
             {
                 "nextMonId": 106,
                 "condition": 20,
-                "method": "Level-Up with Atk<Def"
+                "method": "Level-Up w/ Atk<Def"
             },
             {
                 "nextMonId": 107,
                 "condition": 20,
-                "method": "Level-Up with Atk>Def"
+                "method": "Level-Up w/ Atk>Def"
             },
             {
                 "nextMonId": 237,
                 "condition": 20,
-                "method": "Level-Up"
+                "method": "Level-Up w/ Atk=Def"
             }
         ],
         "evoFromId": 0
@@ -5480,7 +5560,13 @@
         "spd": 50,
         "spe": 41,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 247,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5499,8 +5585,14 @@
         "spd": 70,
         "spe": 51,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 248,
+                "condition": 55,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 246
     },
     {
         "id": 248,
@@ -5519,7 +5611,7 @@
         "spe": 61,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 247
     },
     {
         "id": 249,
@@ -5594,7 +5686,13 @@
         "spd": 55,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 253,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5613,8 +5711,14 @@
         "spd": 65,
         "spe": 95,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 254,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 252
     },
     {
         "id": 254,
@@ -5633,7 +5737,7 @@
         "spe": 120,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 253
     },
     {
         "id": 255,
@@ -5651,7 +5755,13 @@
         "spd": 50,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 256,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5670,8 +5780,14 @@
         "spd": 60,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 257,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 255
     },
     {
         "id": 257,
@@ -5690,7 +5806,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 256
     },
     {
         "id": 258,
@@ -5708,7 +5824,13 @@
         "spd": 70,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 259,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5727,8 +5849,14 @@
         "spd": 70,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 260,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 258
     },
     {
         "id": 260,
@@ -5747,7 +5875,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 259
     },
     {
         "id": 261,
@@ -5765,7 +5893,13 @@
         "spd": 30,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 262,
+                "condition": 18,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5785,7 +5919,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 261
     },
     {
         "id": 263,
@@ -5803,7 +5937,13 @@
         "spd": 41,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 264,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5823,7 +5963,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 263
     },
     {
         "id": 265,
@@ -5841,7 +5981,18 @@
         "spd": 30,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 266,
+                "condition": 7,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 268,
+                "condition": 7,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5860,8 +6011,14 @@
         "spd": 25,
         "spe": 15,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 267,
+                "condition": 10,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 265
     },
     {
         "id": 267,
@@ -5880,7 +6037,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 266
     },
     {
         "id": 268,
@@ -5898,8 +6055,14 @@
         "spd": 25,
         "spe": 15,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 269,
+                "condition": 10,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 265
     },
     {
         "id": 269,
@@ -5918,7 +6081,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 268
     },
     {
         "id": 270,
@@ -5936,7 +6099,13 @@
         "spd": 50,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 271,
+                "condition": 14,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -5955,8 +6124,14 @@
         "spd": 70,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 272,
+                "condition": "Water Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 270
     },
     {
         "id": 272,
@@ -5975,7 +6150,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 271
     },
     {
         "id": 273,
@@ -5993,7 +6168,13 @@
         "spd": 30,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 274,
+                "condition": 14,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6012,8 +6193,14 @@
         "spd": 40,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 275,
+                "condition": "Leaf Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 273
     },
     {
         "id": 275,
@@ -6032,7 +6219,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 274
     },
     {
         "id": 276,
@@ -6050,7 +6237,13 @@
         "spd": 30,
         "spe": 85,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 277,
+                "condition": 22,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6070,7 +6263,7 @@
         "spe": 125,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 276
     },
     {
         "id": 278,
@@ -6088,7 +6281,13 @@
         "spd": 30,
         "spe": 85,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 279,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6108,7 +6307,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 278
     },
     {
         "id": 280,
@@ -6126,7 +6325,13 @@
         "spd": 35,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 281,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6145,8 +6350,19 @@
         "spd": 55,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 282,
+                "condition": 30,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 475,
+                "condition": "Dawn Stone",
+                "method": "Use Item (Male)"
+            }
+        ],
+        "evoFromId": 280
     },
     {
         "id": 282,
@@ -6165,7 +6381,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 281
     },
     {
         "id": 283,
@@ -6183,7 +6399,13 @@
         "spd": 52,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 284,
+                "condition": 22,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6203,7 +6425,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 283
     },
     {
         "id": 285,
@@ -6221,7 +6443,13 @@
         "spd": 60,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 286,
+                "condition": 23,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6241,7 +6469,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 285
     },
     {
         "id": 287,
@@ -6259,7 +6487,13 @@
         "spd": 35,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 288,
+                "condition": 18,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6278,8 +6512,14 @@
         "spd": 55,
         "spe": 90,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 289,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 287
     },
     {
         "id": 289,
@@ -6298,7 +6538,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 288
     },
     {
         "id": 290,
@@ -6316,7 +6556,18 @@
         "spd": 30,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 291,
+                "condition": 20,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 292,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6336,7 +6587,7 @@
         "spe": 160,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 290
     },
     {
         "id": 292,
@@ -6355,7 +6606,7 @@
         "spe": 40,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 290
     },
     {
         "id": 293,
@@ -6373,7 +6624,13 @@
         "spd": 23,
         "spe": 28,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 294,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6392,8 +6649,14 @@
         "spd": 43,
         "spe": 48,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 295,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 293
     },
     {
         "id": 295,
@@ -6412,7 +6675,7 @@
         "spe": 68,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 294
     },
     {
         "id": 296,
@@ -6430,7 +6693,13 @@
         "spd": 30,
         "spe": 25,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 297,
+                "condition": 24,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6450,7 +6719,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 296
     },
     {
         "id": 298,
@@ -6468,7 +6737,13 @@
         "spd": 40,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 183,
+                "condition": 255,
+                "method": "Friendship"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6487,7 +6762,13 @@
         "spd": 90,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 476,
+                "condition": "Magnetized Zone",
+                "method": "Level-Up at"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6506,7 +6787,13 @@
         "spd": 35,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 301,
+                "condition": "Moon Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6526,7 +6813,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 300
     },
     {
         "id": 302,
@@ -6582,7 +6869,13 @@
         "spd": 40,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 305,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6601,8 +6894,14 @@
         "spd": 50,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 306,
+                "condition": 42,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 304
     },
     {
         "id": 306,
@@ -6621,7 +6920,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 305
     },
     {
         "id": 307,
@@ -6639,7 +6938,13 @@
         "spd": 55,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 308,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6659,7 +6964,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 307
     },
     {
         "id": 309,
@@ -6677,7 +6982,13 @@
         "spd": 40,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 310,
+                "condition": 26,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6697,7 +7008,7 @@
         "spe": 105,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 309
     },
     {
         "id": 311,
@@ -6791,8 +7102,14 @@
         "spd": 80,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 407,
+                "condition": "Shiny Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 406
     },
     {
         "id": 316,
@@ -6810,7 +7127,13 @@
         "spd": 53,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 317,
+                "condition": 26,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6830,7 +7153,7 @@
         "spe": 55,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 316
     },
     {
         "id": 318,
@@ -6848,7 +7171,13 @@
         "spd": 20,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 319,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6868,7 +7197,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 318
     },
     {
         "id": 320,
@@ -6886,7 +7215,13 @@
         "spd": 35,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 321,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6906,7 +7241,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 320
     },
     {
         "id": 322,
@@ -6924,7 +7259,13 @@
         "spd": 45,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 323,
+                "condition": 33,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -6944,7 +7285,7 @@
         "spe": 40,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 322
     },
     {
         "id": 324,
@@ -6981,7 +7322,13 @@
         "spd": 80,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 326,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7001,7 +7348,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 325
     },
     {
         "id": 327,
@@ -7038,7 +7385,13 @@
         "spd": 45,
         "spe": 10,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 329,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7057,8 +7410,14 @@
         "spd": 50,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 330,
+                "condition": 45,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 328
     },
     {
         "id": 330,
@@ -7077,7 +7436,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 329
     },
     {
         "id": 331,
@@ -7095,7 +7454,13 @@
         "spd": 40,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 332,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7115,7 +7480,7 @@
         "spe": 55,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 331
     },
     {
         "id": 333,
@@ -7133,7 +7498,13 @@
         "spd": 75,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 334,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7153,7 +7524,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 333
     },
     {
         "id": 335,
@@ -7247,7 +7618,13 @@
         "spd": 41,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 340,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7267,7 +7644,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 339
     },
     {
         "id": 341,
@@ -7285,7 +7662,13 @@
         "spd": 35,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 342,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7305,7 +7688,7 @@
         "spe": 55,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 341
     },
     {
         "id": 343,
@@ -7323,7 +7706,13 @@
         "spd": 70,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 344,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7343,7 +7732,7 @@
         "spe": 75,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 343
     },
     {
         "id": 345,
@@ -7361,7 +7750,13 @@
         "spd": 87,
         "spe": 23,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 346,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7381,7 +7776,7 @@
         "spe": 43,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 345
     },
     {
         "id": 347,
@@ -7399,7 +7794,13 @@
         "spd": 50,
         "spe": 75,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 348,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7419,7 +7820,7 @@
         "spe": 45,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 347
     },
     {
         "id": 349,
@@ -7437,7 +7838,13 @@
         "spd": 55,
         "spe": 80,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 350,
+                "condition": "Prism Scale",
+                "method": "Trade w/ Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7457,7 +7864,7 @@
         "spe": 81,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 349
     },
     {
         "id": 351,
@@ -7570,7 +7977,13 @@
         "spd": 33,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 354,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7590,7 +8003,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 353
     },
     {
         "id": 355,
@@ -7608,7 +8021,13 @@
         "spd": 90,
         "spe": 25,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 356,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7627,8 +8046,14 @@
         "spd": 130,
         "spe": 25,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 477,
+                "condition": "Reaper Cloth",
+                "method": "Trade w/ Item"
+            }
+        ],
+        "evoFromId": 355
     },
     {
         "id": 357,
@@ -7666,7 +8091,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 433
     },
     {
         "id": 359,
@@ -7703,11 +8128,13 @@
         "spd": 48,
         "spe": 23,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 202,
-            "condition": 15,
-            "method": "Level-Up"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 202,
+                "condition": 15,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7726,7 +8153,18 @@
         "spd": 50,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 362,
+                "condition": 42,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 478,
+                "condition": "Dawn Stone",
+                "method": "Use Item (Female)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7746,7 +8184,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 361
     },
     {
         "id": 363,
@@ -7764,7 +8202,13 @@
         "spd": 50,
         "spe": 25,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 364,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7783,8 +8227,14 @@
         "spd": 70,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 365,
+                "condition": 44,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 363
     },
     {
         "id": 365,
@@ -7803,7 +8253,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 364
     },
     {
         "id": 366,
@@ -7821,7 +8271,18 @@
         "spd": 55,
         "spe": 32,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 367,
+                "condition": "DeepSeaTooth",
+                "method": "Trade w/ Item"
+            },
+            {
+                "nextMonId": 368,
+                "condition": "DeepSeaScale",
+                "method": "Trade w/ Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7841,7 +8302,7 @@
         "spe": 52,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 366
     },
     {
         "id": 368,
@@ -7860,7 +8321,7 @@
         "spe": 52,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 366
     },
     {
         "id": 369,
@@ -7916,7 +8377,13 @@
         "spd": 30,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 372,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7935,8 +8402,14 @@
         "spd": 50,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 373,
+                "condition": 50,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 371
     },
     {
         "id": 373,
@@ -7955,7 +8428,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 372
     },
     {
         "id": 374,
@@ -7973,7 +8446,13 @@
         "spd": 60,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 375,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -7992,8 +8471,14 @@
         "spd": 80,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 376,
+                "condition": 45,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 374
     },
     {
         "id": 376,
@@ -8012,7 +8497,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 375
     },
     {
         "id": 377,
@@ -8277,7 +8762,13 @@
         "spd": 55,
         "spe": 31,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 388,
+                "condition": 18,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8296,8 +8787,14 @@
         "spd": 65,
         "spe": 36,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 389,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 387
     },
     {
         "id": 389,
@@ -8316,7 +8813,7 @@
         "spe": 56,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 388
     },
     {
         "id": 390,
@@ -8334,7 +8831,13 @@
         "spd": 44,
         "spe": 61,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 391,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8353,8 +8856,14 @@
         "spd": 52,
         "spe": 81,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 392,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 390
     },
     {
         "id": 392,
@@ -8373,7 +8882,7 @@
         "spe": 108,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 391
     },
     {
         "id": 393,
@@ -8391,7 +8900,13 @@
         "spd": 56,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 394,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8410,8 +8925,14 @@
         "spd": 76,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 395,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 393
     },
     {
         "id": 395,
@@ -8430,7 +8951,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 394
     },
     {
         "id": 396,
@@ -8448,7 +8969,13 @@
         "spd": 30,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 397,
+                "condition": 14,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8467,8 +8994,14 @@
         "spd": 40,
         "spe": 80,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 398,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 396
     },
     {
         "id": 398,
@@ -8487,7 +9020,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 397
     },
     {
         "id": 399,
@@ -8505,7 +9038,13 @@
         "spd": 40,
         "spe": 31,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 400,
+                "condition": 15,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8525,7 +9064,7 @@
         "spe": 71,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 399
     },
     {
         "id": 401,
@@ -8543,7 +9082,13 @@
         "spd": 41,
         "spe": 25,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 402,
+                "condition": 10,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8563,7 +9108,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 401
     },
     {
         "id": 403,
@@ -8581,7 +9126,13 @@
         "spd": 34,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 404,
+                "condition": 15,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8600,8 +9151,14 @@
         "spd": 49,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 405,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 403
     },
     {
         "id": 405,
@@ -8620,7 +9177,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 404
     },
     {
         "id": 406,
@@ -8638,7 +9195,13 @@
         "spd": 70,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 315,
+                "condition": 255,
+                "method": "Friendship (Day)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8658,7 +9221,7 @@
         "spe": 90,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 315
     },
     {
         "id": 408,
@@ -8676,7 +9239,13 @@
         "spd": 30,
         "spe": 58,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 409,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8696,7 +9265,7 @@
         "spe": 58,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 408
     },
     {
         "id": 410,
@@ -8714,7 +9283,13 @@
         "spd": 88,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 411,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8734,7 +9309,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 410
     },
     {
         "id": 412,
@@ -8752,7 +9327,28 @@
         "spd": 45,
         "spe": 36,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 413,
+                "condition": 20,
+                "method": "Level-Up (Female)"
+            },
+            {
+                "nextMonId": 10004,
+                "condition": 20,
+                "method": "Level-Up (Female)"
+            },
+            {
+                "nextMonId": 10005,
+                "condition": 20,
+                "method": "Level-Up (Female)"
+            },
+            {
+                "nextMonId": 414,
+                "condition": 20,
+                "method": "Level-Up (Male)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8772,7 +9368,7 @@
         "spe": 36,
         "modifier": "Plant Cloak",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 412
     },
     {
         "id": 10004,
@@ -8791,7 +9387,7 @@
         "spe": 36,
         "modifier": "Sandy Cloak",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 412
     },
     {
         "id": 10005,
@@ -8810,7 +9406,7 @@
         "spe": 36,
         "modifier": "Trash Cloak",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 412
     },
     {
         "id": 414,
@@ -8829,7 +9425,7 @@
         "spe": 66,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 412
     },
     {
         "id": 415,
@@ -8847,7 +9443,13 @@
         "spd": 42,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 416,
+                "condition": 21,
+                "method": "Level-Up (Female)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8867,7 +9469,7 @@
         "spe": 40,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 415
     },
     {
         "id": 417,
@@ -8904,7 +9506,13 @@
         "spd": 30,
         "spe": 85,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 419,
+                "condition": 26,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8924,7 +9532,7 @@
         "spe": 115,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 418
     },
     {
         "id": 420,
@@ -8942,7 +9550,13 @@
         "spd": 53,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 421,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -8962,7 +9576,7 @@
         "spe": 85,
         "modifier": "Overcast",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 420
     },
     {
         "id": 422,
@@ -8980,7 +9594,13 @@
         "spd": 62,
         "spe": 34,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 423,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9000,7 +9620,7 @@
         "spe": 39,
         "modifier": "West Sea",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 422
     },
     {
         "id": 424,
@@ -9037,7 +9657,13 @@
         "spd": 44,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 426,
+                "condition": 28,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9057,7 +9683,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 425
     },
     {
         "id": 427,
@@ -9075,7 +9701,13 @@
         "spd": 56,
         "spe": 85,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 428,
+                "condition": 255,
+                "method": "Friendship"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9095,7 +9727,7 @@
         "spe": 105,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 427
     },
     {
         "id": 429,
@@ -9151,7 +9783,13 @@
         "spd": 37,
         "spe": 85,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 432,
+                "condition": 38,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9171,7 +9809,7 @@
         "spe": 112,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 431
     },
     {
         "id": 433,
@@ -9189,7 +9827,13 @@
         "spd": 50,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 358,
+                "condition": 255,
+                "method": "Friendship (Day)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9208,7 +9852,13 @@
         "spd": 41,
         "spe": 74,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 435,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9228,7 +9878,7 @@
         "spe": 84,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 434
     },
     {
         "id": 436,
@@ -9246,7 +9896,13 @@
         "spd": 86,
         "spe": 23,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 437,
+                "condition": 33,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9266,7 +9922,7 @@
         "spe": 33,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 436
     },
     {
         "id": 438,
@@ -9284,11 +9940,13 @@
         "spd": 45,
         "spe": 10,
         "modifier": "",
-        "evoTo": [{
-            "nextMonId": 185,
-            "condition": "Mimic",
-            "method": "Level-Up with Move"
-        }],
+        "evoTo": [
+            {
+                "nextMonId": 185,
+                "condition": "Mimic",
+                "method": "Level-Up w/ Move"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9311,12 +9969,12 @@
             {
                 "nextMonId": 122,
                 "condition": "Mimic",
-                "method": "Level-Up with Move"
+                "method": "Level-Up w/ Move"
             },
             {
                 "nextMonId": 10168,
                 "condition": "Mimic",
-                "method": "Level-Up with Move"
+                "method": "Level-Up w/ Move"
             }
         ],
         "evoFromId": 0
@@ -9400,7 +10058,13 @@
         "spd": 45,
         "spe": 42,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 444,
+                "condition": 24,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9419,8 +10083,14 @@
         "spd": 55,
         "spe": 82,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 445,
+                "condition": 48,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 443
     },
     {
         "id": 445,
@@ -9439,7 +10109,7 @@
         "spe": 102,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 444
     },
     {
         "id": 446,
@@ -9482,7 +10152,13 @@
         "spd": 40,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 448,
+                "condition": 255,
+                "method": "Friendship"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9539,7 +10215,13 @@
         "spd": 42,
         "spe": 32,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 450,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9559,7 +10241,7 @@
         "spe": 47,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 449
     },
     {
         "id": 451,
@@ -9577,7 +10259,13 @@
         "spd": 55,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 452,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9597,7 +10285,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 451
     },
     {
         "id": 453,
@@ -9615,7 +10303,13 @@
         "spd": 40,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 454,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9635,7 +10329,7 @@
         "spe": 85,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 453
     },
     {
         "id": 455,
@@ -9672,7 +10366,13 @@
         "spd": 61,
         "spe": 66,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 457,
+                "condition": 31,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9692,7 +10392,7 @@
         "spe": 91,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 456
     },
     {
         "id": 458,
@@ -9710,7 +10410,13 @@
         "spd": 120,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 226,
+                "condition": 223,
+                "method": "Level-Up w/ Party"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9729,7 +10435,13 @@
         "spd": 60,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 460,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -9749,7 +10461,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 459
     },
     {
         "id": 10060,
@@ -9882,7 +10594,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 125
     },
     {
         "id": 467,
@@ -9901,7 +10613,7 @@
         "spe": 83,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 126
     },
     {
         "id": 468,
@@ -9920,7 +10632,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 176
     },
     {
         "id": 469,
@@ -10015,7 +10727,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 221
     },
     {
         "id": 474,
@@ -10053,7 +10765,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 281
     },
     {
         "id": 476,
@@ -10072,7 +10784,7 @@
         "spe": 40,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 299
     },
     {
         "id": 477,
@@ -10091,7 +10803,7 @@
         "spe": 75,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 356
     },
     {
         "id": 478,
@@ -10110,7 +10822,7 @@
         "spe": 110,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 361
     },
     {
         "id": 479,
@@ -10432,7 +11144,13 @@
         "spd": 80,
         "spe": 80,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 490,
+                "condition": "???",
+                "method": "???"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10452,7 +11170,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 489
     },
     {
         "id": 491,
@@ -10565,7 +11283,13 @@
         "spd": 55,
         "spe": 63,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 496,
+                "condition": 17,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10584,8 +11308,14 @@
         "spd": 75,
         "spe": 83,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 497,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 495
     },
     {
         "id": 497,
@@ -10604,7 +11334,7 @@
         "spe": 113,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 496
     },
     {
         "id": 498,
@@ -10622,7 +11352,13 @@
         "spd": 45,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 499,
+                "condition": 17,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10641,8 +11377,14 @@
         "spd": 55,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 500,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 498
     },
     {
         "id": 500,
@@ -10661,7 +11403,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 499
     },
     {
         "id": 501,
@@ -10679,7 +11421,13 @@
         "spd": 45,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 502,
+                "condition": 17,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10698,8 +11446,19 @@
         "spd": 60,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 503,
+                "condition": 36,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 10236,
+                "condition": 36,
+                "method": "Level-Up in Hisui"
+            }
+        ],
+        "evoFromId": 501
     },
     {
         "id": 503,
@@ -10718,7 +11477,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 502
     },
     {
         "id": 504,
@@ -10736,7 +11495,13 @@
         "spd": 39,
         "spe": 42,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 505,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10756,7 +11521,7 @@
         "spe": 77,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 504
     },
     {
         "id": 506,
@@ -10774,7 +11539,13 @@
         "spd": 45,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 507,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10793,8 +11564,14 @@
         "spd": 65,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 508,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 506
     },
     {
         "id": 508,
@@ -10813,7 +11590,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 507
     },
     {
         "id": 509,
@@ -10831,7 +11608,13 @@
         "spd": 37,
         "spe": 66,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 510,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10851,7 +11634,7 @@
         "spe": 106,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 509
     },
     {
         "id": 511,
@@ -10869,7 +11652,13 @@
         "spd": 48,
         "spe": 64,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 512,
+                "condition": "Leaf Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10889,7 +11678,7 @@
         "spe": 101,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 511
     },
     {
         "id": 513,
@@ -10907,7 +11696,13 @@
         "spd": 48,
         "spe": 64,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 514,
+                "condition": "Fire Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10927,7 +11722,7 @@
         "spe": 101,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 513
     },
     {
         "id": 515,
@@ -10945,7 +11740,13 @@
         "spd": 48,
         "spe": 64,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 516,
+                "condition": "Water Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -10965,7 +11766,7 @@
         "spe": 101,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 515
     },
     {
         "id": 517,
@@ -10983,7 +11784,13 @@
         "spd": 55,
         "spe": 24,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 518,
+                "condition": "Moon Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11003,7 +11810,7 @@
         "spe": 29,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 517
     },
     {
         "id": 519,
@@ -11021,7 +11828,13 @@
         "spd": 30,
         "spe": 43,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 520,
+                "condition": 21,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11040,8 +11853,14 @@
         "spd": 42,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 521,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 519
     },
     {
         "id": 521,
@@ -11060,7 +11879,7 @@
         "spe": 93,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 520
     },
     {
         "id": 522,
@@ -11078,7 +11897,13 @@
         "spd": 32,
         "spe": 76,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 523,
+                "condition": 27,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11098,7 +11923,7 @@
         "spe": 116,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 522
     },
     {
         "id": 524,
@@ -11116,7 +11941,13 @@
         "spd": 25,
         "spe": 15,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 525,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11135,8 +11966,14 @@
         "spd": 40,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 526,
+                "condition": "",
+                "method": "Trade"
+            }
+        ],
+        "evoFromId": 524
     },
     {
         "id": 526,
@@ -11155,7 +11992,7 @@
         "spe": 25,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 525
     },
     {
         "id": 527,
@@ -11173,7 +12010,13 @@
         "spd": 43,
         "spe": 72,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 528,
+                "condition": 255,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11193,7 +12036,7 @@
         "spe": 114,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 527
     },
     {
         "id": 529,
@@ -11211,7 +12054,13 @@
         "spd": 45,
         "spe": 68,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 530,
+                "condition": 31,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11231,7 +12080,7 @@
         "spe": 88,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 529
     },
     {
         "id": 531,
@@ -11268,7 +12117,13 @@
         "spd": 35,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 533,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11287,8 +12142,14 @@
         "spd": 50,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 534,
+                "condition": "",
+                "method": "Trade"
+            }
+        ],
+        "evoFromId": 532
     },
     {
         "id": 534,
@@ -11307,7 +12168,7 @@
         "spe": 45,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 533
     },
     {
         "id": 535,
@@ -11325,7 +12186,13 @@
         "spd": 40,
         "spe": 64,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 536,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11344,8 +12211,14 @@
         "spd": 55,
         "spe": 69,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 537,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 535
     },
     {
         "id": 537,
@@ -11364,7 +12237,7 @@
         "spe": 74,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 536
     },
     {
         "id": 538,
@@ -11420,7 +12293,13 @@
         "spd": 60,
         "spe": 42,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 541,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11439,8 +12318,14 @@
         "spd": 80,
         "spe": 42,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 542,
+                "condition": 255,
+                "method": "Friendship"
+            }
+        ],
+        "evoFromId": 540
     },
     {
         "id": 542,
@@ -11459,7 +12344,7 @@
         "spe": 92,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 541
     },
     {
         "id": 543,
@@ -11477,7 +12362,13 @@
         "spd": 39,
         "spe": 57,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 544,
+                "condition": 22,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11496,8 +12387,14 @@
         "spd": 79,
         "spe": 47,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 545,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 543
     },
     {
         "id": 545,
@@ -11516,7 +12413,7 @@
         "spe": 112,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 544
     },
     {
         "id": 546,
@@ -11534,7 +12431,13 @@
         "spd": 50,
         "spe": 66,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 547,
+                "condition": "Sun Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11554,7 +12457,7 @@
         "spe": 116,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 546
     },
     {
         "id": 548,
@@ -11572,7 +12475,18 @@
         "spd": 50,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 549,
+                "condition": "Sun Stone",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 10237,
+                "condition": "Sun Stone",
+                "method": "Use Item (Hisui)" 
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11592,7 +12506,7 @@
         "spe": 90,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 548
     },
     {
         "id": 550,
@@ -11648,7 +12562,13 @@
         "spd": 35,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 552,
+                "condition": 29,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11667,8 +12587,14 @@
         "spd": 45,
         "spe": 74,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 553,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 551
     },
     {
         "id": 553,
@@ -11687,7 +12613,7 @@
         "spe": 92,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 552
     },
     {
         "id": 554,
@@ -11705,7 +12631,13 @@
         "spd": 45,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 555,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11725,7 +12657,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 554
     },
     {
         "id": 10017,
@@ -11781,7 +12713,13 @@
         "spd": 35,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 558,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11801,7 +12739,7 @@
         "spe": 45,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 557
     },
     {
         "id": 559,
@@ -11819,7 +12757,13 @@
         "spd": 70,
         "spe": 48,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 560,
+                "condition": 39,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11839,7 +12783,7 @@
         "spe": 58,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 559
     },
     {
         "id": 561,
@@ -11876,7 +12820,13 @@
         "spd": 65,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 563,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11896,7 +12846,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 562
     },
     {
         "id": 564,
@@ -11914,7 +12864,13 @@
         "spd": 45,
         "spe": 22,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 565,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11934,7 +12890,7 @@
         "spe": 32,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 564
     },
     {
         "id": 566,
@@ -11952,7 +12908,13 @@
         "spd": 45,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 567,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -11972,7 +12934,7 @@
         "spe": 110,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 566
     },
     {
         "id": 568,
@@ -11990,7 +12952,13 @@
         "spd": 62,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 569,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12010,7 +12978,7 @@
         "spe": 75,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 568
     },
     {
         "id": 570,
@@ -12028,7 +12996,13 @@
         "spd": 40,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 571,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12048,7 +13022,7 @@
         "spe": 105,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 570
     },
     {
         "id": 572,
@@ -12066,7 +13040,13 @@
         "spd": 40,
         "spe": 75,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 573,
+                "condition": "Shiny Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12086,7 +13066,7 @@
         "spe": 115,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 572
     },
     {
         "id": 574,
@@ -12104,7 +13084,13 @@
         "spd": 65,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 575,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12123,8 +13109,14 @@
         "spd": 85,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 576,
+                "condition": 41,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 574
     },
     {
         "id": 576,
@@ -12143,7 +13135,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 575
     },
     {
         "id": 577,
@@ -12161,7 +13153,13 @@
         "spd": 50,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 578,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12180,8 +13178,14 @@
         "spd": 60,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 579,
+                "condition": 41,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 577
     },
     {
         "id": 579,
@@ -12200,7 +13204,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 578
     },
     {
         "id": 580,
@@ -12218,7 +13222,13 @@
         "spd": 50,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 581,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12238,7 +13248,7 @@
         "spe": 98,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 580
     },
     {
         "id": 582,
@@ -12256,7 +13266,13 @@
         "spd": 60,
         "spe": 44,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 583,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12275,8 +13291,14 @@
         "spd": 75,
         "spe": 59,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 584,
+                "condition": 47,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 582
     },
     {
         "id": 584,
@@ -12295,7 +13317,7 @@
         "spe": 79,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 583
     },
     {
         "id": 585,
@@ -12313,7 +13335,13 @@
         "spd": 50,
         "spe": 75,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 586,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12333,7 +13361,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 585
     },
     {
         "id": 587,
@@ -12370,7 +13398,13 @@
         "spd": 45,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 589,
+                "condition": "Shelmet",
+                "method": "Trade with"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12390,7 +13424,7 @@
         "spe": 20,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 588
     },
     {
         "id": 590,
@@ -12408,7 +13442,13 @@
         "spd": 55,
         "spe": 15,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 591,
+                "condition": 39,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12428,7 +13468,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 590
     },
     {
         "id": 592,
@@ -12446,7 +13486,13 @@
         "spd": 85,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 593,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12466,7 +13512,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 592
     },
     {
         "id": 594,
@@ -12503,7 +13549,13 @@
         "spd": 50,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 596,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12523,7 +13575,7 @@
         "spe": 108,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 595
     },
     {
         "id": 597,
@@ -12541,7 +13593,13 @@
         "spd": 86,
         "spe": 10,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 598,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12561,7 +13619,7 @@
         "spe": 20,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 597
     },
     {
         "id": 599,
@@ -12579,7 +13637,13 @@
         "spd": 60,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 600,
+                "condition": 38,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12598,8 +13662,14 @@
         "spd": 85,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 601,
+                "condition": 49,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 599
     },
     {
         "id": 601,
@@ -12618,7 +13688,7 @@
         "spe": 90,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 600
     },
     {
         "id": 602,
@@ -12636,7 +13706,13 @@
         "spd": 40,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 603,
+                "condition": 39,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12655,8 +13731,14 @@
         "spd": 70,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 604,
+                "condition": "Thunder Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 602
     },
     {
         "id": 604,
@@ -12675,7 +13757,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 603
     },
     {
         "id": 605,
@@ -12693,7 +13775,13 @@
         "spd": 55,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 606,
+                "condition": 42,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12713,7 +13801,7 @@
         "spe": 40,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 605
     },
     {
         "id": 607,
@@ -12731,7 +13819,13 @@
         "spd": 55,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 608,
+                "condition": 41,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12750,8 +13844,14 @@
         "spd": 60,
         "spe": 55,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 609,
+                "condition": "Dusk Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 607
     },
     {
         "id": 609,
@@ -12770,7 +13870,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 608
     },
     {
         "id": 610,
@@ -12788,7 +13888,13 @@
         "spd": 40,
         "spe": 57,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 611,
+                "condition": 38,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12807,8 +13913,14 @@
         "spd": 50,
         "spe": 67,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 612,
+                "condition": 48,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 610
     },
     {
         "id": 612,
@@ -12827,7 +13939,7 @@
         "spe": 97,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 611
     },
     {
         "id": 613,
@@ -12845,7 +13957,13 @@
         "spd": 40,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 614,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12865,7 +13983,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 613
     },
     {
         "id": 615,
@@ -12902,7 +14020,13 @@
         "spd": 65,
         "spe": 25,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 617,
+                "condition": "Karrablast",
+                "method": "Trade with"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12922,7 +14046,7 @@
         "spe": 145,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 616
     },
     {
         "id": 618,
@@ -12978,7 +14102,13 @@
         "spd": 50,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 620,
+                "condition": 50,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -12998,7 +14128,7 @@
         "spe": 105,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 619
     },
     {
         "id": 621,
@@ -13035,7 +14165,13 @@
         "spd": 50,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 623,
+                "condition": 43,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -13055,7 +14191,7 @@
         "spe": 55,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 622
     },
     {
         "id": 624,
@@ -13073,7 +14209,13 @@
         "spd": 40,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 625,
+                "condition": 52,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -13092,8 +14234,14 @@
         "spd": 70,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 983,
+                "condition": "",
+                "method": "[Kingambit]"
+            }
+        ],
+        "evoFromId": 624
     },
     {
         "id": 626,
@@ -13130,7 +14278,18 @@
         "spd": 50,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 628,
+                "condition": 54,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 10240,
+                "condition": 54,
+                "method": "Level-Up in Hisui"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -13150,7 +14309,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 627
     },
     {
         "id": 629,
@@ -13168,7 +14327,13 @@
         "spd": 65,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 630,
+                "condition": 54,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -13188,7 +14353,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 629
     },
     {
         "id": 631,
@@ -13244,7 +14409,13 @@
         "spd": 50,
         "spe": 38,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 634,
+                "condition": 50,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -13263,8 +14434,14 @@
         "spd": 70,
         "spe": 58,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 635,
+                "condition": 64,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 633
     },
     {
         "id": 635,
@@ -13283,7 +14460,7 @@
         "spe": 98,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 634
     },
     {
         "id": 636,
@@ -13301,7 +14478,13 @@
         "spd": 55,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 637,
+                "condition": 59,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -13321,7 +14504,7 @@
         "spe": 100,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 636
     },
     {
         "id": 638,
@@ -14612,7 +15795,13 @@
         "spd": 45,
         "spe": 38,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 651,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -14631,8 +15820,14 @@
         "spd": 58,
         "spe": 57,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 652,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 650
     },
     {
         "id": 652,
@@ -14651,7 +15846,7 @@
         "spe": 64,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 651
     },
     {
         "id": 653,
@@ -14669,7 +15864,13 @@
         "spd": 60,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 654,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -14688,8 +15889,14 @@
         "spd": 70,
         "spe": 73,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 655,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 653
     },
     {
         "id": 655,
@@ -14708,7 +15915,7 @@
         "spe": 104,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 654
     },
     {
         "id": 656,
@@ -14726,7 +15933,13 @@
         "spd": 44,
         "spe": 71,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 657,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -14745,8 +15958,14 @@
         "spd": 56,
         "spe": 97,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 658,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 656
     },
     {
         "id": 658,
@@ -14765,7 +15984,7 @@
         "spe": 122,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 657
     },
     {
         "id": 10117,
@@ -14802,7 +16021,13 @@
         "spd": 36,
         "spe": 57,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 660,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -14822,7 +16047,7 @@
         "spe": 78,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 659
     },
     {
         "id": 661,
@@ -14840,7 +16065,13 @@
         "spd": 38,
         "spe": 62,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 662,
+                "condition": 17,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -14859,8 +16090,14 @@
         "spd": 52,
         "spe": 84,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 663,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 661
     },
     {
         "id": 663,
@@ -14879,7 +16116,7 @@
         "spe": 126,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 662
     },
     {
         "id": 664,
@@ -14897,7 +16134,13 @@
         "spd": 25,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 665,
+                "condition": 9,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -14916,8 +16159,14 @@
         "spd": 30,
         "spe": 29,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 666,
+                "condition": 12,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 664
     },
     {
         "id": 666,
@@ -14936,7 +16185,7 @@
         "spe": 89,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 665
     },
     {
         "id": 667,
@@ -14954,7 +16203,13 @@
         "spd": 72,
         "spe": 73,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 668,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -14974,7 +16229,7 @@
         "spe": 109,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 667
     },
     {
         "id": 669,
@@ -14992,7 +16247,13 @@
         "spd": 42,
         "spe": 61,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 670,
+                "condition": 19,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15011,8 +16272,14 @@
         "spd": 52,
         "spe": 75,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 671,
+                "condition": "Shiny Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 669
     },
     {
         "id": 10061,
@@ -15050,7 +16317,7 @@
         "spe": 112,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 670
     },
     {
         "id": 672,
@@ -15068,7 +16335,13 @@
         "spd": 57,
         "spe": 52,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 673,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15088,7 +16361,7 @@
         "spe": 68,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 672
     },
     {
         "id": 674,
@@ -15106,7 +16379,13 @@
         "spd": 48,
         "spe": 43,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 675,
+                "condition": "Dark-Type",
+                "method": "Level-Up w/ Party"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15126,7 +16405,7 @@
         "spe": 58,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 674
     },
     {
         "id": 676,
@@ -15163,7 +16442,13 @@
         "spd": 60,
         "spe": 68,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 678,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15183,7 +16468,7 @@
         "spe": 104,
         "modifier": "Male",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 677
     },
     {
         "id": 10025,
@@ -15220,7 +16505,13 @@
         "spd": 37,
         "spe": 28,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 680,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15239,8 +16530,14 @@
         "spd": 49,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 681,
+                "condition": "Dusk Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 679
     },
     {
         "id": 681,
@@ -15259,7 +16556,7 @@
         "spe": 60,
         "modifier": "Shield",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 680
     },
     {
         "id": 10026,
@@ -15296,7 +16593,13 @@
         "spd": 65,
         "spe": 23,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 683,
+                "condition": "Sachet",
+                "method": "Trade w/ Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15316,7 +16619,7 @@
         "spe": 29,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 682
     },
     {
         "id": 684,
@@ -15334,7 +16637,13 @@
         "spd": 57,
         "spe": 49,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 685,
+                "condition": "Whipped Dream",
+                "method": "Trade w/ Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15354,7 +16663,7 @@
         "spe": 72,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 684
     },
     {
         "id": 686,
@@ -15372,7 +16681,13 @@
         "spd": 46,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 687,
+                "condition": 30,
+                "method": "Level Upside Down"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15392,7 +16707,7 @@
         "spe": 73,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 686
     },
     {
         "id": 688,
@@ -15410,7 +16725,13 @@
         "spd": 56,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 689,
+                "condition": 39,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15430,7 +16751,7 @@
         "spe": 68,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 688
     },
     {
         "id": 690,
@@ -15448,7 +16769,13 @@
         "spd": 60,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 691,
+                "condition": 48,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15468,7 +16795,7 @@
         "spe": 44,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 690
     },
     {
         "id": 692,
@@ -15486,7 +16813,13 @@
         "spd": 63,
         "spe": 44,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 693,
+                "condition": 37,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15506,7 +16839,7 @@
         "spe": 59,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 692
     },
     {
         "id": 694,
@@ -15524,7 +16857,13 @@
         "spd": 43,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 695,
+                "condition": "Sun Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15544,7 +16883,7 @@
         "spe": 109,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 694
     },
     {
         "id": 696,
@@ -15562,7 +16901,13 @@
         "spd": 45,
         "spe": 48,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 697,
+                "condition": 39,
+                "method": "Level-Up (Day)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15582,7 +16927,7 @@
         "spe": 71,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 696
     },
     {
         "id": 698,
@@ -15600,7 +16945,13 @@
         "spd": 63,
         "spe": 46,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 699,
+                "condition": 39,
+                "method": "Level-Up (Night)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15620,7 +16971,7 @@
         "spe": 58,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 698
     },
     {
         "id": 700,
@@ -15714,7 +17065,18 @@
         "spd": 75,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 705,
+                "condition": 40,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 10241,
+                "condition": 40,
+                "method": "Level-Up in Hisui"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15733,8 +17095,14 @@
         "spd": 113,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 706,
+                "condition": 50,
+                "method": "Level-Up (Rain)"
+            }
+        ],
+        "evoFromId": 704
     },
     {
         "id": 706,
@@ -15753,7 +17121,7 @@
         "spe": 80,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 705
     },
     {
         "id": 707,
@@ -15790,7 +17158,13 @@
         "spd": 60,
         "spe": 38,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 709,
+                "condition": "",
+                "method": "Trade"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15810,7 +17184,7 @@
         "spe": 56,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 708
     },
     {
         "id": 710,
@@ -15828,7 +17202,13 @@
         "spd": 55,
         "spe": 51,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 711,
+                "condition": "",
+                "method": "Trade"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15848,7 +17228,7 @@
         "spe": 84,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 710
     },
     {
         "id": 712,
@@ -15866,7 +17246,18 @@
         "spd": 28,
         "spe": 32,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 713,
+                "condition": 37,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 10243,
+                "condition": 37,
+                "method": "Level-Up in Hisui"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15886,7 +17277,7 @@
         "spe": 44,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 712
     },
     {
         "id": 714,
@@ -15904,7 +17295,13 @@
         "spd": 55,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 715,
+                "condition": 48,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -15924,7 +17321,7 @@
         "spe": 97,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 714
     },
     {
         "id": 716,
@@ -16473,7 +17870,13 @@
         "spd": 50,
         "spe": 42,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 723,
+                "condition": 17,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16492,8 +17895,19 @@
         "spd": 70,
         "spe": 52,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 724,
+                "condition": 34,
+                "method": "Level-Up"
+            },
+            {
+                "nextMonId": 10244,
+                "condition": 36,
+                "method": "Level-Up in Hisui"
+            }
+        ],
+        "evoFromId": 722
     },
     {
         "id": 724,
@@ -16512,7 +17926,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 723
     },
     {
         "id": 725,
@@ -16530,7 +17944,13 @@
         "spd": 40,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 726,
+                "condition": 17,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16549,8 +17969,14 @@
         "spd": 50,
         "spe": 90,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 727,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 725
     },
     {
         "id": 727,
@@ -16569,7 +17995,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 726
     },
     {
         "id": 728,
@@ -16587,7 +18013,13 @@
         "spd": 56,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 729,
+                "condition": 17,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16606,8 +18038,14 @@
         "spd": 81,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 730,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 728
     },
     {
         "id": 730,
@@ -16626,7 +18064,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 729
     },
     {
         "id": 731,
@@ -16644,7 +18082,13 @@
         "spd": 30,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 732,
+                "condition": 14,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16663,8 +18107,14 @@
         "spd": 50,
         "spe": 75,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 733,
+                "condition": 28,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 731
     },
     {
         "id": 733,
@@ -16683,7 +18133,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 732
     },
     {
         "id": 734,
@@ -16701,7 +18151,13 @@
         "spd": 30,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 735,
+                "condition": 20,
+                "method": "Level-Up (Day)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16721,7 +18177,7 @@
         "spe": 45,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 734
     },
     {
         "id": 736,
@@ -16739,7 +18195,13 @@
         "spd": 45,
         "spe": 46,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 737,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16758,8 +18220,14 @@
         "spd": 75,
         "spe": 36,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 738,
+                "condition": "Thunder Stone",
+                "method": "Use Item"
+            }
+        ],
+        "evoFromId": 736
     },
     {
         "id": 738,
@@ -16778,7 +18246,7 @@
         "spe": 43,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 737
     },
     {
         "id": 739,
@@ -16796,7 +18264,13 @@
         "spd": 47,
         "spe": 63,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 740,
+                "condition": "Ice Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16816,7 +18290,7 @@
         "spe": 43,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 739
     },
     {
         "id": 741,
@@ -16910,7 +18384,13 @@
         "spd": 40,
         "spe": 84,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 743,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16930,7 +18410,7 @@
         "spe": 124,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 742
     },
     {
         "id": 744,
@@ -16948,7 +18428,23 @@
         "spd": 40,
         "spe": 60,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 745,
+                "condition": 25,
+                "method": "Level-Up (Day)"
+            },
+            {
+                "nextMonId": 10126,
+                "condition": 25,
+                "method": "Level-Up (Night)"
+            },
+            {
+                "nextMonId": 10152,
+                "condition": 25,
+                "method": "Level-Up (Dusk)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -16968,7 +18464,7 @@
         "spe": 112,
         "modifier": "Midday",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 744
     },
     {
         "id": 10126,
@@ -16987,7 +18483,7 @@
         "spe": 82,
         "modifier": "Midnight",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 744
     },
     {
         "id": 10152,
@@ -17006,7 +18502,7 @@
         "spe": 110,
         "modifier": "Dusk",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 744
     },
     {
         "id": 746,
@@ -17062,7 +18558,13 @@
         "spd": 52,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 748,
+                "condition": 38,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17082,7 +18584,7 @@
         "spe": 35,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 747
     },
     {
         "id": 749,
@@ -17100,7 +18602,13 @@
         "spd": 55,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 750,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17120,7 +18628,7 @@
         "spe": 35,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 749
     },
     {
         "id": 751,
@@ -17138,7 +18646,13 @@
         "spd": 72,
         "spe": 27,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 752,
+                "condition": 22,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17158,7 +18672,7 @@
         "spe": 42,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 751
     },
     {
         "id": 753,
@@ -17176,7 +18690,13 @@
         "spd": 35,
         "spe": 35,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 754,
+                "condition": 34,
+                "method": "Level-Up (Day)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17196,7 +18716,7 @@
         "spe": 45,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 753
     },
     {
         "id": 755,
@@ -17214,7 +18734,13 @@
         "spd": 75,
         "spe": 15,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 756,
+                "condition": 24,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17234,7 +18760,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 755
     },
     {
         "id": 757,
@@ -17252,7 +18778,13 @@
         "spd": 40,
         "spe": 77,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 758,
+                "condition": 33,
+                "method": "Level-Up (Female)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17272,7 +18804,7 @@
         "spe": 117,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 757
     },
     {
         "id": 759,
@@ -17290,7 +18822,13 @@
         "spd": 50,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 760,
+                "condition": 27,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17310,7 +18848,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 759
     },
     {
         "id": 761,
@@ -17328,7 +18866,13 @@
         "spd": 38,
         "spe": 32,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 762,
+                "condition": 18,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17347,8 +18891,14 @@
         "spd": 48,
         "spe": 62,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 763,
+                "condition": "Stomp",
+                "method": "Level-Up w/ Move"
+            }
+        ],
+        "evoFromId": 761
     },
     {
         "id": 763,
@@ -17367,7 +18917,7 @@
         "spe": 72,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 762
     },
     {
         "id": 764,
@@ -17442,7 +18992,13 @@
         "spd": 30,
         "spe": 80,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 768,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17462,7 +19018,7 @@
         "spe": 40,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 767
     },
     {
         "id": 769,
@@ -17480,7 +19036,13 @@
         "spd": 45,
         "spe": 15,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 770,
+                "condition": 42,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17500,7 +19062,7 @@
         "spe": 35,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 769
     },
     {
         "id": 771,
@@ -17537,7 +19099,13 @@
         "spd": 95,
         "spe": 59,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 773,
+                "condition": 255,
+                "method": "Friendship"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17557,7 +19125,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 772
     },
     {
         "id": 774,
@@ -17746,7 +19314,13 @@
         "spd": 45,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 783,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17765,8 +19339,14 @@
         "spd": 70,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 784,
+                "condition": 45,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 782
     },
     {
         "id": 784,
@@ -17785,7 +19365,7 @@
         "spe": 85,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 783
     },
     {
         "id": 785,
@@ -17879,7 +19459,13 @@
         "spd": 31,
         "spe": 37,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 790,
+                "condition": 43,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17898,8 +19484,19 @@
         "spd": 131,
         "spe": 37,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 791,
+                "condition": 53,
+                "method": "Level-Up (Sun)"
+            },
+            {
+                "nextMonId": 792,
+                "condition": 53,
+                "method": "Level-Up (Moon)"
+            }
+        ],
+        "evoFromId": 789
     },
     {
         "id": 791,
@@ -17918,7 +19515,7 @@
         "spe": 97,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 790
     },
     {
         "id": 792,
@@ -17937,7 +19534,7 @@
         "spe": 97,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 790
     },
     {
         "id": 793,
@@ -18202,7 +19799,13 @@
         "spd": 67,
         "spe": 73,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 804,
+                "condition": "Dragon Pulse",
+                "method": "Level-Up w/ Move"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18222,7 +19825,7 @@
         "spe": 121,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 803
     },
     {
         "id": 805,
@@ -18297,7 +19900,13 @@
         "spd": 35,
         "spe": 34,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 809,
+                "condition": "",
+                "method": "[Pokemon GO]"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18335,7 +19944,13 @@
         "spd": 40,
         "spe": 40,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 863,
+                "condition": 28,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18354,7 +19969,13 @@
         "spd": 65,
         "spe": 90,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10163,
+                "condition": 40,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18374,7 +19995,7 @@
         "spe": 105,
         "modifier": "Galar",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10162
     },
     {
         "id": 10164,
@@ -18392,7 +20013,18 @@
         "spd": 40,
         "spe": 15,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10165,
+                "condition": "Galarica Cuff",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 10172,
+                "condition": "Galarica Wreath",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18412,7 +20044,7 @@
         "spe": 30,
         "modifier": "Galar",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10164
     },
     {
         "id": 10167,
@@ -18532,7 +20164,7 @@
         "spe": 30,
         "modifier": "Galar",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10164
     },
     {
         "id": 10174,
@@ -18550,7 +20182,13 @@
         "spd": 41,
         "spe": 60,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10175,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18569,8 +20207,14 @@
         "spd": 61,
         "spe": 100,
         "modifier": "Galar",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 862,
+                "condition": 35,
+                "method": "Level-Up (Night)"
+            }
+        ],
+        "evoFromId": 10174
     },
     {
         "id": 10176,
@@ -18588,7 +20232,13 @@
         "spd": 45,
         "spe": 50,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10177,
+                "condition": "Ice Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18608,7 +20258,7 @@
         "spe": 95,
         "modifier": "Galar",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10176
     },
     {
         "id": 10178,
@@ -18645,7 +20295,13 @@
         "spd": 50,
         "spe": 55,
         "modifier": "Hisui",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10230,
+                "condition": "Fire Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18665,7 +20321,7 @@
         "spe": 90,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10229
     },
     {
         "id": 10231,
@@ -18683,7 +20339,13 @@
         "spd": 55,
         "spe": 100,
         "modifier": "Hisui",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10232,
+                "condition": "Leaf Stone",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18703,7 +20365,7 @@
         "spe": 150,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10231
     },
     {
         "id": 10233,
@@ -18722,7 +20384,7 @@
         "spe": 95,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 156
     },
     {
         "id": 10234,
@@ -18740,7 +20402,13 @@
         "spd": 55,
         "spe": 85,
         "modifier": "Hisui",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 904,
+                "condition": "",
+                "method": "[Legends Arceus]"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18759,7 +20427,13 @@
         "spd": 75,
         "spe": 115,
         "modifier": "Hisui",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 903,
+                "condition": "Razor Claw",
+                "method": "Use Item (Day)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18779,7 +20453,7 @@
         "spe": 85,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 502
     },
     {
         "id": 10237,
@@ -18798,7 +20472,7 @@
         "spe": 105,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 548
     },
     {
         "id": 10238,
@@ -18816,7 +20490,13 @@
         "spd": 40,
         "spe": 70,
         "modifier": "Hisui",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10239,
+                "condition": 30,
+                "method": "Level-Up in Hisui"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -18836,7 +20516,7 @@
         "spe": 110,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10238
     },
     {
         "id": 10240,
@@ -18855,7 +20535,7 @@
         "spe": 65,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 627
     },
     {
         "id": 10241,
@@ -18873,8 +20553,14 @@
         "spd": 113,
         "spe": 40,
         "modifier": "Hisui",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 10242,
+                "condition": 50,
+                "method": "Level-Up (Rain)"
+            }
+        ],
+        "evoFromId": 704
     },
     {
         "id": 10242,
@@ -18893,7 +20579,7 @@
         "spe": 60,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10241
     },
     {
         "id": 10243,
@@ -18912,7 +20598,7 @@
         "spe": 38,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 712
     },
     {
         "id": 10244,
@@ -18931,7 +20617,7 @@
         "spe": 60,
         "modifier": "Hisui",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 723
     },
     {
         "id": 10245,
@@ -18987,12 +20673,18 @@
         "spd": 55,
         "spe": 98,
         "modifier": "White-Stripe",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 902,
+                "condition": "",
+                "method": "[Legends Arceus]"
+            }
+        ],
         "evoFromId": 0
     },
     {
         "id": 810,
-        "name": "Grooky",
+        "name": "Grookey",
         "gen": 8,
         "type1": 12,
         "type2": 0,
@@ -19006,7 +20698,13 @@
         "spd": 40,
         "spe": 65,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 811,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19025,8 +20723,14 @@
         "spd": 60,
         "spe": 80,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 812,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 810
     },
     {
         "id": 812,
@@ -19045,7 +20749,7 @@
         "spe": 85,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 811
     },
     {
         "id": 813,
@@ -19063,7 +20767,13 @@
         "spd": 40,
         "spe": 69,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 814,
+                "condition": 16,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19082,8 +20792,14 @@
         "spd": 60,
         "spe": 94,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 815,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 813
     },
     {
         "id": 815,
@@ -19102,7 +20818,7 @@
         "spe": 119,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 814
     },
     {
         "id": 816,
@@ -19120,7 +20836,13 @@
         "spd": 40,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 817,
+                "condition": 26,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19139,8 +20861,14 @@
         "spd": 55,
         "spe": 90,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 818,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 816
     },
     {
         "id": 818,
@@ -19159,7 +20887,7 @@
         "spe": 120,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 817
     },
     {
         "id": 819,
@@ -19177,7 +20905,13 @@
         "spd": 35,
         "spe": 25,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 820,
+                "condition": 24,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19197,7 +20931,7 @@
         "spe": 20,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 819
     },
     {
         "id": 821,
@@ -19215,7 +20949,13 @@
         "spd": 35,
         "spe": 57,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 822,
+                "condition": 18,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19234,8 +20974,14 @@
         "spd": 55,
         "spe": 77,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 823,
+                "condition": 38,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 821
     },
     {
         "id": 823,
@@ -19254,7 +21000,7 @@
         "spe": 67,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 822
     },
     {
         "id": 824,
@@ -19272,7 +21018,13 @@
         "spd": 45,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 825,
+                "condition": 10,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19291,8 +21043,14 @@
         "spd": 90,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 826,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 824
     },
     {
         "id": 826,
@@ -19311,7 +21069,7 @@
         "spe": 90,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 825
     },
     {
         "id": 827,
@@ -19329,7 +21087,13 @@
         "spd": 52,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 828,
+                "condition": 18,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19349,7 +21113,7 @@
         "spe": 90,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 827
     },
     {
         "id": 829,
@@ -19367,7 +21131,13 @@
         "spd": 60,
         "spe": 10,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 830,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19387,7 +21157,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 829
     },
     {
         "id": 831,
@@ -19405,7 +21175,13 @@
         "spd": 45,
         "spe": 48,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 832,
+                "condition": 24,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19425,7 +21201,7 @@
         "spe": 88,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 831
     },
     {
         "id": 833,
@@ -19443,7 +21219,13 @@
         "spd": 38,
         "spe": 44,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 834,
+                "condition": 22,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19463,7 +21245,7 @@
         "spe": 74,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 833
     },
     {
         "id": 835,
@@ -19481,7 +21263,13 @@
         "spd": 50,
         "spe": 26,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 836,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19501,7 +21289,7 @@
         "spe": 121,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 835
     },
     {
         "id": 837,
@@ -19519,7 +21307,13 @@
         "spd": 50,
         "spe": 30,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 838,
+                "condition": 18,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19538,8 +21332,14 @@
         "spd": 70,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 839,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 837
     },
     {
         "id": 839,
@@ -19558,7 +21358,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 838
     },
     {
         "id": 840,
@@ -19576,7 +21376,23 @@
         "spd": 40,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 841,
+                "condition": "Tart Apple",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 842,
+                "condition": "Sweet Apple",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 1011,
+                "condition": "Syrupy Apple",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19596,7 +21412,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 840
     },
     {
         "id": 842,
@@ -19615,7 +21431,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 840
     },
     {
         "id": 843,
@@ -19633,7 +21449,13 @@
         "spd": 50,
         "spe": 46,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 844,
+                "condition": 36,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19653,7 +21475,7 @@
         "spe": 71,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 843
     },
     {
         "id": 845,
@@ -19690,7 +21512,13 @@
         "spd": 30,
         "spe": 66,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 847,
+                "condition": 26,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19710,7 +21538,7 @@
         "spe": 136,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 846
     },
     {
         "id": 848,
@@ -19728,7 +21556,13 @@
         "spd": 35,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 849,
+                "condition": 30,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19748,7 +21582,7 @@
         "spe": 75,
         "modifier": "Amped",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 848
     },
     {
         "id": 10184,
@@ -19767,7 +21601,7 @@
         "spe": 75,
         "modifier": "Low-Key",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 848
     },
     {
         "id": 850,
@@ -19785,7 +21619,13 @@
         "spd": 50,
         "spe": 45,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 851,
+                "condition": 28,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19805,7 +21645,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 850
     },
     {
         "id": 852,
@@ -19823,7 +21663,13 @@
         "spd": 50,
         "spe": 32,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 853,
+                "condition": "Taunt",
+                "method": "Level-Up w/ Move"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19843,7 +21689,7 @@
         "spe": 42,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 852
     },
     {
         "id": 854,
@@ -19861,7 +21707,13 @@
         "spd": 54,
         "spe": 50,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 855,
+                "condition": "Cracked Pot",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19881,7 +21733,7 @@
         "spe": 70,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 854
     },
     {
         "id": 856,
@@ -19899,7 +21751,13 @@
         "spd": 53,
         "spe": 39,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 857,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19918,8 +21776,14 @@
         "spd": 73,
         "spe": 49,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 858,
+                "condition": 42,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 856
     },
     {
         "id": 858,
@@ -19938,7 +21802,7 @@
         "spe": 29,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 857
     },
     {
         "id": 859,
@@ -19956,7 +21820,13 @@
         "spd": 40,
         "spe": 5,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 860,
+                "condition": 32,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -19975,8 +21845,14 @@
         "spd": 55,
         "spe": 70,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 861,
+                "condition": 42,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 859
     },
     {
         "id": 861,
@@ -19995,7 +21871,7 @@
         "spe": 60,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 860
     },
     {
         "id": 862,
@@ -20014,7 +21890,7 @@
         "spe": 95,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10175
     },
     {
         "id": 863,
@@ -20033,7 +21909,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10161
     },
     {
         "id": 10173,
@@ -20051,7 +21927,13 @@
         "spd": 100,
         "spe": 30,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 864,
+                "condition": 38,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20071,7 +21953,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10173
     },
     {
         "id": 10166,
@@ -20089,7 +21971,13 @@
         "spd": 62,
         "spe": 55,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 865,
+                "condition": "",
+                "method": "3 Crits"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20109,7 +21997,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10166
     },
     {
         "id": 866,
@@ -20146,7 +22034,13 @@
         "spd": 65,
         "spe": 30,
         "modifier": "Galar",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 867,
+                "condition": "",
+                "method": "Pick a God and Pray"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20166,7 +22060,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10179
     },
     {
         "id": 868,
@@ -20184,7 +22078,13 @@
         "spd": 61,
         "spe": 34,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 869,
+                "condition": "Sweet",
+                "method": "Spin w/ Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20204,7 +22104,7 @@
         "spe": 64,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 868
     },
     {
         "id": 870,
@@ -20260,7 +22160,13 @@
         "spd": 30,
         "spe": 20,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 873,
+                "condition": 255,
+                "method": "Friendship (Night)"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20280,7 +22186,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 872
     },
     {
         "id": 874,
@@ -20412,7 +22318,13 @@
         "spd": 49,
         "spe": 40,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 879,
+                "condition": 34,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20432,7 +22344,7 @@
         "spe": 30,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 878
     },
     {
         "id": 880,
@@ -20545,7 +22457,13 @@
         "spd": 30,
         "spe": 82,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 886,
+                "condition": 50,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20564,8 +22482,14 @@
         "spd": 50,
         "spe": 102,
         "modifier": "",
-        "evoTo": [],
-        "evoFromId": 0
+        "evoTo": [
+            {
+                "nextMonId": 887,
+                "condition": 60,
+                "method": "Level-Up"
+            }
+        ],
+        "evoFromId": 885
     },
     {
         "id": 887,
@@ -20584,7 +22508,7 @@
         "spe": 142,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 886
     },
     {
         "id": 888,
@@ -20716,7 +22640,18 @@
         "spd": 50,
         "spe": 72,
         "modifier": "",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 892,
+                "condition": "Scroll of Darkness",
+                "method": "Use Item"
+            },
+            {
+                "nextMonId": 10191,
+                "condition": "Scroll of Darkness",
+                "method": "Use Item"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -20736,7 +22671,7 @@
         "spe": 97,
         "modifier": "Single Strike",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 891
     },
     {
         "id": 10191,
@@ -20755,7 +22690,7 @@
         "spe": 97,
         "modifier": "Rapid Strike",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 891
     },
     {
         "id": 893,
@@ -20926,7 +22861,7 @@
         "spe": 65,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 234
     },
     {
         "id": 900,
@@ -21002,7 +22937,7 @@
         "spe": 78,
         "modifier": "Male",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10247
     },
     {
         "id": 10248,
@@ -21021,7 +22956,7 @@
         "spe": 78,
         "modifier": "Female",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10247
     },
     {
         "id": 903,
@@ -21040,7 +22975,7 @@
         "spe": 120,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10235
     },
     {
         "id": 904,
@@ -21059,7 +22994,7 @@
         "spe": 85,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10234
     },
     {
         "id": 905,
@@ -21172,7 +23107,13 @@
         "spd": 25,
         "spe": 15,
         "modifier": "Paldea",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 980,
+                "condition": 20,
+                "method": "Level-Up"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -21223,7 +23164,7 @@
                 "method": "Level-Up"
             }
         ],
-        "evoFromId": 0
+        "evoFromId": 906
     },
     {
         "id": 908,
@@ -21242,7 +23183,7 @@
         "spe": 123,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 907
     },
     {
         "id": 909,
@@ -22705,7 +24646,7 @@
         "spe": 20,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10253
     },
     {
         "id": 981,
@@ -22762,7 +24703,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 625
     },
     {
         "id": 984,

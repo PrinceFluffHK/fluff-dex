@@ -11,7 +11,6 @@ const TrainerList = (props) => {
     id = parseInt(id);
     const selectedRomhack = Help.findInArray(id, romhackList);
 
-    console.log(selectedRomhack);
     const trainerList = selectedRomhack.trainers.map((trainer, index) => {
         if (index > 0) {
             let bgColor = "lightcyan";
@@ -55,7 +54,7 @@ const TrainerList = (props) => {
                                     lg: 2,
                                     xl: 2,
                                 }}
-                            ></TeamDisplay>
+                            />
                         </Grid>
                         <Grid className="center" item xs={2}>
                             <img
@@ -72,8 +71,10 @@ const TrainerList = (props) => {
     return (
         <div>
             <TopBar />
-            <div className="top-bar-padding">
-                <div>{trainerList}</div>
+            <div className="content-container">
+                <div className="body-container">
+                    <div>{trainerList}</div>
+                </div>
             </div>
         </div>
     );

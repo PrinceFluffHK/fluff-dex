@@ -24,7 +24,10 @@ const MoveList = (props) => {
                     key={index}
                     style={{ backgroundColor: bgColor }}
                 >
-                    <Link to={`/${id}/moves/${move.id}`} className="suppress-link">
+                    <Link
+                        to={`/${id}/moves/${move.id}`}
+                        className="suppress-link"
+                    >
                         <Grid
                             container
                             columnSpacing={1}
@@ -90,8 +93,12 @@ const MoveList = (props) => {
     return (
         <div>
             <TopBar />
-            <MoveListHeader />
-            <div className=" " style={{ paddingTop: "7.95rem"}}>{moveList}</div>
+            <div className="content-container">
+                <div className="body-container">
+                    <MoveListHeader />
+                    <div style={{ paddingTop: "3rem"}}>{moveList}</div>
+                </div>
+            </div>
         </div>
     );
 };

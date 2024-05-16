@@ -12,7 +12,6 @@ const MovePage = (props) => {
     const selectedRomhack = Help.findInArray(id, romhackList);
 
     const move = Help.findInArray(moveId, selectedRomhack.moves, true);
-    // console.log(move);
 
     const EffectText = (props) => {
         if (move.effects === "") {
@@ -41,98 +40,119 @@ const MovePage = (props) => {
     const noEffect = effect === "" ? "None" : move.effect;
 
     return (
-        <div>
+        <div className="">
             <TopBar />
-            <Grid
-                container
-                className="top-bar-padding width-100 justify-center"
-            >
-                <div className="width-100 center">
-                    <h1>{move.name}</h1>
+            <div className="content-container">
+                <div className="body-container">
+                    <Grid container className="width-100 justify-center">
+                        <div className="width-100 center">
+                            <h1>{move.name}</h1>
+                        </div>
+                        <Grid
+                            item
+                            xs={12}
+                            md={6}
+                            className="justify-center"
+                            style={{ marginTop: "1rem" }}
+                        >
+                            <div className="width-80">
+                                <div className="move-stat-divider" />
+                                <Grid container>
+                                    <Grid item xs={3}>
+                                        <h2>Type</h2>
+                                    </Grid>
+                                    <Grid
+                                        className="justify-center"
+                                        item
+                                        xs={6}
+                                    >
+                                        <h2>-</h2>
+                                    </Grid>
+                                    <Grid className="justify-right" item xs={3}>
+                                        <div className="align-center">
+                                            {move.type.displayBanner(
+                                                { width: "4.5rem" },
+                                                { fontSize: "12px" }
+                                            )}
+                                        </div>
+                                    </Grid>
+                                </Grid>
+                                <div className="move-stat-divider" />
+                                <Grid container>
+                                    <Grid item xs={3}>
+                                        <h2>Cat.</h2>
+                                    </Grid>
+                                    <Grid
+                                        className="justify-center"
+                                        item
+                                        xs={6}
+                                    >
+                                        <h2>-</h2>
+                                    </Grid>
+                                    <Grid className="justify-right" item xs={3}>
+                                        <h2>
+                                            {move.category.display({
+                                                height: "28px",
+                                                width: "auto",
+                                            })}
+                                        </h2>
+                                    </Grid>
+                                </Grid>
+                                <div className="move-stat-divider" />
+                                <Grid container>
+                                    <Grid item xs={3}>
+                                        <h2>BP</h2>
+                                    </Grid>
+                                    <Grid
+                                        className="justify-center"
+                                        item
+                                        xs={6}
+                                    >
+                                        <h2>-</h2>
+                                    </Grid>
+                                    <Grid className="justify-right" item xs={3}>
+                                        <h2>{move.bp}</h2>
+                                    </Grid>
+                                </Grid>
+                                <div className="move-stat-divider" />
+                                <Grid container>
+                                    <Grid item xs={3}>
+                                        <h2>Acc</h2>
+                                    </Grid>
+                                    <Grid
+                                        className="justify-center"
+                                        item
+                                        xs={6}
+                                    >
+                                        <h2>-</h2>
+                                    </Grid>
+                                    <Grid className="justify-right" item xs={3}>
+                                        <h2>{move.acc}</h2>
+                                    </Grid>
+                                </Grid>
+                                <div className="move-stat-divider" />
+                                <Grid container>
+                                    <Grid item xs={3}>
+                                        <h2>PP</h2>
+                                    </Grid>
+                                    <Grid
+                                        className="justify-center"
+                                        item
+                                        xs={6}
+                                    >
+                                        <h2>-</h2>
+                                    </Grid>
+                                    <Grid className="justify-right" item xs={3}>
+                                        <h2>{move.pp}</h2>
+                                    </Grid>
+                                </Grid>
+                                <div className="move-stat-divider" />
+                                <EffectText />
+                            </div>
+                        </Grid>
+                    </Grid>
                 </div>
-                <Grid
-                    item
-                    xs={12}
-                    md={6}
-                    className="justify-center"
-                    style={{ marginTop: "1rem" }}
-                >
-                    <div className="width-80">
-                        <div className="move-stat-divider" />
-                        <Grid container>
-                            <Grid item xs={3}>
-                                <h2>Type</h2>
-                            </Grid>
-                            <Grid className="justify-center" item xs={6}>
-                                <h2>-</h2>
-                            </Grid>
-                            <Grid className="justify-right" item xs={3}>
-                                <div className="align-center">
-                                    {move.type.displayBanner(
-                                        { width: "4.5rem" },
-                                        { fontSize: "12px" }
-                                    )}
-                                </div>
-                            </Grid>
-                        </Grid>
-                        <div className="move-stat-divider" />
-                        <Grid container>
-                            <Grid item xs={3}>
-                                <h2>Cat.</h2>
-                            </Grid>
-                            <Grid className="justify-center" item xs={6}>
-                                <h2>-</h2>
-                            </Grid>
-                            <Grid className="justify-right" item xs={3}>
-                                <h2>
-                                    {move.category.display({
-                                        height: "28px",
-                                        width: "auto",
-                                    })}
-                                </h2>
-                            </Grid>
-                        </Grid>
-                        <div className="move-stat-divider" />
-                        <Grid container>
-                            <Grid item xs={3}>
-                                <h2>BP</h2>
-                            </Grid>
-                            <Grid className="justify-center" item xs={6}>
-                                <h2>-</h2>
-                            </Grid>
-                            <Grid className="justify-right" item xs={3}>
-                                <h2>{move.bp}</h2>
-                            </Grid>
-                        </Grid>
-                        <div className="move-stat-divider" />
-                        <Grid container>
-                            <Grid item xs={3}>
-                                <h2>Acc</h2>
-                            </Grid>
-                            <Grid className="justify-center" item xs={6}>
-                                <h2>-</h2>
-                            </Grid>
-                            <Grid className="justify-right" item xs={3}>
-                                <h2>{move.acc}</h2>
-                            </Grid>
-                        </Grid>
-                        <div className="move-stat-divider" />
-                        <Grid container>
-                            <Grid item xs={3}>
-                                <h2>PP</h2>
-                            </Grid>
-                            <Grid className="justify-center" item xs={6}>
-                                <h2>-</h2>
-                            </Grid>
-                            <Grid className="justify-right" item xs={3}>
-                                <h2>{move.pp}</h2>
-                            </Grid>
-                        </Grid>
-                        <div className="move-stat-divider" />
-                        <EffectText />
-                    </div>
-                </Grid>
-            </Grid>
+            </div>
         </div>
     );
 };

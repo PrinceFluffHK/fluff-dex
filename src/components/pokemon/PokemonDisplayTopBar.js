@@ -30,7 +30,7 @@ const PokemonDisplayTopBar = ({ selectedMonId, selectedRomhack, dexType }) => {
     const IncrementUpButton = ({}) => {
         return (
             <Link
-                to={`/${selectedRomhack.id}/pokedex/${nextMon.id}/0`}
+                to={`/${selectedRomhack.id}/pokemon/${nextMon.id}/0`}
                 className="increment-container"
             >
                 <img
@@ -39,7 +39,7 @@ const PokemonDisplayTopBar = ({ selectedMonId, selectedRomhack, dexType }) => {
                     alt="next pokemon"
                 />
                 <div>
-                    <FontAwesomeIcon icon={faChevronRight} size="2xl" />
+                    <FontAwesomeIcon icon={faChevronRight} size="2xl" color="black"/>
                 </div>
             </Link>
         );
@@ -47,10 +47,10 @@ const PokemonDisplayTopBar = ({ selectedMonId, selectedRomhack, dexType }) => {
     const IncrementDownButton = () => {
         return (
             <Link
-                to={`/${selectedRomhack.id}/pokedex/${lastMon.id}/0`}
+                to={`/${selectedRomhack.id}/pokemon/${lastMon.id}/0`}
                 className="increment-container"
             >
-                <FontAwesomeIcon icon={faChevronLeft} size="2xl" />
+                <FontAwesomeIcon icon={faChevronLeft} size="2xl" color="black"/>
                 <img
                     className="dex-nav-sprite"
                     src={lastMon.spriteUrl}

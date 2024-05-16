@@ -1,5 +1,5 @@
 import { Grid } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import Help from "../../models/Help";
 import PokemonDisplayTopBar from "./PokemonDisplayTopBar";
 import AbilityDisplay from "./AbilityDisplay";
@@ -19,16 +19,12 @@ const PokemonDisplay = ({ dexType }) => {
     formIndex = parseInt(formIndex);
 
     const selectedRomhack = Help.findInArray(id, romhackList);
-    const selectedEntry = selectedRomhack.nationalDex.dexArray[entryId];
-
-    const [selectedForm, setSelectedForm] = useState(formIndex)
-    const selectedMonId = selectedEntry.forms[selectedForm].id;
-
+    const selectedEntry = Help.findInArray(entryId, selectedRomhack.nationalDex.dexArray)
+    const selectedMonId = selectedEntry.forms[formIndex].id;
     const selectedMon = Help.findInArray(
         selectedMonId,
         selectedRomhack.species
     );
-
     const baseDexEntry = DexEntry.findFromForm(
         selectedMonId,
         selectedRomhack.nationalDex.dexArray
@@ -37,35 +33,36 @@ const PokemonDisplay = ({ dexType }) => {
     return (
         <div>
             <TopBar />
-            <div className="top-bar-padding">
-                <PokemonDisplayTopBar
-                    selectedMonId={selectedMonId}
-                    selectedRomhack={selectedRomhack}
-                    dexType={dexType}
-                />
-                <Grid className="mon-content" container spacing={0}>
-                    <PortraitDisplay
-                        selectedRomhack={selectedRomhack}
+            <div className="content-container">
+                <div className="body-container">
+                    <PokemonDisplayTopBar
                         selectedMonId={selectedMonId}
-                        baseDexEntry={baseDexEntry}
-                        selectedMon={selectedMon}
-                        setSelectedForm={setSelectedForm}
-                    />
-                    <AbilityDisplay selectedMon={selectedMon} />
-                    <StatDisplay selectedMon={selectedMon} />
-                    <EvoDisplay
-                        selectedMon={selectedMon}
                         selectedRomhack={selectedRomhack}
+                        dexType={dexType}
                     />
-                    <Grid item xs={12}>
-                        <Grid container>
-                            <LevelLearnDisplay
-                                baseDexEntry={baseDexEntry}
-                                selectedMon={selectedMon}
-                            />
+                    <Grid className="mon-content" container spacing={0}>
+                        <PortraitDisplay
+                            selectedRomhack={selectedRomhack}
+                            selectedMonId={selectedMonId}
+                            selectedMon={selectedMon}
+                            baseDexEntry={baseDexEntry}
+                        />
+                        <AbilityDisplay selectedMon={selectedMon} />
+                        <StatDisplay selectedMon={selectedMon} />
+                        <EvoDisplay
+                            selectedMon={selectedMon}
+                            selectedRomhack={selectedRomhack}
+                        />
+                        <Grid item xs={12}>
+                            <Grid container>
+                                <LevelLearnDisplay
+                                    baseDexEntry={baseDexEntry}
+                                    selectedMon={selectedMon}
+                                />
+                            </Grid>
                         </Grid>
                     </Grid>
-                </Grid>
+                </div>
             </div>
         </div>
     );

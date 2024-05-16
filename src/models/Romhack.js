@@ -57,7 +57,7 @@ class Romhack {
     homeDisplay(index) {
         return (
             <Grid className="center" item xs={12} md={6} lg={4} key={index}>
-                <Link to={`/${this.id}/pokedex`}>
+                <Link to={`/${this.id}/pokedex/regional`}>
                     <img className="hack-cover drop-shadow" src={this.thumbnailUrl} alt={`Cover art for ${this.title}`}/>
                 </Link>
             </Grid>

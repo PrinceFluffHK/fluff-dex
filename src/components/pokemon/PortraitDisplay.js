@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@mui/material";
 import FormSelect from "./FormSelect";
 
-const PortraitDisplay = ({ selectedRomhack, selectedMonId, setSelectedForm, baseDexEntry, selectedMon }) => {
+const PortraitDisplay = ({ selectedRomhack, selectedMonId, baseDexEntry, selectedMon }) => {
     return (
         <Grid
             className="center top-1 width-100"
@@ -22,7 +22,6 @@ const PortraitDisplay = ({ selectedRomhack, selectedMonId, setSelectedForm, base
                 selectedRomhack={selectedRomhack}
                 selectedMonId={selectedMonId}
                 baseDexEntry={baseDexEntry}
-                setSelectedForm={setSelectedForm}
             />
         </Grid>
     );

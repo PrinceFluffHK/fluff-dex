@@ -1,18 +1,16 @@
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useParams, useLocation } from "react-router-dom";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faBars } from "@fortawesome/free-solid-svg-icons";
 
-const TopBar = (props) => {
+const TopBar = ({ toggleArray }) => {
+    const location = useLocation();
     const { id } = useParams();
-    const { pathname } = useLocation();
-
-    const location = pathname.split("/")[2];
 
     const linkObjs = [
         {
             name: "Pokedex",
-            link: `/${id}/pokedex`,
+            link: `/${id}/pokedex/regional`,
         },
         {
             name: "Trainers",
@@ -20,12 +18,12 @@ const TopBar = (props) => {
         },
         {
             name: "Moves",
-            link: `/${id}/moves`
-        }
+            link: `/${id}/moves`,
+        },
     ];
 
     const links = linkObjs.map((link) => {
-        const className = `top-bar-link`
+        const className = `top-bar-link`;
 
         return (
             <Link className={className} to={link.link} key={link.name}>
@@ -34,11 +32,32 @@ const TopBar = (props) => {
         );
     });
 
+    const Toggle = (props) => {
+        if (!toggleArray) {
+            return <></>;
+        }
+        const toggleOptions = toggleArray.map((option, index) => {
+            let className = "toggle-unselected";
+            if (location.pathname.includes(option.link)) {
+                className = "toggle-selected";
+            }
+
+            return (
+                <Link className={className} to={option.link} key={index}>
+                    <h3>{option.name}</h3>
+                </Link>
+            );
+        });
+
+        return <div className="toggle-container">{toggleOptions}</div>;
+    };
+
     return (
         <div className="top-bar align-center justify-between">
             <Link to="/" className="home-icon">
                 <FontAwesomeIcon icon={faHouse} size="xl" color="black" />
             </Link>
+            <Toggle />
             <div className="invis-sm menu-topbar">{links}</div>
             <div className="vis-sm menu-topbar">
                 <FontAwesomeIcon
