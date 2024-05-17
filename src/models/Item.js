@@ -26,6 +26,10 @@ class Item {
             return Item.makeSingle(itemObj)
         })
     }
+
+    listDisplay() {
+        
+    }
 }
 
 export default Item;

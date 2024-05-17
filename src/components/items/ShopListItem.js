@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState } from "react";
+import { Grid } from "@mui/material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const ShopListItem = (props) => {
+const ShopListItem = ({ shop }) => {
     const [open, setOpen] = useState(false);
     const handleClick = () => {
         if (open) {
@@ -9,7 +12,49 @@ const ShopListItem = (props) => {
         return setOpen(true);
     };
 
-    return <Grid item lg={4}></Grid>;
-}
+    const contentsClass = open ? "" : "invis";
 
-export default ShopListItem
+    const ShopHeader = (props) => {
+        return (
+            <div className="center">
+                <div
+                    className="width-80 justify-between align-center"
+                    onClick={handleClick}
+                >
+                    <h3>{shop.name}</h3>
+                    <FontAwesomeIcon icon={faBars} color="black" />
+                </div>
+            </div>
+        );
+    };
+
+    const contents = shop.contents.map((item, index) => {
+        const price = shop.bp ? item.priceBp : item.priceP
+        return (
+            <div className="center">
+                <div className="width-80 justify-between align-center">
+                    <Grid container>
+                        <Grid item xs={1}>
+                            {index + 1}
+                        </Grid>
+                        <Grid item xs>
+                            {item.name}
+                        </Grid>
+                        <Grid item xs={3}>
+                            {price}
+                        </Grid>
+                    </Grid>
+                </div>
+            </div>
+        );
+    });
+
+    return (
+        <Grid item lg={4}>
+            <ShopHeader />
+            <div className={contentsClass}>{contents}</div>
+        </Grid>
+    );
+};
+
+export default ShopListItem;

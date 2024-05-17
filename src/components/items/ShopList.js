@@ -1,13 +1,18 @@
-import { React, useParams } from "react";
+import React from "react";
+import { Link, useParams } from "react-router-dom";
 import TopBar from "../navigation/TopBar";
 import { Grid } from "@mui/material";
+import { romhackList } from "../Homepage";
+import Help from "../../models/Help";
+import ShopListItem from "./ShopListItem";
 
 const ShopList = (props) => {
-    let { id } = useParams;
-
-    const shops = (props) => {
-        // const shops 
-    };
+    let { id } = useParams()
+    id = parseInt(id)
+    const selectedRomhack = Help.findInArray(id, romhackList)
+    const shops = selectedRomhack.shops.map((shop, index) => {
+        return <ShopListItem shop={shop} key={index}/>
+    })
 
     return (
         <div>
@@ -15,7 +20,7 @@ const ShopList = (props) => {
             <div className="content-container">
                 <div className="body-container">
                     <Grid container>
-                        
+                        {shops}
                     </Grid>
                 </div>
             </div>

@@ -10,23 +10,6 @@ class Shop {
         this.contents = contents
     }
 
-    // listItem() {
-    //     const [open, setOpen] = useState(false)
-    //     const handleClick = () => {
-    //         if (open) {
-    //             return setOpen(false)
-    //         }
-    //         return setOpen(true)
-    //     }
-
-
-    //     return (
-    //         <Grid item lg={4}>
-
-    //         </Grid>
-    //     )
-    // }
-
     static makeSingle(shopObj, items) {
         const newContents = shopObj.contents.map(shopItem => {
             return Help.findInArray(shopItem, items)
