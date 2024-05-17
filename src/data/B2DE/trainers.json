@@ -3719,7 +3719,7 @@
     {
         "id": 143,
         "name": "Rood",
-        "trainerClass": 0,
+        "trainerClass": 100,
         "team": [
             {
                 "pokemonId": 533,

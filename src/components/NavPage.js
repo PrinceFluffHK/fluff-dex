@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import b2de from "../data/b2deData";
 import TopBar from "./TopBar"
 
-const NavPage = (props) => {
+const NavPage = () => {
     const { id } = useParams();
     const romhackList = [b2de];
     const selectedRomhack = romhackList[id - 1];

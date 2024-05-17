@@ -598,5 +598,11 @@
         "name": "PKMN Trainer",
         "modifier": "Cynthia",
         "sprite": "https://archives.bulbagarden.net/media/upload/8/83/Spr_B2W2_Cynthia.png"
+    },
+    {
+        "id": 100,
+        "name": "Seven Sages",
+        "modifier": "Rood",
+        "sprite": "https://archives.bulbagarden.net/media/upload/f/f8/Spr_B2W2_Rood.png"
     }
 ]

@@ -22,6 +22,7 @@ import Pokemon from "./Pokemon";
 import Pokedex from "./Pokedex";
 import TrainerClass from "./TrainerClass";
 import Trainer from "./Trainer";
+import Shop from "./Shop";
 
 class Romhack {
     constructor(
@@ -37,7 +38,8 @@ class Romhack {
         tutors,
         tutorMoves,
         trainerClasses,
-        trainers
+        trainers,
+        shops
     ) {
         this.id = id;
         this.name = name;
@@ -52,13 +54,18 @@ class Romhack {
         this.tutorMoves = tutorMoves;
         this.trainerClasses = trainerClasses;
         this.trainers = trainers;
+        this.shops = shops;
     }
 
     homeDisplay(index) {
         return (
             <Grid className="center" item xs={12} md={6} lg={4} key={index}>
                 <Link to={`/${this.id}/pokedex/regional`}>
-                    <img className="hack-cover drop-shadow" src={this.thumbnailUrl} alt={`Cover art for ${this.title}`}/>
+                    <img
+                        className="hack-cover drop-shadow"
+                        src={this.thumbnailUrl}
+                        alt={`Cover art for ${this.title}`}
+                    />
                 </Link>
             </Grid>
         );
@@ -78,7 +85,8 @@ class Romhack {
         itemEdits,
         trainerClassData,
         trainerData,
-        thumbnail
+        thumbnail,
+        shopData
     ) {
         const abilities = Ability.makeArray(Help.filterByGen(abilityData, gen));
         const types = Type.makeArray(typeData);
@@ -91,7 +99,6 @@ class Romhack {
         const tutors = Tutor.makeArray(tutorData);
         const tutorMoves = TutorMove.makeArray(tutorMoveData, moves, tutorData);
         const items = Item.makeArray(
-            // Help.insertEdits(itemData, itemEdits)
             Help.insertEdits(Help.filterByGen(itemData, gen), itemEdits)
         );
         const species = Pokemon.makeArray(
@@ -124,6 +131,8 @@ class Romhack {
             moves
         );
 
+        const shops = Shop.makeArray(shopData, items);
+
         return new Romhack(
             id,
             title,
@@ -137,7 +146,8 @@ class Romhack {
             tutors,
             tutorMoves,
             trainerClasses,
-            trainers
+            trainers,
+            shops
         );
     }
 }
