@@ -31,7 +31,6 @@ class Move {
     }
 
     static makeSingle(moveObj, types, targets, categories) {
-
             const type = Help.findInArray(moveObj.typeId, types);
             const target = Help.findInArray(moveObj.targetId, targets);
             const category = Help.findInArray(moveObj.categoryId, categories);

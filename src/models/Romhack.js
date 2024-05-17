@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 import moveTargets from "../data/vanilla/targets";
 import moveCategories from "../data/vanilla/moveCategories";
-import natures from "../data/vanilla/natures";
 import abilityData from "../data/vanilla/abilities.json";
 import speciesData from "../data/vanilla/species.json";
 import moveData from "../data/vanilla/moves.json";

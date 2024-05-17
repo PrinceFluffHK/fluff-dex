@@ -7,6 +7,7 @@ import MovePage from "./components/moves/MovePage";
 import MoveList from "./components/moves/MoveList";
 import TrainerList from "./components/trainers/TrainerList";
 import TrainerDisplay from "./components/trainers/TrainerDisplay";
+import ShopList from "./components/items/ShopList";
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
                         path="/:id/trainers/:trainerId"
                         Component={TrainerDisplay}
                     />
+                    <Route exact path="/:id/shops" Component={ShopList} />
                 </Routes>
             </HashRouter>
         </div>

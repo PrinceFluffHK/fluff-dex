@@ -66,6 +66,7 @@ const TrainerList = (props) => {
                 </Link>
             );
         }
+        return
     });
 
     return (

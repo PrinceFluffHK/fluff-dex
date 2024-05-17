@@ -27,7 +27,7 @@ const PokemonDisplayTopBar = ({ selectedMonId, selectedRomhack, dexType }) => {
             ? pokedex[pokedex.length - 1].forms[0]
             : pokedex[thisMonIndex - 1].forms[0];
 
-    const IncrementUpButton = ({}) => {
+    const IncrementUpButton = () => {
         return (
             <Link
                 to={`/${selectedRomhack.id}/pokemon/${nextMon.id}/0`}

@@ -20,6 +20,10 @@ const TopBar = ({ toggleArray }) => {
             name: "Moves",
             link: `/${id}/moves`,
         },
+        {
+            name: "PokeMarts",
+            link: `/${id}/shops`,
+        },
     ];
 
     const links = linkObjs.map((link) => {

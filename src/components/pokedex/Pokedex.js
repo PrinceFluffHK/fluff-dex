@@ -11,6 +11,7 @@ const Pokedex = (props) => {
 
     const romhackList = [b2de];
     const selectedRomhack = romhackList[id - 1];
+    console.log(selectedRomhack)
 
     const dexList =
         dexType === "regional"
