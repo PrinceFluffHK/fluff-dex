@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import TopBar from "../navigation/TopBar";
 import { Grid } from "@mui/material";
 import { romhackList } from "../Homepage";

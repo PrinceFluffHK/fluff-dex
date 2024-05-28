@@ -50,7 +50,7 @@ const ShopListItem = ({ shop }) => {
     });
 
     return (
-        <Grid item lg={4}>
+        <Grid item sm={12} md={6} lg={4}>
             <ShopHeader />
             <div className={contentsClass}>{contents}</div>
         </Grid>

@@ -8,6 +8,7 @@ import MoveList from "./components/moves/MoveList";
 import TrainerList from "./components/trainers/TrainerList";
 import TrainerDisplay from "./components/trainers/TrainerDisplay";
 import ShopList from "./components/items/ShopList";
+import EncounterList from "./components/locations/EncounterList";
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                         Component={TrainerDisplay}
                     />
                     <Route exact path="/:id/shops" Component={ShopList} />
+                    <Route exact path="/:id/encounters" Component={EncounterList} />
                 </Routes>
             </HashRouter>
         </div>

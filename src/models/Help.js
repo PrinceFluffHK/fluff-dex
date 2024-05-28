@@ -1,12 +1,6 @@
+import { useParams } from 'react-router-dom';
+
 class Help {
-    // static findInArray(id, array, debugTrigger) {
-    //     if (debugTrigger) {
-    //         console.log(id, array)
-    //     }
-    //     return array.find((obj) => {
-    //         return id === obj.id;
-    //     });
-    // }
     static findInArray(id, array, debugTrigger) {
         const foundObj = array.find((obj) => {
             return id === obj.id;
