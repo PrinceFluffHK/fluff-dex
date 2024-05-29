@@ -53,7 +53,7 @@
     },
     {
         "id": 8,
-        "name": "PokeCenter Lower Registers",
+        "name": "Default PokeCenter Lower Registers",
         "bp": false,
         "contents": [155, 158, 154, 151, 149, 150, 152, 153, 156]
     },

@@ -12547,5 +12547,26 @@
                 "moves": [407, 280, 421, 349]
             }
         ]
+    },
+    {
+        "id": 428,
+        "name": "Zack",
+        "trainerClass": 66,
+        "team": [
+            {
+                "pokemon": 341,
+                "level": 17,
+                "ability": 52,
+                "nature": 23,
+                "moves": [11, 282, 43]
+            },
+            {
+                "pokemon": 532,
+                "level": 17,
+                "ability": 62,
+                "nature": 0,
+                "moves": [67, 317, 116]
+            }
+        ]
     }
 ]

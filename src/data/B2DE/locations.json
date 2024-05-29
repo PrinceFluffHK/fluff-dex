@@ -4,12 +4,17 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     },
     {
         "name": "Aspertia City",
-        "trainers": [1, 2, 3],
+        "trainers": [
+            {
+                "grass": 1,
+                "fire": 2,
+                "water": 3
+            }
+        ],
         "encounters": [
             {
                 "type": "Starter Gift",
@@ -30,7 +35,7 @@
                 "type": "Rippling Water",
                 "pokemon": [
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 100,
                         "minLv": 20,
                         "maxLv": 25
@@ -44,64 +49,62 @@
                 "quantity": 10,
                 "type": "Script",
                 "description": "Gift from Bianca in the Pokémon Center after defeating Hugh",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 344,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Bianca after defeating Cheren",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 380,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Beyond the water near the player's house (requires Surf)",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 202,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a School Kid in the Trainers' School",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 2,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the girl in the northeast house after defeating Cheren",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 229,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Obtained from the woman at gate connecting to Route 19",
-                "requirements": "",
-                "notes": ""
-            },
-            {
-                "itemId": 410,
-                "quantity": 1,
-                "type": "Script",
-                "description": "Reward for defeating Cheren",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Aspertia Gym",
+                "trainers": [21, 22, 23],
+                "collectibles": [
+                    {
+                        "itemId": 410,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "Reward for defeating Cheren",
+                        "requirements": ""
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Route 19",
-        "trainers": [],
         "encounters": [
             {
                 "type": "Grass",
@@ -130,7 +133,7 @@
                 "type": "Rippling Water",
                 "pokemon": [
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 100,
                         "minLv": 20,
                         "maxLv": 25
@@ -144,48 +147,54 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the Youngster that shows the shortcut using ledges",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 155,
                 "quantity": 5,
                 "type": "Script",
                 "description": "Received from Alder when met here for the second time",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 84,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northern part",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeastern part",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 268,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Where Alder stood on the hill near Floccesy Town",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             }
-        ],
-        "shops": [],
-        "subLocations": []
+        ]
     },
     {
         "name": "Floccesy Town",
-        "trainers": [],
+        "trainers": [
+            {
+                "grass": 13,
+                "fire": 14,
+                "water": 15
+            },
+            {
+                "grass": 16,
+                "fire": 17,
+                "water": 18
+            },
+            19,
+            20
+        ],
         "encounters": [
             {
                 "type": "Gift",
@@ -200,32 +209,28 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the west side of Alder's house",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 92,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From an old man in a house east of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a dead end accessible via Route 20's part near Floccesy Ranch",
-                "requirements": "Autumn",
-                "notes": ""
+                "requirements": "Autumn"
             }
         ],
-        "shops": [],
-        "subLocations": []
+        "shops": [6]
     },
     {
         "name": "Route 20",
-        "trainers": [],
+        "trainers": [4, 5, 6, 24, 25, 26, 27, 28, 29, 30, 31, 32, 43],
         "encounters": [
             {
                 "type": "Grass",
@@ -266,7 +271,7 @@
                 "type": "Rippling Water",
                 "pokemon": [
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 100,
                         "minLv": 20,
                         "maxLv": 25
@@ -276,140 +281,131 @@
         ],
         "collectibles": [
             {
-                "itemId": "Parlyz Heal",
+                "itemId": 22,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Lass Isabel",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a rock northwest of Hiker Jerome",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 53,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Youngster Terrell",
-                "requirements": "Autumn",
-                "notes": ""
+                "requirements": "Autumn"
             },
             {
                 "itemId": 151,
                 "quantity": 3,
                 "type": "Script",
                 "description": "Gift from Cheren near dark grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 339,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In dark grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 43,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeast of Preschooler Lin",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Nursery Aide Kimya",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Eastern part",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 157,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given out by Pokémon Ranger Leaf after defeating him",
-                "requirements": "Surf; Autumn",
-                "notes": ""
+                "requirements": "Surf; Autumn"
             },
             {
                 "itemId": 157,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given out by Pokémon Ranger Naoko after defeating her",
-                "requirements": "Surf and Waterfall; Autumn",
-                "notes": ""
+                "requirements": "Surf and Waterfall; Autumn"
             },
             {
                 "itemId": 157,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given out by Pokémon Ranger Malory after defeating her",
-                "requirements": "Surf; Autumn",
-                "notes": ""
+                "requirements": "Surf; Autumn"
             },
             {
                 "itemId": 157,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given out by Pokémon Ranger Bret after defeating him",
-                "requirements": "Surf; Autumn",
-                "notes": ""
+                "requirements": "Surf; Autumn"
             },
             {
                 "itemId": 29,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Pokémon Ranger Leaf",
-                "requirements": "Surf; Autumn",
-                "notes": ""
+                "requirements": "Surf; Autumn"
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Pokémon Ranger Leaf",
-                "requirements": "Surf; Autumn",
-                "notes": ""
+                "requirements": "Surf; Autumn"
             },
             {
                 "itemId": 187,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Western part of the ledge near bridge",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             },
             {
                 "itemId": 288,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of the bridge",
-                "requirements": "Surf and Waterfall; Autumn",
-                "notes": ""
+                "requirements": "Surf and Waterfall; Autumn"
             }
-        ],
-        "shops": [],
-        "subLocations": []
+        ]
     },
     {
         "name": "Floccesy Ranch",
-        "trainers": [],
+        "trainers": [
+            {
+                "grass": 7,
+                "fire": 8,
+                "water": 9
+            },
+            10,
+            11,
+            12
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -438,7 +434,7 @@
                 "type": "Rippling Water",
                 "pokemon": [
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 100,
                         "minLv": 20,
                         "maxLv": 25
@@ -452,56 +448,48 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from the ranch owner's wife after battling Hugh",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 17,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the eastern area of the forest",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 337,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the area where Mareep are herding, at the end of a narrow path",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 149,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Received from Hugh in the northwest",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the southern area of the forest",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 348,
                 "quantity": 1,
                 "type": "Script",
                 "description": "At the forest's dead end, from a Team Plasma Grunt",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
-        ],
-        "shops": [],
-        "subLocations": []
+        ]
     },
     {
         "name": "Virbank City",
-        "trainers": [],
+        "trainers": [42],
         "encounters": [
             {
                 "type": "Grass",
@@ -538,96 +526,92 @@
                 "quantity": 3,
                 "type": "Script",
                 "description": "From attendant in the gate to Route 20",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 577,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the house east of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 152,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Nursery Aide in the blue house south of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 347,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a trash can on the west side of the blue house south of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 4,
                 "quantity": 5,
                 "type": "Script",
                 "description": "From a Roughneck in front of the Gym",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of the Pokémon Center",
-                "requirements": "Surf",
-                "notes": ""
-            },
-            {
-                "itemId": 336,
-                "quantity": 1,
-                "type": "Script",
-                "description": "Reward for defeating Roxie",
-                "requirements": "",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the grass south of the complex's sign",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 3,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Roughneck down by the water, in exchange for a Poké Ball (daily)",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 251,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At the end of the waterside path continuing past the Roughneck",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 88,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "At the end of the waterside path opposite the Roughneck, accessible from the city",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
-        "subLocations": []
+        "shops": [7],
+        "subLocations": [
+            {
+                "name": "Virbank Gym",
+                "trainers": [39, 40, 31],
+                "collectibles": [
+                    {
+                        "itemId": 336,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "Reward for defeating Roxie",
+                        "requirements": ""
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Virbank Complex",
-        "trainers": [],
+        "trainers": [33, 34, 35, 36, 37, 38],
         "encounters": [
             {
                 "type": "Grass",
@@ -662,70 +646,57 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the southeastern-most corner of the complex",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 619,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the man at the entrance, after defeating all three Workers",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Scientist, after talking to him three times",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 3,
                 "quantity": 5,
                 "type": "Script",
                 "description": "From a girl at the southernmost end after filling up the complex's Habitat List",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 497,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the blank patch in the grass in the eastern area of the complex",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 563,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At the end of the narrow passageway west of the entrance",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
-                "itemId": "TinyMushroom",
+                "itemId": 86,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the dark grass on the east of the complex, in the blank patch at the north. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
-        ],
-        "shops": [],
-        "subLocations": []
+        ]
     },
     {
         "name": "Castelia City",
-        "trainers": [],
-        "encounters": [],
-        "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
-                "name": "Ocanfront Road and Piers",
+                "name": "Oceanfront Road and Piers",
                 "trainers": [],
                 "encounters": [],
                 "collectibles": [
@@ -734,35 +705,30 @@
                         "quantity": 1,
                         "type": "Script",
                         "description": "Reward for completing Harlequin Hunt",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 52,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Bottom of Unity Pier",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 280,
                         "quantity": 1,
                         "type": "Script",
                         "description": "Received from a woman on Unity Pier",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 447,
                         "quantity": 1,
                         "type": "Field",
                         "description": "On southern part of Prime Pier",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -775,115 +741,91 @@
                         "quantity": 1,
                         "type": "Script",
                         "description": "Received from the man behind a dumpster",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
-                ],
-                "shops": [],
-                "subLocations": []
+                ]
             },
             {
                 "name": "Eastern Gate",
-                "trainers": [],
-                "encounters": [],
                 "collectibles": [
                     {
                         "itemId": 217,
                         "quantity": 1,
                         "type": "Script",
                         "description": "Received from brown-haired woman",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
-                ],
-                "shops": [],
-                "subLocations": []
+                ]
             },
             {
                 "name": "Battle Company",
-                "trainers": [],
-                "encounters": [],
+                "trainers": [44, 45, 46, 47, 48],
                 "collectibles": [
                     {
                         "itemId": 216,
                         "quantity": 1,
                         "type": "Script",
                         "description": "1F; received from the President upon entering",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 551,
                         "quantity": 1,
                         "type": "Script",
                         "description": "1F; received from an Ace Trainer depending on choice",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 15,
                         "quantity": 2,
                         "type": "Reward",
                         "description": "47F, reward for defeating Clerk Clemens",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 10,
                         "quantity": 5,
                         "type": "Reward",
                         "description": "47F, reward for defeating Clerk Warren",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 232,
                         "quantity": 1,
                         "type": "Script",
                         "description": "47F, received from a Scientist in the lower-right corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 45,
                         "quantity": 1,
                         "type": "Field",
                         "description": "47F, in the lower-left corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 46,
                         "quantity": 1,
                         "type": "Field",
                         "description": "55F, in the upper-left corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
-                ],
-                "shops": [],
-                "subLocations": []
+                ]
             },
             {
                 "name": "Castelia Street",
-                "trainers": [],
-                "encounters": [],
                 "collectibles": [
                     {
                         "itemId": 371,
                         "quantity": 1,
                         "type": "Script",
                         "description": "Received from a Guitarist on 11F of the western building",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
-                ],
-                "shops": [],
-                "subLocations": []
+                ]
             },
             {
                 "name": "Gym Street",
-                "trainers": [],
                 "encounters": [
                     {
                         "type": "Gift",
@@ -897,82 +839,76 @@
                             }
                         ]
                     }
-                ],
-                "collectibles": [],
-                "shops": [],
-                "subLocations": []
+                ]
             },
             {
                 "name": "North Street",
-                "trainers": [],
-                "encounters": [],
                 "collectibles": [
                     {
                         "itemId": 372,
                         "quantity": 1,
                         "type": "Script",
                         "description": "Received from a girl on 47F of the southeastern building",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 538,
                         "quantity": 1,
                         "type": "Script",
                         "description": "Received from a Scientist on 1F of the northeastern building, if at least 40 Pokémon have been seen in the Pokédex",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 249,
                         "quantity": 1,
                         "type": "Field",
                         "description": "On 47F of the northeastern building",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 223,
                         "quantity": 1,
                         "type": "Script",
                         "description": "Received from a man on 1F of the western building",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
-                ],
-                "shops": [],
-                "subLocations": []
+                ]
             },
             {
                 "name": "Back Alley",
-                "trainers": [],
-                "encounters": [],
+                "trainers": [51, 52, 53],
                 "collectibles": [
                     {
                         "itemId": 48,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Northwest of the entrance",
-                        "requirements": "Surf; Spring/Summer",
-                        "notes": ""
+                        "requirements": "Surf; Spring/Summer"
                     },
                     {
-                        "itemId": "BlackGlasses",
+                        "itemId": 240,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Near the back alley Trainers",
-                        "requirements": "Surf; Spring/Summer",
-                        "notes": ""
+                        "requirements": "Surf; Spring/Summer"
                     }
-                ],
-                "shops": [],
-                "subLocations": []
+                ]
             }
         ]
     },
     {
         "name": "Castelia Sewers",
-        "trainers": [],
+        "trainers": [
+            {
+                "grass": 54,
+                "fire": 55,
+                "water": 56
+            },
+            57,
+            58,
+            428,
+            [59, 60]
+        ],
         "encounters": [
             {
                 "type": "Sewers",
@@ -998,119 +934,104 @@
         ],
         "collectibles": [
             {
-                "itemId": "TwistedSpoon",
+                "itemId": 248,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the Team Plasma Grunts",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Janitor Felix",
-                "requirements": "Spring/Summer",
-                "notes": ""
+                "requirements": "Spring/Summer"
             },
             {
                 "itemId": 81,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Worker Scott",
-                "requirements": "Spring/Summer",
-                "notes": ""
+                "requirements": "Spring/Summer"
             },
             {
                 "itemId": 272,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Worker Scott",
-                "requirements": "Autumn/Winter",
-                "notes": ""
+                "requirements": "Autumn/Winter"
             },
             {
                 "itemId": 234,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Doctor Heath",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 554,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of the Relic Passage entrance",
-                "requirements": "Spring/Summer",
-                "notes": ""
+                "requirements": "Spring/Summer"
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of Janitor Felix",
-                "requirements": "Autumn/Winter",
-                "notes": ""
+                "requirements": "Autumn/Winter"
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Southernmost part",
-                "requirements": "Surf; Spring/Summer",
-                "notes": ""
+                "requirements": "Surf; Spring/Summer"
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Northeast of HP Up ",
-                "requirements": "Surf; Spring/Summer",
-                "notes": ""
+                "requirements": "Surf; Spring/Summer"
             },
             {
                 "itemId": 368,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of Scientist Clarke",
-                "requirements": "Surf; Spring/Summer",
-                "notes": ""
+                "requirements": "Surf; Spring/Summer"
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Southwest of Janitor Felix",
-                "requirements": "Surf; Spring/Summer",
-                "notes": ""
+                "requirements": "Surf; Spring/Summer"
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of Worker Zack",
-                "requirements": "Surf; Spring/Summer",
-                "notes": ""
+                "requirements": "Surf; Spring/Summer"
             },
             {
                 "itemId": 13,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Northwest of Worker Scott",
-                "requirements": "Surf; Spring/Summer",
-                "notes": ""
+                "requirements": "Surf; Spring/Summer"
             },
             {
                 "itemId": 281,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of Max Repel",
-                "requirements": "Surf; Spring/Summer",
-                "notes": ""
+                "requirements": "Surf; Spring/Summer"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -1118,7 +1039,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "Castelia Side",
@@ -1183,35 +1103,30 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "North of male Scientist",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 74,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "South of female Scientist",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 238,
                         "quantity": 1,
                         "type": "Field",
                         "description": "West of female Scientist",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 553,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Western part near ledges, accessible from north entrance",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -1291,7 +1206,7 @@
                                 "maxLv": 35
                             },
                             {
-                                "pokemon": "Basculin (B)",
+                                "pokemon": 10016,
                                 "percent": 35,
                                 "minLv": 30,
                                 "maxLv": 35
@@ -1305,98 +1220,85 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "Near Backpacker Randall",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 48,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "In a rock near Psychic Tully",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 73,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "In a rock southwest of Hiker Tobias",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 13,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "In a dead end south of Hiker Tobias",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 72,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "In a rock near Psychic Ena",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 74,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "In a rock near Backpacker Annie",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 559,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "In the room connecting to the northernmost passage",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 322,
                         "quantity": 1,
                         "type": "Field",
                         "description": "In the room connecting to the northernmost passage",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 323,
                         "quantity": 1,
                         "type": "Field",
                         "description": "In the room connecting to the northernmost passage",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 540,
                         "quantity": 1,
                         "type": "Field",
                         "description": "In the room connecting to the northernmost passage",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 358,
                         "quantity": 1,
                         "type": "Field",
                         "description": "West of Hiker Tobias",
-                        "requirements": "Surf",
-                        "notes": ""
+                        "requirements": "Surf"
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             }
         ]
     },
     {
         "name": "Liberty Garden",
-        "trainers": [],
         "encounters": [
             {
                 "type": "Static",
@@ -1404,14 +1306,10 @@
                     { "pokemon": 494, "percent": 100, "minLv": 25, "maxLv": 25 }
                 ]
             }
-        ],
-        "collectibles": [],
-        "shops": [],
-        "subLocations": []
+        ]
     },
     {
         "name": "Castelia Park",
-        "trainers": [],
         "encounters": [
             {
                 "type": "Grass",
@@ -1447,9 +1345,16 @@
                 ]
             }
         ],
-        "collectibles": [],
-        "shops": [],
-        "subLocations": []
+        "collectibles": [
+            {
+                "itemId": 239,
+                "quantity": 1,
+                "type": "Field",
+                "description": "In the park area",
+                "requirements": "",
+                "notes": ""
+            }
+        ]
     },
     {
         "name": "Route 4",
@@ -1481,111 +1386,97 @@
         ],
         "collectibles": [
             {
-                "itemId": "Poke Toy",
+                "itemId": 577,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Maid in a northernmost building",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Colress after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 243,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Fisherman Andrew, near water",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 265,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the second floor of the second-most-southern house on the right",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 201,
                 "quantity": 3,
                 "type": "Script",
                 "description": "From Black Belt in the southernmost building on the left",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Between the first two stairways southeast of the vending machine",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 496,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In deep sand, south of Policeman Neagle",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 355,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On a hill east of Policeman Neagle",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 109,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the expansion area to the west, near Roughneck Silvester and Biker Stanley",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 90,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of Youngster Sinclair",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of Youngster Sinclair",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 286,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of Youngster Sinclair and Biker Stanley",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "West of Hooligans Rob & Sal",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -1603,7 +1494,6 @@
             }
         ],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -1627,139 +1517,121 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "Received from the man in black",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 193,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Anja after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 191,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Jaden after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 91,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In deep sand, north of Pokémon Ranger Jaden",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In deep sand, near Backpacker Clara",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East to Backpacker Sam",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Near Psychic Tommy",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In deep sand, near Backpacker Walt",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West to Backpacker Sam",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of man giving Soft Sand",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Northeastern part, in deep sand near cliff",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 364,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northwestern part, near cliff",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 14,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeastern part, near cliff",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 90,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West to Pokémon Ranger Jaden",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of Backpacker Sam",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 555,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Southwestern corner",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 82,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "South of Backpacker Tami",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -1767,7 +1639,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "1F-B1F",
@@ -1797,19 +1668,16 @@
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "B1F, in the left sand pile, west of Psychic Low",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 366,
                         "quantity": 1,
                         "type": "Field",
                         "description": "B1F, near Psychic Dua",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -1846,19 +1714,16 @@
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Lowest floor, in the room south of Volcarona's room, accessible from Relic Passage",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 269,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Lowest floor, in the easternmost room, accessible from Relic Passage",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -1889,7 +1754,6 @@
                     }
                 ],
                 "collectibles": [],
-                "shops": [],
                 "subLocations": []
             }
         ]
@@ -1904,83 +1768,72 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "From an Ace Trainer in the building north of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 266,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a man in the eastern gate",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 72,
                 "quantity": 10,
                 "type": "Script",
                 "description": "From the Gentleman in the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 218,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Socialite in the building northwest of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "Thunderstone",
+                "itemId": 83,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Near the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 547,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In trash can near the Rondez-View Ferris Wheel",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 400,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the large Audino figure in amusement park",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 391,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Nate or Rosa after defeating Ingo and Emmet in a Multi Battle",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 546,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the model in the old Nimbassa Gym",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 399,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Reward for defeating Elesa",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2020,27 +1873,23 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Backpacker Ivan",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
                 "itemId": 393,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the area north of the Strength boulder",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             },
             {
-                "itemId": "TinyMushroom",
+                "itemId": 86,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "North of Backpacker Blossom. Regrows occasionally",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2106,67 +1955,58 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the higher part",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             },
             {
                 "itemId": 219,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Inside a tree stump in the lower part",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 203,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Serenity after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 85,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Western part of the dead-end part",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 620,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the Backpacker(?) near tree stump, in northern part",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 551,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeastern part",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 186,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Forrest after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 214,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Behind Veteran Murphy, in the northwest corner of the cliff",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2207,63 +2047,48 @@
         ],
         "collectibles": [
             {
-                "itemId": "Electric Guitar",
-                "quantity": 1,
-                "type": "Script",
-                "description": "Gift from Musician Preston after defeating him",
-                "requirements": "",
-                "notes": ""
-            },
-            {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Southern side of the fence by the Driftveil Drawbridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "HM02: Fly",
+                "itemId": 421,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from Bianca upon first entering the route",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 267,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near patch of dark grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On road, near Dancer Brian",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 204,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Lois after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "Pomeg Berry",
+                "itemId": 169,
                 "quantity": 5,
                 "type": "Script",
                 "description": "Buyable from Pokémon Breeder (once per day)",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2283,11 +2108,9 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "Received from Lady in the northeast corner",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2315,7 +2138,6 @@
             }
         ],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2364,35 +2186,30 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Southeast of the Black City gate",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Behind a rock east of Backpacker Talon ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 493,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Behind the rock wall just underneath the Poké Transfer Lab",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the ground by the dark grass",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2408,7 +2225,6 @@
             }
         ],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2428,107 +2244,94 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the man in black at the market, if the player has a Pokémon that is level 30 or higher",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 93,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Lady on 1F of Driftveil Luxury Suites if the player has a Pokémon knowing the asked TM move (daily)",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 84,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Southwest of the statue by the Driftveil Drawbridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the stone bridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 253,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the old man on 1F of Grand Hotel Driftveil, if the player has seen more than 70 Pokémon",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 197,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the Axew on 19F of Grand Hotel Driftveil",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 296,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Veteran on 25F of Driftveil Continental Hotel",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 229,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Waiter on 23F of Driftveil Luxury Suites",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 16,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the girl at the upper floor of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 390,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the southwest corner of the market, accessed from the western entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 541,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Gentleman on 25F of Driftveil Chateau Hotel",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 106,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the pile of dirt south of the Clay Tunnel entrance, accessible after entering the Hall of Fame",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 405,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Reward for defeating Clay",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
+        "shops": [9],
         "subLocations": []
     },
     {
@@ -2598,99 +2401,86 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of School Kid Mara",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 192,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Gift from Pokémon Ranger Richard after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 214,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Between Parasol Lady Tihana and School Kid Alvin",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a patch of grass, west of the Hiker",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 107,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a girl in a house near the Hiker",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "HM03: Surf",
+                "itemId": 422,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Cheren after the Plasma Frigate incident at the Pokémon World Tournament",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 383,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Behind the Season Research Lab",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 345,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Pokémon Breeder April ",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Season Research Lab",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 87,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of Season Research Lab",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "TinyMushroom",
+                "itemId": 86,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "South of the Research Facility, empty spot in patch of grass. Regrows occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 81,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the Season Research Lab",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2721,155 +2511,135 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "1F, east of Ace Trainer Corky",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Field",
                 "description": "1F, near Route 6 entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "1F, north of Guitarist Anna, under the crystal",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "1F, south of Scientist Ronald",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 242,
                 "quantity": 1,
                 "type": "Field",
                 "description": "1F, east of Guitarist Anna",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 11,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "1F, north of the bridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 92,
                 "quantity": 1,
                 "type": "Script",
                 "description": "B1F, given by Nugget Brothers. Nuggetaboutit!",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 581,
                 "quantity": 1,
                 "type": "Script",
                 "description": "B1F, given by Nugget Brothers. Nuggetaboutit!",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "B1F, north of the Nugget Brothers",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 199,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "B1F, reward for defeating Pokémon Ranger Briana",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 195,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "1F, reward for defeating Pokémon Ranger Louis",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Field",
                 "description": "1F, near Hiker Otto",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "1F, southwest of the cave, arriving from B1F",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 542,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B1F, west of Scientist Lumi",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B1F, near Pokémon Ranger Briana",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "Thunderstone",
+                "itemId": 83,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B2F, south of Guitarist Beverly",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 360,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B2F, north of Ace Trainer Shaye",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 233,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B2F, south of Ace Trainer Vicki",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 550,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "B2F, at the dead end northeast of Ace Trainer Vicki",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2882,43 +2652,30 @@
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Southeast of the Relic Passage entrance ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 540,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from the Worker southeast of the fountain",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the trash can north of the fountain",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 338,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At the end of the western pier",
-                "requirements": "",
-                "notes": ""
-            },
-            {
-                "itemId": "Any one Vitamin",
-                "quantity": 1,
-                "type": "Script",
-                "description": "Purchasable from BP counter with the one (1) BP accessible before postgame",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -2926,7 +2683,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "1F-2F",
@@ -2985,59 +2741,51 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "1F, east of Hiker Jebediah",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 74,
                         "quantity": 1,
                         "type": "Field",
                         "description": "1F, west of Hiker Jebediah",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 72,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "1F, east of the entrance up a small ledge",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 49,
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F, in the south up a ledge",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 495,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "2F, in a rock southeast of entrance",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 46,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "2F, north of entrance",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 73,
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F, northeast of entrance",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -3097,35 +2845,30 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "Guidance Chamber (3F), immediate north of entrance",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 157,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Guidance Chamber (3F), west of entrance",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 407,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Guidance Chamber (3F), northeast corner",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 561,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Guidance Chamber (3F), at the dead end right above the old man",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             }
         ]
@@ -3140,83 +2883,72 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Veteran in the Cargo Service building",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 385,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the plane south of the Cargo Service building",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 367,
                 "quantity": 1,
                 "type": "Script",
                 "description": "South end of the runway, after talking to a Youngster in the house north of the Pokémon Center after defeating Skyla",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 45,
                 "quantity": 6,
                 "type": "Script",
                 "description": "From a woman in the house east of the Pokémon Center when the number of TMs collected reaches 10, 20, 35, 50, 70, and 95",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 1,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Professor Juniper when met northwest of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 275,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South from the runway, between the two botton left greenhouses",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 556,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Between first and second plane, from the Gym's side ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the house east of the Pokémon Center, in a trash can",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 493,
                 "quantity": 5,
                 "type": "Script",
                 "description": "From the Pilot behind the counter in the Cargo Service building, for bringing him a Flying- or Psychic-type Pokémon",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 389,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Reward for defeating Skyla",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3267,51 +2999,44 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the east, past the easternmost raised walkway",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the empty spot of the southern field of grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 85,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the empty spot in the northwestern field of grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 210,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Southeast of Celestial Tower",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "TinyMushroom",
+                "itemId": 86,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Behind the Celestial Tower. Regrows occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 29,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On a rock southwest of the northern house ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3319,7 +3044,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "1F",
@@ -3331,11 +3055,9 @@
                         "quantity": 1,
                         "type": "Script",
                         "description": "1F, gift from Professor Juniper",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -3360,19 +3082,16 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F, west of Psychic Joyce",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 388,
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F, east side",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -3409,11 +3128,9 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "3F, southwest of Pokéfan Georgia",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -3450,19 +3167,16 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "North of Socialite Grace",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 392,
                         "quantity": 1,
                         "type": "Field",
                         "description": "East of Psychic Sarah",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -3499,11 +3213,9 @@
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "West of the bell platform",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             }
         ]
@@ -3518,27 +3230,23 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the hill north of the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 384,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a woman in a house near the girl with Krokorok",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 247,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From an old woman in the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3580,35 +3288,30 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Reversal Mountain entrance from Lentimas Town's side",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 157,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the hill, accessed from inside the mountain",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 228,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the hill, accessed from inside the mountain",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 357,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Behind the Strange House",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3632,43 +3335,37 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Library (basement), between the rows of bookshelves",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 381,
                 "quantity": 1,
                 "type": "Field",
                 "description": "First floor, in the western room",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 108,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Library (basement), northwest of the eastern stairs",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 453,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Second floor, in the middle room",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 270,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Second floor, in the eastern room",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3713,131 +3410,114 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near exit to Lentimas Town's side",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 396,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Dead-end tunnel east of Doctor Derek",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the stalagmite south of the Scientist",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 204,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Dead-end tunnel east of Backpacker Kiyo and Hiker Markus",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 548,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a stalagmite east of Battle Girl Chan",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of Hiker Jared",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 386,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Dead-end tunnel north of Battle Girl Chan",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Northern dead end southB2/westW2 of the Ace Trainers",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Southern dead end west of the Ace Trainers, in a rock",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Black Belt Corey",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 185,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Eliza after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Dead-end tunnel east of Backpacker Kiyo and Hiker Markus",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the stalagmite north of Backpacker Kiyo and Hiker Markus",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 273,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B1F, near the entrance to 1F",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 184,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "B1F, from Pokémon Ranger Lewis after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 549,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "B1F, in the smaller stalagmite",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3866,59 +3546,51 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a man in the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 107,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In front of the bulldozer",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 43,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of the Reversal Mountain entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 93,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the beach; southwest of Pokémon Center. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 88,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the beach, south of the gate. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 88,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the beach, southeast of Berry Juice. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 89,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Zinzolin in front of the gate after clearing the Abyssal Ruins",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3959,27 +3631,23 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeast of the Undella Town Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 93,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of the Undella Town Pokémon Center, on the sand. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 299,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Ace Trainer Summer",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -3987,7 +3655,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "1F",
@@ -4097,67 +3764,58 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "1F, north of Battle Girl Tia, accessible from B1F",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     },
                     {
                         "itemId": 202,
                         "quantity": 1,
                         "type": "Reward",
                         "description": "1F, from Pokémon Ranger Johan after defeating him",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 205,
                         "quantity": 1,
                         "type": "Reward",
                         "description": "1F, from Pokémon Ranger Mikiko after defeating her",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 185,
                         "quantity": 1,
                         "type": "Field",
                         "description": "1F, south of Battle Girl Tia",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 73,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "1F, south of Pokémon Ranger Mikiko",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 157,
                         "quantity": 1,
                         "type": "Field",
                         "description": "1F, between the Pokémon Rangers Mikiko and Johan",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 333,
                         "quantity": 1,
                         "type": "Field",
                         "description": "1F, on the small island east of the Black Belt Drago",
-                        "requirements": "Surf",
-                        "notes": ""
+                        "requirements": "Surf"
                     },
                     {
                         "itemId": 49,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "1F, in the rock at the northeast corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -4217,19 +3875,16 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "B1F, south of the two-way entrance",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 45,
                         "quantity": 1,
                         "type": "Field",
                         "description": "B1F, north of Battle Girl Maki",
-                        "requirements": "Strength",
-                        "notes": ""
+                        "requirements": "Strength"
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             }
         ]
@@ -4278,7 +3933,7 @@
                 "pokemon": [
                     { "pokemon": 419, "percent": 65, "minLv": 40, "maxLv": 45 },
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 35,
                         "minLv": 40,
                         "maxLv": 45
@@ -4292,51 +3947,44 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Socialite Marian",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Fisherman Sid",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 331,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Backpacker Reece",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On cliff east of Abundant Shrine entrance",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             },
             {
-                "itemId": "HM06: Dive",
+                "itemId": 425,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Black Belt Jay",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             },
             {
                 "itemId": 92,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of Black Belt Jay, near waterfall",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -4401,147 +4049,121 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Pokémon Ranger Dianne",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Pokémon Ranger Dianne",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 189,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Daryl after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 198,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Dianne after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 88,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On a beach north of Fisherman Jones. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 89,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the beach just north of Parasol Lady Laura. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On a hill near Parasol Lady Laura",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On a hill near Parasol Lady Laura ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of Ace Trainer Miguel",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
                 "itemId": 93,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of Ace Trainer Miguel, near rock. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 203,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Ace Trainer Miguel, near rock",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 413,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of Ace Trainer Angi",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 356,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Fisherman Vince",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 492,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the island with dark grass",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 406,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On a shore south of Giant Chasm entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 93,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a rock near Hyper Potion. Reappears occasionally",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 276,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the girl in the western building",
-                "requirements": "",
-                "notes": ""
-            },
-            {
-                "itemId": "Various Flutes",
-                "quantity": 1,
-                "type": "Script",
-                "description": "From an Ace Trainer; gives the player a different flute each day",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -4554,19 +4176,16 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Inside the northeast house",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 402,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the southwest house",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -4608,67 +4227,58 @@
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "North, near the dark grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "Bug Gem",
+                "itemId": 558,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East to the tallest hill",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 53,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "North-east corner of the dark grass ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Larger patch of dark grass in the north",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Larger patch of dark grass in the north",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 196,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Lacunosa Town's entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 271,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of the tallest hill",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 416,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Bridge Gate",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -4715,7 +4325,7 @@
                 "type": "Rippling Water",
                 "pokemon": [
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 60,
                         "minLv": 45,
                         "maxLv": 50
@@ -4731,83 +4341,72 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the tennis field",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the northeast corner",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the northeast corner",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 335,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the isle on the north part of the river",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the southwest area",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 200,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the trash can in the northwest corner",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the southwest area",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 564,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the middle patch of land supporting the bridge",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 158,
                 "quantity": 5,
                 "type": "Script",
                 "description": "From the girl on the bridge after solving her problem",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of the basketball court",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -4863,7 +4462,7 @@
                 "pokemon": [
                     { "pokemon": 419, "percent": 65, "minLv": 45, "maxLv": 50 },
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 35,
                         "minLv": 45,
                         "maxLv": 50
@@ -4877,67 +4476,51 @@
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Crofton after his defeat",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 1,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "From Pokémon Ranger Thalia after her defeat",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
-            },
-            {
-                "itemId": "Favored Mail",
-                "quantity": 1,
-                "type": "Script",
-                "description": "From the Pokémon Ranger inside the trailer",
-                "requirements": "",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At the end of the short land strip west to the bridge, behind the fence",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Far north-west corner of the grass patch in the west",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 404,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Up the northern waterfall on the western ledge ",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Up the northern waterfall on the eastern ledge ",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             },
             {
                 "itemId": 327,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Right of Pokémon Ranger Thalia",
-                "requirements": "Surf and Waterfall",
-                "notes": ""
+                "requirements": "Surf and Waterfall"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -4950,35 +4533,30 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Linebacker on the second floor of Drayden's house",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 543,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From the female NPC on the second floor of Drayden's house",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 228,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a female NPC in the house east of the Gym",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 409,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Reward for defeating Drayden",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5022,51 +4600,44 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the road, north of the dark grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of the Opelucid City gate",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Behind the fence southeast of the Tubeline Bridge gate",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near where the entrance to Challenger's Cave used to be",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 109,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of where the entrance to Challenger's Cave used to be",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 275,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeast of the Tubeline Bridge gate",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5086,19 +4657,17 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "Purchaseable from the Middle-right Cashier",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 395,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Purchaseable from the Middle-right Cashier",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
+        "shops": [10, 11, 12, 13, 14],
         "subLocations": []
     },
     {
@@ -5111,19 +4680,16 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Battle Girl running on the bridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "EnergyPowder",
+                "itemId": 34,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Scientist inside the Route 8 gate",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5134,7 +4700,7 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": "Thundurus - T",
+                        "pokemon": 10020,
                         "percent": 100,
                         "minLv": 60,
                         "maxLv": 60
@@ -5143,7 +4709,6 @@
             }
         ],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5177,55 +4742,69 @@
         ],
         "collectibles": [
             {
-                "itemId": "Weather Rocks",
+                "itemId": 282,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Parasol Lady near the Tubeline Bridge gate, once a day in the morning",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
+            },
+            {
+                "itemId": 283,
+                "quantity": 1,
+                "type": "Script",
+                "description": "From Parasol Lady near the Tubeline Bridge gate, once a day in the morning",
+                "requirements": ""
+            },
+            {
+                "itemId": 284,
+                "quantity": 1,
+                "type": "Script",
+                "description": "From Parasol Lady near the Tubeline Bridge gate, once a day in the morning",
+                "requirements": ""
+            },
+            {
+                "itemId": 285,
+                "quantity": 1,
+                "type": "Script",
+                "description": "From Parasol Lady near the Tubeline Bridge gate, once a day in the morning",
+                "requirements": ""
             },
             {
                 "itemId": 199,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Youngster Astor",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 189,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Southwest from the Fisherman",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 198,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Between Fisherman Ryder and Parasol Lady Tyra",
-                "requirements": "If Winter: Surf",
-                "notes": ""
+                "requirements": "If Winter: Surf"
             },
             {
                 "itemId": 192,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Northwest of Icirrus City entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 363,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Youngster Astor",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5236,7 +4815,7 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": "Tornadus - T",
+                        "pokemon": 10019,
                         "percent": 100,
                         "minLv": 60,
                         "maxLv": 60
@@ -5274,83 +4853,72 @@
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given by Pokémon Ranger Parker after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 188,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given by Pokémon Ranger Elaine after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 411,
                 "quantity": 1,
                 "type": "Field",
                 "description": "South of Pokémon Ranger Elaine",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the gap between trees on the left at the entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 109,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the ground in front of trees southwest of Fisherman Eustace",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeast of Pokémon Ranger Parker",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 73,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the gap between trees west of Fisherman Arnold ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the gap between trees north of Pokémon Ranger Parker",
-                "requirements": "Spring, Summer, or Autumn",
-                "notes": ""
+                "requirements": "Spring, Summer, or Autumn"
             },
             {
                 "itemId": 157,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Fisherman Arnold",
-                "requirements": "If Winter: Surf",
-                "notes": ""
+                "requirements": "If Winter: Surf"
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the far northeastern side",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5415,83 +4983,72 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from chairman of the Pokémon Fan Club",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 224,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from chairman of the Pokémon Fan Club",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 221,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from chairman of the Pokémon Fan Club",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 287,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of the Pokémon Center, across the bridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 241,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from a Battle Girl in the Pokémon Center",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 554,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of Pokémon Center",
-                "requirements": "Winter",
-                "notes": ""
+                "requirements": "Winter"
             },
             {
                 "itemId": 18,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Daily prize from Aha if the answer to the quiz was correct ",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "Parlyz Heal",
+                "itemId": 22,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Daily prize from Aha if the answer to the quiz was incorrect",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "NeverMeltIce",
+                "itemId": 246,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Entrance, on the slope at the exit of Icirrus City",
-                "requirements": "Winter",
-                "notes": ""
+                "requirements": "Winter"
             },
             {
                 "itemId": 54,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Entrance, gift from Cedric Juniper before climbing up the tower",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5546,11 +5103,9 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "Eastern edge of the outside area",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5558,7 +5113,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "1F-2F",
@@ -5600,27 +5154,23 @@
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "2F, on a lone rock in the northern part",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 550,
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F, eastern part",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 548,
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F, on the top of a pillar",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -5633,59 +5183,51 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "3F, on a platform in the middle of the floor",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 46,
                         "quantity": 1,
                         "type": "Field",
                         "description": "3F, northeast corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 1,
                         "quantity": 1,
                         "type": "Field",
                         "description": "4F, northeast platform",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 210,
                         "quantity": 1,
                         "type": "Field",
                         "description": "5F, first ring",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 561,
                         "quantity": 1,
                         "type": "Field",
                         "description": "5F, second ring",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 329,
                         "quantity": 1,
                         "type": "Field",
                         "description": "5F, third ring",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 538,
                         "quantity": 1,
                         "type": "Field",
                         "description": "6F, northeast corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -5710,11 +5252,9 @@
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "7F, northeast corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             }
         ]
@@ -5729,19 +5269,16 @@
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a female Ace Trainer after showing her a Pokémon holding a Poison Barb",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 369,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Parasol Lady at the Humilau City entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5772,67 +5309,58 @@
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "South of the Lady, near a Swimmer",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 541,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Southeast of the Lady",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 93,
                 "quantity": 5,
                 "type": "Script",
                 "description": "From the Nurse in the northeastern house if shown a Luvdisc",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 46,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of the Lady",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 253,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of the Gym",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 88,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From a Socialite who asks the player to walk her Mienfoo inside her house near the entrance to Route 22",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 545,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the trash can of the hut containing the Roughneck who wants a Mantine",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 382,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Reward for defeating Marlon",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5861,19 +5389,16 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "In shallow water in the middle of the route",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of the northern Seaside Cave entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -5942,75 +5467,65 @@
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the northwestern cliff",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the northwest corner of the northern dark grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the isolated cliff in the middle of the route",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 635,
                 "quantity": 1,
                 "type": "Script",
                 "description": "From Colress upon approaching Terrakion",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 271,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the dark grass south of Terrakion",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 361,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of the pond",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 245,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At the end of the ridge south of Terrakion",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On a cliff east of the Giant Chasm entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 72,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Southeast of the Giant Chasm entrance",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6023,67 +5538,58 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "1F, at the bow of the ship",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 394,
                 "quantity": 1,
                 "type": "Field",
                 "description": "1F, at the stern of the ship",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B1F, top right room",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 633,
                 "quantity": 1,
                 "type": "Script",
                 "description": "B2F, from a Team Plasma Grunt after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 52,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B2F, bow side of the pipe maze",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 53,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B2F, near the Grunt with Krokorok and Krookodile",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 562,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B2F, near the Grunt with Krokorok and Krookodile",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 401,
                 "quantity": 1,
                 "type": "Field",
                 "description": "B2F, bow side from the Grunt with Drapion",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6134,51 +5640,44 @@
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On a rock near the southern exit",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 334,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Behind a boulder in the northwest",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Northeast of southwest corner, on the other side of a Strength boulder",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the small indent near the northwest corner",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 552,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Behind a Strength boulder near the northeastern corner",
-                "requirements": "Strength",
-                "notes": ""
+                "requirements": "Strength"
             },
             {
                 "itemId": 340,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At the north end of the pool of water near the Route 22 entrance",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6222,27 +5721,23 @@
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In the southern patch of grass",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 219,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On the broken bridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near the broken bridge",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6285,67 +5780,58 @@
                 "quantity": 3,
                 "type": "Script",
                 "description": "From Rood after defeating the Grunt",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 326,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the southwest corner",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 81,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of the southwest corner, along the western wall",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 330,
                 "quantity": 1,
                 "type": "Field",
                 "description": "West of the spot where the Plasma Frigate used to be, after defeating Ghetsis",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 188,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In the southeastern corner, after defeating Ghetsis",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 53,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of where the Plasma Frigate used to be, after defeating Ghetsis",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Next to a batch of dark tall grass in the northwest, after defeating Ghetsis",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 80,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In a dead end north of the center, after defeating Ghetsis",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6360,7 +5846,6 @@
             }
         ],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6368,7 +5853,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "Main Caves",
@@ -6445,139 +5929,121 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "In Regigigas' room, by the left statue",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 297,
                         "quantity": 1,
                         "type": "Field",
                         "description": "In Regigigas' room, by the right statue",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 551,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Cave north of the worker's shed, west of Worker Victor",
-                        "requirements": "Spring, Summer, or Autumn",
-                        "notes": ""
+                        "requirements": "Spring, Summer, or Autumn"
                     },
                     {
                         "itemId": 418,
                         "quantity": 1,
                         "type": "Field",
                         "description": "West of Nurse Carol",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 417,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Next to Veteran Chloris",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 52,
                         "quantity": 1,
                         "type": "Field",
                         "description": "South of Veteran Chloris",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 559,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Inside the boulder south of the Dusk Ball",
-                        "requirements": "Spring, Summer, or Autumn",
-                        "notes": ""
+                        "requirements": "Spring, Summer, or Autumn"
                     },
                     {
                         "itemId": 279,
                         "quantity": 1,
                         "type": "Field",
                         "description": "North of Nurse Carol",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 47,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Outside, inside the trash can next to the Vending Machine",
-                        "requirements": "Spring, Summer, or Autumn",
-                        "notes": ""
+                        "requirements": "Spring, Summer, or Autumn"
                     },
                     {
                         "itemId": 278,
                         "quantity": 1,
                         "type": "Field",
                         "description": "East of Worker Gus",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 539,
                         "quantity": 1,
                         "type": "Field",
                         "description": "On the south end of the highest tier of planks",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 72,
                         "quantity": 1,
                         "type": "Field",
                         "description": "On the north end of the highest tier of planks",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 46,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Southwest corner of the cave Veteran Chloris can be found",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 74,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Inside a boulder south of Worker Patton",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 547,
                         "quantity": 1,
                         "type": "Field",
                         "description": "South of Worker Ryan",
-                        "requirements": "Winter",
-                        "notes": ""
+                        "requirements": "Winter"
                     },
                     {
                         "itemId": 45,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Northeast of Worker Ryan",
-                        "requirements": "Winter",
-                        "notes": ""
+                        "requirements": "Winter"
                     },
                     {
                         "itemId": 552,
                         "quantity": 1,
                         "type": "Field",
                         "description": "East of Veteran Zach",
-                        "requirements": "Winter",
-                        "notes": ""
+                        "requirements": "Winter"
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -6649,11 +6115,9 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "East of Ice Rock",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             }
         ]
@@ -6670,7 +6134,6 @@
             }
         ],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6729,7 +6192,7 @@
                 "pokemon": [
                     { "pokemon": 419, "percent": 70, "minLv": 60, "maxLv": 65 },
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 30,
                         "minLv": 60,
                         "maxLv": 65
@@ -6743,155 +6206,135 @@
                 "quantity": 1,
                 "type": "Field",
                 "description": "At the end of a stream past the first house",
-                "requirements": "Cut or Surf",
-                "notes": ""
+                "requirements": "Cut or Surf"
             },
             {
                 "itemId": 362,
                 "quantity": 1,
                 "type": "Script",
                 "description": "Gift from old man in the second house",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 184,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "East of Ace Trainer Juliet",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 47,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On mountaintop south of Black Belt Luke above Ace Trainer's house",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 205,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a rock southeast of Black Belt Luke",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 556,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On mountaintop containing no Trainers and a Hidden Grotto",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 187,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given out by Pokémon Ranger Steve after defeating him",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 194,
                 "quantity": 1,
                 "type": "Reward",
                 "description": "Given out by Pokémon Ranger Lena after defeating her",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 332,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Next to Pokémon Ranger Steve",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 193,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "At a dead end in the beginning of the forest section",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
                 "itemId": 553,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At a dead end above Ace Trainer Tom",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
                 "itemId": 45,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At a dead end west of Black Belt Benjamin",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
                 "itemId": 49,
                 "quantity": 1,
                 "type": "Field",
                 "description": "At a dead end in the southwestern-most section of the forest, past Hiker Doug",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
                 "itemId": 557,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On the pedestal where Azelf appears",
-                "requirements": "Cut",
-                "notes": ""
+                "requirements": "Cut"
             },
             {
                 "itemId": 74,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "In a rock south of the Strength puzzle",
-                "requirements": "Cut and Strength",
-                "notes": ""
+                "requirements": "Cut and Strength"
             },
             {
                 "itemId": 379,
                 "quantity": 1,
                 "type": "Field",
                 "description": "In a grass patch to the northeast of the Strength puzzle",
-                "requirements": "Cut and Strength",
-                "notes": ""
+                "requirements": "Cut and Strength"
             },
             {
                 "itemId": 186,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Near Battle Girl Tiffany on a mountaintop",
-                "requirements": "Cut and Strength",
-                "notes": ""
+                "requirements": "Cut and Strength"
             },
             {
                 "itemId": 48,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "On a lone mountaintop",
-                "requirements": "Cut and Strength",
-                "notes": ""
+                "requirements": "Cut and Strength"
             },
             {
                 "itemId": 354,
                 "quantity": 1,
                 "type": "Field",
                 "description": "On a lone mountaintop",
-                "requirements": "Cut and Strength",
-                "notes": ""
+                "requirements": "Cut and Strength"
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -6942,7 +6385,7 @@
                 "pokemon": [
                     { "pokemon": 184, "percent": 65, "minLv": 65, "maxLv": 70 },
                     {
-                        "pokemon": "Basculin (B)",
+                        "pokemon": 10016,
                         "percent": 35,
                         "minLv": 65,
                         "maxLv": 70
@@ -6956,75 +6399,65 @@
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Eastern part of ledge near pond",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
-                "itemId": "TinyMushroom",
+                "itemId": 86,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Southeast of Youngster Wes",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 107,
                 "quantity": 1,
                 "type": "Field",
                 "description": "North of Youngster Wes",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 555,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Lass Lurleen",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 234,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of Youngster Jaye",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 87,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "West of Youngster Jaye",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 576,
                 "quantity": 1,
                 "type": "Field",
                 "description": "East of the Landorus shrine",
-                "requirements": "Surf",
-                "notes": ""
+                "requirements": "Surf"
             },
             {
                 "itemId": 53,
                 "quantity": 1,
                 "type": "Hidden",
                 "description": "Eastern part of the fence north of the Shiny Stone",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             },
             {
                 "itemId": 419,
                 "quantity": 1,
                 "type": "Field",
                 "description": "Western part of the fence north of the Shiny Stone",
-                "requirements": "",
-                "notes": ""
+                "requirements": ""
             }
         ],
-        "shops": [],
         "subLocations": []
     },
     {
@@ -7032,7 +6465,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": [
             {
                 "name": "Entrance",
@@ -7040,55 +6472,48 @@
                 "encounters": [],
                 "collectibles": [
                     {
-                        "itemId": "HM05: Waterfall",
+                        "itemId": 424,
                         "quantity": 1,
                         "type": "Script",
                         "description": "From N before going through the Badge Check Gates",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 190,
                         "quantity": 1,
                         "type": "Field",
                         "description": "South of the Pokémon Center, in the maze",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 49,
                         "quantity": 1,
                         "type": "Field",
                         "description": "South of the Pokémon Center, on a ledge in the maze",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 47,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "South of the Pokémon Center, in a dead end of the maze, next to two trees",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 108,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "South of the Pokémon Center, on a rock in a dead end, next to a fallen pillar",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 328,
                         "quantity": 1,
                         "type": "Field",
                         "description": "East of the Pokémon Center, at the end of a narrow passage",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -7139,7 +6564,7 @@
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": "Basculin (B)",
+                                "pokemon": 10016,
                                 "percent": 30,
                                 "minLv": 65,
                                 "maxLv": 70
@@ -7153,11 +6578,9 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "1F, southwest of Veterans Cecile and Claude",
-                        "requirements": "Surf and Waterfall",
-                        "notes": ""
+                        "requirements": "Surf and Waterfall"
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -7252,19 +6675,16 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "Grove, northeastern corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 196,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Grove, southwestern corner ",
-                        "requirements": "Cut",
-                        "notes": ""
+                        "requirements": "Cut"
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -7367,7 +6787,7 @@
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": "Basculin (B)",
+                                "pokemon": 10016,
                                 "percent": 30,
                                 "minLv": 65,
                                 "maxLv": 70
@@ -7387,35 +6807,30 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "Outside 1, southeastern corner",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
-                        "itemId": "Bug Gem",
+                        "itemId": 558,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Outside 1, south of Veteran Cathy",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 194,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Outside 1, east of Doctor Logan",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 562,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Outside 1, near Ace Trainer Pierce",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -7489,7 +6904,7 @@
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": "Basculin (B)",
+                                "pokemon": 10016,
                                 "percent": 30,
                                 "minLv": 65,
                                 "maxLv": 70
@@ -7503,59 +6918,51 @@
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "2F, in a rock east of Veteran Abraham",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 365,
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F, east of Backpacker Mae",
-                        "requirements": "Surf",
-                        "notes": ""
+                        "requirements": "Surf"
                     },
                     {
                         "itemId": 563,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "2F, near southeastern entrance",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 47,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "2F back, eastern part",
-                        "requirements": "Surf",
-                        "notes": ""
+                        "requirements": "Surf"
                     },
                     {
                         "itemId": 341,
                         "quantity": 1,
                         "type": "Field",
                         "description": "2F back, southeastern part",
-                        "requirements": "Surf",
-                        "notes": ""
+                        "requirements": "Surf"
                     },
                     {
                         "itemId": 197,
                         "quantity": 1,
                         "type": "Reward",
                         "description": "2F, from Pokémon Ranger Eddie after defeating him",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 203,
                         "quantity": 1,
                         "type": "Reward",
                         "description": "2F, from Pokémon Ranger Elle after defeating her",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -7609,11 +7016,9 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "3F, west of Veteran Hugo",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -7687,7 +7092,7 @@
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": "Basculin (B)",
+                                "pokemon": 10016,
                                 "percent": 30,
                                 "minLv": 65,
                                 "maxLv": 70
@@ -7701,11 +7106,9 @@
                         "quantity": 1,
                         "type": "Script",
                         "description": "4F, from Hugh after defeating him",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             },
             {
@@ -7806,51 +7209,44 @@
                         "quantity": 1,
                         "type": "Field",
                         "description": "Outside 2, north of Ace Trainer Elmer",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 48,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Outside 2, west of Black Belt Martell",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 52,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Outside 2, in a rock east of Battle Girl Chalina",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 564,
                         "quantity": 1,
                         "type": "Hidden",
                         "description": "Outside 2, in a rock west of Ace Trainer Carroll",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 250,
                         "quantity": 1,
                         "type": "Field",
                         "description": "Outside 2, south of Veteran Portia",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     },
                     {
                         "itemId": 541,
                         "quantity": 1,
                         "type": "Reward",
                         "description": "Outside 2, from Dancer Arvid after defeating him",
-                        "requirements": "",
-                        "notes": ""
+                        "requirements": ""
                     }
                 ],
-                "shops": [],
                 "subLocations": []
             }
         ]
@@ -7860,7 +7256,6 @@
         "trainers": [],
         "encounters": [],
         "collectibles": [],
-        "shops": [],
         "subLocations": []
     }
 ]

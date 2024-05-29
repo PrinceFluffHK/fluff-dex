@@ -1269,6 +1269,15 @@
         "description": "A Berry to be used in cooking. Increases chances of getting items when a Pokémon is caught, in Pokémon Let's Go."
     },
     {
+        "id": 169,
+        "name": "Pomeg Berry",
+        "gen": 3,
+        "priceP": 20,
+        "priceBP": 0,
+        "type": "Berries",
+        "description": "Increases Friendship but lowers HP EVs."
+    },
+    {
         "id": 170,
         "name": "Kelpsy Berry",
         "gen": 3,
@@ -4583,7 +4592,7 @@
     {
         "id": 548,
         "name": "Fire Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4592,7 +4601,7 @@
     {
         "id": 549,
         "name": "Water Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4601,7 +4610,7 @@
     {
         "id": 550,
         "name": "Electric Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4610,7 +4619,7 @@
     {
         "id": 551,
         "name": "Grass Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4619,7 +4628,7 @@
     {
         "id": 552,
         "name": "Ice Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4628,7 +4637,7 @@
     {
         "id": 553,
         "name": "Fighting Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4637,7 +4646,7 @@
     {
         "id": 554,
         "name": "Poison Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4646,7 +4655,7 @@
     {
         "id": 555,
         "name": "Ground Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4655,7 +4664,7 @@
     {
         "id": 556,
         "name": "Flying Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4664,16 +4673,25 @@
     {
         "id": 557,
         "name": "Psychic Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
         "description": "Increases the power of a Psychic-type move only once."
     },
     {
+        "id": 558,
+        "name": "Bug Gem",
+        "gen": 5,
+        "priceP": 0,
+        "priceBP": 0,
+        "type": "Hold items",
+        "description": "Increases the power of a Bug-type move only once."
+    },
+    {
         "id": 559,
         "name": "Rock Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4682,7 +4700,7 @@
     {
         "id": 560,
         "name": "Ghost Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4691,7 +4709,7 @@
     {
         "id": 561,
         "name": "Dragon Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4700,7 +4718,7 @@
     {
         "id": 562,
         "name": "Dark Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4709,7 +4727,7 @@
     {
         "id": 563,
         "name": "Steel Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4718,7 +4736,7 @@
     {
         "id": 564,
         "name": "Normal Gem",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4727,7 +4745,7 @@
     {
         "id": 572,
         "name": "Cover Fossil",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4736,7 +4754,7 @@
     {
         "id": 573,
         "name": "Plume Fossil",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4745,7 +4763,7 @@
     {
         "id": 574,
         "name": "Liberty Pass",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -4754,7 +4772,7 @@
     {
         "id": 575,
         "name": "Pass Orb",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -4763,7 +4781,7 @@
     {
         "id": 576,
         "name": "Dream Ball",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Pokeballs",
@@ -4772,7 +4790,7 @@
     {
         "id": 577,
         "name": "Poké Toy",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4781,7 +4799,7 @@
     {
         "id": 578,
         "name": "Prop Case",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -4790,7 +4808,7 @@
     {
         "id": 579,
         "name": "Dragon Skull",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -4799,7 +4817,7 @@
     {
         "id": 580,
         "name": "Balm Mushroom",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4808,7 +4826,7 @@
     {
         "id": 581,
         "name": "Big Nugget",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4817,7 +4835,7 @@
     {
         "id": 582,
         "name": "Pearl String",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4826,7 +4844,7 @@
     {
         "id": 583,
         "name": "Comet Shard",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4835,7 +4853,7 @@
     {
         "id": 584,
         "name": "Relic Copper",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4844,7 +4862,7 @@
     {
         "id": 585,
         "name": "Relic Silver",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4853,7 +4871,7 @@
     {
         "id": 586,
         "name": "Relic Gold",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4862,7 +4880,7 @@
     {
         "id": 587,
         "name": "Relic Vase",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4871,7 +4889,7 @@
     {
         "id": 588,
         "name": "Relic Band",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4880,7 +4898,7 @@
     {
         "id": 589,
         "name": "Relic Statue",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4889,7 +4907,7 @@
     {
         "id": 590,
         "name": "Relic Crown",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -4898,7 +4916,7 @@
     {
         "id": 591,
         "name": "Casteliacone",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Medicine",
@@ -4907,7 +4925,7 @@
     {
         "id": 592,
         "name": "Dire Hit 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4916,7 +4934,7 @@
     {
         "id": 593,
         "name": "X Speed 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4925,7 +4943,7 @@
     {
         "id": 594,
         "name": "X Sp. Atk 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4934,7 +4952,7 @@
     {
         "id": 595,
         "name": "X Sp. Def 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4943,7 +4961,7 @@
     {
         "id": 596,
         "name": "X Defense 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4952,7 +4970,7 @@
     {
         "id": 597,
         "name": "X Attack 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4961,7 +4979,7 @@
     {
         "id": 598,
         "name": "X Accuracy 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4970,7 +4988,7 @@
     {
         "id": 599,
         "name": "X Speed 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4979,7 +4997,7 @@
     {
         "id": 600,
         "name": "X Sp. Atk 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4988,7 +5006,7 @@
     {
         "id": 601,
         "name": "X Sp. Def 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -4997,7 +5015,7 @@
     {
         "id": 602,
         "name": "X Defense 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5006,7 +5024,7 @@
     {
         "id": 603,
         "name": "X Attack 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5015,7 +5033,7 @@
     {
         "id": 604,
         "name": "X Accuracy 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5024,7 +5042,7 @@
     {
         "id": 605,
         "name": "X Speed 6",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5033,7 +5051,7 @@
     {
         "id": 607,
         "name": "X Sp. Def 6",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5042,7 +5060,7 @@
     {
         "id": 608,
         "name": "X Defense 6",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5051,7 +5069,7 @@
     {
         "id": 609,
         "name": "X Attack 6",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5060,7 +5078,7 @@
     {
         "id": 610,
         "name": "X Accuracy 6",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5069,7 +5087,7 @@
     {
         "id": 611,
         "name": "Ability Urge",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5078,7 +5096,7 @@
     {
         "id": 612,
         "name": "Item Drop",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5087,7 +5105,7 @@
     {
         "id": 613,
         "name": "Item Urge",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5096,7 +5114,7 @@
     {
         "id": 614,
         "name": "Reset Urge",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5105,7 +5123,7 @@
     {
         "id": 615,
         "name": "Dire Hit 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Battle items",
@@ -5114,7 +5132,7 @@
     {
         "id": 616,
         "name": "Light Stone",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -5123,7 +5141,7 @@
     {
         "id": 617,
         "name": "Dark Stone",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -5132,7 +5150,7 @@
     {
         "id": 618,
         "name": "TM93",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Machines",
@@ -5141,7 +5159,7 @@
     {
         "id": 619,
         "name": "TM94",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Machines",
@@ -5150,7 +5168,7 @@
     {
         "id": 620,
         "name": "TM95",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Machines",
@@ -5159,7 +5177,7 @@
     {
         "id": 623,
         "name": "Gram 1",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -5168,7 +5186,7 @@
     {
         "id": 624,
         "name": "Gram 2",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -5177,7 +5195,7 @@
     {
         "id": 625,
         "name": "Gram 3",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -5186,7 +5204,7 @@
     {
         "id": 626,
         "name": "Xtransceiver",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -5195,7 +5213,7 @@
     {
         "id": 627,
         "name": "Medal Box",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Key Items",
@@ -5204,7 +5222,7 @@
     {
         "id": 629,
         "name": "DNA Splicers",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -5213,7 +5231,7 @@
     {
         "id": 630,
         "name": "Permit",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -5222,7 +5240,7 @@
     {
         "id": 631,
         "name": "Oval Charm",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -5231,7 +5249,7 @@
     {
         "id": 632,
         "name": "Shiny Charm",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
@@ -5240,7 +5258,7 @@
     {
         "id": 633,
         "name": "Plasma Card",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -5249,7 +5267,7 @@
     {
         "id": 634,
         "name": "Grubby Hanky",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -5258,7 +5276,7 @@
     {
         "id": 635,
         "name": "Colress Machine",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -5267,7 +5285,7 @@
     {
         "id": 637,
         "name": "Dropped Item",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "Hold items",
@@ -5276,7 +5294,7 @@
     {
         "id": 638,
         "name": "Reveal Glass",
-        "gen": 1,
+        "gen": 5,
         "priceP": 0,
         "priceBP": 0,
         "type": "General items",
