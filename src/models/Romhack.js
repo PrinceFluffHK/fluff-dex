@@ -38,7 +38,8 @@ class Romhack {
         tutorMoves,
         trainerClasses,
         trainers,
-        shops
+        shops,
+        
     ) {
         this.id = id;
         this.name = name;

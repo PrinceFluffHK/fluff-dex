@@ -1,0 +1,105 @@
+[
+    {
+        "name": "",
+        "id": 273,
+        "pp": 5
+    },
+    {
+        "name": "",
+        "id": 51,
+        "effects": "Always lowers opponent's Special Defense"
+    },
+    {
+        "name": "",
+        "id": 332,
+        "bp": 75
+    },
+    {
+        "name": "",
+        "id": 246,
+        "pp": 10
+    },
+    {
+        "name": "",
+        "id": 401,
+        "bp": 65,
+        "acc": 100,
+        "pp": 25
+    },
+    {
+        "name": "",
+        "id": 292,
+        "effects": "Hits exactly 4 times in a row."
+    },
+    {
+        "name": "",
+        "id": 825,
+        "bp": 100
+    },
+    {
+        "name": "",
+        "id": 454,
+        "targetId": 5
+    },
+    {
+        "name": "",
+        "id": 198,
+        "acc": 100,
+        "effects": "Hits exactly 3 times in a row, each with a 10% chance for Speed -1."
+    },
+    {
+        "name": "Brine",
+        "id": 362,
+        "targetId": 5,
+    },
+    {
+        "name": "Bubble Beam",
+        "id": 61,
+        "targetId": 5
+    },
+    {
+        "name": "",
+        "id": 0,
+        "bp": 0,
+        "acc": 100,
+        "pp": 10,
+        "targetId": 0,
+        "effects": ""
+    },
+    {
+        "name": "",
+        "id": 0,
+        "bp": 0,
+        "acc": 100,
+        "pp": 10,
+        "targetId": 0,
+        "effects": ""
+    },
+    {
+        "name": "",
+        "id": 0,
+        "bp": 0,
+        "acc": 100,
+        "pp": 10,
+        "targetId": 0,
+        "effects": ""
+    },
+    {
+        "name": "",
+        "id": 0,
+        "bp": 0,
+        "acc": 100,
+        "pp": 10,
+        "targetId": 0,
+        "effects": ""
+    },
+    {
+        "name": "",
+        "id": 0,
+        "bp": 0,
+        "acc": 100,
+        "pp": 10,
+        "targetId": 0,
+        "effects": ""
+    },
+]

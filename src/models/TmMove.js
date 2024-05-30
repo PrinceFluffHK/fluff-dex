@@ -20,14 +20,14 @@ class TmMove {
         })
     }
 
-    static printJson(tmObjArray, movesArray) {
-        tmObjArray.forEach(element => {
-            const move = movesArray.find(move => { return move.name === element.name})
-            if (move) {
-                console.log(`{ "id": ${element.id}, "tmItemId": ${element.tmItemId}, "moveId": ${move.id}, "hm": ${element.hm}}`)
-            }
-        });
-    }
+    // static printJson(tmObjArray, movesArray) {
+    //     tmObjArray.forEach(element => {
+    //         const move = movesArray.find(move => { return move.name === element.name})
+    //         if (move) {
+    //             console.log(`{ "id": ${element.id}, "tmItemId": ${element.tmItemId}, "moveId": ${move.id}, "hm": ${element.hm}}`)
+    //         }
+    //     });
+    // }
 }
 
 export default TmMove

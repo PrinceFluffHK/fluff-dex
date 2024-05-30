@@ -1,7 +1,7 @@
 import Help from "./Help.js";
 
 class Move {
-    constructor(id, name, type, category, bp, acc, pp, target, gen, effects) {
+    constructor(id, name, type, category, bp, acc, pp, target, gen, effects, maxBp) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -12,6 +12,7 @@ class Move {
         this.target = target;
         this.gen = gen;
         this.effects = effects;
+        this.maxBp = maxBp
     }
 
     static makeEdits(move, changes) {
@@ -26,7 +27,8 @@ class Move {
             newMove.pp,
             newMove.target,
             newMove.gen,
-            newMove.description
+            newMove.description,
+            newMove.maxBp
         );
     }
 
@@ -45,7 +47,8 @@ class Move {
                 moveObj.pp,
                 target,
                 moveObj.gen,
-                moveObj.description
+                moveObj.description,
+                moveObj.maxBp
             );
     }
 
