@@ -36,7 +36,6 @@ class Pokedex {
 
 
     static getBaseForm(mon, speciesData) {
-        console.log(mon)
         if (mon.evoFromId === 0) {
             return mon;
         }
