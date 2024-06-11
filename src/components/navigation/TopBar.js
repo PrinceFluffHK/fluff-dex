@@ -21,8 +21,8 @@ const TopBar = ({ toggleArray }) => {
             link: `/${id}/moves`,
         },
         {
-            name: "PokeMarts",
-            link: `/${id}/shops`,
+            name: "Marts",
+            link: `/${id}/marts`,
         },
         {
             name: "Encounters",

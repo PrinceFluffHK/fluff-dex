@@ -12,7 +12,10 @@ const EncounterList = (props) => {
     console.log(selectedRomhack);
 
     const encounterList = selectedRomhack.locations.map((location, index) => {
-        if (index > 0) {
+        if (index === 0) {
+            return;
+        }
+        if (location.encounters.length > 0 || location.subLocations.length > 0) {
             return (
                 <EncounterSheet location={location} index={index} key={index} />
             );

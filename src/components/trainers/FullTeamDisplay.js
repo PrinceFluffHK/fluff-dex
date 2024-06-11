@@ -90,7 +90,7 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
                     <div className="width-100 center">
                         <Link
                             className="team-member-sprite-container"
-                            to={`/${id}/pokedex/${mon.pokemon.id}/0`}
+                            to={`/${id}/pokemon/${mon.pokemon.id}/0`}
                         >
                             <img
                                 src={mon.pokemon.spriteUrl}
