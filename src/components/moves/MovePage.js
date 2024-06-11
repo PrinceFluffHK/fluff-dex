@@ -36,8 +36,8 @@ const MovePage = (props) => {
             </div>
         );
     };
-    const effect = move.effects;
-    const noEffect = effect === "" ? "None" : move.effect;
+    // const effect = move.effects;
+    const effect = effect === "" ? "None" : move.effects;
 
     return (
         <div className="">

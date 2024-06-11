@@ -1,0 +1,19 @@
+@import "./variables";
+
+.encounter-sheet-container {
+    width: 95%;
+    border: 3px solid black;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: lightgray;
+    padding-bottom: 1rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.encounter-list-container{
+    width: 90%;
+    margin-top: 1rem;
+    padding: 0 1rem 0 1rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+}

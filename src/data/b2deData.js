@@ -11,6 +11,8 @@ import itemEdits from "./B2DE/itemEdits.json";
 import trainerClassData from "./B2DE/trainerClasses.json";
 import trainerData from "./B2DE/trainers.json"
 import shopData from "./B2DE/shops.json"
+import locationData from "./B2DE/locations.json"
+
 
 import b2deCover from "../assets/banners/B2DE_Cover_A.png"
 
@@ -30,6 +32,7 @@ const b2de = Romhack.make(
     trainerData,
     b2deCover,
     shopData,
+    locationData
 );
 
 export default b2de;
