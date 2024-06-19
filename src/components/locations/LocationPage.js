@@ -4,9 +4,9 @@ import EncounterSheet from "./EncounterSheet";
 import EncounterTable from "./EncounterTable";
 
 const LocationPage = ({ location, id }) => {
-    let trainersClass = "invis"
+    let trainersClass = "invis";
     const trainerList = location.trainers.map((battle, index) => {
-        trainersClass = ""
+        trainersClass = "";
         let color = "white";
         if (index % 2) {
             color = "lightcyan";
@@ -18,12 +18,21 @@ const LocationPage = ({ location, id }) => {
         return battle.listDisplay(index, id, color, final);
     });
 
-    let encountersClass = ""
-    const encounterList = location.encounters.map((encTable, index) => {
-        return (
-            <EncounterTable encTable={encTable}/>
-        )
-    })
+    let encountersClass = "invis";
+    const encounterList = location.encounters.map((encTable) => {
+        encountersClass = "";
+        return <EncounterTable encTable={encTable} />;
+    });
+
+    let collectiblesClass = "invis";
+    const collectibleList = location.collectibles.map((collectible, index) => {
+        let final = false;
+        if (index === location.collectibles.length - 1) {
+            final = true;
+        }
+        collectiblesClass = "";
+        return collectible.locationDisplay(index, final);
+    });
 
     return (
         <div className="encounter-sheet-container">
@@ -37,14 +46,20 @@ const LocationPage = ({ location, id }) => {
                 </Grid>
                 <Grid className={encountersClass} item xs={12} md={6}>
                     <h2>Encounters</h2>
-                    <Grid container rowSpacing={3} style={{paddingBottom: "1rem"}}>
+
+                    <Grid
+                        container
+                        rowSpacing={3}
+                        style={{ paddingBottom: "1rem" }}
+                    >
                         {encounterList}
                     </Grid>
-                    <Grid container></Grid>
                 </Grid>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={12} md={6} className={collectiblesClass}>
                     <h2>Collectibles</h2>
-                    <Grid container></Grid>
+                    <div className="location-content-container">
+                        {collectibleList}
+                    </div>
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <h2>Special Marts</h2>

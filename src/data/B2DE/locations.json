@@ -77,8 +77,8 @@
                 "itemId": 380,
                 "quantity": 1,
                 "type": "Field",
-                "description": "Beyond the water near the player's house (requires Surf)",
-                "requirements": ""
+                "description": "Beyond the water near the player's house",
+                "requirements": "Surf"
             },
             {
                 "itemId": 202,

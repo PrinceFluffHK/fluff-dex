@@ -1,7 +1,20 @@
 import Help from "./Help.js";
 
 class Move {
-    constructor(id, name, type, category, bp, acc, pp, target, gen, effects, maxBp) {
+    constructor(
+        id,
+        name,
+        type,
+        category,
+        bp,
+        acc,
+        pp,
+        target,
+        gen,
+        effects,
+        priority,
+        // maxBp
+    ) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -12,7 +25,8 @@ class Move {
         this.target = target;
         this.gen = gen;
         this.effects = effects;
-        this.maxBp = maxBp
+        this.priority = priority;
+        // this.maxBp = maxBp;
     }
 
     static makeEdits(move, changes) {
@@ -28,33 +42,35 @@ class Move {
             newMove.target,
             newMove.gen,
             newMove.description,
-            newMove.maxBp
+            newMove.priority
+            // newMove.maxBp
         );
     }
 
     static makeSingle(moveObj, types, targets, categories) {
-            const type = Help.findInArray(moveObj.typeId, types);
-            const target = Help.findInArray(moveObj.targetId, targets);
-            const category = Help.findInArray(moveObj.categoryId, categories);
+        const type = Help.findInArray(moveObj.typeId, types);
+        const target = Help.findInArray(moveObj.targetId, targets);
+        const category = Help.findInArray(moveObj.categoryId, categories);
 
-            return new Move(
-                moveObj.id,
-                moveObj.name,
-                type,
-                category,
-                moveObj.bp,
-                moveObj.acc,
-                moveObj.pp,
-                target,
-                moveObj.gen,
-                moveObj.description,
-                moveObj.maxBp
-            );
+        return new Move(
+            moveObj.id,
+            moveObj.name,
+            type,
+            category,
+            moveObj.bp,
+            moveObj.acc,
+            moveObj.pp,
+            target,
+            moveObj.gen,
+            moveObj.description,
+            // moveObj.maxBp,
+            moveObj.priority
+        );
     }
 
     static makeArray(moveObjArray, types, targets, categories) {
         return moveObjArray.map((moveObj) => {
-            return Move.makeSingle(moveObj, types, targets, categories)
+            return Move.makeSingle(moveObj, types, targets, categories);
         });
     }
 }

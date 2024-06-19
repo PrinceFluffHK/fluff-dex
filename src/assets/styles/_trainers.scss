@@ -64,18 +64,19 @@
 }
 
 .team-move {
-    text-align: center;
     color: black;
     width: 90%;
     border-radius: 10px;
     border: 2px solid black;
     text-decoration: none;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem 5px 1rem;
 }
 
 .team-moves-container {
     display: flex;
-    // justify-content: space-between;
     align-items: center;
     flex-direction: column;
     height: 6.2rem;

@@ -17,14 +17,27 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
         }
 
         const moveList = mon.moves.map((move, index) => {
+            let sign = move.priority > 0 ? "+" : "";
+            let bp = move.bp > 0 ? move.bp : "-";
             return (
                 <Link
-                    className="team-move"
+                    className="team-move "
                     to={`/${id}/moves/${move.id}`}
                     key={index}
                     style={{ backgroundColor: move.type.lightColor() }}
                 >
-                    <b>{move.name}</b>
+                    <Grid container>
+                        <Grid item xs className="center">
+                            {/* {move.acc} */}
+                            {`${sign}${move.priority}`}
+                        </Grid>
+                        <Grid item xs={9} className="center">
+                            <b>{move.name}</b>
+                        </Grid>
+                        <Grid item xs className="center">
+                            {bp}
+                        </Grid>
+                    </Grid>
                 </Link>
             );
         });
