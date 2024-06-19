@@ -25,7 +25,7 @@ const EncounterSheet = ({ location, index }) => {
         <div className="center" key={index}>
             <div className="encounter-sheet-container">
                 <h2>{location.name}</h2>
-                <Grid container>{encTables}</Grid>
+                <Grid container rowSpacing={3}>{encTables}</Grid>
                 {subLocations}
             </div>
         </div>

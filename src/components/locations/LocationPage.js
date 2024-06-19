@@ -37,9 +37,9 @@ const LocationPage = ({ location, id }) => {
                 </Grid>
                 <Grid className={encountersClass} item xs={12} md={6}>
                     <h2>Encounters</h2>
-                    <div className="" style={{paddingBottom: "1rem"}}>
+                    <Grid container rowSpacing={3} style={{paddingBottom: "1rem"}}>
                         {encounterList}
-                    </div>
+                    </Grid>
                     <Grid container></Grid>
                 </Grid>
                 <Grid item xs={12} md={6}>

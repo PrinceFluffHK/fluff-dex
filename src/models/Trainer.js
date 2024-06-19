@@ -80,7 +80,7 @@ class Trainer {
                 <Grid
                     item
                     xs={6}
-                    sm={3}
+                    sm={4}
                     className="center"
                     style={{ flexDirection: "column" }}
                 >
@@ -89,7 +89,12 @@ class Trainer {
                         key={index}
                         className="suppress-link"
                     >
-                        <div style={{ paddingTop: "5px" }}>{mon.name}</div>
+                        <div
+                            style={{ paddingTop: "5px" }}
+                            className="text-center"
+                        >
+                            {mon.name}
+                        </div>
                         <img
                             src={mon.spriteUrl}
                             className="location-mon-sprite"
@@ -103,8 +108,10 @@ class Trainer {
         let className = "list-divider";
         if (index === 0) {
             className += " round-top";
-        }
-        if (final) {
+            if (final) {
+                className += "-bottom";
+            }
+        } else if (final) {
             className += " round-bottom";
         }
 
@@ -114,7 +121,7 @@ class Trainer {
                 style={{ backgroundColor: color }}
                 key={index}
             >
-                <Grid container>
+                <Grid container >
                     <Grid item xs={3} className="center">
                         <Link to={`/${hackId}/trainers/${this.id}`}>
                             <img src={this.trainerClass.sprite} />
@@ -131,7 +138,7 @@ class Trainer {
                         </Link>
                     </Grid>
                     <Grid item xs={7}>
-                        <Grid container>
+                        <Grid container columnSpacing={2}>
                             {teamView}
                         </Grid>
                     </Grid>

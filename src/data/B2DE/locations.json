@@ -642,7 +642,12 @@
     },
     {
         "name": "Virbank City",
-        "trainers": [42],
+        "trainers": [
+            {
+                "battleType": 2,
+                "opponent": 42
+            }
+        ],
         "encounters": [
             {
                 "type": "Grass",
