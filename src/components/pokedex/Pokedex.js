@@ -1,16 +1,15 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import b2de from "../../data/b2deData";
 import { Grid, Tooltip } from "@mui/material";
 import TopBar from "../navigation/TopBar";
 import PokedexTopBar from "./PokedexTopBar";
+import { romhackList } from "../Homepage";
+import Help from "../../models/Help";
 
 const Pokedex = (props) => {
     let { id, dexType } = useParams();
     id = parseInt(id)
-
-    const romhackList = [b2de];
-    const selectedRomhack = romhackList[id - 1];
+    const selectedRomhack = Help.findInArray(id, romhackList)
     console.log(selectedRomhack)
 
     const dexList =

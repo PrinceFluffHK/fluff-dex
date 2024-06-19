@@ -72,6 +72,18 @@ ${evText}
 ${this.nature.name} Nature
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe ${moveText}`
     }
+
+    getStat(statIndex) {
+        return this.pokemon.getStat(statIndex, this.evs[statIndex], this.ivs[statIndex], this.nature, this.level)
+    }
+
+    getStats() {
+        const stats = []
+        for (let i = 0 ; i < 6 ; i++ ) {
+            stats.push(this.getStat(i))
+        }
+        return stats
+    }
 }
 
 export default TrainerMon;

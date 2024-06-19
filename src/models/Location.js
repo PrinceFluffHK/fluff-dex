@@ -1,7 +1,7 @@
+import Battle from "./Battle";
 import Collectible from "./Collectible";
 import Encounter from "./Encounter";
 import Help from "./Help";
-import Shop from "./Shop";
 
 class Location {
     constructor(
@@ -11,11 +11,12 @@ class Location {
         encounters,
         collectibles,
         shops,
-        subLocations
+        subLocations,
     ) {
         this.id = id;
         this.name = name;
         this.trainers = trainers;
+        this.partners = 
         this.encounters = encounters;
         this.collectibles = collectibles;
         this.shops = shops;
@@ -24,10 +25,21 @@ class Location {
 
     static makeSingle(locationObj, trainers, species, items, shops) {
         const locTrainers = locationObj.trainers
-            ? locationObj.trainers.map((trainerId) => {
-                  return Help.findInArray(trainerId, trainers);
-              })
+            ? locationObj.trainers.map((battleObj) => {
+                if (typeof battleObj.opponent === "array") {
+                    const newOpponents = battleObj.opponent.map((trainerId) => {
+                        return Help.findInArray(trainerId, trainers)
+                    })
+                    return new Battle(battleObj.battleType, newOpponents, battleObj.partner, battleObj.notes)
+                }
+                const newOpponent = Help.findInArray(battleObj.opponent, trainers)
+                return new Battle(battleObj.battleType, newOpponent, battleObj.partner, battleObj.notes)
+            })
             : [];
+        console.log(locationObj.name, locTrainers);
+
+
+
         const locEncounters = locationObj.encounters
             ? Encounter.makeSheet(locationObj.encounters, species)
             : [];
@@ -59,7 +71,8 @@ class Location {
             locEncounters,
             locCollectibles,
             locShops,
-            locSubLocations
+            locSubLocations,
+
         );
     }
 
@@ -68,7 +81,6 @@ class Location {
             return Location.makeSingle(locObj, trainers, species, items, shops);
         });
     }
-
 }
 
 export default Location;

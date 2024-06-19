@@ -29,7 +29,6 @@ class Encounter {
         })
     }
 
-
     static getColor(tableType) {
         switch(tableType) {
             case "Grass":

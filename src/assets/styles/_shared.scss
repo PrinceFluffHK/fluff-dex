@@ -188,3 +188,16 @@
 .drop-shadow {
     filter: drop-shadow(black 1rem 1rem 1rem);
 }
+
+.list-divider{
+    border-top: 2px gray solid;
+}
+
+.round-top{
+    border-radius: 1rem 1rem 0 0;
+    border: none;
+}
+.round-bottom{
+    // border: none;
+    border-radius: 0 0 1rem 1rem;
+}

@@ -80,7 +80,14 @@ class Pokemon {
         );
     }
 
-    static makeSingle(species, typesArray, abilitiesArray, movesArray, tutorsArray, itemsArray) {
+    static makeSingle(
+        species,
+        typesArray,
+        abilitiesArray,
+        movesArray,
+        tutorsArray,
+        itemsArray
+    ) {
         const type1 = Help.findInArray(species.type1, typesArray);
         const type2 = Help.findInArray(species.type2, typesArray);
         const ability1 = Help.findInArray(species.ability1, abilitiesArray);
@@ -95,7 +102,7 @@ class Pokemon {
             movesArray,
             tutorsArray
         );
-        const tmLearn = TmMove.makeArray([], itemsArray, movesArray)
+        const tmLearn = TmMove.makeArray([], itemsArray, movesArray);
         return new Pokemon(
             species.id,
             species.name,
@@ -116,14 +123,63 @@ class Pokemon {
             species.evoFromId,
             levelLearn,
             tmLearn,
-            tutorLearn,
+            tutorLearn
         );
     }
 
-    static makeArray(speciesObjArray, typesArray, abilitiesArray, movesArray, tutorsArray, itemsArray) {
+    static makeArray(
+        speciesObjArray,
+        typesArray,
+        abilitiesArray,
+        movesArray,
+        tutorsArray,
+        itemsArray
+    ) {
         return speciesObjArray.map((mon) => {
-            return Pokemon.makeSingle(mon, typesArray, abilitiesArray, movesArray, tutorsArray, itemsArray)
+            return Pokemon.makeSingle(
+                mon,
+                typesArray,
+                abilitiesArray,
+                movesArray,
+                tutorsArray,
+                itemsArray
+            );
         });
+    }
+
+    getStat(statIndex, evs, ivs, nature, level) {
+        const stats = [
+            { statVal: this.hp, statName: "HP" },
+            { statVal: this.atk, statName: "Atk" },
+            { statVal: this.def, statName: "Def" },
+            { statVal: this.spa, statName: "SpA" },
+            { statVal: this.spd, statName: "SpD" },
+            { statVal: this.spe, statName: "SpE" },
+        ];
+        const baseStat = stats[statIndex];
+        let natureMod = 0;
+        if (baseStat.statName === nature.minusStat) {
+            natureMod = 0.9;
+        }
+        if (baseStat.statName === nature.plusStat) {
+            natureMod = 1.1;
+        }
+        let statVal =
+            (((2 * baseStat.statVal + ivs + Math.floor(evs / 4)) * level) / 100 +
+                5) *
+            natureMod;
+        if (statIndex === 0) {
+            statVal =
+                ((2 * baseStat.statVal + ivs + Math.floor(evs / 4)) * level) /
+                    100 +
+                level +
+                10;
+        }
+
+        return {
+            statName: baseStat.statName,
+            statVal,
+        };
     }
 }
 

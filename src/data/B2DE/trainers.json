@@ -12568,5 +12568,40 @@
                 "moves": [67, 317, 116]
             }
         ]
+    },
+    {
+        "id": 429,
+        "name": "Marie",
+        "trainerClass": 55,
+        "team": [
+            {
+                "pokemonId": 607,
+                "level": 30,
+                "abilityId": 49,
+                "natureId": 12,
+                "moves": [506, 481, 123]
+            },
+            {
+                "pokemonId": 568,
+                "level": 30,
+                "abilityId": 106,
+                "natureId": 17,
+                "moves": [442, 491, 139]
+            },
+            {
+                "pokemonId": 582,
+                "level": 30,
+                "abilityId": 115,
+                "natureId": 24,
+                "moves": [333, 429, 54]
+            },
+            {
+                "pokemonId": 599,
+                "level": 30,
+                "abilityId": 29,
+                "natureId": 8,
+                "moves": [544, 451, 268]
+            }
+        ]
     }
 ]

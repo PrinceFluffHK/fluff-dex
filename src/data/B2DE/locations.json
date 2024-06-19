@@ -10,9 +10,19 @@
         "name": "Aspertia City",
         "trainers": [
             {
-                "grass": 1,
-                "fire": 2,
-                "water": 3
+                "battleType": 1,
+                "opponent": 1,
+                "notes": "grass"
+            },
+            {
+                "battleType": 1,
+                "opponent": 2,
+                "notes": "fire"
+            },
+            {
+                "battleType": 1,
+                "opponent": 3,
+                "notes": "water"
             }
         ],
         "encounters": [
@@ -193,17 +203,43 @@
         "name": "Floccesy Town",
         "trainers": [
             {
-                "grass": 13,
-                "fire": 14,
-                "water": 15
+                "battleType": 2,
+                "opponent": 13,
+                "notes": "grass"
             },
             {
-                "grass": 16,
-                "fire": 17,
-                "water": 18
+                "battleType": 2,
+                "opponent": 14,
+                "notes": "fire"
             },
-            19,
-            20
+            {
+                "battleType": 2,
+                "opponent": 15,
+                "notes": "water"
+            },
+            {
+                "battleType": 2,
+                "opponent": 16,
+                "notes": "grass"
+            },
+            {
+                "battleType": 2,
+                "opponent": 17,
+                "notes": "fire"
+            },
+            {
+                "battleType": 2,
+                "opponent": 18,
+                "notes": "water"
+            },
+            {
+                "battleType": 2,
+                "opponent": 19
+            },
+            {
+                "battleType": 2,
+                "opponent": 20
+            }
         ],
         "encounters": [
             {
@@ -240,7 +276,60 @@
     },
     {
         "name": "Route 20",
-        "trainers": [4, 5, 6, 24, 25, 26, 27, 28, 29, 30, 31, 32, 43],
+        "trainers": [
+            {
+                "battleType": 2,
+                "opponent": 4
+            },
+            {
+                "battleType": 2,
+                "opponent": 5
+            },
+            {
+                "battleType": 2,
+                "opponent": 6
+            },
+            {
+                "battleType": 2,
+                "opponent": 24
+            },
+            {
+                "battleType": 2,
+                "opponent": 25
+            },
+            {
+                "battleType": 2,
+                "opponent": 26
+            },
+            {
+                "battleType": 2,
+                "opponent": 27
+            },
+            {
+                "battleType": 2,
+                "opponent": 28
+            },
+            {
+                "battleType": 2,
+                "opponent": 43
+            },
+            {
+                "battleType": 2,
+                "opponent": 29
+            },
+            {
+                "battleType": 2,
+                "opponent": 30
+            },
+            {
+                "battleType": 2,
+                "opponent": 31
+            },
+            {
+                "battleType": 2,
+                "opponent": 32
+            }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -438,13 +527,32 @@
         "name": "Floccesy Ranch",
         "trainers": [
             {
-                "grass": 7,
-                "fire": 8,
-                "water": 9
+                "battleType": 2,
+                "opponent": 7,
+                "notes": "grass"
             },
-            10,
-            11,
-            12
+            {
+                "battleType": 2,
+                "opponent": 8,
+                "notes": "fire"
+            },
+            {
+                "battleType": 2,
+                "opponent": 9,
+                "notes": "water"
+            },
+            {
+                "battleType": 2,
+                "opponent": 10
+            },
+            {
+                "battleType": 2,
+                "opponent": 11
+            },
+            {
+                "battleType": 2,
+                "opponent": 12
+            }
         ],
         "encounters": [
             {
@@ -681,7 +789,20 @@
         "subLocations": [
             {
                 "name": "Virbank Gym",
-                "trainers": [39, 40, 31],
+                "trainers": [
+                    {
+                        "battleType": 2,
+                        "opponent": 39
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 40
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 41
+                    }
+                ],
                 "collectibles": [
                     {
                         "itemId": 336,
@@ -696,7 +817,32 @@
     },
     {
         "name": "Virbank Complex",
-        "trainers": [33, 34, 35, 36, 37, 38],
+        "trainers": [
+            {
+                "battleType": 2,
+                "opponent": 33
+            },
+            {
+                "battleType": 2,
+                "opponent": 34
+            },
+            {
+                "battleType": 2,
+                "opponent": 35
+            },
+            {
+                "battleType": 2,
+                "opponent": 36
+            },
+            {
+                "battleType": 2,
+                "opponent": 37
+            },
+            {
+                "battleType": 2,
+                "opponent": 38
+            }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -886,7 +1032,28 @@
             },
             {
                 "name": "Battle Company",
-                "trainers": [44, 45, 46, 47, 48],
+                "trainers": [
+                    {
+                        "battleType": 2,
+                        "opponent": 44
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 45
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 46
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 47
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 48
+                    }
+                ],
                 "collectibles": [
                     {
                         "itemId": 216,
@@ -1003,7 +1170,20 @@
             },
             {
                 "name": "Back Alley",
-                "trainers": [51, 52, 53],
+                "trainers": [
+                    {
+                        "battleType": 2,
+                        "opponent": 51
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 52
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 53
+                    }
+                ],
                 "collectibles": [
                     {
                         "itemId": 48,
@@ -1023,7 +1203,28 @@
             },
             {
                 "name": "Castelia Gym",
-                "trainers": [68, 69, 70, 71, 72]
+                "trainers": [
+                    {
+                        "battleType": 2,
+                        "opponent": 68
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 69
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 70
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 71
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 72
+                    }
+                ]
             }
         ]
     },
@@ -1031,14 +1232,35 @@
         "name": "Castelia Sewers",
         "trainers": [
             {
-                "grass": 54,
-                "fire": 55,
-                "water": 56
+                "battleType": 2,
+                "opponent": 57
             },
-            57,
-            58,
-            428,
-            [59, 60]
+            {
+                "battleType": 2,
+                "opponent": 58
+            },
+            {
+                "battleType": 2,
+                "opponent": 428
+            },
+            {
+                "battleType": 2,
+                "opponent": [59, 60],
+                "partner": 54,
+                "notes": "grass"
+            },
+            {
+                "battleType": 2,
+                "opponent": [59, 60],
+                "partner": 55,
+                "notes": "fire"
+            },
+            {
+                "battleType": 2,
+                "opponent": [59, 60],
+                "partner": 56,
+                "notes": "water"
+            }
         ],
         "encounters": [
             {
@@ -1195,7 +1417,20 @@
         "subLocations": [
             {
                 "name": "Castelia Side",
-                "trainers": [54, 55, 56],
+                "trainers": [
+                    {
+                        "battleType": 2,
+                        "opponent": 54
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 55
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 56
+                    }
+                ],
                 "encounters": [
                     {
                         "type": "Cave",
@@ -1284,7 +1519,36 @@
             },
             {
                 "name": "Driftveil Side",
-                "trainers": [162, 163, 164, 165, 166, 167, 168],
+                "trainers": [
+                    {
+                        "battleType": 2,
+                        "opponent": 162
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 163
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 164
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 165
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 166
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 167
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 168
+                    }
+                ],
                 "encounters": [
                     {
                         "type": "Cave",
@@ -1589,7 +1853,20 @@
     },
     {
         "name": "Route 4",
-        "trainers": [73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84],
+        "trainers": [
+            { "battleType": 2, "opponent": 73 },
+            { "battleType": 2, "opponent": 74 },
+            { "battleType": 2, "opponent": 75 },
+            { "battleType": 2, "opponent": 76 },
+            { "battleType": 2, "opponent": 77 },
+            { "battleType": 2, "opponent": 78 },
+            { "battleType": 2, "opponent": 79 },
+            { "battleType": 2, "opponent": 80 },
+            { "battleType": 2, "opponent": 81 },
+            { "battleType": 2, "opponent": 82 },
+            { "battleType": 2, "opponent": 83 },
+            { "battleType": 2, "opponent": 84 }
+        ],
         "encounters": [
             {
                 "type": "Sand",
@@ -1780,7 +2057,17 @@
     },
     {
         "name": "Desert Resort",
-        "trainers": [85, 86, 87, 88, 89, 90, 91, 92, 93, 94],
+        "trainers": [
+            { "battleType": 2, "opponent": 85 },
+            { "battleType": 2, "opponent": 86 },
+            { "battleType": 2, "opponent": 87 },
+            { "battleType": 2, "opponent": 88 },
+            { "battleType": 2, "opponent": 89 },
+            { "battleType": 2, "opponent": 90 },
+            { "battleType": 2, "opponent": 91 },
+            { "battleType": 2, "opponent": 92 },
+            { "battleType": 2, "opponent": 93 }
+        ],
         "encounters": [
             {
                 "type": "Sand",
@@ -1941,7 +2228,11 @@
         "subLocations": [
             {
                 "name": "1F-B1F",
-                "trainers": [94, 95, 96],
+                "trainers": [
+                    { "battleType": 2, "opponent": 94 },
+                    { "battleType": 2, "opponent": 95 },
+                    { "battleType": 2, "opponent": 96 }
+                ],
                 "encounters": [
                     {
                         "type": "Sand",
@@ -2053,7 +2344,18 @@
     },
     {
         "name": "Nimbasa City",
-        "trainers": [],
+        "trainers": [
+            {
+                "battleType": 2,
+                "opponent": 135,
+                "notes": "After defeating Elesa"
+            },
+            {
+                "battleType": 2,
+                "opponent": 136,
+                "notes": "After defeating Elesa"
+            }
+        ],
         "encounters": [],
         "collectibles": [
             {
@@ -2115,8 +2417,56 @@
         ],
         "subLocations": [
             {
+                "name": "Rondez-View Ferris Wheel",
+                "trainers": [
+                    {
+                        "battleType": 2,
+                        "opponent": 121,
+                        "notes": "Male player character only."
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 122,
+                        "notes": "Male player character only."
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 123,
+                        "notes": "Male player character only."
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 124,
+                        "notes": "Male player character only."
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 125,
+                        "notes": "Female player character only."
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 126,
+                        "notes": "Female player character only."
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 127,
+                        "notes": "Female player character only."
+                    },
+                    {
+                        "battleType": 2,
+                        "opponent": 128,
+                        "notes": "Female player character only."
+                    }
+                ]
+            },
+            {
                 "name": "Nimbasa Gym (Old)",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": 129 },
+                    { "battleType": 2, "opponent": 130 }
+                ],
                 "collectibles": [
                     {
                         "itemId": 546,
@@ -2129,7 +2479,12 @@
             },
             {
                 "name": "Nimbasa Gym (New)",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": 131 },
+                    { "battleType": 2, "opponent": 132 },
+                    { "battleType": 2, "opponent": 133 },
+                    { "battleType": 2, "opponent": 134 }
+                ],
                 "collectibles": [
                     {
                         "itemId": 399,
@@ -2487,7 +2842,15 @@
     },
     {
         "name": "Route 5",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": 115 },
+            { "battleType": 2, "opponent": 116 },
+            { "battleType": 2, "opponent": 117 },
+            { "battleType": 2, "opponent": 118 },
+            { "battleType": 2, "opponent": 119 },
+            { "battleType": 2, "opponent": 120 },
+            { "battleType": 2, "opponent": 141 }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -2703,7 +3066,13 @@
     },
     {
         "name": "Route 15",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": 137 },
+            { "battleType": 2, "opponent": 138 },
+            { "battleType": 2, "opponent": 139 },
+            { "battleType": 2, "opponent": 429 },
+            { "battleType": 2, "opponent": 140 }
+        ],
         "encounters": [
             {
                 "type": "Grass",
