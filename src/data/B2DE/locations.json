@@ -105,7 +105,20 @@
         "subLocations": [
             {
                 "name": "Aspertia Gym",
-                "trainers": [21, 22, 23],
+                "trainers": [
+                    {
+                        "battleType": 1,
+                        "opponent": 21
+                    },
+                    {
+                        "battleType": 1,
+                        "opponent": 22
+                    },
+                    {
+                        "battleType": 1,
+                        "opponent": 23
+                    }
+                ],
                 "collectibles": [
                     {
                         "itemId": 410,
@@ -2350,6 +2363,24 @@
     {
         "name": "Nimbasa City",
         "trainers": [
+            {
+                "battleType": 2,
+                "opponent": [103, 104],
+                "partner": 100,
+                "notes": "After defeating Elesa"
+            },
+            {
+                "battleType": 2,
+                "opponent": [103, 104],
+                "partner": 101,
+                "notes": "After defeating Elesa"
+            },
+            {
+                "battleType": 2,
+                "opponent": [103, 104],
+                "partner": 102,
+                "notes": "After defeating Elesa"
+            },
             {
                 "battleType": 2,
                 "opponent": 135,

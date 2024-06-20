@@ -195,13 +195,14 @@
 
 .round-top{
     border-radius: 1rem 1rem 0 0;
-    border: none;
 }
 .round-bottom{
-    // border: none;
     border-radius: 0 0 1rem 1rem;
 }
 .round-top-bottom{
-    border: none;
     border-radius: 1rem;
+}
+
+.no-border{
+    border: none;
 }

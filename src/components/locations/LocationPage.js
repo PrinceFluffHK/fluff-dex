@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import EncounterSheet from "./EncounterSheet";
 import EncounterTable from "./EncounterTable";
 
 const LocationPage = ({ location, id }) => {

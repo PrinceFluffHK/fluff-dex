@@ -29,7 +29,7 @@ const ShopListItem = ({ shop }) => {
     };
 
     const contents = shop.contents.map((item, index) => {
-        const price = shop.bp ? item.priceBp : item.priceP
+        const price = shop.bp ? item.priceBp : item.priceP;
         return (
             <div className="center">
                 <div className="width-80 justify-between align-center">

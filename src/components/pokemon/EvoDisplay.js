@@ -7,7 +7,6 @@ import Pokedex from "../../models/Pokedex";
 import { Link } from "react-router-dom";
 
 const EvoDisplay = ({ selectedMon, selectedRomhack }) => {
-
     const makeLinks = (mon, speciesData, id) => {
         const nextLinks = mon.evoTo.map((link, index) => {
             const nextMon = Help.findInArray(link.nextMonId, speciesData);
@@ -29,13 +28,8 @@ const EvoDisplay = ({ selectedMon, selectedRomhack }) => {
 
         return (
             <div className="center" key={mon.id}>
-                <Link to={`/${selectedRomhack.id}/pokedex/${mon.id}/0`}>
-
-                <img
-                    src={mon.spriteUrl}
-                    alt={`Sprite of ${mon.name}`}
-                    // onClick={handleSelect}
-                />
+                <Link to={`/${selectedRomhack.id}/pokemon/${mon.id}/0`}>
+                    <img src={mon.spriteUrl} alt={`Sprite of ${mon.name}`} />
                 </Link>
                 <div
                     className="justify-around"

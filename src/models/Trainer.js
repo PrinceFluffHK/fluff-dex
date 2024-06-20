@@ -68,8 +68,8 @@ class Trainer {
         });
     }
 
-    locationView(color, index, hackId, final) {
-        const teamView = this.team.map((trainerMon, index) => {
+    teamView(hackId) {
+        return this.team.map((trainerMon, index) => {
             const selectedRomhack = Help.findInArray(hackId, romhackList);
             const mon = trainerMon.pokemon;
             const baseDexEntry = DexEntry.findFromForm(
@@ -83,6 +83,7 @@ class Trainer {
                     sm={4}
                     className="center"
                     style={{ flexDirection: "column" }}
+                    key={index}
                 >
                     <Link
                         to={`/${hackId}/pokemon/${baseDexEntry.id}/0`}
@@ -104,15 +105,23 @@ class Trainer {
                 </Grid>
             );
         });
+    }
+
+    locationStandard(color, index, hackId, final, teammate) {
+        const teamView = this.teamView(hackId)
 
         let className = "list-divider";
         if (index === 0) {
-            className += " round-top";
+            className += " no-border round-top";
             if (final) {
                 className += "-bottom";
             }
         } else if (final) {
             className += " round-bottom";
+        }
+        if (teammate && index === 1) {
+            className += " no-border";
+
         }
 
         return (
@@ -145,6 +154,25 @@ class Trainer {
                 </Grid>
             </div>
         );
+    }
+
+    locationPartner(color, index, hackId, final) {
+        const teamView = this.teamView(hackId)
+
+        let className = "list-divider";
+        if (index === 0) {
+            className += " round-top";
+            if (final) {
+                className += "-bottom";
+            }
+        } else if (final) {
+            className += " round-bottom";
+        }
+        return (
+        <div key={index}>
+
+        </div>
+    )
     }
 }
 

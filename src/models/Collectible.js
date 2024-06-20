@@ -32,7 +32,7 @@ class Collectible {
     locationDisplay(index, final) {
         let className = "list-divider"
         if (index === 0) {
-            className += " round-top";
+            className += " no-border round-top";
             if (final) {
                 className += "-bottom";
             }
