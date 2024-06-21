@@ -8,9 +8,9 @@ import Help from "../../models/Help";
 
 const Pokedex = (props) => {
     let { id, dexType } = useParams();
-    id = parseInt(id)
-    const selectedRomhack = Help.findInArray(id, romhackList)
-    console.log(selectedRomhack)
+    id = parseInt(id);
+    const selectedRomhack = Help.findInArray(id, romhackList);
+    console.log(selectedRomhack);
 
     const dexList =
         dexType === "regional"
@@ -64,6 +64,7 @@ const Pokedex = (props) => {
                         </div>
                     );
                 }
+                return <></>
             });
 
             let dexNum = index;
@@ -126,24 +127,23 @@ const Pokedex = (props) => {
                 </div>
             );
         }
+        return <></>
     });
 
     const topBarToggle = [
         {
             name: "Regional",
-            link: `/${id}/pokedex/regional`
+            link: `/${id}/pokedex/regional`,
         },
         {
             name: "National",
-            link: `/${id}/pokedex/national`
-        }
-    ]
+            link: `/${id}/pokedex/national`,
+        },
+    ];
 
     return (
         <div className="">
-            <TopBar 
-                toggleArray={topBarToggle}
-            />
+            <TopBar toggleArray={topBarToggle} />
             <div className="content-container">
                 <div className="body-container">
                     <PokedexTopBar dexType={dexType} />

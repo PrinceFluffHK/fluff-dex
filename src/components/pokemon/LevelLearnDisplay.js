@@ -5,12 +5,19 @@ import { Link, useParams } from "react-router-dom";
 const LevelLearnDisplay = ({ selectedMon, baseDexEntry }) => {
     const { id } = useParams();
 
-    const moveArray = selectedMon.levelLearn.length === 0 ? baseDexEntry.forms[0].levelLearn : selectedMon.levelLearn
+    const moveArray =
+        selectedMon.levelLearn.length === 0
+            ? baseDexEntry.forms[0].levelLearn
+            : selectedMon.levelLearn;
     const movesDisplay = moveArray.map((moveElement, index) => {
         const { move } = moveElement;
         return (
-            <Link to={`/${id}/moves/${move.id}`} className="suppress-link" key={index}>
-                <Grid container >
+            <Link
+                to={`/${id}/moves/${move.id}`}
+                className="suppress-link"
+                key={index}
+            >
+                <Grid container>
                     <Grid className="align-center" item xs={2}>
                         <b>{moveElement.level}</b>
                     </Grid>

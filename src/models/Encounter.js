@@ -44,9 +44,6 @@ class Encounter {
             case "Sand":
                 return "#fff2cc"
             case "Bridge Shadow":
-                return "#efefef"
-            case "Bridge Shadow":
-                return "#efefef"
             case "Cave":
                 return "#efefef"
             case "Dust Cloud":

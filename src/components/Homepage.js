@@ -1,7 +1,6 @@
 import React from "react";
 import b2de from "../data/b2deData";
 import { Grid } from "@mui/material";
-import backgroundPants from "../assets/GeneralBG.png"
 
 export const romhackList = [b2de];
 
@@ -11,7 +10,6 @@ const Homepage = () => {
     });
     return (
         <div className="width-100 center homepage-background">
-            
             <div className="width-80">
                 <Grid container spacing={0}>
                     {listDisplay}

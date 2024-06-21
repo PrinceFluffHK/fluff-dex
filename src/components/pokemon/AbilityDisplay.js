@@ -3,13 +3,12 @@ import React from "react";
 import TypeDisplay from "./TypeDisplay";
 
 const AbilityDisplay = ({ selectedMon }) => {
-
-    const newStyle = { 
+    const newStyle = {
         height: "60px",
         width: "150px",
         borderRadius: "10px",
-        fontSize: "30px"
-    }
+        fontSize: "30px",
+    };
 
     const type1Banner = selectedMon.type1.displayBanner(newStyle, {});
     const type2Banner =
@@ -40,7 +39,7 @@ const AbilityDisplay = ({ selectedMon }) => {
         });
 
         if (item.ability.id === 0) {
-            return;
+            return <></>
         }
         return (
             <Grid className="center" item xs key={ability.id}>
@@ -83,7 +82,14 @@ const AbilityDisplay = ({ selectedMon }) => {
 
     return (
         <Grid className="center top-1" item xs={12} md={6}>
-            <div style={{ width: "100%", flexDirection: "column", alignItems: "center" }} className="flex">
+            <div
+                style={{
+                    width: "100%",
+                    flexDirection: "column",
+                    alignItems: "center",
+                }}
+                className="flex"
+            >
                 <TypeDisplay
                     type1Banner={type1Banner}
                     type2Banner={type2Banner}

@@ -116,6 +116,8 @@ class Type {
                 return "#c2b8b6";
             case 18:
                 return "#fcd9fc";
+            default:
+                return "#000000"
         }
     }
 }

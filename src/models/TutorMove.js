@@ -17,7 +17,7 @@ class TutorMove {
 
     static makeArray(tutorMoveObjArray, movesArray, tutorsArray) {
         return tutorMoveObjArray.map((tutorMoveObj) => {
-            TutorMove.makeSingle(tutorMoveObj, movesArray, tutorsArray)
+            return TutorMove.makeSingle(tutorMoveObj, movesArray, tutorsArray)
         })
     }
 

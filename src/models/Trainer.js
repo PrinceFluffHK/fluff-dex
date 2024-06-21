@@ -4,7 +4,6 @@ import React from "react";
 import { Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import { romhackList } from "../components/Homepage";
-import Pokedex from "./Pokedex";
 import DexEntry from "./DexEntry";
 
 class Trainer {
@@ -129,12 +128,11 @@ class Trainer {
                 className={className}
                 style={{ backgroundColor: color }}
                 key={index}
-                // className="width-100"
             >
                 <Grid container >
                     <Grid item xs={3} className="center">
                         <Link to={`/${hackId}/trainers/${this.id}`}>
-                            <img src={this.trainerClass.sprite} />
+                            <img src={this.trainerClass.sprite} alt={`Sprite for the ${this.trainerClass.name} trainer class.`}/>
                         </Link>
                     </Grid>
                     <Grid item xs={2} className="align-center">
@@ -157,24 +155,25 @@ class Trainer {
         );
     }
 
-    locationPartner(color, index, hackId, final) {
-        const teamView = this.teamView(hackId)
+    // locationPartner(color, index, hackId, final) {
+    //     // const teamView = this.teamView(hackId)
 
-        let className = "list-divider";
-        if (index === 0) {
-            className += " round-top";
-            if (final) {
-                className += "-bottom";
-            }
-        } else if (final) {
-            className += " round-bottom";
-        }
-        return (
-        <div key={index}>
+    //     let className = "list-divider";
+    //     if (index === 0) {
 
-        </div>
-    )
-    }
+    //         className += " round-top";
+    //         if (final) {
+    //             className += "-bottom";
+    //         }
+    //     } else if (final) {
+    //         className += " round-bottom";
+    //     }
+    //     return (
+    //     <div key={index}>
+
+    //     </div>
+    // )
+    // }
 }
 
 export default Trainer;

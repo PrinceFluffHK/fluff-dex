@@ -6,7 +6,7 @@ const EncounterSheet = ({ location, index }) => {
     const encTables = location.encounters.map((encTable, index) => {
         return (
             <Grid item xs={12} md={6} key={index}>
-                <EncounterTable encTable={encTable}  />
+                <EncounterTable encTable={encTable} />
             </Grid>
         );
     });
@@ -20,12 +20,15 @@ const EncounterSheet = ({ location, index }) => {
                 />
             );
         }
+        return <></>
     });
     return (
         <div className="center" key={index}>
             <div className="encounter-sheet-container">
                 <h2>{location.name}</h2>
-                <Grid container rowSpacing={3}>{encTables}</Grid>
+                <Grid container rowSpacing={3}>
+                    {encTables}
+                </Grid>
                 {subLocations}
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@mui/material";
 import { useParams } from "react-router-dom";
 import b2de from "../data/b2deData";
-import TopBar from "./TopBar"
+import TopBar from "./TopBar";
 
 const NavPage = () => {
     const { id } = useParams();

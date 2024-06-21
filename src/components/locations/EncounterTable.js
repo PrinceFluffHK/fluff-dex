@@ -18,6 +18,7 @@ const EncounterTable = ({ encTable }) => {
                     <img
                         src={mon.pokemon.spriteUrl}
                         className="encounter-sprite"
+                        alt={`Sprite of ${mon.pokemon.name}`}
                     />
                 </Grid>
                 <Grid item xs className="align-center">
@@ -42,7 +43,6 @@ const EncounterTable = ({ encTable }) => {
                 style={{ backgroundColor: bgColor }}
             >
                 <h2>{encTable.type}</h2>
-                {/* <Grid item> */}
                 <Grid container>
                     <Grid item xs={2}>
                         <b></b>
@@ -58,7 +58,6 @@ const EncounterTable = ({ encTable }) => {
                     </Grid>
                 </Grid>
                 <div>{encounterList}</div>
-                {/* </Grid> */}
             </div>
         </Grid>
     );

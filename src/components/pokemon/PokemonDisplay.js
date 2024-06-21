@@ -19,7 +19,10 @@ const PokemonDisplay = ({ dexType }) => {
     formIndex = parseInt(formIndex);
 
     const selectedRomhack = Help.findInArray(id, romhackList);
-    const selectedEntry = Help.findInArray(entryId, selectedRomhack.nationalDex.dexArray)
+    const selectedEntry = Help.findInArray(
+        entryId,
+        selectedRomhack.nationalDex.dexArray
+    );
     const selectedMonId = selectedEntry.forms[formIndex].id;
     const selectedMon = Help.findInArray(
         selectedMonId,

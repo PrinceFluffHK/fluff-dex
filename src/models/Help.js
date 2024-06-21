@@ -1,5 +1,3 @@
-import { useParams } from 'react-router-dom';
-
 class Help {
     static findInArray(id, array, debugTrigger) {
         const foundObj = array.find((obj) => {
@@ -52,6 +50,8 @@ class Help {
                 return 905;
             case 9:
                 return 1025;
+            default:
+                return 0
         }
     }
 }

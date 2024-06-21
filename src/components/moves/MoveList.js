@@ -88,6 +88,7 @@ const MoveList = (props) => {
                 </div>
             );
         }
+        return <></>
     });
 
     return (
@@ -96,7 +97,7 @@ const MoveList = (props) => {
             <div className="content-container">
                 <div className="body-container">
                     <MoveListHeader />
-                    <div style={{ paddingTop: "3rem"}}>{moveList}</div>
+                    <div style={{ paddingTop: "3rem" }}>{moveList}</div>
                 </div>
             </div>
         </div>

@@ -13,13 +13,14 @@ const EncounterList = (props) => {
 
     const encounterList = selectedRomhack.locations.map((location, index) => {
         if (index === 0) {
-            return;
+            return <></>
         }
         if (location.encounters.length > 0 || location.subLocations.length > 0) {
             return (
                 <EncounterSheet location={location} index={index} key={index} />
             );
         }
+        return <></>
     });
 
     return (
