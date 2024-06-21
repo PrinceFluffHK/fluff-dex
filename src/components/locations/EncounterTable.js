@@ -4,10 +4,6 @@ import Encounter from "../../models/Encounter";
 
 const EncounterTable = ({ encTable }) => {
     const encounterList = encTable.pokemon.map((mon, index) => {
-        let bgColor = "white";
-        if (index % 2) {
-            bgColor = "lightcyan";
-        }
         const percent = mon.percent === 0 ? "N/A" : `${mon.percent}%`;
         const name =
             mon.pokemon.modifier === ""
@@ -15,13 +11,8 @@ const EncounterTable = ({ encTable }) => {
                 : `${mon.pokemon.name} (${mon.pokemon.modifier})`;
         const levelValue =
             mon.minLv === mon.maxLv ? mon.minLv : `${mon.minLv} - ${mon.maxLv}`;
-        // const baseDexEntry = DexEntry.findFromForm(
-        //     mon.id,
-        //     selectedRomhack.nationalDex.dexArray
-        // );
 
         return (
-            // <Link className="suppress-link" to={}>
             <Grid container key={index} className="list-divider">
                 <Grid item xs={2}>
                     <img
@@ -39,7 +30,6 @@ const EncounterTable = ({ encTable }) => {
                     {levelValue}
                 </Grid>
             </Grid>
-            // </Link>
         );
     });
 

@@ -41,6 +41,20 @@ class Encounter {
                 return "#c8daf9"
             case "Rippling Water":
                 return "#c8daf9"
+            case "Sand":
+                return "#fff2cc"
+            case "Bridge Shadow":
+                return "#efefef"
+            case "Bridge Shadow":
+                return "#efefef"
+            case "Cave":
+                return "#efefef"
+            case "Dust Cloud":
+                return "#d9d9d9"
+            case "Floor":
+                return "#efefef"
+            case "Puddle":
+                return "#cfe2f2"
             default: 
                 return "white"
         }
