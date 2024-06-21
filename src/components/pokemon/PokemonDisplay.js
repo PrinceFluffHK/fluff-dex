@@ -11,6 +11,7 @@ import { useParams } from "react-router-dom";
 import TopBar from "../navigation/TopBar";
 import LevelLearnDisplay from "./LevelLearnDisplay";
 import EvoDisplay from "./EvoDisplay";
+import TutorLearnDisplay from "./TutorLearnDisplay";
 
 const PokemonDisplay = ({ dexType }) => {
     let { id, entryId, formIndex } = useParams();
@@ -61,7 +62,18 @@ const PokemonDisplay = ({ dexType }) => {
                                 <LevelLearnDisplay
                                     baseDexEntry={baseDexEntry}
                                     selectedMon={selectedMon}
+                                    moveTypeId={0}
+                                    />
+                                <LevelLearnDisplay
+                                    baseDexEntry={baseDexEntry}
+                                    selectedMon={selectedMon}
+                                    moveTypeId={1}
                                 />
+                                {/* <LevelLearnDisplay
+                                    baseDexEntry={baseDexEntry}
+                                    selectedMon={selectedMon}
+                                    moveTypeId={2}
+                                /> */}
                             </Grid>
                         </Grid>
                     </Grid>

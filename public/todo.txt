@@ -6,6 +6,6 @@
 {X} Add graphics to home screen
 {} Make Logo for home screen?
 {} Add all B2DE trainers
-{}
+{} Add tutors page
 {}
 {}

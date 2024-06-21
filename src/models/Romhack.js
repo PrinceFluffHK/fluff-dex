@@ -109,7 +109,7 @@ class Romhack {
             types,
             abilities,
             moves,
-            tutors,
+            tutorMoves,
             items
         );
 

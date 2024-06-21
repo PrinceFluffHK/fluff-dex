@@ -97,9 +97,8 @@ class Pokemon {
             species.levelLearn,
             movesArray
         );
-        const tutorLearn = TutorMove.makeArray(
+        const tutorLearn = TutorMove.getTutorMoves(
             species.tutorLearn,
-            movesArray,
             tutorsArray
         );
         const tmLearn = TmMove.makeArray([], itemsArray, movesArray);

@@ -27,7 +27,7 @@ const AbilityDisplay = ({ selectedMon }) => {
         },
     ];
 
-    const abilities = abilityList.map((item) => {
+    const abilities = abilityList.map((item, index) => {
         const { ability } = item;
 
         const Description = React.forwardRef(function Description(props, ref) {
@@ -42,7 +42,7 @@ const AbilityDisplay = ({ selectedMon }) => {
             return <></>
         }
         return (
-            <Grid className="center" item xs key={ability.id}>
+            <Grid className="center" item xs key={index}>
                 <Tooltip title={ability.description} followCursor>
                     <Description />
                 </Tooltip>

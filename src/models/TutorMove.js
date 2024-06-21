@@ -26,6 +26,7 @@ class TutorMove {
             return Help.findInArray(moveId, tutorMoves)
         })
     }
+
 }
 
 export default TutorMove
