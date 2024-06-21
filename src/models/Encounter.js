@@ -36,7 +36,7 @@ class Encounter {
             case "Dark Grass":
                 return "#92c47c"
             case "Rustling Grass":
-                return "#92c47c"
+                return "#70a870"
             case "Fishing":
                 return "#c8daf9"
             case "Rippling Water":

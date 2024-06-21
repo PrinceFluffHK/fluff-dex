@@ -84,7 +84,6 @@ const LocationPage = ({ location, id, color }) => {
                     {martList}
                 </Grid>
                 <Grid item xs={12} className={subLocationClass}>
-                    <h2>SubLocations</h2>
                     <div className="center width-100">
                         <div className="width-100">{subLocationList}</div>
                     </div>

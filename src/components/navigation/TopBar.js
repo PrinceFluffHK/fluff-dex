@@ -9,6 +9,10 @@ const TopBar = ({ toggleArray }) => {
 
     const linkObjs = [
         {
+            name: "Locations",
+            link: `/${id}/locations`,
+        },
+        {
             name: "Pokedex",
             link: `/${id}/pokedex/regional`,
         },
@@ -27,10 +31,6 @@ const TopBar = ({ toggleArray }) => {
         {
             name: "Encounters",
             link: `/${id}/encounters`,
-        },
-        {
-            name: "Locations",
-            link: `/${id}/locations`,
         },
     ];
 
