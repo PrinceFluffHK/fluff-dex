@@ -16,3 +16,27 @@
 .collectible-padding {
     padding: 0 1rem 0 1rem;
 }
+
+
+.encounter-sheet-container {
+    width: 95%;
+    border: 3px solid black;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: lightgray;
+    padding: 0 0 1rem 0;
+    @media only screen and (max-width: $sm) {
+        width: 100%;
+        // border-left: 0;
+        // border-right: 0;
+        // border-radius: 0;
+    }
+}
+
+.encounter-list-container{
+    width: 90%;
+    // margin-top: 1rem;
+    padding: 0 1rem 0 1rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+}

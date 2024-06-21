@@ -129,6 +129,7 @@ class Trainer {
                 className={className}
                 style={{ backgroundColor: color }}
                 key={index}
+                // className="width-100"
             >
                 <Grid container >
                     <Grid item xs={3} className="center">

@@ -36,8 +36,6 @@ const MovePage = (props) => {
             </div>
         );
     };
-    // const effect = move.effects;
-    const effect = move.effects === "" ? "None" : move.effects;
 
     return (
         <div className="">
@@ -144,6 +142,22 @@ const MovePage = (props) => {
                                     </Grid>
                                     <Grid className="justify-right" item xs={3}>
                                         <h2>{move.pp}</h2>
+                                    </Grid>
+                                </Grid>
+                                <div className="move-stat-divider" />
+                                <Grid container>
+                                    <Grid item xs={3}>
+                                        <h2>Priority</h2>
+                                    </Grid>
+                                    <Grid
+                                        className="justify-center"
+                                        item
+                                        xs={6}
+                                    >
+                                        <h2>-</h2>
+                                    </Grid>
+                                    <Grid className="justify-right" item xs={3}>
+                                        <h2>{move.priority}</h2>
                                     </Grid>
                                 </Grid>
                                 <div className="move-stat-divider" />

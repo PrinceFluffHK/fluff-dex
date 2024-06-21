@@ -1,0 +1,11 @@
+{} Make a footer
+{} improve subLocation styling on mobile
+{} Add target display to moves
+{} Add SwDE
+{} Add tutor and TM learnsets
+{} Add graphics to home screen
+{}
+{}
+{}
+{}
+{}

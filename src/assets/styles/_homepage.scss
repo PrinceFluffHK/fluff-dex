@@ -4,7 +4,16 @@
     height: auto;
     border: 3px solid black;
     width: 400px;
+    border-radius: 1rem;
     @media only screen and (max-width: $xl) {
         width: 300px;
     }
+}
+
+.homepage-background {
+    background-image: url('../GeneralBG.png');
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -43,8 +43,12 @@ const LocationPage = ({ location, id, color }) => {
     const subLocationList = location.subLocations.map((subLocation, index) => {
         subLocationClass = "";
         return (
-            <div key={index}>
-                <LocationPage location={subLocation} id={id} color={"#bdbdbd"} />
+            <div key={index} className="width-100 center">
+                <LocationPage
+                    location={subLocation}
+                    id={id}
+                    color={"#bdbdbd"}
+                />
             </div>
         );
     });
@@ -53,39 +57,70 @@ const LocationPage = ({ location, id, color }) => {
         <div
             className="encounter-sheet-container"
             style={{ backgroundColor: color }}
+            id="location container"
         >
-            <h1>{location.name}</h1>
-            <Grid container columnSpacing={3}>
+            <div className="width-100 center">
+                <div className="width-90">
+                    <h1>{location.name}</h1>
+                </div>
+            </div>
+            <Grid container className="width-100">
+                {/* <Grid container columnSpacing={3}> */}
                 <Grid className={trainersClass} item xs={12} md={6}>
-                    <h2>Trainers</h2>
-                    <div className="location-content-container">
-                        {trainerList}
+                    <div className="width-100 center">
+                        <div className="width-90">
+                            <h2>Trainers</h2>
+                        </div>
+                    </div>
+                    <div className="center width-100">
+                        <div className="location-content-container center width-90">
+                            <div className="width-100">{trainerList}</div>
+                        </div>
                     </div>
                 </Grid>
                 <Grid className={encountersClass} item xs={12} md={6}>
-                    <h2>Encounters</h2>
-
-                    <Grid
-                        container
-                        rowSpacing={3}
-                        style={{ paddingBottom: "1rem" }}
-                    >
-                        {encounterList}
-                    </Grid>
+                    <div className="width-100 center">
+                        <div className="width-90">
+                            <h2>Encounters</h2>
+                        </div>
+                    </div>
+                    <div className="center width-100">
+                        <div className="width-90">
+                            <Grid
+                                container
+                                rowSpacing={3}
+                                style={{ paddingBottom: "1rem" }}
+                            >
+                                {encounterList}
+                            </Grid>
+                        </div>
+                    </div>
                 </Grid>
                 <Grid item xs={12} md={6} className={collectiblesClass}>
-                    <h2>Collectibles</h2>
-                    <div className="location-content-container">
-                        {collectibleList}
+                    <div className="width-100 center">
+                        <div className="width-90">
+                            <h2>Collectibles</h2>
+                        </div>
+                    </div>
+                    <div className="center">
+                        <div className="location-content-container center width-90">
+                            <div className="width-100">{collectibleList}</div>
+                        </div>
                     </div>
                 </Grid>
                 <Grid item xs={12} md={6} className={martsClass}>
-                    <h2>Special Marts</h2>
-                    {martList}
+                    <div className="width-100 center">
+                        <div className="width-90">
+                            <h2>Special Marts</h2>
+                        </div>
+                    </div>
+                    <div className="center width-100">
+                        <div className="width-90">{martList}</div>
+                    </div>
                 </Grid>
                 <Grid item xs={12} className={subLocationClass}>
                     <div className="center width-100">
-                        <div className="width-100">{subLocationList}</div>
+                        <div className="center width-100">{subLocationList}</div>
                     </div>
                 </Grid>
             </Grid>
