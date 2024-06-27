@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from "@mui/material";
 import Encounter from "../../models/Encounter";
 
-const EncounterTable = ({ encTable }) => {
+const EncounterTable = ({ encTable, index }) => {
     const encounterList = encTable.pokemon.map((mon, index) => {
         const percent = mon.percent === 0 ? "N/A" : `${mon.percent}%`;
         const name =
@@ -37,7 +37,7 @@ const EncounterTable = ({ encTable }) => {
     const bgColor = Encounter.getColor(encTable.type);
 
     return (
-        <Grid item className="justify-center width-100">
+        <Grid item className="justify-center width-100" key={index}>
             <div
                 className="encounter-list-container"
                 style={{ backgroundColor: bgColor }}

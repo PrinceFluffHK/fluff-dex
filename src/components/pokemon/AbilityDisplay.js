@@ -39,7 +39,7 @@ const AbilityDisplay = ({ selectedMon }) => {
         });
 
         if (item.ability.id === 0) {
-            return <></>
+            return <div key={index}/>
         }
         return (
             <Grid className="center" item xs key={index}>

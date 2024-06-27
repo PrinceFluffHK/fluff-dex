@@ -47,7 +47,7 @@ class Shop {
                 containerClass += " round-bottom";
             }
             return (
-                <div className={containerClass} style={{backgroundColor: color}}>
+                <div className={containerClass} style={{backgroundColor: color}} key={index}>
                     <div className="width-80 justify-between align-center">
                         <Grid container>
                             <Grid item xs>

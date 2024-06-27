@@ -18,9 +18,9 @@ const LocationPage = ({ location, id, color }) => {
     });
 
     let encountersClass = "invis";
-    const encounterList = location.encounters.map((encTable) => {
+    const encounterList = location.encounters.map((encTable, index) => {
         encountersClass = "";
-        return <EncounterTable encTable={encTable} />;
+        return <EncounterTable encTable={encTable} index={index} key={index}/>;
     });
 
     let collectiblesClass = "invis";
@@ -120,7 +120,7 @@ const LocationPage = ({ location, id, color }) => {
                 </Grid>
                 <Grid item xs={12} className={subLocationClass}>
                     <div className="center width-100">
-                        <div className="center width-100">
+                        <div className="width-100">
                             {subLocationList}
                         </div>
                     </div>

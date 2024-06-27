@@ -7,25 +7,33 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
     let { id } = useParams();
     id = parseInt(id);
 
+    let title = "Level-Up Moves";
     let levelClassName = "align-center";
     let moveArray =
         selectedMon.levelLearn.length === 0
             ? baseDexEntry.forms[0].levelLearn
             : selectedMon.levelLearn;
     if (moveTypeId > 0) {
+        title = "Tutor Moves"
         levelClassName = "invis";
         moveArray =
-        selectedMon.tutorLearn.length === 0
-        ? baseDexEntry.forms[0].tutorLearn
-        : selectedMon.tutorLearn;
+            selectedMon.tutorLearn.length === 0
+                ? baseDexEntry.forms[0].tutorLearn
+                : selectedMon.tutorLearn;
         if (moveTypeId === 1) {
             moveArray =
-            selectedMon.tutorLearn.length === 0
-            ? baseDexEntry.forms[0].tutorLearn
-            : selectedMon.tutorLearn;
+                selectedMon.tutorLearn.length === 0
+                    ? baseDexEntry.forms[0].tutorLearn
+                    : selectedMon.tutorLearn;
+        }
+        if (moveTypeId === 2) {
+            moveArray =
+                selectedMon.tmLearn.length === 0
+                    ? baseDexEntry.forms[0].tmLearn
+                    : selectedMon.tmLearn;
         }
     }
-    
+
     const movesDisplay = moveArray.map((moveElement, index) => {
         let var2Prefix = "Lv ";
         console.log(moveElement);
@@ -33,9 +41,9 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
             switch (moveTypeId) {
                 case 0:
                     return moveElement.level;
-                    case 1:
-                        var2Prefix = "";
-                        return "";
+                case 1:
+                    var2Prefix = "";
+                    return "";
                 case 2:
                     return moveElement.item.name;
             }
@@ -84,7 +92,7 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
     return (
         <Grid item className="justify-center" xs={12} md={6} lg={4}>
             <div className="width-80">
-                <h1>Level-Up Moves</h1>
+                <h1>{title}</h1>
                 <div>{movesDisplay}</div>
             </div>
         </Grid>

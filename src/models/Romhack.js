@@ -23,6 +23,7 @@ import TrainerClass from "./TrainerClass";
 import Trainer from "./Trainer";
 import Shop from "./Shop";
 import Location from "./Location";
+import TmMove from "./TmMove";
 
 class Romhack {
     constructor(
@@ -40,7 +41,8 @@ class Romhack {
         trainerClasses,
         trainers,
         shops,
-        locations
+        locations,
+        tms
     ) {
         this.id = id;
         this.name = name;
@@ -56,7 +58,8 @@ class Romhack {
         this.trainerClasses = trainerClasses;
         this.trainers = trainers;
         this.shops = shops;
-        this.locations = locations
+        this.locations = locations;
+        this.tms = tms
     }
 
     homeDisplay(index) {
@@ -90,6 +93,7 @@ class Romhack {
         thumbnail,
         shopData,
         locationData,
+        tmData
     ) {
         const abilities = Ability.makeArray(Help.filterByGen(abilityData, gen));
         const types = Type.makeArray(typeData);
@@ -104,13 +108,16 @@ class Romhack {
         const items = Item.makeArray(
             Help.insertEdits(Help.filterByGen(itemData, gen), itemEdits)
         );
+
+        const tms = TmMove.makeArray(tmData, items, moves)
+        // console.log(tms)
         const species = Pokemon.makeArray(
             Help.insertEdits(Help.filterByGen(speciesData, gen), speciesEdits),
             types,
             abilities,
             moves,
             tutorMoves,
-            items
+            tms
         );
 
         const nationalDex = Pokedex.makeNationalDex(
@@ -153,7 +160,8 @@ class Romhack {
             trainerClasses,
             trainers,
             shops,
-            locations
+            locations,
+            tms
         );
     }
 }

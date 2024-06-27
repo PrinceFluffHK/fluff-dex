@@ -86,7 +86,7 @@ class Pokemon {
         abilitiesArray,
         movesArray,
         tutorsArray,
-        itemsArray
+        tmsArray
     ) {
         const type1 = Help.findInArray(species.type1, typesArray);
         const type2 = Help.findInArray(species.type2, typesArray);
@@ -101,7 +101,12 @@ class Pokemon {
             species.tutorLearn,
             tutorsArray
         );
-        const tmLearn = TmMove.makeArray([], itemsArray, movesArray);
+        // console.log(species.name, species.tmLearn, tmsArray)
+        const tmLearn = TmMove.makeTmLearn(
+            species.tmLearn,
+            tmsArray
+        );
+        // console.log(species.name, tmLearn)
         return new Pokemon(
             species.id,
             species.name,
@@ -164,7 +169,8 @@ class Pokemon {
             natureMod = 1.1;
         }
         let statVal =
-            (((2 * baseStat.statVal + ivs + Math.floor(evs / 4)) * level) / 100 +
+            (((2 * baseStat.statVal + ivs + Math.floor(evs / 4)) * level) /
+                100 +
                 5) *
             natureMod;
         if (statIndex === 0) {

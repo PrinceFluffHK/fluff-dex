@@ -56,7 +56,7 @@ class Collectible {
         }
 
         return (
-            <div className={className} style={{ backgroundColor: color }}>
+            <div className={className} style={{ backgroundColor: color }} key={index}>
                 <Grid container columnSpacing={3} className="collectible-padding">
                     <Grid item xs={3} className="align-center">
                         <b className="">

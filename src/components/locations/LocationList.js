@@ -18,7 +18,7 @@ const LocationList = (props) => {
                 </div>
             );
         }
-        return <></>
+        return <div key={index}></div>
     });
 
     return (

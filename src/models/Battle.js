@@ -16,14 +16,14 @@ class Battle {
             });
 
             if (this.partner) {
-                console.warn("2v2", this);
+                // console.warn("2v2", this);
                 const partner = this.partner.locationStandard(
                     color,
                     topIndex,
                     hackId,
                     final
                 );
-                console.warn("2v2 partner", partner);
+                // console.warn("2v2 partner", partner);
                 return (
                     <div key={topIndex}>
                         {partner}
@@ -37,7 +37,7 @@ class Battle {
                     </div>
                 );
             } else {
-                console.error("1v2", this);
+                // console.error("1v2", this);
                 return <div key={topIndex}>{opponents}</div>;
             }
         }

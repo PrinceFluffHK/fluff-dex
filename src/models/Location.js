@@ -28,7 +28,7 @@ class Location {
             ? locationObj.trainers.map((battleObj) => {
                 // console.log(battleObj.opponent)
                 if (typeof battleObj.opponent == "object") {
-                    console.log(battleObj)
+                    // console.log(battleObj)
                     const newOpponents = battleObj.opponent.map((trainerId) => {
                         return Help.findInArray(trainerId, trainers)
                     })

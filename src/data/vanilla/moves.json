@@ -2193,7 +2193,7 @@
         "pp": 25,
         "targetId": 1,
         "gen": 2,
-        "description": "Steals target's held item.",
+        "description": "Steals target's held item if the user has none.",
         "priority": 0
     },
     {
@@ -2401,7 +2401,7 @@
         "pp": 10,
         "targetId": 1,
         "gen": 2,
-        "description": "Sharply lowers target's Speed.",
+        "description": "Sharply lowers target's Speed (-2).",
         "priority": 0
     },
     {
@@ -2440,7 +2440,7 @@
         "pp": 10,
         "targetId": 11,
         "gen": 2,
-        "description": "User loses 50% of its max HP, but Attack raises to maximum.",
+        "description": "User loses 50% of its max HP, but Attack raises to maximum (+6).",
         "priority": 0
     },
     {
@@ -2466,7 +2466,7 @@
         "pp": 10,
         "targetId": 1,
         "gen": 2,
-        "description": "Lowers target's Accuracy.",
+        "description": "Lowers target's Accuracy (-1).",
         "priority": 0
     },
     {
@@ -2479,7 +2479,7 @@
         "pp": 10,
         "targetId": 1,
         "gen": 2,
-        "description": "50% chance to lower target's Accuracy.",
+        "description": "50% chance to lower target's Accuracy (-1).",
         "priority": 0
     },
     {
@@ -2492,7 +2492,7 @@
         "pp": 20,
         "targetId": 8,
         "gen": 2,
-        "description": "Hurts targets when they switch into battle.",
+        "description": "Hurts targets when they switch into battle. Can be layered up to 3 times.",
         "priority": 0
     },
     {
@@ -2557,7 +2557,7 @@
         "pp": 15,
         "targetId": 5,
         "gen": 2,
-        "description": "Lowers target's Speed.",
+        "description": "Lowers targets' Speed (-1).",
         "priority": 0
     },
     {
@@ -2609,7 +2609,7 @@
         "pp": 10,
         "targetId": 11,
         "gen": 2,
-        "description": "User attacks for 2-3 turns but then becomes confused.",
+        "description": "User attacks a random opponent for 2-3 turns but then becomes confused.",
         "priority": 0
     },
     {
@@ -2661,7 +2661,7 @@
         "pp": 20,
         "targetId": 1,
         "gen": 2,
-        "description": "Sharply lowers target's Attack.",
+        "description": "Sharply lowers target's Attack (-2).",
         "priority": 0
     },
     {
@@ -2700,7 +2700,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 2,
-        "description": "Confuses target, but sharply raises its Attack.",
+        "description": "Confuses target, but sharply raises its Attack (+2).",
         "priority": 0
     },
     {
@@ -2752,7 +2752,7 @@
         "pp": 25,
         "targetId": 1,
         "gen": 2,
-        "description": "10% chance to raise user's Defense.",
+        "description": "10% chance to raise user's Defense (+1).",
         "priority": 0
     },
     {
@@ -2778,7 +2778,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 2,
-        "description": "If target is the opposite gender, it's less likely to attack.",
+        "description": "If target is the opposite gender, it attacks only half the time.",
         "priority": 0
     },
     {
@@ -2791,7 +2791,7 @@
         "pp": 10,
         "targetId": 11,
         "gen": 2,
-        "description": "User performs one of its own moves while sleeping.",
+        "description": "User performs one of its own moves (randomly) while sleeping.",
         "priority": 0
     },
     {
@@ -2817,7 +2817,7 @@
         "pp": 20,
         "targetId": 1,
         "gen": 2,
-        "description": "Power increases with higher Friendship.",
+        "description": "Power increases with higher Friendship (Max 102).",
         "priority": 0
     },
     {
@@ -2843,7 +2843,7 @@
         "pp": 20,
         "targetId": 1,
         "gen": 2,
-        "description": "Power decreases with higher Friendship.",
+        "description": "Power decreases with higher Friendship (Max 102).",
         "priority": 0
     },
     {
@@ -2856,7 +2856,7 @@
         "pp": 25,
         "targetId": 12,
         "gen": 2,
-        "description": "The user's party is protected from status conditions.",
+        "description": "The user's party is protected from status conditions for 5 turns.",
         "priority": 0
     },
     {
@@ -2986,7 +2986,7 @@
         "pp": 40,
         "targetId": 1,
         "gen": 2,
-        "description": "Raises user's Speed and removes entry hazards and trap move effects.",
+        "description": "Raises user's Speed (+1) and removes entry hazards and trap move effects.",
         "priority": 0
     },
     {
@@ -2999,7 +2999,7 @@
         "pp": 20,
         "targetId": 5,
         "gen": 2,
-        "description": "Lowers target's Evasiveness.",
+        "description": "Lowers target's Evasiveness (-1).",
         "priority": 0
     },
     {
@@ -3012,7 +3012,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 2,
-        "description": "10% chance to lower target's Defense.",
+        "description": "10% chance to lower target's Defense (-1).",
         "priority": 0
     },
     {
@@ -3025,7 +3025,7 @@
         "pp": 35,
         "targetId": 1,
         "gen": 2,
-        "description": "10% chance to raise user's Attack.",
+        "description": "10% chance to raise user's Attack (+1).",
         "priority": 0
     },
     {
@@ -3039,7 +3039,7 @@
         "targetId": 1,
         "gen": 2,
         "description": "User attacks last, but ignores Accuracy and Evasiveness.",
-        "priority": 0
+        "priority": -1
     },
     {
         "id": 234,
@@ -3090,7 +3090,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 2,
-        "description": "Type and power depends on user's IVs.",
+        "description": "Type depends on user's IVs.",
         "priority": 0
     },
     {
@@ -3116,7 +3116,7 @@
         "pp": 20,
         "targetId": 5,
         "gen": 2,
-        "description": "20Hits thrice in one turn at increasing power. flinch. Hits Pokémon using Fly/Bounce with double power.",
+        "description": "20% chance to flinch. Hits Pokémon using Fly/Bounce with double power.",
         "priority": 0
     },
     {
@@ -3155,7 +3155,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 2,
-        "description": "20% chance to lower target's Defense.",
+        "description": "20% chance to lower target's Defense (-1).",
         "priority": 0
     },
     {
@@ -3207,7 +3207,7 @@
         "pp": 5,
         "targetId": 1,
         "gen": 2,
-        "description": "10% chance to raise all user's stats at once.",
+        "description": "10% chance to raise all user's stats at once (+1).",
         "priority": 0
     },
     {
@@ -3220,7 +3220,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 2,
-        "description": "20% chance to lower target's Special Defense.",
+        "description": "20% chance to lower target's Special Defense (-1).",
         "priority": 0
     },
     {
@@ -3246,7 +3246,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 2,
-        "description": "50% chance to lower target's Defense.",
+        "description": "50% chance to lower target's Defense (-1).",
         "priority": 0
     },
     {
@@ -7070,7 +7070,7 @@
         "pp": 15,
         "targetId": 1,
         "gen": 5,
-        "description": "User receives recoil damage.",
+        "description": "User receives 25% recoil damage.",
         "priority": 0
     },
     {
@@ -7304,7 +7304,7 @@
         "pp": 10,
         "targetId": 12,
         "gen": 6,
-        "description": "Protects user and teammates from damaging moves.",
+        "description": "Protects user and teammates from damaging moves. Only usable on first turn the user is on the field.",
         "priority": 0
     },
     {
@@ -7720,7 +7720,7 @@
         "pp": 5,
         "targetId": 1,
         "gen": 6,
-        "description": "Can strike through Protect/Detect.",
+        "description": "Can strike through Protect/Detect. Always hits.",
         "priority": 0
     },
     {
@@ -7734,7 +7734,7 @@
         "targetId": 1,
         "gen": 6,
         "description": "Hits 2-5 times in one turn.",
-        "priority": 0
+        "priority": 1
     },
     {
         "id": 595,
@@ -7798,7 +7798,7 @@
         "pp": 20,
         "targetId": 5,
         "gen": 6,
-        "description": "Lowers poisoned target's Special Attack and Speed (-1).",
+        "description": "Lowers poisoned target's Attack, Special Attack, and Speed (-1).",
         "priority": 0
     },
     {
@@ -8084,7 +8084,7 @@
         "pp": 5,
         "targetId": 1,
         "gen": 6,
-        "description": "Lowers user's Defense (-1). Can strike through Protect/Detect.",
+        "description": "Lowers user's Defense (-1). Can strike through Protect/Detect. Always hits.",
         "priority": 0
     },
     {
@@ -9489,7 +9489,7 @@
         "targetId": 1,
         "gen": 7,
         "description": "Always results in a critical hit.",
-        "priority": 0
+        "priority": 2
     },
     {
         "id": 730,

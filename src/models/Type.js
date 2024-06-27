@@ -117,7 +117,7 @@ class Type {
             case 18:
                 return "#fcd9fc";
             default:
-                return "#000000"
+                return false
         }
     }
 }

@@ -1029,25 +1029,44 @@
         "trainerClass": 78,
         "team": [
             {
-                "pokemonId": 451,
+                "pokemonId": 590,
                 "level": 15,
-                "abilityId": 4,
-                "natureId": 13,
-                "moves": [41, 282, 43]
+                "abilityId": 27,
+                "natureId": 17,
+                "itemId": 0,
+                "moves": [72, 51, 74, 0]
             },
             {
-                "pokemonId": 72,
-                "level": 14,
-                "abilityId": 64,
-                "natureId": 9,
-                "moves": [51, 35]
+                "pokemonId": 568,
+                "level": 15,
+                "abilityId": 106,
+                "natureId": 7,
+                "itemId": 0,
+                "moves": [232, 491, 390, 0]
             },
             {
-                "pokemonId": 315,
-                "level": 14,
+                "pokemonId": 543,
+                "level": 16,
                 "abilityId": 38,
-                "natureId": 21,
-                "moves": [72, 51, 74]
+                "natureId": 1,
+                "itemId": 0,
+                "moves": [474, 41, 522, 182]
+            },
+            {
+                "pokemonId": 453,
+                "level": 16,
+                "abilityId": 143,
+                "natureId": 3,
+                "itemId": 0,
+                "moves": [249, 40, 189, 269]
+            },
+            {
+                "pokemonId": 336,
+                "level": 17,
+                "abilityId": 22,
+                "natureId": 0,
+                "itemId": 157,
+                "moves": [342, 168, 35, 103]
             }
         ]
     },

@@ -36,7 +36,6 @@ function App() {
                         Component={TrainerDisplay}
                     />
                     <Route exact path="/:id/marts" Component={ShopList} />
-                    <Route exact path="/:id/encounters" Component={EncounterList} />
                     <Route exact path="/:id/locations" Component={LocationList} />
                 </Routes>
             </HashRouter>

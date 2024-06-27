@@ -64,7 +64,7 @@ const Pokedex = (props) => {
                         </div>
                     );
                 }
-                return <></>
+                return <></>;
             });
 
             let dexNum = index;
@@ -127,7 +127,7 @@ const Pokedex = (props) => {
                 </div>
             );
         }
-        return <></>
+        return <></>;
     });
 
     const topBarToggle = [

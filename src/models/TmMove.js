@@ -19,6 +19,12 @@ class TmMove {
             return TmMove.makeSingle(tmObj, itemsArray, movesArray)
         })
     }
+
+    static makeTmLearn(tmIdArray, tmMoves) {
+        return tmIdArray.map((tmId, index) => {
+            return Help.findInArray(tmId, tmMoves)
+        })
+    }
 }
 
 export default TmMove
