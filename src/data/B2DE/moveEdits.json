@@ -1,0 +1,376 @@
+[
+    {
+        "name": "Acid",
+        "id": 51,
+        "description": "Lowers targets' Special Defense (-1)",
+        "changed": true
+    },
+    {
+        "name": "Aerial Ace",
+        "id": 332,
+        "bp": 85,
+        "changed": true
+    },
+    {
+        "name": "Arm Thrust",
+        "id": 292,
+        "description": "Hits exactly 4 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Attack Order",
+        "id": 454,
+        "targetId": 5,
+        "changed": true
+    },
+    {
+        "name": "Bone Rush",
+        "id": 198,
+        "acc": 100,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Bubble Beam",
+        "id": 61,
+        "targetId": 5,
+        "changed": true
+    },
+    {
+        "name": "Bubble",
+        "id": 145,
+        "changed": true
+    },
+    {
+        "name": "Charge",
+        "id": 268,
+        "description": "Raises user's Speed and next Electric move's power increases.",
+        "changed": true
+    },
+    {
+        "name": "Bullet Seed",
+        "id": 331,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Comet Punch",
+        "id": 4,
+        "typeId": 2,
+        "acc": 100,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Cut",
+        "id": 15,
+        "typeId": 12,
+        "bp": 65,
+        "changed": true
+    },
+    {
+        "name": "Cross Poison",
+        "id": 440,
+        "bp": 90,
+        "changed": true
+    },
+    {
+        "name": "Dive",
+        "id": 291,
+        "bp": 120,
+        "description": "Dives underwater on first turn, attacks with 33% recoil on second turn.",
+        "changed": true
+    },
+    {
+        "name": "Dizzy Punch",
+        "id": 146,
+        "description": "50% chance to confuse opponent.",
+        "changed": true
+    },
+    {
+        "name": "Double Slap",
+        "id": 3,
+        "bp": 30,
+        "description": "Hits exactly twice in a row.",
+        "changed": true
+    },
+    {
+        "name": "Dragon Rush",
+        "id": 407,
+        "bp": 120,
+        "acc": 100,
+        "description": "User receives 33% recoil damage.",
+        "changed": true
+    },
+    {
+        "name": "Egg Bomb",
+        "id": 121,
+        "typeId": 12,
+        "acc": 100,
+        "changed": true
+    },
+    {
+        "name": "Explosion",
+        "id": 153,
+        "description": "Always critical-hits. User faints.",
+        "changed": true
+    },
+    {
+        "name": "Self-Destruct",
+        "id": 120,
+        "description": "Always critical-hits. User faints.",
+        "changed": true
+    },
+    {
+        "name": "Fly",
+        "id": 19,
+        "acc": 100,
+        "changed": true
+    },
+    {
+        "name": "Fury Attack",
+        "id": 31,
+        "acc": 100,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Fury Swipes",
+        "id": 154,
+        "acc": 100,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Gear Grind",
+        "id": 544,
+        "acc": 100,
+        "changed": true
+    },
+    {
+        "name": "Glaciate",
+        "id": 549,
+        "bp": 75,
+        "changed": true
+    },
+    {
+        "name": "Heart Stamp",
+        "id": 531,
+        "bp": 75,
+        "changed": true
+    },
+    {
+        "name": "Icicle Crash",
+        "id": 556,
+        "bp": 75,
+        "targetId": 5,
+        "changed": true
+    },
+    {
+        "name": "Icicle Spear",
+        "id": 333,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Iron Tail",
+        "id": 231,
+        "acc": 85,
+        "changed": true
+    },
+    {
+        "name": "Knock Off",
+        "id": 282,
+        "description": "Removes opponent's held item for the rest of the battle (does not increase damage).",
+        "changed": true
+    },
+    {
+        "name": "Leaf Tornado",
+        "id": 536,
+        "targetId": 5,
+        "changed": true
+    },
+    {
+        "name": "Luster Purge",
+        "id": 295,
+        "bp": 80,
+        "description": "Always lowers target's Special Defense (-1).",
+        "changed": true
+    },
+    {
+        "name": "Mirror Shot",
+        "id": 429,
+        "acc": 95,
+        "description": "20% chance to lower target's Accuracy (-1).",
+        "changed": true
+    },
+    {
+        "name": "Mist Ball",
+        "id": 296,
+        "bp": 80,
+        "description": "Always lowers target's Special Attack (-1).",
+        "changed": true
+    },
+    {
+        "name": "Mud-Slap",
+        "id": 189,
+        "bp": 50,
+        "categoryId": 1,
+        "description": "10% chance to lower opponent's Accuracy.",
+        "changed": true
+    },
+    {
+        "name": "Outrage",
+        "id": 200,
+        "targetId": 1,
+        "changed": true
+    },
+    {
+        "name": "Petal Dance",
+        "id": 80,
+        "targetId": 1,
+        "changed": true
+    },
+    {
+        "name": "Pin Missile",
+        "id": 42,
+        "acc": 100,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Poison Fang",
+        "id": 305,
+        "description": "Badly poisons the target.",
+        "changed": true
+    },
+    {
+        "name": "Poison Tail",
+        "id": 342,
+        "targetId": 5,
+        "description": "High critical hit ratio. Always poisons targets.",
+        "changed": true
+    },
+    {
+        "name": "Recover",
+        "id": 105,
+        "pp": 10
+    },
+    {
+        "name": "Soft-Boiled",
+        "id": 135,
+        "pp": 10
+    },
+    {
+        "name": "Leech-Life",
+        "id": 141,
+        "changed": true
+    },
+    {
+        "name": "Rock Blast",
+        "id": 350,
+        "acc": 100,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Rock Climb",
+        "id": 431,
+        "typeId": 6,
+        "acc": 90,
+        "changed": true
+    },
+    {
+        "name": "Rock Smash",
+        "id": 249,
+        "description": "Lowers opponent's Defense (-1).",
+        "changed": true
+    },
+    {
+        "name": "Sharpen",
+        "id": 159,
+        "targetId": 4,
+        "description": "Raises the target's Attack and Special Attack (+1).",
+        "changed": true
+    },
+    {
+        "name": "Sky Uppercut",
+        "id": 327,
+        "acc": 100,
+        "changed": true
+    },
+    {
+        "name": "Spider Web",
+        "id": 169,
+        "targetId": 5,
+        "changed": true
+    },
+    {
+        "name": "Steel Wing",
+        "id": 211,
+        "description": "Raises user's Defense (+1).",
+        "changed": true
+    },
+    {
+        "name": "Strength",
+        "id": 70,
+        "targetId": 5,
+        "changed": true
+    },
+    {
+        "name": "Tail Slap",
+        "id": 541,
+        "acc": 100,
+        "description": "Hits exactly 3 times in a row.",
+        "changed": true
+    },
+    {
+        "name": "Teleport",
+        "id": 100,
+        "description": "Allows the user to flee a wild battle",
+        "priority": 0
+    },
+    {
+        "name": "Thrash",
+        "id": 37,
+        "targetId": 1,
+        "changed": true
+    },
+    {
+        "name": "Toxic",
+        "id": 92,
+        "description": "Badly poisons target."
+    },
+    {
+        "name": "Tri Attack",
+        "id": 161,
+        "bp": 90,
+        "changed": true
+    },
+    {
+        "name": "Volt Tackle",
+        "id": 344,
+        "categoryId": 2,
+        "changed": true
+    },
+    {
+        "id": 186,
+        "typeId": 1,
+        "changed": true
+    },
+    {
+        "id": 204,
+        "typeId": 1,
+        "changed": true
+    },
+    {
+        "id": 236,
+        "typeId": 1,
+        "changed": true
+    },
+    {
+        "name": "Wild Charge",
+        "id": 528,
+        "bp": 120
+    }
+]

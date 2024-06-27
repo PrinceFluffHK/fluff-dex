@@ -1,0 +1,11 @@
+{} Make a footer
+{X} improve subLocation styling on mobile
+{} Add target display to moves
+{} Add SwDE
+{} Add tutor and TM learnsets
+{X} Add graphics to home screen
+{} Make Logo for home screen?
+{} Add all B2DE trainers
+{} Add tutors page
+{}
+{}

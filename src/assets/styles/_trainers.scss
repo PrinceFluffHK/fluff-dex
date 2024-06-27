@@ -1,0 +1,94 @@
+.pokemon-oval {
+    border-radius: 50%;
+    height: 10px;
+    width: 40px;
+    background-color: gray;
+    border: 2px solid black;
+    z-index: 1;
+    position: absolute;
+}
+
+.lead-window {
+    height: 10rem;
+    width: 15rem;
+    background-color: lightgreen;
+    border-radius: 2rem;
+    border: 3px solid black;
+    position: relative;
+}
+
+.oval-left {
+    bottom: 2rem;
+    right: 3rem;
+}
+
+.lead-mon-container {
+    position: relative;
+    height: 64px;
+    width: 64px;
+}
+
+.lead-mon-sprite {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.lead-mon-oval {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
+
+.lead-window-trainer {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+
+.team-member-container {
+    border: 2px solid black;
+    border-radius: 1rem;
+    z-index: 2;
+    // background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.team-member-sprite-container {
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: .75rem 0 .25rem 0;
+}
+
+.team-move {
+    color: black;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem 5px 1rem;
+}
+
+.team-moves-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 6.2rem;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid black;
+    padding: 5px 0 10px 0;
+    width: 92%
+}
+
+.team-stat-text {
+    text-align: center;
+    margin-bottom: 3px;
+}

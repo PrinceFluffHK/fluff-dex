@@ -1,0 +1,42 @@
+@import "./variables";
+
+.location-content-container{
+    // padding: 1rem 0 1rem 0;
+    border: solid black 2px;
+    border-radius: 1rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.location-mon-sprite{
+    height: auto;
+    width: 5rem;
+}
+
+.collectible-padding {
+    padding: 0 1rem 0 1rem;
+}
+
+
+.encounter-sheet-container {
+    width: 95%;
+    border: 3px solid black;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: lightgray;
+    padding: 0 0 1rem 0;
+    @media only screen and (max-width: $sm) {
+        width: 100%;
+        // border-left: 0;
+        // border-right: 0;
+        // border-radius: 0;
+    }
+}
+
+.encounter-list-container{
+    width: 90%;
+    // margin-top: 1rem;
+    padding: 0 1rem 0 1rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+}

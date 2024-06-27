@@ -1,0 +1,17 @@
+@import "./variables";
+
+.move-stat-divider{
+    width: 100%;
+    background-color: lightgray;
+    height: 3px;
+}
+
+.move-top-bar {
+    background-color: white;
+    position: fixed;
+    height: 3rem;
+    width: $xl;
+    @media only screen and (max-width: $xl) {
+        width: 100vw;
+    }
+}

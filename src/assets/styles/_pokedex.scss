@@ -1,0 +1,40 @@
+.dex-sprite {
+    height: 64px;
+    width: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+.dex-container {
+    width: 100%;
+}
+
+.dex-container a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    padding-top: 10rem;
+}
+.dex-ability-box {
+    border: 2px black solid;
+    width: 90%;
+    height: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dex-ability-container {
+    width: 33%;
+}
+
+.dex-top-bar-container {
+    z-index: 2;
+    background-color: white;
+    width: $xl;
+    position: fixed;
+    @media only screen and (max-width: $xl) {
+        width: 100vw;
+    }
+}

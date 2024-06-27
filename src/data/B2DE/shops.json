@@ -1,0 +1,105 @@
+[
+    {
+        "id": 0,
+        "name": "0 Badges",
+        "bp": false,
+        "contents": [50, 4, 17]
+    },
+    {
+        "id": 1,
+        "name": "1 Badge",
+        "bp": false,
+        "contents": [50, 4, 3, 17, 26, 78, 79, 93, 63]
+    },
+    {
+        "id": 2,
+        "name": "3 Badges",
+        "bp": false,
+        "contents": [50, 4, 3, 17, 26, 25, 28, 78, 79, 76, 93, 63]
+    },
+    {
+        "id": 3,
+        "name": "5 Badges",
+        "bp": false,
+        "contents": [50, 4, 3, 2, 17, 26, 25, 28, 78, 79, 76, 77, 93, 63]
+    },
+    {
+        "id": 4,
+        "name": "7 Badges",
+        "bp": false,
+        "contents": [
+            50, 4, 3, 2, 17, 26, 25, 24, 28, 29, 78, 79, 76, 77, 93, 63
+        ]
+    },
+    {
+        "id": 5,
+        "name": "8 Badges",
+        "bp": false,
+        "contents": [
+            50, 4, 3, 2, 17, 26, 25, 24, 23, 28, 29, 78, 79, 76, 77, 93, 63
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Floccesy Town Lower Register",
+        "bp": false,
+        "contents": [154]
+    },
+    {
+        "id": 7,
+        "name": "Virbank City Lower Register",
+        "bp": false,
+        "contents": [155, 158, 154]
+    },
+    {
+        "id": 8,
+        "name": "Default PokeCenter Lower Registers",
+        "bp": false,
+        "contents": [155, 158, 154, 151, 149, 150, 152, 153, 156]
+    },
+    {
+        "id": 9,
+        "name": "Incense Shop",
+        "bp": false,
+        "contents": [314, 315, 316, 317, 318, 319, 320, 255, 254]
+    },
+    {
+        "id": 10,
+        "name": "Middle Left Register",
+        "bp": false,
+        "contents": [
+            4, 3, 2, 15, 10, 6, 13, 14, 8, 9, 7, 492, 493, 494, 495, 496, 497,
+            498, 11
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Bottom Register",
+        "bp": false,
+        "contents": [
+            50, 17, 26, 25, 24, 23, 18, 22, 21, 19, 20, 28, 29, 78, 79, 76, 77,
+            93
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Middle Right Register",
+        "bp": false,
+        "contents": [342, 395]
+    },
+    {
+        "id": 13,
+        "name": "Top Left Register",
+        "bp": false,
+        "contents": [155, 158, 154, 151, 149, 150, 152, 153, 156]
+    },
+    {
+        "id": 14,
+        "name": "Top Right Register",
+        "bp": false,
+        "contents": [
+            82, 84, 83, 85, 81, 80, 109, 108, 107, 235, 233, 221, 326, 327,
+            1279, 252, 324, 325, 110
+        ]
+    }
+]
