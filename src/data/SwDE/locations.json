@@ -1,0 +1,3538 @@
+[
+    {
+        "name": "No Location",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Postwick",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Starter Gift",
+                "pokemon": [
+                    { "pokemon": 810, "percent": 0, "minLv": 5, "maxLv": 5 },
+                    { "pokemon": 813, "percent": 0, "minLv": 5, "maxLv": 5 },
+                    { "pokemon": 816, "percent": 0, "minLv": 5, "maxLv": 5 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Slumbering Weald",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": [
+            {
+                "name": "Entrance",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": 819,
+                                "percent": 30,
+                                "minLv": 2,
+                                "maxLv": 3
+                            },
+                            {
+                                "pokemon": 821,
+                                "percent": 20,
+                                "minLv": 2,
+                                "maxLv": 3
+                            },
+                            {
+                                "pokemon": 824,
+                                "percent": 20,
+                                "minLv": 2,
+                                "maxLv": 3
+                            },
+                            {
+                                "pokemon": 736,
+                                "percent": 20,
+                                "minLv": 2,
+                                "maxLv": 3
+                            },
+                            {
+                                "pokemon": 163,
+                                "percent": 10,
+                                "minLv": 2,
+                                "maxLv": 3
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "Deep Woods",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": 724,
+                                "percent": 20,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 10167,
+                                "percent": 15,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 36,
+                                "percent": 15,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 826,
+                                "percent": 15,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 709,
+                                "percent": 15,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 591,
+                                "percent": 15,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 823,
+                                "percent": 5,
+                                "minLv": 66,
+                                "maxLv": 70
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fish",
+                        "pokemon": [
+                            {
+                                "pokemon": 80,
+                                "percent": 40,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 199,
+                                "percent": 40,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 369,
+                                "percent": 15,
+                                "minLv": 66,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemon": 129,
+                                "percent": 5,
+                                "minLv": 66,
+                                "maxLv": 70
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Static",
+                        "pokemon": [
+                            {
+                                "pokemon": 10180,
+                                "percent": 100,
+                                "minLv": 48,
+                                "maxLv": 48
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Route 1",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    { "pokemon": 831, "percent": 40, "minLv": 4, "maxLv": 6 },
+                    { "pokemon": 821, "percent": 20, "minLv": 4, "maxLv": 6 },
+                    { "pokemon": 824, "percent": 10, "minLv": 4, "maxLv": 6 },
+                    { "pokemon": 736, "percent": 10, "minLv": 4, "maxLv": 6 },
+                    { "pokemon": 10, "percent": 10, "minLv": 4, "maxLv": 6 },
+                    { "pokemon": 661, "percent": 10, "minLv": 4, "maxLv": 6 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 2",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": [
+            {
+                "name": "Main Route",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Static",
+                        "pokemon": [
+                            {
+                                "pokemon": 833,
+                                "percent": 100,
+                                "minLv": 8,
+                                "maxLv": 8
+                            },
+                            {
+                                "pokemon": 835,
+                                "percent": 100,
+                                "minLv": 8,
+                                "maxLv": 8
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": 821,
+                                "percent": 25,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 833,
+                                "percent": 15,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 835,
+                                "percent": 15,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 827,
+                                "percent": 15,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 744,
+                                "percent": 10,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 54,
+                                "percent": 10,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 10174,
+                                "percent": 5,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 263,
+                                "percent": 5,
+                                "minLv": 5,
+                                "maxLv": 7
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fish",
+                        "pokemon": [
+                            {
+                                "pokemon": 846,
+                                "percent": 70,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 72,
+                                "percent": 20,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 129,
+                                "percent": 5,
+                                "minLv": 5,
+                                "maxLv": 7
+                            },
+                            {
+                                "pokemon": 349,
+                                "percent": 5,
+                                "minLv": 5,
+                                "maxLv": 7
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "Lake Area",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Static",
+                        "pokemon": [
+                            {
+                                "pokemon": 834,
+                                "percent": 100,
+                                "minLv": 50,
+                                "maxLv": 50
+                            },
+                            {
+                                "pokemon": 131,
+                                "percent": 100,
+                                "minLv": 55,
+                                "maxLv": 55
+                            },
+                            {
+                                "pokemon": 254,
+                                "percent": 100,
+                                "minLv": 55,
+                                "maxLv": 55
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": 264,
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 836,
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 271,
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 274,
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 834,
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 10175,
+                                "percent": 15,
+                                "minLv": 40,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 828,
+                                "percent": 10,
+                                "minLv": 40,
+                                "maxLv": 43
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fish",
+                        "pokemon": [
+                            {
+                                "pokemon": 847,
+                                "percent": 70,
+                                "minLv": 37,
+                                "maxLv": 40
+                            },
+                            {
+                                "pokemon": 73,
+                                "percent": 20,
+                                "minLv": 37,
+                                "maxLv": 40
+                            },
+                            {
+                                "pokemon": 130,
+                                "percent": 9,
+                                "minLv": 37,
+                                "maxLv": 40
+                            },
+                            {
+                                "pokemon": 349,
+                                "percent": 1,
+                                "minLv": 37,
+                                "maxLv": 40
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Water",
+                        "pokemon": [
+                            {
+                                "pokemon": 847,
+                                "percent": 70,
+                                "minLv": 38,
+                                "maxLv": 40
+                            },
+                            {
+                                "pokemon": 834,
+                                "percent": 25,
+                                "minLv": 38,
+                                "maxLv": 40
+                            },
+                            {
+                                "pokemon": 130,
+                                "percent": 5,
+                                "minLv": 38,
+                                "maxLv": 40
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Motostoke",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 339,
+                        "percent": 50,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 10173,
+                        "percent": 40,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 129,
+                        "percent": 5,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    { "pokemon": 349, "percent": 5, "minLv": 10, "maxLv": 12 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Wedgehurst Station",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": 10164,
+                        "percent": 100,
+                        "minLv": 12,
+                        "maxLv": 12
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 3",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    { "pokemon": 662, "percent": 100, "minLv": 18, "maxLv": 18 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 546,
+                        "percent": 25,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 568,
+                        "percent": 20,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 850,
+                        "percent": 15,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 599,
+                        "percent": 15,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 749,
+                        "percent": 15,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 240,
+                        "percent": 5,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    { "pokemon": 63, "percent": 5, "minLv": 10, "maxLv": 12 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 819,
+                        "percent": 80,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    {
+                        "pokemon": 420,
+                        "percent": 20,
+                        "minLv": 10,
+                        "maxLv": 12
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Galar Mine No. 1",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": 838,
+                        "percent": 100,
+                        "minLv": 18,
+                        "maxLv": 18
+                    },
+                    { "pokemon": 527, "percent": 100, "minLv": 16, "maxLv": 16 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 837,
+                        "percent": 20,
+                        "minLv": 14,
+                        "maxLv": 16
+                    },
+                    {
+                        "pokemon": 529,
+                        "percent": 20,
+                        "minLv": 14,
+                        "maxLv": 16
+                    },
+                    {
+                        "pokemon": 41,
+                        "percent": 15,
+                        "minLv": 14,
+                        "maxLv": 16
+                    },
+                    {
+                        "pokemon": 50,
+                        "percent": 10,
+                        "minLv": 14,
+                        "maxLv": 16
+                    },
+                    {
+                        "pokemon": 532,
+                        "percent": 10,
+                        "minLv": 14,
+                        "maxLv": 16
+                    },
+                    {
+                        "pokemon": 524,
+                        "percent": 10,
+                        "minLv": 14,
+                        "maxLv": 16
+                    },
+                    {
+                        "pokemon": 302,
+                        "percent": 5,
+                        "minLv": 14,
+                        "maxLv": 16
+                    },
+                    { "pokemon": 4, "percent": 5, "minLv": 14, "maxLv": 16 },
+                    { "pokemon": 206, "percent": 5, "minLv": 14, "maxLv": 16 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 4",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    { "pokemon": 50, "percent": 100, "minLv": 17, "maxLv": 17 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 868,
+                        "percent": 15,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    {
+                        "pokemon": 25,
+                        "percent": 15,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    {
+                        "pokemon": 403,
+                        "percent": 15,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    {
+                        "pokemon": 309,
+                        "percent": 10,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    {
+                        "pokemon": 710,
+                        "percent": 10,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    {
+                        "pokemon": 595,
+                        "percent": 9,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    { "pokemon": 32, "percent": 8, "minLv": 16, "maxLv": 18 },
+                    { "pokemon": 29, "percent": 8, "minLv": 16, "maxLv": 18 },
+                    {
+                        "pokemon": 133,
+                        "percent": 5,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    { "pokemon": 597, "percent": 5, "minLv": 16, "maxLv": 18 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 170,
+                        "percent": 70,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    {
+                        "pokemon": 118,
+                        "percent": 20,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    {
+                        "pokemon": 129,
+                        "percent": 5,
+                        "minLv": 16,
+                        "maxLv": 18
+                    },
+                    { "pokemon": 349, "percent": 5, "minLv": 16, "maxLv": 18 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 819,
+                        "percent": 100,
+                        "minLv": 16,
+                        "maxLv": 18
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Turffield",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    { "pokemon": 479, "percent": 100, "minLv": 50, "maxLv": 50 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 5",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    { "pokemon": 830, "percent": 100, "minLv": 22, "maxLv": 22 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 572,
+                        "percent": 20,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 10166,
+                        "percent": 15,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 684,
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 682,
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 574,
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 577,
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 531,
+                        "percent": 10,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 202,
+                        "percent": 5,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 440,
+                        "percent": 5,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    { "pokemon": 2, "percent": 5, "minLv": 20, "maxLv": 22 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 79,
+                        "percent": 70,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 833,
+                        "percent": 20,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    {
+                        "pokemon": 129,
+                        "percent": 5,
+                        "minLv": 20,
+                        "maxLv": 22
+                    },
+                    { "pokemon": 349, "percent": 5, "minLv": 20, "maxLv": 22 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 819,
+                        "percent": 100,
+                        "minLv": 20,
+                        "maxLv": 22
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": [
+            {
+                "name": "Daycare House",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Gift",
+                        "pokemon": [
+                            {
+                                "pokemon": 891,
+                                "percent": 0,
+                                "minLv": 1,
+                                "maxLv": 1
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "Hulbury",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 170,
+                        "percent": 50,
+                        "minLv": 22,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 320,
+                        "percent": 25,
+                        "minLv": 22,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 729,
+                        "percent": 20,
+                        "minLv": 22,
+                        "maxLv": 24
+                    },
+                    { "pokemon": 746, "percent": 5, "minLv": 22, "maxLv": 24 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Galar Mine No. 2",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": 10180,
+                        "percent": 100,
+                        "minLv": 25,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": 834,
+                        "percent": 100,
+                        "minLv": 24,
+                        "maxLv": 24
+                    },
+                    { "pokemon": 423, "percent": 100, "minLv": 50, "maxLv": 50 }
+                ]
+            },
+            {
+                "type": "Cave",
+                "pokemon": [
+                    {
+                        "pokemon": 422,
+                        "percent": 20,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    {
+                        "pokemon": 767,
+                        "percent": 20,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    {
+                        "pokemon": 453,
+                        "percent": 20,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    {
+                        "pokemon": 714,
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    {
+                        "pokemon": 688,
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    {
+                        "pokemon": 703,
+                        "percent": 10,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    {
+                        "pokemon": 618,
+                        "percent": 5,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    { "pokemon": 213, "percent": 5, "minLv": 24, "maxLv": 26 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 339,
+                        "percent": 75,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    {
+                        "pokemon": 704,
+                        "percent": 20,
+                        "minLv": 24,
+                        "maxLv": 26
+                    },
+                    { "pokemon": 8, "percent": 5, "minLv": 24, "maxLv": 26 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Motostoke Outskirts",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 109,
+                        "percent": 30,
+                        "minLv": 26,
+                        "maxLv": 28
+                    },
+                    {
+                        "pokemon": 726,
+                        "percent": 20,
+                        "minLv": 26,
+                        "maxLv": 28
+                    },
+                    {
+                        "pokemon": 757,
+                        "percent": 15,
+                        "minLv": 26,
+                        "maxLv": 28
+                    },
+                    {
+                        "pokemon": 185,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 28
+                    },
+                    {
+                        "pokemon": 856,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 28
+                    },
+                    {
+                        "pokemon": 772,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 28
+                    },
+                    { "pokemon": 850, "percent": 5, "minLv": 26, "maxLv": 28 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Motostoke Gym",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    { "pokemon": 58, "percent": 100, "minLv": 30, "maxLv": 30 },
+                    {
+                        "pokemon": 607,
+                        "percent": 100,
+                        "minLv": 30,
+                        "maxLv": 30
+                    },
+                    { "pokemon": 636, "percent": 100, "minLv": 30, "maxLv": 30 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 6",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Fossil",
+                "pokemon": [
+                    { "pokemon": 880, "percent": 0, "minLv": 10, "maxLv": 10 },
+                    { "pokemon": 881, "percent": 0, "minLv": 10, "maxLv": 10 },
+                    { "pokemon": 882, "percent": 0, "minLv": 10, "maxLv": 10 },
+                    { "pokemon": 883, "percent": 0, "minLv": 10, "maxLv": 10 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 843,
+                        "percent": 15,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 449,
+                        "percent": 15,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 694,
+                        "percent": 15,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 328,
+                        "percent": 15,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 10179,
+                        "percent": 10,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 27,
+                        "percent": 10,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 556,
+                        "percent": 10,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 324,
+                        "percent": 5,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    { "pokemon": 246, "percent": 5, "minLv": 30, "maxLv": 33 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 339,
+                        "percent": 65,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    {
+                        "pokemon": 259,
+                        "percent": 30,
+                        "minLv": 30,
+                        "maxLv": 33
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 30, "maxLv": 33 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 100,
+                        "minLv": 30,
+                        "maxLv": 33
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Glimwood Tangle",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": 859,
+                        "percent": 100,
+                        "minLv": 31,
+                        "maxLv": 31
+                    },
+                    { "pokemon": 860, "percent": 100, "minLv": 38, "maxLv": 38 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 860,
+                        "percent": 20,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 756,
+                        "percent": 20,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 857,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 854,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 10162,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 303,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 570,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 766,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 765,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    { "pokemon": 517, "percent": 5, "minLv": 36, "maxLv": 38 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 7",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 863,
+                        "percent": 20,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 544,
+                        "percent": 15,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 619,
+                        "percent": 15,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 114,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 686,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 115,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 876,
+                        "percent": 5,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 876,
+                        "percent": 5,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    {
+                        "pokemon": 877,
+                        "percent": 5,
+                        "minLv": 41,
+                        "maxLv": 42
+                    },
+                    { "pokemon": 633, "percent": 5, "minLv": 41, "maxLv": 42 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 100,
+                        "minLv": 41,
+                        "maxLv": 42
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 8",
+        "trainers": [],
+        "encounters": [
+            {
+                "name": "Ruins",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Static",
+                        "pokemon": [
+                            {
+                                "pokemon": 870,
+                                "percent": 100,
+                                "minLv": 40,
+                                "maxLv": 40
+                            },
+                            {
+                                "pokemon": 558,
+                                "percent": 100,
+                                "minLv": 40,
+                                "maxLv": 40
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": 552,
+                                "percent": 20,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 624,
+                                "percent": 15,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 104,
+                                "percent": 10,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 631,
+                                "percent": 10,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 632,
+                                "percent": 10,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 227,
+                                "percent": 10,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 444,
+                                "percent": 10,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 338,
+                                "percent": 5,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 337,
+                                "percent": 5,
+                                "minLv": 42,
+                                "maxLv": 43
+                            },
+                            {
+                                "pokemon": 777,
+                                "percent": 5,
+                                "minLv": 42,
+                                "maxLv": 43
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "Steamdrift Way",
+                "trainers": [],
+                "encounters": [
+                    {
+                        "type": "Grass",
+                        "pokemon": [
+                            {
+                                "pokemon": 872,
+                                "percent": 40,
+                                "minLv": 43,
+                                "maxLv": 44
+                            },
+                            {
+                                "pokemon": 221,
+                                "percent": 15,
+                                "minLv": 43,
+                                "maxLv": 44
+                            },
+                            {
+                                "pokemon": 361,
+                                "percent": 10,
+                                "minLv": 43,
+                                "maxLv": 44
+                            },
+                            {
+                                "pokemon": 215,
+                                "percent": 10,
+                                "minLv": 43,
+                                "maxLv": 44
+                            },
+                            {
+                                "pokemon": 507,
+                                "percent": 10,
+                                "minLv": 43,
+                                "maxLv": 44
+                            },
+                            {
+                                "pokemon": 874,
+                                "percent": 10,
+                                "minLv": 43,
+                                "maxLv": 44
+                            },
+                            {
+                                "pokemon": 782,
+                                "percent": 5,
+                                "minLv": 43,
+                                "maxLv": 44
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 9",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": 362,
+                        "percent": 100,
+                        "minLv": 55,
+                        "maxLv": 55
+                    },
+                    { "pokemon": 853, "percent": 100, "minLv": 50, "maxLv": 50 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 61,
+                        "percent": 20,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 184,
+                        "percent": 15,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 55,
+                        "percent": 15,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 769,
+                        "percent": 15,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 124,
+                        "percent": 10,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 845,
+                        "percent": 10,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 871,
+                        "percent": 10,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    { "pokemon": 771, "percent": 5, "minLv": 46, "maxLv": 48 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 120,
+                        "percent": 65,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 747,
+                        "percent": 30,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    { "pokemon": 781, "percent": 5, "minLv": 46, "maxLv": 48 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 364,
+                        "percent": 70,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    {
+                        "pokemon": 211,
+                        "percent": 25,
+                        "minLv": 46,
+                        "maxLv": 48
+                    },
+                    { "pokemon": 117, "percent": 5, "minLv": 46, "maxLv": 48 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 100,
+                        "minLv": 46,
+                        "maxLv": 48
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Route 10",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Static",
+                "pokemon": [
+                    {
+                        "pokemon": 460,
+                        "percent": 100,
+                        "minLv": 55,
+                        "maxLv": 55
+                    },
+                    { "pokemon": 614, "percent": 100, "minLv": 55, "maxLv": 55 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 583,
+                        "percent": 20,
+                        "minLv": 53,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 10168,
+                        "percent": 20,
+                        "minLv": 53,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 614,
+                        "percent": 15,
+                        "minLv": 53,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 10176,
+                        "percent": 15,
+                        "minLv": 53,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 615,
+                        "percent": 10,
+                        "minLv": 53,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 875,
+                        "percent": 10,
+                        "minLv": 53,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 884,
+                        "percent": 5,
+                        "minLv": 53,
+                        "maxLv": 55
+                    },
+                    { "pokemon": 225, "percent": 5, "minLv": 53, "maxLv": 55 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Wild Area",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Rolling Fields 0-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Ground",
+                "pokemon": [
+                    { "pokemon": 50, "percent": 80, "minLv": 8, "maxLv": 10 },
+                    { "pokemon": 524, "percent": 20, "minLv": 8, "maxLv": 10 }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 133,
+                        "percent": 30,
+                        "minLv": 8,
+                        "maxLv": 10
+                    },
+                    {
+                        "pokemon": 427,
+                        "percent": 20,
+                        "minLv": 8,
+                        "maxLv": 10
+                    },
+                    {
+                        "pokemon": 659,
+                        "percent": 15,
+                        "minLv": 8,
+                        "maxLv": 10
+                    },
+                    {
+                        "pokemon": 674,
+                        "percent": 10,
+                        "minLv": 8,
+                        "maxLv": 10
+                    },
+                    {
+                        "pokemon": 759,
+                        "percent": 10,
+                        "minLv": 8,
+                        "maxLv": 10
+                    },
+                    { "pokemon": 11, "percent": 5, "minLv": 8, "maxLv": 10 },
+                    { "pokemon": 236, "percent": 5, "minLv": 8, "maxLv": 10 },
+                    { "pokemon": 702, "percent": 5, "minLv": 8, "maxLv": 10 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 819,
+                        "percent": 74,
+                        "minLv": 8,
+                        "maxLv": 10
+                    },
+                    {
+                        "pokemon": 420,
+                        "percent": 25,
+                        "minLv": 8,
+                        "maxLv": 10
+                    },
+                    { "pokemon": 789, "percent": 1, "minLv": 8, "maxLv": 10 }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 519,
+                        "percent": 75,
+                        "minLv": 10,
+                        "maxLv": 12
+                    },
+                    { "pokemon": 12, "percent": 25, "minLv": 10, "maxLv": 12 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Dappled Grove 0-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 43,
+                        "percent": 25,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 406,
+                        "percent": 15,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 415,
+                        "percent": 10,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 270,
+                        "percent": 10,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 273,
+                        "percent": 10,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 252,
+                        "percent": 10,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 677,
+                        "percent": 10,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 108,
+                        "percent": 5,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    { "pokemon": 840, "percent": 5, "minLv": 11, "maxLv": 13 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 819,
+                        "percent": 50,
+                        "minLv": 11,
+                        "maxLv": 13
+                    },
+                    {
+                        "pokemon": 420,
+                        "percent": 50,
+                        "minLv": 11,
+                        "maxLv": 13
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "West Lake Axewell 1-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 535,
+                        "percent": 20,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 194,
+                        "percent": 20,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 98,
+                        "percent": 15,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 762,
+                        "percent": 15,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 278,
+                        "percent": 10,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 258,
+                        "percent": 10,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 290,
+                        "percent": 5,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    { "pokemon": 587, "percent": 5, "minLv": 21, "maxLv": 24 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 223,
+                        "percent": 50,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 339,
+                        "percent": 40,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 21, "maxLv": 24 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 278,
+                        "percent": 55,
+                        "minLv": 38,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": 592,
+                        "percent": 25,
+                        "minLv": 38,
+                        "maxLv": 40
+                    },
+                    {
+                        "pokemon": 90,
+                        "percent": 15,
+                        "minLv": 38,
+                        "maxLv": 40
+                    },
+                    { "pokemon": 131, "percent": 5, "minLv": 38, "maxLv": 40 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "East Lake Axewell 1-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 341,
+                        "percent": 20,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 519,
+                        "percent": 15,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 568,
+                        "percent": 15,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 509,
+                        "percent": 10,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 177,
+                        "percent": 10,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 278,
+                        "percent": 10,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 850,
+                        "percent": 10,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    { "pokemon": 81, "percent": 10, "minLv": 21, "maxLv": 24 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 223,
+                        "percent": 50,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 118,
+                        "percent": 40,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 21,
+                        "maxLv": 24
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 21, "maxLv": 24 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 278,
+                        "percent": 55,
+                        "minLv": 40,
+                        "maxLv": 43
+                    },
+                    {
+                        "pokemon": 592,
+                        "percent": 25,
+                        "minLv": 40,
+                        "maxLv": 43
+                    },
+                    {
+                        "pokemon": 90,
+                        "percent": 15,
+                        "minLv": 40,
+                        "maxLv": 43
+                    },
+                    { "pokemon": 131, "percent": 5, "minLv": 40, "maxLv": 43 }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 12,
+                        "percent": 75,
+                        "minLv": 21,
+                        "maxLv": 25
+                    },
+                    {
+                        "pokemon": 520,
+                        "percent": 25,
+                        "minLv": 21,
+                        "maxLv": 25
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "North Lake Miloch 2-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 333,
+                        "percent": 20,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 434,
+                        "percent": 15,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 764,
+                        "percent": 15,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 548,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 822,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 241,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 206,
+                        "percent": 5,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 447,
+                        "percent": 5,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    { "pokemon": 83, "percent": 5, "minLv": 26, "maxLv": 30 },
+                    { "pokemon": 52, "percent": 5, "minLv": 26, "maxLv": 30 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 10016,
+                        "percent": 50,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 692,
+                        "percent": 40,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 26, "maxLv": 30 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 72,
+                        "percent": 60,
+                        "minLv": 42,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 278,
+                        "percent": 25,
+                        "minLv": 42,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 425,
+                        "percent": 10,
+                        "minLv": 42,
+                        "maxLv": 45
+                    },
+                    { "pokemon": 319, "percent": 5, "minLv": 42, "maxLv": 45 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 420,
+                        "percent": 25,
+                        "minLv": 26,
+                        "maxLv": 30
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "South Lake Miloch 2-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 595,
+                        "percent": 20,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 39,
+                        "percent": 20,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 753,
+                        "percent": 15,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 281,
+                        "percent": 15,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 33,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 30,
+                        "percent": 10,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 127,
+                        "percent": 5,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    { "pokemon": 214, "percent": 5, "minLv": 26, "maxLv": 30 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 550,
+                        "percent": 50,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 690,
+                        "percent": 40,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 26, "maxLv": 30 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 72,
+                        "percent": 60,
+                        "minLv": 41,
+                        "maxLv": 44
+                    },
+                    {
+                        "pokemon": 278,
+                        "percent": 25,
+                        "minLv": 41,
+                        "maxLv": 44
+                    },
+                    {
+                        "pokemon": 425,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 44
+                    },
+                    { "pokemon": 319, "percent": 5, "minLv": 41, "maxLv": 44 }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 278,
+                        "percent": 85,
+                        "minLv": 26,
+                        "maxLv": 30
+                    },
+                    {
+                        "pokemon": 425,
+                        "percent": 15,
+                        "minLv": 26,
+                        "maxLv": 30
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Giant's Seat 3-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 436,
+                        "percent": 20,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 67,
+                        "percent": 20,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 123,
+                        "percent": 15,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 294,
+                        "percent": 10,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 128,
+                        "percent": 10,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 95,
+                        "percent": 10,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 255,
+                        "percent": 10,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    { "pokemon": 371, "percent": 5, "minLv": 33, "maxLv": 35 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 10173,
+                        "percent": 65,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 747,
+                        "percent": 25,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 33, "maxLv": 35 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 25,
+                        "minLv": 33,
+                        "maxLv": 35
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Watchtower Ruins 3-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 35,
+                        "percent": 20,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 92,
+                        "percent": 20,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 607,
+                        "percent": 15,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 355,
+                        "percent": 15,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 425,
+                        "percent": 10,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 359,
+                        "percent": 10,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 10107,
+                        "percent": 5,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    { "pokemon": 562, "percent": 5, "minLv": 33, "maxLv": 35 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 50,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 50,
+                        "minLv": 33,
+                        "maxLv": 35
+                    }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 528,
+                        "percent": 60,
+                        "minLv": 33,
+                        "maxLv": 35
+                    },
+                    {
+                        "pokemon": 714,
+                        "percent": 40,
+                        "minLv": 33,
+                        "maxLv": 35
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Motostoke Riverbank 4-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 597,
+                        "percent": 15,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 77,
+                        "percent": 15,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 114,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 125,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 561,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 303,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 122,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 446,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    { "pokemon": 213, "percent": 5, "minLv": 36, "maxLv": 38 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 211,
+                        "percent": 50,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 120,
+                        "percent": 40,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 36, "maxLv": 38 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 846,
+                        "percent": 65,
+                        "minLv": 40,
+                        "maxLv": 43
+                    },
+                    {
+                        "pokemon": 195,
+                        "percent": 30,
+                        "minLv": 40,
+                        "maxLv": 43
+                    },
+                    { "pokemon": 871, "percent": 5, "minLv": 40, "maxLv": 43 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 25,
+                        "minLv": 36,
+                        "maxLv": 38
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Bridge Field 4-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 742,
+                        "percent": 20,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 605,
+                        "percent": 15,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 848,
+                        "percent": 15,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 102,
+                        "percent": 15,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 176,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 778,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 10175,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 264,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 10101,
+                        "percent": 5,
+                        "minLv": 36,
+                        "maxLv": 38
+                    }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 170,
+                        "percent": 45,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 183,
+                        "percent": 45,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 222,
+                        "percent": 10,
+                        "minLv": 36,
+                        "maxLv": 38
+                    }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 592,
+                        "percent": 55,
+                        "minLv": 40,
+                        "maxLv": 43
+                    },
+                    {
+                        "pokemon": 211,
+                        "percent": 30,
+                        "minLv": 40,
+                        "maxLv": 43
+                    },
+                    {
+                        "pokemon": 686,
+                        "percent": 15,
+                        "minLv": 40,
+                        "maxLv": 43
+                    }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 25,
+                        "minLv": 36,
+                        "maxLv": 38
+                    }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 714,
+                        "percent": 60,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    {
+                        "pokemon": 528,
+                        "percent": 35,
+                        "minLv": 36,
+                        "maxLv": 38
+                    },
+                    { "pokemon": 521, "percent": 5, "minLv": 36, "maxLv": 38 }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Stony Wilderness 5-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 343,
+                        "percent": 20,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 622,
+                        "percent": 20,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 533,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 557,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 627,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 629,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 626,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 554,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 45
+                    }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 520,
+                        "percent": 60,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 561,
+                        "percent": 40,
+                        "minLv": 41,
+                        "maxLv": 45
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Hammerlocke Hills 5-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 680,
+                        "percent": 20,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 878,
+                        "percent": 20,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 624,
+                        "percent": 15,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 767,
+                        "percent": 15,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 707,
+                        "percent": 10,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 621,
+                        "percent": 5,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 185,
+                        "percent": 5,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 538,
+                        "percent": 5,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    { "pokemon": 539, "percent": 5, "minLv": 41, "maxLv": 45 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 41,
+                        "maxLv": 45
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 25,
+                        "minLv": 41,
+                        "maxLv": 45
+                    }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 227,
+                        "percent": 100,
+                        "minLv": 41,
+                        "maxLv": 45
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Giant's Mirror 6-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Ground",
+                "pokemon": [
+                    {
+                        "pokemon": 530,
+                        "percent": 50,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 526,
+                        "percent": 30,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 511,
+                        "percent": 20,
+                        "minLv": 48,
+                        "maxLv": 50
+                    }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 629,
+                        "percent": 20,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 627,
+                        "percent": 20,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 870,
+                        "percent": 20,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 451,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 780,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 776,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 632,
+                        "percent": 5,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    { "pokemon": 631, "percent": 5, "minLv": 48, "maxLv": 50 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 686,
+                        "percent": 50,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 90,
+                        "percent": 40,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 48, "maxLv": 50 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 369,
+                        "percent": 65,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 565,
+                        "percent": 35,
+                        "minLv": 51,
+                        "maxLv": 55
+                    }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 25,
+                        "minLv": 48,
+                        "maxLv": 50
+                    }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 520,
+                        "percent": 60,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 822,
+                        "percent": 40,
+                        "minLv": 48,
+                        "maxLv": 50
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Giant's Cap 6-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Ground",
+                "pokemon": [
+                    {
+                        "pokemon": 338,
+                        "percent": 50,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 337,
+                        "percent": 50,
+                        "minLv": 48,
+                        "maxLv": 50
+                    }
+                ]
+            },
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 329,
+                        "percent": 20,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 751,
+                        "percent": 15,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 559,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 453,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 111,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 588,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 616,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 701,
+                        "percent": 10,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    { "pokemon": 636, "percent": 5, "minLv": 48, "maxLv": 50 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 341,
+                        "percent": 70,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 846,
+                        "percent": 20,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 48, "maxLv": 50 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 48,
+                        "maxLv": 50
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 25,
+                        "minLv": 48,
+                        "maxLv": 50
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Dusty Bowl 7-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 305,
+                        "percent": 20,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 246,
+                        "percent": 15,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 530,
+                        "percent": 15,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 141,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 348,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 567,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 699,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 697,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 346,
+                        "percent": 45,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 139,
+                        "percent": 45,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 51, "maxLv": 55 }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 369,
+                        "percent": 65,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 565,
+                        "percent": 35,
+                        "minLv": 51,
+                        "maxLv": 55
+                    }
+                ]
+            },
+            {
+                "type": "Flying",
+                "pokemon": [
+                    {
+                        "pokemon": 142,
+                        "percent": 50,
+                        "minLv": 54,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 628,
+                        "percent": 25,
+                        "minLv": 54,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 630,
+                        "percent": 25,
+                        "minLv": 54,
+                        "maxLv": 55
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Axew's Eye 7-B",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 611,
+                        "percent": 35,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 760,
+                        "percent": 20,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 37,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 10103,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 137,
+                        "percent": 10,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 810,
+                        "percent": 5,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 813,
+                        "percent": 5,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    { "pokemon": 816, "percent": 5, "minLv": 51, "maxLv": 55 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 61,
+                        "percent": 45,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 117,
+                        "percent": 45,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 349,
+                        "percent": 5,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    { "pokemon": 129, "percent": 5, "minLv": 51, "maxLv": 55 }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 820,
+                        "percent": 75,
+                        "minLv": 51,
+                        "maxLv": 55
+                    },
+                    {
+                        "pokemon": 421,
+                        "percent": 25,
+                        "minLv": 51,
+                        "maxLv": 55
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Lake of Outrage 8-A",
+        "trainers": [],
+        "encounters": [
+            {
+                "type": "Grass",
+                "pokemon": [
+                    {
+                        "pokemon": 374,
+                        "percent": 20,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 443,
+                        "percent": 20,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 633,
+                        "percent": 20,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 371,
+                        "percent": 15,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 885,
+                        "percent": 15,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 132,
+                        "percent": 5,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    { "pokemon": 133, "percent": 5, "minLv": 56, "maxLv": 58 }
+                ]
+            },
+            {
+                "type": "Fish",
+                "pokemon": [
+                    {
+                        "pokemon": 148,
+                        "percent": 90,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 781,
+                        "percent": 10,
+                        "minLv": 56,
+                        "maxLv": 58
+                    }
+                ]
+            },
+            {
+                "type": "Water",
+                "pokemon": [
+                    {
+                        "pokemon": 226,
+                        "percent": 60,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 320,
+                        "percent": 30,
+                        "minLv": 56,
+                        "maxLv": 58
+                    },
+                    {
+                        "pokemon": 713,
+                        "percent": 10,
+                        "minLv": 56,
+                        "maxLv": 58
+                    }
+                ]
+            },
+            {
+                "type": "Trees",
+                "pokemon": [
+                    {
+                        "pokemon": 421,
+                        "percent": 100,
+                        "minLv": 56,
+                        "maxLv": 58
+                    }
+                ]
+            }
+        ],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "[Catch the Purple Raid Den!] 8-B",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "No Location",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": []
+    }
+]

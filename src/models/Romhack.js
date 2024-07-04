@@ -42,7 +42,8 @@ class Romhack {
         trainers,
         shops,
         locations,
-        tms
+        tms,
+        spriteId
     ) {
         this.id = id;
         this.name = name;
@@ -55,11 +56,11 @@ class Romhack {
         this.types = types;
         this.tutors = tutors;
         this.tutorMoves = tutorMoves;
-        this.trainerClasses = trainerClasses;
         this.trainers = trainers;
         this.shops = shops;
         this.locations = locations;
         this.tms = tms
+        this.spriteId = spriteId
     }
 
     homeDisplay(index) {
@@ -88,12 +89,12 @@ class Romhack {
         regionalDexOrder,
         pokedexEdits,
         itemEdits,
-        trainerClassData,
         trainerData,
         thumbnail,
         shopData,
         locationData,
-        tmData
+        tmData,
+        spriteId
     ) {
         const abilities = Ability.makeArray(Help.filterByGen(abilityData, gen));
         const types = Type.makeArray(typeData);
@@ -131,7 +132,8 @@ class Romhack {
             species
         );
 
-        const trainerClasses = TrainerClass.makeArray(trainerClassData);
+        const trainerClasses = TrainerClass.makeArray();
+        // console.log(trainerClasses)
         const trainers = Trainer.makeArray(
             trainerData,
             trainerClasses,
@@ -161,7 +163,8 @@ class Romhack {
             trainers,
             shops,
             locations,
-            tms
+            tms,
+            spriteId
         );
     }
 }

@@ -17,6 +17,7 @@ const TrainerList = (props) => {
             if (index % 2) {
                 bgColor = "white";
             }
+            // console.log(`/trainerClasses/${trainer.trainerClass.id}-${selectedRomhack.spriteId}.png`)
             return (
                 <Link
                     className="suppress-link"
@@ -43,6 +44,13 @@ const TrainerList = (props) => {
                                 {trainer.trainerClass.name} {trainer.name}
                             </h3>
                         </Grid>
+                                <Grid className="center" item xs={2}>
+                                    <img
+                                        src={`/trainerClasses/${trainer.trainerClass.id}-${selectedRomhack.spriteId}.png`}
+                                        alt={`Sprite of the ${trainer.trainerClass.name} Trainer Class`}
+                                        style={{height: "6rem"}}
+                                    />
+                                </Grid>
                         <Grid className="invis-xs" item sm={6}>
                             <TeamDisplay
                                 selectedTrainer={trainer}
@@ -56,17 +64,11 @@ const TrainerList = (props) => {
                                 }}
                             />
                         </Grid>
-                        <Grid className="center" item xs={2}>
-                            <img
-                                src={trainer.trainerClass.sprite}
-                                alt={`Sprite of the ${trainer.trainerClass.name} Trainer Class`}
-                            />
-                        </Grid>
                     </Grid>
                 </Link>
             );
         }
-        return <></>
+        return <div key={index}/>
     });
 
     return (

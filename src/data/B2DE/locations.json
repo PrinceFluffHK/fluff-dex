@@ -1438,15 +1438,15 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 54
+                        "opponent": 64
                     },
                     {
                         "battleType": 2,
-                        "opponent": 55
+                        "opponent": 65
                     },
                     {
                         "battleType": 2,
-                        "opponent": 56
+                        "opponent": 66
                     }
                 ],
                 "encounters": [

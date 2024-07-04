@@ -4,12 +4,14 @@ class Battle {
     constructor(battleType, opponent, partner, notes) {
         this.battleType = battleType;
         this.opponent = opponent;
-        this.partner = partner || [];
+        this.partner = partner || {};
         this.notes = notes || "";
     }
 
     listDisplay(topIndex, hackId, color, final) {
-        if (this.opponent.length) {
+        console.log(this, Array.isArray(this.opponent), topIndex)
+        if (Array.isArray(this.opponent)) {
+            console.warn("WAHOOO")
             const opponents = this.opponent.map((opponent, index) => {
                 // console.error("this", this);
                 return opponent.locationStandard(color, index, hackId, final, true);
@@ -41,7 +43,7 @@ class Battle {
                 return <div key={topIndex}>{opponents}</div>;
             }
         }
-        // console.log("1v1", this.opponent)
+        console.log("1v1", this.opponent)
         return this.opponent.locationStandard(color, topIndex, hackId, final);
     }
 }

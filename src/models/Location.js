@@ -16,7 +16,6 @@ class Location {
         this.id = id;
         this.name = name;
         this.trainers = trainers;
-        this.partners = 
         this.encounters = encounters;
         this.collectibles = collectibles;
         this.shops = shops;

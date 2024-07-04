@@ -107,7 +107,8 @@ class Trainer {
     }
 
     locationStandard(color, index, hackId, final, teammate) {
-        const teamView = this.teamView(hackId)
+        const romhack = Help.findInArray(hackId, romhackList);
+        const teamView = this.teamView(hackId);
 
         let className = "list-divider";
         if (index === 0) {
@@ -120,7 +121,6 @@ class Trainer {
         }
         if (teammate && index === 1) {
             className += " no-border";
-
         }
 
         return (
@@ -129,10 +129,13 @@ class Trainer {
                 style={{ backgroundColor: color }}
                 key={index}
             >
-                <Grid container >
+                <Grid container>
                     <Grid item xs={3} className="center">
                         <Link to={`/${hackId}/trainers/${this.id}`}>
-                            <img src={this.trainerClass.sprite} alt={`Sprite for the ${this.trainerClass.name} trainer class.`}/>
+                            <img
+                                src={`/trainerClasses/${this.trainerClass.id}-${romhack.spriteId}.png`}
+                                alt={`Sprite for the ${this.trainerClass.name} trainer class.`}
+                            />
                         </Link>
                     </Grid>
                     <Grid item xs={2} className="align-center">
