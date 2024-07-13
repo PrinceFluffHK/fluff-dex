@@ -3063,12 +3063,12 @@
             {
                 "nextMonId": 196,
                 "condition": 255,
-                "method": "Friendship"
+                "method": "Friendship, Day"
             },
             {
                 "nextMonId": 197,
                 "condition": 255,
-                "method": "Friendship"
+                "method": "Friendship, Night"
             },
             {
                 "nextMonId": 470,

@@ -340,7 +340,7 @@
             {
                 "nextMonId": 169,
                 "condition": 33,
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
@@ -531,7 +531,7 @@
             {
                 "nextMonId": 65,
                 "condition": "33",
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
@@ -561,7 +561,7 @@
             {
                 "nextMonId": 68,
                 "condition": 36,
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
@@ -736,7 +736,7 @@
             {
                 "nextMonId": 94,
                 "condition": 36,
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
@@ -753,7 +753,14 @@
         "noteName": "Onix",
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 208,
+                "condition": "Metal Coat",
+                "method": "Use Item"
+            }
+        ]
     },
     {
         "id": 98,
@@ -925,7 +932,7 @@
             {
                 "nextMonId": 242,
                 "condition": 50,
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
@@ -1129,7 +1136,49 @@
         "ability1": 132,
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 134,
+                "condition": "21, Water Stone",
+                "method": "Level, Use Item"
+            },
+            {
+                "nextMonId": 135,
+                "condition": "21, Thunder Stone",
+                "method": "Level, Use Item"
+            },
+            {
+                "nextMonId": 136,
+                "condition": "21, Fire Stone",
+                "method": "Level, Use Item"
+            },
+            {
+                "nextMonId": 196,
+                "condition": "21, Moon Stone",
+                "method": "Level, Use Item"
+            },
+            {
+                "nextMonId": 197,
+                "condition": "21, Sun Stone",
+                "method": "Level, Use Item"
+            },
+            {
+                "nextMonId": 470,
+                "condition": "21, Leaf Stone",
+                "method": "Level, Use Item"
+            },
+            {
+                "nextMonId": 471,
+                "condition": "21, Ice Stone",
+                "method": "Level, Use Item"
+            },
+            {
+                "nextMonId": 700,
+                "condition": "21, Shiny Stone",
+                "method": "Level, Use Item"
+            }
+        ]
     },
     {
         "id": 134,
@@ -1231,6 +1280,8 @@
     {
         "id": 145,
         "noteName": "Zapdos",
+        "ability1": 9,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1245,6 +1296,8 @@
     {
         "id": 146,
         "noteName": "Moltres",
+        "ability1": 49,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1259,6 +1312,8 @@
     {
         "id": 147,
         "noteName": "Dratini",
+        "ability2": 63,
+        "abilityH": 56,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1266,6 +1321,8 @@
     {
         "id": 148,
         "noteName": "Dragonair",
+        "ability2": 63,
+        "abilityH": 219,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1273,6 +1330,8 @@
     {
         "id": 149,
         "noteName": "Dragonite",
+        "ability2": 136,
+        "abilityH": 56,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1293,14 +1352,18 @@
     },
     {
         "id": 163,
-        "noteName": "",
+        "noteName": "Hoothoot",
+        "ability2": 110,
+        "abilityH": 51,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 164,
-        "noteName": "",
+        "noteName": "Noctowl",
+        "ability2": 110,
+        "abilityH": 51,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1314,21 +1377,25 @@
     },
     {
         "id": 170,
-        "noteName": "",
+        "noteName": "Chinchou",
+        "ability2": 219,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 171,
-        "noteName": "",
+        "noteName": "Lanturn",
+        "ability2": 219,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 172,
-        "noteName": "",
+        "noteName": "Pichu",
+        "ability1": 31,
+        "abilityH": 9,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": [],
@@ -1342,14 +1409,25 @@
     },
     {
         "id": 173,
-        "noteName": "",
+        "noteName": "Cleffa",
+        "ability1": 132,
+        "abilityH": 56,
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 35,
+                "condition": 12,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 174,
         "noteName": "Igglybuff",
+        "ability1": 132,
+        "abilityH": 56,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": [],
@@ -1357,20 +1435,31 @@
             {
                 "nextMonId": 39,
                 "condition": 12,
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
     {
         "id": 175,
         "noteName": "Togepi",
+        "ability1": 105,
+        "abilityH": 55,
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 176,
+                "condition": 12,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 176,
         "noteName": "Togetic",
+        "ability1": 105,
+        "abilityH": 55,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1378,6 +1467,8 @@
     {
         "id": 177,
         "noteName": "Natu",
+        "ability2": 156,
+        "abilityH": 48,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1385,13 +1476,17 @@
     {
         "id": 178,
         "noteName": "Xatu",
+        "ability2": 156,
+        "abilityH": 48,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 182,
-        "noteName": "",
+        "noteName": "Bellossom",
+        "type2": 18,
+        "ability1": 216,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1399,6 +1494,7 @@
     {
         "id": 183,
         "noteName": "Marill",
+        "ability1": 199,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": [],
@@ -1413,69 +1509,86 @@
     {
         "id": 184,
         "noteName": "Azumarill",
+        "ability1": 199,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 185,
-        "noteName": "",
+        "noteName": "Sudowoodo",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 186,
-        "noteName": "",
+        "noteName": "Politoed",
+        "ability2": 2,
+        "abilityH": 6,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 194,
-        "noteName": "",
+        "noteName": "Wooper",
+        "ability1": 109,
+        "abilityH": 6,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 195,
-        "noteName": "",
+        "noteName": "Quagsire",
+        "ability1": 109,
+        "abilityH": 6,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 196,
-        "noteName": "",
+        "noteName": "Espeon",
+        "ability1": 156,
+        "abilityH": 227,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 197,
-        "noteName": "",
+        "noteName": "Umbreon",
+        "ability1": 39,
+        "abilityH": 186,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 199,
-        "noteName": "",
+        "noteName": "Slowking",
+        "ability1": 144,
+        "ability2": 75,
+        "abilityH": 20,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10172,
-        "noteName": "",
+        "noteName": "Slowking Galar",
+        "ability1": 144,
+        "ability2": 261,
+        "abilityH": 20,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 202,
-        "noteName": "",
+        "noteName": "Wobbuffet",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1483,6 +1596,9 @@
     {
         "id": 206,
         "noteName": "Dunsparce",
+        "type2": 16,
+        "ability2": 126,
+        "spe": 65,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": [],
@@ -1490,112 +1606,139 @@
     },
     {
         "id": 208,
-        "noteName": "",
+        "noteName": "Steelix",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 211,
-        "noteName": "",
+        "noteName": "Qwilfish",
+        "ability1": 196,
+        "ability2": 22,
+        "abilityH": 33,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 212,
-        "noteName": "",
+        "noteName": "Scizor",
+        "ability2": 160,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 213,
-        "noteName": "",
+        "noteName": "Shuckle",
+        "ability2": 126,
+        "abilityH": 82,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 214,
-        "noteName": "",
+        "noteName": "Heracross",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 215,
-        "noteName": "",
+        "noteName": "Sneasel",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 220,
-        "noteName": "",
+        "noteName": "Swinub",
+        "ability2": 47,
+        "abilityH": 81,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 221,
-        "noteName": "",
+        "noteName": "Piloswine",
+        "ability2": 47,
+        "abilityH": 81,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 222,
-        "noteName": "",
+        "noteName": "Corsola",
+        "ability1": 144,
+        "abilityH": 55,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10172,
-        "noteName": "",
+        "noteName": "Corsola Galar",
+        "type2": 6,
+        "ability1": 130,
+        "abilityH": 133,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 223,
-        "noteName": "",
+        "noteName": "Remoraid",
+        "ability1": 178,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 224,
-        "noteName": "",
+        "noteName": "Octillery",
+        "ability1": 178,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 225,
-        "noteName": "",
+        "noteName": "Delibird",
+        "ability2": 15,
+        "abilityH": 55,
+        "hp": 56,
+        "atk": 80,
+        "def": 114,
+        "spa": 124,
+        "spd": 60,
+        "spe": 140,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 226,
-        "noteName": "",
+        "noteName": "Mantine",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 227,
-        "noteName": "",
+        "noteName": "Skarmory",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 230,
-        "noteName": "",
+        "noteName": "Kingdra",
+        "ability1": 6,
+        "abilityH": 33,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1616,322 +1759,373 @@
     },
     {
         "id": 236,
-        "noteName": "",
+        "noteName": "Tyrogue",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 237,
-        "noteName": "",
+        "noteName": "Hitmontop",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 238,
-        "noteName": "",
+        "noteName": "Smoochum",
+        "ability2": 93,
+        "abilityH": 108,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 239,
-        "noteName": "",
+        "noteName": "Elekid",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 240,
-        "noteName": "",
+        "noteName": "Magby",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 241,
-        "noteName": "",
+        "noteName": "Miltank",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 242,
-        "noteName": "",
+        "noteName": "Blissey",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 243,
-        "noteName": "",
+        "noteName": "Raikou",
+        "ability1": 39,
+        "ability2": 172,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 244,
-        "noteName": "",
+        "noteName": "Entei",
+        "ability1": 39,
+        "ability2": 128,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 245,
-        "noteName": "",
+        "noteName": "Suicune",
+        "ability1": 39,
+        "ability2": 44,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 246,
-        "noteName": "",
+        "noteName": "Larvitar",
+        "ability2": 5,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 247,
-        "noteName": "",
+        "noteName": "Pupitar",
+        "ability2": 61,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 248,
-        "noteName": "",
+        "noteName": "Tyranitar",
+        "ability2": 22,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 249,
-        "noteName": "",
+        "noteName": "Lugia",
+        "ability1": 136,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 250,
-        "noteName": "",
+        "noteName": "Ho-Oh",
+        "ability1": 144,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 251,
-        "noteName": "",
+        "noteName": "Celebi",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 252,
-        "noteName": "",
+        "noteName": "Treecko",
+        "ability2": 101,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 253,
-        "noteName": "",
+        "noteName": "Grovyle",
+        "ability2": 101,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 254,
-        "noteName": "",
+        "noteName": "Sceptile",
+        "type2": 16,
+        "ability2": 101,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 255,
-        "noteName": "",
+        "noteName": "Torchic",
+        "ability2": 153,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 256,
-        "noteName": "",
+        "noteName": "Combusken",
+        "ability2": 153,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 257,
-        "noteName": "",
+        "noteName": "Blaziken",
+        "ability2": 153,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 258,
-        "noteName": "",
+        "noteName": "Mudkip",
+        "ability2": 192,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 259,
-        "noteName": "",
+        "noteName": "Marshtomp",
+        "ability2": 192,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 260,
-        "noteName": "",
+        "noteName": "Swampert",
+        "ability2": 192,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 263,
-        "noteName": "",
+        "noteName": "Zigzagoon",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10174,
-        "noteName": "",
+        "noteName": "Zigzagoon Galar",
+        "ability1": 7,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 264,
-        "noteName": "",
+        "noteName": "Linoone",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10175,
-        "noteName": "",
+        "noteName": "Linoone Galar",
+        "ability1": 7,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 270,
-        "noteName": "",
+        "noteName": "Lotad",
+        "ability1": 20,
+        "abilityH": 33,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 271,
-        "noteName": "",
+        "noteName": "Lombre",
+        "ability1": 20,
+        "abilityH": 33,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 272,
-        "noteName": "",
+        "noteName": "Ludicolo",
+        "ability1": 20,
+        "abilityH": 33,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 273,
-        "noteName": "",
+        "noteName": "Seedot",
+        "ability2": 99,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 274,
-        "noteName": "",
+        "noteName": "Nuzleaf",
+        "ability2": 99,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 275,
-        "noteName": "",
+        "noteName": "Shiftry",
+        "ability2": 99,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 278,
-        "noteName": "",
+        "noteName": "Wingull",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 279,
-        "noteName": "",
+        "noteName": "Pelipper",
+        "ability1": 177,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 280,
-        "noteName": "",
+        "noteName": "Ralts",
+        "ability1": 140,
+        "abilityH": 28,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 281,
-        "noteName": "",
+        "noteName": "Kirlia",
+        "ability1": 140,
+        "abilityH": 28,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 282,
-        "noteName": "",
+        "noteName": "Gardevoir",
+        "ability1": 140,
+        "abilityH": 28,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 290,
-        "noteName": "",
+        "noteName": "Nincada",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 291,
-        "noteName": "",
+        "noteName": "Ninjask",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 292,
-        "noteName": "",
+        "noteName": "Shedinja",
+        "ability1": 147,
+        "abilityH": 25,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 293,
-        "noteName": "",
+        "noteName": "Whismur",
+        "ability2": 193,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 294,
-        "noteName": "",
+        "noteName": "Loudred",
+        "ability2": 244,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 295,
-        "noteName": "",
+        "noteName": "Exploud",
+        "ability2": 244,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -1939,6 +2133,7 @@
     {
         "id": 298,
         "noteName": "Azurill",
+        "ability1": 199,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": [],
@@ -1946,118 +2141,138 @@
             {
                 "nextMonId": 183,
                 "condition": 12,
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
     {
         "id": 302,
-        "noteName": "",
+        "noteName": "Sableye",
+        "def": 100,
+        "spd": 90,
+        "ability1": 158,
+        "abilityH": 100,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 303,
-        "noteName": "",
+        "noteName": "Mawile",
+        "atk": 75,
+        "spd": 95,
+        "spe": 40,
+        "ability1": 37,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 304,
-        "noteName": "",
+        "noteName": "Aron",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 305,
-        "noteName": "",
+        "noteName": "Lairon",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 306,
-        "noteName": "",
+        "noteName": "Aggron",
+        "type2": 16,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 309,
-        "noteName": "",
+        "noteName": "Electrike",
+        "ability1": 9,
+        "abilityH": 58,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 310,
-        "noteName": "",
+        "noteName": "Manectric",
+        "ability1": 226,
+        "abilityH": 58,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 315,
-        "noteName": "",
+        "noteName": "Roselia",
+        "ability2": 102,
+        "abilityH": 38,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 318,
-        "noteName": "",
+        "noteName": "Carvanha",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 319,
-        "noteName": "",
+        "noteName": "Sharpedo",
+        "ability1": 173,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 320,
-        "noteName": "",
+        "noteName": "Wailmer",
+        "ability1": 47,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 321,
-        "noteName": "",
+        "noteName": "Wailord",
+        "ability1": 47,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 324,
-        "noteName": "",
+        "noteName": "Torkoal",
+        "ability1": 75,
+        "abilityH": 73,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 328,
-        "noteName": "",
+        "noteName": "Trapinch",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 329,
-        "noteName": "",
+        "noteName": "Vibrava",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 330,
-        "noteName": "",
+        "noteName": "Flygon",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2065,6 +2280,7 @@
     {
         "id": 333,
         "noteName": "Swablu",
+        "type2": 18,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2072,118 +2288,143 @@
     {
         "id": 334,
         "noteName": "Altaria",
+        "type2": 18,
+        "ability1": 182,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 337,
-        "noteName": "",
+        "noteName": "Lunatone",
+        "hp": 120,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 338,
-        "noteName": "",
+        "noteName": "Solrock",
+        "hp": 120,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 339,
-        "noteName": "",
+        "noteName": "Barboach",
+        "ability2": 146,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 340,
-        "noteName": "",
+        "noteName": "Whiscash",
+        "ability2": 146,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 341,
-        "noteName": "",
+        "noteName": "Corphish",
+        "ability1": 91,
+        "abilityH": 52,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 342,
-        "noteName": "",
+        "noteName": "Crawdaunt",
+        "ability1": 91,
+        "abilityH": 52,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 343,
-        "noteName": "",
+        "noteName": "Baltoy",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 344,
-        "noteName": "",
+        "noteName": "Claydol",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 345,
-        "noteName": "",
+        "noteName": "Lileep",
+        "ability1": 114,
+        "abilityH": 21,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 346,
-        "noteName": "",
+        "noteName": "Cradily",
+        "ability1": 114,
+        "abilityH": 21,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 347,
-        "noteName": "",
+        "noteName": "Anorith",
+        "ability1": 33,
+        "abilityH": 4,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 348,
-        "noteName": "",
+        "noteName": "Armaldo",
+        "ability1": 33,
+        "abilityH": 4,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 349,
-        "noteName": "",
+        "noteName": "Feebas",
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 350,
+                "condition": "Prism Scale",
+                "method": "Use Item"
+            }
+        ]
     },
     {
         "id": 350,
-        "noteName": "",
+        "noteName": "Milotic",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 355,
-        "noteName": "",
+        "noteName": "Duskull",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 356,
-        "noteName": "",
+        "noteName": "Dusclops",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2191,55 +2432,59 @@
     {
         "id": 359,
         "noteName": "Absol",
+        "type2": 18,
+        "ability1": 186,
+        "ability2": 187,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 360,
-        "noteName": "",
+        "noteName": "Wynaut",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 361,
-        "noteName": "",
+        "noteName": "Snorunt",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 362,
-        "noteName": "",
+        "noteName": "Glalie",
+        "ability1": 174,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 363,
-        "noteName": "",
+        "noteName": "Spheal",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 364,
-        "noteName": "",
+        "noteName": "Sealeo",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 365,
-        "noteName": "",
+        "noteName": "Walrein",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 369,
-        "noteName": "",
+        "noteName": "Relicanth",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2247,6 +2492,7 @@
     {
         "id": 371,
         "noteName": "Bagon",
+        "abilityH": 100,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2254,6 +2500,7 @@
     {
         "id": 372,
         "noteName": "Shelgon",
+        "abilityH": 100,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2261,6 +2508,7 @@
     {
         "id": 373,
         "noteName": "Salamence",
+        "abilityH": 184,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2289,6 +2537,8 @@
     {
         "id": 377,
         "noteName": "Regirock",
+        "ability1": 249,
+        "abilityH": 29,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2296,6 +2546,8 @@
     {
         "id": 378,
         "noteName": "Regice",
+        "ability1": 174,
+        "abilityH": 29,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2303,139 +2555,161 @@
     {
         "id": 379,
         "noteName": "Registeel",
+        "ability1": 252,
+        "abilityH": 29,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 380,
-        "noteName": "",
+        "noteName": "Latias",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 381,
-        "noteName": "",
+        "noteName": "Latios",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 382,
-        "noteName": "",
+        "noteName": "Kyogre",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 383,
-        "noteName": "",
+        "noteName": "Groudon",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 384,
-        "noteName": "",
+        "noteName": "Rayquaza",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 385,
-        "noteName": "",
+        "noteName": "Jirachi",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 403,
-        "noteName": "",
+        "noteName": "Shinx",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 404,
-        "noteName": "",
+        "noteName": "Luxio",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 405,
-        "noteName": "",
+        "noteName": "Luxray",
+        "type2": 17,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 406,
-        "noteName": "",
+        "noteName": "Budew",
+        "ability2": 102,
+        "abilityH": 38,
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 315,
+                "condition": 12,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 407,
-        "noteName": "",
+        "noteName": "Roserade",
+        "ability2": 229,
+        "abilityH": 38,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 415,
-        "noteName": "",
+        "noteName": "Combee",
+        "ability1": 55,
+        "abilityH": 118,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 416,
-        "noteName": "",
+        "noteName": "Vespiquen",
+        "ability1": 214,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 420,
-        "noteName": "",
+        "noteName": "Cherubi",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 421,
-        "noteName": "",
+        "noteName": "Cherrim",
+        "type2": 10,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 422,
-        "noteName": "",
+        "noteName": "Shellos",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 423,
-        "noteName": "",
+        "noteName": "Gastrodon",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 425,
-        "noteName": "",
+        "noteName": "Drifloon",
+        "ability1": 138,
+        "abilityH": 106,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 426,
-        "noteName": "",
+        "noteName": "Drifblim",
+        "ability1": 138,
+        "abilityH": 106,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2443,48 +2717,61 @@
     {
         "id": 427,
         "noteName": "Buneary",
+        "ability2": 7,
+        "abilityH": 103,
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 428,
+                "condition": 25,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 428,
         "noteName": "Lopunny",
+        "type2": 2,
+        "ability1": 113,
+        "ability2": 7,
+        "abilityH": 103,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 434,
-        "noteName": "",
+        "noteName": "Stunky",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 435,
-        "noteName": "",
+        "noteName": "Skuntank",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 436,
-        "noteName": "",
+        "noteName": "Bronzor",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 437,
-        "noteName": "",
+        "noteName": "Bronzong",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 438,
-        "noteName": "",
+        "noteName": "Bonsly",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -2524,336 +2811,387 @@
     },
     {
         "id": 442,
-        "noteName": "",
+        "noteName": "Spiritomb",
+        "ability1": 151,
+        "abilityH": 46,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 443,
-        "noteName": "",
+        "noteName": "Gible",
+        "ability1": 24,
+        "abilityH": 159,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 444,
-        "noteName": "",
+        "noteName": "Gabite",
+        "ability1": 24,
+        "abilityH": 159,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 445,
-        "noteName": "",
+        "noteName": "Garchomp",
+        "ability1": 24,
+        "abilityH": 159,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 446,
-        "noteName": "",
+        "noteName": "Munchlax",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 447,
-        "noteName": "",
+        "noteName": "Riolu",
+        "ability1": 158,
+        "abilityH": 80,
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 448,
+                "condition": 35,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 448,
-        "noteName": "",
+        "noteName": "Lucario",
+        "ability1": 91,
+        "abilityH": 80,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 449,
-        "noteName": "",
+        "noteName": "Hippopotas",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 450,
-        "noteName": "",
+        "noteName": "Hippowdon",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 451,
-        "noteName": "",
+        "noteName": "Skorupi",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 452,
-        "noteName": "",
+        "noteName": "Drapion",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 453,
-        "noteName": "",
+        "noteName": "Croagunk",
+        "ability1": 143,
+        "abilityH": 107,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 454,
-        "noteName": "",
+        "noteName": "Toxicroak",
+        "ability1": 143,
+        "abilityH": 107,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 458,
-        "noteName": "",
+        "noteName": "Mantyke",
         "levelLearn": [],
         "tmLearn": [],
-        "tutorLearn": []
+        "tutorLearn": [],
+        "evoTo": [
+            {
+                "nextMonId": 226,
+                "condition": 31,
+                "method": "Level-Up"
+            }
+        ]
     },
     {
         "id": 459,
-        "noteName": "",
+        "noteName": "Snover",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 460,
-        "noteName": "",
+        "noteName": "Abomasnow",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 461,
-        "noteName": "",
+        "noteName": "Weavile",
+        "ability1": 39,
+        "ability2": 51,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 462,
-        "noteName": "",
+        "noteName": "Magnezone",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 463,
-        "noteName": "",
+        "noteName": "Lickilicky",
+        "type2": 18,
+        "ability1": 228,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 464,
-        "noteName": "",
+        "noteName": "Rhyperior",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 465,
-        "noteName": "",
+        "noteName": "Tangrowth",
+        "ability1": 144,
+        "abilityH": 34,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 466,
-        "noteName": "",
+        "noteName": "Electivire",
+        "type2": 2,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 467,
-        "noteName": "",
+        "noteName": "Magmortar",
+        "type2": 17,
+        "ability1": 178,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 468,
-        "noteName": "",
+        "noteName": "Togekiss",
+        "ability1": 105,
+        "abilityH": 55,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 470,
-        "noteName": "",
+        "noteName": "Leafeon",
+        "ability1": 34,
+        "abilityH": 229,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 471,
-        "noteName": "",
+        "noteName": "Glaceon",
+        "ability1": 202,
+        "abilityH": 117,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 473,
-        "noteName": "",
+        "noteName": "Mamoswine",
+        "ability1": 22,
+        "ability2": 47,
+        "abilityH": 81,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 474,
-        "noteName": "",
+        "noteName": "Porygon-Z",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 475,
-        "noteName": "",
+        "noteName": "Gallade",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 477,
-        "noteName": "",
+        "noteName": "Dusknoir",
+        "ability1": 26,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 478,
-        "noteName": "",
+        "noteName": "Froslass",
+        "ability1": 253,
+        "abilityH": 81,
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 479,
-        "noteName": "",
+        "noteName": "Rotom",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10008,
-        "noteName": "",
+        "noteName": "Rotom: Heat",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10009,
-        "noteName": "",
+        "noteName": "Rotom: Wash",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10010,
-        "noteName": "",
+        "noteName": "Rotom: Frost",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10011,
-        "noteName": "",
+        "noteName": "Rotom: Fan",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10012,
-        "noteName": "",
+        "noteName": "Rotom: Mow",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 480,
-        "noteName": "",
+        "noteName": "Uxie",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 481,
-        "noteName": "",
+        "noteName": "Mesprit",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 482,
-        "noteName": "",
+        "noteName": "Azelf",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 483,
-        "noteName": "",
+        "noteName": "Dialga",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 484,
-        "noteName": "",
+        "noteName": "Palkia",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 485,
-        "noteName": "",
+        "noteName": "Heatran",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 486,
-        "noteName": "",
+        "noteName": "Regigigas",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 487,
-        "noteName": "",
+        "noteName": "Giratina",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 10007,
-        "noteName": "",
+        "noteName": "Giratina: Origin",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 488,
-        "noteName": "",
+        "noteName": "Cresselia",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
     },
     {
         "id": 494,
-        "noteName": "",
+        "noteName": "Victini",
         "levelLearn": [],
         "tmLearn": [],
         "tutorLearn": []
@@ -4832,7 +5170,7 @@
             {
                 "nextMonId": 809,
                 "condition": 60,
-                "method": "Level"
+                "method": "Level-Up"
             }
         ]
     },
