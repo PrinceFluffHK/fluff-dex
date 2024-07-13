@@ -32,7 +32,8 @@ const b2de = Romhack.make(
     shopData,
     locationData,
     tmData,
-    5
+    5,
+    true
 );
 
 export default b2de;

@@ -29,6 +29,22 @@ class Help {
             return vanillaObj;
         });
     }
+    static editSpecies(vanillaObjArray, editObjArray) {
+        return vanillaObjArray.map((vanillaObj) => {
+            const editsObj = editObjArray.find((editObj) => {
+                return vanillaObj.id === editObj.id;
+            });
+            if (editsObj) {
+                return { ...vanillaObj, ...editsObj };
+            }
+            const blankEdits = {
+                levelLearn: [],
+                tmLearn: [],
+                tutorLearn: [],
+            };
+            return { ...vanillaObj, ...blankEdits };
+        });
+    }
 
     static getDexSize(gen) {
         switch (gen) {
@@ -51,7 +67,7 @@ class Help {
             case 9:
                 return 1025;
             default:
-                return 0
+                return 0;
         }
     }
 }

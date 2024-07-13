@@ -5,7 +5,6 @@ import Help from "./Help";
 
 class Location {
     constructor(
-        id,
         name,
         trainers,
         encounters,
@@ -13,7 +12,6 @@ class Location {
         shops,
         subLocations,
     ) {
-        this.id = id;
         this.name = name;
         this.trainers = trainers;
         this.encounters = encounters;
@@ -66,7 +64,6 @@ class Location {
             : [];
 
         return new Location(
-            locationObj.id,
             locationObj.name,
             locTrainers,
             locEncounters,

@@ -38,12 +38,13 @@ class Romhack {
         types,
         tutors,
         tutorMoves,
-        trainerClasses,
+        trainerClasses, 
         trainers,
         shops,
         locations,
         tms,
-        spriteId
+        spriteId,
+        nationalDexBool,
     ) {
         this.id = id;
         this.name = name;
@@ -57,10 +58,12 @@ class Romhack {
         this.tutors = tutors;
         this.tutorMoves = tutorMoves;
         this.trainers = trainers;
+        this.trainerClasses = trainerClasses
         this.shops = shops;
         this.locations = locations;
         this.tms = tms
         this.spriteId = spriteId
+        this.nationalDexBool = nationalDexBool
     }
 
     homeDisplay(index) {
@@ -94,8 +97,10 @@ class Romhack {
         shopData,
         locationData,
         tmData,
-        spriteId
+        spriteId,
+        nationalDexBool
     ) {
+        // console.error(title, nationalDexBool)
         const abilities = Ability.makeArray(Help.filterByGen(abilityData, gen));
         const types = Type.makeArray(typeData);
         const moves = Move.makeArray(
@@ -111,9 +116,9 @@ class Romhack {
         );
 
         const tms = TmMove.makeArray(tmData, items, moves)
-        // console.log(tms)
+        console.warn("HELLO FROM TMS")
         const species = Pokemon.makeArray(
-            Help.insertEdits(Help.filterByGen(speciesData, gen), speciesEdits),
+            Help.editSpecies(Help.filterByGen(speciesData, gen), speciesEdits),
             types,
             abilities,
             moves,
@@ -121,16 +126,24 @@ class Romhack {
             tms
         );
 
-        const nationalDex = Pokedex.makeNationalDex(
-            Help.insertEdits(pokedex, pokedexEdits),
-            species,
-            gen
-        );
         const regionalDex = Pokedex.makeRegionalDex(
             regionalDexOrder,
             Help.insertEdits(pokedex, pokedexEdits),
             species
         );
+
+        let nationalDex = []
+        if (nationalDexBool) {
+            // console.error("Hello from TRUE")
+            nationalDex = Pokedex.makeNationalDex(
+                Help.insertEdits(pokedex, pokedexEdits),
+                species,
+                gen
+            );
+        } else if (!nationalDexBool) {
+            // console.error("Hello from FALSE")
+            nationalDex = regionalDex
+        }
 
         const trainerClasses = TrainerClass.makeArray();
         // console.log(trainerClasses)
@@ -164,7 +177,8 @@ class Romhack {
             shops,
             locations,
             tms,
-            spriteId
+            spriteId,
+            nationalDexBool
         );
     }
 }

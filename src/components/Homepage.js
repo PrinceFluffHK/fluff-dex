@@ -4,6 +4,7 @@ import swde from "../data/swdeData";
 import { Grid } from "@mui/material";
 
 export const romhackList = [b2de, swde];
+console.log(romhackList)
 
 const Homepage = () => {
     const listDisplay = romhackList.map((romhack, index) => {

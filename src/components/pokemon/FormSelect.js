@@ -14,6 +14,7 @@ const FormSelect = ({ selectedMonId, baseDexEntry, selectedRomhack }) => {
         return (
             <Link
                 to={`/${selectedRomhack.id}/pokemon/${baseDexEntry.id}/${index}`}
+                key={index}
             >
                 <Grid item xs key={form.id}>
                     <div className={className}>

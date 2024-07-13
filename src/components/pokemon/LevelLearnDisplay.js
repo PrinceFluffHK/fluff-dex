@@ -3,7 +3,7 @@ import { Grid } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 
 const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
-    console.log(selectedMon);
+    // console.log(selectedMon);
     let { id } = useParams();
     id = parseInt(id);
 
@@ -36,7 +36,7 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
 
     const movesDisplay = moveArray.map((moveElement, index) => {
         let var2Prefix = "Lv ";
-        console.log(moveElement);
+        // console.log(moveElement);
         const getValues = (moveTypeId) => {
             switch (moveTypeId) {
                 case 0:

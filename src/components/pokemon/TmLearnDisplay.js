@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TmLearnDisplay = ({ selectedMon, baseDexEntry }) => {
-    console.log(selectedMon, baseDexEntry)
+    // console.log(selectedMon, baseDexEntry)
     let { id } = useParams();
     id = parseInt(id);
     

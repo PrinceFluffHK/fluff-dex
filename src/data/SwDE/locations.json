@@ -13,9 +13,9 @@
             {
                 "type": "Starter Gift",
                 "pokemon": [
-                    { "pokemon": 810, "percent": 0, "minLv": 5, "maxLv": 5 },
-                    { "pokemon": 813, "percent": 0, "minLv": 5, "maxLv": 5 },
-                    { "pokemon": 816, "percent": 0, "minLv": 5, "maxLv": 5 }
+                    { "pokemonId": 810, "percent": 0, "minLv": 5, "maxLv": 5 },
+                    { "pokemonId": 813, "percent": 0, "minLv": 5, "maxLv": 5 },
+                    { "pokemonId": 816, "percent": 0, "minLv": 5, "maxLv": 5 }
                 ]
             }
         ],
@@ -36,31 +36,31 @@
                         "type": "Grass",
                         "pokemon": [
                             {
-                                "pokemon": 819,
+                                "pokemonId": 819,
                                 "percent": 30,
                                 "minLv": 2,
                                 "maxLv": 3
                             },
                             {
-                                "pokemon": 821,
+                                "pokemonId": 821,
                                 "percent": 20,
                                 "minLv": 2,
                                 "maxLv": 3
                             },
                             {
-                                "pokemon": 824,
+                                "pokemonId": 824,
                                 "percent": 20,
                                 "minLv": 2,
                                 "maxLv": 3
                             },
                             {
-                                "pokemon": 736,
+                                "pokemonId": 736,
                                 "percent": 20,
                                 "minLv": 2,
                                 "maxLv": 3
                             },
                             {
-                                "pokemon": 163,
+                                "pokemonId": 163,
                                 "percent": 10,
                                 "minLv": 2,
                                 "maxLv": 3
@@ -79,43 +79,43 @@
                         "type": "Grass",
                         "pokemon": [
                             {
-                                "pokemon": 724,
+                                "pokemonId": 724,
                                 "percent": 20,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 10167,
+                                "pokemonId": 10167,
                                 "percent": 15,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 36,
+                                "pokemonId": 36,
                                 "percent": 15,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 826,
+                                "pokemonId": 826,
                                 "percent": 15,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 709,
+                                "pokemonId": 709,
                                 "percent": 15,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 591,
+                                "pokemonId": 591,
                                 "percent": 15,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 823,
+                                "pokemonId": 823,
                                 "percent": 5,
                                 "minLv": 66,
                                 "maxLv": 70
@@ -126,25 +126,25 @@
                         "type": "Fish",
                         "pokemon": [
                             {
-                                "pokemon": 80,
+                                "pokemonId": 80,
                                 "percent": 40,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 199,
+                                "pokemonId": 199,
                                 "percent": 40,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 369,
+                                "pokemonId": 369,
                                 "percent": 15,
                                 "minLv": 66,
                                 "maxLv": 70
                             },
                             {
-                                "pokemon": 129,
+                                "pokemonId": 129,
                                 "percent": 5,
                                 "minLv": 66,
                                 "maxLv": 70
@@ -155,7 +155,7 @@
                         "type": "Static",
                         "pokemon": [
                             {
-                                "pokemon": 10180,
+                                "pokemonId": 10180,
                                 "percent": 100,
                                 "minLv": 48,
                                 "maxLv": 48
@@ -175,12 +175,12 @@
             {
                 "type": "Grass",
                 "pokemon": [
-                    { "pokemon": 831, "percent": 40, "minLv": 4, "maxLv": 6 },
-                    { "pokemon": 821, "percent": 20, "minLv": 4, "maxLv": 6 },
-                    { "pokemon": 824, "percent": 10, "minLv": 4, "maxLv": 6 },
-                    { "pokemon": 736, "percent": 10, "minLv": 4, "maxLv": 6 },
-                    { "pokemon": 10, "percent": 10, "minLv": 4, "maxLv": 6 },
-                    { "pokemon": 661, "percent": 10, "minLv": 4, "maxLv": 6 }
+                    { "pokemonId": 831, "percent": 40, "minLv": 4, "maxLv": 6 },
+                    { "pokemonId": 821, "percent": 20, "minLv": 4, "maxLv": 6 },
+                    { "pokemonId": 824, "percent": 10, "minLv": 4, "maxLv": 6 },
+                    { "pokemonId": 736, "percent": 10, "minLv": 4, "maxLv": 6 },
+                    { "pokemonId": 10, "percent": 10, "minLv": 4, "maxLv": 6 },
+                    { "pokemonId": 661, "percent": 10, "minLv": 4, "maxLv": 6 }
                 ]
             }
         ],
@@ -201,13 +201,13 @@
                         "type": "Static",
                         "pokemon": [
                             {
-                                "pokemon": 833,
+                                "pokemonId": 833,
                                 "percent": 100,
                                 "minLv": 8,
                                 "maxLv": 8
                             },
                             {
-                                "pokemon": 835,
+                                "pokemonId": 835,
                                 "percent": 100,
                                 "minLv": 8,
                                 "maxLv": 8
@@ -218,49 +218,49 @@
                         "type": "Grass",
                         "pokemon": [
                             {
-                                "pokemon": 821,
+                                "pokemonId": 821,
                                 "percent": 25,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 833,
+                                "pokemonId": 833,
                                 "percent": 15,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 835,
+                                "pokemonId": 835,
                                 "percent": 15,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 827,
+                                "pokemonId": 827,
                                 "percent": 15,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 744,
+                                "pokemonId": 744,
                                 "percent": 10,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 54,
+                                "pokemonId": 54,
                                 "percent": 10,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 10174,
+                                "pokemonId": 10174,
                                 "percent": 5,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 263,
+                                "pokemonId": 263,
                                 "percent": 5,
                                 "minLv": 5,
                                 "maxLv": 7
@@ -271,25 +271,25 @@
                         "type": "Fish",
                         "pokemon": [
                             {
-                                "pokemon": 846,
+                                "pokemonId": 846,
                                 "percent": 70,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 72,
+                                "pokemonId": 72,
                                 "percent": 20,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 129,
+                                "pokemonId": 129,
                                 "percent": 5,
                                 "minLv": 5,
                                 "maxLv": 7
                             },
                             {
-                                "pokemon": 349,
+                                "pokemonId": 349,
                                 "percent": 5,
                                 "minLv": 5,
                                 "maxLv": 7
@@ -308,19 +308,19 @@
                         "type": "Static",
                         "pokemon": [
                             {
-                                "pokemon": 834,
+                                "pokemonId": 834,
                                 "percent": 100,
                                 "minLv": 50,
                                 "maxLv": 50
                             },
                             {
-                                "pokemon": 131,
+                                "pokemonId": 131,
                                 "percent": 100,
                                 "minLv": 55,
                                 "maxLv": 55
                             },
                             {
-                                "pokemon": 254,
+                                "pokemonId": 254,
                                 "percent": 100,
                                 "minLv": 55,
                                 "maxLv": 55
@@ -331,43 +331,43 @@
                         "type": "Grass",
                         "pokemon": [
                             {
-                                "pokemon": 264,
+                                "pokemonId": 264,
                                 "percent": 15,
                                 "minLv": 40,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 836,
+                                "pokemonId": 836,
                                 "percent": 15,
                                 "minLv": 40,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 271,
+                                "pokemonId": 271,
                                 "percent": 15,
                                 "minLv": 40,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 274,
+                                "pokemonId": 274,
                                 "percent": 15,
                                 "minLv": 40,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 834,
+                                "pokemonId": 834,
                                 "percent": 15,
                                 "minLv": 40,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 10175,
+                                "pokemonId": 10175,
                                 "percent": 15,
                                 "minLv": 40,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 828,
+                                "pokemonId": 828,
                                 "percent": 10,
                                 "minLv": 40,
                                 "maxLv": 43
@@ -378,25 +378,25 @@
                         "type": "Fish",
                         "pokemon": [
                             {
-                                "pokemon": 847,
+                                "pokemonId": 847,
                                 "percent": 70,
                                 "minLv": 37,
                                 "maxLv": 40
                             },
                             {
-                                "pokemon": 73,
+                                "pokemonId": 73,
                                 "percent": 20,
                                 "minLv": 37,
                                 "maxLv": 40
                             },
                             {
-                                "pokemon": 130,
+                                "pokemonId": 130,
                                 "percent": 9,
                                 "minLv": 37,
                                 "maxLv": 40
                             },
                             {
-                                "pokemon": 349,
+                                "pokemonId": 349,
                                 "percent": 1,
                                 "minLv": 37,
                                 "maxLv": 40
@@ -407,19 +407,19 @@
                         "type": "Water",
                         "pokemon": [
                             {
-                                "pokemon": 847,
+                                "pokemonId": 847,
                                 "percent": 70,
                                 "minLv": 38,
                                 "maxLv": 40
                             },
                             {
-                                "pokemon": 834,
+                                "pokemonId": 834,
                                 "percent": 25,
                                 "minLv": 38,
                                 "maxLv": 40
                             },
                             {
-                                "pokemon": 130,
+                                "pokemonId": 130,
                                 "percent": 5,
                                 "minLv": 38,
                                 "maxLv": 40
@@ -440,24 +440,24 @@
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 339,
+                        "pokemonId": 339,
                         "percent": 50,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 10173,
+                        "pokemonId": 10173,
                         "percent": 40,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 129,
+                        "pokemonId": 129,
                         "percent": 5,
                         "minLv": 10,
                         "maxLv": 12
                     },
-                    { "pokemon": 349, "percent": 5, "minLv": 10, "maxLv": 12 }
+                    { "pokemonId": 349, "percent": 5, "minLv": 10, "maxLv": 12 }
                 ]
             }
         ],
@@ -472,7 +472,7 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": 10164,
+                        "pokemonId": 10164,
                         "percent": 100,
                         "minLv": 12,
                         "maxLv": 12
@@ -490,62 +490,62 @@
             {
                 "type": "Static",
                 "pokemon": [
-                    { "pokemon": 662, "percent": 100, "minLv": 18, "maxLv": 18 }
+                    { "pokemonId": 662, "percent": 100, "minLv": 18, "maxLv": 18 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 546,
+                        "pokemonId": 546,
                         "percent": 25,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 568,
+                        "pokemonId": 568,
                         "percent": 20,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 850,
+                        "pokemonId": 850,
                         "percent": 15,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 599,
+                        "pokemonId": 599,
                         "percent": 15,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 749,
+                        "pokemonId": 749,
                         "percent": 15,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 240,
+                        "pokemonId": 240,
                         "percent": 5,
                         "minLv": 10,
                         "maxLv": 12
                     },
-                    { "pokemon": 63, "percent": 5, "minLv": 10, "maxLv": 12 }
+                    { "pokemonId": 63, "percent": 5, "minLv": 10, "maxLv": 12 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 819,
+                        "pokemonId": 819,
                         "percent": 80,
                         "minLv": 10,
                         "maxLv": 12
                     },
                     {
-                        "pokemon": 420,
+                        "pokemonId": 420,
                         "percent": 20,
                         "minLv": 10,
                         "maxLv": 12
@@ -564,61 +564,61 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": 838,
+                        "pokemonId": 838,
                         "percent": 100,
                         "minLv": 18,
                         "maxLv": 18
                     },
-                    { "pokemon": 527, "percent": 100, "minLv": 16, "maxLv": 16 }
+                    { "pokemonId": 527, "percent": 100, "minLv": 16, "maxLv": 16 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 837,
+                        "pokemonId": 837,
                         "percent": 20,
                         "minLv": 14,
                         "maxLv": 16
                     },
                     {
-                        "pokemon": 529,
+                        "pokemonId": 529,
                         "percent": 20,
                         "minLv": 14,
                         "maxLv": 16
                     },
                     {
-                        "pokemon": 41,
+                        "pokemonId": 41,
                         "percent": 15,
                         "minLv": 14,
                         "maxLv": 16
                     },
                     {
-                        "pokemon": 50,
+                        "pokemonId": 50,
                         "percent": 10,
                         "minLv": 14,
                         "maxLv": 16
                     },
                     {
-                        "pokemon": 532,
+                        "pokemonId": 532,
                         "percent": 10,
                         "minLv": 14,
                         "maxLv": 16
                     },
                     {
-                        "pokemon": 524,
+                        "pokemonId": 524,
                         "percent": 10,
                         "minLv": 14,
                         "maxLv": 16
                     },
                     {
-                        "pokemon": 302,
+                        "pokemonId": 302,
                         "percent": 5,
                         "minLv": 14,
                         "maxLv": 16
                     },
-                    { "pokemon": 4, "percent": 5, "minLv": 14, "maxLv": 16 },
-                    { "pokemon": 206, "percent": 5, "minLv": 14, "maxLv": 16 }
+                    { "pokemonId": 4, "percent": 5, "minLv": 14, "maxLv": 16 },
+                    { "pokemonId": 206, "percent": 5, "minLv": 14, "maxLv": 16 }
                 ]
             }
         ],
@@ -632,88 +632,88 @@
             {
                 "type": "Static",
                 "pokemon": [
-                    { "pokemon": 50, "percent": 100, "minLv": 17, "maxLv": 17 }
+                    { "pokemonId": 50, "percent": 100, "minLv": 17, "maxLv": 17 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 868,
+                        "pokemonId": 868,
                         "percent": 15,
                         "minLv": 16,
                         "maxLv": 18
                     },
                     {
-                        "pokemon": 25,
+                        "pokemonId": 25,
                         "percent": 15,
                         "minLv": 16,
                         "maxLv": 18
                     },
                     {
-                        "pokemon": 403,
+                        "pokemonId": 403,
                         "percent": 15,
                         "minLv": 16,
                         "maxLv": 18
                     },
                     {
-                        "pokemon": 309,
+                        "pokemonId": 309,
                         "percent": 10,
                         "minLv": 16,
                         "maxLv": 18
                     },
                     {
-                        "pokemon": 710,
+                        "pokemonId": 710,
                         "percent": 10,
                         "minLv": 16,
                         "maxLv": 18
                     },
                     {
-                        "pokemon": 595,
+                        "pokemonId": 595,
                         "percent": 9,
                         "minLv": 16,
                         "maxLv": 18
                     },
-                    { "pokemon": 32, "percent": 8, "minLv": 16, "maxLv": 18 },
-                    { "pokemon": 29, "percent": 8, "minLv": 16, "maxLv": 18 },
+                    { "pokemonId": 32, "percent": 8, "minLv": 16, "maxLv": 18 },
+                    { "pokemonId": 29, "percent": 8, "minLv": 16, "maxLv": 18 },
                     {
-                        "pokemon": 133,
+                        "pokemonId": 133,
                         "percent": 5,
                         "minLv": 16,
                         "maxLv": 18
                     },
-                    { "pokemon": 597, "percent": 5, "minLv": 16, "maxLv": 18 }
+                    { "pokemonId": 597, "percent": 5, "minLv": 16, "maxLv": 18 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 170,
+                        "pokemonId": 170,
                         "percent": 70,
                         "minLv": 16,
                         "maxLv": 18
                     },
                     {
-                        "pokemon": 118,
+                        "pokemonId": 118,
                         "percent": 20,
                         "minLv": 16,
                         "maxLv": 18
                     },
                     {
-                        "pokemon": 129,
+                        "pokemonId": 129,
                         "percent": 5,
                         "minLv": 16,
                         "maxLv": 18
                     },
-                    { "pokemon": 349, "percent": 5, "minLv": 16, "maxLv": 18 }
+                    { "pokemonId": 349, "percent": 5, "minLv": 16, "maxLv": 18 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 819,
+                        "pokemonId": 819,
                         "percent": 100,
                         "minLv": 16,
                         "maxLv": 18
@@ -731,7 +731,7 @@
             {
                 "type": "Static",
                 "pokemon": [
-                    { "pokemon": 479, "percent": 100, "minLv": 50, "maxLv": 50 }
+                    { "pokemonId": 479, "percent": 100, "minLv": 50, "maxLv": 50 }
                 ]
             }
         ],
@@ -745,98 +745,98 @@
             {
                 "type": "Static",
                 "pokemon": [
-                    { "pokemon": 830, "percent": 100, "minLv": 22, "maxLv": 22 }
+                    { "pokemonId": 830, "percent": 100, "minLv": 22, "maxLv": 22 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 572,
+                        "pokemonId": 572,
                         "percent": 20,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 10166,
+                        "pokemonId": 10166,
                         "percent": 15,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 684,
+                        "pokemonId": 684,
                         "percent": 10,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 682,
+                        "pokemonId": 682,
                         "percent": 10,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 574,
+                        "pokemonId": 574,
                         "percent": 10,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 577,
+                        "pokemonId": 577,
                         "percent": 10,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 531,
+                        "pokemonId": 531,
                         "percent": 10,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 202,
+                        "pokemonId": 202,
                         "percent": 5,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 440,
+                        "pokemonId": 440,
                         "percent": 5,
                         "minLv": 20,
                         "maxLv": 22
                     },
-                    { "pokemon": 2, "percent": 5, "minLv": 20, "maxLv": 22 }
+                    { "pokemonId": 2, "percent": 5, "minLv": 20, "maxLv": 22 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 79,
+                        "pokemonId": 79,
                         "percent": 70,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 833,
+                        "pokemonId": 833,
                         "percent": 20,
                         "minLv": 20,
                         "maxLv": 22
                     },
                     {
-                        "pokemon": 129,
+                        "pokemonId": 129,
                         "percent": 5,
                         "minLv": 20,
                         "maxLv": 22
                     },
-                    { "pokemon": 349, "percent": 5, "minLv": 20, "maxLv": 22 }
+                    { "pokemonId": 349, "percent": 5, "minLv": 20, "maxLv": 22 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 819,
+                        "pokemonId": 819,
                         "percent": 100,
                         "minLv": 20,
                         "maxLv": 22
@@ -854,7 +854,7 @@
                         "type": "Gift",
                         "pokemon": [
                             {
-                                "pokemon": 891,
+                                "pokemonId": 891,
                                 "percent": 0,
                                 "minLv": 1,
                                 "maxLv": 1
@@ -875,24 +875,24 @@
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 170,
+                        "pokemonId": 170,
                         "percent": 50,
                         "minLv": 22,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 320,
+                        "pokemonId": 320,
                         "percent": 25,
                         "minLv": 22,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 729,
+                        "pokemonId": 729,
                         "percent": 20,
                         "minLv": 22,
                         "maxLv": 24
                     },
-                    { "pokemon": 746, "percent": 5, "minLv": 22, "maxLv": 24 }
+                    { "pokemonId": 746, "percent": 5, "minLv": 22, "maxLv": 24 }
                 ]
             }
         ],
@@ -907,84 +907,84 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": 10180,
+                        "pokemonId": 10180,
                         "percent": 100,
                         "minLv": 25,
                         "maxLv": 25
                     },
                     {
-                        "pokemon": 834,
+                        "pokemonId": 834,
                         "percent": 100,
                         "minLv": 24,
                         "maxLv": 24
                     },
-                    { "pokemon": 423, "percent": 100, "minLv": 50, "maxLv": 50 }
+                    { "pokemonId": 423, "percent": 100, "minLv": 50, "maxLv": 50 }
                 ]
             },
             {
                 "type": "Cave",
                 "pokemon": [
                     {
-                        "pokemon": 422,
+                        "pokemonId": 422,
                         "percent": 20,
                         "minLv": 24,
                         "maxLv": 26
                     },
                     {
-                        "pokemon": 767,
+                        "pokemonId": 767,
                         "percent": 20,
                         "minLv": 24,
                         "maxLv": 26
                     },
                     {
-                        "pokemon": 453,
+                        "pokemonId": 453,
                         "percent": 20,
                         "minLv": 24,
                         "maxLv": 26
                     },
                     {
-                        "pokemon": 714,
+                        "pokemonId": 714,
                         "percent": 10,
                         "minLv": 24,
                         "maxLv": 26
                     },
                     {
-                        "pokemon": 688,
+                        "pokemonId": 688,
                         "percent": 10,
                         "minLv": 24,
                         "maxLv": 26
                     },
                     {
-                        "pokemon": 703,
+                        "pokemonId": 703,
                         "percent": 10,
                         "minLv": 24,
                         "maxLv": 26
                     },
                     {
-                        "pokemon": 618,
+                        "pokemonId": 618,
                         "percent": 5,
                         "minLv": 24,
                         "maxLv": 26
                     },
-                    { "pokemon": 213, "percent": 5, "minLv": 24, "maxLv": 26 }
+                    { "pokemonId": 213, "percent": 5, "minLv": 24, "maxLv": 26 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 339,
+                        "pokemonId": 339,
                         "percent": 75,
                         "minLv": 24,
                         "maxLv": 26
                     },
                     {
-                        "pokemon": 704,
+                        "pokemonId": 704,
                         "percent": 20,
                         "minLv": 24,
                         "maxLv": 26
                     },
-                    { "pokemon": 8, "percent": 5, "minLv": 24, "maxLv": 26 }
+                    { "pokemonId": 8, "percent": 5, "minLv": 24, "maxLv": 26 }
                 ]
             }
         ],
@@ -999,42 +999,42 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 109,
+                        "pokemonId": 109,
                         "percent": 30,
                         "minLv": 26,
                         "maxLv": 28
                     },
                     {
-                        "pokemon": 726,
+                        "pokemonId": 726,
                         "percent": 20,
                         "minLv": 26,
                         "maxLv": 28
                     },
                     {
-                        "pokemon": 757,
+                        "pokemonId": 757,
                         "percent": 15,
                         "minLv": 26,
                         "maxLv": 28
                     },
                     {
-                        "pokemon": 185,
+                        "pokemonId": 185,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 28
                     },
                     {
-                        "pokemon": 856,
+                        "pokemonId": 856,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 28
                     },
                     {
-                        "pokemon": 772,
+                        "pokemonId": 772,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 28
                     },
-                    { "pokemon": 850, "percent": 5, "minLv": 26, "maxLv": 28 }
+                    { "pokemonId": 850, "percent": 5, "minLv": 26, "maxLv": 28 }
                 ]
             }
         ],
@@ -1048,14 +1048,14 @@
             {
                 "type": "Static",
                 "pokemon": [
-                    { "pokemon": 58, "percent": 100, "minLv": 30, "maxLv": 30 },
+                    { "pokemonId": 58, "percent": 100, "minLv": 30, "maxLv": 30 },
                     {
-                        "pokemon": 607,
+                        "pokemonId": 607,
                         "percent": 100,
                         "minLv": 30,
                         "maxLv": 30
                     },
-                    { "pokemon": 636, "percent": 100, "minLv": 30, "maxLv": 30 }
+                    { "pokemonId": 636, "percent": 100, "minLv": 30, "maxLv": 30 }
                 ]
             }
         ],
@@ -1069,89 +1069,89 @@
             {
                 "type": "Fossil",
                 "pokemon": [
-                    { "pokemon": 880, "percent": 0, "minLv": 10, "maxLv": 10 },
-                    { "pokemon": 881, "percent": 0, "minLv": 10, "maxLv": 10 },
-                    { "pokemon": 882, "percent": 0, "minLv": 10, "maxLv": 10 },
-                    { "pokemon": 883, "percent": 0, "minLv": 10, "maxLv": 10 }
+                    { "pokemonId": 880, "percent": 0, "minLv": 10, "maxLv": 10 },
+                    { "pokemonId": 881, "percent": 0, "minLv": 10, "maxLv": 10 },
+                    { "pokemonId": 882, "percent": 0, "minLv": 10, "maxLv": 10 },
+                    { "pokemonId": 883, "percent": 0, "minLv": 10, "maxLv": 10 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 843,
+                        "pokemonId": 843,
                         "percent": 15,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 449,
+                        "pokemonId": 449,
                         "percent": 15,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 694,
+                        "pokemonId": 694,
                         "percent": 15,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 328,
+                        "pokemonId": 328,
                         "percent": 15,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 10179,
+                        "pokemonId": 10179,
                         "percent": 10,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 27,
+                        "pokemonId": 27,
                         "percent": 10,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 556,
+                        "pokemonId": 556,
                         "percent": 10,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 324,
+                        "pokemonId": 324,
                         "percent": 5,
                         "minLv": 30,
                         "maxLv": 33
                     },
-                    { "pokemon": 246, "percent": 5, "minLv": 30, "maxLv": 33 }
+                    { "pokemonId": 246, "percent": 5, "minLv": 30, "maxLv": 33 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 339,
+                        "pokemonId": 339,
                         "percent": 65,
                         "minLv": 30,
                         "maxLv": 33
                     },
                     {
-                        "pokemon": 259,
+                        "pokemonId": 259,
                         "percent": 30,
                         "minLv": 30,
                         "maxLv": 33
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 30, "maxLv": 33 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 30, "maxLv": 33 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 100,
                         "minLv": 30,
                         "maxLv": 33
@@ -1170,72 +1170,72 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": 859,
+                        "pokemonId": 859,
                         "percent": 100,
                         "minLv": 31,
                         "maxLv": 31
                     },
-                    { "pokemon": 860, "percent": 100, "minLv": 38, "maxLv": 38 }
+                    { "pokemonId": 860, "percent": 100, "minLv": 38, "maxLv": 38 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 860,
+                        "pokemonId": 860,
                         "percent": 20,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 756,
+                        "pokemonId": 756,
                         "percent": 20,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 857,
+                        "pokemonId": 857,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 854,
+                        "pokemonId": 854,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 10162,
+                        "pokemonId": 10162,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 303,
+                        "pokemonId": 303,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 570,
+                        "pokemonId": 570,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 766,
+                        "pokemonId": 766,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 765,
+                        "pokemonId": 765,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
-                    { "pokemon": 517, "percent": 5, "minLv": 36, "maxLv": 38 }
+                    { "pokemonId": 517, "percent": 5, "minLv": 36, "maxLv": 38 }
                 ]
             }
         ],
@@ -1250,67 +1250,67 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 863,
+                        "pokemonId": 863,
                         "percent": 20,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 544,
+                        "pokemonId": 544,
                         "percent": 15,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 619,
+                        "pokemonId": 619,
                         "percent": 15,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 114,
+                        "pokemonId": 114,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 686,
+                        "pokemonId": 686,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 115,
+                        "pokemonId": 115,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 876,
+                        "pokemonId": 876,
                         "percent": 5,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 876,
+                        "pokemonId": 876,
                         "percent": 5,
                         "minLv": 41,
                         "maxLv": 42
                     },
                     {
-                        "pokemon": 877,
+                        "pokemonId": 877,
                         "percent": 5,
                         "minLv": 41,
                         "maxLv": 42
                     },
-                    { "pokemon": 633, "percent": 5, "minLv": 41, "maxLv": 42 }
+                    { "pokemonId": 633, "percent": 5, "minLv": 41, "maxLv": 42 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 100,
                         "minLv": 41,
                         "maxLv": 42
@@ -1324,7 +1324,9 @@
     {
         "name": "Route 8",
         "trainers": [],
-        "encounters": [
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": [
             {
                 "name": "Ruins",
                 "trainers": [],
@@ -1333,13 +1335,13 @@
                         "type": "Static",
                         "pokemon": [
                             {
-                                "pokemon": 870,
+                                "pokemonId": 870,
                                 "percent": 100,
                                 "minLv": 40,
                                 "maxLv": 40
                             },
                             {
-                                "pokemon": 558,
+                                "pokemonId": 558,
                                 "percent": 100,
                                 "minLv": 40,
                                 "maxLv": 40
@@ -1350,61 +1352,61 @@
                         "type": "Grass",
                         "pokemon": [
                             {
-                                "pokemon": 552,
+                                "pokemonId": 552,
                                 "percent": 20,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 624,
+                                "pokemonId": 624,
                                 "percent": 15,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 104,
+                                "pokemonId": 104,
                                 "percent": 10,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 631,
+                                "pokemonId": 631,
                                 "percent": 10,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 632,
+                                "pokemonId": 632,
                                 "percent": 10,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 227,
+                                "pokemonId": 227,
                                 "percent": 10,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 444,
+                                "pokemonId": 444,
                                 "percent": 10,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 338,
+                                "pokemonId": 338,
                                 "percent": 5,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 337,
+                                "pokemonId": 337,
                                 "percent": 5,
                                 "minLv": 42,
                                 "maxLv": 43
                             },
                             {
-                                "pokemon": 777,
+                                "pokemonId": 777,
                                 "percent": 5,
                                 "minLv": 42,
                                 "maxLv": 43
@@ -1423,52 +1425,50 @@
                         "type": "Grass",
                         "pokemon": [
                             {
-                                "pokemon": 872,
+                                "pokemonId": 872,
                                 "percent": 40,
                                 "minLv": 43,
                                 "maxLv": 44
                             },
                             {
-                                "pokemon": 221,
+                                "pokemonId": 221,
                                 "percent": 15,
                                 "minLv": 43,
                                 "maxLv": 44
                             },
                             {
-                                "pokemon": 361,
+                                "pokemonId": 361,
                                 "percent": 10,
                                 "minLv": 43,
                                 "maxLv": 44
                             },
                             {
-                                "pokemon": 215,
+                                "pokemonId": 215,
                                 "percent": 10,
                                 "minLv": 43,
                                 "maxLv": 44
                             },
                             {
-                                "pokemon": 507,
+                                "pokemonId": 507,
                                 "percent": 10,
                                 "minLv": 43,
                                 "maxLv": 44
                             },
                             {
-                                "pokemon": 874,
+                                "pokemonId": 874,
                                 "percent": 10,
                                 "minLv": 43,
                                 "maxLv": 44
                             },
                             {
-                                "pokemon": 782,
+                                "pokemonId": 782,
                                 "percent": 5,
                                 "minLv": 43,
                                 "maxLv": 44
                             }
                         ]
                     }
-                ],
-                "collectibles": [],
-                "subLocations": []
+                ]
             }
         ],
         "collectibles": [],
@@ -1482,103 +1482,103 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": 362,
+                        "pokemonId": 362,
                         "percent": 100,
                         "minLv": 55,
                         "maxLv": 55
                     },
-                    { "pokemon": 853, "percent": 100, "minLv": 50, "maxLv": 50 }
+                    { "pokemonId": 853, "percent": 100, "minLv": 50, "maxLv": 50 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 61,
+                        "pokemonId": 61,
                         "percent": 20,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 184,
+                        "pokemonId": 184,
                         "percent": 15,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 55,
+                        "pokemonId": 55,
                         "percent": 15,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 769,
+                        "pokemonId": 769,
                         "percent": 15,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 124,
+                        "pokemonId": 124,
                         "percent": 10,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 845,
+                        "pokemonId": 845,
                         "percent": 10,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 871,
+                        "pokemonId": 871,
                         "percent": 10,
                         "minLv": 46,
                         "maxLv": 48
                     },
-                    { "pokemon": 771, "percent": 5, "minLv": 46, "maxLv": 48 }
+                    { "pokemonId": 771, "percent": 5, "minLv": 46, "maxLv": 48 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 120,
+                        "pokemonId": 120,
                         "percent": 65,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 747,
+                        "pokemonId": 747,
                         "percent": 30,
                         "minLv": 46,
                         "maxLv": 48
                     },
-                    { "pokemon": 781, "percent": 5, "minLv": 46, "maxLv": 48 }
+                    { "pokemonId": 781, "percent": 5, "minLv": 46, "maxLv": 48 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 364,
+                        "pokemonId": 364,
                         "percent": 70,
                         "minLv": 46,
                         "maxLv": 48
                     },
                     {
-                        "pokemon": 211,
+                        "pokemonId": 211,
                         "percent": 25,
                         "minLv": 46,
                         "maxLv": 48
                     },
-                    { "pokemon": 117, "percent": 5, "minLv": 46, "maxLv": 48 }
+                    { "pokemonId": 117, "percent": 5, "minLv": 46, "maxLv": 48 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 100,
                         "minLv": 46,
                         "maxLv": 48
@@ -1597,60 +1597,60 @@
                 "type": "Static",
                 "pokemon": [
                     {
-                        "pokemon": 460,
+                        "pokemonId": 460,
                         "percent": 100,
                         "minLv": 55,
                         "maxLv": 55
                     },
-                    { "pokemon": 614, "percent": 100, "minLv": 55, "maxLv": 55 }
+                    { "pokemonId": 614, "percent": 100, "minLv": 55, "maxLv": 55 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 583,
+                        "pokemonId": 583,
                         "percent": 20,
                         "minLv": 53,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 10168,
+                        "pokemonId": 10168,
                         "percent": 20,
                         "minLv": 53,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 614,
+                        "pokemonId": 614,
                         "percent": 15,
                         "minLv": 53,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 10176,
+                        "pokemonId": 10176,
                         "percent": 15,
                         "minLv": 53,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 615,
+                        "pokemonId": 615,
                         "percent": 10,
                         "minLv": 53,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 875,
+                        "pokemonId": 875,
                         "percent": 10,
                         "minLv": 53,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 884,
+                        "pokemonId": 884,
                         "percent": 5,
                         "minLv": 53,
                         "maxLv": 55
                     },
-                    { "pokemon": 225, "percent": 5, "minLv": 53, "maxLv": 55 }
+                    { "pokemonId": 225, "percent": 5, "minLv": 53, "maxLv": 55 }
                 ]
             }
         ],
@@ -1671,76 +1671,76 @@
             {
                 "type": "Ground",
                 "pokemon": [
-                    { "pokemon": 50, "percent": 80, "minLv": 8, "maxLv": 10 },
-                    { "pokemon": 524, "percent": 20, "minLv": 8, "maxLv": 10 }
+                    { "pokemonId": 50, "percent": 80, "minLv": 8, "maxLv": 10 },
+                    { "pokemonId": 524, "percent": 20, "minLv": 8, "maxLv": 10 }
                 ]
             },
             {
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 133,
+                        "pokemonId": 133,
                         "percent": 30,
                         "minLv": 8,
                         "maxLv": 10
                     },
                     {
-                        "pokemon": 427,
+                        "pokemonId": 427,
                         "percent": 20,
                         "minLv": 8,
                         "maxLv": 10
                     },
                     {
-                        "pokemon": 659,
+                        "pokemonId": 659,
                         "percent": 15,
                         "minLv": 8,
                         "maxLv": 10
                     },
                     {
-                        "pokemon": 674,
+                        "pokemonId": 674,
                         "percent": 10,
                         "minLv": 8,
                         "maxLv": 10
                     },
                     {
-                        "pokemon": 759,
+                        "pokemonId": 759,
                         "percent": 10,
                         "minLv": 8,
                         "maxLv": 10
                     },
-                    { "pokemon": 11, "percent": 5, "minLv": 8, "maxLv": 10 },
-                    { "pokemon": 236, "percent": 5, "minLv": 8, "maxLv": 10 },
-                    { "pokemon": 702, "percent": 5, "minLv": 8, "maxLv": 10 }
+                    { "pokemonId": 11, "percent": 5, "minLv": 8, "maxLv": 10 },
+                    { "pokemonId": 236, "percent": 5, "minLv": 8, "maxLv": 10 },
+                    { "pokemonId": 702, "percent": 5, "minLv": 8, "maxLv": 10 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 819,
+                        "pokemonId": 819,
                         "percent": 74,
                         "minLv": 8,
                         "maxLv": 10
                     },
                     {
-                        "pokemon": 420,
+                        "pokemonId": 420,
                         "percent": 25,
                         "minLv": 8,
                         "maxLv": 10
                     },
-                    { "pokemon": 789, "percent": 1, "minLv": 8, "maxLv": 10 }
+                    { "pokemonId": 789, "percent": 1, "minLv": 8, "maxLv": 10 }
                 ]
             },
             {
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 519,
+                        "pokemonId": 519,
                         "percent": 75,
                         "minLv": 10,
                         "maxLv": 12
                     },
-                    { "pokemon": 12, "percent": 25, "minLv": 10, "maxLv": 12 }
+                    { "pokemonId": 12, "percent": 25, "minLv": 10, "maxLv": 12 }
                 ]
             }
         ],
@@ -1755,67 +1755,67 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 43,
+                        "pokemonId": 43,
                         "percent": 25,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 406,
+                        "pokemonId": 406,
                         "percent": 15,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 415,
+                        "pokemonId": 415,
                         "percent": 10,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 270,
+                        "pokemonId": 270,
                         "percent": 10,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 273,
+                        "pokemonId": 273,
                         "percent": 10,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 252,
+                        "pokemonId": 252,
                         "percent": 10,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 677,
+                        "pokemonId": 677,
                         "percent": 10,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 108,
+                        "pokemonId": 108,
                         "percent": 5,
                         "minLv": 11,
                         "maxLv": 13
                     },
-                    { "pokemon": 840, "percent": 5, "minLv": 11, "maxLv": 13 }
+                    { "pokemonId": 840, "percent": 5, "minLv": 11, "maxLv": 13 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 819,
+                        "pokemonId": 819,
                         "percent": 50,
                         "minLv": 11,
                         "maxLv": 13
                     },
                     {
-                        "pokemon": 420,
+                        "pokemonId": 420,
                         "percent": 50,
                         "minLv": 11,
                         "maxLv": 13
@@ -1834,96 +1834,96 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 535,
+                        "pokemonId": 535,
                         "percent": 20,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 194,
+                        "pokemonId": 194,
                         "percent": 20,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 98,
+                        "pokemonId": 98,
                         "percent": 15,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 762,
+                        "pokemonId": 762,
                         "percent": 15,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 278,
+                        "pokemonId": 278,
                         "percent": 10,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 258,
+                        "pokemonId": 258,
                         "percent": 10,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 290,
+                        "pokemonId": 290,
                         "percent": 5,
                         "minLv": 21,
                         "maxLv": 24
                     },
-                    { "pokemon": 587, "percent": 5, "minLv": 21, "maxLv": 24 }
+                    { "pokemonId": 587, "percent": 5, "minLv": 21, "maxLv": 24 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 223,
+                        "pokemonId": 223,
                         "percent": 50,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 339,
+                        "pokemonId": 339,
                         "percent": 40,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 21,
                         "maxLv": 24
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 21, "maxLv": 24 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 21, "maxLv": 24 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 278,
+                        "pokemonId": 278,
                         "percent": 55,
                         "minLv": 38,
                         "maxLv": 40
                     },
                     {
-                        "pokemon": 592,
+                        "pokemonId": 592,
                         "percent": 25,
                         "minLv": 38,
                         "maxLv": 40
                     },
                     {
-                        "pokemon": 90,
+                        "pokemonId": 90,
                         "percent": 15,
                         "minLv": 38,
                         "maxLv": 40
                     },
-                    { "pokemon": 131, "percent": 5, "minLv": 38, "maxLv": 40 }
+                    { "pokemonId": 131, "percent": 5, "minLv": 38, "maxLv": 40 }
                 ]
             }
         ],
@@ -1938,109 +1938,109 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 341,
+                        "pokemonId": 341,
                         "percent": 20,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 519,
+                        "pokemonId": 519,
                         "percent": 15,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 568,
+                        "pokemonId": 568,
                         "percent": 15,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 509,
+                        "pokemonId": 509,
                         "percent": 10,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 177,
+                        "pokemonId": 177,
                         "percent": 10,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 278,
+                        "pokemonId": 278,
                         "percent": 10,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 850,
+                        "pokemonId": 850,
                         "percent": 10,
                         "minLv": 21,
                         "maxLv": 24
                     },
-                    { "pokemon": 81, "percent": 10, "minLv": 21, "maxLv": 24 }
+                    { "pokemonId": 81, "percent": 10, "minLv": 21, "maxLv": 24 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 223,
+                        "pokemonId": 223,
                         "percent": 50,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 118,
+                        "pokemonId": 118,
                         "percent": 40,
                         "minLv": 21,
                         "maxLv": 24
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 21,
                         "maxLv": 24
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 21, "maxLv": 24 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 21, "maxLv": 24 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 278,
+                        "pokemonId": 278,
                         "percent": 55,
                         "minLv": 40,
                         "maxLv": 43
                     },
                     {
-                        "pokemon": 592,
+                        "pokemonId": 592,
                         "percent": 25,
                         "minLv": 40,
                         "maxLv": 43
                     },
                     {
-                        "pokemon": 90,
+                        "pokemonId": 90,
                         "percent": 15,
                         "minLv": 40,
                         "maxLv": 43
                     },
-                    { "pokemon": 131, "percent": 5, "minLv": 40, "maxLv": 43 }
+                    { "pokemonId": 131, "percent": 5, "minLv": 40, "maxLv": 43 }
                 ]
             },
             {
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 12,
+                        "pokemonId": 12,
                         "percent": 75,
                         "minLv": 21,
                         "maxLv": 25
                     },
                     {
-                        "pokemon": 520,
+                        "pokemonId": 520,
                         "percent": 25,
                         "minLv": 21,
                         "maxLv": 25
@@ -2059,116 +2059,116 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 333,
+                        "pokemonId": 333,
                         "percent": 20,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 434,
+                        "pokemonId": 434,
                         "percent": 15,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 764,
+                        "pokemonId": 764,
                         "percent": 15,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 548,
+                        "pokemonId": 548,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 822,
+                        "pokemonId": 822,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 241,
+                        "pokemonId": 241,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 206,
+                        "pokemonId": 206,
                         "percent": 5,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 447,
+                        "pokemonId": 447,
                         "percent": 5,
                         "minLv": 26,
                         "maxLv": 30
                     },
-                    { "pokemon": 83, "percent": 5, "minLv": 26, "maxLv": 30 },
-                    { "pokemon": 52, "percent": 5, "minLv": 26, "maxLv": 30 }
+                    { "pokemonId": 83, "percent": 5, "minLv": 26, "maxLv": 30 },
+                    { "pokemonId": 52, "percent": 5, "minLv": 26, "maxLv": 30 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 10016,
+                        "pokemonId": 10016,
                         "percent": 50,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 692,
+                        "pokemonId": 692,
                         "percent": 40,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 26,
                         "maxLv": 30
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 26, "maxLv": 30 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 26, "maxLv": 30 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 72,
+                        "pokemonId": 72,
                         "percent": 60,
                         "minLv": 42,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 278,
+                        "pokemonId": 278,
                         "percent": 25,
                         "minLv": 42,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 425,
+                        "pokemonId": 425,
                         "percent": 10,
                         "minLv": 42,
                         "maxLv": 45
                     },
-                    { "pokemon": 319, "percent": 5, "minLv": 42, "maxLv": 45 }
+                    { "pokemonId": 319, "percent": 5, "minLv": 42, "maxLv": 45 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 420,
+                        "pokemonId": 420,
                         "percent": 25,
                         "minLv": 26,
                         "maxLv": 30
@@ -2187,109 +2187,109 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 595,
+                        "pokemonId": 595,
                         "percent": 20,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 39,
+                        "pokemonId": 39,
                         "percent": 20,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 753,
+                        "pokemonId": 753,
                         "percent": 15,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 281,
+                        "pokemonId": 281,
                         "percent": 15,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 33,
+                        "pokemonId": 33,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 30,
+                        "pokemonId": 30,
                         "percent": 10,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 127,
+                        "pokemonId": 127,
                         "percent": 5,
                         "minLv": 26,
                         "maxLv": 30
                     },
-                    { "pokemon": 214, "percent": 5, "minLv": 26, "maxLv": 30 }
+                    { "pokemonId": 214, "percent": 5, "minLv": 26, "maxLv": 30 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 550,
+                        "pokemonId": 550,
                         "percent": 50,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 690,
+                        "pokemonId": 690,
                         "percent": 40,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 26,
                         "maxLv": 30
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 26, "maxLv": 30 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 26, "maxLv": 30 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 72,
+                        "pokemonId": 72,
                         "percent": 60,
                         "minLv": 41,
                         "maxLv": 44
                     },
                     {
-                        "pokemon": 278,
+                        "pokemonId": 278,
                         "percent": 25,
                         "minLv": 41,
                         "maxLv": 44
                     },
                     {
-                        "pokemon": 425,
+                        "pokemonId": 425,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 44
                     },
-                    { "pokemon": 319, "percent": 5, "minLv": 41, "maxLv": 44 }
+                    { "pokemonId": 319, "percent": 5, "minLv": 41, "maxLv": 44 }
                 ]
             },
             {
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 278,
+                        "pokemonId": 278,
                         "percent": 85,
                         "minLv": 26,
                         "maxLv": 30
                     },
                     {
-                        "pokemon": 425,
+                        "pokemonId": 425,
                         "percent": 15,
                         "minLv": 26,
                         "maxLv": 30
@@ -2308,85 +2308,85 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 436,
+                        "pokemonId": 436,
                         "percent": 20,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 67,
+                        "pokemonId": 67,
                         "percent": 20,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 123,
+                        "pokemonId": 123,
                         "percent": 15,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 294,
+                        "pokemonId": 294,
                         "percent": 10,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 128,
+                        "pokemonId": 128,
                         "percent": 10,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 95,
+                        "pokemonId": 95,
                         "percent": 10,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 255,
+                        "pokemonId": 255,
                         "percent": 10,
                         "minLv": 33,
                         "maxLv": 35
                     },
-                    { "pokemon": 371, "percent": 5, "minLv": 33, "maxLv": 35 }
+                    { "pokemonId": 371, "percent": 5, "minLv": 33, "maxLv": 35 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 10173,
+                        "pokemonId": 10173,
                         "percent": 65,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 747,
+                        "pokemonId": 747,
                         "percent": 25,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 33,
                         "maxLv": 35
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 33, "maxLv": 35 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 33, "maxLv": 35 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 25,
                         "minLv": 33,
                         "maxLv": 35
@@ -2405,61 +2405,61 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 35,
+                        "pokemonId": 35,
                         "percent": 20,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 92,
+                        "pokemonId": 92,
                         "percent": 20,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 607,
+                        "pokemonId": 607,
                         "percent": 15,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 355,
+                        "pokemonId": 355,
                         "percent": 15,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 425,
+                        "pokemonId": 425,
                         "percent": 10,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 359,
+                        "pokemonId": 359,
                         "percent": 10,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 10107,
+                        "pokemonId": 10107,
                         "percent": 5,
                         "minLv": 33,
                         "maxLv": 35
                     },
-                    { "pokemon": 562, "percent": 5, "minLv": 33, "maxLv": 35 }
+                    { "pokemonId": 562, "percent": 5, "minLv": 33, "maxLv": 35 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 50,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 50,
                         "minLv": 33,
                         "maxLv": 35
@@ -2470,13 +2470,13 @@
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 528,
+                        "pokemonId": 528,
                         "percent": 60,
                         "minLv": 33,
                         "maxLv": 35
                     },
                     {
-                        "pokemon": 714,
+                        "pokemonId": 714,
                         "percent": 40,
                         "minLv": 33,
                         "maxLv": 35
@@ -2495,109 +2495,109 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 597,
+                        "pokemonId": 597,
                         "percent": 15,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 77,
+                        "pokemonId": 77,
                         "percent": 15,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 114,
+                        "pokemonId": 114,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 125,
+                        "pokemonId": 125,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 561,
+                        "pokemonId": 561,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 303,
+                        "pokemonId": 303,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 122,
+                        "pokemonId": 122,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 446,
+                        "pokemonId": 446,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
-                    { "pokemon": 213, "percent": 5, "minLv": 36, "maxLv": 38 }
+                    { "pokemonId": 213, "percent": 5, "minLv": 36, "maxLv": 38 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 211,
+                        "pokemonId": 211,
                         "percent": 50,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 120,
+                        "pokemonId": 120,
                         "percent": 40,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 36, "maxLv": 38 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 36, "maxLv": 38 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 846,
+                        "pokemonId": 846,
                         "percent": 65,
                         "minLv": 40,
                         "maxLv": 43
                     },
                     {
-                        "pokemon": 195,
+                        "pokemonId": 195,
                         "percent": 30,
                         "minLv": 40,
                         "maxLv": 43
                     },
-                    { "pokemon": 871, "percent": 5, "minLv": 40, "maxLv": 43 }
+                    { "pokemonId": 871, "percent": 5, "minLv": 40, "maxLv": 43 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 25,
                         "minLv": 36,
                         "maxLv": 38
@@ -2616,55 +2616,55 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 742,
+                        "pokemonId": 742,
                         "percent": 20,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 605,
+                        "pokemonId": 605,
                         "percent": 15,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 848,
+                        "pokemonId": 848,
                         "percent": 15,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 102,
+                        "pokemonId": 102,
                         "percent": 15,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 176,
+                        "pokemonId": 176,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 778,
+                        "pokemonId": 778,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 10175,
+                        "pokemonId": 10175,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 264,
+                        "pokemonId": 264,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 10101,
+                        "pokemonId": 10101,
                         "percent": 5,
                         "minLv": 36,
                         "maxLv": 38
@@ -2675,19 +2675,19 @@
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 170,
+                        "pokemonId": 170,
                         "percent": 45,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 183,
+                        "pokemonId": 183,
                         "percent": 45,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 222,
+                        "pokemonId": 222,
                         "percent": 10,
                         "minLv": 36,
                         "maxLv": 38
@@ -2698,19 +2698,19 @@
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 592,
+                        "pokemonId": 592,
                         "percent": 55,
                         "minLv": 40,
                         "maxLv": 43
                     },
                     {
-                        "pokemon": 211,
+                        "pokemonId": 211,
                         "percent": 30,
                         "minLv": 40,
                         "maxLv": 43
                     },
                     {
-                        "pokemon": 686,
+                        "pokemonId": 686,
                         "percent": 15,
                         "minLv": 40,
                         "maxLv": 43
@@ -2721,13 +2721,13 @@
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 25,
                         "minLv": 36,
                         "maxLv": 38
@@ -2738,18 +2738,18 @@
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 714,
+                        "pokemonId": 714,
                         "percent": 60,
                         "minLv": 36,
                         "maxLv": 38
                     },
                     {
-                        "pokemon": 528,
+                        "pokemonId": 528,
                         "percent": 35,
                         "minLv": 36,
                         "maxLv": 38
                     },
-                    { "pokemon": 521, "percent": 5, "minLv": 36, "maxLv": 38 }
+                    { "pokemonId": 521, "percent": 5, "minLv": 36, "maxLv": 38 }
                 ]
             }
         ],
@@ -2764,49 +2764,49 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 343,
+                        "pokemonId": 343,
                         "percent": 20,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 622,
+                        "pokemonId": 622,
                         "percent": 20,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 533,
+                        "pokemonId": 533,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 557,
+                        "pokemonId": 557,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 627,
+                        "pokemonId": 627,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 629,
+                        "pokemonId": 629,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 626,
+                        "pokemonId": 626,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 554,
+                        "pokemonId": 554,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 45
@@ -2817,13 +2817,13 @@
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 520,
+                        "pokemonId": 520,
                         "percent": 60,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 561,
+                        "pokemonId": 561,
                         "percent": 40,
                         "minLv": 41,
                         "maxLv": 45
@@ -2842,67 +2842,67 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 680,
+                        "pokemonId": 680,
                         "percent": 20,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 878,
+                        "pokemonId": 878,
                         "percent": 20,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 624,
+                        "pokemonId": 624,
                         "percent": 15,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 767,
+                        "pokemonId": 767,
                         "percent": 15,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 707,
+                        "pokemonId": 707,
                         "percent": 10,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 621,
+                        "pokemonId": 621,
                         "percent": 5,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 185,
+                        "pokemonId": 185,
                         "percent": 5,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 538,
+                        "pokemonId": 538,
                         "percent": 5,
                         "minLv": 41,
                         "maxLv": 45
                     },
-                    { "pokemon": 539, "percent": 5, "minLv": 41, "maxLv": 45 }
+                    { "pokemonId": 539, "percent": 5, "minLv": 41, "maxLv": 45 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 41,
                         "maxLv": 45
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 25,
                         "minLv": 41,
                         "maxLv": 45
@@ -2913,7 +2913,7 @@
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 227,
+                        "pokemonId": 227,
                         "percent": 100,
                         "minLv": 41,
                         "maxLv": 45
@@ -2932,19 +2932,19 @@
                 "type": "Ground",
                 "pokemon": [
                     {
-                        "pokemon": 530,
+                        "pokemonId": 530,
                         "percent": 50,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 526,
+                        "pokemonId": 526,
                         "percent": 30,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 511,
+                        "pokemonId": 511,
                         "percent": 20,
                         "minLv": 48,
                         "maxLv": 50
@@ -2955,85 +2955,85 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 629,
+                        "pokemonId": 629,
                         "percent": 20,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 627,
+                        "pokemonId": 627,
                         "percent": 20,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 870,
+                        "pokemonId": 870,
                         "percent": 20,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 451,
+                        "pokemonId": 451,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 780,
+                        "pokemonId": 780,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 776,
+                        "pokemonId": 776,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 632,
+                        "pokemonId": 632,
                         "percent": 5,
                         "minLv": 48,
                         "maxLv": 50
                     },
-                    { "pokemon": 631, "percent": 5, "minLv": 48, "maxLv": 50 }
+                    { "pokemonId": 631, "percent": 5, "minLv": 48, "maxLv": 50 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 686,
+                        "pokemonId": 686,
                         "percent": 50,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 90,
+                        "pokemonId": 90,
                         "percent": 40,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 48,
                         "maxLv": 50
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 48, "maxLv": 50 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 48, "maxLv": 50 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 369,
+                        "pokemonId": 369,
                         "percent": 65,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 565,
+                        "pokemonId": 565,
                         "percent": 35,
                         "minLv": 51,
                         "maxLv": 55
@@ -3044,13 +3044,13 @@
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 25,
                         "minLv": 48,
                         "maxLv": 50
@@ -3061,13 +3061,13 @@
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 520,
+                        "pokemonId": 520,
                         "percent": 60,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 822,
+                        "pokemonId": 822,
                         "percent": 40,
                         "minLv": 48,
                         "maxLv": 50
@@ -3086,13 +3086,13 @@
                 "type": "Ground",
                 "pokemon": [
                     {
-                        "pokemon": 338,
+                        "pokemonId": 338,
                         "percent": 50,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 337,
+                        "pokemonId": 337,
                         "percent": 50,
                         "minLv": 48,
                         "maxLv": 50
@@ -3103,91 +3103,91 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 329,
+                        "pokemonId": 329,
                         "percent": 20,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 751,
+                        "pokemonId": 751,
                         "percent": 15,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 559,
+                        "pokemonId": 559,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 453,
+                        "pokemonId": 453,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 111,
+                        "pokemonId": 111,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 588,
+                        "pokemonId": 588,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 616,
+                        "pokemonId": 616,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 701,
+                        "pokemonId": 701,
                         "percent": 10,
                         "minLv": 48,
                         "maxLv": 50
                     },
-                    { "pokemon": 636, "percent": 5, "minLv": 48, "maxLv": 50 }
+                    { "pokemonId": 636, "percent": 5, "minLv": 48, "maxLv": 50 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 341,
+                        "pokemonId": 341,
                         "percent": 70,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 846,
+                        "pokemonId": 846,
                         "percent": 20,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 48,
                         "maxLv": 50
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 48, "maxLv": 50 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 48, "maxLv": 50 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 48,
                         "maxLv": 50
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 25,
                         "minLv": 48,
                         "maxLv": 50
@@ -3206,49 +3206,49 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 305,
+                        "pokemonId": 305,
                         "percent": 20,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 246,
+                        "pokemonId": 246,
                         "percent": 15,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 530,
+                        "pokemonId": 530,
                         "percent": 15,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 141,
+                        "pokemonId": 141,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 348,
+                        "pokemonId": 348,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 567,
+                        "pokemonId": 567,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 699,
+                        "pokemonId": 699,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 697,
+                        "pokemonId": 697,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
@@ -3259,37 +3259,37 @@
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 346,
+                        "pokemonId": 346,
                         "percent": 45,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 139,
+                        "pokemonId": 139,
                         "percent": 45,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 51,
                         "maxLv": 55
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 51, "maxLv": 55 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 51, "maxLv": 55 }
                 ]
             },
             {
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 369,
+                        "pokemonId": 369,
                         "percent": 65,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 565,
+                        "pokemonId": 565,
                         "percent": 35,
                         "minLv": 51,
                         "maxLv": 55
@@ -3300,19 +3300,19 @@
                 "type": "Flying",
                 "pokemon": [
                     {
-                        "pokemon": 142,
+                        "pokemonId": 142,
                         "percent": 50,
                         "minLv": 54,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 628,
+                        "pokemonId": 628,
                         "percent": 25,
                         "minLv": 54,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 630,
+                        "pokemonId": 630,
                         "percent": 25,
                         "minLv": 54,
                         "maxLv": 55
@@ -3331,85 +3331,85 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 611,
+                        "pokemonId": 611,
                         "percent": 35,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 760,
+                        "pokemonId": 760,
                         "percent": 20,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 37,
+                        "pokemonId": 37,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 10103,
+                        "pokemonId": 10103,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 137,
+                        "pokemonId": 137,
                         "percent": 10,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 810,
+                        "pokemonId": 810,
                         "percent": 5,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 813,
+                        "pokemonId": 813,
                         "percent": 5,
                         "minLv": 51,
                         "maxLv": 55
                     },
-                    { "pokemon": 816, "percent": 5, "minLv": 51, "maxLv": 55 }
+                    { "pokemonId": 816, "percent": 5, "minLv": 51, "maxLv": 55 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 61,
+                        "pokemonId": 61,
                         "percent": 45,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 117,
+                        "pokemonId": 117,
                         "percent": 45,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 349,
+                        "pokemonId": 349,
                         "percent": 5,
                         "minLv": 51,
                         "maxLv": 55
                     },
-                    { "pokemon": 129, "percent": 5, "minLv": 51, "maxLv": 55 }
+                    { "pokemonId": 129, "percent": 5, "minLv": 51, "maxLv": 55 }
                 ]
             },
             {
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 820,
+                        "pokemonId": 820,
                         "percent": 75,
                         "minLv": 51,
                         "maxLv": 55
                     },
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 25,
                         "minLv": 51,
                         "maxLv": 55
@@ -3428,55 +3428,55 @@
                 "type": "Grass",
                 "pokemon": [
                     {
-                        "pokemon": 374,
+                        "pokemonId": 374,
                         "percent": 20,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 443,
+                        "pokemonId": 443,
                         "percent": 20,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 633,
+                        "pokemonId": 633,
                         "percent": 20,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 371,
+                        "pokemonId": 371,
                         "percent": 15,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 885,
+                        "pokemonId": 885,
                         "percent": 15,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 132,
+                        "pokemonId": 132,
                         "percent": 5,
                         "minLv": 56,
                         "maxLv": 58
                     },
-                    { "pokemon": 133, "percent": 5, "minLv": 56, "maxLv": 58 }
+                    { "pokemonId": 133, "percent": 5, "minLv": 56, "maxLv": 58 }
                 ]
             },
             {
                 "type": "Fish",
                 "pokemon": [
                     {
-                        "pokemon": 148,
+                        "pokemonId": 148,
                         "percent": 90,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 781,
+                        "pokemonId": 781,
                         "percent": 10,
                         "minLv": 56,
                         "maxLv": 58
@@ -3487,19 +3487,19 @@
                 "type": "Water",
                 "pokemon": [
                     {
-                        "pokemon": 226,
+                        "pokemonId": 226,
                         "percent": 60,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 320,
+                        "pokemonId": 320,
                         "percent": 30,
                         "minLv": 56,
                         "maxLv": 58
                     },
                     {
-                        "pokemon": 713,
+                        "pokemonId": 713,
                         "percent": 10,
                         "minLv": 56,
                         "maxLv": 58
@@ -3510,7 +3510,7 @@
                 "type": "Trees",
                 "pokemon": [
                     {
-                        "pokemon": 421,
+                        "pokemonId": 421,
                         "percent": 100,
                         "minLv": 56,
                         "maxLv": 58

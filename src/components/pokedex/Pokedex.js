@@ -10,7 +10,7 @@ const Pokedex = (props) => {
     let { id, dexType } = useParams();
     id = parseInt(id);
     const selectedRomhack = Help.findInArray(id, romhackList);
-    console.log(selectedRomhack);
+    // console.log(selectedRomhack);
 
     const dexList =
         dexType === "regional"
