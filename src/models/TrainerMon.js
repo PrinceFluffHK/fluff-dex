@@ -2,7 +2,7 @@ import Help from "./Help";
 import natures from "../data/vanilla/natures";
 
 class TrainerMon {
-    constructor(pokemon, level, ability, nature, item, moves, ivs, evs) {
+    constructor(pokemon, level, ability, nature, item, moves, ivs, evs, maxStatus) {
         this.pokemon = pokemon;
         this.level = level;
         this.ability = ability;
@@ -11,10 +11,11 @@ class TrainerMon {
         this.moves = moves;
         this.ivs = ivs;
         this.evs = evs;
+        this.maxStatus = maxStatus || 0
     }
 
     static makeSingle(trainerMonObj, species, abilities, items, moves) {
-        const { pokemonId, level, abilityId, natureId, itemId, ivs, evs } =
+        const { pokemonId, level, abilityId, natureId, itemId, ivs, evs, maxStatus } =
             trainerMonObj;
         const mon = Help.findInArray(pokemonId, species);
         const ability = Help.findInArray(abilityId, abilities);
@@ -34,7 +35,8 @@ class TrainerMon {
             item,
             newMoves,
             newIvs,
-            newEvs
+            newEvs,
+            maxStatus
         );
     }
 

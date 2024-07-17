@@ -1,1 +1,2768 @@
-[]
+[
+    {
+        "id": 1,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 3,
+                "abilityId": 171,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33
+                ]
+            },
+            {
+                "pokemonId": 816,
+                "level": 5,
+                "abilityId": 67,
+                "natureId": 15,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    1,
+                    45
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Grookey"
+    },
+    {
+        "id": 2,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 3,
+                "abilityId": 171,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33
+                ]
+            },
+            {
+                "pokemonId": 810,
+                "level": 5,
+                "abilityId": 65,
+                "natureId": 8,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    10,
+                    45
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Scorbunny"
+    },
+    {
+        "id": 3,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 3,
+                "abilityId": 171,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33
+                ]
+            },
+            {
+                "pokemonId": 813,
+                "level": 5,
+                "abilityId": 66,
+                "natureId": 3,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    45
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Sobble"
+    },
+    {
+        "id": 4,
+        "name": "Jake",
+        "trainerClass": 42,
+        "team": [
+            {
+                "pokemonId": 819,
+                "level": 4,
+                "abilityId": 167,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    44,
+                    39
+                ]
+            },
+            {
+                "pokemonId": 827,
+                "level": 4,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    98,
+                    251,
+                    39
+                ]
+            }
+        ],
+        "battleType": 1
+    },
+    {
+        "id": 5,
+        "name": "Lauren",
+        "trainerClass": 21,
+        "team": [
+            {
+                "pokemonId": 833,
+                "level": 5,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    55
+                ]
+            },
+            {
+                "pokemonId": 835,
+                "level": 5,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    609
+                ]
+            }
+        ],
+        "battleType": 1
+    },
+    {
+        "id": 6,
+        "name": "Benjamin",
+        "trainerClass": 42,
+        "team": [
+            {
+                "pokemonId": 736,
+                "level": 5,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    11,
+                    189,
+                    81
+                ]
+            },
+            {
+                "pokemonId": 10,
+                "level": 5,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    81
+                ]
+            },
+            {
+                "pokemonId": 824,
+                "level": 5,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    611
+                ]
+            }
+        ],
+        "battleType": 1
+    },
+    {
+        "id": 7,
+        "name": "Hop 2",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 6,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    45,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 821,
+                "level": 6,
+                "natureId": 23,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    64,
+                    681,
+                    43
+                ]
+            },
+            {
+                "pokemonId": 816,
+                "level": 7,
+                "natureId": 15,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    1,
+                    55,
+                    20,
+                    45
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Grookey"
+    },
+    {
+        "id": 8,
+        "name": "Hop 2",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 6,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    45,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 821,
+                "level": 6,
+                "natureId": 23,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    64,
+                    681,
+                    43
+                ]
+            },
+            {
+                "pokemonId": 810,
+                "level": 7,
+                "natureId": 8,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    10,
+                    785,
+                    269,
+                    45
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Scorbunny"
+    },
+    {
+        "id": 9,
+        "name": "Hop 2",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 6,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    45,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 821,
+                "level": 6,
+                "natureId": 23,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    64,
+                    681,
+                    43
+                ]
+            },
+            {
+                "pokemonId": 813,
+                "level": 7,
+                "natureId": 3,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    33,
+                    52,
+                    98,
+                    45
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Sobble"
+    },
+    {
+        "id": 10,
+        "name": "Grunt",
+        "trainerClass": 224,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 11,
+        "name": "Grunt",
+        "trainerClass": 225,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 12,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [],
+        "battleType": 1,
+        "notes": "If the player chose Grookey"
+    },
+    {
+        "id": 13,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [],
+        "battleType": 1,
+        "notes": "If the player chose Scorbunny"
+    },
+    {
+        "id": 14,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [],
+        "battleType": 1,
+        "notes": "If the player chose Sobble"
+    },
+    {
+        "id": 15,
+        "name": "Grunt",
+        "trainerClass": 224,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 16,
+        "name": "Grunt",
+        "trainerClass": 225,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 17,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [],
+        "battleType": 1,
+        "notes": "If the player chose Grookey"
+    },
+    {
+        "id": 18,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [],
+        "battleType": 1,
+        "notes": "If the player chose Scorbunny"
+    },
+    {
+        "id": 19,
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [],
+        "battleType": 1,
+        "notes": "If the player chose Sobble"
+    },
+    {
+        "id": 20,
+        "name": "Rei",
+        "trainerClass": 21,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 21,
+        "name": "Hannah",
+        "trainerClass": 46,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 22,
+        "name": "Marvin",
+        "trainerClass": 45,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 23,
+        "name": "Kayleigh",
+        "trainerClass": 46,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 24,
+        "name": "Tad",
+        "trainerClass": 223,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 25,
+        "name": "Peter",
+        "trainerClass": 45,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 26,
+        "name": "Keith",
+        "trainerClass": 118,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 27,
+        "name": "Georgia",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 28,
+        "name": "Sandra",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 29,
+        "name": "Russel",
+        "trainerClass": 118,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 30,
+        "name": "Bede 1",
+        "trainerClass": 254,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 31,
+        "name": "Jaime",
+        "trainerClass": 77,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 32,
+        "name": "Shane",
+        "trainerClass": 109,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 33,
+        "name": "Bradley",
+        "trainerClass": 77,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 34,
+        "name": "Sunny",
+        "trainerClass": 110,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 35,
+        "name": "Mia",
+        "trainerClass": 110,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 36,
+        "name": "Rhys",
+        "trainerClass": 109,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 37,
+        "name": "Samuel",
+        "trainerClass": 255,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 38,
+        "name": "Mark",
+        "trainerClass": 256,
+        "team": [],
+        "battleType": 1,
+        "mandatory": false
+    },
+    {
+        "id": 39,
+        "name": "Leah",
+        "trainerClass": 255,
+        "team": [],
+        "battleType": 1,
+        "mandatory": false
+    },
+    {
+        "id": 40,
+        "name": "Milo",
+        "trainerClass": 237,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 18,
+                "natureId": 23,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    0,
+                    252,
+                    252
+                ],
+                "moves": [
+                    23,
+                    24,
+                    803,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 755,
+                "level": 18,
+                "natureId": 20,
+                "evs": [
+                    252,
+                    0,
+                    100,
+                    0,
+                    156,
+                    0
+                ],
+                "moves": [
+                    72,
+                    577,
+                    73,
+                    275
+                ]
+            },
+            {
+                "pokemonId": 840,
+                "level": 19,
+                "itemId": 158,
+                "natureId": 8,
+                "evs": [
+                    252,
+                    252,
+                    0,
+                    0,
+                    4,
+                    0
+                ],
+                "moves": [
+                    803,
+                    205,
+                    278,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 597,
+                "level": 19,
+                "natureId": 7,
+                "evs": [
+                    0,
+                    252,
+                    252,
+                    4,
+                    0,
+                    0
+                ],
+                "moves": [
+                    232,
+                    42,
+                    491,
+                    191
+                ]
+            },
+            {
+                "pokemonId": 811,
+                "level": 19,
+                "itemId": 239,
+                "natureId": 3,
+                "evs": [
+                    0,
+                    252,
+                    0,
+                    0,
+                    4,
+                    252
+                ],
+                "moves": [
+                    252,
+                    75,
+                    67,
+                    512
+                ]
+            },
+            {
+                "pokemonId": 830,
+                "level": 20,
+                "itemId": 184,
+                "natureId": 15,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    252,
+                    0
+                ],
+                "moves": [
+                    345,
+                    676,
+                    311,
+                    304
+                ]
+            }
+        ],
+        "battleType": 1
+    },
+    {
+        "id": 41,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 42,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 43,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 44,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 45,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 46,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 47,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 48,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 49,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 50,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 51,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 52,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 53,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 54,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 55,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 56,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 57,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 58,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 59,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 60,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 61,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 62,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 63,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 64,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 65,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 66,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 67,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 68,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 69,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 70,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 71,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 72,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 73,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 74,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 75,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 76,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 77,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 78,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 79,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 80,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 81,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 82,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 83,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 84,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 85,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 86,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 87,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 88,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 89,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 90,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 91,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 92,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 93,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 94,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 95,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 96,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 97,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 98,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 99,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 100,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 101,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 102,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 103,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 104,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 105,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 106,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 107,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 108,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 109,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 110,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 111,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 112,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 113,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 114,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 115,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 116,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 117,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 118,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 119,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 120,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 121,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 122,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 123,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 124,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 125,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 126,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 127,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 128,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 129,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 130,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 131,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 132,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 133,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 134,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 135,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 136,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 137,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 138,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 139,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 140,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 141,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 142,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 143,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 144,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 145,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 146,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 147,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 148,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 149,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 150,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 151,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 152,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 153,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 154,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 155,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 156,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 157,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 158,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 159,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 160,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 161,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 162,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 163,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 164,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 165,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 166,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 167,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 168,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 169,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 170,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 171,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 172,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 173,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 174,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 175,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 176,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 177,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 178,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 179,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 180,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 181,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 182,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 183,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 184,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 185,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 186,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 187,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 188,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 189,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 190,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 191,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 192,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 193,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 194,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 195,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 196,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 197,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 198,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 199,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 200,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 201,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 202,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 203,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 204,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 205,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 206,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 207,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 208,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 209,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 210,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 211,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 212,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 213,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 214,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 215,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 216,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 217,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 218,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 219,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 220,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 221,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 222,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 223,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 224,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 225,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 226,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 227,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 228,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 229,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 230,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 231,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 232,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 233,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 234,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 235,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 236,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 237,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 238,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 239,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 240,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 241,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 242,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 243,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 244,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 245,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 246,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 247,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 248,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 249,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 250,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 251,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 252,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 253,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 254,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 255,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 256,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 257,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 258,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 259,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 260,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 261,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 262,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 263,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 264,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 265,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 266,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 267,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 268,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 269,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 270,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 271,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 272,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 273,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 274,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 275,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 276,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 277,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 278,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 279,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 280,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 281,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 282,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 283,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 284,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 285,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 286,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 287,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 288,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 289,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 290,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 291,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 292,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 293,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 294,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 295,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 296,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 297,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 298,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 299,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 300,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 301,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 302,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 303,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 304,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 305,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 306,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 307,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 308,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 309,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 310,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 311,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 312,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 313,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 314,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 315,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 316,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 317,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 318,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 319,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    },
+    {
+        "id": 320,
+        "name": "",
+        "trainerClass": 0,
+        "team": [],
+        "battleType": 1
+    }
+]

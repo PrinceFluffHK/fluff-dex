@@ -14,7 +14,7 @@ class Trainer {
         this.team = team;
         this.notes = notes;
         this.battleType = battleType;
-        this.mandatory = mandatory;
+        this.mandatory = mandatory || true
     }
 
     static makeSingle(
