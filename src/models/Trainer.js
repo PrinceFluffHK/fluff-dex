@@ -135,6 +135,7 @@ class Trainer {
                             <img
                                 src={`/trainerClasses/${this.trainerClass.id}-${romhack.spriteId}.png`}
                                 alt={`Sprite for the ${this.trainerClass.name} trainer class.`}
+                                className="battle-portrait"
                             />
                         </Link>
                     </Grid>
