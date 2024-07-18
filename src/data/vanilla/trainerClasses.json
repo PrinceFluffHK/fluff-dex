@@ -270,7 +270,7 @@
     { "id": 269, "name": "Gym Trainer", "modifier": "Dark Gym Male" },
     { "id": 270, "name": "Gym Trainer", "modifier": "Dragon Gym Male" },
     { "id": 271, "name": "Gym Trainer", "modifier": "Dragon Gym Female" },
-    { "id": 272, "name": "", "modifier": "" },
+    { "id": 272, "name": "PKMN Trainer", "modifier": "Marnie" },
     { "id": 273, "name": "", "modifier": "" },
     { "id": 274, "name": "", "modifier": "" },
     { "id": 275, "name": "", "modifier": "" },

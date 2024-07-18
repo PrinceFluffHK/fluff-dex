@@ -337,6 +337,45 @@
         "description": "User receives 33% recoil damage."
     },
     {
+        "id": 20,
+        "name": "Bind",
+        "bp": 60,
+        "acc": 90
+    },
+    {
+        "id": 83,
+        "name": "Fire Spin",
+        "bp": 60,
+        "acc": 90
+    },
+    {
+        "id": 328,
+        "name": "Sand Tomb",
+        "bp": 60,
+        "acc": 90
+    },
+    {
+        "id": 611,
+        "name": "Infestation",
+        "bp": 60
+    },
+    {
+        "id": 250,
+        "name": "Whirlpool",
+        "bp": 60,
+        "acc": 90
+    },
+    {
+        "id": 779,
+        "name": "Snap Trap",
+        "bp": 70
+    },
+    {
+        "id": 35,
+        "name": "Wrap",
+        "bp": 70
+    },
+    {
         "name": "Wild Charge",
         "id": 528,
         "bp": 120

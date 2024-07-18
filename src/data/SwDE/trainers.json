@@ -464,14 +464,14 @@
     },
     {
         "id": 10,
-        "name": "Grunt",
+        "name": "Grunt 1",
         "trainerClass": 224,
         "team": [],
         "battleType": 1
     },
     {
         "id": 11,
-        "name": "Grunt",
+        "name": "Grunt 2",
         "trainerClass": 225,
         "team": [],
         "battleType": 1
@@ -502,23 +502,150 @@
     },
     {
         "id": 15,
-        "name": "Grunt",
+        "name": "Grunt 3",
         "trainerClass": 224,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 273,
+                "level": 10,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    71,
+                    310,
+                    74,
+                    106
+                ]
+            },
+            {
+                "pokemonId": 270,
+                "level": 10,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    71,
+                    55,
+                    45
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 16,
-        "name": "Grunt",
+        "name": "Grunt 4",
         "trainerClass": 225,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 290,
+                "level": 10,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    232,
+                    10,
+                    106
+                ]
+            },
+            {
+                "pokemonId": 236,
+                "level": 10,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    252,
+                    33,
+                    116
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 17,
         "name": "Hop",
         "trainerClass": 253,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 12,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    23,
+                    45,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 821,
+                "level": 12,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    64,
+                    681,
+                    468
+                ]
+            },
+            {
+                "pokemonId": 816,
+                "level": 13,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    1,
+                    20,
+                    45
+                ]
+            }
+        ],
         "battleType": 1,
         "notes": "If the player chose Grookey"
     },
@@ -526,7 +653,63 @@
         "id": 18,
         "name": "Hop",
         "trainerClass": 253,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 12,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    23,
+                    45,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 821,
+                "level": 12,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    64,
+                    681,
+                    468
+                ]
+            },
+            {
+                "pokemonId": 810,
+                "level": 13,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    75,
+                    785,
+                    269,
+                    45
+                ]
+            }
+        ],
         "battleType": 1,
         "notes": "If the player chose Scorbunny"
     },
@@ -534,7 +717,63 @@
         "id": 19,
         "name": "Hop",
         "trainerClass": 253,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 12,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    23,
+                    45,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 821,
+                "level": 12,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    64,
+                    681,
+                    468
+                ]
+            },
+            {
+                "pokemonId": 813,
+                "level": 13,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    24,
+                    52,
+                    98,
+                    45
+                ]
+            }
+        ],
         "battleType": 1,
         "notes": "If the player chose Sobble"
     },
@@ -542,133 +781,1026 @@
         "id": 20,
         "name": "Rei",
         "trainerClass": 21,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 280,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    574,
+                    45,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 761,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    75,
+                    229,
+                    589
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 21,
         "name": "Hannah",
         "trainerClass": 46,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 39,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    343,
+                    204,
+                    111
+                ]
+            },
+            {
+                "pokemonId": 415,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    16,
+                    450,
+                    230
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 22,
         "name": "Marvin",
         "trainerClass": 45,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 674,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    292,
+                    33,
+                    43,
+                    269
+                ]
+            },
+            {
+                "pokemonId": 661,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    64,
+                    52,
+                    45
+                ]
+            },
+            {
+                "pokemonId": 360,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    68,
+                    133,
+                    204,
+                    227
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 23,
         "name": "Kayleigh",
         "trainerClass": 46,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 677,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    93,
+                    574,
+                    43
+                ]
+            },
+            {
+                "pokemonId": 183,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    55,
+                    33,
+                    270,
+                    204
+                ]
+            },
+            {
+                "pokemonId": 35,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    1,
+                    574,
+                    45
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 24,
         "name": "Tad",
         "trainerClass": 223,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 225,
+                "level": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    217
+                ]
+            },
+            {
+                "pokemonId": 58,
+                "level": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    172,
+                    44,
+                    336
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 25,
         "name": "Peter",
         "trainerClass": 45,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 403,
+                "level": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    44,
+                    84,
+                    268,
+                    43
+                ]
+            },
+            {
+                "pokemonId": 825,
+                "level": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    522,
+                    93,
+                    115,
+                    113
+                ]
+            },
+            {
+                "pokemonId": 341,
+                "level": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    61,
+                    269,
+                    43,
+                    106
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 26,
         "name": "Keith",
         "trainerClass": 118,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 524,
+                "level": 14,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    189,
+                    33,
+                    106
+                ]
+            },
+            {
+                "pokemonId": 837,
+                "level": 14,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    479,
+                    229,
+                    108
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 27,
         "name": "Georgia",
-        "trainerClass": 0,
-        "team": [],
+        "trainerClass": 120,
+        "team": [
+            {
+                "pokemonId": 532,
+                "level": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    67,
+                    1,
+                    116
+                ]
+            },
+            {
+                "pokemonId": 599,
+                "level": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    11,
+                    451,
+                    268
+                ]
+            },
+            {
+                "pokemonId": 749,
+                "level": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    249,
+                    189,
+                    334
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 28,
         "name": "Sandra",
-        "trainerClass": 0,
-        "team": [],
+        "trainerClass": 120,
+        "team": [
+            {
+                "pokemonId": 50,
+                "level": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    189,
+                    310,
+                    45
+                ]
+            },
+            {
+                "pokemonId": 529,
+                "level": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    189,
+                    229,
+                    468
+                ]
+            },
+            {
+                "pokemonId": 27,
+                "level": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    210,
+                    317,
+                    28
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 29,
         "name": "Russel",
         "trainerClass": 118,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 41,
+                "level": 16,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    305,
+                    17,
+                    212
+                ]
+            },
+            {
+                "pokemonId": 527,
+                "level": 16,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    314,
+                    531,
+                    286
+                ]
+            },
+            {
+                "pokemonId": 66,
+                "level": 16,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    490,
+                    282,
+                    43
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 30,
         "name": "Bede 1",
         "trainerClass": 254,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 577,
+                "level": 15,
+                "natureId": 17,
+                "evs": [
+                    252,
+                    0,
+                    4,
+                    252,
+                    0,
+                    0
+                ],
+                "moves": [
+                    93,
+                    105,
+                    433
+                ]
+            },
+            {
+                "pokemonId": 574,
+                "level": 15,
+                "natureId": 5,
+                "evs": [
+                    252,
+                    0,
+                    156,
+                    0,
+                    100,
+                    0
+                ],
+                "moves": [
+                    252,
+                    60,
+                    447,
+                    204
+                ]
+            },
+            {
+                "pokemonId": 79.1,
+                "level": 16,
+                "natureId": 7,
+                "evs": [
+                    252,
+                    0,
+                    100,
+                    156,
+                    0,
+                    0
+                ],
+                "moves": [
+                    93,
+                    51,
+                    250,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 856,
+                "level": 17,
+                "natureId": 15,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    93,
+                    574,
+                    791,
+                    312
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 31,
         "name": "Jaime",
         "trainerClass": 77,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 253,
+                "level": 16,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    72,
+                    98,
+                    197
+                ]
+            },
+            {
+                "pokemonId": 256,
+                "level": 16,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    488,
+                    98,
+                    45
+                ]
+            },
+            {
+                "pokemonId": 259,
+                "level": 16,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    55,
+                    88,
+                    249
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 32,
         "name": "Shane",
         "trainerClass": 109,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 25,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    486,
+                    98,
+                    86
+                ]
+            },
+            {
+                "pokemonId": 2,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    75,
+                    73,
+                    45
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 33,
         "name": "Bradley",
         "trainerClass": 77,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 729,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    453,
+                    196,
+                    608
+                ]
+            },
+            {
+                "pokemonId": 723,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    670,
+                    425,
+                    64
+                ]
+            },
+            {
+                "pokemonId": 726,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    52,
+                    44,
+                    46
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 34,
         "name": "Sunny",
         "trainerClass": 110,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 868,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    577,
+                    33,
+                    230
+                ]
+            },
+            {
+                "pokemonId": 8,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    229,
+                    182
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 35,
         "name": "Mia",
         "trainerClass": 110,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 133,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    98,
+                    33,
+                    608,
+                    39
+                ]
+            },
+            {
+                "pokemonId": 5,
+                "level": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    225,
+                    52,
+                    45,
+                    108
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 36,
         "name": "Rhys",
         "trainerClass": 109,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 595,
+                "level": 18,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    564,
+                    527,
+                    450,
+                    81
+                ]
+            },
+            {
+                "pokemonId": 597,
+                "level": 18,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    42,
+                    232,
+                    275,
+                    106
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 37,
         "name": "Samuel",
         "trainerClass": 255,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 590,
+                "level": 17,
+                "natureId": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    72,
+                    474,
+                    77
+                ]
+            },
+            {
+                "pokemonId": 546,
+                "level": 17,
+                "natureId": 17,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    584,
+                    75,
+                    270
+                ]
+            },
+            {
+                "pokemonId": 708,
+                "level": 18,
+                "itemId": 158,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    506,
+                    785,
+                    50
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 38,
         "name": "Mark",
         "trainerClass": 256,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 114,
+                "level": 17,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    803,
+                    73,
+                    241
+                ]
+            },
+            {
+                "pokemonId": 102,
+                "level": 18,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    72,
+                    93,
+                    236
+                ]
+            },
+            {
+                "pokemonId": 470,
+                "level": 18,
+                "itemId": 158,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    75,
+                    44,
+                    98
+                ]
+            }
+        ],
         "battleType": 1,
         "mandatory": false
     },
@@ -676,7 +1808,81 @@
         "id": 39,
         "name": "Leah",
         "trainerClass": 255,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 271,
+                "level": 18,
+                "natureId": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    72,
+                    55,
+                    240
+                ]
+            },
+            {
+                "pokemonId": 274,
+                "level": 18,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    75,
+                    314
+                ]
+            },
+            {
+                "pokemonId": 762,
+                "level": 18,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    803,
+                    229,
+                    490
+                ]
+            },
+            {
+                "pokemonId": 315,
+                "level": 18,
+                "itemId": 158,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    345,
+                    78,
+                    791
+                ]
+            }
+        ],
         "battleType": 1,
         "mandatory": false
     },
@@ -800,23 +2006,99 @@
                     676,
                     311,
                     304
-                ]
+                ],
+                "maxStatus": 1
             }
         ],
         "battleType": 1
     },
     {
         "id": 41,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Gillian",
+        "trainerClass": 113,
+        "team": [
+            {
+                "pokemonId": 694,
+                "level": 20,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    486,
+                    523,
+                    98,
+                    268
+                ]
+            },
+            {
+                "pokemonId": 714,
+                "level": 20,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    17,
+                    44,
+                    141
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 42,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Cam",
+        "trainerClass": 64,
+        "team": [
+            {
+                "pokemonId": 278,
+                "level": 20,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    17,
+                    352,
+                    45
+                ]
+            },
+            {
+                "pokemonId": 599,
+                "level": 20,
+                "natureId": 2,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    443,
+                    451,
+                    475
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
@@ -828,401 +2110,4422 @@
     },
     {
         "id": 44,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Stuart",
+        "trainerClass": 184,
+        "team": [
+            {
+                "pokemonId": 420,
+                "level": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    345,
+                    74,
+                    505
+                ]
+            },
+            {
+                "pokemonId": 582,
+                "level": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    196,
+                    420,
+                    269
+                ]
+            },
+            {
+                "pokemonId": 868,
+                "level": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    577,
+                    597,
+                    312
+                ]
+            },
+            {
+                "pokemonId": 83.1,
+                "level": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    249,
+                    64,
+                    297
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 45,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Debra",
+        "trainerClass": 78,
+        "team": [
+            {
+                "pokemonId": 572,
+                "level": 21,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    129,
+                    1,
+                    526
+                ]
+            },
+            {
+                "pokemonId": 425,
+                "level": 21,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    247,
+                    16,
+                    499
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 46,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Adrian",
+        "trainerClass": 77,
+        "team": [
+            {
+                "pokemonId": 759,
+                "level": 21,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    70,
+                    395,
+                    693
+                ]
+            },
+            {
+                "pokemonId": 742,
+                "level": 21,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    577,
+                    814,
+                    564
+                ]
+            },
+            {
+                "pokemonId": 183,
+                "level": 21,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    61,
+                    340,
+                    270
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 47,
-        "name": "",
+        "name": "Grunt 5",
         "trainerClass": 0,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 50.1,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    189,
+                    389
+                ]
+            },
+            {
+                "pokemonId": 27.1,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    232,
+                    181
+                ]
+            },
+            {
+                "pokemonId": 744,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    317,
+                    44,
+                    336
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 48,
-        "name": "",
+        "name": "Grunt 6",
         "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "team": [
+            {
+                "pokemonId": 453,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    474,
+                    490,
+                    189
+                ]
+            },
+            {
+                "pokemonId": 177,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    500,
+                    64,
+                    347
+                ]
+            },
+            {
+                "pokemonId": 302,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    101,
+                    50
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "Immediately follows Grunt 5"
     },
     {
         "id": 49,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Hop 4",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 22,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    29,
+                    24,
+                    45,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 404,
+                "level": 22,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    209,
+                    44,
+                    268,
+                    336
+                ]
+            },
+            {
+                "pokemonId": 64,
+                "level": 22,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    347,
+                    115,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 822,
+                "level": 22,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    365,
+                    369,
+                    681,
+                    468
+                ]
+            },
+            {
+                "pokemonId": 817,
+                "level": 23,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    341,
+                    420,
+                    715
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 50,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Hop 4",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 22,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    29,
+                    24,
+                    45,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 404,
+                "level": 22,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    209,
+                    44,
+                    268,
+                    336
+                ]
+            },
+            {
+                "pokemonId": 64,
+                "level": 22,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    347,
+                    115,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 822,
+                "level": 22,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    365,
+                    369,
+                    681,
+                    468
+                ]
+            },
+            {
+                "pokemonId": 811,
+                "level": 23,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    803,
+                    263,
+                    103,
+                    74
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 51,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Hop 4",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 831,
+                "level": 22,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    29,
+                    24,
+                    45,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 404,
+                "level": 22,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    209,
+                    44,
+                    268,
+                    336
+                ]
+            },
+            {
+                "pokemonId": 64,
+                "level": 22,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    347,
+                    115,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 822,
+                "level": 22,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    365,
+                    369,
+                    681,
+                    468
+                ]
+            },
+            {
+                "pokemonId": 814,
+                "level": 23,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    488,
+                    24,
+                    162,
+                    339
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 52,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Denise",
+        "trainerClass": 78,
+        "team": [
+            {
+                "pokemonId": 447,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    249,
+                    232,
+                    364
+                ]
+            },
+            {
+                "pokemonId": 527,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    93,
+                    314,
+                    347
+                ]
+            },
+            {
+                "pokemonId": 427,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    98,
+                    490,
+                    313
+                ]
+            },
+            {
+                "pokemonId": 872,
+                "level": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    181,
+                    450,
+                    584
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 53,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Gabrielle",
+        "trainerClass": 126,
+        "team": [
+            {
+                "pokemonId": 309,
+                "level": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    351,
+                    44,
+                    43
+                ]
+            },
+            {
+                "pokemonId": 659,
+                "level": 23,
+                "itemId": 155,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    263,
+                    341,
+                    24
+                ]
+            },
+            {
+                "pokemonId": 281,
+                "level": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    577,
+                    45
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 54,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Julia",
+        "trainerClass": 257,
+        "team": [
+            {
+                "pokemonId": 535,
+                "level": 23,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    61,
+                    341,
+                    51
+                ]
+            },
+            {
+                "pokemonId": 422,
+                "level": 23,
+                "natureId": 5,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    246,
+                    105
+                ]
+            },
+            {
+                "pokemonId": 747,
+                "level": 23,
+                "natureId": 22,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    474,
+                    44,
+                    611
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 55,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Heather",
+        "trainerClass": 257,
+        "team": [
+            {
+                "pokemonId": 98,
+                "level": 23,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    534,
+                    232,
+                    334
+                ]
+            },
+            {
+                "pokemonId": 341,
+                "level": 23,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    453,
+                    282,
+                    14
+                ]
+            },
+            {
+                "pokemonId": 223,
+                "level": 23,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    61,
+                    62,
+                    331
+                ]
+            },
+            {
+                "pokemonId": 118,
+                "level": 23,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    401,
+                    684,
+                    97
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 56,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Lynn",
+        "trainerClass": 257,
+        "team": [
+            {
+                "pokemonId": 318,
+                "level": 24,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    453,
+                    305,
+                    423
+                ]
+            },
+            {
+                "pokemonId": 846,
+                "level": 24,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    291
+                ]
+            },
+            {
+                "pokemonId": 817,
+                "level": 24,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    389,
+                    715
+                ]
+            },
+            {
+                "pokemonId": 134,
+                "level": 24,
+                "itemId": 234,
+                "natureId": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    250,
+                    34,
+                    270
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 57,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Nessa",
+        "trainerClass": 238,
+        "team": [
+            {
+                "pokemonId": 195,
+                "level": 23,
+                "itemId": 187,
+                "natureId": 20,
+                "evs": [
+                    4,
+                    0,
+                    252,
+                    0,
+                    252,
+                    0
+                ],
+                "moves": [
+                    341,
+                    491,
+                    281,
+                    240
+                ]
+            },
+            {
+                "pokemonId": 91,
+                "level": 24,
+                "natureId": 23,
+                "evs": [
+                    252,
+                    0,
+                    4,
+                    0,
+                    252,
+                    0
+                ],
+                "moves": [
+                    556,
+                    534,
+                    350,
+                    191
+                ]
+            },
+            {
+                "pokemonId": 211,
+                "level": 24,
+                "natureId": 13,
+                "evs": [
+                    4,
+                    252,
+                    0,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    291,
+                    342,
+                    565,
+                    184
+                ]
+            },
+            {
+                "pokemonId": 871,
+                "level": 24,
+                "itemId": 158,
+                "natureId": 22,
+                "evs": [
+                    252,
+                    0,
+                    156,
+                    0,
+                    100,
+                    0
+                ],
+                "moves": [
+                    209,
+                    362,
+                    86,
+                    596
+                ]
+            },
+            {
+                "pokemonId": 130,
+                "level": 23,
+                "itemId": 285,
+                "natureId": 8,
+                "evs": [
+                    0,
+                    252,
+                    0,
+                    0,
+                    100,
+                    156
+                ],
+                "moves": [
+                    401,
+                    423,
+                    808,
+                    240
+                ],
+                "maxStatus": 1
+            },
+            {
+                "pokemonId": 834,
+                "level": 25,
+                "itemId": 243,
+                "natureId": 3,
+                "evs": [
+                    0,
+                    252,
+                    156,
+                    0,
+                    0,
+                    100
+                ],
+                "moves": [
+                    534,
+                    317,
+                    684,
+                    341
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 58,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Bede 2",
+        "trainerClass": 254,
+        "team": [
+            {
+                "pokemonId": 77.1,
+                "level": 25,
+                "natureId": 11,
+                "evs": [
+                    0,
+                    252,
+                    0,
+                    4,
+                    0,
+                    252
+                ],
+                "moves": [
+                    60,
+                    583,
+                    24
+                ]
+            },
+            {
+                "pokemonId": 79.1,
+                "level": 25,
+                "itemId": 281,
+                "natureId": 7,
+                "evs": [
+                    252,
+                    0,
+                    100,
+                    156,
+                    0,
+                    0
+                ],
+                "moves": [
+                    428,
+                    362,
+                    474,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 577,
+                "level": 25,
+                "natureId": 17,
+                "evs": [
+                    252,
+                    0,
+                    4,
+                    252,
+                    0,
+                    0
+                ],
+                "moves": [
+                    295,
+                    113,
+                    115,
+                    433
+                ]
+            },
+            {
+                "pokemonId": 574,
+                "level": 25,
+                "natureId": 5,
+                "evs": [
+                    252,
+                    0,
+                    156,
+                    0,
+                    100,
+                    0
+                ],
+                "moves": [
+                    252,
+                    296,
+                    447,
+                    204
+                ]
+            },
+            {
+                "pokemonId": 856,
+                "level": 25,
+                "itemId": 538,
+                "natureId": 15,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    797,
+                    605,
+                    791,
+                    312
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 59,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Francis",
+        "trainerClass": 118,
+        "team": [
+            {
+                "pokemonId": 838,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    488,
+                    246,
+                    815
+                ]
+            },
+            {
+                "pokemonId": 696,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    525,
+                    317,
+                    44
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 60,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Yvonne",
+        "trainerClass": 120,
+        "team": [
+            {
+                "pokemonId": 533,
+                "level": 25,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    490,
+                    317,
+                    339
+                ]
+            },
+            {
+                "pokemonId": 525,
+                "level": 25,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    479,
+                    189,
+                    469
+                ]
+            },
+            {
+                "pokemonId": 698,
+                "level": 25,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    496,
+                    246,
+                    86
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 61,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 817,
+                "level": 27,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    389,
+                    341,
+                    113
+                ]
+            },
+            {
+                "pokemonId": 832,
+                "level": 26,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    29,
+                    24,
+                    45,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 404,
+                "level": 26,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    422,
+                    44,
+                    268,
+                    336
+                ]
+            },
+            {
+                "pokemonId": 64,
+                "level": 26,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    347,
+                    115,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 822,
+                "level": 26,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    365,
+                    369,
+                    249,
+                    366
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Grookey"
     },
     {
         "id": 62,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 811,
+                "level": 27,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    75,
+                    282,
+                    263
+                ]
+            },
+            {
+                "pokemonId": 832,
+                "level": 26,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    29,
+                    24,
+                    45,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 404,
+                "level": 26,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    422,
+                    44,
+                    268,
+                    336
+                ]
+            },
+            {
+                "pokemonId": 64,
+                "level": 26,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    347,
+                    115,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 822,
+                "level": 26,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    365,
+                    369,
+                    249,
+                    366
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Scorbunny"
     },
     {
         "id": 63,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 814,
+                "level": 27,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    488,
+                    490,
+                    162,
+                    339
+                ]
+            },
+            {
+                "pokemonId": 832,
+                "level": 26,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    29,
+                    24,
+                    45,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 404,
+                "level": 26,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    422,
+                    44,
+                    268,
+                    336
+                ]
+            },
+            {
+                "pokemonId": 64,
+                "level": 26,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    347,
+                    115,
+                    50
+                ]
+            },
+            {
+                "pokemonId": 822,
+                "level": 26,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    365,
+                    369,
+                    249,
+                    366
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Sobble"
     },
     {
         "id": 64,
-        "name": "",
+        "name": "Grunt 7",
         "trainerClass": 0,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 44,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    202,
+                    474,
+                    92
+                ]
+            },
+            {
+                "pokemonId": 291,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    332,
+                    369,
+                    189
+                ]
+            },
+            {
+                "pokemonId": 294,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    496,
+                    574,
+                    44
+                ]
+            },
+            {
+                "pokemonId": 536,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    61,
+                    341,
+                    103
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 65,
-        "name": "",
+        "name": "Grunt 8",
         "trainerClass": 0,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 264.1,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    400,
+                    29,
+                    42
+                ]
+            },
+            {
+                "pokemonId": 292,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    421,
+                    806,
+                    109
+                ]
+            },
+            {
+                "pokemonId": 51.1,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    442,
+                    707,
+                    389
+                ]
+            },
+            {
+                "pokemonId": 93,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    506,
+                    499,
+                    174
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 66,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Vincent",
+        "trainerClass": 128,
+        "team": [
+            {
+                "pokemonId": 568,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    443,
+                    491,
+                    36
+                ]
+            },
+            {
+                "pokemonId": 95,
+                "level": 26,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    157,
+                    525,
+                    269
+                ]
+            },
+            {
+                "pokemonId": 660,
+                "level": 27,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    98,
+                    91,
+                    673
+                ]
+            },
+            {
+                "pokemonId": 42,
+                "level": 27,
+                "itemId": 1123,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    814,
+                    242,
+                    141
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 67,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Caroline",
+        "trainerClass": 108,
+        "team": [
+            {
+                "pokemonId": 836,
+                "level": 27,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    209,
+                    44,
+                    39
+                ]
+            },
+            {
+                "pokemonId": 528,
+                "level": 27,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    314,
+                    706,
+                    283
+                ]
+            },
+            {
+                "pokemonId": 428,
+                "level": 27,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    98,
+                    24,
+                    608
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 68,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Raymond",
+        "trainerClass": 57,
+        "team": [
+            {
+                "pokemonId": 828,
+                "level": 29,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    389,
+                    555,
+                    168
+                ]
+            },
+            {
+                "pokemonId": 446,
+                "level": 29,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    343,
+                    254,
+                    256
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 69,
-        "name": "",
+        "name": "Marnie 1",
         "trainerClass": 0,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 453,
+                "level": 28,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    156,
+                    0,
+                    0,
+                    100,
+                    252
+                ],
+                "moves": [
+                    389,
+                    279,
+                    398,
+                    269
+                ]
+            },
+            {
+                "pokemonId": 510,
+                "level": 28,
+                "itemId": 275,
+                "natureId": 20,
+                "evs": [
+                    0,
+                    4,
+                    0,
+                    0,
+                    252,
+                    252
+                ],
+                "moves": [
+                    252,
+                    555,
+                    204,
+                    86
+                ]
+            },
+            {
+                "pokemonId": 559,
+                "level": 28,
+                "natureId": 23,
+                "evs": [
+                    156,
+                    252,
+                    0,
+                    0,
+                    100,
+                    0
+                ],
+                "moves": [
+                    252,
+                    280,
+                    168,
+                    428
+                ]
+            },
+            {
+                "pokemonId": 726,
+                "level": 28,
+                "itemId": 640,
+                "natureId": 8,
+                "evs": [
+                    4,
+                    252,
+                    252,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    252,
+                    424,
+                    242,
+                    369
+                ]
+            },
+            {
+                "pokemonId": 877,
+                "level": 29,
+                "itemId": 234,
+                "natureId": 10,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    252,
+                    486,
+                    399,
+                    268
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 70,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Darren",
+        "trainerClass": 258,
+        "team": [
+            {
+                "pokemonId": 757,
+                "level": 30,
+                "natureId": 11,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    305,
+                    799
+                ]
+            },
+            {
+                "pokemonId": 814,
+                "level": 30,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    488,
+                    490,
+                    162
+                ]
+            },
+            {
+                "pokemonId": 662,
+                "level": 30,
+                "natureId": 4,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    315,
+                    814,
+                    211
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 71,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Chaka",
+        "trainerClass": 259,
+        "team": [
+            {
+                "pokemonId": 136,
+                "level": 30,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    424,
+                    98,
+                    44
+                ]
+            },
+            {
+                "pokemonId": 58,
+                "level": 30,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    424,
+                    242,
+                    583
+                ]
+            },
+            {
+                "pokemonId": 37,
+                "level": 30,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    510,
+                    555,
+                    241
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 72,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Elle",
+        "trainerClass": 259,
+        "team": [
+            {
+                "pokemonId": 421,
+                "level": 30,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    481,
+                    345,
+                    241
+                ]
+            },
+            {
+                "pokemonId": 554,
+                "level": 30,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    7,
+                    29,
+                    428
+                ]
+            },
+            {
+                "pokemonId": 77,
+                "level": 30,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    172,
+                    34,
+                    24
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 73,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Kabu",
+        "trainerClass": 239,
+        "team": [
+            {
+                "pokemonId": 324,
+                "level": 30,
+                "natureId": 7,
+                "evs": [
+                    252,
+                    0,
+                    252,
+                    0,
+                    4,
+                    0
+                ],
+                "moves": [
+                    311,
+                    815,
+                    776,
+                    241
+                ]
+            },
+            {
+                "pokemonId": 479.1,
+                "level": 30,
+                "itemId": 219,
+                "natureId": 20,
+                "evs": [
+                    156,
+                    0,
+                    0,
+                    252,
+                    100,
+                    0
+                ],
+                "moves": [
+                    315,
+                    521,
+                    506,
+                    261
+                ]
+            },
+            {
+                "pokemonId": 67,
+                "level": 31,
+                "itemId": 273,
+                "natureId": 3,
+                "evs": [
+                    100,
+                    252,
+                    156,
+                    0,
+                    0,
+                    5
+                ],
+                "moves": [
+                    490,
+                    282,
+                    418,
+                    9
+                ]
+            },
+            {
+                "pokemonId": 38,
+                "level": 31,
+                "itemId": 275,
+                "natureId": 10,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    326,
+                    595,
+                    605,
+                    241
+                ]
+            },
+            {
+                "pokemonId": 59,
+                "level": 31,
+                "itemId": 158,
+                "natureId": 8,
+                "evs": [
+                    252,
+                    0,
+                    4,
+                    0,
+                    252,
+                    0
+                ],
+                "moves": [
+                    424,
+                    555,
+                    270,
+                    261
+                ]
+            },
+            {
+                "pokemonId": 851,
+                "level": 32,
+                "itemId": 1120,
+                "natureId": 0,
+                "evs": [
+                    0,
+                    100,
+                    0,
+                    156,
+                    0,
+                    252
+                ],
+                "moves": [
+                    53,
+                    141,
+                    474,
+                    242
+                ],
+                "maxStatus": 2
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 74,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Brian",
+        "trainerClass": 10,
+        "team": [
+            {
+                "pokemonId": 427,
+                "level": 1,
+                "itemId": 275,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    98,
+                    283
+                ]
+            },
+            {
+                "pokemonId": 659,
+                "level": 1,
+                "itemId": 275,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    98,
+                    283
+                ]
+            },
+            {
+                "pokemonId": 744,
+                "level": 1,
+                "itemId": 275,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    389,
+                    283
+                ]
+            },
+            {
+                "pokemonId": 546,
+                "level": 1,
+                "itemId": 275,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    267,
+                    283
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 75,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Grunt",
+        "trainerClass": 224,
+        "team": [
+            {
+                "pokemonId": 434,
+                "level": 32,
+                "itemId": 538,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    491,
+                    389,
+                    555
+                ]
+            },
+            {
+                "pokemonId": 552,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    492,
+                    707,
+                    424
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 76,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Grunt",
+        "trainerClass": 225,
+        "team": [
+            {
+                "pokemonId": 222.1,
+                "level": 31,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    350,
+                    506,
+                    352
+                ]
+            },
+            {
+                "pokemonId": 562.1,
+                "level": 31,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    101,
+                    399,
+                    261
+                ]
+            },
+            {
+                "pokemonId": 745.1,
+                "level": 31,
+                "itemId": 210,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    157,
+                    808,
+                    269
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "Immediately follows Grunt"
     },
     {
         "id": 77,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Anita",
+        "trainerClass": 7,
+        "team": [
+            {
+                "pokemonId": 328,
+                "level": 32,
+                "itemId": 275,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    89,
+                    242,
+                    660
+                ]
+            },
+            {
+                "pokemonId": 36,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    577,
+                    266,
+                    182
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 78,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Iwan",
+        "trainerClass": 129,
+        "team": [
+            {
+                "pokemonId": 624,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    442,
+                    372,
+                    43
+                ]
+            },
+            {
+                "pokemonId": 678,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    60,
+                    270
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 79,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Evelyn",
+        "trainerClass": 130,
+        "team": [
+            {
+                "pokemonId": 518,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    248,
+                    347,
+                    236
+                ]
+            },
+            {
+                "pokemonId": 678.1,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    60,
+                    389
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 80,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Diane",
+        "trainerClass": 246,
+        "team": [
+            {
+                "pokemonId": 507,
+                "level": 33,
+                "itemId": 157,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    70,
+                    242,
+                    336
+                ]
+            },
+            {
+                "pokemonId": 712,
+                "level": 33,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    419,
+                    360,
+                    157
+                ]
+            },
+            {
+                "pokemonId": 111,
+                "level": 33,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    350,
+                    707,
+                    371
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 81,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Nicola",
+        "trainerClass": 222,
+        "team": [
+            {
+                "pokemonId": 605,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    29,
+                    100
+                ]
+            },
+            {
+                "pokemonId": 753,
+                "level": 32,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    331,
+                    404,
+                    164
+                ]
+            },
+            {
+                "pokemonId": 592,
+                "level": 33,
+                "itemId": 538,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    506,
+                    668
+                ]
+            },
+            {
+                "pokemonId": 108,
+                "level": 33,
+                "itemId": 158,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    23,
+                    122,
+                    205
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 82,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Ruth",
+        "trainerClass": 246,
+        "team": [
+            {
+                "pokemonId": 372,
+                "level": 34,
+                "itemId": 540,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    225,
+                    29,
+                    242
+                ]
+            },
+            {
+                "pokemonId": 375,
+                "level": 34,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    428,
+                    232,
+                    36
+                ]
+            },
+            {
+                "pokemonId": 247,
+                "level": 34,
+                "itemId": 220,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    157,
+                    242,
+                    707
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 83,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Duncan",
+        "trainerClass": 62,
+        "team": [
+            {
+                "pokemonId": 690,
+                "level": 34,
+                "itemId": 275,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    352,
+                    342,
+                    525
+                ]
+            },
+            {
+                "pokemonId": 185,
+                "level": 34,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    317,
+                    21,
+                    280
+                ]
+            },
+            {
+                "pokemonId": 566,
+                "level": 34,
+                "itemId": 270,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    17,
+                    246,
+                    369
+                ]
+            },
+            {
+                "pokemonId": 124,
+                "level": 34,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    196,
+                    577,
+                    313
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 84,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 832,
+                "level": 32,
+                "itemId": 234,
+                "natureId": 13,
+                "evs": [
+                    252,
+                    100,
+                    0,
+                    0,
+                    0,
+                    156
+                ],
+                "moves": [
+                    34,
+                    24,
+                    428,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 881,
+                "level": 32,
+                "natureId": 0,
+                "evs": [
+                    4,
+                    252,
+                    252,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    422,
+                    419,
+                    350,
+                    86
+                ]
+            },
+            {
+                "pokemonId": 849,
+                "level": 33,
+                "natureId": 10,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    85,
+                    51,
+                    555,
+                    598
+                ]
+            },
+            {
+                "pokemonId": 843,
+                "level": 33,
+                "itemId": 275,
+                "natureId": 23,
+                "evs": [
+                    252,
+                    0,
+                    100,
+                    0,
+                    156,
+                    0
+                ],
+                "moves": [
+                    328,
+                    91,
+                    342,
+                    182
+                ]
+            },
+            {
+                "pokemonId": 845,
+                "level": 33,
+                "itemId": 186,
+                "natureId": 24,
+                "evs": [
+                    4,
+                    252,
+                    0,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    291,
+                    332,
+                    211,
+                    311
+                ]
+            },
+            {
+                "pokemonId": 817,
+                "level": 34,
+                "itemId": 157,
+                "natureId": 15,
+                "evs": [
+                    4,
+                    0,
+                    252,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    352,
+                    389,
+                    341,
+                    113
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Grookey"
     },
     {
         "id": 85,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 832,
+                "level": 32,
+                "itemId": 234,
+                "natureId": 13,
+                "evs": [
+                    252,
+                    100,
+                    0,
+                    0,
+                    0,
+                    156
+                ],
+                "moves": [
+                    34,
+                    24,
+                    428,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 881,
+                "level": 32,
+                "natureId": 0,
+                "evs": [
+                    4,
+                    252,
+                    252,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    422,
+                    419,
+                    350,
+                    86
+                ]
+            },
+            {
+                "pokemonId": 849,
+                "level": 33,
+                "natureId": 10,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    85,
+                    51,
+                    555,
+                    598
+                ]
+            },
+            {
+                "pokemonId": 843,
+                "level": 33,
+                "itemId": 275,
+                "natureId": 23,
+                "evs": [
+                    252,
+                    0,
+                    100,
+                    0,
+                    156,
+                    0
+                ],
+                "moves": [
+                    328,
+                    91,
+                    342,
+                    182
+                ]
+            },
+            {
+                "pokemonId": 845,
+                "level": 33,
+                "itemId": 186,
+                "natureId": 24,
+                "evs": [
+                    4,
+                    252,
+                    0,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    291,
+                    332,
+                    211,
+                    311
+                ]
+            },
+            {
+                "pokemonId": 811,
+                "level": 34,
+                "itemId": 157,
+                "natureId": 8,
+                "evs": [
+                    252,
+                    252,
+                    0,
+                    0,
+                    0,
+                    4
+                ],
+                "moves": [
+                    252,
+                    75,
+                    282,
+                    263
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Scorbunny"
     },
     {
         "id": 86,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Hop",
+        "trainerClass": 253,
+        "team": [
+            {
+                "pokemonId": 832,
+                "level": 32,
+                "itemId": 234,
+                "natureId": 13,
+                "evs": [
+                    252,
+                    100,
+                    0,
+                    0,
+                    0,
+                    156
+                ],
+                "moves": [
+                    34,
+                    24,
+                    428,
+                    97
+                ]
+            },
+            {
+                "pokemonId": 881,
+                "level": 32,
+                "natureId": 0,
+                "evs": [
+                    4,
+                    252,
+                    252,
+                    0,
+                    0,
+                    0
+                ],
+                "moves": [
+                    422,
+                    419,
+                    350,
+                    86
+                ]
+            },
+            {
+                "pokemonId": 849,
+                "level": 33,
+                "natureId": 10,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    85,
+                    51,
+                    555,
+                    598
+                ]
+            },
+            {
+                "pokemonId": 843,
+                "level": 33,
+                "itemId": 275,
+                "natureId": 23,
+                "evs": [
+                    252,
+                    0,
+                    100,
+                    0,
+                    156,
+                    0
+                ],
+                "moves": [
+                    328,
+                    91,
+                    342,
+                    182
+                ]
+            },
+            {
+                "pokemonId": 845,
+                "level": 33,
+                "itemId": 186,
+                "natureId": 24,
+                "evs": [
+                    4,
+                    252,
+                    0,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    291,
+                    332,
+                    211,
+                    311
+                ]
+            },
+            {
+                "pokemonId": 814,
+                "level": 34,
+                "itemId": 157,
+                "natureId": 3,
+                "evs": [
+                    4,
+                    252,
+                    0,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    488,
+                    490,
+                    162,
+                    339
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "If the player chose Sobble"
     },
     {
         "id": 87,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Ian",
+        "trainerClass": 260,
+        "team": [
+            {
+                "pokemonId": 83.1,
+                "level": 33,
+                "itemId": 538,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    249,
+                    332,
+                    282
+                ]
+            },
+            {
+                "pokemonId": 559,
+                "level": 34,
+                "itemId": 538,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    67,
+                    808,
+                    7
+                ]
+            },
+            {
+                "pokemonId": 852,
+                "level": 33,
+                "itemId": 538,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    280,
+                    8,
+                    389
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 88,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Claire",
+        "trainerClass": 261,
+        "team": [
+            {
+                "pokemonId": 106,
+                "level": 34,
+                "itemId": 266,
+                "natureId": 12,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    490,
+                    299,
+                    340
+                ]
+            },
+            {
+                "pokemonId": 107,
+                "level": 34,
+                "itemId": 266,
+                "natureId": 24,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    183,
+                    9,
+                    270
+                ]
+            },
+            {
+                "pokemonId": 237,
+                "level": 34,
+                "itemId": 266,
+                "natureId": 0,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    252,
+                    167,
+                    813
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 89,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Simon",
+        "trainerClass": 260,
+        "team": [
+            {
+                "pokemonId": 538,
+                "level": 34,
+                "itemId": 273,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    480,
+                    263,
+                    339
+                ]
+            },
+            {
+                "pokemonId": 539,
+                "level": 34,
+                "itemId": 846,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    280,
+                    157,
+                    675
+                ]
+            },
+            {
+                "pokemonId": 760,
+                "level": 35,
+                "itemId": 270,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    416,
+                    409,
+                    693
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 90,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Bea",
+        "trainerClass": 240,
+        "team": [
+            {
+                "pokemonId": 865,
+                "level": 34,
+                "itemId": 259,
+                "natureId": 3,
+                "evs": [
+                    156,
+                    100,
+                    0,
+                    0,
+                    252,
+                    4
+                ],
+                "moves": [
+                    660,
+                    332,
+                    280,
+                    211
+                ]
+            },
+            {
+                "pokemonId": 870,
+                "level": 34,
+                "itemId": 157,
+                "natureId": 13,
+                "evs": [
+                    0,
+                    156,
+                    100,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    748,
+                    684,
+                    157,
+                    428
+                ]
+            },
+            {
+                "pokemonId": 750,
+                "level": 35,
+                "itemId": 234,
+                "natureId": 12,
+                "evs": [
+                    252,
+                    0,
+                    4,
+                    0,
+                    252,
+                    0
+                ],
+                "moves": [
+                    667,
+                    776,
+                    484,
+                    446
+                ]
+            },
+            {
+                "pokemonId": 675,
+                "level": 35,
+                "itemId": 158,
+                "natureId": 11,
+                "evs": [
+                    0,
+                    100,
+                    0,
+                    0,
+                    156,
+                    252
+                ],
+                "moves": [
+                    292,
+                    282,
+                    184,
+                    575
+                ]
+            },
+            {
+                "pokemonId": 802,
+                "level": 35,
+                "itemId": 247,
+                "natureId": 8,
+                "evs": [
+                    252,
+                    252,
+                    0,
+                    0,
+                    0,
+                    4
+                ],
+                "moves": [
+                    425,
+                    395,
+                    364,
+                    339
+                ]
+            },
+            {
+                "pokemonId": 68,
+                "level": 36,
+                "itemId": 273,
+                "natureId": 23,
+                "evs": [
+                    0,
+                    252,
+                    100,
+                    0,
+                    0,
+                    156
+                ],
+                "moves": [
+                    418,
+                    276,
+                    663,
+                    707
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 91,
-        "name": "",
+        "name": "Bede 3",
         "trainerClass": 0,
-        "team": [],
+        "team": [
+            {
+                "pokemonId": 876,
+                "level": 35,
+                "natureId": 10,
+                "evs": [
+                    0,
+                    0,
+                    0,
+                    252,
+                    252,
+                    4
+                ],
+                "moves": [
+                    326,
+                    304,
+                    595,
+                    678
+                ]
+            },
+            {
+                "pokemonId": 77.1,
+                "level": 36,
+                "itemId": 538,
+                "natureId": 13,
+                "evs": [
+                    4,
+                    252,
+                    0,
+                    0,
+                    0,
+                    252
+                ],
+                "moves": [
+                    428,
+                    583,
+                    667,
+                    595
+                ]
+            },
+            {
+                "pokemonId": 80.1,
+                "level": 35,
+                "itemId": 281,
+                "natureId": 7,
+                "evs": [
+                    252,
+                    0,
+                    100,
+                    156,
+                    0,
+                    0
+                ],
+                "moves": [
+                    801,
+                    196,
+                    250,
+                    281
+                ]
+            },
+            {
+                "pokemonId": 578,
+                "level": 36,
+                "itemId": 270,
+                "natureId": 17,
+                "evs": [
+                    252,
+                    0,
+                    4,
+                    252,
+                    0,
+                    0
+                ],
+                "moves": [
+                    295,
+                    247,
+                    412,
+                    433
+                ]
+            },
+            {
+                "pokemonId": 575,
+                "level": 36,
+                "itemId": 538,
+                "natureId": 5,
+                "evs": [
+                    252,
+                    0,
+                    156,
+                    0,
+                    100,
+                    0
+                ],
+                "moves": [
+                    252,
+                    296,
+                    313,
+                    204
+                ]
+            },
+            {
+                "pokemonId": 857,
+                "level": 37,
+                "itemId": 538,
+                "natureId": 15,
+                "evs": [
+                    0,
+                    0,
+                    100,
+                    252,
+                    156,
+                    0
+                ],
+                "moves": [
+                    473,
+                    605,
+                    609,
+                    791
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 92,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Derek",
+        "trainerClass": 184,
+        "team": [
+            {
+                "pokemonId": 860,
+                "level": 37,
+                "itemId": 240,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    793,
+                    583,
+                    259
+                ]
+            },
+            {
+                "pokemonId": 756,
+                "level": 37,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    202,
+                    605,
+                    668
+                ]
+            },
+            {
+                "pokemonId": 475,
+                "level": 37,
+                "itemId": 220,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    427,
+                    280,
+                    332
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 93,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Robert",
+        "trainerClass": 128,
+        "team": [
+            {
+                "pokemonId": 103,
+                "level": 37,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    473,
+                    402,
+                    95
+                ]
+            },
+            {
+                "pokemonId": 680,
+                "level": 37,
+                "itemId": 538,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    442,
+                    421,
+                    475
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 94,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Jaqueline",
+        "trainerClass": 7,
+        "team": [
+            {
+                "pokemonId": 12,
+                "level": 37,
+                "itemId": 275,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    403,
+                    405,
+                    366
+                ]
+            },
+            {
+                "pokemonId": 337,
+                "level": 37,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    94,
+                    157,
+                    585
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 95,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Judy",
+        "trainerClass": 108,
+        "team": [
+            {
+                "pokemonId": 876.1,
+                "level": 37,
+                "itemId": 158,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    805,
+                    505,
+                    678
+                ]
+            },
+            {
+                "pokemonId": 121,
+                "level": 37,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    473,
+                    503,
+                    85
+                ]
+            },
+            {
+                "pokemonId": 124,
+                "level": 38,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    94,
+                    58,
+                    417
+                ]
+            },
+            {
+                "pokemonId": 876,
+                "level": 38,
+                "itemId": 267,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    797,
+                    304,
+                    595
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 96,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
-        "battleType": 1
+        "name": "Elena",
+        "trainerClass": 78,
+        "team": [
+            {
+                "pokemonId": 123,
+                "level": 37,
+                "itemId": 538,
+                "natureId": 13,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    814,
+                    369,
+                    211
+                ]
+            },
+            {
+                "pokemonId": 356,
+                "level": 37,
+                "itemId": 538,
+                "natureId": 23,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    523,
+                    502,
+                    261
+                ]
+            },
+            {
+                "pokemonId": 772,
+                "level": 37,
+                "itemId": 538,
+                "natureId": 8,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    306,
+                    14,
+                    86
+                ]
+            },
+            {
+                "pokemonId": 112,
+                "level": 42,
+                "itemId": 538,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    529,
+                    350,
+                    359
+                ]
+            }
+        ],
+        "battleType": 1,
+        "notes": "Gives Eviolite"
     },
     {
         "id": 97,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Annette",
+        "trainerClass": 264,
+        "team": [
+            {
+                "pokemonId": 40,
+                "level": 38,
+                "itemId": 540,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    304,
+                    605,
+                    53
+                ]
+            },
+            {
+                "pokemonId": 182,
+                "level": 38,
+                "natureId": 5,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    202,
+                    79,
+                    483
+                ]
+            },
+            {
+                "pokemonId": 764,
+                "level": 38,
+                "itemId": 199,
+                "natureId": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    577,
+                    73,
+                    666
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 98,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Teresa",
+        "trainerClass": 264,
+        "team": [
+            {
+                "pokemonId": 707,
+                "level": 38,
+                "itemId": 191,
+                "natureId": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    430,
+                    286,
+                    269,
+                    182
+                ]
+            },
+            {
+                "pokemonId": 683,
+                "level": 38,
+                "natureId": 15,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    585,
+                    94,
+                    581
+                ]
+            },
+            {
+                "pokemonId": 685,
+                "level": 38,
+                "itemId": 234,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    583,
+                    273,
+                    538
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 99,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Theodora",
+        "trainerClass": 264,
+        "team": [
+            {
+                "pokemonId": 547,
+                "level": 38,
+                "itemId": 190,
+                "natureId": 20,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    585,
+                    202,
+                    366
+                ]
+            },
+            {
+                "pokemonId": 36,
+                "level": 38,
+                "itemId": 268,
+                "natureId": 5,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    53,
+                    85,
+                    58
+                ]
+            },
+            {
+                "pokemonId": 282,
+                "level": 39,
+                "natureId": 10,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    60,
+                    577,
+                    347
+                ]
+            },
+            {
+                "pokemonId": 778,
+                "level": 39,
+                "itemId": 640,
+                "natureId": 3,
+                "evs": [
+                    88,
+                    84,
+                    84,
+                    84,
+                    84,
+                    84
+                ],
+                "moves": [
+                    425,
+                    583,
+                    409
+                ]
+            }
+        ],
         "battleType": 1
     },
     {
         "id": 100,
-        "name": "",
-        "trainerClass": 0,
-        "team": [],
+        "name": "Opal",
+        "trainerClass": 241,
+        "team": [
+            {
+                "pokemonId": 743,
+                "level": 38,
+                "itemId": 275,
+                "natureId": 5,
+                "evs": [
+                    252,
+                    0,
+                    0,
+                    4,
+                    0,
+                    252
+                ],
+                "moves": [
+                    676,
+                    585,
+                    78,
+                    564
+                ]
+            },
+            {
+                "pokemonId": 38,
+                "level": 38,
+                "itemId": 158,
+                "natureId": 15,
+                "evs": [
+                    4,
+                    0,
+                    0,
+                    252,
+                    0,
+                    252
+                ],
+                "moves": [
+                    595,
+                    605,
+                    286,
+                    182
+                ]
+            },
+            {
+                "pokemonId": 334,
+                "level": 39,
+                "itemId": 199,
+                "natureId": 3,
+                "evs": [
+                    0,
+                    252,
+                    4,
+                    0,
+                    100,
+                    152
+                ],
+                "moves": [
+                    337,
+                    263,
+                    211,
+                    349
+                ]
+            },
+            {
+                "pokemonId": 788,
+                "level": 39,
+                "itemId": 234,
+                "natureId": 12,
+                "evs": [
+                    100,
+                    0,
+                    252,
+                    156,
+                    0,
+                    0
+                ],
+                "moves": [
+                    362,
+                    577,
+                    196,
+                    347
+                ]
+            },
+            {
+                "pokemonId": 468,
+                "level": 39,
+                "itemId": 640,
+                "natureId": 20,
+                "evs": [
+                    0,
+                    0,
+                    156,
+                    252,
+                    0,
+                    100
+                ],
+                "moves": [
+                    403,
+                    585,
+                    304,
+                    396
+                ]
+            },
+            {
+                "pokemonId": 869,
+                "level": 40,
+                "itemId": 267,
+                "natureId": 10,
+                "evs": [
+                    156,
+                    0,
+                    0,
+                    100,
+                    0,
+                    252
+                ],
+                "moves": [
+                    605,
+                    473,
+                    595,
+                    777
+                ],
+                "maxStatus": 2
+            }
+        ],
         "battleType": 1
     },
     {
