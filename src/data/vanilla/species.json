@@ -6162,7 +6162,6 @@
         "name": "Seedot",
         "gen": 3,
         "type1": 12,
-        "type2": 17,
         "ability1": 34,
         "ability2": 48,
         "abilityH": 124,
@@ -17589,7 +17588,7 @@
     },
     {
         "id": 10104,
-        "name": "Ninetails",
+        "name": "Ninetales",
         "gen": 7,
         "type1": 15,
         "type2": 18,

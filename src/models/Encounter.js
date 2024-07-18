@@ -19,7 +19,6 @@ class Encounter {
     }
 
     static makeTable(encTableObj, species) {
-        // console.log(encTableObj)
         const newMons = encTableObj.pokemon.map((encMonObj) => {
             return Encounter.makeSingle(encMonObj, species);
         });

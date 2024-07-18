@@ -88,7 +88,6 @@ class Pokemon {
         tutorsArray,
         tmsArray
     ) {
-        // console.log(species.name)
         const type1 = Help.findInArray(species.type1, typesArray);
         const type2 = Help.findInArray(species.type2, typesArray);
         const ability1 = Help.findInArray(species.ability1, abilitiesArray);
@@ -102,12 +101,10 @@ class Pokemon {
             species.tutorLearn,
             tutorsArray
         );
-        // console.log(species.name, species.tmLearn, tmsArray)
         const tmLearn = TmMove.makeTmLearn(
             species.tmLearn,
             tmsArray
         );
-        // console.log(species.name, tmLearn)
         return new Pokemon(
             species.id,
             species.name,

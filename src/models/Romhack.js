@@ -134,19 +134,16 @@ class Romhack {
 
         let nationalDex = []
         if (nationalDexBool) {
-            // console.error("Hello from TRUE")
             nationalDex = Pokedex.makeNationalDex(
                 Help.insertEdits(pokedex, pokedexEdits),
                 species,
                 gen
             );
         } else if (!nationalDexBool) {
-            // console.error("Hello from FALSE")
             nationalDex = regionalDex
         }
 
         const trainerClasses = TrainerClass.makeArray();
-        // console.log(trainerClasses)
         const trainers = Trainer.makeArray(
             trainerData,
             trainerClasses,

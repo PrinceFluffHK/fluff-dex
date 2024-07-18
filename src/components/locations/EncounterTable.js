@@ -3,7 +3,6 @@ import { Grid } from "@mui/material";
 import Encounter from "../../models/Encounter";
 
 const EncounterTable = ({ encTable, index }) => {
-    // console.log(encTable)
     const encounterList = encTable.pokemon.map((mon, index) => {
         const percent = mon.percent === 0 ? "N/A" : `${mon.percent}%`;
         const name =

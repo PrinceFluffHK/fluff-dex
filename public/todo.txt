@@ -7,5 +7,9 @@
 {} Make Logo for home screen?
 {} Add all B2DE trainers
 {} Add tutors page
+{} Resolve 1v2s
+{} Add Dynamax/Gigantamax support
+{}
+{}
 {}
 {}

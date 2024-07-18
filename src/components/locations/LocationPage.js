@@ -14,7 +14,6 @@ const LocationPage = ({ location, id, color }) => {
         if (index === location.trainers.length - 1) {
             final = true;
         }
-        // console.log(location)
         return battle.listDisplay(index, id, color, final);
     });
 

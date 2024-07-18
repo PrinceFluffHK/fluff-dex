@@ -17,7 +17,6 @@ const TrainerList = (props) => {
             if (index % 2) {
                 bgColor = "white";
             }
-            // console.log(`/trainerClasses/${trainer.trainerClass.id}-${selectedRomhack.spriteId}.png`)
             return (
                 <Link
                     className="suppress-link"

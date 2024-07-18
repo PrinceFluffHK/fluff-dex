@@ -23,9 +23,7 @@ class Location {
     static makeSingle(locationObj, trainers, species, items, shops) {
         const locTrainers = locationObj.trainers
             ? locationObj.trainers.map((battleObj) => {
-                // console.log(battleObj.opponent)
                 if (typeof battleObj.opponent == "object") {
-                    // console.log(battleObj)
                     const newOpponents = battleObj.opponent.map((trainerId) => {
                         return Help.findInArray(trainerId, trainers)
                     })
@@ -37,7 +35,6 @@ class Location {
                 return new Battle(battleObj.battleType, newOpponent, battleObj.partner, battleObj.notes)
             })
             : [];
-        // console.log(locationObj.name, locTrainers);
 
         const locEncounters = locationObj.encounters
             ? Encounter.makeSheet(locationObj.encounters, species)
