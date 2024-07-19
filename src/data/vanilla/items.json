@@ -8103,7 +8103,7 @@
         "id": 1130,
         "name": "TR00",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
         "description": "Teaches the move Swords Dance."
@@ -8112,457 +8112,457 @@
         "id": 1131,
         "name": "TR01",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Body Slam."
     },
     {
         "id": 1132,
         "name": "TR02",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Flamethrower."
     },
     {
         "id": 1133,
         "name": "TR03",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Hydro Pump."
     },
     {
         "id": 1134,
         "name": "TR04",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Surf."
     },
     {
         "id": 1135,
         "name": "TR05",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Ice Beam."
     },
     {
         "id": 1136,
         "name": "TR06",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Blizzard."
     },
     {
         "id": 1137,
         "name": "TR07",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Low Kick."
     },
     {
         "id": 1138,
         "name": "TR08",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Thunderbolt."
     },
     {
         "id": 1139,
         "name": "TR09",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Thunder."
     },
     {
         "id": 1140,
         "name": "TR10",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Earthquake."
     },
     {
         "id": 1141,
         "name": "TR11",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Psychic."
     },
     {
         "id": 1142,
         "name": "TR12",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Agility."
     },
     {
         "id": 1143,
         "name": "TR13",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Focus Energy."
     },
     {
         "id": 1144,
         "name": "TR14",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Metronome."
     },
     {
         "id": 1145,
         "name": "TR15",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Fire Blast."
     },
     {
         "id": 1146,
         "name": "TR16",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Waterfall."
     },
     {
         "id": 1147,
         "name": "TR17",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Amnesia."
     },
     {
         "id": 1148,
         "name": "TR18",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Leech Life."
     },
     {
         "id": 1149,
         "name": "TR19",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Tri Attack."
     },
     {
         "id": 1150,
         "name": "TR20",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Substitute."
     },
     {
         "id": 1151,
         "name": "TR21",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Reversal."
     },
     {
         "id": 1152,
         "name": "TR22",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Sludge Bomb."
     },
     {
         "id": 1153,
         "name": "TR23",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Spikes."
     },
     {
         "id": 1154,
         "name": "TR24",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Outrage."
     },
     {
         "id": 1155,
         "name": "TR25",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Psyshock."
     },
     {
         "id": 1156,
         "name": "TR26",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Endure."
     },
     {
         "id": 1157,
         "name": "TR27",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Sleep Talk."
     },
     {
         "id": 1158,
         "name": "TR28",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Megahorn."
     },
     {
         "id": 1159,
         "name": "TR29",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Baton Pass."
     },
     {
         "id": 1160,
         "name": "TR30",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Encore."
     },
     {
         "id": 1161,
         "name": "TR31",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Iron Tail."
     },
     {
         "id": 1162,
         "name": "TR32",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Crunch."
     },
     {
         "id": 1163,
         "name": "TR33",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Shadow Ball."
     },
     {
         "id": 1164,
         "name": "TR34",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Future Sight."
     },
     {
         "id": 1165,
         "name": "TR35",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Uproar."
     },
     {
         "id": 1166,
         "name": "TR36",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Heat Wave."
     },
     {
         "id": 1167,
         "name": "TR37",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Taunt."
     },
     {
         "id": 1168,
         "name": "TR38",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Trick."
     },
     {
         "id": 1169,
         "name": "TR39",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Superpower."
     },
     {
         "id": 1170,
         "name": "TR40",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Skill Swap."
     },
     {
         "id": 1171,
         "name": "TR41",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Blaze Kick."
     },
     {
         "id": 1172,
         "name": "TR42",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Hyper Voice."
     },
     {
         "id": 1173,
         "name": "TR43",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Overheat."
     },
     {
         "id": 1174,
         "name": "TR44",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Cosmic Power."
     },
     {
         "id": 1175,
         "name": "TR45",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Muddy Water."
     },
     {
         "id": 1176,
         "name": "TR46",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Iron Defense."
     },
     {
         "id": 1177,
         "name": "TR47",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Dragon Claw."
     },
     {
         "id": 1178,
         "name": "TR48",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Bulk Up."
     },
     {
         "id": 1179,
         "name": "TR49",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Calm Mind."
     },
     {
         "id": 1180,
         "name": "TR50",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Leaf Blade."
     },
     {
         "id": 1181,
         "name": "TR51",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
         "description": "Teaches the move Dragon Dance."
@@ -8571,268 +8571,268 @@
         "id": 1182,
         "name": "TR52",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Gyro Ball."
     },
     {
         "id": 1183,
         "name": "TR53",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Close Combat."
     },
     {
         "id": 1184,
         "name": "TR54",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Toxic Spikes."
     },
     {
         "id": 1185,
         "name": "TR55",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Flare Blitz."
     },
     {
         "id": 1186,
         "name": "TR56",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Aura Sphere."
     },
     {
         "id": 1187,
         "name": "TR57",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Poison Jab."
     },
     {
         "id": 1188,
         "name": "TR58",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Dark Pulse."
     },
     {
         "id": 1189,
         "name": "TR59",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Seed Bomb."
     },
     {
         "id": 1190,
         "name": "TR60",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move X-Scissor."
     },
     {
         "id": 1191,
         "name": "TR61",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Bug Buzz."
     },
     {
         "id": 1192,
         "name": "TR62",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Dragon Pulse."
     },
     {
         "id": 1193,
         "name": "TR63",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Power Gem."
     },
     {
         "id": 1194,
         "name": "TR64",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Focus Blast."
     },
     {
         "id": 1195,
         "name": "TR65",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Energy Ball."
     },
     {
         "id": 1196,
         "name": "TR66",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Brave Bird."
     },
     {
         "id": 1197,
         "name": "TR67",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Earth Power."
     },
     {
         "id": 1198,
         "name": "TR68",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Nasty Plot."
     },
     {
         "id": 1199,
         "name": "TR69",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Zen Headbutt."
     },
     {
         "id": 1200,
         "name": "TR70",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Flash Cannon."
     },
     {
         "id": 1201,
         "name": "TR71",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Leaf Storm."
     },
     {
         "id": 1202,
         "name": "TR72",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Power Whip."
     },
     {
         "id": 1203,
         "name": "TR73",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Gunk Shot."
     },
     {
         "id": 1204,
         "name": "TR74",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Iron Head."
     },
     {
         "id": 1205,
         "name": "TR75",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Stone Edge."
     },
     {
         "id": 1206,
         "name": "TR76",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Stealth Rock."
     },
     {
         "id": 1207,
         "name": "TR77",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Grass Knot."
     },
     {
         "id": 1208,
         "name": "TR78",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Sludge Wave."
     },
     {
         "id": 1209,
         "name": "TR79",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Heavy Slam."
     },
     {
         "id": 1210,
         "name": "TR80",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Electro Ball."
     },
     {
         "id": 1211,
         "name": "TR81",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
         "description": "Teaches the move Foul Play."
@@ -8841,25 +8841,25 @@
         "id": 1212,
         "name": "TR82",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Stored Power."
     },
     {
         "id": 1213,
         "name": "TR83",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Ally Switch."
     },
     {
         "id": 1214,
         "name": "TR84",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
         "description": "Teaches the move Scald."
@@ -8868,127 +8868,136 @@
         "id": 1215,
         "name": "TR85",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Work Up."
     },
     {
         "id": 1216,
         "name": "TR86",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Wild Charge."
     },
     {
         "id": 1217,
         "name": "TR87",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Drill Run."
     },
     {
         "id": 1218,
         "name": "TR88",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Heat Crash."
     },
     {
         "id": 1219,
         "name": "TR89",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Hurricane."
     },
     {
         "id": 1220,
         "name": "TR90",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Play Rough."
     },
     {
         "id": 1221,
         "name": "TR91",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Venom Drench."
     },
     {
         "id": 1222,
         "name": "TR92",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Dazzling Gleam."
     },
     {
         "id": 1223,
         "name": "TR93",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Darkest Lariat."
     },
     {
         "id": 1224,
         "name": "TR94",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move High Horsepower."
     },
     {
         "id": 1225,
         "name": "TR95",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Throat Chop."
+    },
+    {
+        "id": 1226,
+        "name": "TR96",
+        "gen": 8,
+        "priceP": 100,
+        "priceBP": 0,
+        "type": "Machines",
+        "description": "Teaches the move Pollen Puff."
     },
     {
         "id": 1227,
         "name": "TR97",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Psychic Fangs."
     },
     {
         "id": 1228,
         "name": "TR98",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Liquidation."
     },
     {
         "id": 1229,
         "name": "TR99",
         "gen": 8,
-        "priceP": 0,
+        "priceP": 100,
         "priceBP": 0,
         "type": "Machines",
-        "description": ""
+        "description": "Teaches the move Body Press."
     },
     {
         "id": 1230,

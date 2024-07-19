@@ -23,7 +23,7 @@ class TutorMove {
 
     static getTutorMoves(moveIdArray, tutorMoves) {
         return moveIdArray.map(moveId => {
-            const tutorMove = Help.findInArray(moveId, tutorMoves)
+            return Help.findInArray(moveId, tutorMoves)
         })
     }
 

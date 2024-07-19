@@ -3,6 +3,7 @@ import { Grid } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 
 const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
+    console.log(selectedMon, moveTypeId)
     let { id } = useParams();
     id = parseInt(id);
 
@@ -26,6 +27,7 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
                     : selectedMon.tutorLearn;
         }
         if (moveTypeId === 2) {
+            title = "Machine Moves"
             moveArray =
                 selectedMon.tmLearn.length === 0
                     ? baseDexEntry.forms[0].tmLearn
@@ -34,19 +36,7 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
     }
 
     const movesDisplay = moveArray.map((moveElement, index) => {
-        let var2Prefix = "Lv ";
-        const getValues = (moveTypeId) => {
-            switch (moveTypeId) {
-                case 0:
-                    return moveElement.level;
-                case 1:
-                    var2Prefix = "";
-                    return "";
-                case 2:
-                    return moveElement.item.name;
-            }
-        };
-        let var2Value = getValues(moveTypeId);
+        // console.warn(moveElement, selectedMon)
 
         const { move } = moveElement;
         return (
@@ -61,7 +51,7 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
                     </Grid>
                     <Grid className="align-center" item xs={2}>
                         <b>
-                            {var2Prefix} {var2Value}
+                            Lv {moveElement.level}
                         </b>
                     </Grid>
                     <Grid className="align-center" item xs={2}>
