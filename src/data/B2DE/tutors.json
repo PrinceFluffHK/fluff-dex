@@ -2,43 +2,43 @@
     {
         "id": 1,
         "name": "Pledge Tutor",
-        "Location": "Pokemon World Tournament",
+        "location": "Pokemon World Tournament",
         "currency": ""
     },
     {
         "id": 2,
         "name": "Ultimate Move Tutor",
-        "Location": "Pokemon World Tournament",
+        "location": "Pokemon World Tournament",
         "currency": ""
     },
     {
         "id": 3,
         "name": "Red Shard Tutor",
-        "Location": "Driftveil City",
+        "location": "Driftveil City",
         "currency": "Red Shard"
-    },
-    {
-        "id": 4,
-        "name": "Green Shard Tutor",
-        "Location": "Nacrene City (postgame)",
-        "currency": "Green Shard"
     },
     {
         "id": 5,
         "name": "Blue Shard Tutor",
-        "Location": "Lentimas Town",
+        "location": "Lentimas Town",
         "currency": "Blue Shard"
     },
     {
         "id": 6,
         "name": "Yellow Shard Tutor",
-        "Location": "Humilau City",
+        "location": "Humilau City",
         "currency": "Yellow Shard"
     },
     {
+        "id": 4,
+        "name": "Green Shard Tutor",
+        "location": "Nacrene City (postgame)",
+        "currency": "Green Shard"
+    },
+    {
         "id": 7,
-        "name": "Draco Meteor Tutor: Drayden",
-        "Location": "Opelucid City (postgame)",
+        "name": "Draco Meteor Tutor (Drayden)",
+        "location": "Opelucid City (postgame)",
         "currency": ""
     }
 ]

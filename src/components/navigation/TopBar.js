@@ -2,10 +2,14 @@ import { Link, useParams, useLocation } from "react-router-dom";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse, faBars } from "@fortawesome/free-solid-svg-icons";
+import Help from "../../models/Help";
+import { romhackList } from "../Homepage";
 
 const TopBar = ({ toggleArray }) => {
     const location = useLocation();
-    const { id } = useParams();
+    let { id } = useParams();
+    id = parseInt(id)
+    const selectedRomhack = Help.findInArray(id, romhackList)
 
     const linkObjs = [
         {
@@ -28,13 +32,21 @@ const TopBar = ({ toggleArray }) => {
             name: "Marts",
             link: `/${id}/marts`,
         },
+        {
+            name: "Tutors",
+            link: `/${id}/tutors`,
+        },
     ];
 
-    const links = linkObjs.map((link) => {
+    const links = linkObjs.map((link, index) => {
         const className = `top-bar-link`;
 
+        if (link.name === "Tutors" && selectedRomhack.tutors.length === 0) {
+            return <div key={index}/>
+        }
+
         return (
-            <Link className={className} to={link.link} key={link.name}>
+            <Link className={className} to={link.link} key={index}>
                 <b>{link.name}</b>
             </Link>
         );

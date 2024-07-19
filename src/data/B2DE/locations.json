@@ -4480,6 +4480,7 @@
         "name": "Lentimas Town",
         "trainers": [],
         "encounters": [],
+        "tutors": [5],
         "collectibles": [
             {
                 "itemId": 82,

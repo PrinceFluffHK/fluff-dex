@@ -5,7 +5,6 @@ import { faCopy } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 const FullTeamDisplay = ({ thisTrainer, id }) => {
-    console.log(thisTrainer)
     const teamDisplay = thisTrainer.team.map((mon, index) => {
         const color1 = mon.pokemon.type1.lightColor();
         const color2 = mon.pokemon.type2 ? mon.pokemon.type2.lightColor() : "";
@@ -46,7 +45,6 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
         };
 
         const NatureText = () => {
-            console.log(mon)
             if (mon.nature) {
                 if (mon.nature.plusStat === "None") {
                     return (

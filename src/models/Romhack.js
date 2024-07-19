@@ -108,8 +108,10 @@ class Romhack {
             moveTargets,
             moveCategories
         );
+
         const tutors = Tutor.makeArray(tutorData);
         const tutorMoves = TutorMove.makeArray(tutorMoveData, moves, tutorData);
+        
         const items = Item.makeArray(
             Help.insertEdits(Help.filterByGen(itemData, gen), itemEdits)
         );
@@ -153,7 +155,7 @@ class Romhack {
 
         const shops = Shop.makeArray(shopData, items);
 
-        const locations = Location.makeArray(locationData, trainers, species, items, shops)
+        const locations = Location.makeArray(locationData, trainers, species, items, shops, tutors)
 
         return new Romhack(
             id,

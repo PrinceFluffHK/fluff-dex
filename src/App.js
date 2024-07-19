@@ -9,6 +9,7 @@ import TrainerList from "./components/trainers/TrainerList";
 import TrainerDisplay from "./components/trainers/TrainerDisplay";
 import ShopList from "./components/items/ShopList";
 import LocationList from "./components/locations/LocationList";
+import TutorList from "./components/tutors/TutorList";
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
                     />
                     <Route exact path="/:id/marts" Component={ShopList} />
                     <Route exact path="/:id/locations" Component={LocationList} />
+                    <Route exact path="/:id/tutors" Component={TutorList} />
                 </Routes>
             </HashRouter>
         </div>

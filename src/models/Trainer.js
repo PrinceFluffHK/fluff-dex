@@ -109,7 +109,7 @@ class Trainer {
     locationStandard(color, index, hackId, final, teammate) {
         const romhack = Help.findInArray(hackId, romhackList);
         const teamView = this.teamView(hackId);
-        console.log(this)
+        // console.log(this)
 
         let className = "list-divider";
         if (index === 0) {

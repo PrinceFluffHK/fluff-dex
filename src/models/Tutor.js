@@ -1,3 +1,5 @@
+import { Grid } from "@mui/material";
+
 class Tutor {
     constructor(id, name, location, currency, moves) {
         this.id = id;
@@ -16,9 +18,29 @@ class Tutor {
     }
 
     static makeArray(tutorObjArray) {
-        return tutorObjArray.map(tutorObj => {
-            return Tutor.makeSingle(tutorObj)
-        })
+        const newTutors = tutorObjArray.map((tutorObj) => {
+            return Tutor.makeSingle(tutorObj);
+        });
+        return newTutors;
+    }
+
+    makeDisplay(hack, index, color) {
+        const locationClass = color === "white" ? "invis" : ""
+        const moveList = hack.tutorMoves.filter((move) => {
+            return move.tutor.id === this.id;
+        });
+        const moveDisplay = moveList.map((move, index) => {
+            return move.tutorListDisplay(index, this.currency, hack.id);
+        });
+        return (
+            <div className="tutor-container justify-center" key={index} style={{ backgroundColor: color}}>
+                <div className="width-90">
+                    <h1>{this.name}</h1>
+                    <h2 className={locationClass}>{this.location}</h2>
+                    <div>{moveDisplay}</div>
+                </div>
+            </div>
+        );
     }
 }
 
