@@ -244,5 +244,10 @@
         "id": 484,
         "noteName": "Palkia",
         "forms": [484]
+    },
+    {
+        "id": 310,
+        "noteName": "Manectric",
+        "forms": [310]
     }
 ]

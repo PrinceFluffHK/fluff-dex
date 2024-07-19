@@ -11,7 +11,7 @@ class Battle {
 listDisplay(topIndex, hackId, color, final) {
     try {
         if (Array.isArray(this.opponent)) {
-            console.log(this.opponent)
+            // console.error("HELLO FROM Array.isArray", this.opponent, this.partner)
             const opponents = this.opponent.map((opponent, index) => {
                 return opponent.locationStandard(color, index, hackId, final, true);
             });
@@ -36,13 +36,14 @@ listDisplay(topIndex, hackId, color, final) {
                     </div>
                 );
             } else {
+                // console.warn(this.opponent)
                 return <div key={topIndex}>{opponents}</div>;
             }
         }
         return this.opponent.locationStandard(color, topIndex, hackId, final)
         
     } catch (error) {
-        console.error(this, error)
+        // console.error(this, error)
     }
     }
 }

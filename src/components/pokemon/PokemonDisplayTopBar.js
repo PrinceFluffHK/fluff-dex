@@ -17,13 +17,12 @@ const PokemonDisplayTopBar = ({ selectedMonId, selectedRomhack, dexType }) => {
     const baseMon = DexEntry.findFromForm(selectedMonId, pokedex);
     const thisMon = Help.findInArray(baseMon.id, pokedex);
     const thisMonIndex = pokedex.indexOf(thisMon);
-
     const nextMon =
         thisMonIndex === pokedex.length - 1
             ? pokedex[1].forms[0]
             : pokedex[thisMonIndex + 1].forms[0];
     const lastMon =
-        thisMonIndex === 1
+        thisMonIndex === 0
             ? pokedex[pokedex.length - 1].forms[0]
             : pokedex[thisMonIndex - 1].forms[0];
 

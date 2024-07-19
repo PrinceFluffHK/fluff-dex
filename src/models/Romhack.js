@@ -100,7 +100,6 @@ class Romhack {
         spriteId,
         nationalDexBool
     ) {
-        // console.error(title, nationalDexBool)
         const abilities = Ability.makeArray(Help.filterByGen(abilityData, gen));
         const types = Type.makeArray(typeData);
         const moves = Move.makeArray(
@@ -116,7 +115,6 @@ class Romhack {
         );
 
         const tms = TmMove.makeArray(tmData, items, moves)
-        console.warn("HELLO FROM TMS")
         const species = Pokemon.makeArray(
             Help.editSpecies(Help.filterByGen(speciesData, gen), speciesEdits),
             types,

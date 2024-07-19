@@ -6162,6 +6162,7 @@
         "name": "Seedot",
         "gen": 3,
         "type1": 12,
+        "type2": 0,
         "ability1": 34,
         "ability2": 48,
         "abilityH": 124,

@@ -1,15 +1,14 @@
-{} Make a footer
-{X} improve subLocation styling on mobile
-{} Add target display to moves
+CRITICAL
 {} Add SwDE
 {} Add tutor and TM learnsets
 {X} Add graphics to home screen
-{} Make Logo for home screen?
+{} Make a footer
 {} Add all B2DE trainers
-{} Add tutors page
 {} Resolve 1v2s
 {} Add Dynamax/Gigantamax support
-{}
-{}
-{}
+OPTIONAL
+{X} improve subLocation styling on mobile
+{} Add target display to moves
+{} Make Logo for home screen?
+{} Add tutors page
 {}

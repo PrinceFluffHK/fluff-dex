@@ -17,7 +17,7 @@ const Pokedex = (props) => {
             : selectedRomhack.nationalDex.dexArray;
 
     const pokedex = dexList.map((entry, index) => {
-        if (entry.id > 0) {
+        // if (entry.id > 0) {
             const mon = entry.forms[0];
 
             let bgColor = "lightcyan";
@@ -26,7 +26,6 @@ const Pokedex = (props) => {
                 abilityBgColor = "#ededed";
                 bgColor = "white";
             }
-
             const type1Display = mon.type1.displayBanner(
                 { marginRight: "1rem" },
                 {}
@@ -125,8 +124,8 @@ const Pokedex = (props) => {
                     </Link>
                 </div>
             );
-        }
-        return <></>;
+        // }
+        // return <></>;
     });
 
     const topBarToggle = [
