@@ -17,7 +17,6 @@ class Shop {
     }
 
     static makeArray(shopObjArray, items) {
-        // console.log(shopObjArray)
         return shopObjArray.map((shopObj) => {
             return Shop.makeSingle(shopObj, items);
         });

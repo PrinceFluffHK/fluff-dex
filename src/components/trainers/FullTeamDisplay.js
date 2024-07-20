@@ -76,6 +76,18 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
             );
         };
 
+        const EvText = (props) => {
+            let evText = "EVs: ";
+            mon.evs.forEach((stat, index) => {
+                if (index === 0) {
+                    evText += `${stat}`;
+                } else {
+                    evText += ` / ${stat}`;
+                }
+            });
+            return <b style={{ marginBottom: "2px" }}>{evText}</b>;
+        };
+
         return (
             <Grid className="" item xs={6} sm={4} key={index}>
                 <div className="team-member-container" style={colorStyleObj}>
@@ -106,6 +118,10 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
                         <b>{mon.ability.name}</b>
                     </div>
                     <NatureText />
+                    <div className="center">
+                        <EvText />
+                    </div>
+
                     <div className="center">
                         <div className="team-moves-container">{moveList}</div>
                     </div>

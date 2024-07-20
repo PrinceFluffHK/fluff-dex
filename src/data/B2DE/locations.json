@@ -1438,15 +1438,15 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 54
+                        "opponent": 64
                     },
                     {
                         "battleType": 2,
-                        "opponent": 55
+                        "opponent": 65
                     },
                     {
                         "battleType": 2,
-                        "opponent": 56
+                        "opponent": 66
                     }
                 ],
                 "encounters": [
@@ -3309,6 +3309,7 @@
                 ]
             }
         ],
+        "tutors": [3],
         "collectibles": [
             {
                 "itemId": 268,
@@ -3837,6 +3838,7 @@
         "name": "Pokemon World Tournament",
         "trainers": [],
         "encounters": [],
+        "tutors": [1, 2],
         "collectibles": [
             {
                 "itemId": 73,
@@ -4480,6 +4482,7 @@
         "name": "Lentimas Town",
         "trainers": [],
         "encounters": [],
+        "tutors": [5],
         "collectibles": [
             {
                 "itemId": 82,
@@ -6333,6 +6336,7 @@
         "name": "Opelucid City",
         "trainers": [],
         "encounters": [],
+        "tutors": [7],
         "collectibles": [
             {
                 "itemId": 539,
@@ -7410,6 +7414,7 @@
     {
         "name": "Humilau City",
         "trainers": [],
+        "tutors": [6],
         "encounters": [
             {
                 "type": "Fishing",

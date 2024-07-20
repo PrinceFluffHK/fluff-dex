@@ -3,7 +3,7 @@
     {
         "id": 1,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 498,
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 501,
@@ -35,7 +35,7 @@
     {
         "id": 3,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 495,
@@ -51,7 +51,7 @@
     {
         "id": 4,
         "name": "Terrell",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 504,
@@ -72,7 +72,7 @@
     {
         "id": 5,
         "name": "Isabel",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 509,
@@ -93,7 +93,7 @@
     {
         "id": 6,
         "name": "Petey",
-        "trainerClass": 2,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 506,
@@ -114,7 +114,7 @@
     {
         "id": 7,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 519,
@@ -136,7 +136,7 @@
     {
         "id": 8,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 519,
@@ -158,7 +158,7 @@
     {
         "id": 9,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 519,
@@ -180,7 +180,7 @@
     {
         "id": 10,
         "name": "Molly",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 509,
@@ -201,7 +201,7 @@
     {
         "id": 11,
         "name": "Orville",
-        "trainerClass": 29,
+        "trainerClass": 135,
         "team": [
             {
                 "pokemonId": 447,
@@ -222,7 +222,7 @@
     {
         "id": 12,
         "name": "Kenny",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 37,
@@ -243,7 +243,7 @@
     {
         "id": 13,
         "name": "Seymour",
-        "trainerClass": 52,
+        "trainerClass": 45,
         "team": [
             {
                 "pokemonId": 515,
@@ -265,7 +265,7 @@
     {
         "id": 14,
         "name": "Seymour",
-        "trainerClass": 52,
+        "trainerClass": 45,
         "team": [
             {
                 "pokemonId": 511,
@@ -287,7 +287,7 @@
     {
         "id": 15,
         "name": "Seymour",
-        "trainerClass": 52,
+        "trainerClass": 45,
         "team": [
             {
                 "pokemonId": 513,
@@ -309,7 +309,7 @@
     {
         "id": 16,
         "name": "Cassie",
-        "trainerClass": 53,
+        "trainerClass": 46,
         "team": [
             {
                 "pokemonId": 513,
@@ -331,7 +331,7 @@
     {
         "id": 17,
         "name": "Cassie",
-        "trainerClass": 53,
+        "trainerClass": 46,
         "team": [
             {
                 "pokemonId": 515,
@@ -353,7 +353,7 @@
     {
         "id": 18,
         "name": "Cassie",
-        "trainerClass": 53,
+        "trainerClass": 46,
         "team": [
             {
                 "pokemonId": 511,
@@ -375,7 +375,7 @@
     {
         "id": 19,
         "name": "Alder",
-        "trainerClass": 86,
+        "trainerClass": 235,
         "team": [
             {
                 "pokemonId": 617,
@@ -427,7 +427,7 @@
     {
         "id": 20,
         "name": "Benga",
-        "trainerClass": 88,
+        "trainerClass": 236,
         "team": [
             {
                 "pokemonId": 330,
@@ -481,7 +481,7 @@
     {
         "id": 21,
         "name": "Pedro",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 504,
@@ -509,7 +509,7 @@
     {
         "id": 22,
         "name": "Serena",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 298,
@@ -537,7 +537,7 @@
     {
         "id": 23,
         "name": "Cheren",
-        "trainerClass": 77,
+        "trainerClass": 237,
         "team": [
             {
                 "pokemonId": 173,
@@ -573,7 +573,7 @@
     {
         "id": 24,
         "name": "Jerome",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 447,
@@ -594,7 +594,7 @@
     {
         "id": 25,
         "name": "Albert",
-        "trainerClass": 46,
+        "trainerClass": 141,
         "team": [
             {
                 "pokemonId": 54,
@@ -622,7 +622,7 @@
     {
         "id": 26,
         "name": "Lin",
-        "trainerClass": 47,
+        "trainerClass": 142,
         "team": [
             {
                 "pokemonId": 517,
@@ -650,7 +650,7 @@
     {
         "id": 27,
         "name": "Kimya",
-        "trainerClass": 36,
+        "trainerClass": 139,
         "team": [
             {
                 "pokemonId": 206,
@@ -671,7 +671,7 @@
     {
         "id": 28,
         "name": "Lia & Lily",
-        "trainerClass": 61,
+        "trainerClass": 49,
         "team": [
             {
                 "pokemonId": 191,
@@ -692,7 +692,7 @@
     {
         "id": 29,
         "name": "Leaf",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 470,
@@ -723,7 +723,7 @@
     {
         "id": 30,
         "name": "Malory",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 59,
@@ -746,7 +746,7 @@
     {
         "id": 31,
         "name": "Bret",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 508,
@@ -777,7 +777,7 @@
     {
         "id": 32,
         "name": "Naoko",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 591,
@@ -816,7 +816,7 @@
     {
         "id": 33,
         "name": "Masahiro",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 19,
@@ -844,7 +844,7 @@
     {
         "id": 34,
         "name": "Mitchell",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 568,
@@ -865,7 +865,7 @@
     {
         "id": 35,
         "name": "Waylon",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 60,
@@ -893,7 +893,7 @@
     {
         "id": 36,
         "name": "Nathan",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 81,
@@ -921,7 +921,7 @@
     {
         "id": 37,
         "name": "Isaac",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 240,
@@ -949,7 +949,7 @@
     {
         "id": 38,
         "name": "Daya",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 527,
@@ -970,7 +970,7 @@
     {
         "id": 39,
         "name": "Nicky",
-        "trainerClass": 51,
+        "trainerClass": 27,
         "team": [
             {
                 "pokemonId": 88,
@@ -998,7 +998,7 @@
     {
         "id": 40,
         "name": "Billy Jo",
-        "trainerClass": 68,
+        "trainerClass": 37,
         "team": [
             {
                 "pokemonId": 451,
@@ -1026,7 +1026,7 @@
     {
         "id": 41,
         "name": "Roxie",
-        "trainerClass": 78,
+        "trainerClass": 238,
         "team": [
             {
                 "pokemonId": 590,
@@ -1073,7 +1073,7 @@
     {
         "id": 42,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 504,
@@ -1094,7 +1094,7 @@
     {
         "id": 43,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 509,
@@ -1122,7 +1122,7 @@
     {
         "id": 44,
         "name": "Clemens",
-        "trainerClass": 14,
+        "trainerClass": 124,
         "team": [
             {
                 "pokemonId": 58,
@@ -1143,7 +1143,7 @@
     {
         "id": 45,
         "name": "Warren",
-        "trainerClass": 14,
+        "trainerClass": 124,
         "team": [
             {
                 "pokemonId": 183,
@@ -1164,7 +1164,7 @@
     {
         "id": 46,
         "name": "Britney",
-        "trainerClass": 15,
+        "trainerClass": 126,
         "team": [
             {
                 "pokemonId": 114,
@@ -1185,7 +1185,7 @@
     {
         "id": 47,
         "name": "Gilligan",
-        "trainerClass": 16,
+        "trainerClass": 125,
         "team": [
             {
                 "pokemonId": 519,
@@ -1206,7 +1206,7 @@
     {
         "id": 48,
         "name": "Neil",
-        "trainerClass": 52,
+        "trainerClass": 45,
         "team": [
             {
                 "pokemonId": 133,
@@ -1234,7 +1234,7 @@
     {
         "id": 49,
         "name": "Morimoto",
-        "trainerClass": 95,
+        "trainerClass": 190,
         "team": [
             {
                 "pokemonId": 246,
@@ -1263,7 +1263,7 @@
     {
         "id": 50,
         "name": "Nishino",
-        "trainerClass": 96,
+        "trainerClass": 191,
         "team": [
             {
                 "pokemonId": 35,
@@ -1293,7 +1293,7 @@
     {
         "id": 51,
         "name": "Ricky",
-        "trainerClass": 51,
+        "trainerClass": 27,
         "team": [
             {
                 "pokemonId": 559,
@@ -1314,7 +1314,7 @@
     {
         "id": 52,
         "name": "Jean-Paul",
-        "trainerClass": 19,
+        "trainerClass": 127,
         "team": [
             {
                 "pokemonId": 554,
@@ -1342,7 +1342,7 @@
     {
         "id": 53,
         "name": "Tina",
-        "trainerClass": 68,
+        "trainerClass": 37,
         "team": [
             {
                 "pokemonId": 552,
@@ -1377,7 +1377,7 @@
     {
         "id": 54,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 234,
         "team": [
             {
                 "pokemonId": 499,
@@ -1400,7 +1400,7 @@
     {
         "id": 55,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 234,
         "team": [
             {
                 "pokemonId": 502,
@@ -1423,7 +1423,7 @@
     {
         "id": 56,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 234,
         "team": [
             {
                 "pokemonId": 496,
@@ -1446,7 +1446,7 @@
     {
         "id": 57,
         "name": "Felix",
-        "trainerClass": 29,
+        "trainerClass": 135,
         "team": [
             {
                 "pokemonId": 88,
@@ -1467,7 +1467,7 @@
     {
         "id": 58,
         "name": "Heath",
-        "trainerClass": 21,
+        "trainerClass": 129,
         "team": [
             {
                 "pokemonId": 527,
@@ -1495,7 +1495,7 @@
     {
         "id": 59,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 551,
@@ -1516,7 +1516,7 @@
     {
         "id": 60,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 559,
@@ -1537,7 +1537,7 @@
     {
         "id": 61,
         "name": "Scott",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 532,
@@ -1558,7 +1558,7 @@
     {
         "id": 62,
         "name": "Caroline",
-        "trainerClass": 55,
+        "trainerClass": 30,
         "team": [
             {
                 "pokemonId": 88,
@@ -1586,7 +1586,7 @@
     {
         "id": 63,
         "name": "Clark",
-        "trainerClass": 54,
+        "trainerClass": 29,
         "team": [
             {
                 "pokemonId": 82,
@@ -1609,7 +1609,7 @@
     {
         "id": 64,
         "name": "Brady",
-        "trainerClass": 29,
+        "trainerClass": 135,
         "team": [
             {
                 "pokemonId": 184,
@@ -1637,7 +1637,7 @@
     {
         "id": 65,
         "name": "Terence",
-        "trainerClass": 54,
+        "trainerClass": 29,
         "team": [
             {
                 "pokemonId": 132,
@@ -1660,7 +1660,7 @@
     {
         "id": 66,
         "name": "Lumina",
-        "trainerClass": 55,
+        "trainerClass": 30,
         "team": [
             {
                 "pokemonId": 607,
@@ -1681,7 +1681,7 @@
     {
         "id": 67,
         "name": "Kendall",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 507,
@@ -1709,7 +1709,7 @@
     {
         "id": 68,
         "name": "Clarence",
-        "trainerClass": 24,
+        "trainerClass": 65,
         "team": [
             {
                 "pokemonId": 541,
@@ -1737,7 +1737,7 @@
     {
         "id": 69,
         "name": "Jack",
-        "trainerClass": 24,
+        "trainerClass": 65,
         "team": [
             {
                 "pokemonId": 415,
@@ -1765,7 +1765,7 @@
     {
         "id": 70,
         "name": "Gary",
-        "trainerClass": 24,
+        "trainerClass": 65,
         "team": [
             {
                 "pokemonId": 595,
@@ -1792,7 +1792,7 @@
     {
         "id": 71,
         "name": "Anders",
-        "trainerClass": 24,
+        "trainerClass": 65,
         "team": [
             {
                 "pokemonId": 588,
@@ -1827,7 +1827,7 @@
     {
         "id": 72,
         "name": "Burgh",
-        "trainerClass": 79,
+        "trainerClass": 239,
         "team": [
             {
                 "pokemonId": 123,
@@ -1877,7 +1877,7 @@
     {
         "id": 73,
         "name": "Irene",
-        "trainerClass": 42,
+        "trainerClass": 78,
         "team": [
             {
                 "pokemonId": 529,
@@ -1898,7 +1898,7 @@
     {
         "id": 74,
         "name": "Braven",
-        "trainerClass": 45,
+        "trainerClass": 57,
         "team": [
             {
                 "pokemonId": 507,
@@ -1929,7 +1929,7 @@
     {
         "id": 75,
         "name": "Andrew",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 120,
@@ -1957,7 +1957,7 @@
     {
         "id": 76,
         "name": "Hubert",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 349,
@@ -2006,7 +2006,7 @@
     {
         "id": 77,
         "name": "Colress",
-        "trainerClass": 73,
+        "trainerClass": 228,
         "team": [
             {
                 "pokemonId": 81,
@@ -2042,7 +2042,7 @@
     {
         "id": 78,
         "name": "Dell",
-        "trainerClass": 45,
+        "trainerClass": 57,
         "team": [
             {
                 "pokemonId": 220,
@@ -2070,7 +2070,7 @@
     {
         "id": 79,
         "name": "Neagle",
-        "trainerClass": 45,
+        "trainerClass": 57,
         "team": [
             {
                 "pokemonId": 499,
@@ -2091,7 +2091,7 @@
     {
         "id": 80,
         "name": "Silvester",
-        "trainerClass": 51,
+        "trainerClass": 27,
         "team": [
             {
                 "pokemonId": 554,
@@ -2112,7 +2112,7 @@
     {
         "id": 81,
         "name": "Joey",
-        "trainerClass": 51,
+        "trainerClass": 27,
         "team": [
             {
                 "pokemonId": 543,
@@ -2140,7 +2140,7 @@
     {
         "id": 82,
         "name": "Sinclair",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 520,
@@ -2161,7 +2161,7 @@
     {
         "id": 83,
         "name": "Stanley",
-        "trainerClass": 12,
+        "trainerClass": 8,
         "team": [
             {
                 "pokemonId": 42,
@@ -2189,7 +2189,7 @@
     {
         "id": 84,
         "name": "Rob and Sal",
-        "trainerClass": 26,
+        "trainerClass": 132,
         "team": [
             {
                 "pokemonId": 570,
@@ -2224,7 +2224,7 @@
     {
         "id": 85,
         "name": "Mariah",
-        "trainerClass": 35,
+        "trainerClass": 131,
         "team": [
             {
                 "pokemonId": 35,
@@ -2245,7 +2245,7 @@
     {
         "id": 86,
         "name": "Jaden",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 554,
@@ -2266,7 +2266,7 @@
     {
         "id": 87,
         "name": "Sam",
-        "trainerClass": 8,
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 557,
@@ -2287,7 +2287,7 @@
     {
         "id": 88,
         "name": "Tami",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 529,
@@ -2308,7 +2308,7 @@
     {
         "id": 89,
         "name": "Walt",
-        "trainerClass": 8,
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 551,
@@ -2330,7 +2330,7 @@
     {
         "id": 90,
         "name": "Future",
-        "trainerClass": 49,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 425,
@@ -2351,7 +2351,7 @@
     {
         "id": 91,
         "name": "Tommy",
-        "trainerClass": 48,
+        "trainerClass": 24,
         "team": [
             {
                 "pokemonId": 527,
@@ -2372,7 +2372,7 @@
     {
         "id": 92,
         "name": "Anja",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 240,
@@ -2393,7 +2393,7 @@
     {
         "id": 93,
         "name": "Clara",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 27,
@@ -2414,7 +2414,7 @@
     {
         "id": 94,
         "name": "Perry",
-        "trainerClass": 48,
+        "trainerClass": 24,
         "team": [
             {
                 "pokemonId": 561,
@@ -2442,7 +2442,7 @@
     {
         "id": 95,
         "name": "Due",
-        "trainerClass": 49,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 359,
@@ -2463,7 +2463,7 @@
     {
         "id": 96,
         "name": "Low",
-        "trainerClass": 48,
+        "trainerClass": 24,
         "team": [
             {
                 "pokemonId": 577,
@@ -2494,7 +2494,7 @@
     {
         "id": 97,
         "name": "Nate",
-        "trainerClass": 97,
+        "trainerClass": 247,
         "team": [
             {
                 "pokemonId": 502,
@@ -2524,7 +2524,7 @@
     {
         "id": 98,
         "name": "Nate",
-        "trainerClass": 97,
+        "trainerClass": 247,
         "team": [
             {
                 "pokemonId": 496,
@@ -2554,7 +2554,7 @@
     {
         "id": 99,
         "name": "Nate",
-        "trainerClass": 97,
+        "trainerClass": 247,
         "team": [
             {
                 "pokemonId": 499,
@@ -2584,7 +2584,7 @@
     {
         "id": 100,
         "name": "Rosa",
-        "trainerClass": 98,
+        "trainerClass": 248,
         "team": [
             {
                 "pokemonId": 502,
@@ -2614,7 +2614,7 @@
     {
         "id": 101,
         "name": "Rosa",
-        "trainerClass": 98,
+        "trainerClass": 248,
         "team": [
             {
                 "pokemonId": 496,
@@ -2644,7 +2644,7 @@
     {
         "id": 102,
         "name": "Rosa",
-        "trainerClass": 98,
+        "trainerClass": 248,
         "team": [
             {
                 "pokemonId": 499,
@@ -2674,7 +2674,7 @@
     {
         "id": 103,
         "name": "Ingo",
-        "trainerClass": 75,
+        "trainerClass": 249,
         "team": [
             {
                 "pokemonId": 525,
@@ -2702,7 +2702,7 @@
     {
         "id": 104,
         "name": "Emmet",
-        "trainerClass": 76,
+        "trainerClass": 250,
         "team": [
             {
                 "pokemonId": 533,
@@ -2730,7 +2730,7 @@
     {
         "id": 105,
         "name": "Hank",
-        "trainerClass": 20,
+        "trainerClass": 128,
         "team": [
             {
                 "pokemonId": 529,
@@ -2751,7 +2751,7 @@
     {
         "id": 106,
         "name": "Hector",
-        "trainerClass": 17,
+        "trainerClass": 104,
         "team": [
             {
                 "pokemonId": 520,
@@ -2772,7 +2772,7 @@
     {
         "id": 107,
         "name": "Ivan",
-        "trainerClass": 8,
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 505,
@@ -2793,7 +2793,7 @@
     {
         "id": 108,
         "name": "Stu & Art",
-        "trainerClass": 6,
+        "trainerClass": 122,
         "team": [
             {
                 "pokemonId": 38,
@@ -2828,7 +2828,7 @@
     {
         "id": 109,
         "name": "Krissa",
-        "trainerClass": 18,
+        "trainerClass": 105,
         "team": [
             {
                 "pokemonId": 544,
@@ -2855,7 +2855,7 @@
     {
         "id": 110,
         "name": "Blossom",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 510,
@@ -2883,7 +2883,7 @@
     {
         "id": 111,
         "name": "Galen",
-        "trainerClass": 41,
+        "trainerClass": 77,
         "team": [
             {
                 "pokemonId": 520,
@@ -2904,7 +2904,7 @@
     {
         "id": 112,
         "name": "Serenity",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 568,
@@ -2935,7 +2935,7 @@
     {
         "id": 113,
         "name": "Forrest",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 597,
@@ -2974,7 +2974,7 @@
     {
         "id": 114,
         "name": "Murphy",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 214,
@@ -3016,7 +3016,7 @@
     {
         "id": 115,
         "name": "Jenn",
-        "trainerClass": 10,
+        "trainerClass": 230,
         "team": [
             {
                 "pokemonId": 192,
@@ -3044,7 +3044,7 @@
     {
         "id": 116,
         "name": "Horton",
-        "trainerClass": 5,
+        "trainerClass": 62,
         "team": [
             {
                 "pokemonId": 561,
@@ -3065,7 +3065,7 @@
     {
         "id": 117,
         "name": "Lois",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 38,
@@ -3086,7 +3086,7 @@
     {
         "id": 118,
         "name": "Brian",
-        "trainerClass": 19,
+        "trainerClass": 127,
         "team": [
             {
                 "pokemonId": 136,
@@ -3114,7 +3114,7 @@
     {
         "id": 119,
         "name": "Ava & Aya",
-        "trainerClass": 7,
+        "trainerClass": 123,
         "team": [
             {
                 "pokemonId": 183,
@@ -3149,7 +3149,7 @@
     {
         "id": 120,
         "name": "Preston",
-        "trainerClass": 34,
+        "trainerClass": 138,
         "team": [
             {
                 "pokemonId": 556,
@@ -3177,7 +3177,7 @@
     {
         "id": 121,
         "name": "Persephone",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 510,
@@ -3198,7 +3198,7 @@
     {
         "id": 122,
         "name": "June",
-        "trainerClass": 36,
+        "trainerClass": 139,
         "team": [
             {
                 "pokemonId": 541,
@@ -3219,7 +3219,7 @@
     {
         "id": 123,
         "name": "Trisha",
-        "trainerClass": 15,
+        "trainerClass": 126,
         "team": [
             {
                 "pokemonId": 572,
@@ -3240,7 +3240,7 @@
     {
         "id": 124,
         "name": "December",
-        "trainerClass": 67,
+        "trainerClass": 7,
         "team": [
             {
                 "pokemonId": 180,
@@ -3261,7 +3261,7 @@
     {
         "id": 125,
         "name": "Dirk",
-        "trainerClass": 19,
+        "trainerClass": 127,
         "team": [
             {
                 "pokemonId": 554,
@@ -3282,7 +3282,7 @@
     {
         "id": 126,
         "name": "Augustin",
-        "trainerClass": 14,
+        "trainerClass": 124,
         "team": [
             {
                 "pokemonId": 520,
@@ -3303,7 +3303,7 @@
     {
         "id": 127,
         "name": "Andy",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 525,
@@ -3324,7 +3324,7 @@
     {
         "id": 128,
         "name": "January",
-        "trainerClass": 68,
+        "trainerClass": 37,
         "team": [
             {
                 "pokemonId": 544,
@@ -3344,7 +3344,7 @@
     {
         "id": 129,
         "name": "Rolan",
-        "trainerClass": 50,
+        "trainerClass": 81,
         "team": [
             {
                 "pokemonId": 522,
@@ -3365,7 +3365,7 @@
     {
         "id": 130,
         "name": "Colette",
-        "trainerClass": 30,
+        "trainerClass": 61,
         "team": [
             {
                 "pokemonId": 595,
@@ -3392,7 +3392,7 @@
     {
         "id": 131,
         "name": "Nikola",
-        "trainerClass": 67,
+        "trainerClass": 7,
         "team": [
             {
                 "pokemonId": 239,
@@ -3420,7 +3420,7 @@
     {
         "id": 132,
         "name": "Fleming",
-        "trainerClass": 67,
+        "trainerClass": 7,
         "team": [
             {
                 "pokemonId": 180,
@@ -3443,7 +3443,7 @@
     {
         "id": 133,
         "name": "Ampre",
-        "trainerClass": 67,
+        "trainerClass": 7,
         "team": [
             {
                 "pokemonId": 135,
@@ -3478,7 +3478,7 @@
     {
         "id": 134,
         "name": "Elesa",
-        "trainerClass": 80,
+        "trainerClass": 240,
         "team": [
             {
                 "pokemonId": 587,
@@ -3530,7 +3530,7 @@
     {
         "id": 135,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 568,
@@ -3551,7 +3551,7 @@
     {
         "id": 136,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 505,
@@ -3572,7 +3572,7 @@
     {
         "id": 137,
         "name": "Elliot",
-        "trainerClass": 39,
+        "trainerClass": 43,
         "team": [
             {
                 "pokemonId": 496,
@@ -3603,7 +3603,7 @@
     {
         "id": 138,
         "name": "Talon",
-        "trainerClass": 8,
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 453,
@@ -3624,7 +3624,7 @@
     {
         "id": 139,
         "name": "Corin",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 507,
@@ -3652,7 +3652,7 @@
     {
         "id": 140,
         "name": "Lydia",
-        "trainerClass": 40,
+        "trainerClass": 44,
         "team": [
             {
                 "pokemonId": 510,
@@ -3680,7 +3680,7 @@
     {
         "id": 141,
         "name": "Charles",
-        "trainerClass": 33,
+        "trainerClass": 137,
         "team": [
             {
                 "pokemonId": 564,
@@ -3709,7 +3709,7 @@
     {
         "id": 142,
         "name": "Charles",
-        "trainerClass": 33,
+        "trainerClass": 137,
         "team": [
             {
                 "pokemonId": 561,
@@ -3738,7 +3738,7 @@
     {
         "id": 143,
         "name": "Rood",
-        "trainerClass": 100,
+        "trainerClass": 251,
         "team": [
             {
                 "pokemonId": 533,
@@ -3773,7 +3773,7 @@
     {
         "id": 144,
         "name": "April",
-        "trainerClass": 42,
+        "trainerClass": 78,
         "team": [
             {
                 "pokemonId": 572,
@@ -3794,7 +3794,7 @@
     {
         "id": 145,
         "name": "Nicole",
-        "trainerClass": 37,
+        "trainerClass": 76,
         "team": [
             {
                 "pokemonId": 351,
@@ -3815,7 +3815,7 @@
     {
         "id": 146,
         "name": "Mara",
-        "trainerClass": 53,
+        "trainerClass": 46,
         "team": [
             {
                 "pokemonId": 585,
@@ -3843,7 +3843,7 @@
     {
         "id": 147,
         "name": "Jacques",
-        "trainerClass": 54,
+        "trainerClass": 29,
         "team": [
             {
                 "pokemonId": 585,
@@ -3878,7 +3878,7 @@
     {
         "id": 148,
         "name": "Marissa",
-        "trainerClass": 55,
+        "trainerClass": 30,
         "team": [
             {
                 "pokemonId": 616,
@@ -3899,7 +3899,7 @@
     {
         "id": 149,
         "name": "Tihana",
-        "trainerClass": 42,
+        "trainerClass": 76,
         "team": [
             {
                 "pokemonId": 351,
@@ -3920,7 +3920,7 @@
     {
         "id": 150,
         "name": "Alvin",
-        "trainerClass": 52,
+        "trainerClass": 45,
         "team": [
             {
                 "pokemonId": 590,
@@ -3948,7 +3948,7 @@
     {
         "id": 151,
         "name": "Richard",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 127,
@@ -3976,7 +3976,7 @@
     {
         "id": 152,
         "name": "Noel",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 207,
@@ -4004,7 +4004,7 @@
     {
         "id": 153,
         "name": "Tavarius",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 529,
@@ -4032,7 +4032,7 @@
     {
         "id": 154,
         "name": "Niel",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 343,
@@ -4060,7 +4060,7 @@
     {
         "id": 155,
         "name": "Friedrich",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 221,
@@ -4081,7 +4081,7 @@
     {
         "id": 156,
         "name": "Pasqual",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 247,
@@ -4110,7 +4110,7 @@
     {
         "id": 157,
         "name": "Tibor",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 556,
@@ -4145,7 +4145,7 @@
     {
         "id": 158,
         "name": "Maynard",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 473,
@@ -4166,7 +4166,7 @@
     {
         "id": 159,
         "name": "Clay",
-        "trainerClass": 81,
+        "trainerClass": 241,
         "team": [
             {
                 "pokemonId": 552,
@@ -4218,7 +4218,7 @@
     {
         "id": 160,
         "name": "Maggie",
-        "trainerClass": 68,
+        "trainerClass": 37,
         "team": [
             {
                 "pokemonId": 587,
@@ -4239,7 +4239,7 @@
     {
         "id": 161,
         "name": "Ronald",
-        "trainerClass": 54,
+        "trainerClass": 29,
         "team": [
             {
                 "pokemonId": 82,
@@ -4254,7 +4254,7 @@
     {
         "id": 162,
         "name": "Eileen",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 28,
@@ -4275,7 +4275,7 @@
     {
         "id": 163,
         "name": "Keith",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 215,
@@ -4303,7 +4303,7 @@
     {
         "id": 164,
         "name": "Randall",
-        "trainerClass": 8,
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 20,
@@ -4325,7 +4325,7 @@
     {
         "id": 165,
         "name": "Tobias",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 597,
@@ -4353,7 +4353,7 @@
     {
         "id": 166,
         "name": "Tully",
-        "trainerClass": 49,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 528,
@@ -4374,7 +4374,7 @@
     {
         "id": 167,
         "name": "Annie",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 505,
@@ -4395,7 +4395,7 @@
     {
         "id": 168,
         "name": "Ena",
-        "trainerClass": 48,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 343,
@@ -4423,7 +4423,7 @@
     {
         "id": 169,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 109,
@@ -4444,7 +4444,7 @@
     {
         "id": 170,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 568,
@@ -4472,7 +4472,7 @@
     {
         "id": 171,
         "name": "Cheren",
-        "trainerClass": 77,
+        "trainerClass": 252,
         "team": [
             {
                 "pokemonId": 508,
@@ -4501,7 +4501,7 @@
     {
         "id": 172,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 42,
@@ -4529,7 +4529,7 @@
     {
         "id": 173,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 597,
@@ -4557,7 +4557,7 @@
     {
         "id": 174,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 499,
@@ -4588,7 +4588,7 @@
     {
         "id": 175,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 502,
@@ -4619,7 +4619,7 @@
     {
         "id": 176,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 496,
@@ -4650,7 +4650,7 @@
     {
         "id": 177,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 610,
@@ -4678,7 +4678,7 @@
     {
         "id": 178,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 88,
@@ -4706,7 +4706,7 @@
     {
         "id": 179,
         "name": "Grunt",
-        "trainerClass": 98,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 564,
@@ -4806,7 +4806,7 @@
     {
         "id": 183,
         "name": "Louis",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 181,
@@ -4876,7 +4876,7 @@
     {
         "id": 186,
         "name": "Lumi",
-        "trainerClass": 54,
+        "trainerClass": 29,
         "team": [
             {
                 "pokemonId": 595,
@@ -5026,7 +5026,7 @@
     {
         "id": 191,
         "name": "Otto",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 299,
@@ -5069,7 +5069,7 @@
     {
         "id": 193,
         "name": "Cody",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 508,
@@ -5097,7 +5097,7 @@
     {
         "id": 194,
         "name": "Flo",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 286,
@@ -5231,7 +5231,7 @@
     {
         "id": 199,
         "name": "Pat",
-        "trainerClass": 24,
+        "trainerClass": 65,
         "team": [
             {
                 "pokemonId": 232,
@@ -5259,7 +5259,7 @@
     {
         "id": 200,
         "name": "Ian",
-        "trainerClass": 24,
+        "trainerClass": 65,
         "team": [
             {
                 "pokemonId": 342,
@@ -5639,7 +5639,7 @@
     {
         "id": 215,
         "name": "Skyla",
-        "trainerClass": 82,
+        "trainerClass": 242,
         "team": [
             {
                 "pokemonId": 169,
@@ -5692,7 +5692,7 @@
     {
         "id": 216,
         "name": "Jeremiah",
-        "trainerClass": 17,
+        "trainerClass": 104,
         "team": [
             {
                 "pokemonId": 523,
@@ -5713,7 +5713,7 @@
     {
         "id": 217,
         "name": "Adelaide",
-        "trainerClass": 18,
+        "trainerClass": 105,
         "team": [
             {
                 "pokemonId": 232,
@@ -5864,7 +5864,7 @@
     {
         "id": 222,
         "name": "Kumiko",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 169,
@@ -5885,7 +5885,7 @@
     {
         "id": 223,
         "name": "Jared",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 324,
@@ -5906,7 +5906,7 @@
     {
         "id": 224,
         "name": "Markus",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 213,
@@ -6145,7 +6145,7 @@
     {
         "id": 232,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 521,
@@ -6191,7 +6191,7 @@
     {
         "id": 233,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 521,
@@ -6237,7 +6237,7 @@
     {
         "id": 234,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 521,
@@ -7025,7 +7025,7 @@
     {
         "id": 261,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 500,
@@ -7056,7 +7056,7 @@
     {
         "id": 262,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 503,
@@ -7087,7 +7087,7 @@
     {
         "id": 263,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 497,
@@ -7118,7 +7118,7 @@
     {
         "id": 264,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 169,
@@ -7147,7 +7147,7 @@
     {
         "id": 265,
         "name": "Zinzolin",
-        "trainerClass": 72,
+        "trainerClass": 227,
         "team": [
             {
                 "pokemonId": 614,
@@ -7333,7 +7333,7 @@
     {
         "id": 272,
         "name": "Gough",
-        "trainerClass": 5,
+        "trainerClass": 62,
         "team": [
             {
                 "pokemonId": 192,
@@ -7356,7 +7356,7 @@
     {
         "id": 273,
         "name": "Karl",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 28,
@@ -7384,7 +7384,7 @@
     {
         "id": 274,
         "name": "Chris",
-        "trainerClass": 10,
+        "trainerClass": 230,
         "team": [
             {
                 "pokemonId": 631,
@@ -7507,7 +7507,7 @@
     {
         "id": 279,
         "name": "Crofton",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 423,
@@ -7535,7 +7535,7 @@
     {
         "id": 280,
         "name": "Thalia",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 248,
@@ -7591,7 +7591,7 @@
     {
         "id": 281,
         "name": "Chance",
-        "trainerClass": 51,
+        "trainerClass": 27,
         "team": [
             {
                 "pokemonId": 302,
@@ -7612,7 +7612,7 @@
     {
         "id": 282,
         "name": "Zeke",
-        "trainerClass": 12,
+        "trainerClass": 8,
         "team": [
             {
                 "pokemonId": 624,
@@ -7643,7 +7643,7 @@
     {
         "id": 283,
         "name": "Phillip",
-        "trainerClass": 12,
+        "trainerClass": 8,
         "team": [
             {
                 "pokemonId": 452,
@@ -7664,7 +7664,7 @@
     {
         "id": 284,
         "name": "Jim & Cas",
-        "trainerClass": 26,
+        "trainerClass": 132,
         "team": [
             {
                 "pokemonId": 553,
@@ -7699,7 +7699,7 @@
     {
         "id": 285,
         "name": "Reese",
-        "trainerClass": 51,
+        "trainerClass": 27,
         "team": [
             {
                 "pokemonId": 472,
@@ -7936,7 +7936,7 @@
     {
         "id": 293,
         "name": "Drayden",
-        "trainerClass": 83,
+        "trainerClass": 243,
         "team": [
             {
                 "pokemonId": 330,
@@ -7989,7 +7989,7 @@
     {
         "id": 294,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 505,
@@ -8017,7 +8017,7 @@
     {
         "id": 295,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 579,
@@ -8045,7 +8045,7 @@
     {
         "id": 296,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 336,
@@ -8073,7 +8073,7 @@
     {
         "id": 297,
         "name": "Zinzolin",
-        "trainerClass": 72,
+        "trainerClass": 227,
         "team": [
             {
                 "pokemonId": 614,
@@ -8117,7 +8117,7 @@
     {
         "id": 298,
         "name": "Shadow",
-        "trainerClass": 71,
+        "trainerClass": 226,
         "team": [
             {
                 "pokemonId": 624,
@@ -8175,7 +8175,7 @@
     {
         "id": 300,
         "name": "Mai",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 589,
@@ -8254,7 +8254,7 @@
     {
         "id": 303,
         "name": "Astor",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 227,
@@ -8317,7 +8317,7 @@
     {
         "id": 305,
         "name": "Parker",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 589,
@@ -8627,7 +8627,7 @@
     {
         "id": 316,
         "name": "Myra",
-        "trainerClass": 9,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 584,
@@ -8655,7 +8655,7 @@
     {
         "id": 317,
         "name": "Justin",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 213,
@@ -8940,7 +8940,7 @@
     {
         "id": 327,
         "name": "Marlon",
-        "trainerClass": 84,
+        "trainerClass": 244,
         "team": [
             {
                 "pokemonId": 211,
@@ -8994,7 +8994,7 @@
     {
         "id": 328,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 505,
@@ -9022,7 +9022,7 @@
     {
         "id": 329,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 500,
@@ -9054,7 +9054,7 @@
     {
         "id": 330,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 503,
@@ -9086,7 +9086,7 @@
     {
         "id": 331,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 497,
@@ -9118,7 +9118,7 @@
     {
         "id": 332,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 169,
@@ -9176,7 +9176,7 @@
     {
         "id": 334,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 553,
@@ -9197,7 +9197,7 @@
     {
         "id": 335,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 623,
@@ -9218,7 +9218,7 @@
     {
         "id": 336,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 569,
@@ -9239,7 +9239,7 @@
     {
         "id": 337,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 545,
@@ -9267,7 +9267,7 @@
     {
         "id": 338,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 538,
@@ -9288,7 +9288,7 @@
     {
         "id": 339,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 560,
@@ -9316,7 +9316,7 @@
     {
         "id": 340,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 110,
@@ -9337,7 +9337,7 @@
     {
         "id": 341,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 530,
@@ -9365,7 +9365,7 @@
     {
         "id": 342,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 611,
@@ -9396,7 +9396,7 @@
     {
         "id": 343,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 351,
@@ -9427,7 +9427,7 @@
     {
         "id": 344,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 615,
@@ -9458,7 +9458,7 @@
     {
         "id": 345,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 110,
@@ -9487,7 +9487,7 @@
     {
         "id": 346,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 286,
@@ -9508,7 +9508,7 @@
     {
         "id": 347,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 428,
@@ -9531,7 +9531,7 @@
     {
         "id": 348,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 617,
@@ -9553,7 +9553,7 @@
     {
         "id": 349,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 186,
@@ -9575,7 +9575,7 @@
     {
         "id": 350,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 208,
@@ -9597,7 +9597,7 @@
     {
         "id": 351,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 542,
@@ -9619,7 +9619,7 @@
     {
         "id": 352,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 471,
@@ -9641,7 +9641,7 @@
     {
         "id": 353,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 335,
@@ -9663,7 +9663,7 @@
     {
         "id": 354,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 302,
@@ -9685,7 +9685,7 @@
     {
         "id": 355,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 576,
@@ -9707,7 +9707,7 @@
     {
         "id": 356,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 549,
@@ -9729,7 +9729,7 @@
     {
         "id": 357,
         "name": "Grunt",
-        "trainerClass": 69,
+        "trainerClass": 147,
         "team": [
             {
                 "pokemonId": 631,
@@ -9751,7 +9751,7 @@
     {
         "id": 358,
         "name": "Zinzolin",
-        "trainerClass": 72,
+        "trainerClass": 227,
         "team": [
             {
                 "pokemonId": 584,
@@ -9806,7 +9806,7 @@
     {
         "id": 359,
         "name": "Colress",
-        "trainerClass": 73,
+        "trainerClass": 228,
         "team": [
             {
                 "pokemonId": 132,
@@ -9860,7 +9860,7 @@
     {
         "id": 360,
         "name": "Shadow",
-        "trainerClass": 71,
+        "trainerClass": 226,
         "team": [
             {
                 "pokemonId": 625,
@@ -9899,7 +9899,7 @@
     {
         "id": 361,
         "name": "Shadow",
-        "trainerClass": 71,
+        "trainerClass": 226,
         "team": [
             {
                 "pokemonId": 354,
@@ -9938,7 +9938,7 @@
     {
         "id": 362,
         "name": "Shadow",
-        "trainerClass": 71,
+        "trainerClass": 226,
         "team": [
             {
                 "pokemonId": 625,
@@ -9976,7 +9976,7 @@
     {
         "id": 363,
         "name": "Ghetsis",
-        "trainerClass": 74,
+        "trainerClass": 229,
         "team": [
             {
                 "pokemonId": 563,
@@ -10031,7 +10031,7 @@
     {
         "id": 364,
         "name": "Cairn",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 526,
@@ -10127,7 +10127,7 @@
     {
         "id": 367,
         "name": "Wade",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 623,
@@ -10149,7 +10149,7 @@
     {
         "id": 368,
         "name": "Gus",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 248,
@@ -10178,7 +10178,7 @@
     {
         "id": 369,
         "name": "Patton",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 534,
@@ -10258,7 +10258,7 @@
     {
         "id": 372,
         "name": "Cliff",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 561,
@@ -10287,7 +10287,7 @@
     {
         "id": 373,
         "name": "Hunter",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 612,
@@ -10308,7 +10308,7 @@
     {
         "id": 374,
         "name": "Victor",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 55,
@@ -10337,7 +10337,7 @@
     {
         "id": 375,
         "name": "Ryan",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 337,
@@ -10463,7 +10463,7 @@
     {
         "id": 379,
         "name": "Don",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 473,
@@ -10551,7 +10551,7 @@
     {
         "id": 382,
         "name": "Steve",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 618,
@@ -10609,7 +10609,7 @@
     {
         "id": 384,
         "name": "Doug",
-        "trainerClass": 25,
+        "trainerClass": 19,
         "team": [
             {
                 "pokemonId": 225,
@@ -10818,7 +10818,7 @@
     {
         "id": 390,
         "name": "Wes",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 542,
@@ -10874,7 +10874,7 @@
     {
         "id": 392,
         "name": "Urleen",
-        "trainerClass": 2,
+        "trainerClass": 21,
         "team": [
             {
                 "pokemonId": 586,
@@ -10902,7 +10902,7 @@
     {
         "id": 393,
         "name": "Jaye",
-        "trainerClass": 1,
+        "trainerClass": 42,
         "team": [
             {
                 "pokemonId": 589,
@@ -10985,7 +10985,7 @@
     {
         "id": 395,
         "name": "Weezer",
-        "trainerClass": 34,
+        "trainerClass": 138,
         "team": [
             {
                 "pokemonId": 547,
@@ -11080,7 +11080,7 @@
     {
         "id": 397,
         "name": "Rob",
-        "trainerClass": 50,
+        "trainerClass": 81,
         "team": [
             {
                 "pokemonId": 10008,
@@ -11188,7 +11188,7 @@
     {
         "id": 400,
         "name": "Dave",
-        "trainerClass": 24,
+        "trainerClass": 65,
         "team": [
             {
                 "pokemonId": 213,
@@ -11284,7 +11284,7 @@
     {
         "id": 402,
         "name": "Alexander",
-        "trainerClass": 5,
+        "trainerClass": 62,
         "team": [
             {
                 "pokemonId": 508,
@@ -11665,7 +11665,7 @@
     {
         "id": 410,
         "name": "Eddie",
-        "trainerClass": 43,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 407,
@@ -12081,7 +12081,7 @@
     {
         "id": 419,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 521,
@@ -12137,7 +12137,7 @@
     {
         "id": 420,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 521,
@@ -12193,7 +12193,7 @@
     {
         "id": 421,
         "name": "Hugh",
-        "trainerClass": 85,
+        "trainerClass": 233,
         "team": [
             {
                 "pokemonId": 521,
@@ -12570,7 +12570,7 @@
     {
         "id": 428,
         "name": "Zack",
-        "trainerClass": 66,
+        "trainerClass": 118,
         "team": [
             {
                 "pokemonId": 341,
@@ -12591,7 +12591,7 @@
     {
         "id": 429,
         "name": "Marie",
-        "trainerClass": 55,
+        "trainerClass": 30,
         "team": [
             {
                 "pokemonId": 607,

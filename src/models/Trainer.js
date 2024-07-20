@@ -14,7 +14,7 @@ class Trainer {
         this.team = team;
         this.notes = notes;
         this.battleType = battleType;
-        this.mandatory = mandatory;
+        this.mandatory = mandatory || true;
     }
 
     static makeSingle(
@@ -93,13 +93,19 @@ class Trainer {
                             style={{ paddingTop: "5px" }}
                             className="text-center"
                         >
-                            {mon.name}
+                            <b>{mon.name}</b>
                         </div>
-                        <img
-                            src={mon.spriteUrl}
-                            className="location-mon-sprite"
-                            alt={`Sprite of ${mon.name} that links to its info page.`}
-                        />
+                        <div className="sprite-view">
+                            {/* <div className="sprite-view-circle" /> */}
+                            <img
+                                src={mon.spriteUrl}
+                                className="location-mon-sprite"
+                                alt={`Sprite of ${mon.name} that links to its info page.`}
+                            />
+                            <b className="level-box center">
+                                {trainerMon.level}
+                            </b>
+                        </div>
                     </Link>
                 </Grid>
             );
@@ -107,7 +113,9 @@ class Trainer {
     }
 
     locationStandard(color, index, hackId, final, teammate) {
-        const teamView = this.teamView(hackId)
+        const romhack = Help.findInArray(hackId, romhackList);
+        const teamView = this.teamView(hackId);
+        // console.log(this)
 
         let className = "list-divider";
         if (index === 0) {
@@ -120,7 +128,6 @@ class Trainer {
         }
         if (teammate && index === 1) {
             className += " no-border";
-
         }
 
         return (
@@ -129,10 +136,14 @@ class Trainer {
                 style={{ backgroundColor: color }}
                 key={index}
             >
-                <Grid container >
+                <Grid container>
                     <Grid item xs={3} className="center">
                         <Link to={`/${hackId}/trainers/${this.id}`}>
-                            <img src={this.trainerClass.sprite} alt={`Sprite for the ${this.trainerClass.name} trainer class.`}/>
+                            <img
+                                src={`/trainerClasses/${this.trainerClass.id}-${romhack.spriteId}.png`}
+                                alt={`Sprite for the ${this.trainerClass.name} trainer class.`}
+                                className="battle-portrait"
+                            />
                         </Link>
                     </Grid>
                     <Grid item xs={2} className="align-center">

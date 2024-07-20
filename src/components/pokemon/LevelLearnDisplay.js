@@ -3,52 +3,17 @@ import { Grid } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 
 const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
-    console.log(selectedMon);
+    // console.log(selectedMon, moveTypeId)
     let { id } = useParams();
     id = parseInt(id);
 
-    let title = "Level-Up Moves";
-    let levelClassName = "align-center";
-    let moveArray =
+    const moveArray =
         selectedMon.levelLearn.length === 0
             ? baseDexEntry.forms[0].levelLearn
             : selectedMon.levelLearn;
-    if (moveTypeId > 0) {
-        title = "Tutor Moves"
-        levelClassName = "invis";
-        moveArray =
-            selectedMon.tutorLearn.length === 0
-                ? baseDexEntry.forms[0].tutorLearn
-                : selectedMon.tutorLearn;
-        if (moveTypeId === 1) {
-            moveArray =
-                selectedMon.tutorLearn.length === 0
-                    ? baseDexEntry.forms[0].tutorLearn
-                    : selectedMon.tutorLearn;
-        }
-        if (moveTypeId === 2) {
-            moveArray =
-                selectedMon.tmLearn.length === 0
-                    ? baseDexEntry.forms[0].tmLearn
-                    : selectedMon.tmLearn;
-        }
-    }
 
     const movesDisplay = moveArray.map((moveElement, index) => {
-        let var2Prefix = "Lv ";
-        console.log(moveElement);
-        const getValues = (moveTypeId) => {
-            switch (moveTypeId) {
-                case 0:
-                    return moveElement.level;
-                case 1:
-                    var2Prefix = "";
-                    return "";
-                case 2:
-                    return moveElement.item.name;
-            }
-        };
-        let var2Value = getValues(moveTypeId);
+        // console.warn(moveElement, selectedMon)
 
         const { move } = moveElement;
         return (
@@ -63,7 +28,7 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
                     </Grid>
                     <Grid className="align-center" item xs={2}>
                         <b>
-                            {var2Prefix} {var2Value}
+                            Lv {moveElement.level}
                         </b>
                     </Grid>
                     <Grid className="align-center" item xs={2}>
@@ -92,7 +57,7 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
     return (
         <Grid item className="justify-center" xs={12} md={6} lg={4}>
             <div className="width-80">
-                <h1>{title}</h1>
+                <h1>Level-Up Moves</h1>
                 <div>{movesDisplay}</div>
             </div>
         </Grid>

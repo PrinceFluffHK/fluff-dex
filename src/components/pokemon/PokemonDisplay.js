@@ -64,7 +64,7 @@ const PokemonDisplay = ({ dexType }) => {
                                     selectedMon={selectedMon}
                                     moveTypeId={0}
                                     />
-                                <LevelLearnDisplay
+                                <TutorLearnDisplay
                                     baseDexEntry={baseDexEntry}
                                     selectedMon={selectedMon}
                                     moveTypeId={1}

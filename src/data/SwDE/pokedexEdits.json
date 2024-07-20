@@ -1,0 +1,258 @@
+[
+
+    {
+        "id": 130,
+        "noteName": "Gyarados",
+        "forms": [130]
+    },
+    {
+        "id": 94,
+        "noteName": "Gengar",
+        "forms": [94]
+    },
+    {
+        "id": 194,
+        "noteName": "Wooper",
+        "forms": [194]
+    },
+    {
+        "id": 211,
+        "noteName": "Qwilfish",
+        "forms": [211]
+    },
+    {
+        "id": 212,
+        "noteName": "Scizor",
+        "forms": [212]
+    },
+    {
+        "id": 215,
+        "noteName": "Sneasel",
+        "forms": [215]
+    },
+    {
+        "id": 302,
+        "noteName": "Sableye",
+        "forms": [302]
+    },
+    {
+        "id": 303,
+        "noteName": "Mawile",
+        "forms": [303]
+    },
+    {
+        "id": 448,
+        "noteName": "Lucario",
+        "forms": [448]
+    },
+    {
+        "id": 550,
+        "noteName": "Basculin",
+        "forms": [550, 10016]
+    },
+    {
+        "id": 628,
+        "noteName": "Braviary",
+        "forms": [628]
+    },
+    {
+        "id": 713,
+        "noteName": "Avalugg",
+        "forms": [713]
+    },
+    {
+        "id": 248,
+        "noteName": "Tyranitar",
+        "forms": [248]
+    },
+    {
+        "id": 705,
+        "noteName": "Sliggoo",
+        "forms": [705]
+    },
+    {
+        "id": 706,
+        "noteName": "Goodra",
+        "forms": [706]
+    },
+    {
+        "id": 80,
+        "noteName": "",
+        "forms": [80, 10165]
+    },
+    {
+        "id": 428,
+        "noteName": "Lopunny",
+        "forms": [428]
+    },
+    {
+        "id": 65,
+        "noteName": "Alakazam",
+        "forms": [65]
+    },
+    {
+        "id": 3,
+        "noteName": "Venusaur",
+        "forms": [3]
+    },
+    {
+        "id": 9,
+        "noteName": "Blastoise",
+        "forms": [9]
+    },
+    {
+        "id": 570,
+        "noteName": "Zorua",
+        "forms": [570]
+    },
+    {
+        "id": 571,
+        "noteName": "Zoroark",
+        "forms": [571]
+    },
+    {
+        "id": 319,
+        "noteName": "Sharpedo",
+        "forms": [319]
+    },
+    {
+        "id": 128,
+        "noteName": "Tauros",
+        "forms": [128]
+    },
+    {
+        "id": 127,
+        "noteName": "Pinsir",
+        "forms": [127]
+    },
+    {
+        "id": 214,
+        "noteName": "Heracross",
+        "forms": [214]
+    },
+    {
+        "id": 115,
+        "noteName": "Kangaskhan",
+        "forms": [115]
+    },
+    {
+        "id": 549,
+        "noteName": "Lilligant",
+        "forms": [549]
+    },
+    {
+        "id": 531,
+        "noteName": "Audino",
+        "forms": [531]
+    },
+    {
+        "id": 334,
+        "noteName": "Altaria",
+        "forms": [334]
+    },
+    {
+        "id": 359,
+        "noteName": "Absol",
+        "forms": [359]
+    },
+    {
+        "id": 373,
+        "noteName": "Salamence",
+        "forms": [373]
+    },
+    {
+        "id": 445,
+        "noteName": "Garchomp",
+        "forms": [445]
+    },
+    {
+        "id": 142,
+        "noteName": "Aerodactyl",
+        "forms": [142]
+    },
+    {
+        "id": 719,
+        "noteName": "Diancie",
+        "forms": [719]
+    },
+    {
+        "id": 376,
+        "noteName": "Metagross",
+        "forms": [376]
+    },
+    {
+        "id": 306,
+        "noteName": "Aggron",
+        "forms": [306]
+    },
+    {
+        "id": 254,
+        "noteName": "Sceptile",
+        "forms": [254]
+    },
+    {
+        "id": 257,
+        "noteName": "Blaziken",
+        "forms": [257]
+    },
+    {
+        "id": 260,
+        "noteName": "Swampert",
+        "forms": [260]
+    },
+    {
+        "id": 724,
+        "noteName": "Decidueye",
+        "forms": [724]
+    },
+    {
+        "id": 380,
+        "noteName": "Latias",
+        "forms": [380]
+    },
+    {
+        "id": 381,
+        "noteName": "Latios",
+        "forms": [381]
+    },
+    {
+        "id": 150,
+        "noteName": "Mewtwo",
+        "forms": [150]
+    },
+    {
+        "id": 382,
+        "noteName": "Kyogre",
+        "forms": [382]
+    },
+    {
+        "id": 383,
+        "noteName": "Groudon",
+        "forms": [383]
+    },
+    {
+        "id": 384,
+        "noteName": "Rayquaza",
+        "forms": [384]
+    },
+    {
+        "id": 483,
+        "noteName": "Dialga",
+        "forms": [483]
+    },
+    {
+        "id": 484,
+        "noteName": "Palkia",
+        "forms": [484]
+    },
+    {
+        "id": 877,
+        "noteName": "Morpeko",
+        "forms": [877]
+    },
+    {
+        "id": 310,
+        "noteName": "Manectric",
+        "forms": [310]
+    }
+]

@@ -5,42 +5,56 @@ import Help from "./Help";
 
 class Location {
     constructor(
-        id,
         name,
         trainers,
         encounters,
         collectibles,
         shops,
-        subLocations,
+        tutors,
+        subLocations
     ) {
-        this.id = id;
         this.name = name;
         this.trainers = trainers;
-        this.partners = 
         this.encounters = encounters;
         this.collectibles = collectibles;
         this.shops = shops;
+        this.tutors = tutors;
         this.subLocations = subLocations;
     }
 
-    static makeSingle(locationObj, trainers, species, items, shops) {
+    static makeSingle(locationObj, trainers, species, items, shops, tutors) {
         const locTrainers = locationObj.trainers
             ? locationObj.trainers.map((battleObj) => {
-                // console.log(battleObj.opponent)
-                if (typeof battleObj.opponent == "object") {
-                    // console.log(battleObj)
-                    const newOpponents = battleObj.opponent.map((trainerId) => {
-                        return Help.findInArray(trainerId, trainers)
-                    })
-                    const partner = Help.findInArray(battleObj.partner, trainers)
-                    const newBattle = new Battle(battleObj.battleType, newOpponents, partner, battleObj.notes)
-                    return newBattle
-                }
-                const newOpponent = Help.findInArray(battleObj.opponent, trainers)
-                return new Battle(battleObj.battleType, newOpponent, battleObj.partner, battleObj.notes)
-            })
+                  if (typeof battleObj.opponent == "object") {
+                      const newOpponents = battleObj.opponent.map(
+                          (trainerId) => {
+                              return Help.findInArray(trainerId, trainers);
+                          }
+                      );
+                      const partner = Help.findInArray(
+                          battleObj.partner,
+                          trainers
+                      );
+                      const newBattle = new Battle(
+                          battleObj.battleType,
+                          newOpponents,
+                          partner,
+                          battleObj.notes
+                      );
+                      return newBattle;
+                  }
+                  const newOpponent = Help.findInArray(
+                      battleObj.opponent,
+                      trainers
+                  );
+                  return new Battle(
+                      battleObj.battleType,
+                      newOpponent,
+                      battleObj.partner,
+                      battleObj.notes
+                  );
+              })
             : [];
-        // console.log(locationObj.name, locTrainers);
 
         const locEncounters = locationObj.encounters
             ? Encounter.makeSheet(locationObj.encounters, species)
@@ -55,6 +69,11 @@ class Location {
                   return Help.findInArray(shopId, shops);
               })
             : [];
+        const locTutors = locationObj.tutors
+            ? locationObj.tutors.map((tutorId) => {
+                return Help.findInArray(tutorId, tutors)
+            })
+            : [];
 
         const locSubLocations = locationObj.subLocations
             ? Location.makeArray(
@@ -62,25 +81,25 @@ class Location {
                   trainers,
                   species,
                   items,
-                  shops
+                  shops,
+                  tutors
               )
             : [];
 
         return new Location(
-            locationObj.id,
             locationObj.name,
             locTrainers,
             locEncounters,
             locCollectibles,
             locShops,
-            locSubLocations,
-
+            locTutors,
+            locSubLocations
         );
     }
 
-    static makeArray(locObjArray, trainers, species, items, shops) {
+    static makeArray(locObjArray, trainers, species, items, shops, tutors) {
         return locObjArray.map((locObj) => {
-            return Location.makeSingle(locObj, trainers, species, items, shops);
+            return Location.makeSingle(locObj, trainers, species, items, shops, tutors);
         });
     }
 }

@@ -1,8 +1,12 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import EncounterTable from "./EncounterTable";
+import Help from "../../models/Help";
+import { romhackList } from "../Homepage";
 
 const LocationPage = ({ location, id, color }) => {
+    const selectedRomhack = Help.findInArray(id, romhackList)
+
     let trainersClass = "invis";
     const trainerList = location.trainers.map((battle, index) => {
         trainersClass = "";
@@ -39,6 +43,12 @@ const LocationPage = ({ location, id, color }) => {
         return mart.locationDisplay(index);
     });
 
+    let tutorsClass = "invis" 
+    const tutorList = location.tutors.map((tutor, index) => {
+        tutorsClass = "" 
+        return tutor.makeDisplay(selectedRomhack, index, "white")
+    })
+
     let subLocationClass = "invis";
     const subLocationList = location.subLocations.map((subLocation, index) => {
         subLocationClass = "";
@@ -65,7 +75,6 @@ const LocationPage = ({ location, id, color }) => {
                 </div>
             </div>
             <Grid container className="width-100">
-                {/* <Grid container columnSpacing={3}> */}
                 <Grid className={trainersClass} item xs={12} md={6}>
                     <div className="width-100 center">
                         <div className="width-90">
@@ -116,6 +125,16 @@ const LocationPage = ({ location, id, color }) => {
                     </div>
                     <div className="center width-100">
                         <div className="width-90">{martList}</div>
+                    </div>
+                </Grid>
+                <Grid item xs={12} md={6} className={tutorsClass}>
+                    <div className="width-100 center">
+                        <div className="width-90">
+                            <h2>Move Tutors</h2>
+                        </div>
+                    </div>
+                    <div className="center width-100">
+                        <div className="width-100">{tutorList}</div>
                     </div>
                 </Grid>
                 <Grid item xs={12} className={subLocationClass}>

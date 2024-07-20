@@ -92,3 +92,53 @@
     text-align: center;
     margin-bottom: 3px;
 }
+
+.battle-portrait {
+    height: 5rem;
+    width: auto;
+}
+
+
+.sprite-view {
+    position: relative;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin-bottom: 5px;
+    // opacity: 50%;
+}
+
+.sprite-view-circle {
+    border-radius: 50%;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    $circle-size: 4rem;
+    height: $circle-size;
+    width: $circle-size;
+    background-color: lightgray;
+    z-index: 0;
+}
+
+.location-mon-sprite{
+    height: auto;
+    width: 5rem;
+    z-index: 10;
+    // opacity: 150%;
+}
+
+.level-box {
+    $level-box-size: 1.2rem;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: $level-box-size;
+    // width: $level-box-size;
+    // width: fit-content;
+    background-color: white;
+    padding: 0 2px 0 2px;
+    z-index: 2;
+}
+

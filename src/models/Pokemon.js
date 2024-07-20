@@ -101,12 +101,10 @@ class Pokemon {
             species.tutorLearn,
             tutorsArray
         );
-        // console.log(species.name, species.tmLearn, tmsArray)
         const tmLearn = TmMove.makeTmLearn(
             species.tmLearn,
             tmsArray
         );
-        // console.log(species.name, tmLearn)
         return new Pokemon(
             species.id,
             species.name,

@@ -9,7 +9,6 @@ const EncounterList = (props) => {
     let { id } = useParams();
     id = parseInt(id);
     const selectedRomhack = Help.findInArray(id, romhackList);
-    console.log(selectedRomhack);
 
     const encounterList = selectedRomhack.locations.map((location, index) => {
         if (index === 0) {

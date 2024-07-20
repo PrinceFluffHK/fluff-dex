@@ -129,16 +129,10 @@
 }
 
 .background {
-    // background-color: #696969;
-    // opacity: 1;
     position: absolute;
     display: flex;
     justify-content: center;
     width: 100vw;
-    // z-index: -10;
-    @media only screen and (max-width: 1000px) {
-        // background-color: #494949;
-    }
 }
 
 .content-background {
@@ -190,7 +184,7 @@
 }
 
 .list-divider{
-    border-top: 2px gray solid;
+    border-top: 2px black solid;
 }
 
 .round-top{
@@ -205,4 +199,9 @@
 
 .no-border{
     border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

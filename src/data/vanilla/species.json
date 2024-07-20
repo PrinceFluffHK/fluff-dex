@@ -585,6 +585,11 @@
                 "nextMonId": 26,
                 "condition": "Thunder Stone",
                 "method": "Use Item"
+            },
+            {
+                "nextMonId": 10100,
+                "condition": "Thunder Stone",
+                "method": "Use Item (Alola)"
             }
         ],
         "evoFromId": 172
@@ -899,7 +904,8 @@
                 "nextMonId": 40,
                 "condition": "Moon Stone",
                 "method": "Use Item"
-            }],
+            }
+        ],
         "evoFromId": 174
     },
     {
@@ -1481,7 +1487,7 @@
                 "method": "Trade"
             }
         ],
-        "evoFromId": 0
+        "evoFromId": 63
     },
     {
         "id": 65,
@@ -2391,7 +2397,7 @@
             {
                 "nextMonId": 10115,
                 "condition": 28,
-                "method": "Level-Up"
+                "method": "Level-Up (Alola)"
             }
         ],
         "evoFromId": 0
@@ -2830,7 +2836,6 @@
                 "condition": "Black Augurite",
                 "method": "Use Item"
             }
-        
         ],
         "evoFromId": 0
     },
@@ -3058,12 +3063,12 @@
             {
                 "nextMonId": 196,
                 "condition": 255,
-                "method": "Friendship"
+                "method": "Friendship, Day"
             },
             {
                 "nextMonId": 197,
                 "condition": 255,
-                "method": "Friendship"
+                "method": "Friendship, Night"
             },
             {
                 "nextMonId": 470,
@@ -6157,7 +6162,7 @@
         "name": "Seedot",
         "gen": 3,
         "type1": 12,
-        "type2": 17,
+        "type2": 0,
         "ability1": 34,
         "ability2": 48,
         "abilityH": 124,
@@ -11042,12 +11047,12 @@
         "ability1": 18,
         "ability2": 0,
         "abilityH": 49,
-        "hp": 80,
-        "atk": 100,
-        "def": 50,
-        "spa": 100,
-        "spd": 50,
-        "spe": 200,
+        "hp": 91,
+        "atk": 90,
+        "def": 106,
+        "spa": 130,
+        "spd": 106,
+        "spe": 77,
         "modifier": "",
         "evoTo": [],
         "evoFromId": 0
@@ -12014,7 +12019,7 @@
             {
                 "nextMonId": 528,
                 "condition": 255,
-                "method": "Level-Up"
+                "method": "Friendship"
             }
         ],
         "evoFromId": 0
@@ -12484,7 +12489,7 @@
             {
                 "nextMonId": 10237,
                 "condition": "Sun Stone",
-                "method": "Use Item (Hisui)" 
+                "method": "Use Item (Hisui)"
             }
         ],
         "evoFromId": 0
@@ -17397,7 +17402,7 @@
         "spe": 50,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 703
     },
     {
         "id": 720,
@@ -17529,7 +17534,13 @@
         "spd": 35,
         "spe": 40,
         "modifier": "Alola",
-        "evoTo": [],
+        "evoTo": [
+            {
+                "nextMonId": 10102,
+                "condition": "Ice Stone",
+                "method": "Item Use"
+            }
+        ],
         "evoFromId": 0
     },
     {
@@ -17549,7 +17560,7 @@
         "spe": 65,
         "modifier": "Alola",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 10101
     },
     {
         "id": 10103,
@@ -17578,7 +17589,7 @@
     },
     {
         "id": 10104,
-        "name": "Ninetails",
+        "name": "Ninetales",
         "gen": 7,
         "type1": 15,
         "type2": 18,
@@ -19698,11 +19709,11 @@
         "ability2": 0,
         "abilityH": 0,
         "hp": 97,
-        "atk": 107,
-        "def": 101,
-        "spa": 127,
-        "spd": 89,
-        "spe": 79,
+        "atk": 157,
+        "def": 127,
+        "spa": 113,
+        "spd": 109,
+        "spe": 77,
         "modifier": "Dusk Mane",
         "evoTo": [],
         "evoFromId": 0
@@ -19717,11 +19728,11 @@
         "ability2": 0,
         "abilityH": 0,
         "hp": 97,
-        "atk": 107,
-        "def": 101,
-        "spa": 127,
-        "spd": 89,
-        "spe": 79,
+        "atk": 113,
+        "def": 109,
+        "spa": 157,
+        "spd": 127,
+        "spe": 77,
         "modifier": "Dawn Wings",
         "evoTo": [],
         "evoFromId": 0
@@ -19736,11 +19747,11 @@
         "ability2": 0,
         "abilityH": 0,
         "hp": 97,
-        "atk": 107,
-        "def": 101,
-        "spa": 127,
-        "spd": 89,
-        "spe": 79,
+        "atk": 167,
+        "def": 97,
+        "spa": 167,
+        "spd": 97,
+        "spe": 129,
         "modifier": "Ultra",
         "evoTo": [],
         "evoFromId": 0
@@ -19926,7 +19937,7 @@
         "spe": 34,
         "modifier": "",
         "evoTo": [],
-        "evoFromId": 0
+        "evoFromId": 808
     },
     {
         "id": 10161,
@@ -22648,7 +22659,7 @@
             },
             {
                 "nextMonId": 10191,
-                "condition": "Scroll of Darkness",
+                "condition": "Scroll of Water",
                 "method": "Use Item"
             }
         ],

@@ -12,10 +12,11 @@ const FormSelect = ({ selectedMonId, baseDexEntry, selectedRomhack }) => {
         }
 
         return (
-            <Link
-                to={`/${selectedRomhack.id}/pokemon/${baseDexEntry.id}/${index}`}
-            >
-                <Grid item xs key={form.id}>
+            <Grid item xs key={form.id}>
+                <Link
+                    to={`/${selectedRomhack.id}/pokemon/${baseDexEntry.id}/${index}`}
+                    key={index}
+                >
                     <div className={className}>
                         <img
                             className="form-select-sprite"
@@ -23,8 +24,8 @@ const FormSelect = ({ selectedMonId, baseDexEntry, selectedRomhack }) => {
                             alt={`Sprite of ${form.name} (${form.modifier})`}
                         />
                     </div>
-                </Grid>
-            </Link>
+                </Link>
+            </Grid>
         );
     });
 
