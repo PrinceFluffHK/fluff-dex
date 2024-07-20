@@ -14,7 +14,7 @@ class Trainer {
         this.team = team;
         this.notes = notes;
         this.battleType = battleType;
-        this.mandatory = mandatory || true
+        this.mandatory = mandatory || true;
     }
 
     static makeSingle(
@@ -93,13 +93,19 @@ class Trainer {
                             style={{ paddingTop: "5px" }}
                             className="text-center"
                         >
-                            {mon.name}
+                            <b>{mon.name}</b>
                         </div>
-                        <img
-                            src={mon.spriteUrl}
-                            className="location-mon-sprite"
-                            alt={`Sprite of ${mon.name} that links to its info page.`}
-                        />
+                        <div className="sprite-view">
+                            {/* <div className="sprite-view-circle" /> */}
+                            <img
+                                src={mon.spriteUrl}
+                                className="location-mon-sprite"
+                                alt={`Sprite of ${mon.name} that links to its info page.`}
+                            />
+                            <b className="level-box center">
+                                {trainerMon.level}
+                            </b>
+                        </div>
                     </Link>
                 </Grid>
             );

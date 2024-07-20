@@ -3309,6 +3309,7 @@
                 ]
             }
         ],
+        "tutors": [3],
         "collectibles": [
             {
                 "itemId": 268,
@@ -3837,6 +3838,7 @@
         "name": "Pokemon World Tournament",
         "trainers": [],
         "encounters": [],
+        "tutors": [1, 2],
         "collectibles": [
             {
                 "itemId": 73,
@@ -6334,6 +6336,7 @@
         "name": "Opelucid City",
         "trainers": [],
         "encounters": [],
+        "tutors": [7],
         "collectibles": [
             {
                 "itemId": 539,
@@ -7411,6 +7414,7 @@
     {
         "name": "Humilau City",
         "trainers": [],
+        "tutors": [6],
         "encounters": [
             {
                 "type": "Fishing",

@@ -3,7 +3,7 @@ import { Grid } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 
 const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
-    console.log(selectedMon, moveTypeId)
+    // console.log(selectedMon, moveTypeId)
     let { id } = useParams();
     id = parseInt(id);
 
