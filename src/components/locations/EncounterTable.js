@@ -14,7 +14,7 @@ const EncounterTable = ({ encTable, index }) => {
 
         return (
             <Grid container key={index} className="list-divider">
-                <Grid item xs={2}>
+                <Grid item xs={2.5}>
                     <img
                         src={mon.pokemon.spriteUrl}
                         className="encounter-sprite"
@@ -44,9 +44,7 @@ const EncounterTable = ({ encTable, index }) => {
             >
                 <h2>{encTable.type}</h2>
                 <Grid container>
-                    <Grid item xs={2}>
-                        <b></b>
-                    </Grid>
+                    <Grid item xs={2.5}></Grid>
                     <Grid item xs>
                         <b>Name</b>
                     </Grid>

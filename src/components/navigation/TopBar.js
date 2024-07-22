@@ -1,15 +1,70 @@
 import { Link, useParams, useLocation } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import Help from "../../models/Help";
 import { romhackList } from "../Homepage";
+import { Grid } from "@mui/material";
 
 const TopBar = ({ toggleArray }) => {
     const location = useLocation();
     let { id } = useParams();
-    id = parseInt(id)
-    const selectedRomhack = Help.findInArray(id, romhackList)
+    id = parseInt(id);
+    const selectedRomhack = Help.findInArray(id, romhackList);
+
+    const [showMenu, setShowMenu] = useState(false);
+
+    const handleClick = () => {
+        if (showMenu) {
+            setShowMenu(false);
+        } else {
+            setShowMenu(true);
+        }
+    };
+
+    const FaIconSwitch = () => {
+        if (showMenu) {
+            return (
+                <FontAwesomeIcon
+                    icon={faX}
+                    size="xl"
+                    color="black"
+                    style={{ marginRight: "2rem" }}
+                    onClick={handleClick}
+                />
+            );
+        } else {
+            return (
+                <FontAwesomeIcon
+                    icon={faBars}
+                    size="xl"
+                    color="black"
+                    style={{ marginRight: "2rem" }}
+                    onClick={handleClick}
+                />
+            );
+        }
+    };
+
+    const LinkMenu = () => {
+        if (showMenu) {
+            return linkObjs.map((link, index) => {
+                if (
+                    link.name === "Tutors" &&
+                    selectedRomhack.tutors.length === 0
+                ) {
+                    return <div key={index} />;
+                }
+                return (
+                    <Grid item xs={6} key={index}>
+                        <Link to={link.link}>
+                            <h1 className="menu-link">{link.name}</h1>
+                        </Link>
+                    </Grid>
+                );
+            });
+        }
+    };
 
     const linkObjs = [
         {
@@ -17,7 +72,7 @@ const TopBar = ({ toggleArray }) => {
             link: `/${id}/locations`,
         },
         {
-            name: "Pokedex",
+            name: "Pokédex",
             link: `/${id}/pokedex/regional`,
         },
         {
@@ -42,7 +97,7 @@ const TopBar = ({ toggleArray }) => {
         const className = `top-bar-link`;
 
         if (link.name === "Tutors" && selectedRomhack.tutors.length === 0) {
-            return <div key={index}/>
+            return <div key={index} />;
         }
 
         return (
@@ -73,20 +128,20 @@ const TopBar = ({ toggleArray }) => {
     };
 
     return (
-        <div className="top-bar align-center justify-between">
-            <Link to="/" className="home-icon">
-                <FontAwesomeIcon icon={faHouse} size="xl" color="black" />
-            </Link>
-            <Toggle />
-            <div className="invis-sm menu-topbar">{links}</div>
-            <div className="vis-sm menu-topbar">
-                <FontAwesomeIcon
-                    icon={faBars}
-                    size="xl"
-                    color="black"
-                    style={{ marginRight: "2rem" }}
-                />
+        <div className="top-bar ">
+            <div className="align-center justify-between top-bar-content">
+                <Link to="/" className="home-icon">
+                    <FontAwesomeIcon icon={faHouse} size="xl" color="black" />
+                </Link>
+                <Toggle />
+                <div className="invis-sm menu-topbar">{links}</div>
+                <div className="vis-sm menu-topbar">
+                    <FaIconSwitch />
+                </div>
             </div>
+            <Grid container>
+                <LinkMenu />
+            </Grid>
         </div>
     );
 };

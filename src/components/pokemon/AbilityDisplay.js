@@ -33,7 +33,7 @@ const AbilityDisplay = ({ selectedMon }) => {
         const Description = React.forwardRef(function Description(props, ref) {
             return (
                 <div {...props} ref={ref} className="ability-box">
-                    <h2>{ability.name}</h2>
+                    <h2 style={{ textAlign: "center"}}>{ability.name}</h2>
                 </div>
             );
         });

@@ -34,8 +34,8 @@ class TutorMove {
         let costString =
             this.cost != 0 ? `${this.cost} ${currency}s` : "No Cost";
         return (
-            <Link to={`/${hackId}/moves/${this.move.id}`}>
-                <Grid container key={index} className="tutor-move-container">
+            <Link to={`/${hackId}/moves/${this.move.id}`} key={index}>
+                <Grid container className="tutor-move-container">
                     <Grid className="align-center" item xs={4}>
                         <b>
                             <p>{this.move.name}</p>
