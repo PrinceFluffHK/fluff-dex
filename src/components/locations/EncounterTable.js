@@ -1,8 +1,16 @@
 import React from "react";
 import { Grid } from "@mui/material";
 import Encounter from "../../models/Encounter";
+import { Link, useParams } from "react-router-dom";
+import Help from "../../models/Help";
+import { romhackList } from "../Homepage";
+import DexEntry from "../../models/DexEntry";
 
 const EncounterTable = ({ encTable, index }) => {
+    let { id } = useParams();
+    id = parseInt(id);
+    const selectedRomhack = Help.findInArray(id, romhackList);
+
     const encounterList = encTable.pokemon.map((mon, index) => {
         const percent = mon.percent === 0 ? "N/A" : `${mon.percent}%`;
         const name =
@@ -12,14 +20,29 @@ const EncounterTable = ({ encTable, index }) => {
         const levelValue =
             mon.minLv === mon.maxLv ? mon.minLv : `${mon.minLv} - ${mon.maxLv}`;
 
+        // console.log(mon.pokemon.id)
+        const baseForm = DexEntry.findFromForm(
+            mon.pokemon.id,
+            selectedRomhack.nationalDex.dexArray
+        );
+        let targetId = mon.id
+        try {
+            targetId = baseForm.id 
+        } catch (error) {
+            console.log(mon)
+        }
+        // console.log(id)
+
         return (
             <Grid container key={index} className="list-divider">
                 <Grid item xs={2.5}>
-                    <img
-                        src={mon.pokemon.spriteUrl}
-                        className="encounter-sprite"
-                        alt={`Sprite of ${mon.pokemon.name}`}
-                    />
+                    <Link to={`/${id}/pokemon/${targetId}/0`}>
+                        <img
+                            src={mon.pokemon.spriteUrl}
+                            className="encounter-sprite"
+                            alt={`Sprite of ${mon.pokemon.name}`}
+                        />
+                    </Link>
                 </Grid>
                 <Grid item xs className="align-center">
                     {name}
@@ -49,7 +72,7 @@ const EncounterTable = ({ encTable, index }) => {
                         <b>Name</b>
                     </Grid>
                     <Grid item xs={2.5}>
-                        <b>Chance</b>
+                        <b>%</b>
                     </Grid>
                     <Grid item xs={2.5}>
                         <b>Level</b>
