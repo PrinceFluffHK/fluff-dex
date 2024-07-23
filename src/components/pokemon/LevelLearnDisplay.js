@@ -17,40 +17,25 @@ const LevelLearnDisplay = ({ selectedMon, baseDexEntry, moveTypeId }) => {
 
         const { move } = moveElement;
         return (
-            <Link
-                to={`/${id}/moves/${move.id}`}
-                className="suppress-link"
-                key={index}
-            >
-                <Grid container>
-                    <Grid className="align-center" item xs={5.5} sm={6}>
+            <Grid container key={index} className="move-list-divider">
+                <Grid className="align-center" item xs={5.5} sm={6}>
+                    <Link to={`/${id}/moves/${move.id}`}>
                         <b>{move.name}</b>
-                    </Grid>
-                    <Grid className="align-center" item xs={2}>
-                        <b>
-                            Lv {moveElement.level}
-                        </b>
-                    </Grid>
-                    <Grid className="align-center" item xs={2}>
-                        {move.category.display({
-                            height: "70%",
-                            width: "auto",
-                        })}
-                    </Grid>
-                    <Grid className="align-center" item xs={2.5} sm={2}>
-                        {move.type.displayBanner({}, {})}
-                    </Grid>
+                    </Link>
                 </Grid>
-                <div className="width-100 center">
-                    <div
-                        style={{
-                            width: "100%",
-                            backgroundColor: "lightgray",
-                            height: "2px",
-                        }}
-                    />
-                </div>
-            </Link>
+                <Grid className="align-center" item xs={2}>
+                    <div>Lv {moveElement.level}</div>
+                </Grid>
+                <Grid className="align-center" item xs={2}>
+                    {move.category.display({
+                        height: "70%",
+                        width: "auto",
+                    })}
+                </Grid>
+                <Grid className="align-center" item xs={2.5} sm={2}>
+                    {move.type.displayBanner({}, {})}
+                </Grid>
+            </Grid>
         );
     });
 
