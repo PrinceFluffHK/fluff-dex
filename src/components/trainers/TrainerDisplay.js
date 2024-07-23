@@ -16,7 +16,7 @@ const TrainerDisplay = (props) => {
         <div className="">
             <TopBar />
             <div className="content-container">
-                <div className="body-container">
+                <div className="location-body-container">
                     <h1 className="text-center">
                         {thisTrainer.trainerClass.name} {thisTrainer.name}
                     </h1>

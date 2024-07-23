@@ -31,7 +31,7 @@ const ShopListItem = ({ shop }) => {
     const contents = shop.contents.map((item, index) => {
         const price = shop.bp ? item.priceBp : item.priceP;
         return (
-            <div className="center">
+            <div className="center" key={index}>
                 <div className="width-80 justify-between align-center">
                     <Grid container>
                         <Grid item xs={1}>

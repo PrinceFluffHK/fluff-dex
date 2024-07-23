@@ -27,13 +27,16 @@ const EncounterTable = ({ encTable, index }) => {
 
         return (
             <Grid container key={index} className="list-divider">
-                <Grid item xs={2.5}>
-                    <Link to={`/${id}/pokemon/${baseForm.id}/0`}>
+                <Grid item xs={3.5} className="">
+                    <Link to={`/${id}/pokemon/${baseForm.id}/0`} className="">
+                    <div className="sprite-view">
+
                         <img
                             src={mon.pokemon.spriteUrl}
-                            className="encounter-sprite"
+                            className="location-mon-sprite"
                             alt={`Sprite of ${mon.pokemon.name}`}
                         />
+                    </div>
                     </Link>
                 </Grid>
                 <Grid item xs className="align-center">
@@ -58,7 +61,7 @@ const EncounterTable = ({ encTable, index }) => {
         >
             <h2>{encTable.type}</h2>
             <Grid container>
-                <Grid item xs={2.5}></Grid>
+                <Grid item xs={3.5}></Grid>
                 <Grid item xs>
                     <b>Name</b>
                 </Grid>

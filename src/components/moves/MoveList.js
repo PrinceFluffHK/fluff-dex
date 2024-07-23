@@ -88,7 +88,7 @@ const MoveList = (props) => {
                 </div>
             );
         }
-        return <></>
+        return <div key={index}/>
     });
 
     return (

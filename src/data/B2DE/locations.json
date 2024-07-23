@@ -3404,11 +3404,37 @@
             }
         ],
         "shops": [9],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Driftveil Gym",
+                "trainers": [
+                    { "battleType": 2, "opponent": [152] },
+                    { "battleType": 2, "opponent": [153] },
+                    { "battleType": 2, "opponent": [154] },
+                    { "battleType": 2, "opponent": [155] },
+                    { "battleType": 2, "opponent": [156] },
+                    { "battleType": 2, "opponent": [157] },
+                    { "battleType": 2, "opponent": [158] },
+                    { "battleType": 2, "opponent": [159] }
+                ],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Route 6",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [144] },
+            { "battleType": 2, "opponent": [145] },
+            { "battleType": 2, "opponent": [146] },
+            { "battleType": 2, "opponent": [147] },
+            { "battleType": 2, "opponent": [148] },
+            { "battleType": 2, "opponent": [149] },
+            { "battleType": 2, "opponent": [150] },
+            { "battleType": 2, "opponent": [151] }
+        ],
         "encounters": [
             {
                 "type": "Gift",
@@ -3832,7 +3858,48 @@
                 "requirements": ""
             }
         ],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "1F West",
+                "trainers": [],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "B1F",
+                "trainers": [
+                    { "battleType": 2, "opponent": [184] },
+                    { "battleType": 2, "opponent": [185] },
+                    { "battleType": 2, "opponent": [186] }
+                ],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "1F East",
+                "trainers": [
+                    { "battleType": 2, "opponent": [182] },
+                    { "battleType": 2, "opponent": [183] }
+                ],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "B2F",
+                "trainers": [
+                    { "battleType": 2, "opponent": [187] },
+                    { "battleType": 2, "opponent": [434] },
+                    { "battleType": 2, "opponent": [188] },
+                    { "battleType": 2, "opponent": [189] }
+                ],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Pokemon World Tournament",
@@ -3869,7 +3936,22 @@
                 "requirements": ""
             }
         ],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Plasma Frigate 1",
+                "trainers": [
+                    { "battleType": 2, "opponent": [169] },
+                    { "battleType": 2, "opponent": [170] },
+                    { "battleType": 2, "opponent": [172, 173], "partner": 171 },
+                    { "battleType": 2, "opponent": [177, 178], "partner": 174 },
+                    { "battleType": 2, "opponent": [177, 178], "partner": 175 },
+                    { "battleType": 2, "opponent": [177, 178], "partner": 176 }
+                ],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Mistralton Cave",
@@ -3879,7 +3961,12 @@
         "subLocations": [
             {
                 "name": "1F-2F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [430] },
+                    { "battleType": 2, "opponent": [431] },
+                    { "battleType": 2, "opponent": [432] },
+                    { "battleType": 2, "opponent": [433] }
+                ],
                 "encounters": [
                     {
                         "type": "Cave",

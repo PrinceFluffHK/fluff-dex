@@ -12,7 +12,7 @@ const TutorList = (props) => {
 
     const tutorList = selectedRomhack.tutors.map((tutor, index) => {
         return (
-            <Grid item xs={12} md={6} className="justify-center">
+            <Grid item xs={12} md={6} className="justify-center" key={index}>
                 {tutor.makeDisplay(selectedRomhack, index, "lightgray")}
             </Grid>
         );
@@ -22,7 +22,7 @@ const TutorList = (props) => {
         <div>
             <TopBar />
             <div className="content-container">
-                <div className="body-container">
+                <div className="location-body-container">
                     <Grid
                         style={{ marginTop: "1rem" }}
                         container

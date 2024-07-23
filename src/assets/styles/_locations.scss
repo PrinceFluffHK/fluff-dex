@@ -21,8 +21,12 @@
     padding: 0 0 1rem 0;
 }
 
-// .list-container{
-//     width: 95%;
-//     border: 2px black solid;
-//     border-radius: 1rem;
-// }
+.location-body-container {
+    width: $xl;
+    padding-bottom: 3rem;
+    height: fit-content;
+    @media only screen and (max-width: $xl) {
+        border: none;
+        width: 100vw;
+    }
+}

@@ -1,19 +1,19 @@
 import { Grid } from "@mui/material";
 import React from "react";
-// import { useParams } from "react-router-dom";
-// import Pokedex from "../../models/Pokedex";
-// import { romhackList } from "../Homepage";
-// import Help from "../../models/Help";
+import { useParams } from "react-router-dom";
+import { romhackList } from "../Homepage";
+import Help from "../../models/Help";
+import Pokedex from "../../models/Pokedex";
 
 const TeamDisplay = ({ selectedTrainer, styleObj, gridSizes }) => {
-    // let { id } = useParams();
-    // id = parseInt(id);
+    let { id } = useParams();
+    id = parseInt(id);
 
-    // const selectedRomhack = Help.findInArray(id, romhackList);
+    const selectedRomhack = Help.findInArray(id, romhackList);
 
     const monList = selectedTrainer.team.map((trainerMon, index) => {
         const mon = trainerMon.pokemon;
-        // const baseMon = Pokedex.getBaseForm(mon, selectedRomhack.species);
+        const baseMon = Pokedex.getBaseForm(mon, selectedRomhack.species);
         return (
             <Grid
                 key={index}
@@ -24,7 +24,13 @@ const TeamDisplay = ({ selectedTrainer, styleObj, gridSizes }) => {
                 lg={gridSizes.lg}
                 xl={gridSizes.xl}
             >
-                <img src={mon.spriteUrl} alt={`Sprite of ${mon.name}`}/>
+                <div className="sprite-view">
+                    <img
+                        src={mon.spriteUrl}
+                        alt={`Sprite of ${mon.name}`}
+                        className="location-mon-sprite"
+                    />
+                </div>
             </Grid>
         );
     });

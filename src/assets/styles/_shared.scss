@@ -142,6 +142,9 @@
 }
 
 .content-container {
+    background-image: url('../GeneralBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     top: $top-bar-height;
     left: 0;
@@ -165,6 +168,8 @@
         width: 100vw;
     }
 }
+
+
 
 .suppress-link {
     text-decoration: none;

@@ -2031,6 +2031,7 @@
             {
                 "pokemonId": 132,
                 "level": 22,
+                "abilityId": 150,
                 "natureId": 9,
                 "itemId": 287,
                 "moves": [144]
@@ -4977,7 +4978,8 @@
                 "moves": [202, 404, 406, 409]
             }
         ],
-        "designer": "Wren"
+        "designer": "Wren",
+        "boss": true
     },
     {
         "id": 189,
@@ -9825,6 +9827,7 @@
             {
                 "pokemonId": 132,
                 "level": 60,
+                "abilityId": 150,
                 "natureId": 24,
                 "itemId": 287,
                 "moves": [144]
@@ -12635,6 +12638,137 @@
                 "abilityId": 29,
                 "natureId": 8,
                 "moves": [544, 451, 268]
+            }
+        ]
+    },
+    {
+        "id": 430,
+        "name": "Shelby",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemonId": 525,
+                "level": 33,
+                "abilityId": 5,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [157, 189, 334, 0]
+            },
+            {
+                "pokemonId": 305,
+                "level": 33,
+                "abilityId": 5,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [442, 317, 174, 0]
+            }
+        ]
+    },
+    {
+        "id": 431,
+        "name": "Jebediah",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemonId": 95,
+                "level": 32,
+                "abilityId": 133,
+                "natureId": 4,
+                "itemId": 0,
+                "moves": [317, 225, 103, 446]
+            },
+            {
+                "pokemonId": 206,
+                "level": 32,
+                "abilityId": 32,
+                "natureId": 10,
+                "itemId": 0,
+                "moves": [239, 29, 91, 137]
+            },
+            {
+                "pokemonId": 169,
+                "level": 33,
+                "abilityId": 151,
+                "natureId": 18,
+                "itemId": 0,
+                "moves": [440, 17, 366, 0]
+            }
+        ]
+    },
+    {
+        "id": 432,
+        "name": "Geoff",
+        "trainerClass": 3,
+        "team": [
+            {
+                "pokemonId": 564,
+                "level": 33,
+                "abilityId": 116,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [127, 246, 453, 469]
+            },
+            {
+                "pokemonId": 566,
+                "level": 33,
+                "abilityId": 129,
+                "natureId": 3,
+                "itemId": 0,
+                "moves": [512, 317, 225, 501]
+            },
+            {
+                "pokemonId": 610,
+                "level": 34,
+                "abilityId": 104,
+                "natureId": 4,
+                "itemId": 538,
+                "moves": [337, 372, 163, 349]
+            }
+        ]
+    },
+    {
+        "id": 433,
+        "name": "Belle",
+        "trainerClass": 4,
+        "team": [
+            {
+                "pokemonId": 302,
+                "level": 34,
+                "abilityId": 158,
+                "natureId": 17,
+                "itemId": 0,
+                "moves": [252, 421, 212, 261]
+            },
+            {
+                "pokemonId": 303,
+                "level": 34,
+                "abilityId": 125,
+                "natureId": 8,
+                "itemId": 0,
+                "moves": [424, 422, 423, 305]
+            }
+        ]
+    },
+    {
+        "id": 434,
+        "name": "Jeremy",
+        "trainerClass": 25,
+        "team": [
+            {
+                "pokemonId": 375,
+                "level": 35,
+                "abilityId": 29,
+                "natureId": 15,
+                "itemId": 0,
+                "moves": [418, 473, 36, 0]
+            },
+            {
+                "pokemonId": 633,
+                "level": 35,
+                "abilityId": 55,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [406, 242, 116, 0]
             }
         ]
     }
