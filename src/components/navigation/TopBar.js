@@ -31,15 +31,17 @@ const TopBar = ({ toggleArray }) => {
                     color="black"
                     style={{ marginRight: "2rem" }}
                     onClick={handleClick}
-                />
-            );
-        } else {
-            return (
-                <FontAwesomeIcon
+                    cursor="pointer"
+                    />
+                );
+            } else {
+                return (
+                    <FontAwesomeIcon
                     icon={faBars}
                     size="xl"
                     color="black"
                     style={{ marginRight: "2rem" }}
+                    cursor="pointer"
                     onClick={handleClick}
                 />
             );

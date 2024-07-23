@@ -10,26 +10,13 @@ const EncounterSheet = ({ location, index }) => {
             </Grid>
         );
     });
-    const subLocations = location.subLocations.map((subLocation, index) => {
-        if (subLocation.encounters.length > 0) {
-            return (
-                <EncounterSheet
-                    location={subLocation}
-                    index={index}
-                    key={index}
-                />
-            );
-        }
-        return <></>
-    });
     return (
         <div className="center" key={index}>
-            <div className="encounter-sheet-container">
+            <div className="location-container">
                 <h2>{location.name}</h2>
                 <Grid container rowSpacing={3}>
                     {encTables}
                 </Grid>
-                {subLocations}
             </div>
         </div>
     );

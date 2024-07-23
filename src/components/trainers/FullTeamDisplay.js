@@ -94,9 +94,7 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
             return <b style={{ marginBottom: "2px" }}>{evText}</b>;
         };
 
-        console.log(mon)
         const baseMon = DexEntry.findFromForm(mon.pokemon.id, selectedRomhack.nationalDex.dexArray)
-        console.log(baseMon)
 
         return (
             <Grid className="" item xs={6} sm={4} key={index}>
@@ -104,7 +102,7 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
                     <FontAwesomeIcon
                         className="copy-to-clipboard"
                         icon={faCopy}
-                        size="xl"
+                        size="lg"
                         onClick={() => {
                             navigator.clipboard.writeText(mon.getPaste());
                         }}
@@ -142,7 +140,6 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
     return (
         <Grid container>
             <Grid item xs />
-            {/* <Grid container className="center width-100"> */}
             <Grid item xs={11} md={8} lg={7} xl={6}>
                 <Grid container columnSpacing={1} rowSpacing={1}>
                     {teamDisplay}

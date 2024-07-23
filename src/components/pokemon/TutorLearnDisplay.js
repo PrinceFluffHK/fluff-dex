@@ -3,7 +3,7 @@ import { Grid } from "@mui/material";
 import { Link, useParams } from "react-router-dom";
 
 const TutorLearnDisplay = ({ selectedMon, baseDexEntry }) => {
-    console.log(selectedMon)
+    // console.log(selectedMon)
     let { id } = useParams();
     id = parseInt(id);
 

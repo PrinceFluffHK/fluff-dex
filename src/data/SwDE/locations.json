@@ -11,17 +11,17 @@
         "trainers": [
             {
                 "battleType": 1,
-                "opponent": 1,
+                "opponent": [1],
                 "notes": "grass"
             },
             {
                 "battleType": 1,
-                "opponent": 2,
+                "opponent": [2],
                 "notes": "fire"
             },
             {
                 "battleType": 1,
-                "opponent": 3,
+                "opponent": [3],
                 "notes": "water"
             }
         ],
@@ -208,27 +208,27 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 4
+                "opponent": [4]
             },
             {
                 "battleType": 2,
-                "opponent": 5
+                "opponent": [5]
             },
             {
                 "battleType": 2,
-                "opponent": 6
+                "opponent": [6]
             },
             {
                 "battleType": 2,
-                "opponent": 7
+                "opponent": [7]
             },
             {
                 "battleType": 2,
-                "opponent": 8
+                "opponent": [8]
             },
             {
                 "battleType": 2,
-                "opponent": 9
+                "opponent": [9]
             }
         ],
         "encounters": [],
@@ -509,11 +509,11 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 10
+                        "opponent": [10]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 11
+                        "opponent": [11]
                     },
                     {
                         "battleType": 2,
@@ -540,7 +540,7 @@
             },
             {
                 "name": "Budewdrop Inn (2 Badges)",
-                "trainers": [{ "battleType": 2, "opponent": 69 }],
+                "trainers": [{ "battleType": 2, "opponent": [69] }],
                 "encounters": [],
                 "collectibles": [],
                 "subLocations": []
@@ -548,10 +548,10 @@
             {
                 "name": "Motostoke Gym",
                 "trainers": [
-                    { "battleType": 2, "opponent": 70 },
-                    { "battleType": 2, "opponent": 71 },
-                    { "battleType": 2, "opponent": 72 },
-                    { "battleType": 2, "opponent": 73 }
+                    { "battleType": 2, "opponent": [70] },
+                    { "battleType": 2, "opponent": [71] },
+                    { "battleType": 2, "opponent": [72] },
+                    { "battleType": 2, "opponent": [73] }
                 ],
                 "encounters": [
                     {
@@ -607,46 +607,46 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 17,
+                "opponent": [17],
                 "notes": "grass"
             },
             {
                 "battleType": 2,
-                "opponent": 18,
+                "opponent": [18],
                 "notes": "fire"
             },
             {
                 "battleType": 2,
-                "opponent": 19,
+                "opponent": [19],
                 "notes": "water"
             },
             {
                 "battleType": 2,
-                "opponent": 20
+                "opponent": [20]
             },
             {
                 "battleType": 2,
-                "opponent": 21
+                "opponent": [21]
             },
             {
                 "battleType": 2,
-                "opponent": 22
+                "opponent": [22]
             },
             {
                 "battleType": 2,
-                "opponent": 23
+                "opponent": [23]
             },
             {
                 "battleType": 2,
-                "opponent": 24
+                "opponent": [24]
             },
             {
                 "battleType": 2,
-                "opponent": 25
+                "opponent": [25]
             },
             {
                 "battleType": 2,
-                "opponent": 26
+                "opponent": [26]
             }
         ],
         "encounters": [
@@ -727,11 +727,11 @@
     {
         "name": "Galar Mine No. 1",
         "trainers": [
-            { "battleType": 2, "opponent": 26 },
-            { "battleType": 2, "opponent": 27 },
-            { "battleType": 2, "opponent": 28 },
-            { "battleType": 2, "opponent": 29 },
-            { "battleType": 2, "opponent": 30 }
+            { "battleType": 2, "opponent": [26] },
+            { "battleType": 2, "opponent": [27] },
+            { "battleType": 2, "opponent": [28] },
+            { "battleType": 2, "opponent": [29] },
+            { "battleType": 2, "opponent": [30] }
         ],
         "encounters": [
             {
@@ -807,12 +807,12 @@
     {
         "name": "Route 4",
         "trainers": [
-            { "battleType": 2, "opponent": 31 },
-            { "battleType": 2, "opponent": 32 },
-            { "battleType": 2, "opponent": 34 },
-            { "battleType": 2, "opponent": 33 },
-            { "battleType": 2, "opponent": 35 },
-            { "battleType": 2, "opponent": 36 }
+            { "battleType": 2, "opponent": [31] },
+            { "battleType": 2, "opponent": [32] },
+            { "battleType": 2, "opponent": [34] },
+            { "battleType": 2, "opponent": [33] },
+            { "battleType": 2, "opponent": [35] },
+            { "battleType": 2, "opponent": [36] }
         ],
         "encounters": [
             {
@@ -936,10 +936,10 @@
             {
                 "name": "Turffield Gym",
                 "trainers": [
-                    { "battleType": 2, "opponent": 37 },
-                    { "battleType": 2, "opponent": 38 },
-                    { "battleType": 2, "opponent": 39 },
-                    { "battleType": 2, "opponent": 40 }
+                    { "battleType": 2, "opponent": [37] },
+                    { "battleType": 2, "opponent": [38] },
+                    { "battleType": 2, "opponent": [39] },
+                    { "battleType": 2, "opponent": [40] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -950,19 +950,18 @@
     {
         "name": "Route 5",
         "trainers": [
-            { "battleType": 2, "opponent": 41 },
-            { "battleType": 2, "opponent": 42 },
-            { "battleType": 2, "opponent": 43 },
-            { "battleType": 2, "opponent": 44 },
-            { "battleType": 2, "opponent": 45 },
-            { "battleType": 2, "opponent": 46 },
-            { "battleType": 2, "opponent": 47 },
-            { "battleType": 2, "opponent": 48 },
-            { "battleType": 2, "opponent": 49 },
-            { "battleType": 2, "opponent": 50 },
-            { "battleType": 2, "opponent": 51 },
-            { "battleType": 2, "opponent": 52 },
-            { "battleType": 2, "opponent": 53 }
+            { "battleType": 2, "opponent": [41, 42], "partner": 0 },
+            { "battleType": 2, "opponent": [43] },
+            { "battleType": 2, "opponent": [44] },
+            { "battleType": 2, "opponent": [45] },
+            { "battleType": 2, "opponent": [46] },
+            { "battleType": 2, "opponent": [47] },
+            { "battleType": 2, "opponent": [48] },
+            { "battleType": 2, "opponent": [49] },
+            { "battleType": 2, "opponent": [50] },
+            { "battleType": 2, "opponent": [51] },
+            { "battleType": 2, "opponent": [52] },
+            { "battleType": 2, "opponent": [53] }
         ],
         "encounters": [
             {
@@ -1129,10 +1128,10 @@
             {
                 "name": "Hulbury Gym",
                 "trainers": [
-                    { "battleType": 2, "opponent": 54 },
-                    { "battleType": 2, "opponent": 55 },
-                    { "battleType": 2, "opponent": 56 },
-                    { "battleType": 2, "opponent": 57 }
+                    { "battleType": 2, "opponent": [54] },
+                    { "battleType": 2, "opponent": [55] },
+                    { "battleType": 2, "opponent": [56] },
+                    { "battleType": 2, "opponent": [57] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -1143,9 +1142,9 @@
     {
         "name": "Galar Mine No. 2",
         "trainers": [
-            { "battleType": 2, "opponent": 58 },
-            { "battleType": 2, "opponent": 59 },
-            { "battleType": 2, "opponent": 60 },
+            { "battleType": 2, "opponent": [58] },
+            { "battleType": 2, "opponent": [59] },
+            { "battleType": 2, "opponent": [60] },
             {
                 "battleType": 2,
                 "opponent": [64, 65],
@@ -1164,7 +1163,7 @@
                 "partner": 63,
                 "notes": "water"
             },
-            { "battleType": 2, "opponent": 66 }
+            { "battleType": 2, "opponent": [66] }
         ],
         "encounters": [
             {
@@ -1263,8 +1262,8 @@
     {
         "name": "Motostoke Outskirts",
         "trainers": [
-            { "battleType": 2, "opponent": 67 },
-            { "battleType": 2, "opponent": 68 }
+            { "battleType": 2, "opponent": [67] },
+            { "battleType": 2, "opponent": [68] }
         ],
         "encounters": [
             {
@@ -1315,17 +1314,17 @@
     },
     {
         "name": "Hammerlocke",
-        "trainers": [{ "battleType": 2, "opponent": 74 }],
+        "trainers": [{ "battleType": 2, "opponent": [74] }],
         "encounters": [],
         "collectibles": [],
         "subLocations": [
             {
                 "name": "Hammerlocke Gym",
                 "trainers": [
-                    { "battleType": 2, "opponent": 139 },
-                    { "battleType": 2, "opponent": 140 },
-                    { "battleType": 2, "opponent": 141 },
-                    { "battleType": 2, "opponent": 142 }
+                    { "battleType": 2, "opponent": [139] },
+                    { "battleType": 2, "opponent": [140] },
+                    { "battleType": 2, "opponent": [141] },
+                    { "battleType": 2, "opponent": [142] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -1333,7 +1332,7 @@
             },
             {
                 "name": "Energy Plant",
-                "trainers": [{ "battleType": 2, "opponent": 175 }],
+                "trainers": [{ "battleType": 2, "opponent": [175] }],
                 "encounters": [],
                 "collectibles": [],
                 "subLocations": []
@@ -1343,14 +1342,14 @@
     {
         "name": "Route 6",
         "trainers": [
-            { "battleType": 2, "opponent": 75 },
-            { "battleType": 2, "opponent": 76 },
-            { "battleType": 2, "opponent": 77 },
+            { "battleType": 2, "opponent": [75] },
+            { "battleType": 2, "opponent": [76] },
+            { "battleType": 2, "opponent": [77] },
             { "battleType": 2, "opponent": [78, 79] },
-            { "battleType": 2, "opponent": 80 },
-            { "battleType": 2, "opponent": 81 },
-            { "battleType": 2, "opponent": 82 },
-            { "battleType": 2, "opponent": 83 }
+            { "battleType": 2, "opponent": [80] },
+            { "battleType": 2, "opponent": [81] },
+            { "battleType": 2, "opponent": [82] },
+            { "battleType": 2, "opponent": [83] }
         ],
         "encounters": [
             {
@@ -1467,9 +1466,9 @@
     {
         "name": "Stow-on-Side",
         "trainers": [
-            { "battleType": 2, "opponent": 84 },
-            { "battleType": 2, "opponent": 85 },
-            { "battleType": 2, "opponent": 86 }
+            { "battleType": 2, "opponent": [84] },
+            { "battleType": 2, "opponent": [85] },
+            { "battleType": 2, "opponent": [86] }
         ],
         "encounters": [],
         "collectibles": [],
@@ -1477,10 +1476,10 @@
             {
                 "name": "Stow-on-Side Gym",
                 "trainers": [
-                    { "battleType": 2, "opponent": 87 },
-                    { "battleType": 2, "opponent": 88 },
-                    { "battleType": 2, "opponent": 89 },
-                    { "battleType": 2, "opponent": 90 }
+                    { "battleType": 2, "opponent": [87] },
+                    { "battleType": 2, "opponent": [88] },
+                    { "battleType": 2, "opponent": [89] },
+                    { "battleType": 2, "opponent": [90] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -1488,7 +1487,7 @@
             },
             {
                 "name": "After Bea",
-                "trainers": [{ "battleType": 2, "opponent": 91 }],
+                "trainers": [{ "battleType": 2, "opponent": [91] }],
                 "encounters": [],
                 "collectibles": [],
                 "subLocations": []
@@ -1498,9 +1497,9 @@
     {
         "name": "Glimwood Tangle",
         "trainers": [
-            { "battleType": 2, "opponent": 92 },
+            { "battleType": 2, "opponent": [92] },
             { "battleType": 2, "opponent": [93, 94] },
-            { "battleType": 2, "opponent": 95 }
+            { "battleType": 2, "opponent": [95] }
         ],
         "encounters": [
             {
@@ -1586,17 +1585,17 @@
     },
     {
         "name": "Ballonlea",
-        "trainers": [{ "battleType": 2, "opponent": 96 }],
+        "trainers": [{ "battleType": 2, "opponent": [96] }],
         "encounters": [],
         "collectibles": [],
         "subLocations": [
             {
                 "name": "Ballonlea Gym",
                 "trainers": [
-                    { "battleType": 2, "opponent": 97 },
-                    { "battleType": 2, "opponent": 98 },
-                    { "battleType": 2, "opponent": 99 },
-                    { "battleType": 2, "opponent": 100 }
+                    { "battleType": 2, "opponent": [97] },
+                    { "battleType": 2, "opponent": [98] },
+                    { "battleType": 2, "opponent": [99] },
+                    { "battleType": 2, "opponent": [100] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -1607,11 +1606,11 @@
     {
         "name": "Route 7",
         "trainers": [
-            { "battleType": 2, "opponent": 101, "notes": "grass" },
-            { "battleType": 2, "opponent": 102, "notes": "fire" },
-            { "battleType": 2, "opponent": 103, "notes": "water" },
-            { "battleType": 2, "opponent": 104 },
-            { "battleType": 2, "opponent": 105 }
+            { "battleType": 2, "opponent": [101], "notes": "grass" },
+            { "battleType": 2, "opponent": [102], "notes": "fire" },
+            { "battleType": 2, "opponent": [103], "notes": "water" },
+            { "battleType": 2, "opponent": [104] },
+            { "battleType": 2, "opponent": [105] }
         ],
         "encounters": [
             {
@@ -1690,7 +1689,7 @@
         "subLocations": [
             {
                 "name": "Accessed from Route 9",
-                "trainers": [{ "battleType": 2, "opponent": 106 }],
+                "trainers": [{ "battleType": 2, "opponent": [106] }],
                 "encounters": [],
                 "collectibles": [],
                 "subLocations": []
@@ -1706,9 +1705,9 @@
             {
                 "name": "Ruins",
                 "trainers": [
-                    { "battleType": 2, "opponent": 107 },
-                    { "battleType": 2, "opponent": 108 },
-                    { "battleType": 2, "opponent": 109 },
+                    { "battleType": 2, "opponent": [107] },
+                    { "battleType": 2, "opponent": [108] },
+                    { "battleType": 2, "opponent": [109] },
                     { "battleType": 2, "opponent": [110, 111] }
                 ],
                 "encounters": [
@@ -1800,7 +1799,7 @@
             },
             {
                 "name": "Steamdrift Way",
-                "trainers": [{ "battleType": 2, "opponent": 112 }],
+                "trainers": [{ "battleType": 2, "opponent": [112] }],
                 "encounters": [
                     {
                         "type": "Grass",
@@ -1862,11 +1861,11 @@
             {
                 "name": "Circester Gym",
                 "trainers": [
-                    { "battleType": 2, "opponent": 113 },
-                    { "battleType": 2, "opponent": 114 },
-                    { "battleType": 2, "opponent": 115 },
-                    { "battleType": 2, "opponent": 116 },
-                    { "battleType": 2, "opponent": 117 }
+                    { "battleType": 2, "opponent": [113] },
+                    { "battleType": 2, "opponent": [114] },
+                    { "battleType": 2, "opponent": [115] },
+                    { "battleType": 2, "opponent": [116] },
+                    { "battleType": 2, "opponent": [117] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -1874,7 +1873,7 @@
             },
             {
                 "name": "After Gordie",
-                "trainers": [{ "battleType": 2, "opponent": 118 }],
+                "trainers": [{ "battleType": 2, "opponent": [118] }],
                 "encounters": [],
                 "collectibles": [],
                 "subLocations": []
@@ -1884,19 +1883,19 @@
     {
         "name": "Route 9",
         "trainers": [
-            { "battleType": 2, "opponent": 119 },
-            { "battleType": 2, "opponent": 120 },
-            { "battleType": 2, "opponent": 121 },
-            { "battleType": 2, "opponent": 122 },
-            { "battleType": 2, "opponent": 123 },
-            { "battleType": 2, "opponent": 124 },
-            { "battleType": 2, "opponent": 125 },
-            { "battleType": 2, "opponent": 126 },
-            { "battleType": 2, "opponent": 127 },
-            { "battleType": 2, "opponent": 128 },
-            { "battleType": 2, "opponent": 129 },
-            { "battleType": 2, "opponent": 130 },
-            { "battleType": 2, "opponent": 131 }
+            { "battleType": 2, "opponent": [119] },
+            { "battleType": 2, "opponent": [120] },
+            { "battleType": 2, "opponent": [121] },
+            { "battleType": 2, "opponent": [122] },
+            { "battleType": 2, "opponent": [123] },
+            { "battleType": 2, "opponent": [124] },
+            { "battleType": 2, "opponent": [125] },
+            { "battleType": 2, "opponent": [126] },
+            { "battleType": 2, "opponent": [127] },
+            { "battleType": 2, "opponent": [128] },
+            { "battleType": 2, "opponent": [129] },
+            { "battleType": 2, "opponent": [130] },
+            { "battleType": 2, "opponent": [131] }
         ],
         "encounters": [
             {
@@ -2018,12 +2017,12 @@
     {
         "name": "Spikemuth",
         "trainers": [
-            { "battleType": 2, "opponent": 132 },
-            { "battleType": 2, "opponent": 133 },
-            { "battleType": 2, "opponent": 134 },
-            { "battleType": 2, "opponent": 135 },
+            { "battleType": 2, "opponent": [132] },
+            { "battleType": 2, "opponent": [133] },
+            { "battleType": 2, "opponent": [134] },
+            { "battleType": 2, "opponent": [135] },
             { "battleType": 2, "opponent": [136, 137] },
-            { "battleType": 2, "opponent": 138 }
+            { "battleType": 2, "opponent": [138] }
         ],
         "encounters": [],
         "collectibles": [],
@@ -2032,13 +2031,13 @@
     {
         "name": "Route 10",
         "trainers": [
-            { "battleType": 2, "opponent": 143 },
-            { "battleType": 2, "opponent": 144 },
-            { "battleType": 2, "opponent": 145 },
-            { "battleType": 2, "opponent": 146 },
-            { "battleType": 2, "opponent": 147 },
-            { "battleType": 2, "opponent": 148 },
-            { "battleType": 2, "opponent": 149 },
+            { "battleType": 2, "opponent": [143] },
+            { "battleType": 2, "opponent": [144] },
+            { "battleType": 2, "opponent": [145] },
+            { "battleType": 2, "opponent": [146] },
+            { "battleType": 2, "opponent": [147] },
+            { "battleType": 2, "opponent": [148] },
+            { "battleType": 2, "opponent": [149] },
             { "battleType": 2, "opponent": [150, 151] }
         ],
         "encounters": [
@@ -2119,7 +2118,7 @@
         "subLocations": [
             {
                 "name": "Wyndon Flats",
-                "trainers": [{ "battleType": 2, "opponent": 152 }],
+                "trainers": [{ "battleType": 2, "opponent": [152] }],
                 "encounters": [],
                 "collectibles": [],
                 "subLocations": []
@@ -2127,10 +2126,10 @@
             {
                 "name": "Challenger Cup Qualifiers",
                 "trainers": [
-                    { "battleType": 2, "opponent": 153 },
-                    { "battleType": 2, "opponent": 154 },
-                    { "battleType": 2, "opponent": 155 },
-                    { "battleType": 2, "opponent": 156 }
+                    { "battleType": 2, "opponent": [153] },
+                    { "battleType": 2, "opponent": [154] },
+                    { "battleType": 2, "opponent": [155] },
+                    { "battleType": 2, "opponent": [156] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -2139,9 +2138,9 @@
             {
                 "name": "Wyndon Plaza",
                 "trainers": [
-                    { "battleType": 2, "opponent": 157 },
-                    { "battleType": 2, "opponent": 158 },
-                    { "battleType": 2, "opponent": 159 }
+                    { "battleType": 2, "opponent": [157] },
+                    { "battleType": 2, "opponent": [158] },
+                    { "battleType": 2, "opponent": [159] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -2150,10 +2149,10 @@
             {
                 "name": "Challenger Cup",
                 "trainers": [
-                    { "battleType": 2, "opponent": 171 },
-                    { "battleType": 2, "opponent": 172 },
-                    { "battleType": 2, "opponent": 173 },
-                    { "battleType": 2, "opponent": 174 }
+                    { "battleType": 2, "opponent": [171] },
+                    { "battleType": 2, "opponent": [172] },
+                    { "battleType": 2, "opponent": [173] },
+                    { "battleType": 2, "opponent": [174] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -2162,9 +2161,9 @@
             {
                 "name": "Championship Match",
                 "trainers": [
-                    { "battleType": 2, "opponent": 176 },
-                    { "battleType": 2, "opponent": 177 },
-                    { "battleType": 2, "opponent": 178 }
+                    { "battleType": 2, "opponent": [176] },
+                    { "battleType": 2, "opponent": [177] },
+                    { "battleType": 2, "opponent": [178] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -2175,7 +2174,7 @@
     {
         "name": "Rose Tower",
         "trainers": [
-            { "battleType": 2, "opponent": 160 },
+            { "battleType": 2, "opponent": [160] },
             {
                 "battleType": 2,
                 "opponent": [164, 165],
@@ -2230,7 +2229,7 @@
                 "partner": 163,
                 "notes": "water"
             },
-            { "battleType": 2, "opponent": 170 }
+            { "battleType": 2, "opponent": [170] }
         ],
         "encounters": [],
         "collectibles": [],

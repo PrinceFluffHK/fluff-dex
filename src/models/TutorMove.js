@@ -34,23 +34,23 @@ class TutorMove {
         let costString =
             this.cost != 0 ? `${this.cost} ${currency}s` : "No Cost";
         return (
-            <Link to={`/${hackId}/moves/${this.move.id}`} key={index}>
-                <Grid container className="tutor-move-container">
-                    <Grid className="align-center" item xs={4}>
+            <Grid container className="list-divider" key={index}>
+                <Grid className="align-center" item xs={4}>
+                    <Link to={`/${hackId}/moves/${this.move.id}`} key={index}>
                         <b>
                             <p>{this.move.name}</p>
                         </b>
-                    </Grid>
-                    <Grid className="align-center" item xs={5}>
-                        <b>
-                            <p>{costString}</p>
-                        </b>
-                    </Grid>
-                    <Grid className="align-center" item xs={3}>
-                        {this.move.type.displayBanner({}, {})}
-                    </Grid>
+                    </Link>
                 </Grid>
-            </Link>
+                <Grid className="align-center" item xs={5}>
+                    <div>
+                        <p>{costString}</p>
+                    </div>
+                </Grid>
+                <Grid className="align-center" item xs={3}>
+                    {this.move.type.displayBanner({}, {})}
+                </Grid>
+            </Grid>
         );
     }
 }

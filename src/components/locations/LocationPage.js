@@ -5,26 +5,23 @@ import Help from "../../models/Help";
 import { romhackList } from "../Homepage";
 
 const LocationPage = ({ location, id, color }) => {
-    const selectedRomhack = Help.findInArray(id, romhackList)
+    const selectedRomhack = Help.findInArray(id, romhackList);
 
     let trainersClass = "invis";
     const trainerList = location.trainers.map((battle, index) => {
         trainersClass = "";
-        let color = "white";
-        if (index % 2) {
-            color = "lightcyan";
+        const first = index === 0 ? true : false;
+        try {
+            return battle.listDisplay(index, id, first);
+        } catch (error) {
+            console.warn(battle, error);
         }
-        let final = false;
-        if (index === location.trainers.length - 1) {
-            final = true;
-        }
-        return battle.listDisplay(index, id, color, final);
     });
 
     let encountersClass = "invis";
     const encounterList = location.encounters.map((encTable, index) => {
         encountersClass = "";
-        return <EncounterTable encTable={encTable} index={index} key={index}/>;
+        return <EncounterTable encTable={encTable} index={index} key={index} />;
     });
 
     let collectiblesClass = "invis";
@@ -43,11 +40,11 @@ const LocationPage = ({ location, id, color }) => {
         return mart.locationDisplay(index);
     });
 
-    let tutorsClass = "invis" 
+    let tutorsClass = "invis";
     const tutorList = location.tutors.map((tutor, index) => {
-        tutorsClass = "" 
-        return tutor.makeDisplay(selectedRomhack, index, "white")
-    })
+        tutorsClass = "";
+        return tutor.makeDisplay(selectedRomhack, index, "white");
+    });
 
     let subLocationClass = "invis";
     const subLocationList = location.subLocations.map((subLocation, index) => {
@@ -65,7 +62,7 @@ const LocationPage = ({ location, id, color }) => {
 
     return (
         <div
-            className="encounter-sheet-container"
+            className="location-container"
             style={{ backgroundColor: color }}
             id="location container"
         >
@@ -94,14 +91,26 @@ const LocationPage = ({ location, id, color }) => {
                         </div>
                     </div>
                     <div className="center width-100">
+                        <div
+                            className="width-100 align-center"
+                            style={{ flexDirection: "column" }}
+                        >
+                            {encounterList}
+                        </div>
+                    </div>
+                </Grid>
+                <Grid item xs={12} md={6} className={tutorsClass}>
+                    <div className="width-100 center">
                         <div className="width-90">
-                            <Grid
-                                container
-                                rowSpacing={3}
-                                style={{ paddingBottom: "1rem" }}
-                            >
-                                {encounterList}
-                            </Grid>
+                            <h2>Move Tutors</h2>
+                        </div>
+                    </div>
+                    <div className="center width-100">
+                        <div
+                            className="width-100 align-center"
+                            style={{ flexDirection: "column" }}
+                        >
+                            {tutorList}
                         </div>
                     </div>
                 </Grid>
@@ -127,21 +136,9 @@ const LocationPage = ({ location, id, color }) => {
                         <div className="width-90">{martList}</div>
                     </div>
                 </Grid>
-                <Grid item xs={12} md={6} className={tutorsClass}>
-                    <div className="width-100 center">
-                        <div className="width-90">
-                            <h2>Move Tutors</h2>
-                        </div>
-                    </div>
-                    <div className="center width-100">
-                        <div className="width-100">{tutorList}</div>
-                    </div>
-                </Grid>
                 <Grid item xs={12} className={subLocationClass}>
                     <div className="center width-100">
-                        <div className="width-100">
-                            {subLocationList}
-                        </div>
+                        <div className="width-100">{subLocationList}</div>
                     </div>
                 </Grid>
             </Grid>

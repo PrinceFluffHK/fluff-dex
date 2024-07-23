@@ -33,9 +33,9 @@ class Tutor {
             return move.tutorListDisplay(index, this.currency, hack.id);
         });
         return (
-            <div className="tutor-container justify-center" key={index} style={{ backgroundColor: color}}>
-                <div className="width-90">
-                    <h1>{this.name}</h1>
+            <div className="location-content-container justify-center width-90" key={index} style={{ backgroundColor: color}}>
+                <div className="width-100">
+                    <h2>{this.name}</h2>
                     <h2 className={locationClass}>{this.location}</h2>
                     <div>{moveDisplay}</div>
                 </div>

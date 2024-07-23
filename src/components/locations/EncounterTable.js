@@ -20,23 +20,15 @@ const EncounterTable = ({ encTable, index }) => {
         const levelValue =
             mon.minLv === mon.maxLv ? mon.minLv : `${mon.minLv} - ${mon.maxLv}`;
 
-        // console.log(mon.pokemon.id)
         const baseForm = DexEntry.findFromForm(
             mon.pokemon.id,
             selectedRomhack.nationalDex.dexArray
         );
-        let targetId = mon.id
-        try {
-            targetId = baseForm.id 
-        } catch (error) {
-            console.log(mon)
-        }
-        // console.log(id)
 
         return (
             <Grid container key={index} className="list-divider">
                 <Grid item xs={2.5}>
-                    <Link to={`/${id}/pokemon/${targetId}/0`}>
+                    <Link to={`/${id}/pokemon/${baseForm.id}/0`}>
                         <img
                             src={mon.pokemon.spriteUrl}
                             className="encounter-sprite"
@@ -60,27 +52,25 @@ const EncounterTable = ({ encTable, index }) => {
     const bgColor = Encounter.getColor(encTable.type);
 
     return (
-        <Grid item className="justify-center width-100" key={index}>
-            <div
-                className="encounter-list-container"
-                style={{ backgroundColor: bgColor }}
-            >
-                <h2>{encTable.type}</h2>
-                <Grid container>
-                    <Grid item xs={2.5}></Grid>
-                    <Grid item xs>
-                        <b>Name</b>
-                    </Grid>
-                    <Grid item xs={2.5}>
-                        <b>%</b>
-                    </Grid>
-                    <Grid item xs={2.5}>
-                        <b>Level</b>
-                    </Grid>
+        <div
+            className="location-content-container width-90"
+            style={{ backgroundColor: bgColor }}
+        >
+            <h2>{encTable.type}</h2>
+            <Grid container>
+                <Grid item xs={2.5}></Grid>
+                <Grid item xs>
+                    <b>Name</b>
                 </Grid>
-                <div>{encounterList}</div>
-            </div>
-        </Grid>
+                <Grid item xs={2.5}>
+                    <b>%</b>
+                </Grid>
+                <Grid item xs={2.5}>
+                    <b>Level</b>
+                </Grid>
+            </Grid>
+            <div>{encounterList}</div>
+        </div>
     );
 };
 

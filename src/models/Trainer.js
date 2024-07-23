@@ -7,7 +7,16 @@ import { romhackList } from "../components/Homepage";
 import DexEntry from "./DexEntry";
 
 class Trainer {
-    constructor(id, name, trainerClass, team, notes, battleType, mandatory) {
+    constructor(
+        id,
+        name,
+        trainerClass,
+        team,
+        notes,
+        battleType,
+        mandatory,
+        boss
+    ) {
         this.id = id;
         this.name = name;
         this.trainerClass = trainerClass;
@@ -15,6 +24,7 @@ class Trainer {
         this.notes = notes;
         this.battleType = battleType;
         this.mandatory = mandatory || true;
+        this.boss = boss || false;
     }
 
     static makeSingle(
@@ -23,9 +33,9 @@ class Trainer {
         species,
         abilities,
         items,
-        moves
+        moves,
     ) {
-        const { id, name, trainerClass, team, notes, battleType, mandatory } =
+        const { id, name, trainerClass, team, notes, battleType, mandatory, boss } =
             trainerObj;
         const newClass = Help.findInArray(trainerClass, trainerClasses);
         const newTeam = TrainerMon.makeTeam(
@@ -43,7 +53,8 @@ class Trainer {
             newTeam,
             notes,
             newBattleType,
-            mandatory
+            mandatory,
+            boss
         );
     }
 
@@ -62,7 +73,8 @@ class Trainer {
                 species,
                 abilities,
                 items,
-                moves
+                moves,
+
             );
         });
     }
@@ -93,10 +105,9 @@ class Trainer {
                             style={{ paddingTop: "5px" }}
                             className="text-center"
                         >
-                            <b>{mon.name}</b>
+                            <div>{mon.name}</div>
                         </div>
                         <div className="sprite-view">
-                            {/* <div className="sprite-view-circle" /> */}
                             <img
                                 src={mon.spriteUrl}
                                 className="location-mon-sprite"
@@ -112,32 +123,34 @@ class Trainer {
         });
     }
 
-    locationStandard(color, index, hackId, final, teammate) {
+    locationStandard(index, hackId, first) {
         const romhack = Help.findInArray(hackId, romhackList);
         const teamView = this.teamView(hackId);
-        // console.log(this)
 
-        let className = "list-divider";
-        if (index === 0) {
-            className += " no-border round-top";
-            if (final) {
-                className += "-bottom";
+        let className = "width-100 list-divider";
+        if (first) {
+            className = "width-100";
+        }
+
+        const TrainerName = () => {
+            if (this.boss) {
+                return (
+                    <b>
+                        {this.trainerClass.name} {this.name}
+                    </b>
+                );
             }
-        } else if (final) {
-            className += " round-bottom";
-        }
-        if (teammate && index === 1) {
-            className += " no-border";
-        }
+            return (
+                <div>
+                    {this.trainerClass.name} {this.name}
+                </div>
+            );
+        };
 
         return (
-            <div
-                className={className}
-                style={{ backgroundColor: color }}
-                key={index}
-            >
+            <div className={className} key={index}>
                 <Grid container>
-                    <Grid item xs={3} className="center">
+                    <Grid item xs={2.5} className="center">
                         <Link to={`/${hackId}/trainers/${this.id}`}>
                             <img
                                 src={`/trainerClasses/${this.trainerClass.id}-${romhack.spriteId}.png`}
@@ -146,14 +159,12 @@ class Trainer {
                             />
                         </Link>
                     </Grid>
-                    <Grid item xs={2} className="align-center">
+                    <Grid item xs className="align-center">
                         <Link
                             to={`/${hackId}/trainers/${this.id}`}
                             className="suppress-link"
                         >
-                            <b>
-                                {this.trainerClass.name} {this.name}
-                            </b>
+                            <TrainerName/>
                         </Link>
                     </Grid>
                     <Grid item xs={7}>
@@ -165,26 +176,6 @@ class Trainer {
             </div>
         );
     }
-
-    // locationPartner(color, index, hackId, final) {
-    //     // const teamView = this.teamView(hackId)
-
-    //     let className = "list-divider";
-    //     if (index === 0) {
-
-    //         className += " round-top";
-    //         if (final) {
-    //             className += "-bottom";
-    //         }
-    //     } else if (final) {
-    //         className += " round-bottom";
-    //     }
-    //     return (
-    //     <div key={index}>
-
-    //     </div>
-    // )
-    // }
 }
 
 export default Trainer;
