@@ -11,17 +11,17 @@
         "trainers": [
             {
                 "battleType": 1,
-                "opponent": 1,
+                "opponent": [1],
                 "notes": "grass"
             },
             {
                 "battleType": 1,
-                "opponent": 2,
+                "opponent": [2],
                 "notes": "fire"
             },
             {
                 "battleType": 1,
-                "opponent": 3,
+                "opponent": [3],
                 "notes": "water"
             }
         ],
@@ -108,15 +108,15 @@
                 "trainers": [
                     {
                         "battleType": 1,
-                        "opponent": 21
+                        "opponent": [21]
                     },
                     {
                         "battleType": 1,
-                        "opponent": 22
+                        "opponent": [22]
                     },
                     {
                         "battleType": 1,
-                        "opponent": 23
+                        "opponent": [23]
                     }
                 ],
                 "collectibles": [
@@ -217,41 +217,41 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 13,
+                "opponent": [13],
                 "notes": "grass"
             },
             {
                 "battleType": 2,
-                "opponent": 14,
+                "opponent": [14],
                 "notes": "fire"
             },
             {
                 "battleType": 2,
-                "opponent": 15,
+                "opponent": [15],
                 "notes": "water"
             },
             {
                 "battleType": 2,
-                "opponent": 16,
+                "opponent": [16],
                 "notes": "grass"
             },
             {
                 "battleType": 2,
-                "opponent": 17,
+                "opponent": [17],
                 "notes": "fire"
             },
             {
                 "battleType": 2,
-                "opponent": 18,
+                "opponent": [18],
                 "notes": "water"
             },
             {
                 "battleType": 2,
-                "opponent": 19
+                "opponent": [19]
             },
             {
                 "battleType": 2,
-                "opponent": 20
+                "opponent": [20]
             }
         ],
         "encounters": [
@@ -292,55 +292,55 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 4
+                "opponent": [4]
             },
             {
                 "battleType": 2,
-                "opponent": 5
+                "opponent": [5]
             },
             {
                 "battleType": 2,
-                "opponent": 6
+                "opponent": [6]
             },
             {
                 "battleType": 2,
-                "opponent": 24
+                "opponent": [24]
             },
             {
                 "battleType": 2,
-                "opponent": 25
+                "opponent": [25]
             },
             {
                 "battleType": 2,
-                "opponent": 26
+                "opponent": [26]
             },
             {
                 "battleType": 2,
-                "opponent": 27
+                "opponent": [27]
             },
             {
                 "battleType": 2,
-                "opponent": 28
+                "opponent": [28]
             },
             {
                 "battleType": 2,
-                "opponent": 43
+                "opponent": [43]
             },
             {
                 "battleType": 2,
-                "opponent": 29
+                "opponent": [29]
             },
             {
                 "battleType": 2,
-                "opponent": 30
+                "opponent": [30]
             },
             {
                 "battleType": 2,
-                "opponent": 31
+                "opponent": [31]
             },
             {
                 "battleType": 2,
-                "opponent": 32
+                "opponent": [32]
             }
         ],
         "encounters": [
@@ -541,30 +541,30 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 7,
+                "opponent": [7],
                 "notes": "grass"
             },
             {
                 "battleType": 2,
-                "opponent": 8,
+                "opponent": [8],
                 "notes": "fire"
             },
             {
                 "battleType": 2,
-                "opponent": 9,
+                "opponent": [9],
                 "notes": "water"
             },
             {
                 "battleType": 2,
-                "opponent": 10
+                "opponent": [10]
             },
             {
                 "battleType": 2,
-                "opponent": 11
+                "opponent": [11]
             },
             {
                 "battleType": 2,
-                "opponent": 12
+                "opponent": [12]
             }
         ],
         "encounters": [
@@ -658,7 +658,7 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 42
+                "opponent": [42]
             }
         ],
         "encounters": [
@@ -810,15 +810,15 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 39
+                        "opponent": [39]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 40
+                        "opponent": [40]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 41
+                        "opponent": [41]
                     }
                 ],
                 "collectibles": [
@@ -838,27 +838,27 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 33
+                "opponent": [33]
             },
             {
                 "battleType": 2,
-                "opponent": 34
+                "opponent": [34]
             },
             {
                 "battleType": 2,
-                "opponent": 35
+                "opponent": [35]
             },
             {
                 "battleType": 2,
-                "opponent": 36
+                "opponent": [36]
             },
             {
                 "battleType": 2,
-                "opponent": 37
+                "opponent": [37]
             },
             {
                 "battleType": 2,
-                "opponent": 38
+                "opponent": [38]
             }
         ],
         "encounters": [
@@ -1053,23 +1053,23 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 44
+                        "opponent": [44]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 45
+                        "opponent": [45]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 46
+                        "opponent": [46]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 47
+                        "opponent": [47]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 48
+                        "opponent": [48]
                     }
                 ],
                 "collectibles": [
@@ -1191,15 +1191,15 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 51
+                        "opponent": [51]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 52
+                        "opponent": [52]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 53
+                        "opponent": [53]
                     }
                 ],
                 "collectibles": [
@@ -1224,23 +1224,23 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 68
+                        "opponent": [6]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 69
+                        "opponent": [6]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 70
+                        "opponent": [70]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 71
+                        "opponent": [71]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 72
+                        "opponent": [72]
                     }
                 ]
             }
@@ -1251,15 +1251,15 @@
         "trainers": [
             {
                 "battleType": 2,
-                "opponent": 57
+                "opponent": [57]
             },
             {
                 "battleType": 2,
-                "opponent": 58
+                "opponent": [58]
             },
             {
                 "battleType": 2,
-                "opponent": 428
+                "opponent": [428]
             },
             {
                 "battleType": 2,
@@ -1438,15 +1438,15 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 64
+                        "opponent": [6]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 65
+                        "opponent": [6]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 66
+                        "opponent": [6]
                     }
                 ],
                 "encounters": [
@@ -1540,31 +1540,31 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 162
+                        "opponent": [162]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 163
+                        "opponent": [163]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 164
+                        "opponent": [164]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 165
+                        "opponent": [165]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 166
+                        "opponent": [166]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 167
+                        "opponent": [167]
                     },
                     {
                         "battleType": 2,
-                        "opponent": 168
+                        "opponent": [168]
                     }
                 ],
                 "encounters": [
@@ -1872,18 +1872,18 @@
     {
         "name": "Route 4",
         "trainers": [
-            { "battleType": 2, "opponent": 73 },
-            { "battleType": 2, "opponent": 74 },
-            { "battleType": 2, "opponent": 75 },
-            { "battleType": 2, "opponent": 76 },
-            { "battleType": 2, "opponent": 77 },
-            { "battleType": 2, "opponent": 78 },
-            { "battleType": 2, "opponent": 79 },
-            { "battleType": 2, "opponent": 80 },
-            { "battleType": 2, "opponent": 81 },
-            { "battleType": 2, "opponent": 82 },
-            { "battleType": 2, "opponent": 83 },
-            { "battleType": 2, "opponent": 84 }
+            { "battleType": 2, "opponent": [73] },
+            { "battleType": 2, "opponent": [74] },
+            { "battleType": 2, "opponent": [75] },
+            { "battleType": 2, "opponent": [76] },
+            { "battleType": 2, "opponent": [77] },
+            { "battleType": 2, "opponent": [78] },
+            { "battleType": 2, "opponent": [79] },
+            { "battleType": 2, "opponent": [80] },
+            { "battleType": 2, "opponent": [81] },
+            { "battleType": 2, "opponent": [82] },
+            { "battleType": 2, "opponent": [83] },
+            { "battleType": 2, "opponent": [84] }
         ],
         "encounters": [
             {
@@ -2076,15 +2076,15 @@
     {
         "name": "Desert Resort",
         "trainers": [
-            { "battleType": 2, "opponent": 85 },
-            { "battleType": 2, "opponent": 86 },
-            { "battleType": 2, "opponent": 87 },
-            { "battleType": 2, "opponent": 88 },
-            { "battleType": 2, "opponent": 89 },
-            { "battleType": 2, "opponent": 90 },
-            { "battleType": 2, "opponent": 91 },
-            { "battleType": 2, "opponent": 92 },
-            { "battleType": 2, "opponent": 93 }
+            { "battleType": 2, "opponent": [85] },
+            { "battleType": 2, "opponent": [86] },
+            { "battleType": 2, "opponent": [87] },
+            { "battleType": 2, "opponent": [88] },
+            { "battleType": 2, "opponent": [89] },
+            { "battleType": 2, "opponent": [90] },
+            { "battleType": 2, "opponent": [91] },
+            { "battleType": 2, "opponent": [92] },
+            { "battleType": 2, "opponent": [93] }
         ],
         "encounters": [
             {
@@ -2247,9 +2247,9 @@
             {
                 "name": "1F-B1F",
                 "trainers": [
-                    { "battleType": 2, "opponent": 94 },
-                    { "battleType": 2, "opponent": 95 },
-                    { "battleType": 2, "opponent": 96 }
+                    { "battleType": 2, "opponent": [94] },
+                    { "battleType": 2, "opponent": [95] },
+                    { "battleType": 2, "opponent": [96] }
                 ],
                 "encounters": [
                     {
@@ -2383,12 +2383,12 @@
             },
             {
                 "battleType": 2,
-                "opponent": 135,
+                "opponent": [135],
                 "notes": "After defeating Elesa"
             },
             {
                 "battleType": 2,
-                "opponent": 136,
+                "opponent": [136],
                 "notes": "After defeating Elesa"
             }
         ],
@@ -2457,42 +2457,42 @@
                 "trainers": [
                     {
                         "battleType": 2,
-                        "opponent": 121,
+                        "opponent": [121],
                         "notes": "Male player character only."
                     },
                     {
                         "battleType": 2,
-                        "opponent": 122,
+                        "opponent": [122],
                         "notes": "Male player character only."
                     },
                     {
                         "battleType": 2,
-                        "opponent": 123,
+                        "opponent": [123],
                         "notes": "Male player character only."
                     },
                     {
                         "battleType": 2,
-                        "opponent": 124,
+                        "opponent": [124],
                         "notes": "Male player character only."
                     },
                     {
                         "battleType": 2,
-                        "opponent": 125,
+                        "opponent": [125],
                         "notes": "Female player character only."
                     },
                     {
                         "battleType": 2,
-                        "opponent": 126,
+                        "opponent": [126],
                         "notes": "Female player character only."
                     },
                     {
                         "battleType": 2,
-                        "opponent": 127,
+                        "opponent": [127],
                         "notes": "Female player character only."
                     },
                     {
                         "battleType": 2,
-                        "opponent": 128,
+                        "opponent": [128],
                         "notes": "Female player character only."
                     }
                 ]
@@ -2500,8 +2500,8 @@
             {
                 "name": "Nimbasa Gym (Old)",
                 "trainers": [
-                    { "battleType": 2, "opponent": 129 },
-                    { "battleType": 2, "opponent": 130 }
+                    { "battleType": 2, "opponent": [129] },
+                    { "battleType": 2, "opponent": [130] }
                 ],
                 "collectibles": [
                     {
@@ -2516,10 +2516,10 @@
             {
                 "name": "Nimbasa Gym (New)",
                 "trainers": [
-                    { "battleType": 2, "opponent": 131 },
-                    { "battleType": 2, "opponent": 132 },
-                    { "battleType": 2, "opponent": 133 },
-                    { "battleType": 2, "opponent": 134 }
+                    { "battleType": 2, "opponent": [131] },
+                    { "battleType": 2, "opponent": [132] },
+                    { "battleType": 2, "opponent": [133] },
+                    { "battleType": 2, "opponent": [134] }
                 ],
                 "collectibles": [
                     {
@@ -2879,13 +2879,13 @@
     {
         "name": "Route 5",
         "trainers": [
-            { "battleType": 2, "opponent": 115 },
-            { "battleType": 2, "opponent": 116 },
-            { "battleType": 2, "opponent": 117 },
-            { "battleType": 2, "opponent": 118 },
-            { "battleType": 2, "opponent": 119 },
-            { "battleType": 2, "opponent": 120 },
-            { "battleType": 2, "opponent": 141 }
+            { "battleType": 2, "opponent": [115] },
+            { "battleType": 2, "opponent": [116] },
+            { "battleType": 2, "opponent": [117] },
+            { "battleType": 2, "opponent": [118] },
+            { "battleType": 2, "opponent": [119] },
+            { "battleType": 2, "opponent": [120] },
+            { "battleType": 2, "opponent": [141] }
         ],
         "encounters": [
             {
@@ -3103,11 +3103,11 @@
     {
         "name": "Route 15",
         "trainers": [
-            { "battleType": 2, "opponent": 137 },
-            { "battleType": 2, "opponent": 138 },
-            { "battleType": 2, "opponent": 139 },
-            { "battleType": 2, "opponent": 429 },
-            { "battleType": 2, "opponent": 140 }
+            { "battleType": 2, "opponent": [137] },
+            { "battleType": 2, "opponent": [138] },
+            { "battleType": 2, "opponent": [139] },
+            { "battleType": 2, "opponent": [429] },
+            { "battleType": 2, "opponent": [140] }
         ],
         "encounters": [
             {

@@ -59,7 +59,7 @@ class Type {
                     height: "30px",
                     width: "100px",
                     borderRadius: "5px",
-                    border: "3px solid black",
+                    border: "2px solid black",
                     ...bannerStyleObj,
                 }}
             >

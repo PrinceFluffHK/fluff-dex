@@ -30,23 +30,9 @@ class Shop {
                 price = shopItem.priceBp;
                 currency = "BP";
             }
-            
-            let color = "lightcyan";
-            if (index % 2) {
-                color = "white";
-            }
 
-            let containerClass = "center list-divider"
-            // if (index === 0) {
-            //     containerClass += " no-border round-top";
-            //     if (index === this.contents.length - 1) {
-            //         containerClass += "-bottom";
-            //     }
-            if (index === this.contents.length - 1) {
-                containerClass += " round-bottom";
-            }
             return (
-                <div className={containerClass} style={{backgroundColor: color}} key={index}>
+                <div className="center list-divider" key={index}>
                     <div className="width-80 justify-between align-center">
                         <Grid container>
                             <Grid item xs>

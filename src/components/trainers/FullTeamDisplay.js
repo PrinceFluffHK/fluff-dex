@@ -3,8 +3,14 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import Pokedex from "../../models/Pokedex";
+import Help from "../../models/Help";
+import { romhackList } from "../Homepage";
+import DexEntry from "../../models/DexEntry";
 
 const FullTeamDisplay = ({ thisTrainer, id }) => {
+    const selectedRomhack = Help.findInArray(id, romhackList)
+
     const teamDisplay = thisTrainer.team.map((mon, index) => {
         const color1 = mon.pokemon.type1.lightColor();
         const color2 = mon.pokemon.type2 ? mon.pokemon.type2.lightColor() : "";
@@ -88,13 +94,15 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
             return <b style={{ marginBottom: "2px" }}>{evText}</b>;
         };
 
+        const baseMon = DexEntry.findFromForm(mon.pokemon.id, selectedRomhack.nationalDex.dexArray)
+
         return (
             <Grid className="" item xs={6} sm={4} key={index}>
                 <div className="team-member-container" style={colorStyleObj}>
                     <FontAwesomeIcon
                         className="copy-to-clipboard"
                         icon={faCopy}
-                        size="xl"
+                        size="lg"
                         onClick={() => {
                             navigator.clipboard.writeText(mon.getPaste());
                         }}
@@ -102,7 +110,7 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
                     <div className="width-100 center">
                         <Link
                             className="team-member-sprite-container"
-                            to={`/${id}/pokemon/${mon.pokemon.id}/0`}
+                            to={`/${id}/pokemon/${baseMon.id}/0`}
                         >
                             <img
                                 src={mon.pokemon.spriteUrl}
@@ -132,7 +140,6 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
     return (
         <Grid container>
             <Grid item xs />
-            {/* <Grid container className="center width-100"> */}
             <Grid item xs={11} md={8} lg={7} xl={6}>
                 <Grid container columnSpacing={1} rowSpacing={1}>
                     {teamDisplay}

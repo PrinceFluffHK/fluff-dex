@@ -29,21 +29,8 @@ class Collectible {
         });
     }
 
-    locationDisplay(index, final) {
-        let className = "list-divider"
-        if (index === 0) {
-            className += " no-border round-top";
-            if (final) {
-                className += "-bottom";
-            }
-        } else if (final) {
-            className += " round-bottom";
-        }
-
-        let color = "white";
-        if (index % 2) {
-            color = "lightcyan";
-        }
+    locationDisplay(index) {
+        let className = index === 0 ? "" : "list-divider"
 
         let quantity = "";
         if (this.quantity > 1) {
@@ -56,7 +43,7 @@ class Collectible {
         }
 
         return (
-            <div className={className} style={{ backgroundColor: color }} key={index}>
+            <div className={className} key={index}>
                 <Grid container columnSpacing={3} className="collectible-padding">
                     <Grid item xs={3} className="align-center">
                         <b className="">

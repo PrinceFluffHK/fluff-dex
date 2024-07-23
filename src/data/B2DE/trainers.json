@@ -375,6 +375,7 @@
     {
         "id": 19,
         "name": "Alder",
+        "boss": true,
         "trainerClass": 235,
         "team": [
             {
@@ -427,6 +428,7 @@
     {
         "id": 20,
         "name": "Benga",
+        "boss": true,
         "trainerClass": 236,
         "team": [
             {
@@ -537,6 +539,7 @@
     {
         "id": 23,
         "name": "Cheren",
+        "boss": true,
         "trainerClass": 237,
         "team": [
             {
@@ -1026,6 +1029,7 @@
     {
         "id": 41,
         "name": "Roxie",
+        "boss": true,
         "trainerClass": 238,
         "team": [
             {
@@ -1827,6 +1831,7 @@
     {
         "id": 72,
         "name": "Burgh",
+        "boss": true,
         "trainerClass": 239,
         "team": [
             {
@@ -3478,6 +3483,7 @@
     {
         "id": 134,
         "name": "Elesa",
+        "boss": true,
         "trainerClass": 240,
         "team": [
             {
@@ -4166,6 +4172,7 @@
     {
         "id": 159,
         "name": "Clay",
+        "boss": true,
         "trainerClass": 241,
         "team": [
             {
@@ -5639,6 +5646,7 @@
     {
         "id": 215,
         "name": "Skyla",
+        "boss": true,
         "trainerClass": 242,
         "team": [
             {
@@ -7147,6 +7155,7 @@
     {
         "id": 265,
         "name": "Zinzolin",
+        "boss": true,
         "trainerClass": 227,
         "team": [
             {
@@ -7936,6 +7945,7 @@
     {
         "id": 293,
         "name": "Drayden",
+        "boss": true,
         "trainerClass": 243,
         "team": [
             {
@@ -8073,6 +8083,7 @@
     {
         "id": 297,
         "name": "Zinzolin",
+        "boss": true,
         "trainerClass": 227,
         "team": [
             {
@@ -8940,6 +8951,7 @@
     {
         "id": 327,
         "name": "Marlon",
+        "boss": true,
         "trainerClass": 244,
         "team": [
             {
@@ -9751,6 +9763,7 @@
     {
         "id": 358,
         "name": "Zinzolin",
+        "boss": true,
         "trainerClass": 227,
         "team": [
             {
@@ -9806,6 +9819,7 @@
     {
         "id": 359,
         "name": "Colress",
+        "boss": true,
         "trainerClass": 228,
         "team": [
             {
@@ -9976,6 +9990,7 @@
     {
         "id": 363,
         "name": "Ghetsis",
+        "boss": true,
         "trainerClass": 229,
         "team": [
             {

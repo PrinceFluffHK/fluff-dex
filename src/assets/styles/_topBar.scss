@@ -2,13 +2,21 @@
 $font-size: 25px;
 
 .top-bar {
-    height: $top-bar-height;
-    background-color: lightgray;
     position: fixed;
     left: 0;
     z-index: 10;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
+    background-color: lightgray;
     width: 100vw;
+}
+
+.top-bar-content {
+    height: $top-bar-height;
+}
+
+.menu-link {
+    margin: 1rem;
+    // text-align: center;
 }
 
 .top-bar-padding {
@@ -49,7 +57,7 @@ $font-size: 25px;
 }
 
 .toggle-container {
-    border: 3px solid black;
+    border: 2px solid black;
     border-right: 2px solid black;
     display: flex;
     align-items: center;

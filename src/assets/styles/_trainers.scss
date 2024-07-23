@@ -13,7 +13,7 @@
     width: 15rem;
     background-color: lightgreen;
     border-radius: 2rem;
-    border: 3px solid black;
+    border: 2px solid black;
     position: relative;
 }
 
@@ -49,12 +49,12 @@
     border: 2px solid black;
     border-radius: 1rem;
     z-index: 2;
-    // background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .team-member-sprite-container {
-    width: 64px;
-    height: 64px;
+    $sprite-dimension: 100px;
+    width: $sprite-dimension;
+    height: $sprite-dimension;
     background-color: white;
     border: solid 2px black;
     display: flex;
@@ -79,12 +79,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 6.2rem;
     margin-bottom: 5px;
     background-color: white;
     border-radius: 1rem;
     border: 2px solid black;
-    padding: 5px 0 10px 0;
+    padding: 5px 0 0 0;
     width: 92%
 }
 
