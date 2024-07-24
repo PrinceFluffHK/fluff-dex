@@ -1,3 +1,5 @@
+@import "./variables";
+
 .mon-container-expanded {
     height: 10rem;
 }
@@ -35,8 +37,11 @@
 }
 
 .display-portrait {
-    width: 25rem;
+    width: 28rem;
     height: auto;
+    @media only screen and (max-width: $sm) {
+        width: 20rem;
+    }
 }
 
 .portrait-container {

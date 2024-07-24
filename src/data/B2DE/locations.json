@@ -1222,14 +1222,8 @@
             {
                 "name": "Castelia Gym",
                 "trainers": [
-                    {
-                        "battleType": 2,
-                        "opponent": [6]
-                    },
-                    {
-                        "battleType": 2,
-                        "opponent": [6]
-                    },
+                    { "battleType": 2, "opponent": [68] },
+                    { "battleType": 2, "opponent": [69] },
                     {
                         "battleType": 2,
                         "opponent": [70]
@@ -3300,7 +3294,10 @@
     },
     {
         "name": "Driftveil City",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [142] },
+            { "battleType": 2, "opponent": [143] }
+        ],
         "encounters": [
             {
                 "type": "Gift",
@@ -3861,7 +3858,12 @@
         "subLocations": [
             {
                 "name": "1F West",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [160] },
+                    { "battleType": 2, "opponent": [161] },
+                    { "battleType": 2, "opponent": [182] },
+                    { "battleType": 2, "opponent": [183] }
+                ],
                 "encounters": [],
                 "collectibles": [],
                 "subLocations": []
@@ -3880,8 +3882,8 @@
             {
                 "name": "1F East",
                 "trainers": [
-                    { "battleType": 2, "opponent": [182] },
-                    { "battleType": 2, "opponent": [183] }
+                    { "battleType": 2, "opponent": [190] },
+                    { "battleType": 2, "opponent": [191] }
                 ],
                 "encounters": [],
                 "collectibles": [],
@@ -4220,20 +4222,46 @@
                 "type": "Script",
                 "description": "From the Pilot behind the counter in the Cargo Service building, for bringing him a Flying- or Psychic-type Pokémon",
                 "requirements": ""
-            },
-            {
-                "itemId": 389,
-                "quantity": 1,
-                "type": "Script",
-                "description": "Reward for defeating Skyla",
-                "requirements": ""
             }
         ],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Mistralton Gym",
+                "trainers": [
+                    { "battleType": 2, "opponent": [210] },
+                    { "battleType": 2, "opponent": [211] },
+                    { "battleType": 2, "opponent": [212] },
+                    { "battleType": 2, "opponent": [213] },
+                    { "battleType": 2, "opponent": [214] },
+                    { "battleType": 2, "opponent": [215] }
+                ],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 389,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "Reward for defeating Skyla",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Route 7",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [192] },
+            { "battleType": 2, "opponent": [193] },
+            { "battleType": 3, "opponent": [194] },
+            { "battleType": 2, "opponent": [195] },
+            { "battleType": 2, "opponent": [196] },
+            { "battleType": 2, "opponent": [197] },
+            { "battleType": 2, "opponent": [198] },
+            { "battleType": 2, "opponent": [199] },
+            { "battleType": 2, "opponent": [200] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -4407,7 +4435,10 @@
             },
             {
                 "name": "2F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [201] },
+                    { "battleType": 2, "opponent": [202] }
+                ],
                 "encounters": [
                     {
                         "type": "Floor",
@@ -4441,7 +4472,12 @@
             },
             {
                 "name": "3F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [203] },
+                    { "battleType": 2, "opponent": [204] },
+                    { "battleType": 2, "opponent": [205] },
+                    { "battleType": 2, "opponent": [206] }
+                ],
                 "encounters": [
                     {
                         "type": "Floor",
@@ -4480,7 +4516,11 @@
             },
             {
                 "name": "4F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [207] },
+                    { "battleType": 2, "opponent": [208] },
+                    { "battleType": 2, "opponent": [209] }
+                ],
                 "encounters": [
                     {
                         "type": "Floor",
@@ -4597,7 +4637,10 @@
     },
     {
         "name": "Reversal Wastes",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [216] },
+            { "battleType": 2, "opponent": [217] }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -4727,7 +4770,10 @@
     },
     {
         "name": "Strange House",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [218] },
+            { "battleType": 2, "opponent": [219] }
+        ],
         "encounters": [
             {
                 "type": "Floor",
@@ -4801,7 +4847,7 @@
     },
     {
         "name": "Reversal Mountain",
-        "trainers": [],
+        "trainers": [{ "battleType": 2, "opponent": [220] }],
         "encounters": [
             {
                 "type": "Cave",
@@ -4875,121 +4921,146 @@
                 ]
             }
         ],
-        "collectibles": [
+        "collectibles": [],
+        "subLocations": [
             {
-                "itemId": 498,
-                "quantity": 1,
-                "type": "Field",
-                "description": "Near exit to Lentimas Town's side",
-                "requirements": ""
+                "name": "1F",
+                "trainers": [
+                    { "battleType": 2, "opponent": [221] },
+                    { "battleType": 2, "opponent": [222, 223] },
+                    { "battleType": 2, "opponent": [224, 225] },
+                    { "battleType": 2, "opponent": [226] },
+                    { "battleType": 2, "opponent": [227] },
+                    { "battleType": 2, "opponent": [228] },
+                    { "battleType": 2, "opponent": [229] },
+                    { "battleType": 2, "opponent": [230] }
+                ],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 498,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Near exit to Lentimas Town's side",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 396,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Dead-end tunnel east of Doctor Derek",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 45,
+                        "quantity": 1,
+                        "type": "Hidden",
+                        "description": "In the stalagmite south of the Scientist",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 204,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Dead-end tunnel east of Backpacker Kiyo and Hiker Markus",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 548,
+                        "quantity": 1,
+                        "type": "Hidden",
+                        "description": "In a stalagmite east of Battle Girl Chan",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 52,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "South of Hiker Jared",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 386,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Dead-end tunnel north of Battle Girl Chan",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 49,
+                        "quantity": 1,
+                        "type": "Hidden",
+                        "description": "Northern dead end southB2/westW2 of the Ace Trainers",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 74,
+                        "quantity": 1,
+                        "type": "Hidden",
+                        "description": "Southern dead end west of the Ace Trainers, in a rock",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 47,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "East of Black Belt Corey",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 185,
+                        "quantity": 1,
+                        "type": "Reward",
+                        "description": "From Pokémon Ranger Eliza after defeating her",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 73,
+                        "quantity": 1,
+                        "type": "Hidden",
+                        "description": "Dead-end tunnel east of Backpacker Kiyo and Hiker Markus",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 48,
+                        "quantity": 1,
+                        "type": "Hidden",
+                        "description": "In the stalagmite north of Backpacker Kiyo and Hiker Markus",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
             },
             {
-                "itemId": 396,
-                "quantity": 1,
-                "type": "Field",
-                "description": "Dead-end tunnel east of Doctor Derek",
-                "requirements": ""
-            },
-            {
-                "itemId": 45,
-                "quantity": 1,
-                "type": "Hidden",
-                "description": "In the stalagmite south of the Scientist",
-                "requirements": ""
-            },
-            {
-                "itemId": 204,
-                "quantity": 1,
-                "type": "Field",
-                "description": "Dead-end tunnel east of Backpacker Kiyo and Hiker Markus",
-                "requirements": ""
-            },
-            {
-                "itemId": 548,
-                "quantity": 1,
-                "type": "Hidden",
-                "description": "In a stalagmite east of Battle Girl Chan",
-                "requirements": ""
-            },
-            {
-                "itemId": 52,
-                "quantity": 1,
-                "type": "Field",
-                "description": "South of Hiker Jared",
-                "requirements": ""
-            },
-            {
-                "itemId": 386,
-                "quantity": 1,
-                "type": "Field",
-                "description": "Dead-end tunnel north of Battle Girl Chan",
-                "requirements": ""
-            },
-            {
-                "itemId": 49,
-                "quantity": 1,
-                "type": "Hidden",
-                "description": "Northern dead end southB2/westW2 of the Ace Trainers",
-                "requirements": ""
-            },
-            {
-                "itemId": 74,
-                "quantity": 1,
-                "type": "Hidden",
-                "description": "Southern dead end west of the Ace Trainers, in a rock",
-                "requirements": ""
-            },
-            {
-                "itemId": 47,
-                "quantity": 1,
-                "type": "Field",
-                "description": "East of Black Belt Corey",
-                "requirements": ""
-            },
-            {
-                "itemId": 185,
-                "quantity": 1,
-                "type": "Reward",
-                "description": "From Pokémon Ranger Eliza after defeating her",
-                "requirements": ""
-            },
-            {
-                "itemId": 73,
-                "quantity": 1,
-                "type": "Hidden",
-                "description": "Dead-end tunnel east of Backpacker Kiyo and Hiker Markus",
-                "requirements": ""
-            },
-            {
-                "itemId": 48,
-                "quantity": 1,
-                "type": "Hidden",
-                "description": "In the stalagmite north of Backpacker Kiyo and Hiker Markus",
-                "requirements": ""
-            },
-            {
-                "itemId": 273,
-                "quantity": 1,
-                "type": "Field",
-                "description": "B1F, near the entrance to 1F",
-                "requirements": ""
-            },
-            {
-                "itemId": 184,
-                "quantity": 1,
-                "type": "Reward",
-                "description": "B1F, from Pokémon Ranger Lewis after defeating him",
-                "requirements": ""
-            },
-            {
-                "itemId": 549,
-                "quantity": 1,
-                "type": "Hidden",
-                "description": "B1F, in the smaller stalagmite",
-                "requirements": ""
+                "name": "B1F",
+                "trainers": [{ "battleType": 2, "opponent": [231] }],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 273,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "B1F, near the entrance to 1F",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 184,
+                        "quantity": 1,
+                        "type": "Reward",
+                        "description": "B1F, from Pokémon Ranger Lewis after defeating him",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 549,
+                        "quantity": 1,
+                        "type": "Hidden",
+                        "description": "B1F, in the smaller stalagmite",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
             }
-        ],
-        "subLocations": []
+        ]
     },
     {
         "name": "Undella Town",

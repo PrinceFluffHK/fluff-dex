@@ -9,8 +9,6 @@ import DexEntry from "../../models/DexEntry";
 
 const EvoDisplay = ({ selectedMon, selectedRomhack }) => {
     const makeLinks = (mon, speciesData, id) => {
-
-
         const nextLinks = mon.evoTo.map((link, index) => {
             const nextMon = Help.findInArray(link.nextMonId, speciesData);
             const nextLinks = makeLinks(nextMon, speciesData, id);
@@ -29,12 +27,21 @@ const EvoDisplay = ({ selectedMon, selectedRomhack }) => {
             );
         });
 
-        const baseMon = DexEntry.findFromForm(mon.id, selectedRomhack.nationalDex.dexArray)
+        const baseMon = DexEntry.findFromForm(
+            mon.id,
+            selectedRomhack.nationalDex.dexArray
+        );
 
         return (
             <div className="center" key={mon.id}>
                 <Link to={`/${selectedRomhack.id}/pokemon/${baseMon.id}/0`}>
-                    <img src={mon.spriteUrl} alt={`Sprite of ${mon.name}`} />
+                    <div className="sprite-view">
+                        <img
+                            className="location-mon-sprite"
+                            src={mon.spriteUrl}
+                            alt={`Sprite of ${mon.name}`}
+                        />
+                    </div>
                 </Link>
                 <div
                     className="justify-around"
