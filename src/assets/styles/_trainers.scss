@@ -100,9 +100,15 @@
 
 .sprite-view {
     position: relative;
-    border-radius: 50%;
-    background-color: lightgray;
-    margin-bottom: 5px;
+    border-radius: 30%;
+    background-color: #eeeeee;
+    margin: 5px 0 5px 0;
+    $sprite-dimension: 5rem;
+    height: $sprite-dimension;
+    width: $sprite-dimension;
+    fill-opacity: 50%;
+    // opacity: 50%;
+    // border: 1px solid black;
     // opacity: 50%;
 }
 
@@ -131,11 +137,9 @@
     position: absolute;
     bottom: 5px;
     right: 0;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     height: $level-box-size;
-    // width: $level-box-size;
-    // width: fit-content;
     background-color: white;
     padding: 0 2px 0 2px;
     z-index: 2;

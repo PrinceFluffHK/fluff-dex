@@ -51,8 +51,8 @@ const PokemonDisplay = ({ dexType }) => {
                             selectedMon={selectedMon}
                             baseDexEntry={baseDexEntry}
                         />
-                        <AbilityDisplay selectedMon={selectedMon} />
                         <StatDisplay selectedMon={selectedMon} />
+                        <AbilityDisplay selectedMon={selectedMon} />
                         <EvoDisplay
                             selectedMon={selectedMon}
                             selectedRomhack={selectedRomhack}

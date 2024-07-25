@@ -25,7 +25,7 @@ const LocationList = (props) => {
         <div>
             <TopBar />
             <div className="content-container">
-                <div className="body-container">{locationList}</div>
+                <div className="location-body-container">{locationList}</div>
             </div>
         </div>
     );

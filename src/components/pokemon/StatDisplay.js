@@ -11,7 +11,7 @@ const StatDisplay = ({ selectedMon }) => {
             xs={12}
             md={6}
             style={{ width: "100%", marginBottom: "1rem" }}
-        >
+        className="">
             {barGraph}
         </Grid>
     );

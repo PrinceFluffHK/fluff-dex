@@ -11,9 +11,9 @@ const Homepage = () => {
         return romhack.homeDisplay(index);
     });
     return (
-        <div className="width-100 center homepage-background">
+        <div className="width-100 justify-center homepage-background">
             <div className="width-80">
-                <Grid container spacing={0}>
+                <Grid container rowSpacing={3}>
                     {listDisplay}
                 </Grid>
             </div>

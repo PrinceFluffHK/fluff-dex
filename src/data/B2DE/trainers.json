@@ -2031,6 +2031,7 @@
             {
                 "pokemonId": 132,
                 "level": 22,
+                "abilityId": 150,
                 "natureId": 9,
                 "itemId": 287,
                 "moves": [144]
@@ -4834,7 +4835,7 @@
     {
         "id": 184,
         "name": "Briana",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 573,
@@ -4862,7 +4863,7 @@
     {
         "id": 185,
         "name": "Kit",
-        "trainerClass": 21,
+        "trainerClass": 129,
         "team": [
             {
                 "pokemonId": 578,
@@ -4883,7 +4884,7 @@
     {
         "id": 186,
         "name": "Lumi",
-        "trainerClass": 29,
+        "trainerClass": 30,
         "team": [
             {
                 "pokemonId": 595,
@@ -4977,7 +4978,8 @@
                 "moves": [202, 404, 406, 409]
             }
         ],
-        "designer": "Wren"
+        "designer": "Wren",
+        "boss": true
     },
     {
         "id": 189,
@@ -5055,7 +5057,7 @@
     {
         "id": 192,
         "name": "Marcus",
-        "trainerClass": 41,
+        "trainerClass": 77,
         "team": [
             {
                 "pokemonId": 581,
@@ -5133,7 +5135,7 @@
     {
         "id": 195,
         "name": "Hollie",
-        "trainerClass": 36,
+        "trainerClass": 139,
         "team": [
             {
                 "pokemonId": 36,
@@ -5161,7 +5163,7 @@
     {
         "id": 196,
         "name": "Greg",
-        "trainerClass": 46,
+        "trainerClass": 141,
         "team": [
             {
                 "pokemonId": 192,
@@ -5182,7 +5184,7 @@
     {
         "id": 197,
         "name": "Chrissy",
-        "trainerClass": 47,
+        "trainerClass": 142,
         "team": [
             {
                 "pokemonId": 419,
@@ -5203,7 +5205,7 @@
     {
         "id": 198,
         "name": "Sola & Anna",
-        "trainerClass": 61,
+        "trainerClass": 49,
         "team": [
             {
                 "pokemonId": 337,
@@ -5287,7 +5289,7 @@
     {
         "id": 201,
         "name": "Joyce",
-        "trainerClass": 49,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 518,
@@ -5308,7 +5310,7 @@
     {
         "id": 202,
         "name": "Jude",
-        "trainerClass": 39,
+        "trainerClass": 24,
         "team": [
             {
                 "pokemonId": 36,
@@ -5329,7 +5331,7 @@
     {
         "id": 203,
         "name": "Georgia",
-        "trainerClass": 40,
+        "trainerClass": 44,
         "team": [
             {
                 "pokemonId": 613,
@@ -5350,7 +5352,7 @@
     {
         "id": 204,
         "name": "Micki",
-        "trainerClass": 48,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 196,
@@ -5371,7 +5373,7 @@
     {
         "id": 205,
         "name": "Bryce",
-        "trainerClass": 48,
+        "trainerClass": 24,
         "team": [
             {
                 "pokemonId": 605,
@@ -5399,7 +5401,7 @@
     {
         "id": 206,
         "name": "Dixie",
-        "trainerClass": 35,
+        "trainerClass": 131,
         "team": [
             {
                 "pokemonId": 542,
@@ -5420,7 +5422,7 @@
     {
         "id": 207,
         "name": "Grace",
-        "trainerClass": 57,
+        "trainerClass": 107,
         "team": [
             {
                 "pokemonId": 315,
@@ -5448,7 +5450,7 @@
     {
         "id": 208,
         "name": "Sarah",
-        "trainerClass": 49,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 563,
@@ -5483,7 +5485,7 @@
     {
         "id": 209,
         "name": "Daniel",
-        "trainerClass": 23,
+        "trainerClass": 18,
         "team": [
             {
                 "pokemonId": 20,
@@ -5504,7 +5506,7 @@
     {
         "id": 210,
         "name": "Flynn",
-        "trainerClass": 38,
+        "trainerClass": 140,
         "team": [
             {
                 "pokemonId": 627,
@@ -5534,7 +5536,7 @@
     {
         "id": 211,
         "name": "Winslow",
-        "trainerClass": 38,
+        "trainerClass": 140,
         "team": [
             {
                 "pokemonId": 561,
@@ -5555,7 +5557,7 @@
     {
         "id": 212,
         "name": "Elron",
-        "trainerClass": 38,
+        "trainerClass": 140,
         "team": [
             {
                 "pokemonId": 581,
@@ -5583,7 +5585,7 @@
     {
         "id": 213,
         "name": "Ewing",
-        "trainerClass": 38,
+        "trainerClass": 140,
         "team": [
             {
                 "pokemonId": 123,
@@ -5611,7 +5613,7 @@
     {
         "id": 214,
         "name": "Chase",
-        "trainerClass": 38,
+        "trainerClass": 140,
         "team": [
             {
                 "pokemonId": 329,
@@ -5749,7 +5751,7 @@
     {
         "id": 218,
         "name": "Boone",
-        "trainerClass": 8,
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 323,
@@ -5777,7 +5779,7 @@
     {
         "id": 219,
         "name": "Lynette",
-        "trainerClass": 49,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 337,
@@ -5813,7 +5815,7 @@
     {
         "id": 220,
         "name": "Bianca",
-        "trainerClass": 89,
+        "trainerClass": 277,
         "team": [
             {
                 "pokemonId": 518,
@@ -5842,7 +5844,7 @@
     {
         "id": 221,
         "name": "Corey",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 533,
@@ -5941,7 +5943,7 @@
     {
         "id": 225,
         "name": "Kiyo",
-        "trainerClass": 8,
+        "trainerClass": 246,
         "team": [
             {
                 "pokemonId": 227,
@@ -5969,7 +5971,7 @@
     {
         "id": 226,
         "name": "Derek",
-        "trainerClass": 21,
+        "trainerClass": 129,
         "team": [
             {
                 "pokemonId": 531,
@@ -6059,7 +6061,7 @@
     {
         "id": 229,
         "name": "Chan",
-        "trainerClass": 11,
+        "trainerClass": 55,
         "team": [
             {
                 "pokemonId": 538,
@@ -6088,7 +6090,7 @@
     {
         "id": 230,
         "name": "Eliza",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 354,
@@ -6125,7 +6127,7 @@
     {
         "id": 231,
         "name": "Lewis",
-        "trainerClass": 44,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 505,
@@ -6291,7 +6293,7 @@
     {
         "id": 235,
         "name": "Cynthia",
-        "trainerClass": 99,
+        "trainerClass": 278,
         "team": [
             {
                 "pokemonId": 442,
@@ -6346,7 +6348,7 @@
     {
         "id": 236,
         "name": "Jeffery",
-        "trainerClass": 59,
+        "trainerClass": 31,
         "team": [
             {
                 "pokemonId": 73,
@@ -6375,7 +6377,7 @@
     {
         "id": 237,
         "name": "Arissa",
-        "trainerClass": 60,
+        "trainerClass": 32,
         "team": [
             {
                 "pokemonId": 186,
@@ -6438,7 +6440,7 @@
     {
         "id": 239,
         "name": "Bart",
-        "trainerClass": 59,
+        "trainerClass": 31,
         "team": [
             {
                 "pokemonId": 550,
@@ -6459,7 +6461,7 @@
     {
         "id": 240,
         "name": "Mitzi",
-        "trainerClass": 60,
+        "trainerClass": 32,
         "team": [
             {
                 "pokemonId": 594,
@@ -6480,7 +6482,7 @@
     {
         "id": 241,
         "name": "Tim",
-        "trainerClass": 59,
+        "trainerClass": 31,
         "team": [
             {
                 "pokemonId": 364,
@@ -6508,7 +6510,7 @@
     {
         "id": 242,
         "name": "Marian",
-        "trainerClass": 57,
+        "trainerClass": 107,
         "team": [
             {
                 "pokemonId": 428,
@@ -6530,7 +6532,7 @@
     {
         "id": 243,
         "name": "Sheldon",
-        "trainerClass": 23,
+        "trainerClass": 18,
         "team": [
             {
                 "pokemonId": 208,
@@ -6552,7 +6554,7 @@
     {
         "id": 244,
         "name": "Glinda",
-        "trainerClass": 11,
+        "trainerClass": 55,
         "team": [
             {
                 "pokemonId": 619,
@@ -6587,7 +6589,7 @@
     {
         "id": 245,
         "name": "Junko",
-        "trainerClass": 58,
+        "trainerClass": 4,
         "team": [
             {
                 "pokemonId": 550,
@@ -6617,7 +6619,7 @@
     {
         "id": 246,
         "name": "Sid",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 593,
@@ -6674,8 +6676,8 @@
     },
     {
         "id": 248,
-        "name": "Reese",
-        "trainerClass": 8,
+        "name": "Reece",
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 452,
@@ -6696,7 +6698,7 @@
     {
         "id": 249,
         "name": "Jay",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 214,
@@ -6731,7 +6733,7 @@
     {
         "id": 250,
         "name": "Wesley",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 534,
@@ -6752,7 +6754,7 @@
     {
         "id": 251,
         "name": "Alize",
-        "trainerClass": 11,
+        "trainerClass": 55,
         "team": [
             {
                 "pokemonId": 560,
@@ -6802,7 +6804,7 @@
     {
         "id": 253,
         "name": "Leroy",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 134,
@@ -6833,7 +6835,7 @@
     {
         "id": 254,
         "name": "Laura",
-        "trainerClass": 37,
+        "trainerClass": 76,
         "team": [
             {
                 "pokemonId": 55,
@@ -6854,7 +6856,7 @@
     {
         "id": 255,
         "name": "Vince",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 184,
@@ -6889,7 +6891,7 @@
     {
         "id": 256,
         "name": "Damon",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 503,
@@ -6910,7 +6912,7 @@
     {
         "id": 257,
         "name": "Jones",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 618,
@@ -6973,7 +6975,7 @@
     {
         "id": 259,
         "name": "Daryl",
-        "trainerClass": 44,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 632,
@@ -7002,7 +7004,7 @@
     {
         "id": 260,
         "name": "Dianne",
-        "trainerClass": 45,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 126,
@@ -7150,7 +7152,8 @@
                 "itemId": 157,
                 "moves": [252, 242, 409, 43]
             }
-        ]
+        ],
+        "boss": true
     },
     {
         "id": 265,
@@ -7185,7 +7188,7 @@
     {
         "id": 266,
         "name": "Azra",
-        "trainerClass": 11,
+        "trainerClass": 55,
         "team": [
             {
                 "pokemonId": 620,
@@ -7206,7 +7209,7 @@
     {
         "id": 267,
         "name": "Jeriel",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 214,
@@ -7237,7 +7240,7 @@
     {
         "id": 268,
         "name": "Cleo & Rio",
-        "trainerClass": 7,
+        "trainerClass": 122,
         "team": [
             {
                 "pokemonId": 470,
@@ -7461,7 +7464,8 @@
                 "itemId": 538,
                 "moves": [83, 499, 241]
             }
-        ]
+        ],
+        "battleType": 3
     },
     {
         "id": 277,
@@ -7490,12 +7494,13 @@
                 "itemId": 538,
                 "moves": [67, 113, 115]
             }
-        ]
+        ],
+        "battleType": 3
     },
     {
         "id": 278,
         "name": "Magnolia",
-        "trainerClass": 42,
+        "trainerClass": 77,
         "team": [
             {
                 "pokemonId": 587,
@@ -7544,7 +7549,7 @@
     {
         "id": 280,
         "name": "Thalia",
-        "trainerClass": 42,
+        "trainerClass": 79,
         "team": [
             {
                 "pokemonId": 248,
@@ -7595,7 +7600,8 @@
                 "moves": [418, 450, 442, 332]
             }
         ],
-        "designer": "Thalia"
+        "designer": "Thalia",
+        "boss": true
     },
     {
         "id": 281,
@@ -7736,7 +7742,7 @@
     {
         "id": 286,
         "name": "Olwen",
-        "trainerClass": 65,
+        "trainerClass": 117,
         "team": [
             {
                 "pokemonId": 573,
@@ -7758,7 +7764,7 @@
     {
         "id": 287,
         "name": "Lou",
-        "trainerClass": 64,
+        "trainerClass": 116,
         "team": [
             {
                 "pokemonId": 586,
@@ -7780,7 +7786,7 @@
     {
         "id": 288,
         "name": "Lucius",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 611,
@@ -7811,7 +7817,7 @@
     {
         "id": 289,
         "name": "Rhona",
-        "trainerClass": 63,
+        "trainerClass": 69,
         "team": [
             {
                 "pokemonId": 334,
@@ -7848,7 +7854,7 @@
     {
         "id": 290,
         "name": "Jerry",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 206,
@@ -7885,7 +7891,7 @@
     {
         "id": 291,
         "name": "Denae",
-        "trainerClass": 63,
+        "trainerClass": 69,
         "team": [
             {
                 "pokemonId": 181,
@@ -7910,12 +7916,13 @@
                 "itemId": 188,
                 "moves": [536, 406, 137, 269]
             }
-        ]
+        ],
+        "battleType": 3
     },
     {
         "id": 292,
         "name": "Ron",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 306,
@@ -7940,7 +7947,8 @@
                 "itemId": 188,
                 "moves": [76, 337, 19, 235]
             }
-        ]
+        ],
+        "battleType": 3
     },
     {
         "id": 293,
@@ -8027,7 +8035,7 @@
     {
         "id": 295,
         "name": "Grunt",
-        "trainerClass": 147,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 579,
@@ -8157,7 +8165,7 @@
     {
         "id": 299,
         "name": "Ryder",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 73,
@@ -8207,7 +8215,7 @@
     {
         "id": 301,
         "name": "Tyra",
-        "trainerClass": 37,
+        "trainerClass": 76,
         "team": [
             {
                 "pokemonId": 212,
@@ -8236,7 +8244,7 @@
     {
         "id": 302,
         "name": "Ingrid",
-        "trainerClass": 37,
+        "trainerClass": 76,
         "team": [
             {
                 "pokemonId": 134,
@@ -8300,7 +8308,7 @@
     {
         "id": 304,
         "name": "Elaine",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 617,
@@ -8356,7 +8364,7 @@
     {
         "id": 306,
         "name": "Eustace",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 342,
@@ -8442,12 +8450,13 @@
                 "moves": [284, 89, 157, 153]
             }
         ],
-        "designer": "Anna"
+        "designer": "Anna",
+        "boss": true
     },
     {
         "id": 308,
         "name": "Desiree",
-        "trainerClass": 60,
+        "trainerClass": 32,
         "team": [
             {
                 "pokemonId": 321,
@@ -8468,7 +8477,7 @@
     {
         "id": 309,
         "name": "Kaoru",
-        "trainerClass": 60,
+        "trainerClass": 32,
         "team": [
             {
                 "pokemonId": 184,
@@ -8496,7 +8505,7 @@
     {
         "id": 310,
         "name": "Harold",
-        "trainerClass": 59,
+        "trainerClass": 31,
         "team": [
             {
                 "pokemonId": 593,
@@ -8518,7 +8527,7 @@
     {
         "id": 311,
         "name": "Kenneth",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 558,
@@ -8539,7 +8548,7 @@
     {
         "id": 312,
         "name": "Kyle",
-        "trainerClass": 59,
+        "trainerClass": 31,
         "team": [
             {
                 "pokemonId": 73,
@@ -8568,7 +8577,7 @@
     {
         "id": 313,
         "name": "Braid",
-        "trainerClass": 21,
+        "trainerClass": 129,
         "team": [
             {
                 "pokemonId": 594,
@@ -8589,7 +8598,7 @@
     {
         "id": 314,
         "name": "Kenzo",
-        "trainerClass": 22,
+        "trainerClass": 16,
         "team": [
             {
                 "pokemonId": 222,
@@ -8694,7 +8703,7 @@
     {
         "id": 318,
         "name": "Addison",
-        "trainerClass": 42,
+        "trainerClass": 77,
         "team": [
             {
                 "pokemonId": 611,
@@ -8736,7 +8745,7 @@
     {
         "id": 319,
         "name": "Lowell",
-        "trainerClass": 8,
+        "trainerClass": 245,
         "team": [
             {
                 "pokemonId": 473,
@@ -8787,7 +8796,7 @@
     },
     {
         "id": 321,
-        "name": "Doylw",
+        "name": "Doyle",
         "trainerClass": 3,
         "team": [
             {
@@ -9159,7 +9168,7 @@
     {
         "id": 333,
         "name": "Grunt",
-        "trainerClass": 70,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 336,
@@ -9209,7 +9218,7 @@
     {
         "id": 335,
         "name": "Grunt",
-        "trainerClass": 147,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 623,
@@ -9279,7 +9288,7 @@
     {
         "id": 338,
         "name": "Grunt",
-        "trainerClass": 147,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 538,
@@ -9300,7 +9309,7 @@
     {
         "id": 339,
         "name": "Grunt",
-        "trainerClass": 147,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 560,
@@ -9377,7 +9386,7 @@
     {
         "id": 342,
         "name": "Grunt",
-        "trainerClass": 147,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 611,
@@ -9499,7 +9508,7 @@
     {
         "id": 346,
         "name": "Grunt",
-        "trainerClass": 147,
+        "trainerClass": 148,
         "team": [
             {
                 "pokemonId": 286,
@@ -9825,6 +9834,7 @@
             {
                 "pokemonId": 132,
                 "level": 60,
+                "abilityId": 150,
                 "natureId": 24,
                 "itemId": 287,
                 "moves": [144]
@@ -10075,7 +10085,7 @@
     {
         "id": 365,
         "name": "Carter",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 565,
@@ -10106,7 +10116,7 @@
     {
         "id": 366,
         "name": "Julia",
-        "trainerClass": 63,
+        "trainerClass": 69,
         "team": [
             {
                 "pokemonId": 471,
@@ -10193,7 +10203,7 @@
     {
         "id": 369,
         "name": "Patton",
-        "trainerClass": 118,
+        "trainerClass": 120,
         "team": [
             {
                 "pokemonId": 534,
@@ -10222,7 +10232,7 @@
     {
         "id": 370,
         "name": "Carol",
-        "trainerClass": 35,
+        "trainerClass": 131,
         "team": [
             {
                 "pokemonId": 573,
@@ -10244,7 +10254,7 @@
     {
         "id": 371,
         "name": "Chloris",
-        "trainerClass": 63,
+        "trainerClass": 69,
         "team": [
             {
                 "pokemonId": 350,
@@ -10268,7 +10278,8 @@
                 "natureId": 21,
                 "moves": [202, 476, 147]
             }
-        ]
+        ],
+        "battleType": 3
     },
     {
         "id": 372,
@@ -10323,7 +10334,7 @@
     {
         "id": 374,
         "name": "Victor",
-        "trainerClass": 118,
+        "trainerClass": 120,
         "team": [
             {
                 "pokemonId": 55,
@@ -10352,7 +10363,7 @@
     {
         "id": 375,
         "name": "Ryan",
-        "trainerClass": 118,
+        "trainerClass": 120,
         "team": [
             {
                 "pokemonId": 337,
@@ -10381,7 +10392,7 @@
     {
         "id": 376,
         "name": "Zach",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 461,
@@ -10418,7 +10429,7 @@
     {
         "id": 377,
         "name": "Brenda",
-        "trainerClass": 11,
+        "trainerClass": 55,
         "team": [
             {
                 "pokemonId": 538,
@@ -10544,7 +10555,7 @@
     {
         "id": 381,
         "name": "Luke",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 539,
@@ -10595,7 +10606,7 @@
     {
         "id": 383,
         "name": "Lena",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 419,
@@ -10683,7 +10694,7 @@
     {
         "id": 386,
         "name": "Benjamin",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 553,
@@ -10748,7 +10759,7 @@
     {
         "id": 388,
         "name": "Tiffany",
-        "trainerClass": 11,
+        "trainerClass": 55,
         "team": [
             {
                 "pokemonId": 407,
@@ -10777,7 +10788,7 @@
     {
         "id": 389,
         "name": "Matt",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 324,
@@ -10828,7 +10839,8 @@
                 "moves": [183, 370, 394, 512]
             }
         ],
-        "designer": "StrawMatt"
+        "designer": "StrawMatt",
+        "boss": true
     },
     {
         "id": 390,
@@ -11048,7 +11060,7 @@
     {
         "id": 396,
         "name": "Alia",
-        "trainerClass": 49,
+        "trainerClass": 25,
         "team": [
             {
                 "pokemonId": 528,
@@ -11143,7 +11155,7 @@
     {
         "id": 398,
         "name": "Claude",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 628,
@@ -11173,7 +11185,7 @@
     {
         "id": 399,
         "name": "Cecile",
-        "trainerClass": 63,
+        "trainerClass": 69,
         "team": [
             {
                 "pokemonId": 630,
@@ -11346,7 +11358,7 @@
     {
         "id": 403,
         "name": "Kate",
-        "trainerClass": 63,
+        "trainerClass": 69,
         "team": [
             {
                 "pokemonId": 620,
@@ -11394,7 +11406,7 @@
     {
         "id": 404,
         "name": "Logan",
-        "trainerClass": 21,
+        "trainerClass": 129,
         "team": [
             {
                 "pokemonId": 35,
@@ -11441,7 +11453,7 @@
     {
         "id": 405,
         "name": "Anya",
-        "trainerClass": 30,
+        "trainerClass": 61,
         "team": [
             {
                 "pokemonId": 549,
@@ -11632,7 +11644,7 @@
     {
         "id": 409,
         "name": "Abraham",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 208,
@@ -11727,7 +11739,7 @@
     {
         "id": 411,
         "name": "Elle",
-        "trainerClass": 44,
+        "trainerClass": 80,
         "team": [
             {
                 "pokemonId": 512,
@@ -11777,7 +11789,7 @@
     {
         "id": 412,
         "name": "Haz",
-        "trainerClass": 13,
+        "trainerClass": 10,
         "team": [
             {
                 "pokemonId": 539,
@@ -11857,7 +11869,7 @@
     {
         "id": 414,
         "name": "Arvid",
-        "trainerClass": 19,
+        "trainerClass": 127,
         "team": [
             {
                 "pokemonId": 248,
@@ -11953,7 +11965,7 @@
     {
         "id": 416,
         "name": "Dorian",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 196,
@@ -12000,7 +12012,7 @@
     {
         "id": 417,
         "name": "Kat",
-        "trainerClass": 63,
+        "trainerClass": 69,
         "team": [
             {
                 "pokemonId": 395,
@@ -12048,7 +12060,7 @@
     {
         "id": 418,
         "name": "Dray",
-        "trainerClass": 62,
+        "trainerClass": 68,
         "team": [
             {
                 "pokemonId": 549,
@@ -12264,7 +12276,7 @@
     {
         "id": 422,
         "name": "N",
-        "trainerClass": 87,
+        "trainerClass": 279,
         "team": [
             {
                 "pokemonId": 601,
@@ -12319,7 +12331,7 @@
     {
         "id": 423,
         "name": "Caitlin",
-        "trainerClass": 93,
+        "trainerClass": 280,
         "team": [
             {
                 "pokemonId": 518,
@@ -12372,7 +12384,7 @@
     {
         "id": 424,
         "name": "Grimsley",
-        "trainerClass": 92,
+        "trainerClass": 281,
         "team": [
             {
                 "pokemonId": 553,
@@ -12425,7 +12437,7 @@
     {
         "id": 425,
         "name": "Marshall",
-        "trainerClass": 91,
+        "trainerClass": 282,
         "team": [
             {
                 "pokemonId": 286,
@@ -12478,7 +12490,7 @@
     {
         "id": 426,
         "name": "Shauntal",
-        "trainerClass": 90,
+        "trainerClass": 283,
         "team": [
             {
                 "pokemonId": 563,
@@ -12530,7 +12542,7 @@
     {
         "id": 427,
         "name": "Iris",
-        "trainerClass": 94,
+        "trainerClass": 231,
         "team": [
             {
                 "pokemonId": 635,
@@ -12635,6 +12647,448 @@
                 "abilityId": 29,
                 "natureId": 8,
                 "moves": [544, 451, 268]
+            }
+        ]
+    },
+    {
+        "id": 430,
+        "name": "Shelby",
+        "trainerClass": 19,
+        "team": [
+            {
+                "pokemonId": 525,
+                "level": 33,
+                "abilityId": 5,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [157, 189, 334, 0]
+            },
+            {
+                "pokemonId": 305,
+                "level": 33,
+                "abilityId": 5,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [442, 317, 174, 0]
+            }
+        ]
+    },
+    {
+        "id": 431,
+        "name": "Jebediah",
+        "trainerClass": 19,
+        "team": [
+            {
+                "pokemonId": 95,
+                "level": 32,
+                "abilityId": 133,
+                "natureId": 4,
+                "itemId": 0,
+                "moves": [317, 225, 103, 446]
+            },
+            {
+                "pokemonId": 206,
+                "level": 32,
+                "abilityId": 32,
+                "natureId": 10,
+                "itemId": 0,
+                "moves": [239, 29, 91, 137]
+            },
+            {
+                "pokemonId": 169,
+                "level": 33,
+                "abilityId": 151,
+                "natureId": 18,
+                "itemId": 0,
+                "moves": [440, 17, 366, 0]
+            }
+        ]
+    },
+    {
+        "id": 432,
+        "name": "Geoff",
+        "trainerClass": 3,
+        "team": [
+            {
+                "pokemonId": 564,
+                "level": 33,
+                "abilityId": 116,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [127, 246, 453, 469]
+            },
+            {
+                "pokemonId": 566,
+                "level": 33,
+                "abilityId": 129,
+                "natureId": 3,
+                "itemId": 0,
+                "moves": [512, 317, 225, 501]
+            },
+            {
+                "pokemonId": 610,
+                "level": 34,
+                "abilityId": 104,
+                "natureId": 4,
+                "itemId": 538,
+                "moves": [337, 372, 163, 349]
+            }
+        ]
+    },
+    {
+        "id": 433,
+        "name": "Belle",
+        "trainerClass": 4,
+        "team": [
+            {
+                "pokemonId": 302,
+                "level": 34,
+                "abilityId": 158,
+                "natureId": 17,
+                "itemId": 0,
+                "moves": [252, 421, 212, 261]
+            },
+            {
+                "pokemonId": 303,
+                "level": 34,
+                "abilityId": 125,
+                "natureId": 8,
+                "itemId": 0,
+                "moves": [424, 422, 423, 305]
+            }
+        ]
+    },
+    {
+        "id": 434,
+        "name": "Jeremy",
+        "trainerClass": 19,
+        "team": [
+            {
+                "pokemonId": 375,
+                "level": 35,
+                "abilityId": 29,
+                "natureId": 15,
+                "itemId": 0,
+                "moves": [418, 473, 36, 0]
+            },
+            {
+                "pokemonId": 633,
+                "level": 35,
+                "abilityId": 55,
+                "natureId": 6,
+                "itemId": 0,
+                "moves": [406, 242, 116, 0]
+            }
+        ]
+    },
+    {
+        "id": 435,
+        "name": "Rocky",
+        "trainerClass": 10,
+        "team": [
+            {
+                "pokemonId": 524,
+                "level": 50,
+                "abilityId": 5,
+                "natureId": 10,
+                "itemId": 238,
+                "moves": [153, 0, 0, 0]
+            },
+            {
+                "pokemonId": 524,
+                "level": 50,
+                "abilityId": 5,
+                "natureId": 10,
+                "itemId": 238,
+                "moves": [153, 0, 0, 0]
+            },
+            {
+                "pokemonId": 524,
+                "level": 50,
+                "abilityId": 5,
+                "natureId": 10,
+                "itemId": 238,
+                "moves": [153, 0, 0, 0]
+            },
+            {
+                "pokemonId": 524,
+                "level": 50,
+                "abilityId": 5,
+                "natureId": 10,
+                "itemId": 238,
+                "moves": [153, 0, 0, 0]
+            },
+            {
+                "pokemonId": 524,
+                "level": 50,
+                "abilityId": 5,
+                "natureId": 10,
+                "itemId": 238,
+                "moves": [153, 0, 0, 0]
+            },
+            {
+                "pokemonId": 524,
+                "level": 50,
+                "abilityId": 5,
+                "natureId": 10,
+                "itemId": 238,
+                "moves": [153, 0, 0, 0]
+            }
+        ]
+    },
+    {
+        "id": 436,
+        "name": "Tia",
+        "trainerClass": 55,
+        "team": [
+            {
+                "pokemonId": 214,
+                "level": 51,
+                "abilityId": 62,
+                "natureId": 19,
+                "itemId": 0,
+                "moves": [224, 370, 0, 0]
+            },
+            {
+                "pokemonId": 232,
+                "level": 51,
+                "abilityId": 5,
+                "natureId": 17,
+                "itemId": 0,
+                "moves": [89, 280, 420, 0]
+            }
+        ]
+    },
+    {
+        "id": 437,
+        "name": "Mikiko",
+        "trainerClass": 80,
+        "team": [
+            {
+                "pokemonId": 596,
+                "level": 50,
+                "abilityId": 68,
+                "natureId": 17,
+                "itemId": 0,
+                "moves": [405, 527, 169, 0]
+            },
+            {
+                "pokemonId": 472,
+                "level": 50,
+                "abilityId": 8,
+                "natureId": 24,
+                "itemId": 0,
+                "moves": [512, 400, 14, 0]
+            },
+            {
+                "pokemonId": 330,
+                "level": 50,
+                "abilityId": 26,
+                "natureId": 14,
+                "itemId": 0,
+                "moves": [89, 525, 185, 0]
+            }
+        ]
+    },
+    {
+        "id": 438,
+        "name": "Johan",
+        "trainerClass": 79,
+        "team": [
+            {
+                "pokemonId": 208,
+                "level": 50,
+                "abilityId": 45,
+                "natureId": 19,
+                "itemId": 0,
+                "moves": [231, 523, 157, 0]
+            },
+            {
+                "pokemonId": 476,
+                "level": 50,
+                "abilityId": 26,
+                "natureId": 15,
+                "itemId": 0,
+                "moves": [408, 435, 201, 0]
+            },
+            {
+                "pokemonId": 306,
+                "level": 50,
+                "abilityId": 134,
+                "natureId": 0,
+                "itemId": 0,
+                "moves": [442, 431, 475, 0]
+            }
+        ]
+    },
+    {
+        "id": 439,
+        "name": "Drago",
+        "trainerClass": 10,
+        "team": [
+            {
+                "pokemonId": 560,
+                "level": 51,
+                "abilityId": 61,
+                "natureId": 2,
+                "itemId": 0,
+                "moves": [252, 136, 0, 0]
+            },
+            {
+                "pokemonId": 555,
+                "level": 51,
+                "abilityId": 125,
+                "natureId": 2,
+                "itemId": 0,
+                "moves": [172, 264, 0, 0]
+            }
+        ]
+    },
+    {
+        "id": 440,
+        "name": "Maki",
+        "trainerClass": 55,
+        "team": [
+            {
+                "pokemonId": 337,
+                "level": 50,
+                "abilityId": 26,
+                "natureId": 10,
+                "itemId": 0,
+                "moves": [248, 408, 322, 0]
+            },
+            {
+                "pokemonId": 338,
+                "level": 50,
+                "abilityId": 26,
+                "natureId": 14,
+                "itemId": 0,
+                "moves": [394, 444, 322, 0]
+            },
+            {
+                "pokemonId": 567,
+                "level": 51,
+                "abilityId": 129,
+                "natureId": 9,
+                "itemId": 0,
+                "moves": [157, 512, 211, 0]
+            }
+        ]
+    },
+    {
+        "id": 441,
+        "name": "Rich",
+        "trainerClass": 10,
+        "team": [
+            {
+                "pokemonId": 534,
+                "level": 49,
+                "abilityId": 62,
+                "natureId": 8,
+                "itemId": 0,
+                "moves": [359, 339, 469, 0]
+            },
+            {
+                "pokemonId": 526,
+                "level": 49,
+                "abilityId": 159,
+                "natureId": 7,
+                "itemId": 0,
+                "moves": [350, 484, 174, 0]
+            },
+            {
+                "pokemonId": 467,
+                "level": 50,
+                "abilityId": 49,
+                "natureId": 4,
+                "itemId": 0,
+                "moves": [53, 317, 499, 0]
+            },
+            {
+                "pokemonId": 466,
+                "level": 50,
+                "abilityId": 78,
+                "natureId": 4,
+                "itemId": 0,
+                "moves": [85, 67, 98, 0]
+            }
+        ]
+    },
+    {
+        "id": 442,
+        "name": "Zinzolin",
+        "trainerClass": 227,
+        "team": [
+            {
+                "pokemonId": 615,
+                "level": 57,
+                "abilityId": 26,
+                "natureId": 21,
+                "itemId": 219,
+                "moves": [58, 109, 115, 113]
+            },
+            {
+                "pokemonId": 365,
+                "level": 57,
+                "abilityId": 115,
+                "natureId": 3,
+                "itemId": 234,
+                "moves": [59, 291, 258, 182]
+            },
+            {
+                "pokemonId": 461,
+                "level": 58,
+                "abilityId": 39,
+                "natureId": 13,
+                "itemId": 275,
+                "moves": [282, 8, 67, 332]
+            }
+        ]
+    },
+    {
+        "id": 443,
+        "name": "Saucey",
+        "trainerClass": 3,
+        "team": [
+            {
+                "pokemonId": 212,
+                "level": 64,
+                "abilityId": 101,
+                "natureId": 12,
+                "itemId": 270,
+                "moves": [418, 450, 282, 14]
+            },
+            {
+                "pokemonId": 186,
+                "level": 64,
+                "abilityId": 2,
+                "natureId": 0,
+                "itemId": 186,
+                "moves": [503, 94, 196, 95]
+            },
+            {
+                "pokemonId": 302,
+                "level": 64,
+                "abilityId": 158,
+                "natureId": 24,
+                "itemId": 158,
+                "moves": [252, 492, 261, 389]
+            },
+            {
+                "pokemonId": 196,
+                "level": 64,
+                "abilityId": 156,
+                "natureId": 11,
+                "itemId": 297,
+                "moves": [473, 247, 412, 411]
+            },
+            {
+                "pokemonId": 534,
+                "level": 64,
+                "abilityId": 62,
+                "natureId": 8,
+                "itemId": 192,
+                "moves": [409, 157, 8, 282]
             }
         ]
     }

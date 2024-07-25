@@ -142,6 +142,9 @@
 }
 
 .content-container {
+    background-image: url('../GeneralBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     top: $top-bar-height;
     left: 0;
@@ -151,13 +154,13 @@
     justify-content: center;
     overflow-y: scroll;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .body-container {
     width: $xl;
     border-left: 2px black solid;
     border-right: 2px black solid;
-    padding-bottom: 3rem;
     background-color: white;
     height: fit-content;
     @media only screen and (max-width: $xl) {
@@ -185,6 +188,9 @@
 
 .list-divider{
     border-top: 1px black solid;
+}
+.list-divider-bottom{
+    border-bottom: 1px black solid;
 }
 
 .round-top{

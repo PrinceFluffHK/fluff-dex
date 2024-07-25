@@ -33,10 +33,18 @@ class Trainer {
         species,
         abilities,
         items,
-        moves,
+        moves
     ) {
-        const { id, name, trainerClass, team, notes, battleType, mandatory, boss } =
-            trainerObj;
+        const {
+            id,
+            name,
+            trainerClass,
+            team,
+            notes,
+            battleType,
+            mandatory,
+            boss,
+        } = trainerObj;
         const newClass = Help.findInArray(trainerClass, trainerClasses);
         const newTeam = TrainerMon.makeTeam(
             team,
@@ -73,8 +81,7 @@ class Trainer {
                 species,
                 abilities,
                 items,
-                moves,
-
+                moves
             );
         });
     }
@@ -99,7 +106,7 @@ class Trainer {
                     <Link
                         to={`/${hackId}/pokemon/${baseDexEntry.id}/0`}
                         key={index}
-                        className="suppress-link"
+                        className=""
                     >
                         <div
                             style={{ paddingTop: "5px" }}
@@ -113,9 +120,9 @@ class Trainer {
                                 className="location-mon-sprite"
                                 alt={`Sprite of ${mon.name} that links to its info page.`}
                             />
-                            <b className="level-box center">
+                            <div className="level-box center">
                                 {trainerMon.level}
-                            </b>
+                            </div>
                         </div>
                     </Link>
                 </Grid>
@@ -150,7 +157,7 @@ class Trainer {
         return (
             <div className={className} key={index}>
                 <Grid container>
-                    <Grid item xs={2.5} className="center">
+                    <Grid item xs={2.8} className="center">
                         <Link to={`/${hackId}/trainers/${this.id}`}>
                             <img
                                 src={`/trainerClasses/${this.trainerClass.id}-${romhack.spriteId}.png`}
@@ -164,11 +171,11 @@ class Trainer {
                             to={`/${hackId}/trainers/${this.id}`}
                             className="suppress-link"
                         >
-                            <TrainerName/>
+                            <TrainerName />
                         </Link>
                     </Grid>
-                    <Grid item xs={7}>
-                        <Grid container columnSpacing={2}>
+                    <Grid item xs={6} s={7}>
+                        <Grid container columnSpacing={1}>
                             {teamView}
                         </Grid>
                     </Grid>

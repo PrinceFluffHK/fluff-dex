@@ -43,7 +43,10 @@ class StatBarGraph {
         function compareNumbers(a, b) {
             return a - b;
         }
+
+        let bst = 0
         const justVals = statData.map((stat) => {
+            bst += stat.statVal
             return stat.statVal;
         });
         const sortedData = justVals.sort(compareNumbers);
@@ -60,7 +63,7 @@ class StatBarGraph {
         const statVals = statData.map((stat) => {
             return (
                 <div className="chart-bar" key={stat.statName}>
-                    <b>{stat.statVal}</b>
+                    <div>{stat.statVal}</div>
                 </div>
             );
         });
@@ -87,6 +90,8 @@ class StatBarGraph {
         return (
             <div className="chart-margins">
                 <h1>Base Stats</h1>
+                <h3>BST: {bst}</h3>
+
                 <div className="flex">
                     <div className="column align-start label-container-margins">
                         {labels}
