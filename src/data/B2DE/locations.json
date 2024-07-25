@@ -1236,6 +1236,15 @@
                         "battleType": 2,
                         "opponent": [72]
                     }
+                ],
+                "collectibles": [
+                    {
+                        "itemId": 403,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "Reward for defeating Burgh",
+                        "requirements": ""
+                    }
                 ]
             }
         ]
@@ -3391,13 +3400,6 @@
                 "type": "Hidden",
                 "description": "In the pile of dirt south of the Clay Tunnel entrance, accessible after entering the Hall of Fame",
                 "requirements": ""
-            },
-            {
-                "itemId": 405,
-                "quantity": 1,
-                "type": "Script",
-                "description": "Reward for defeating Clay",
-                "requirements": ""
             }
         ],
         "shops": [9],
@@ -3415,7 +3417,15 @@
                     { "battleType": 2, "opponent": [159] }
                 ],
                 "encounters": [],
-                "collectibles": [],
+                "collectibles": [
+                    {
+                        "itemId": 405,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "Reward for defeating Clay",
+                        "requirements": ""
+                    }
+                ],
                 "subLocations": []
             }
         ]
@@ -5064,7 +5074,11 @@
     },
     {
         "name": "Undella Town",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [232], "notes": "grass" },
+            { "battleType": 2, "opponent": [233], "notes": "fire" },
+            { "battleType": 2, "opponent": [234], "notes": "water" }
+        ],
         "encounters": [
             {
                 "type": "Fishing",
@@ -5153,11 +5167,26 @@
                 "requirements": ""
             }
         ],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Cynthia's Villa",
+                "trainers": [{ "battleType": 2, "opponent": [235] }],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Undella Bay",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [236] },
+            { "battleType": 2, "opponent": [237] },
+            { "battleType": 2, "opponent": [238] },
+            { "battleType": 2, "opponent": [239] },
+            { "battleType": 2, "opponent": [240] },
+            { "battleType": 2, "opponent": [241] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -5240,7 +5269,13 @@
         "subLocations": [
             {
                 "name": "1F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [435] },
+                    { "battleType": 2, "opponent": [436] },
+                    { "battleType": 2, "opponent": [437] },
+                    { "battleType": 2, "opponent": [438] },
+                    { "battleType": 2, "opponent": [439] }
+                ],
                 "encounters": [
                     {
                         "type": "Static",
@@ -5402,7 +5437,10 @@
             },
             {
                 "name": "B1F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [440] },
+                    { "battleType": 2, "opponent": [441] }
+                ],
                 "encounters": [
                     {
                         "type": "Cave",
@@ -5473,7 +5511,16 @@
     },
     {
         "name": "Route 14",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [242] },
+            { "battleType": 2, "opponent": [243] },
+            { "battleType": 2, "opponent": [244] },
+            { "battleType": 2, "opponent": [245] },
+            { "battleType": 2, "opponent": [246] },
+            { "battleType": 2, "opponent": [247] },
+            { "battleType": 2, "opponent": [248] },
+            { "battleType": 2, "opponent": [249] }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -5651,7 +5698,19 @@
     },
     {
         "name": "Route 13",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [250] },
+            { "battleType": 2, "opponent": [251] },
+            { "battleType": 2, "opponent": [252] },
+            { "battleType": 2, "opponent": [253] },
+            { "battleType": 2, "opponent": [254] },
+            { "battleType": 2, "opponent": [255] },
+            { "battleType": 2, "opponent": [256] },
+            { "battleType": 2, "opponent": [257] },
+            { "battleType": 2, "opponent": [258] },
+            { "battleType": 2, "opponent": [259] },
+            { "battleType": 2, "opponent": [260] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -5915,7 +5974,26 @@
     },
     {
         "name": "Lacunosa Town",
-        "trainers": [],
+        "trainers": [
+            {
+                "battleType": 2,
+                "opponent": [264, 265],
+                "partner": 261,
+                "notes": "grass"
+            },
+            {
+                "battleType": 2,
+                "opponent": [264, 265],
+                "partner": 262,
+                "notes": "fire"
+            },
+            {
+                "battleType": 2,
+                "opponent": [264, 265],
+                "partner": 263,
+                "notes": "water"
+            }
+        ],
         "encounters": [],
         "collectibles": [
             {
@@ -5937,7 +6015,11 @@
     },
     {
         "name": "Route 12",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [266] },
+            { "battleType": 2, "opponent": [267] },
+            { "battleType": 2, "opponent": [268] }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -6090,7 +6172,17 @@
     },
     {
         "name": "Village Bridge",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [269] },
+            { "battleType": 2, "opponent": [270] },
+            { "battleType": 2, "opponent": [271] },
+            { "battleType": 2, "opponent": [272] },
+            { "battleType": 2, "opponent": [273] },
+            { "battleType": 2, "opponent": [274] },
+            { "battleType": 2, "opponent": [275] },
+            { "battleType": 2, "opponent": [276] },
+            { "battleType": 2, "opponent": [277] }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -6293,7 +6385,11 @@
     },
     {
         "name": "Route 11",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [278] },
+            { "battleType": 2, "opponent": [279] },
+            { "battleType": 2, "opponent": [280] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -6492,7 +6588,13 @@
     },
     {
         "name": "Opelucid City",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [294] },
+            { "battleType": 2, "opponent": [295] },
+            { "battleType": 2, "opponent": [296] },
+            { "battleType": 2, "opponent": [297] },
+            { "battleType": 2, "opponent": [298] }
+        ],
         "encounters": [],
         "tutors": [7],
         "collectibles": [
@@ -6516,20 +6618,40 @@
                 "type": "Script",
                 "description": "From a female NPC in the house east of the Gym",
                 "requirements": ""
-            },
-            {
-                "itemId": 409,
-                "quantity": 1,
-                "type": "Script",
-                "description": "Reward for defeating Drayden",
-                "requirements": ""
             }
         ],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Opelucid Gym",
+                "trainers": [
+                    { "battleType": 2, "opponent": [288] },
+                    { "battleType": 2, "opponent": [289, 290] },
+                    { "battleType": 2, "opponent": [291, 292] },
+                    { "battleType": 2, "opponent": [293] }
+                ],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 409,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "Reward for defeating Drayden",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Route 9",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [281] },
+            { "battleType": 2, "opponent": [282] },
+            { "battleType": 2, "opponent": [283] },
+            { "battleType": 2, "opponent": [284] },
+            { "battleType": 2, "opponent": [285] }
+        ],
         "encounters": [
             {
                 "type": "Grass",
@@ -6680,7 +6802,10 @@
     },
     {
         "name": "Shopping Mall Nine",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [286] },
+            { "battleType": 2, "opponent": [287] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -6756,7 +6881,13 @@
     },
     {
         "name": "Route 8",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [299] },
+            { "battleType": 2, "opponent": [300] },
+            { "battleType": 2, "opponent": [301] },
+            { "battleType": 2, "opponent": [302] },
+            { "battleType": 2, "opponent": [303] }
+        ],
         "encounters": [
             {
                 "type": "Puddle",
@@ -6897,7 +7028,11 @@
     },
     {
         "name": "Moor of Icirrus",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [304] },
+            { "battleType": 2, "opponent": [305] },
+            { "battleType": 2, "opponent": [306] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -7571,7 +7706,7 @@
     },
     {
         "name": "Humilau City",
-        "trainers": [],
+        "trainers": [{ "battleType": 2, "opponent": [307] }],
         "tutors": [6],
         "encounters": [
             {
@@ -7666,20 +7801,45 @@
                 "type": "Hidden",
                 "description": "In the trash can of the hut containing the Roughneck who wants a Mantine",
                 "requirements": ""
-            },
-            {
-                "itemId": 382,
-                "quantity": 1,
-                "type": "Script",
-                "description": "Reward for defeating Marlon",
-                "requirements": ""
             }
         ],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Humilau Gym",
+                "trainers": [
+                    { "battleType": 2, "opponent": [321] },
+                    { "battleType": 2, "opponent": [322] },
+                    { "battleType": 2, "opponent": [323] },
+                    { "battleType": 2, "opponent": [324] },
+                    { "battleType": 2, "opponent": [325] },
+                    { "battleType": 2, "opponent": [326] },
+                    { "battleType": 2, "opponent": [327] }
+                ],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 382,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "Reward for defeating Marlon",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Route 21",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [308] },
+            { "battleType": 2, "opponent": [309] },
+            { "battleType": 2, "opponent": [310] },
+            { "battleType": 2, "opponent": [311] },
+            { "battleType": 2, "opponent": [312] },
+            { "battleType": 2, "opponent": [313] },
+            { "battleType": 2, "opponent": [314] }
+        ],
         "encounters": [
             {
                 "type": "Fishing",
@@ -7732,7 +7892,14 @@
     },
     {
         "name": "Route 22",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [315] },
+            { "battleType": 2, "opponent": [316] },
+            { "battleType": 2, "opponent": [317] },
+            { "battleType": 2, "opponent": [318] },
+            { "battleType": 2, "opponent": [319] },
+            { "battleType": 2, "opponent": [320] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -7958,68 +8125,98 @@
         "subLocations": []
     },
     {
-        "name": "Plasma Frigate",
+        "name": "Plasma Frigate (Seaside Cave)",
         "trainers": [],
         "encounters": [],
-        "collectibles": [
+        "collectibles": [],
+        "subLocations": [
             {
-                "itemId": 45,
-                "quantity": 1,
-                "type": "Field",
-                "description": "1F, at the bow of the ship",
-                "requirements": ""
+                "name": "1F",
+                "trainers": [
+                    { "battleType": 2, "opponent": [328] },
+                    { "battleType": 2, "opponent": [332, 333], "partner": 329 },
+                    { "battleType": 2, "opponent": [332, 333], "partner": 330 },
+                    { "battleType": 2, "opponent": [332, 333], "partner": 331 }
+                ],
+                "collectibles": [
+                    {
+                        "itemId": 45,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "At the bow of the ship",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 394,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "At the stern of the ship",
+                        "requirements": ""
+                    }
+                ]
             },
             {
-                "itemId": 394,
-                "quantity": 1,
-                "type": "Field",
-                "description": "1F, at the stern of the ship",
-                "requirements": ""
+                "name": "B2F Central Corridor",
+                "trainers": [
+                    { "battleType": 2, "opponent": [334] },
+                    { "battleType": 2, "opponent": [335] }
+                ],
+                "collectibles": []
             },
             {
-                "itemId": 49,
-                "quantity": 1,
-                "type": "Field",
-                "description": "B1F, top right room",
-                "requirements": ""
+                "name": "B2F North-West Room",
+                "trainers": [
+                    { "battleType": 2, "opponent": [336] },
+                    { "battleType": 2, "opponent": [337] }
+                ],
+                "collectibles": []
             },
             {
-                "itemId": 633,
-                "quantity": 1,
-                "type": "Script",
-                "description": "B2F, from a Team Plasma Grunt after defeating her",
-                "requirements": ""
+                "name": "B2F South-West Room",
+                "trainers": [
+                    { "battleType": 2, "opponent": [338] },
+                    { "battleType": 2, "opponent": [339] }
+                ],
+                "collectibles": []
             },
             {
-                "itemId": 52,
-                "quantity": 1,
-                "type": "Field",
-                "description": "B2F, bow side of the pipe maze",
-                "requirements": ""
+                "name": "B2F North-East Room",
+                "trainers": [],
+                "collectibles": [
+                    {
+                        "itemId": 49,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "In the room",
+                        "requirements": ""
+                    }
+                ]
             },
             {
-                "itemId": 53,
-                "quantity": 1,
-                "type": "Field",
-                "description": "B2F, near the Grunt with Krokorok and Krookodile",
-                "requirements": ""
+                "name": "B2F Eastern Room",
+                "trainers": [
+                    { "battleType": 2, "opponent": [340] },
+                    { "battleType": 2, "opponent": [341] }
+                ],
+                "collectibles": []
             },
             {
-                "itemId": 562,
-                "quantity": 1,
-                "type": "Field",
-                "description": "B2F, near the Grunt with Krokorok and Krookodile",
-                "requirements": ""
+                "name": "B2F South-East Room",
+                "trainers": [{ "battleType": 2, "opponent": [342] }],
+                "collectibles": []
             },
             {
-                "itemId": 401,
-                "quantity": 1,
-                "type": "Field",
-                "description": "B2F, bow side from the Grunt with Drapion",
-                "requirements": ""
+                "name": "Kyurem's Room",
+                "trainers": [
+                    { "battleType": 2, "opponent": [343, 442], "partner": 329 },
+                    { "battleType": 2, "opponent": [343, 442], "partner": 330 },
+                    { "battleType": 2, "opponent": [343, 442], "partner": 331 }
+                ],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
             }
-        ],
-        "subLocations": []
+        ]
     },
     {
         "name": "Giant Chasm",
@@ -8100,17 +8297,6 @@
                     },
                     { "pokemonId": 131, "percent": 5, "minLv": 55, "maxLv": 60 }
                 ]
-            },
-            {
-                "type": "Static",
-                "pokemon": [
-                    {
-                        "pokemonId": 646,
-                        "percent": 100,
-                        "minLv": 70,
-                        "maxLv": 70
-                    }
-                ]
             }
         ],
         "collectibles": [
@@ -8157,7 +8343,27 @@
                 "requirements": "Surf"
             }
         ],
-        "subLocations": []
+        "subLocations": [
+            {
+                "name": "Crater Depths",
+                "trainers": [{ "battleType": 2, "opponent": [363] }],
+                "encounters": [
+                    {
+                        "type": "Static",
+                        "pokemon": [
+                            {
+                                "pokemonId": 646,
+                                "percent": 100,
+                                "minLv": 70,
+                                "maxLv": 70
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
     },
     {
         "name": "Crater's Edge",
@@ -8291,7 +8497,7 @@
     },
     {
         "name": "Crater Forest",
-        "trainers": [],
+        "trainers": [{ "battleType": 2, "opponent": [345] }],
         "encounters": [
             {
                 "type": "Grass",
@@ -8444,6 +8650,94 @@
         "subLocations": []
     },
     {
+        "name": "Plasma Frigate (Crater Forest)",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": [
+            {
+                "name": "1F",
+                "trainers": [{ "battleType": 2, "opponent": [346, 347] }],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "B2F",
+                "trainers": [
+                    { "battleType": 2, "opponent": [348] },
+                    { "battleType": 2, "opponent": [349] },
+                    { "battleType": 2, "opponent": [350] },
+                    { "battleType": 2, "opponent": [351] },
+                    { "battleType": 2, "opponent": [352] },
+                    { "battleType": 2, "opponent": [353] },
+                    { "battleType": 2, "opponent": [354] },
+                    { "battleType": 2, "opponent": [355] },
+                    { "battleType": 2, "opponent": [356] },
+                    { "battleType": 2, "opponent": [357] },
+                    { "battleType": 2, "opponent": [358] }
+                ],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 633,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "From a Team Plasma Grunt after defeating her",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 52,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Bow side of the pipe maze",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 53,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Near the Grunt with Krokorok and Krookodile",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 562,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Near the Grunt with Krokorok and Krookodile",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 401,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Bow side from the Grunt with Drapion",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            },
+            {
+                "name": "Frigate Helm",
+                "trainers": [{ "battleType": 2, "opponent": [359] }],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            },
+            {
+                "name": "Ghetsis' Room",
+                "trainers": [
+                    { "battleType": 2, "opponent": [360] },
+                    { "battleType": 2, "opponent": [361] },
+                    { "battleType": 2, "opponent": [362] }
+                ],
+                "encounters": [],
+                "collectibles": [],
+                "subLocations": []
+            }
+        ]
+    },
+    {
         "name": "Poke Transfer Lab",
         "trainers": [],
         "encounters": [
@@ -8464,7 +8758,21 @@
     },
     {
         "name": "Twist Mountain",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [364] },
+            { "battleType": 2, "opponent": [365] },
+            { "battleType": 2, "opponent": [366] },
+            { "battleType": 2, "opponent": [367] },
+            { "battleType": 2, "opponent": [368] },
+            { "battleType": 2, "opponent": [369] },
+            { "battleType": 2, "opponent": [370] },
+            { "battleType": 2, "opponent": [371] },
+            { "battleType": 2, "opponent": [372] },
+            { "battleType": 2, "opponent": [373] },
+            { "battleType": 2, "opponent": [374] },
+            { "battleType": 2, "opponent": [375] },
+            { "battleType": 2, "opponent": [376] }
+        ],
         "encounters": [],
         "collectibles": [],
         "subLocations": [
@@ -8757,7 +9065,21 @@
     },
     {
         "name": "Route 23",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [377] },
+            { "battleType": 2, "opponent": [378] },
+            { "battleType": 2, "opponent": [379] },
+            { "battleType": 2, "opponent": [380] },
+            { "battleType": 2, "opponent": [381] },
+            { "battleType": 2, "opponent": [382] },
+            { "battleType": 2, "opponent": [383] },
+            { "battleType": 2, "opponent": [384] },
+            { "battleType": 2, "opponent": [385] },
+            { "battleType": 2, "opponent": [386] },
+            { "battleType": 2, "opponent": [387] },
+            { "battleType": 2, "opponent": [388] },
+            { "battleType": 2, "opponent": [389] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -9058,7 +9380,12 @@
     },
     {
         "name": "Abundant Shrine",
-        "trainers": [],
+        "trainers": [
+            { "battleType": 2, "opponent": [390] },
+            { "battleType": 2, "opponent": [391] },
+            { "battleType": 2, "opponent": [392] },
+            { "battleType": 2, "opponent": [393] }
+        ],
         "encounters": [
             {
                 "type": "Static",
@@ -9307,7 +9634,13 @@
             },
             {
                 "name": "1F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [394] },
+                    { "battleType": 2, "opponent": [395] },
+                    { "battleType": 2, "opponent": [396] },
+                    { "battleType": 2, "opponent": [397] },
+                    { "battleType": 2, "opponent": [398, 399] }
+                ],
                 "encounters": [
                     {
                         "type": "Cave",
@@ -9374,7 +9707,7 @@
             },
             {
                 "name": "Grove",
-                "trainers": [],
+                "trainers": [{ "battleType": 2, "opponent": [400] }],
                 "encounters": [
                     {
                         "type": "Grass",
@@ -9478,7 +9811,14 @@
             },
             {
                 "name": "Outside 1",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [401] },
+                    { "battleType": 2, "opponent": [402] },
+                    { "battleType": 2, "opponent": [403] },
+                    { "battleType": 2, "opponent": [404] },
+                    { "battleType": 2, "opponent": [405] },
+                    { "battleType": 2, "opponent": [443] }
+                ],
                 "encounters": [
                     {
                         "type": "Grass",
@@ -9624,7 +9964,14 @@
             },
             {
                 "name": "2F",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [406] },
+                    { "battleType": 2, "opponent": [407] },
+                    { "battleType": 2, "opponent": [408] },
+                    { "battleType": 2, "opponent": [409] },
+                    { "battleType": 2, "opponent": [410] },
+                    { "battleType": 2, "opponent": [411] }
+                ],
                 "encounters": [
                     {
                         "type": "Cave",
@@ -9755,154 +10102,15 @@
                 "subLocations": []
             },
             {
-                "name": "3F",
-                "trainers": [],
-                "encounters": [
-                    {
-                        "type": "Cave",
-                        "pokemon": [
-                            {
-                                "pokemonId": 621,
-                                "percent": 60,
-                                "minLv": 60,
-                                "maxLv": 62
-                            },
-                            {
-                                "pokemonId": 634,
-                                "percent": 30,
-                                "minLv": 60,
-                                "maxLv": 62
-                            },
-                            {
-                                "pokemonId": 95,
-                                "percent": 10,
-                                "minLv": 60,
-                                "maxLv": 62
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Dust Cloud",
-                        "pokemon": [
-                            {
-                                "pokemonId": 530,
-                                "percent": 80,
-                                "minLv": 64,
-                                "maxLv": 64
-                            },
-                            {
-                                "pokemonId": 208,
-                                "percent": 20,
-                                "minLv": 64,
-                                "maxLv": 64
-                            }
-                        ]
-                    }
-                ],
-                "collectibles": [
-                    {
-                        "itemId": 235,
-                        "quantity": 1,
-                        "type": "Field",
-                        "description": "3F, west of Veteran Hugo",
-                        "requirements": ""
-                    }
-                ],
-                "subLocations": []
-            },
-            {
-                "name": "4F",
-                "trainers": [],
-                "encounters": [
-                    {
-                        "type": "Cave",
-                        "pokemon": [
-                            {
-                                "pokemonId": 525,
-                                "percent": 60,
-                                "minLv": 60,
-                                "maxLv": 62
-                            },
-                            {
-                                "pokemonId": 305,
-                                "percent": 30,
-                                "minLv": 60,
-                                "maxLv": 62
-                            },
-                            {
-                                "pokemonId": 95,
-                                "percent": 10,
-                                "minLv": 60,
-                                "maxLv": 62
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Dust Cloud",
-                        "pokemon": [
-                            {
-                                "pokemonId": 530,
-                                "percent": 80,
-                                "minLv": 64,
-                                "maxLv": 64
-                            },
-                            {
-                                "pokemonId": 208,
-                                "percent": 20,
-                                "minLv": 64,
-                                "maxLv": 64
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Fishing",
-                        "pokemon": [
-                            {
-                                "pokemonId": 550,
-                                "percent": 70,
-                                "minLv": 60,
-                                "maxLv": 65
-                            },
-                            {
-                                "pokemonId": 564,
-                                "percent": 30,
-                                "minLv": 60,
-                                "maxLv": 65
-                            }
-                        ]
-                    },
-                    {
-                        "type": "Rippling Water",
-                        "pokemon": [
-                            {
-                                "pokemonId": 565,
-                                "percent": 70,
-                                "minLv": 65,
-                                "maxLv": 70
-                            },
-                            {
-                                "pokemonId": 10016,
-                                "percent": 30,
-                                "minLv": 65,
-                                "maxLv": 70
-                            }
-                        ]
-                    }
-                ],
-                "collectibles": [
-                    {
-                        "itemId": 351,
-                        "quantity": 1,
-                        "type": "Script",
-                        "description": "4F, from Hugh after defeating him",
-                        "requirements": ""
-                    }
-                ],
-                "subLocations": []
-            },
-            {
                 "name": "Outside 2",
-                "trainers": [],
+                "trainers": [
+                    { "battleType": 2, "opponent": [412] },
+                    { "battleType": 2, "opponent": [413] },
+                    { "battleType": 2, "opponent": [414] },
+                    { "battleType": 2, "opponent": [415] },
+                    { "battleType": 2, "opponent": [416] },
+                    { "battleType": 2, "opponent": [417] }
+                ],
                 "encounters": [
                     {
                         "type": "Grass",
@@ -10036,6 +10244,183 @@
                         "requirements": ""
                     }
                 ],
+                "subLocations": []
+            },
+            {
+                "name": "3F",
+                "trainers": [{ "battleType": 2, "opponent": [418] }],
+                "encounters": [
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemonId": 621,
+                                "percent": 60,
+                                "minLv": 60,
+                                "maxLv": 62
+                            },
+                            {
+                                "pokemonId": 634,
+                                "percent": 30,
+                                "minLv": 60,
+                                "maxLv": 62
+                            },
+                            {
+                                "pokemonId": 95,
+                                "percent": 10,
+                                "minLv": 60,
+                                "maxLv": 62
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemonId": 530,
+                                "percent": 80,
+                                "minLv": 64,
+                                "maxLv": 64
+                            },
+                            {
+                                "pokemonId": 208,
+                                "percent": 20,
+                                "minLv": 64,
+                                "maxLv": 64
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [
+                    {
+                        "itemId": 235,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "3F, west of Veteran Hugo",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            },
+            {
+                "name": "4F",
+                "trainers": [
+                    { "battleType": 2, "opponent": [419], "notes": "grass" },
+                    { "battleType": 2, "opponent": [420], "notes": "fire" },
+                    { "battleType": 2, "opponent": [421], "notes": "water" }
+                ],
+                "encounters": [
+                    {
+                        "type": "Cave",
+                        "pokemon": [
+                            {
+                                "pokemonId": 525,
+                                "percent": 60,
+                                "minLv": 60,
+                                "maxLv": 62
+                            },
+                            {
+                                "pokemonId": 305,
+                                "percent": 30,
+                                "minLv": 60,
+                                "maxLv": 62
+                            },
+                            {
+                                "pokemonId": 95,
+                                "percent": 10,
+                                "minLv": 60,
+                                "maxLv": 62
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Dust Cloud",
+                        "pokemon": [
+                            {
+                                "pokemonId": 530,
+                                "percent": 80,
+                                "minLv": 64,
+                                "maxLv": 64
+                            },
+                            {
+                                "pokemonId": 208,
+                                "percent": 20,
+                                "minLv": 64,
+                                "maxLv": 64
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Fishing",
+                        "pokemon": [
+                            {
+                                "pokemonId": 550,
+                                "percent": 70,
+                                "minLv": 60,
+                                "maxLv": 65
+                            },
+                            {
+                                "pokemonId": 564,
+                                "percent": 30,
+                                "minLv": 60,
+                                "maxLv": 65
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Rippling Water",
+                        "pokemon": [
+                            {
+                                "pokemonId": 565,
+                                "percent": 70,
+                                "minLv": 65,
+                                "maxLv": 70
+                            },
+                            {
+                                "pokemonId": 10016,
+                                "percent": 30,
+                                "minLv": 65,
+                                "maxLv": 70
+                            }
+                        ]
+                    }
+                ],
+                "collectibles": [
+                    {
+                        "itemId": 351,
+                        "quantity": 1,
+                        "type": "Script",
+                        "description": "4F, from Hugh after defeating him",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            }
+        ]
+    },
+    {
+        "name": "N's Castle",
+        "trainers": [{ "battleType": 2, "opponent": [422] }],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": []
+    },
+    {
+        "name": "Pokemon League",
+        "trainers": [
+            { "battleType": 2, "opponent": [423] },
+            { "battleType": 2, "opponent": [424] },
+            { "battleType": 2, "opponent": [425] },
+            { "battleType": 2, "opponent": [426] }
+        ],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": [
+            {
+                "name": "Unova's Peak",
+                "trainers": [{ "battleType": 2, "opponent": [427] }],
+                "encounters": [],
+                "collectibles": [],
                 "subLocations": []
             }
         ]
