@@ -9577,6 +9577,368 @@
         "subLocations": []
     },
     {
+        "name": "Abyssal Ruins",
+        "trainers": [],
+        "encounters": [],
+        "collectibles": [],
+        "subLocations": [
+            {
+                "name": "1F",
+                "trainers": [],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 312,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "North of the western entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 305,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 303,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southwest corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 298,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "West of the room's center",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 302,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "South of the room's center",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 308,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Near the northeast corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 313,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northwest quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 301,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southwest quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 307,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "North of the room's center",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 306,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "North of the eastern entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 310,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 309,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Near the northern entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 304,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 300,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "South of the western entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 586,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Near the northwest corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 586,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southwest quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 586,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "East of the room's center",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 585,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northwest quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 585,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 585,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 584,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Inside the northern entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 584,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Inside the eastern entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 584,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Inside the southern entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 584,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast of the western entrance",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 589,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Just north of the room's center",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 587,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast quadrant",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            },
+            {
+                "name": "2F",
+                "trainers": [],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 586,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northwest quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 586,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 586,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Along the east wall",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 585,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 585,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southwest quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 584,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southwest quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 584,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Near the entrance from 1F",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 589,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southwest corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 587,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northwest corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 588,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 588,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northeast quadrant",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            },
+            {
+                "name": "3F",
+                "trainers": [],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 586,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southwest corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 585,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "South side",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 589,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northwest corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 587,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northeast corner",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 587,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Along the west wall",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 588,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Northeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 588,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "Southeast quadrant",
+                        "requirements": ""
+                    },
+                    {
+                        "itemId": 588,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "In the room's center",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            },
+            {
+                "name": "4F",
+                "trainers": [],
+                "encounters": [],
+                "collectibles": [
+                    {
+                        "itemId": 458,
+                        "quantity": 1,
+                        "type": "Field",
+                        "description": "In the center of the room",
+                        "requirements": ""
+                    }
+                ],
+                "subLocations": []
+            }
+        ]
+    },
+    {
         "name": "Victory Road",
         "trainers": [],
         "encounters": [],
@@ -10402,7 +10764,36 @@
         "name": "N's Castle",
         "trainers": [{ "battleType": 2, "opponent": [422] }],
         "encounters": [],
-        "collectibles": [],
+        "collectibles": [
+            {
+                "itemId": 46,
+                "quantity": 1,
+                "type": "Field",
+                "description": "4F, south of N's room",
+                "requirements": ""
+            },
+            {
+                "itemId": 377,
+                "quantity": 1,
+                "type": "Field",
+                "description": "4F, in the southeast corner",
+                "requirements": ""
+            },
+            {
+                "itemId": 576,
+                "quantity": 1,
+                "type": "Field",
+                "description": "4F, inside N's room",
+                "requirements": ""
+            },
+            {
+                "itemId": 617,
+                "quantity": 1,
+                "type": "Script",
+                "description": "5F, gift from N after the first battle",
+                "requirements": ""
+            }
+        ],
         "subLocations": []
     },
     {
