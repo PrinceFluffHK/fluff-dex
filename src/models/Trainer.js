@@ -114,7 +114,8 @@ class Trainer {
                         >
                             <div>{mon.name}</div>
                         </div>
-                        <div className="sprite-view">
+                        <div className="sprite-view-container">
+                            <div className="sprite-view" />
                             <img
                                 src={mon.spriteUrl}
                                 className="location-mon-sprite"

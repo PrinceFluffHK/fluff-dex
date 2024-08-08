@@ -1,4 +1,3 @@
-import React from "react";
 import Help from "./Help";
 import LevelLearnMove from "./LevelLearnMove";
 import TmMove from "./TmMove";
@@ -26,8 +25,6 @@ class Pokemon {
         levelLearn = [],
         tmLearn = [],
         tutorLearn = []
-        // spriteUrl,
-        // profileUrl,
     ) {
         this.id = id;
         this.name = name;
@@ -157,7 +154,7 @@ class Pokemon {
             { statVal: this.def, statName: "Def" },
             { statVal: this.spa, statName: "SpA" },
             { statVal: this.spd, statName: "SpD" },
-            { statVal: this.spe, statName: "SpE" },
+            { statVal: this.spe, statName: "Spe" },
         ];
         const baseStat = stats[statIndex];
         let natureMod = 0;

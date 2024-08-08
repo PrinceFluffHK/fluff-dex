@@ -24,7 +24,8 @@ const TeamDisplay = ({ selectedTrainer, styleObj, gridSizes }) => {
                 lg={gridSizes.lg}
                 xl={gridSizes.xl}
             >
-                <div className="sprite-view">
+                <div className="sprite-view-container">
+                    <div className="sprite-view" />
                     <img
                         src={mon.spriteUrl}
                         alt={`Sprite of ${mon.name}`}
