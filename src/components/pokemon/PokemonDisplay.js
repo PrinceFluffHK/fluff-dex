@@ -12,6 +12,7 @@ import TopBar from "../navigation/TopBar";
 import LevelLearnDisplay from "./LevelLearnDisplay";
 import EvoDisplay from "./EvoDisplay";
 import TutorLearnDisplay from "./TutorLearnDisplay";
+import TmLearnDisplay from "./TmLearnDisplay";
 
 const PokemonDisplay = ({ dexType }) => {
     let { id, entryId, formIndex } = useParams();
@@ -69,11 +70,11 @@ const PokemonDisplay = ({ dexType }) => {
                                     selectedMon={selectedMon}
                                     moveTypeId={1}
                                 />
-                                {/* <LevelLearnDisplay
+                                <TmLearnDisplay
                                     baseDexEntry={baseDexEntry}
                                     selectedMon={selectedMon}
                                     moveTypeId={2}
-                                /> */}
+                                />
                             </Grid>
                         </Grid>
                     </Grid>

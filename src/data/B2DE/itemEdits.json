@@ -94,5 +94,494 @@
     {
         "id": 22,
         "priceP": 100
-    }
+    },
+    {
+        "id": 328,
+        "name": "TM01: Hone Claws",
+        "description": "Teaches the move Hone Claws."
+    },
+    {
+        "id": 329,
+        "name": "TM02: Dragon Claw",
+        "description": "Teaches the move Dragon Claw."
+    },
+    {
+        "id": 330,
+        "name": "TM03: Psyshock",
+        "description": "Teaches the move Psyshock."
+    },
+    {
+        "id": 331,
+        "name": "TM04: Calm Mind",
+        "description": "Teaches the move Calm Mind."
+    },
+    {
+        "id": 332,
+        "name": "TM05: Roar",
+        "description": "Teaches the move Roar."
+    },
+    {
+        "id": 333,
+        "name": "TM06: Toxic",
+        "description": "Teaches the move Toxic."
+    },
+    {
+        "id": 334,
+        "name": "TM07: Hail",
+        "description": "Teaches the move Hail."
+    },
+    {
+        "id": 335,
+        "name": "TM08: Bulk Up",
+        "description": "Teaches the move Bulk Up."
+    },
+    {
+        "id": 336,
+        "name": "TM09: Venoshock",
+        "description": "Teaches the move Venoshock."
+    },
+    {
+        "id": 337,
+        "name": "TM10: Hidden Power",
+        "description": "Teaches the move Hidden Power."
+    },
+    {
+        "id": 338,
+        "name": "TM11: Sunny Day",
+        "description": "Teaches the move Sunny Day."
+    },
+    {
+        "id": 339,
+        "name": "TM12: Taunt",
+        "description": "Teaches the move Taunt."
+    },
+    {
+        "id": 340,
+        "name": "TM13: Ice Beam",
+        "description": "Teaches the move Ice Beam."
+    },
+    {
+        "id": 341,
+        "name": "TM14: Blizzard",
+        "description": "Teaches the move Blizzard."
+    },
+    {
+        "id": 342,
+        "name": "TM15: Hyper Beam",
+        "description": "Teaches the move Hyper Beam."
+    },
+    {
+        "id": 343,
+        "name": "TM16: Light Screen",
+        "description": "Teaches the move Light Screen."
+    },
+    {
+        "id": 344,
+        "name": "TM17: Protect",
+        "description": "Teaches the move Protect."
+    },
+    {
+        "id": 345,
+        "name": "TM18: Rain Dance",
+        "description": "Teaches the move Rain Dance."
+    },
+    {
+        "id": 346,
+        "name": "TM19: Telekinesis",
+        "description": "Teaches the move Telekinesis."
+    },
+    {
+        "id": 347,
+        "name": "TM20: Safeguard",
+        "description": "Teaches the move Safeguard."
+    },
+    {
+        "id": 348,
+        "name": "TM21: Frustration",
+        "description": "Teaches the move Frustration."
+    },
+    {
+        "id": 349,
+        "name": "TM22: Solarbeam",
+        "description": "Teaches the move Solarbeam."
+    },
+    {
+        "id": 350,
+        "name": "TM23: Smack Down",
+        "description": "Teaches the move Smack Down."
+    },
+    {
+        "id": 351,
+        "name": "TM24: Thunderbolt",
+        "description": "Teaches the move Thunderbolt."
+    },
+    {
+        "id": 352,
+        "name": "TM25: Thunder",
+        "description": "Teaches the move Thunder."
+    },
+    {
+        "id": 353,
+        "name": "TM26: Earthquake",
+        "description": "Teaches the move Earthquake."
+    },
+    {
+        "id": 354,
+        "name": "TM27: Return",
+        "description": "Teaches the move Return."
+    },
+    { "id": 355, "name": "TM28: Dig", "description": "Teaches the move Dig." },
+    {
+        "id": 356,
+        "name": "TM29: Psychic",
+        "description": "Teaches the move Psychic."
+    },
+    {
+        "id": 357,
+        "name": "TM30: Shadow Ball",
+        "description": "Teaches the move Shadow Ball."
+    },
+    {
+        "id": 358,
+        "name": "TM31: Brick Break",
+        "description": "Teaches the move Brick Break."
+    },
+    {
+        "id": 359,
+        "name": "TM32: Double Team",
+        "description": "Teaches the move Double Team."
+    },
+    {
+        "id": 360,
+        "name": "TM33: Reflect",
+        "description": "Teaches the move Reflect."
+    },
+    {
+        "id": 361,
+        "name": "TM34: Sludge Wave",
+        "description": "Teaches the move Sludge Wave."
+    },
+    {
+        "id": 362,
+        "name": "TM35: Flamethrower",
+        "description": "Teaches the move Flamethrower."
+    },
+    {
+        "id": 363,
+        "name": "TM36: Sludge Bomb",
+        "description": "Teaches the move Sludge Bomb."
+    },
+    {
+        "id": 364,
+        "name": "TM37: Sandstorm",
+        "description": "Teaches the move Sandstorm."
+    },
+    {
+        "id": 365,
+        "name": "TM38: Fire Blast",
+        "description": "Teaches the move Fire Blast."
+    },
+    {
+        "id": 366,
+        "name": "TM39: Rock Tomb",
+        "description": "Teaches the move Rock Tomb."
+    },
+    {
+        "id": 367,
+        "name": "TM40: Aerial Ace",
+        "description": "Teaches the move Aerial Ace."
+    },
+    {
+        "id": 368,
+        "name": "TM41: Torment",
+        "description": "Teaches the move Torment."
+    },
+    {
+        "id": 369,
+        "name": "TM42: Facade",
+        "description": "Teaches the move Facade."
+    },
+    {
+        "id": 370,
+        "name": "TM43: Flame Charge",
+        "description": "Teaches the move Flame Charge."
+    },
+    {
+        "id": 371,
+        "name": "TM44: Rest",
+        "description": "Teaches the move Rest."
+    },
+    {
+        "id": 372,
+        "name": "TM45: Attract",
+        "description": "Teaches the move Attract."
+    },
+    {
+        "id": 373,
+        "name": "TM46: Thief",
+        "description": "Teaches the move Thief."
+    },
+    {
+        "id": 374,
+        "name": "TM47: Low Sweep",
+        "description": "Teaches the move Low Sweep."
+    },
+    {
+        "id": 375,
+        "name": "TM48: Round",
+        "description": "Teaches the move Round."
+    },
+    {
+        "id": 376,
+        "name": "TM49: Echoed Voice",
+        "description": "Teaches the move Echoed Voice."
+    },
+    {
+        "id": 377,
+        "name": "TM50: Overheat",
+        "description": "Teaches the move Overheat."
+    },
+    {
+        "id": 378,
+        "name": "TM51: Ally Switch",
+        "description": "Teaches the move Ally Switch."
+    },
+    {
+        "id": 379,
+        "name": "TM52: Focus Blast",
+        "description": "Teaches the move Focus Blast."
+    },
+    {
+        "id": 380,
+        "name": "TM53: Energy Ball",
+        "description": "Teaches the move Energy Ball."
+    },
+    {
+        "id": 381,
+        "name": "TM54: False Swipe",
+        "description": "Teaches the move False Swipe."
+    },
+    {
+        "id": 382,
+        "name": "TM55: Scald",
+        "description": "Teaches the move Scald."
+    },
+    {
+        "id": 383,
+        "name": "TM56: Fling",
+        "description": "Teaches the move Fling."
+    },
+    {
+        "id": 384,
+        "name": "TM57: Charge Beam",
+        "description": "Teaches the move Charge Beam."
+    },
+    {
+        "id": 385,
+        "name": "TM58: Sky Drop",
+        "description": "Teaches the move Sky Drop."
+    },
+    {
+        "id": 386,
+        "name": "TM59: Incinerate",
+        "description": "Teaches the move Incinerate."
+    },
+    {
+        "id": 387,
+        "name": "TM60: Quash",
+        "description": "Teaches the move Quash."
+    },
+    {
+        "id": 388,
+        "name": "TM61: Will-o-wisp",
+        "description": "Teaches the move Will-o-wisp."
+    },
+    {
+        "id": 389,
+        "name": "TM62: Acrobatics",
+        "description": "Teaches the move Acrobatics."
+    },
+    {
+        "id": 390,
+        "name": "TM63: Embargo",
+        "description": "Teaches the move Embargo."
+    },
+    {
+        "id": 391,
+        "name": "TM64: Explosion",
+        "description": "Teaches the move Explosion."
+    },
+    {
+        "id": 392,
+        "name": "TM65: Shadow Claw",
+        "description": "Teaches the move Shadow Claw."
+    },
+    {
+        "id": 393,
+        "name": "TM66: Payback",
+        "description": "Teaches the move Payback."
+    },
+    {
+        "id": 394,
+        "name": "TM67: Retaliate",
+        "description": "Teaches the move Retaliate."
+    },
+    {
+        "id": 395,
+        "name": "TM68: Giga Impact",
+        "description": "Teaches the move Giga Impact."
+    },
+    {
+        "id": 396,
+        "name": "TM69: Rock Polish",
+        "description": "Teaches the move Rock Polish."
+    },
+    {
+        "id": 397,
+        "name": "TM70: Flash",
+        "description": "Teaches the move Flash."
+    },
+    {
+        "id": 398,
+        "name": "TM71: Stone Edge",
+        "description": "Teaches the move Stone Edge."
+    },
+    {
+        "id": 399,
+        "name": "TM72: Volt Switch",
+        "description": "Teaches the move Volt Switch."
+    },
+    {
+        "id": 400,
+        "name": "TM73: Thunder Wave",
+        "description": "Teaches the move Thunder Wave."
+    },
+    {
+        "id": 401,
+        "name": "TM74: Gyro Ball",
+        "description": "Teaches the move Gyro Ball."
+    },
+    {
+        "id": 402,
+        "name": "TM75: Swords Dance",
+        "description": "Teaches the move Swords Dance."
+    },
+    {
+        "id": 403,
+        "name": "TM76: Struggle Bug",
+        "description": "Teaches the move Struggle Bug."
+    },
+    {
+        "id": 404,
+        "name": "TM77: Psych Up",
+        "description": "Teaches the move Psych Up."
+    },
+    {
+        "id": 405,
+        "name": "TM78: Bulldoze",
+        "description": "Teaches the move Bulldoze."
+    },
+    {
+        "id": 406,
+        "name": "TM79: Frost Breath",
+        "description": "Teaches the move Frost Breath."
+    },
+    {
+        "id": 407,
+        "name": "TM80: Rock Slide",
+        "description": "Teaches the move Rock Slide."
+    },
+    {
+        "id": 408,
+        "name": "TM81: X-scissor",
+        "description": "Teaches the move X-scissor."
+    },
+    {
+        "id": 409,
+        "name": "TM82: Dragon Tail",
+        "description": "Teaches the move Dragon Tail."
+    },
+    {
+        "id": 410,
+        "name": "TM83: Work Up",
+        "description": "Teaches the move Work Up."
+    },
+    {
+        "id": 411,
+        "name": "TM84: Poison Jab",
+        "description": "Teaches the move Poison Jab."
+    },
+    {
+        "id": 412,
+        "name": "TM85: Dream Eater",
+        "description": "Teaches the move Dream Eater."
+    },
+    {
+        "id": 413,
+        "name": "TM86: Grass Knot",
+        "description": "Teaches the move Grass Knot."
+    },
+    {
+        "id": 414,
+        "name": "TM87: Swagger",
+        "description": "Teaches the move Swagger."
+    },
+    {
+        "id": 415,
+        "name": "TM88: Pluck",
+        "description": "Teaches the move Pluck."
+    },
+    {
+        "id": 416,
+        "name": "TM89: U-turn",
+        "description": "Teaches the move U-turn."
+    },
+    {
+        "id": 417,
+        "name": "TM90: Substitute",
+        "description": "Teaches the move Substitute."
+    },
+    {
+        "id": 418,
+        "name": "TM91: Flash Cannon",
+        "description": "Teaches the move Flash Cannon."
+    },
+    {
+        "id": 419,
+        "name": "TM92: Trick Room",
+        "description": "Teaches the move Trick Room."
+    },
+    {
+        "id": 618,
+        "name": "TM93: Wild Charge",
+        "description": "Teaches the move Wild Charge."
+    },
+    {
+        "id": 619,
+        "name": "TM94: Rock Smash",
+        "description": "Teaches the move Rock Smash."
+    },
+    {
+        "id": 620,
+        "name": "TM95: Snarl",
+        "description": "Teaches the move Snarl."
+    },
+    { "id": 420, "name": "HM01: Cut", "description": "Teaches the move Cut." },
+    { "id": 421, "name": "HM02: Fly", "description": "Teaches the move Fly." },
+    {
+        "id": 422,
+        "name": "HM03: Surf",
+        "description": "Teaches the move Surf."
+    },
+    {
+        "id": 423,
+        "name": "HM04: Strength",
+        "description": "Teaches the move Strength."
+    },
+    {
+        "id": 424,
+        "name": "HM05: Waterfall",
+        "description": "Teaches the move Waterfall."
+    },
+    { "id": 425, "name": "HM06: Dive", "description": "Teaches the move Dive." }
 ]

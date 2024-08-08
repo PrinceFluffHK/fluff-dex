@@ -35,7 +35,8 @@ const EvoDisplay = ({ selectedMon, selectedRomhack }) => {
         return (
             <div className="center" key={mon.id}>
                 <Link to={`/${selectedRomhack.id}/pokemon/${baseMon.id}/0`}>
-                    <div className="sprite-view">
+                    <div className="sprite-view-container">
+                        <div className="sprite-view"/>
                         <img
                             className="location-mon-sprite"
                             src={mon.spriteUrl}

@@ -2702,6 +2702,7 @@
     {
         "id": 328,
         "name": "TM01",
+        "tmId": 1,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2711,6 +2712,7 @@
     {
         "id": 329,
         "name": "TM02",
+        "tmId": 2,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2720,6 +2722,7 @@
     {
         "id": 330,
         "name": "TM03",
+        "tmId": 3,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2729,6 +2732,7 @@
     {
         "id": 331,
         "name": "TM04",
+        "tmId": 4,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2738,6 +2742,7 @@
     {
         "id": 332,
         "name": "TM05",
+        "tmId": 5,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2747,6 +2752,7 @@
     {
         "id": 333,
         "name": "TM06",
+        "tmId": 6,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2756,6 +2762,7 @@
     {
         "id": 334,
         "name": "TM07",
+        "tmId": 7,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2765,6 +2772,7 @@
     {
         "id": 335,
         "name": "TM08",
+        "tmId": 8,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2774,6 +2782,7 @@
     {
         "id": 336,
         "name": "TM09",
+        "tmId": 9,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2783,6 +2792,7 @@
     {
         "id": 337,
         "name": "TM10",
+        "tmId": 10,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2792,6 +2802,7 @@
     {
         "id": 338,
         "name": "TM11",
+        "tmId": 11,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2801,6 +2812,7 @@
     {
         "id": 339,
         "name": "TM12",
+        "tmId": 12,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2810,6 +2822,7 @@
     {
         "id": 340,
         "name": "TM13",
+        "tmId": 13,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2819,6 +2832,7 @@
     {
         "id": 341,
         "name": "TM14",
+        "tmId": 14,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2828,6 +2842,7 @@
     {
         "id": 342,
         "name": "TM15",
+        "tmId": 15,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2837,6 +2852,7 @@
     {
         "id": 343,
         "name": "TM16",
+        "tmId": 16,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2846,6 +2862,7 @@
     {
         "id": 344,
         "name": "TM17",
+        "tmId": 17,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2855,6 +2872,7 @@
     {
         "id": 345,
         "name": "TM18",
+        "tmId": 18,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2864,6 +2882,7 @@
     {
         "id": 346,
         "name": "TM19",
+        "tmId": 19,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2873,6 +2892,7 @@
     {
         "id": 347,
         "name": "TM20",
+        "tmId": 20,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2882,6 +2902,7 @@
     {
         "id": 348,
         "name": "TM21",
+        "tmId": 21,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2891,6 +2912,7 @@
     {
         "id": 349,
         "name": "TM22",
+        "tmId": 22,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2900,6 +2922,7 @@
     {
         "id": 350,
         "name": "TM23",
+        "tmId": 23,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2909,6 +2932,7 @@
     {
         "id": 351,
         "name": "TM24",
+        "tmId": 24,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2918,6 +2942,7 @@
     {
         "id": 352,
         "name": "TM25",
+        "tmId": 25,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2927,6 +2952,7 @@
     {
         "id": 353,
         "name": "TM26",
+        "tmId": 26,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2936,6 +2962,7 @@
     {
         "id": 354,
         "name": "TM27",
+        "tmId": 27,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2945,6 +2972,7 @@
     {
         "id": 355,
         "name": "TM28",
+        "tmId": 28,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2954,6 +2982,7 @@
     {
         "id": 356,
         "name": "TM29",
+        "tmId": 29,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2963,6 +2992,7 @@
     {
         "id": 357,
         "name": "TM30",
+        "tmId": 30,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2972,6 +3002,7 @@
     {
         "id": 358,
         "name": "TM31",
+        "tmId": 31,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2981,6 +3012,7 @@
     {
         "id": 359,
         "name": "TM32",
+        "tmId": 32,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2990,6 +3022,7 @@
     {
         "id": 360,
         "name": "TM33",
+        "tmId": 33,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -2999,6 +3032,7 @@
     {
         "id": 361,
         "name": "TM34",
+        "tmId": 34,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3008,6 +3042,7 @@
     {
         "id": 362,
         "name": "TM35",
+        "tmId": 35,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3017,6 +3052,7 @@
     {
         "id": 363,
         "name": "TM36",
+        "tmId": 36,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3026,6 +3062,7 @@
     {
         "id": 364,
         "name": "TM37",
+        "tmId": 37,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3035,6 +3072,7 @@
     {
         "id": 365,
         "name": "TM38",
+        "tmId": 38,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3044,6 +3082,7 @@
     {
         "id": 366,
         "name": "TM39",
+        "tmId": 39,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3053,6 +3092,7 @@
     {
         "id": 367,
         "name": "TM40",
+        "tmId": 40,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3062,6 +3102,7 @@
     {
         "id": 368,
         "name": "TM41",
+        "tmId": 41,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3071,6 +3112,7 @@
     {
         "id": 369,
         "name": "TM42",
+        "tmId": 42,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3080,6 +3122,7 @@
     {
         "id": 370,
         "name": "TM43",
+        "tmId": 43,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3089,6 +3132,7 @@
     {
         "id": 371,
         "name": "TM44",
+        "tmId": 44,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3098,6 +3142,7 @@
     {
         "id": 372,
         "name": "TM45",
+        "tmId": 45,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3107,6 +3152,7 @@
     {
         "id": 373,
         "name": "TM46",
+        "tmId": 46,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3116,6 +3162,7 @@
     {
         "id": 374,
         "name": "TM47",
+        "tmId": 47,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3125,6 +3172,7 @@
     {
         "id": 375,
         "name": "TM48",
+        "tmId": 48,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3134,6 +3182,7 @@
     {
         "id": 376,
         "name": "TM49",
+        "tmId": 49,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3143,6 +3192,7 @@
     {
         "id": 377,
         "name": "TM50",
+        "tmId": 50,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3152,6 +3202,7 @@
     {
         "id": 378,
         "name": "TM51",
+        "tmId": 51,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3161,6 +3212,7 @@
     {
         "id": 379,
         "name": "TM52",
+        "tmId": 52,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3170,6 +3222,7 @@
     {
         "id": 380,
         "name": "TM53",
+        "tmId": 53,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3179,6 +3232,7 @@
     {
         "id": 381,
         "name": "TM54",
+        "tmId": 54,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3188,6 +3242,7 @@
     {
         "id": 382,
         "name": "TM55",
+        "tmId": 55,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3197,6 +3252,7 @@
     {
         "id": 383,
         "name": "TM56",
+        "tmId": 56,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3206,6 +3262,7 @@
     {
         "id": 384,
         "name": "TM57",
+        "tmId": 57,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3215,6 +3272,7 @@
     {
         "id": 385,
         "name": "TM58",
+        "tmId": 58,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3224,6 +3282,7 @@
     {
         "id": 386,
         "name": "TM59",
+        "tmId": 59,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3233,6 +3292,7 @@
     {
         "id": 387,
         "name": "TM60",
+        "tmId": 60,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3242,6 +3302,7 @@
     {
         "id": 388,
         "name": "TM61",
+        "tmId": 61,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3251,6 +3312,7 @@
     {
         "id": 389,
         "name": "TM62",
+        "tmId": 62,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3260,6 +3322,7 @@
     {
         "id": 390,
         "name": "TM63",
+        "tmId": 63,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3269,6 +3332,7 @@
     {
         "id": 391,
         "name": "TM64",
+        "tmId": 64,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3278,6 +3342,7 @@
     {
         "id": 392,
         "name": "TM65",
+        "tmId": 65,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3287,6 +3352,7 @@
     {
         "id": 393,
         "name": "TM66",
+        "tmId": 66,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3296,6 +3362,7 @@
     {
         "id": 394,
         "name": "TM67",
+        "tmId": 67,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3305,6 +3372,7 @@
     {
         "id": 395,
         "name": "TM68",
+        "tmId": 68,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3314,6 +3382,7 @@
     {
         "id": 396,
         "name": "TM69",
+        "tmId": 69,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3323,6 +3392,7 @@
     {
         "id": 397,
         "name": "TM70",
+        "tmId": 70,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3332,6 +3402,7 @@
     {
         "id": 398,
         "name": "TM71",
+        "tmId": 71,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3341,6 +3412,7 @@
     {
         "id": 399,
         "name": "TM72",
+        "tmId": 72,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3350,6 +3422,7 @@
     {
         "id": 400,
         "name": "TM73",
+        "tmId": 73,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3359,6 +3432,7 @@
     {
         "id": 401,
         "name": "TM74",
+        "tmId": 74,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3368,6 +3442,7 @@
     {
         "id": 402,
         "name": "TM75",
+        "tmId": 75,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3377,6 +3452,7 @@
     {
         "id": 403,
         "name": "TM76",
+        "tmId": 76,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3386,6 +3462,7 @@
     {
         "id": 404,
         "name": "TM77",
+        "tmId": 77,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3395,6 +3472,7 @@
     {
         "id": 405,
         "name": "TM78",
+        "tmId": 78,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3404,6 +3482,7 @@
     {
         "id": 406,
         "name": "TM79",
+        "tmId": 79,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3413,6 +3492,7 @@
     {
         "id": 407,
         "name": "TM80",
+        "tmId": 80,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3422,6 +3502,7 @@
     {
         "id": 408,
         "name": "TM81",
+        "tmId": 81,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3431,6 +3512,7 @@
     {
         "id": 409,
         "name": "TM82",
+        "tmId": 82,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3440,6 +3522,7 @@
     {
         "id": 410,
         "name": "TM83",
+        "tmId": 83,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3449,6 +3532,7 @@
     {
         "id": 411,
         "name": "TM84",
+        "tmId": 84,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3458,6 +3542,7 @@
     {
         "id": 412,
         "name": "TM85",
+        "tmId": 85,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3467,6 +3552,7 @@
     {
         "id": 413,
         "name": "TM86",
+        "tmId": 86,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3476,6 +3562,7 @@
     {
         "id": 414,
         "name": "TM87",
+        "tmId": 87,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3485,6 +3572,7 @@
     {
         "id": 415,
         "name": "TM88",
+        "tmId": 88,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3494,6 +3582,7 @@
     {
         "id": 416,
         "name": "TM89",
+        "tmId": 89,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3503,6 +3592,7 @@
     {
         "id": 417,
         "name": "TM90",
+        "tmId": 90,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3512,6 +3602,7 @@
     {
         "id": 418,
         "name": "TM91",
+        "tmId": 91,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3521,6 +3612,7 @@
     {
         "id": 419,
         "name": "TM92",
+        "tmId": 92,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3530,6 +3622,7 @@
     {
         "id": 420,
         "name": "HM01",
+        "tmId": 101,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3539,6 +3632,7 @@
     {
         "id": 421,
         "name": "HM02",
+        "tmId": 102,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3548,6 +3642,7 @@
     {
         "id": 422,
         "name": "HM03",
+        "tmId": 103,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3557,6 +3652,7 @@
     {
         "id": 423,
         "name": "HM04",
+        "tmId": 104,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3566,6 +3662,7 @@
     {
         "id": 424,
         "name": "HM05",
+        "tmId": 105,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -3575,6 +3672,7 @@
     {
         "id": 425,
         "name": "HM06",
+        "tmId": 106,
         "gen": 1,
         "priceP": 0,
         "priceBP": 0,
@@ -5150,6 +5248,7 @@
     {
         "id": 618,
         "name": "TM93",
+        "tmId": 93,
         "gen": 5,
         "priceP": 0,
         "priceBP": 0,
@@ -5159,6 +5258,7 @@
     {
         "id": 619,
         "name": "TM94",
+        "tmId": 94,
         "gen": 5,
         "priceP": 0,
         "priceBP": 0,
@@ -5168,6 +5268,7 @@
     {
         "id": 620,
         "name": "TM95",
+        "tmId": 95,
         "gen": 5,
         "priceP": 0,
         "priceBP": 0,
@@ -5753,6 +5854,7 @@
     {
         "id": 690,
         "name": "TM96",
+        "tmId": 96,
         "gen": 6,
         "priceP": 0,
         "priceBP": 0,
@@ -5762,6 +5864,7 @@
     {
         "id": 691,
         "name": "TM97",
+        "tmId": 97,
         "gen": 6,
         "priceP": 0,
         "priceBP": 0,
@@ -5771,6 +5874,7 @@
     {
         "id": 692,
         "name": "TM98",
+        "tmId": 98,
         "gen": 6,
         "priceP": 0,
         "priceBP": 0,
@@ -5780,6 +5884,7 @@
     {
         "id": 693,
         "name": "TM99",
+        "tmId": 99,
         "gen": 6,
         "priceP": 0,
         "priceBP": 0,
@@ -5789,6 +5894,7 @@
     {
         "id": 694,
         "name": "TM100",
+        "tmId": 100,
         "gen": 6,
         "priceP": 0,
         "priceBP": 0,
@@ -6086,6 +6192,7 @@
     {
         "id": 737,
         "name": "HM07",
+        "tmId": 107,
         "gen": 3,
         "priceP": 0,
         "priceBP": 0,
@@ -8102,6 +8209,7 @@
     {
         "id": 1130,
         "name": "TR00",
+        "tmId": 1000,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8111,6 +8219,7 @@
     {
         "id": 1131,
         "name": "TR01",
+        "tmId": 1001,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8120,6 +8229,7 @@
     {
         "id": 1132,
         "name": "TR02",
+        "tmId": 1002,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8129,6 +8239,7 @@
     {
         "id": 1133,
         "name": "TR03",
+        "tmId": 1003,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8138,6 +8249,7 @@
     {
         "id": 1134,
         "name": "TR04",
+        "tmId10": 1004,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8147,6 +8259,7 @@
     {
         "id": 1135,
         "name": "TR05",
+        "tmId": 1005,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8156,6 +8269,7 @@
     {
         "id": 1136,
         "name": "TR06",
+        "tmId": 1006,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8165,6 +8279,7 @@
     {
         "id": 1137,
         "name": "TR07",
+        "tmId": 1007,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8174,6 +8289,7 @@
     {
         "id": 1138,
         "name": "TR08",
+        "tmId": 1008,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8183,6 +8299,7 @@
     {
         "id": 1139,
         "name": "TR09",
+        "tmId": 1009,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8192,6 +8309,7 @@
     {
         "id": 1140,
         "name": "TR10",
+        "tmId": 1010,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8201,6 +8319,7 @@
     {
         "id": 1141,
         "name": "TR11",
+        "tmId": 1011,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8210,6 +8329,7 @@
     {
         "id": 1142,
         "name": "TR12",
+        "tmId": 1012,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8219,6 +8339,7 @@
     {
         "id": 1143,
         "name": "TR13",
+        "tmId": 1013,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8228,6 +8349,7 @@
     {
         "id": 1144,
         "name": "TR14",
+        "tmId": 1014,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8237,6 +8359,7 @@
     {
         "id": 1145,
         "name": "TR15",
+        "tmId": 1015,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8246,6 +8369,7 @@
     {
         "id": 1146,
         "name": "TR16",
+        "tmId": 1016,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8255,6 +8379,7 @@
     {
         "id": 1147,
         "name": "TR17",
+        "tmId": 1017,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8264,6 +8389,7 @@
     {
         "id": 1148,
         "name": "TR18",
+        "tmId": 1018,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8273,6 +8399,7 @@
     {
         "id": 1149,
         "name": "TR19",
+        "tmId": 1019,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8282,6 +8409,7 @@
     {
         "id": 1150,
         "name": "TR20",
+        "tmId": 1020,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8291,6 +8419,7 @@
     {
         "id": 1151,
         "name": "TR21",
+        "tmId": 1021,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8300,6 +8429,7 @@
     {
         "id": 1152,
         "name": "TR22",
+        "tmId": 1022,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8309,6 +8439,7 @@
     {
         "id": 1153,
         "name": "TR23",
+        "tmId": 1023,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8318,6 +8449,7 @@
     {
         "id": 1154,
         "name": "TR24",
+        "tmId": 1024,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8327,6 +8459,7 @@
     {
         "id": 1155,
         "name": "TR25",
+        "tmId": 1025,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8336,6 +8469,7 @@
     {
         "id": 1156,
         "name": "TR26",
+        "tmId": 1026,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8345,6 +8479,7 @@
     {
         "id": 1157,
         "name": "TR27",
+        "tmId": 1027,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8354,6 +8489,7 @@
     {
         "id": 1158,
         "name": "TR28",
+        "tmId": 1028,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8363,6 +8499,7 @@
     {
         "id": 1159,
         "name": "TR29",
+        "tmId": 1029,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8372,6 +8509,7 @@
     {
         "id": 1160,
         "name": "TR30",
+        "tmId": 1030,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8381,6 +8519,7 @@
     {
         "id": 1161,
         "name": "TR31",
+        "tmId": 1031,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8390,6 +8529,7 @@
     {
         "id": 1162,
         "name": "TR32",
+        "tmId": 1032,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8399,6 +8539,7 @@
     {
         "id": 1163,
         "name": "TR33",
+        "tmId": 1033,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8408,6 +8549,7 @@
     {
         "id": 1164,
         "name": "TR34",
+        "tmId": 1034,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8417,6 +8559,7 @@
     {
         "id": 1165,
         "name": "TR35",
+        "tmId": 1035,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8426,6 +8569,7 @@
     {
         "id": 1166,
         "name": "TR36",
+        "tmId": 1036,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8435,6 +8579,7 @@
     {
         "id": 1167,
         "name": "TR37",
+        "tmId": 1037,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8444,6 +8589,7 @@
     {
         "id": 1168,
         "name": "TR38",
+        "tmId": 1038,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8453,6 +8599,7 @@
     {
         "id": 1169,
         "name": "TR39",
+        "tmId": 1039,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8462,6 +8609,7 @@
     {
         "id": 1170,
         "name": "TR40",
+        "tmId": 1040,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8471,6 +8619,7 @@
     {
         "id": 1171,
         "name": "TR41",
+        "tmId": 1041,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8480,6 +8629,7 @@
     {
         "id": 1172,
         "name": "TR42",
+        "tmId": 1042,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8489,6 +8639,7 @@
     {
         "id": 1173,
         "name": "TR43",
+        "tmId": 1043,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8498,6 +8649,7 @@
     {
         "id": 1174,
         "name": "TR44",
+        "tmId": 1044,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8507,6 +8659,7 @@
     {
         "id": 1175,
         "name": "TR45",
+        "tmId": 1045,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8516,6 +8669,7 @@
     {
         "id": 1176,
         "name": "TR46",
+        "tmId": 1046,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8525,6 +8679,7 @@
     {
         "id": 1177,
         "name": "TR47",
+        "tmId": 1047,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8534,6 +8689,7 @@
     {
         "id": 1178,
         "name": "TR48",
+        "tmId": 1048,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8543,6 +8699,7 @@
     {
         "id": 1179,
         "name": "TR49",
+        "tmId": 1049,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8552,6 +8709,7 @@
     {
         "id": 1180,
         "name": "TR50",
+        "tmId": 1050,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8561,6 +8719,7 @@
     {
         "id": 1181,
         "name": "TR51",
+        "tmId": 1051,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8570,6 +8729,7 @@
     {
         "id": 1182,
         "name": "TR52",
+        "tmId": 1052,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8579,6 +8739,7 @@
     {
         "id": 1183,
         "name": "TR53",
+        "tmId": 1053,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8588,6 +8749,7 @@
     {
         "id": 1184,
         "name": "TR54",
+        "tmId": 1054,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8597,6 +8759,7 @@
     {
         "id": 1185,
         "name": "TR55",
+        "tmId": 1055,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8606,6 +8769,7 @@
     {
         "id": 1186,
         "name": "TR56",
+        "tmId": 1056,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8615,6 +8779,7 @@
     {
         "id": 1187,
         "name": "TR57",
+        "tmId": 1057,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8624,6 +8789,7 @@
     {
         "id": 1188,
         "name": "TR58",
+        "tmId": 1058,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8633,6 +8799,7 @@
     {
         "id": 1189,
         "name": "TR59",
+        "tmId": 1059,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8642,6 +8809,7 @@
     {
         "id": 1190,
         "name": "TR60",
+        "tmId": 1060,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8651,6 +8819,7 @@
     {
         "id": 1191,
         "name": "TR61",
+        "tmId": 1061,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8660,6 +8829,7 @@
     {
         "id": 1192,
         "name": "TR62",
+        "tmId": 1062,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8669,6 +8839,7 @@
     {
         "id": 1193,
         "name": "TR63",
+        "tmId": 1063,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8678,6 +8849,7 @@
     {
         "id": 1194,
         "name": "TR64",
+        "tmId": 1064,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8687,6 +8859,7 @@
     {
         "id": 1195,
         "name": "TR65",
+        "tmId": 1065,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8696,6 +8869,7 @@
     {
         "id": 1196,
         "name": "TR66",
+        "tmId": 1066,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8705,6 +8879,7 @@
     {
         "id": 1197,
         "name": "TR67",
+        "tmId": 1067,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8714,6 +8889,7 @@
     {
         "id": 1198,
         "name": "TR68",
+        "tmId": 1068,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8723,6 +8899,7 @@
     {
         "id": 1199,
         "name": "TR69",
+        "tmId": 1069,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8732,6 +8909,7 @@
     {
         "id": 1200,
         "name": "TR70",
+        "tmId": 1070,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8741,6 +8919,7 @@
     {
         "id": 1201,
         "name": "TR71",
+        "tmId": 1071,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8750,6 +8929,7 @@
     {
         "id": 1202,
         "name": "TR72",
+        "tmId": 1072,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8759,6 +8939,7 @@
     {
         "id": 1203,
         "name": "TR73",
+        "tmId": 1073,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8768,6 +8949,7 @@
     {
         "id": 1204,
         "name": "TR74",
+        "tmId": 1074,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8777,6 +8959,7 @@
     {
         "id": 1205,
         "name": "TR75",
+        "tmId": 1075,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8786,6 +8969,7 @@
     {
         "id": 1206,
         "name": "TR76",
+        "tmId": 1076,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8795,6 +8979,7 @@
     {
         "id": 1207,
         "name": "TR77",
+        "tmId": 1077,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8804,6 +8989,7 @@
     {
         "id": 1208,
         "name": "TR78",
+        "tmId": 1078,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8813,6 +8999,7 @@
     {
         "id": 1209,
         "name": "TR79",
+        "tmId": 1079,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8822,6 +9009,7 @@
     {
         "id": 1210,
         "name": "TR80",
+        "tmId": 1080,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8831,6 +9019,7 @@
     {
         "id": 1211,
         "name": "TR81",
+        "tmId": 1081,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8840,6 +9029,7 @@
     {
         "id": 1212,
         "name": "TR82",
+        "tmId": 1082,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8849,6 +9039,7 @@
     {
         "id": 1213,
         "name": "TR83",
+        "tmId": 1083,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8858,6 +9049,7 @@
     {
         "id": 1214,
         "name": "TR84",
+        "tmId": 1084,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8867,6 +9059,7 @@
     {
         "id": 1215,
         "name": "TR85",
+        "tmId": 1085,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8876,6 +9069,7 @@
     {
         "id": 1216,
         "name": "TR86",
+        "tmId": 1086,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8885,6 +9079,7 @@
     {
         "id": 1217,
         "name": "TR87",
+        "tmId": 1087,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8894,6 +9089,7 @@
     {
         "id": 1218,
         "name": "TR88",
+        "tmId": 1088,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8903,6 +9099,7 @@
     {
         "id": 1219,
         "name": "TR89",
+        "tmId": 1089,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8912,6 +9109,7 @@
     {
         "id": 1220,
         "name": "TR90",
+        "tmId": 1090,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8921,6 +9119,7 @@
     {
         "id": 1221,
         "name": "TR91",
+        "tmId": 1091,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8930,6 +9129,7 @@
     {
         "id": 1222,
         "name": "TR92",
+        "tmId": 1092,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8939,6 +9139,7 @@
     {
         "id": 1223,
         "name": "TR93",
+        "tmId": 1093,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8948,6 +9149,7 @@
     {
         "id": 1224,
         "name": "TR94",
+        "tmId": 1094,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8957,6 +9159,7 @@
     {
         "id": 1225,
         "name": "TR95",
+        "tmId": 1095,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8966,6 +9169,7 @@
     {
         "id": 1226,
         "name": "TR96",
+        "tmId": 1096,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8975,6 +9179,7 @@
     {
         "id": 1227,
         "name": "TR97",
+        "tmId": 1097,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8984,6 +9189,7 @@
     {
         "id": 1228,
         "name": "TR98",
+        "tmId": 1098,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -8993,6 +9199,7 @@
     {
         "id": 1229,
         "name": "TR99",
+        "tmId": 1099,
         "gen": 8,
         "priceP": 100,
         "priceBP": 0,
@@ -9002,6 +9209,7 @@
     {
         "id": 1230,
         "name": "TM00",
+        "tmId": 0,
         "gen": 8,
         "priceP": 0,
         "priceBP": 0,

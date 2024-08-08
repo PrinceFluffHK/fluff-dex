@@ -1,3 +1,4 @@
+import React from "react";
 import Help from "./Help";
 import LevelLearnMove from "./LevelLearnMove";
 import TmMove from "./TmMove";
