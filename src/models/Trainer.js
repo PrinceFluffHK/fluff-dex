@@ -119,7 +119,7 @@ class Trainer {
                             <img
                                 src={mon.spriteUrl}
                                 className="location-mon-sprite"
-                                alt={`Sprite of ${mon.name} that links to its info page.`}
+                                alt={`Sprite of ${mon.name}`}
                             />
                             <div className="level-box center">
                                 {trainerMon.level}

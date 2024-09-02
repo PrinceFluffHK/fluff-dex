@@ -9,7 +9,7 @@ import { romhackList } from "../Homepage";
 import DexEntry from "../../models/DexEntry";
 
 const FullTeamDisplay = ({ thisTrainer, id }) => {
-    const selectedRomhack = Help.findInArray(id, romhackList)
+    const selectedRomhack = Help.findInArray(id, romhackList);
 
     const teamDisplay = thisTrainer.team.map((mon, index) => {
         const color1 = mon.pokemon.type1.lightColor();
@@ -23,6 +23,17 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
         }
 
         const moveList = mon.moves.map((move, index) => {
+            if (move.id === 0) {
+                return (
+                    <div
+                        className="team-move"
+                        key={index}
+                        style={{ backgroundColor: move.type.lightColor() }}
+                    >
+                        <div style={{ color: "gray" }}>{move.name}</div>
+                    </div>
+                );
+            }
             return (
                 <Link
                     className="team-move "
@@ -94,7 +105,10 @@ const FullTeamDisplay = ({ thisTrainer, id }) => {
             return <b style={{ marginBottom: "2px" }}>{evText}</b>;
         };
 
-        const baseMon = DexEntry.findFromForm(mon.pokemon.id, selectedRomhack.nationalDex.dexArray)
+        const baseMon = DexEntry.findFromForm(
+            mon.pokemon.id,
+            selectedRomhack.nationalDex.dexArray
+        );
 
         return (
             <Grid className="" item xs={6} sm={4} key={index}>
