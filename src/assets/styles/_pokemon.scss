@@ -158,3 +158,29 @@
     height: 4rem;
     width: auto;
 }
+
+.sprite-view {
+    position: absolute;
+    border-radius: 30%;
+    background-color: black;
+    // margin: 5px 0 5px 0;
+    $sprite-dimension: 5rem;
+    height: $sprite-dimension;
+    width: $sprite-dimension;
+    z-index: 1;
+    opacity: 10%;
+}
+
+.sprite-view-container {
+    position: relative;
+    // border-radius: 30%;
+    // background-color: #eeeeee;
+    margin: 5px;
+    $sprite-dimension: 5rem;
+    height: $sprite-dimension;
+    width: $sprite-dimension;
+    // fill-opacity: 50%;
+    // opacity: 50%;    
+    // border: 1px solid black;
+    // opacity: 50%;
+}

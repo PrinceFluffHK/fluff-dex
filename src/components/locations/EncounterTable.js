@@ -29,14 +29,15 @@ const EncounterTable = ({ encTable, index }) => {
             <Grid container key={index} className="list-divider">
                 <Grid item xs={3.5} className="">
                     <Link to={`/${id}/pokemon/${baseForm.id}/0`} className="">
-                    <div className="sprite-view">
+                        <div className="sprite-view-container">
+                            <div className="sprite-view" />
 
-                        <img
-                            src={mon.pokemon.spriteUrl}
-                            className="location-mon-sprite"
-                            alt={`Sprite of ${mon.pokemon.name}`}
-                        />
-                    </div>
+                            <img
+                                src={mon.pokemon.spriteUrl}
+                                className="location-mon-sprite"
+                                alt={`Sprite of ${mon.pokemon.name}`}
+                            />
+                        </div>
                     </Link>
                 </Grid>
                 <Grid item xs className="align-center">

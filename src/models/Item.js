@@ -1,5 +1,5 @@
 class Item {
-    constructor(id, name, gen, type, description, priceP, priceBP) {
+    constructor(id, name, gen, type, description, priceP, priceBP, tmId) {
         this.id = id;
         this.name = name;
         this.gen = gen
@@ -7,6 +7,7 @@ class Item {
         this.description = description;
         this.priceP = priceP;
         this.priceBP = priceBP;
+        this.tmId = tmId
     }
 
     static makeSingle(itemObj) {
@@ -17,7 +18,8 @@ class Item {
             itemObj.type,
             itemObj.description,
             itemObj.priceP,
-            itemObj.priceBp
+            itemObj.priceBp,
+            itemObj.tmId
         );
     }
 
